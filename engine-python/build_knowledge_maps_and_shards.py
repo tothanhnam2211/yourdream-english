@@ -131,17 +131,21 @@ def detect_skill_and_trap(stem: str, opts: list):
     low = (stem + " " + " ".join(opts)).lower()
     if "sign" in low or "biển báo" in low or "notice" in low:
         return "SIGNS", "TRAP_SIGN_DISTRACTOR", ["must", "must not", "cannot", "only"]
-    if "pronounced" in low or "underlined" in low or "stress" in low or "<u>" in " ".join(opts):
+    if "pronounced" in low or "underlined" in low or "stress" in low or "sound" in low or "<u>" in " ".join(opts):
         if "ed</u>" in low or "-ed" in low:
-            return "PHONETICS", "TRAP_PRON_ED", ["-ed", "/t/", "/d/", "/ɪd/"]
-        return "PHONETICS", "TRAP_PRON_SES", ["-s", "-es", "stress"]
+            return "PRONUNCIATION", "TRAP_PRON_ED", ["-ed", "/t/", "/d/", "/ɪd/"]
+        if "s</u>" in low or "es</u>" in low or "-s/-es" in low:
+            return "PRONUNCIATION", "TRAP_PRON_SES", ["-s", "-es", "/s/", "/z/", "/ɪz/"]
+        if "stress" in low:
+            return "PRONUNCIATION", "TRAP_STRESS_PATTERN", ["stress", "syllable"]
+        return "PRONUNCIATION", "TRAP_PRON_SOUND", ["sound", "underlined"]
     if "have" in low or "get" in low or "got" in low or "had" in low:
         if any(w in low for w in ["repaired", "cut", "cleaned", "painted", "fixed", "checked", "tested", "delivered"]):
             return "GRAMMAR", "TRAP_CAUSATIVE_PASSIVE", ["have", "get", "by"]
     if any(w in low for w in ["every day", "usually", "always", "often", "now", "at the moment", "look!", "listen!", "yesterday", "last ", "ago", "since"]):
         return "GRAMMAR", "TRAP_TENSE_SIGNAL", ["every day", "usually", "now", "at the moment", "look!", "listen!", "yesterday", "last"]
-    if "error" in low or "lỗi" in low or "<u>" in stem:
-        return "ERROR_FIX", "TRAP_SV_AGREE", ["every day", "always", "there is", "there are"]
+    if "error" in low or "mistake" in low or "lỗi" in low or "<u>" in stem:
+        return "ERROR_CORRECTION", "TRAP_SV_AGREE", ["every day", "always", "there is", "there are"]
     if any(w in low for w in ["unfriendly", "careful", "careless", "helpful", "helpless", "pollution", "tradition", "diffic"]):
         return "WORD_FORM", "TRAP_WORD_FORM_NEG", ["un-", "im-", "-ful", "-less", "-tion"]
     return "GRAMMAR", "TRAP_SV_AGREE", ["usually", "every", "now"]

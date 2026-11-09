@@ -125,17 +125,20 @@ def patch_control_html():
 
     pub_control_dir = PUBLIC_DIR / "control"
     pub_control_dir.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(CONTROL_HTML, pub_control_dir / "index.html")
+    shutil.copyfile(CONTROL_HTML, pub_control_dir / "index.html")
     print("[OK] Synced control/index.html to public/control/index.html")
 
 
 def build_master_thuy_studio_bundle():
-    if TARGET_STUDIO_DIR.exists():
+    if TARGET_STUDIO_DIR.is_symlink() or TARGET_STUDIO_DIR.is_file():
+        TARGET_STUDIO_DIR.unlink()
+    elif TARGET_STUDIO_DIR.exists():
         shutil.rmtree(TARGET_STUDIO_DIR)
     shutil.copytree(
         PUBLIC_DIR,
         TARGET_STUDIO_DIR,
         ignore=shutil.ignore_patterns("control"),
+        copy_function=shutil.copyfile,
     )
     all_files = [p for p in TARGET_STUDIO_DIR.rglob("*") if p.is_file()]
     total_bytes = sum(p.stat().st_size for p in all_files)

@@ -9,7 +9,7 @@
       "question_id": "Q_WS_G07_FINAL_ZALO_60_001",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "PHONETICS",
+      "skill_domain": "PRONUNCIATION",
       "difficulty_level": 1,
       "trap_code": "TRAP_PRON_ED",
       "stem_text": "<b>Choose the word whose final -ed or -s ending is pronounced differently.</b>",
@@ -20,10 +20,10 @@
         "play<u>ed</u>",
         "look<u>ed</u>"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "answer_mode": "MCQ",
       "written_answers": [
-        "watch<u>ed</u>"
+        "played"
       ],
       "signal_keywords": [
         "-ed",
@@ -31,18 +31,19 @@
         "/d/",
         "/ɪd/"
       ],
-      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (watch<u>ed</u>). Lưu ý bẫy TRAP_PRON_ED.",
+      "explanation_vi": "Đáp án C: watched (/t/), helped (/t/), looked (/t/) vs played (/d/).",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_A",
       "crypto_salt": "bffe7e8ca0db2286",
-      "answer_hash": "9cb80b59238ed8b0e1b9ef00c08e7c505bc1ecc91138ac370ba97bb71c699c52",
+      "answer_hash": "ea9aa8adc235390c6ed144ca37b9ebe15f4e0aadba96fa2f28f0a1c9a28fc033",
       "solution_iv": "fa939cd908c1754d313f0a03",
-      "solution_cipher": "df08bf42e6ae3c1564a635d93e8c03a7025bd52432a8d23734461b07621b61fb3e820e2225c5d37851d7f7375c1de11d65fa9eba1856df868c6f34d85e8fd6f9dfdd39771944b5c17719a4cc3a5aa2e51a82c166ca127e33e82a30013e6078c64b09cf0f3adcae76b98efb048c15f5a54ca2118ac62306f16f9fef7cd7b33d7f116a94abf2c8bc8a141523b3586be8110a2056f9e65215260568fafb8fef258066f11f25ad1c510bdff524700936603d5ef63d8a117c50cd39e91c9f1cde0a43b8e5b4873d15"
+      "solution_cipher": "df08bf42e6ae3c1564a635d93e8c03a70259d52432a8d23734461b07621b61fb3e820e2225c7d37851d7f7375c1de11d65fa9eba1856df868c6f34d85e8fd6f9dfdd39773916e057acc4a9843cdf396a54d6ad8c5212423e47e02c45728bf7922500cb5837c7a275e09fe549c75df5f952fd4c8afa89d7fd2a3872749a36a8fd4668ecdbc4ea8aae323f03b37c41b544437052a9b57d43330756e2f098ba1d8fdc77209817dfabe209553679b7a6b9f8"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_002",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "PHONETICS",
+      "skill_domain": "PRONUNCIATION",
       "difficulty_level": 1,
       "trap_code": "TRAP_PRON_ED",
       "stem_text": "<b>Choose the word whose final -ed or -s ending is pronounced differently.</b>",
@@ -53,10 +54,10 @@
         "paint<u>ed</u>",
         "clean<u>ed</u>"
       ],
-      "correct_index": 0,
+      "correct_index": 3,
       "answer_mode": "MCQ",
       "written_answers": [
-        "need<u>ed</u>"
+        "cleaned"
       ],
       "signal_keywords": [
         "-ed",
@@ -64,18 +65,19 @@
         "/d/",
         "/ɪd/"
       ],
-      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (need<u>ed</u>). Lưu ý bẫy TRAP_PRON_ED.",
+      "explanation_vi": "Đáp án D: needed (/ɪd/), wanted (/ɪd/), painted (/ɪd/) vs cleaned (/d/).",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_A",
       "crypto_salt": "5bda38a4d31a01d8",
-      "answer_hash": "4abe90421edecf01efa17edc0f0ebc3fb116fc8a5edf1886cc6ed6eeb68b1655",
+      "answer_hash": "94c61a93d83592bf4cb606e1c0e4dd2e7fb5a20b0c618aadfc064502d99072ef",
       "solution_iv": "c42c47c4b139fde2a9b0ec66",
-      "solution_cipher": "7153d94e627f48345c15517b55e36f3dd5f0dfcfdf52fd67f886cd6e2a40b99084900690b0fc80f79b995018ac1ebbed9d941ef84597245fcf313af08b0578d0b117a7af08e65189abdc8b01d4b70474977819263d0977e9bdd2a3940b44fdf28d6ff9d9c56ac7d714e5c23ce84f96fbeec480076aa2fa460a9ef516699003f78a41eb0c1c0f7385ed89f68ac8c4a7d3d70931d5798ad0d24da6fe0ac31c99f55605a606542bbf6525b112a8022563b4a69a4665aa5b303624c17a51d39574f66adc4360"
+      "solution_cipher": "7153d94e627f48345c15517b55e36f3dd5f3dfcfdf52fd67f886cd6e2a40b99084900690b0f980f79b995018ac1ebbed9d941ef84597245fcf313af08b0578d0b117a7af2fb4040674108144d37697fc3ff23ecaa00503f61f06aed103a775fd05e5b5988923839b00b2c92cb104c3ede8230a2f833baf10ba03b618ed4bc6ebce359162287f0af980eb8bb8fe83f18b90101cdd638dc2d960b4b243ef5b88ea115e93415e6c877c0a5c5c3687fe9b213e486f5923121ed4"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_003",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "PHONETICS",
+      "skill_domain": "PRONUNCIATION",
       "difficulty_level": 1,
       "trap_code": "TRAP_PRON_ED",
       "stem_text": "<b>Choose the word whose final -ed or -s ending is pronounced differently.</b>",
@@ -86,10 +88,10 @@
         "map<u>s</u>",
         "pen<u>s</u>"
       ],
-      "correct_index": 0,
+      "correct_index": 3,
       "answer_mode": "MCQ",
       "written_answers": [
-        "book<u>s</u>"
+        "pens"
       ],
       "signal_keywords": [
         "-ed",
@@ -97,18 +99,19 @@
         "/d/",
         "/ɪd/"
       ],
-      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (book<u>s</u>). Lưu ý bẫy TRAP_PRON_ED.",
+      "explanation_vi": "Đáp án D: books (/s/), cats (/s/), maps (/s/) vs pens (/z/).",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_A",
       "crypto_salt": "3160e05c9d2c98f1",
-      "answer_hash": "45da0cc7f36b20964b299913e43b455f884e0825d905a74319b85a248982f8b2",
+      "answer_hash": "d7abf37530554b89a462ecc4847bf2abc5a782c94ad4db92882e1765b1a1f1cd",
       "solution_iv": "1e6c7f5c906869eb7fe94d3f",
-      "solution_cipher": "ad10aa2d19089da0c1d93d40d88e0c2a787890c3a1249d6b80c072945bfacbf2538f75c400d8f65bf4243a4d4a51ca94239f502d19885cb2492896e6b87bbcd36384929f15a4404335a24212d38285c8d81564987326587eda2d0c3c89b906791304de8d56fc98448810692df7f9b841bf44425fa597e27d4c1f1c2b98a2293080f3e2a5ca85651a51d425534bb49f1d20f022bbd5744b70b9bd51bf4fe22a1c9f23b05bd39fc80b94dd3429094b4522e7654492050f6b167bd961e0fd5dd96faab2"
+      "solution_cipher": "ad10aa2d19089da0c1d93d40d88e0c2a787b90c3a1249d6b80c072945bfacbf2538f75c400ddf65bf4243a4d4a51ca94239f502d19885cb2492896e6b87bbcd36384929f32f615c0e0644741904b111c961c0b7ba467786539bf5a6fca538a793f45869c19bbdc0bd2073a67abacf60dff172eb13a98ed97df1d52e8557b3964a0c4cdaaf4bb44227af913355fcd914f32ec38edfc6ca0b93d363a05f2c52e3596346084745c"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_004",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "PHONETICS",
+      "skill_domain": "PRONUNCIATION",
       "difficulty_level": 1,
       "trap_code": "TRAP_PRON_ED",
       "stem_text": "<b>Choose the word whose final -ed or -s ending is pronounced differently.</b>",
@@ -119,10 +122,10 @@
         "rid<u>es</u>",
         "sing<u>s</u>"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "play<u>s</u>"
+        "cooks"
       ],
       "signal_keywords": [
         "-ed",
@@ -130,19 +133,20 @@
         "/d/",
         "/ɪd/"
       ],
-      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (play<u>s</u>). Lưu ý bẫy TRAP_PRON_ED.",
+      "explanation_vi": "Đáp án B: plays (/z/), rides (/z/), sings (/z/) vs cooks (/s/).",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_A",
       "crypto_salt": "8445efe1cf3362f8",
-      "answer_hash": "644d8827a3987cd6e841194de05be45dcd5d2f66d6dd75c6626c9a2d90ab659d",
+      "answer_hash": "ede88d45241d2c62139cde0f7e9668c516f3a7b3c6985afcdd60776eb61b3bbd",
       "solution_iv": "fccdb6cbf45584d495b5b1df",
-      "solution_cipher": "dda34582de6252dda32fa79a4d5b016e8cc22bf744e90982e7cadbb8705ba836ba5a60f8d3776b1a03f742257aecdff0035b37fffd9decc7287f59ac19b3864fe74ab71cc0867e63b1fc46c0cd159380a1ecf035d6491bee7a421fb0e9efb15f04ade7e8cdfcc36178468e4c87400e080c05e7e3670c3413d28c3d3c066a24ee6a1d2148eeacac8eea5c78e17cb97659c0dfdd73e583d3b170638b638bc80448c3374aea9ff1914128a78b40aaf4b08b2b8015cf377a445120e5b46d8fd17aef1eaa"
+      "solution_cipher": "dda34582de6252dda32fa79a4d5b016e8cc32bf744e90982e7cadbb8705ba836ba5a60f8d3746b1a03f742257aecdff0035b37fffd9decc7287f59ac19b3864fe74ab71ce1d42bf2673451938edc075defe59fd610002be3cad84ebfff03385365fea6f6c6ee9a752202d25988434301414ac44ea4593cff1c8376f39eed7fb94c26146cd492a1a0ca704ac020e87841ec8fd768fe8dcecc4c7027a6ab3ee4b29bd62c1770334686e6fd"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_005",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_SV_AGREE",
       "stem_text": "My sister enjoys _____ photos of flowers.</b>",
       "passage_or_sign_svg": "",
@@ -162,19 +166,20 @@
         "every",
         "now"
       ],
-      "explanation_vi": "My sister enjoys _____ photos of flowers.",
+      "explanation_vi": "Đáp án A: Sau enjoy + V-ing → taking.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "af4cb0ba0676ba33",
       "answer_hash": "a1051b95088b1a2f8150557e8e7fbb09e5f9e68d3f3d112fab020e3915a7e012",
       "solution_iv": "807a9bdd10dcaffbaf58c14d",
-      "solution_cipher": "85261becab561355e35372f0d6d999a2ec5fdff82bbf67271b2c10a4906d6168f69ff25cba0b7da77be615d431207e4446f408fcc168d65c73b380f567aa2419cdcdcf050ac6688b72f3e6b704599553472c121cf90ecc7a36f6639f8678d7a56a71603f627257ce50ef48bbc0a838ade860d175b740ea028c46b2deb529d74fe9b32922d775895e09a7600e4157a2133565"
+      "solution_cipher": "85261becab561355e35372f0d6d999a2ec5fdff82bbf67271b2c10a4906d6168f69ff25cba0b7da77be615d431207e4446f408fcc168d65c73b3091c84783d4a7a09d3052e9222b76af5e68d356ca57547775a25a008d13d7972c56bca63c1ab716c29336c7c02cb4bf248aacb9906a2f564c362b611f263f510a7d4b72ede0a969355b099d979733b7c256804637077a7b18f"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_006",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_TENSE_SIGNAL",
       "stem_text": "_____ you usually _____ breakfast at seven?</b>",
       "passage_or_sign_svg": "",
@@ -199,19 +204,20 @@
         "yesterday",
         "last"
       ],
-      "explanation_vi": "_____ you usually _____ breakfast at seven?",
+      "explanation_vi": "Đáp án A: Trạng từ tần suất usually (Hiện tại đơn) với chủ ngữ you → Do ... have.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "bc20730ab6158fe2",
       "answer_hash": "5a3bf6ce1fb5d82fb7e6d1b7968a68be4dcd2551026307973940d03e254ef6b2",
       "solution_iv": "2f761e26680565ab4875275a",
-      "solution_cipher": "45af8a800507e64e5f1ee785a1acb4e5661b97cd524bf3f660aa54dc5047c287505ad402538f59c463cd923e0a6d152ffaed73d193566e41f0dd1b307da19192eef398e45b2ac2477a0d74fe4ad5bc7c704b19903704d1e7b44a0a0f011f36e221b02bdd9bbd1ac2b582600e7b3c8111f42be02eb4419c9483d4682d83aac143c945eb2b4b52ded0c18c58ff51f317922366ff53467a62ff40"
+      "solution_cipher": "45af8a800507e64e5f1ee785a1acb4e5661b97cd524bf3f660aa54dc5047c287505ad402538f59c463cd923e0a6d152ffaed73d193566e41f0dd80ffe15fbe92543d83e46f6397726480b77f7bedc357ced0d0c226840026bb190d5a81d1b3e564b33dc6c5f35a99e2d84113eee26820b53172e3705acf722849eb07c5aa5522e1feea6a5e5f1d361bba68f626e3a77b86ff8a7143c05a82e5bd60132f3853e490f8ee4f4cace8bdd75b9c208f8af13173c5fce2205f275c0711a0c626d4718441a96ae7653b79ea67cc769195550f5f58a8b39f0fa03816"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_007",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_TENSE_SIGNAL",
       "stem_text": "Look! Minh _____ his bike in the park.</b>",
       "passage_or_sign_svg": "",
@@ -221,10 +227,10 @@
         "is riding",
         "rode"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "answer_mode": "MCQ",
       "written_answers": [
-        "rides"
+        "is riding"
       ],
       "signal_keywords": [
         "every day",
@@ -236,19 +242,20 @@
         "yesterday",
         "last"
       ],
-      "explanation_vi": "Look! Minh _____ his bike in the park.",
+      "explanation_vi": "Đáp án C: Dấu hiệu Look! (Hiện tại tiếp diễn) → is riding.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "eb67382fbfc72bda",
-      "answer_hash": "02cdabe60872902f45b7cd8ca63955de9aa0ba84ad2e3b8c4b6badecec16331a",
+      "answer_hash": "ba4617af713ecfe5b525353f8666af7bf1539d9368102c4606c26d5e958ccd3a",
       "solution_iv": "7fc44534abf548710172a2bc",
-      "solution_cipher": "db4701265b962b23b3f7a5f9192d640136df76ec7107b6367d90801da16b5c3e5b55fce86236dfd920a933ee7c9a6484f48913019a92260d428076716e46bff8bc5cf581e265a42ba8226b50aa3408365a7c6bfec23cc537631d36914f160c11064c82df69e4b3a02e50435ee23c18894935a29364c0811f5b26fd3e5a1dd124abadbc8cd3978e98404432951352"
+      "solution_cipher": "db4701265b962b23b3f7a5f9192d640136dd76ec7107b6367d90801da16b5c3e5b55fce86234dfd920a933ee7c9a6484f48913019a92260d4280fe8ec28ceef83294f5c98100db3016c7ee4de32f41b588907bfee73d8a282a583ea94785dcb84a40d449a12caef43f57fd85333f4f8852a73b2c51cbd394b9d1ae7574400fb2a9087d6aa71945da91aa36867e7a722f8d146b75e729c8d7e0a0affe631682a59005949133bd1961086326a8413915b14230cf78519e37"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_008",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_TENSE_SIGNAL",
       "stem_text": "Last Sunday, we _____ trees in the school garden.</b>",
       "passage_or_sign_svg": "",
@@ -258,10 +265,10 @@
         "plants",
         "planting"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "plant"
+        "planted"
       ],
       "signal_keywords": [
         "every day",
@@ -273,19 +280,20 @@
         "yesterday",
         "last"
       ],
-      "explanation_vi": "Last Sunday, we _____ trees in the school garden.",
+      "explanation_vi": "Đáp án B: Dấu hiệu Last Sunday (Quá khứ đơn) → planted.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "feffd5378f59eacd",
-      "answer_hash": "41303fe100053edd583d7d7f8a1ac09d06342443985d69a543225c219f7d9dc9",
+      "answer_hash": "511647d07a6c5c26c34f787c391450e7b6cde48ad73f4e954d234492410c6321",
       "solution_iv": "04339c2f16cb9edcb3d8e19a",
-      "solution_cipher": "ad83ada681a803b93be7a2b3db5b07bf04c8f2faa389b2f6c5b3d35a29652b82f38754252e295185427f8b52e29b9d97fd0015bbeccde0caf9a585ba132fe46ca2ef3edf3f945166d903534de4b30dbd03e3cc8b6fef2d44f003d3c98e14e0775692a3ef601c8464d3886455b88d8f6f91021454e1c9c26bdaece9866ef9e54579b98a2ac0a34dff99265d8fe8173b7ed936932697ce94edf5"
+      "solution_cipher": "ad83ada681a803b93be7a2b3db5b07bf04c9f2faa389b2f6c5b3d35a29652b82f38754252e2a5185427f8b52e29b9d97fd0015bbeccde0caf9a50d4ba3fab41f1420349e048251555d99a9679b843b7ccc16dcce50ae375ef024cec2ca06fa3f11acba0ca65d9d68575de357503e3ebc965f40d309048375c5fae28078bff13c77eb9139c7a31bc78aa5cd629efb57893008146bcee85b15fb1c6fee69aac60b867b488dfa04f814e4cd6cf4f245b8"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_009",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_TENSE_SIGNAL",
       "stem_text": "You should _____ more water every day.</b>",
       "passage_or_sign_svg": "",
@@ -310,19 +318,20 @@
         "yesterday",
         "last"
       ],
-      "explanation_vi": "You should _____ more water every day.",
+      "explanation_vi": "Đáp án A: Sau modal verb should + V nguyên mẫu → drink.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "e2a6d4a806ec8d54",
       "answer_hash": "ef5dca464c357a179474095b9246738a2da95f8ea3af978d7bc4d9e297c3dcdc",
       "solution_iv": "b65aaa4c105f09da01328ac9",
-      "solution_cipher": "22a907345c7ffc18191ab904baea789dc00672881cbab3cab2c37281ba388966634c83f5fe1ff55d2c703b87cd4c07156f7dab587286eef33c6e80b37a44f8a57b8b9339f39cdcc8483f3c3a49509f7097aeb51e80669d064c044c786e82f55a3a40e6ceea9589a87fb0e833034d8194ed49731e484c4bbc4c20286a5481a4b43990a314d4f07204e2b559f09bd5"
+      "solution_cipher": "22a907345c7ffc18191ab904baea789dc00672881cbab3cab2c37281ba388966634c83f5fe1ff55d2c703b87cd4c07156f7dab587286eef33c6e1d4cccc5fbedd75f917d92f9a3c476153c3a49469b3cc0b9a40990668b184603593c2ac8ac223802a3cce13f57b23ab356e8c64bd61319a87140610741a50b6c6f6a7e8e53262a211c07450c54095aae7ff6bb74848b995362771d4b603f59434edd28a15335aa40074b4d8bb4"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_010",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_SV_AGREE",
       "stem_text": "_____ sugar is not good for your teeth.</b>",
       "passage_or_sign_svg": "",
@@ -342,19 +351,20 @@
         "every",
         "now"
       ],
-      "explanation_vi": "_____ sugar is not good for your teeth.",
+      "explanation_vi": "Đáp án A: sugar là danh từ không đếm được → Too much.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "9c68468ec4aa2304",
       "answer_hash": "276a6142e57b7e83b3def040393c1b613daa2f5cb9ffc629c5874744999e063a",
       "solution_iv": "f7b30d5b98fb3da7beb9d99d",
-      "solution_cipher": "df8858d44c66b853db215fee1c707d48640b90ad08e93ef4c55be637f71bc2830bb7bd725fe5036c973592d493aa0571ab9ff58e8aedfea3e4c40b4539040b822a67a61f8516aa71d4157fdc3325b8da4f1ba783f08d7a9c0076d662dbe46882f29b8579b5c826938071509a96db2ab06781c38ed42c6b4d90aeb4ac5f765d6411e1de71a03bccce4f25d91bb567230825b0"
+      "solution_cipher": "df8858d44c66b853db215fee1c707d48640b90ad08e93ef4c55be637f71bc2830bb7bd725fe5036c973592d493aa0571ab9ff58e8aedfea3e4c4908aa5fa24829ab3af5eb60ce371811c71da332e14150b5fa082ea8d7712ceafd67dd642a884bb996dca2300f08ad4d0af034754e26461d3522a7c571d7690e1f9b4497d1b6460be7a695d700317e17ad2322ab53c007eb06a6056d501547584bf6cb47ba6c1affcc792df811a695129bbd365af19a5"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_011",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_SV_AGREE",
       "stem_text": "My hobby is different _____ my brother’s.</b>",
       "passage_or_sign_svg": "",
@@ -364,29 +374,30 @@
         "with",
         "to"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "for"
+        "from"
       ],
       "signal_keywords": [
         "usually",
         "every",
         "now"
       ],
-      "explanation_vi": "My hobby is different _____ my brother’s.",
+      "explanation_vi": "Đáp án B: Cấu trúc different from (khác với).",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "1a87730d5f7e4f75",
-      "answer_hash": "658cfe5f293352c3490db7e69968c679a6ab6b85ffe204f7becc434ff378f7f3",
+      "answer_hash": "acca80137d95d947c08a5b1fd1c7937f514ee1c888c32e66a505af8524c90e62",
       "solution_iv": "08a56e5a234f9bc8e5228c4b",
-      "solution_cipher": "fd648fe3677fdad33296dce78c03ad71d3784a795292c12a50416b6c084a17ba83ee4748de59b888f46a2123984aaf54b90e6422897a612292c5145cca82f81d83fea49ad6941aedfa53df779e7b2c324245fd9ea3e71f1d99b81ad1662e7a6a1f132a5596bb50dd87675f78205dd77838086b229dddc4b028d9551941378b46a8a2be6abd25b8ef6c3b9931db2d87a81b"
+      "solution_cipher": "fd648fe3677fdad33296dce78c03ad71d3794a795292c12a50416b6c084a17ba83ee4748de5ab888f46a2123984aaf54b90e6422897a612292c59db5294be75f2226ead3e78e5ec77d8f1f70db612ad1a77982a595a11401cbbf06ca32206d7790b39b4dd05add9cd063d7b7cf5190097b4a3a228ac6c3e677ec281e4036de7ea70b44c5eca827a359a56fa6d261013e6cf879eec4ab2a7eae6fea5c9b"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_012",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_SV_AGREE",
       "stem_text": "He has a sore throat. He _____ drink cold water.</b>",
       "passage_or_sign_svg": "",
@@ -396,29 +407,30 @@
         "must",
         "can"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "should"
+        "shouldn’t"
       ],
       "signal_keywords": [
         "usually",
         "every",
         "now"
       ],
-      "explanation_vi": "He has a sore throat. He _____ drink cold water.",
+      "explanation_vi": "Đáp án B: Đau họng (sore throat) → lời khuyên phủ định shouldn't drink cold water.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "d5028c158df284ff",
-      "answer_hash": "8d813f29975a62f2c5229ca3814c35f6b6884358f5da236b254194496ad27842",
+      "answer_hash": "c7b21f58dd47b92389a05e491e9065298f045d46c06aad08a63a254353a6f886",
       "solution_iv": "93ef917ae8f8a69f5f43ffcb",
-      "solution_cipher": "165ba2c3e692eb19a931ba4d11857621d1363388aadea7fc7ce82deb8b17c117093ec0258bbbfeac393ff5f72925830cb4fa6dce29162271b64b77401732fd9bae8cc993eef27018e7052f6a4eac3614c6946aeacc60a2a6aaafaae701831b98ea686b228382b0e07685f3f3efc36e55a5ce952b8786e7cfa88f51aaf20d12306c3077151bef4f756e35f0c7d8d1c07892f8dcc142ffd7a840"
+      "solution_cipher": "165ba2c3e692eb19a931ba4d11857621d1373388aadea7fc7ce82deb8b17c117093ec0258bb8feac393ff5f72925830cb4fa6dce29162271b64bfbb5f4fbecc84d4c87c0c3ba35fc030c28254739a3b9e0966a9de0508f9caabfb0fc00894fd2a5e68990d48f253e99c2f1b4a5c165ff7bd4d035b006321bff2eb2386bbc277a3f2b700f02e70946345122d7e39dce895bd910777f1ed39db5dfde5c3d56696d9e610f1ff4910d61df7a3a92587ff46e9caeef2e201e5aaddd6c506e06fbdade576330d0b90dc635e3b95258b40040f7"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_013",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_TENSE_SIGNAL",
       "stem_text": "We _____ old books to children in need last month.</b>",
       "passage_or_sign_svg": "",
@@ -428,10 +440,10 @@
         "donating",
         "donates"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "donate"
+        "donated"
       ],
       "signal_keywords": [
         "every day",
@@ -443,19 +455,20 @@
         "yesterday",
         "last"
       ],
-      "explanation_vi": "We _____ old books to children in need last month.",
+      "explanation_vi": "Đáp án B: Dấu hiệu last month (Quá khứ đơn) → donated.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "3092a331a10d6c92",
-      "answer_hash": "b09e70b312d19457b8defeccb7cecf1c89218a761e14e00ebc76844deda82353",
+      "answer_hash": "45f790fedf3607ed4be41e770c55e9e8b286140e9f3141c788f1e25554be6453",
       "solution_iv": "253ef825c0f28a4e71103d2a",
-      "solution_cipher": "7989fec2fc4c5f2bacf169452993b6e6cf03bcb3d65773b485f1cdff66ec9b9d57ccffa5426144196a349d34fb42a255bf5ec1052993320d33e01959d8feaad4031ac7c75c0c03564bc6a7f25e0124b250fd7e9c96e43a019a824d3c36f3ea013696421bc4aafa6a36bb3953364baa733135c3b54ecc8d8cc14688c973134b5419860dd338a7bf0a965d0df7a1fc06377b7955d537fc1d03085697"
+      "solution_cipher": "7989fec2fc4c5f2bacf169452993b6e6cf02bcb3d65773b485f1cdff66ec9b9d57ccffa5426244196a349d34fb42a255bf5ec1052993320d33e08aac3b0085ab9fe4898872520370c51369f45e1d2273881262d09ef72c1b9a864c722cfeaf4d478fe0c990e1ffe4e36671b985a1296a6a7c5547b982b682c1548bc9654e4b4260d31bd522b2ae01eb611edaa0617d1031dee33f0d4de52c77a608d19624a1ec8630695d9d77de19f4146eb826d9"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_014",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_SV_AGREE",
       "stem_text": "Hoa _____ playing chess to watching TV.</b>",
       "passage_or_sign_svg": "",
@@ -475,19 +488,20 @@
         "every",
         "now"
       ],
-      "explanation_vi": "Hoa _____ playing chess to watching TV.",
+      "explanation_vi": "Đáp án A: Cấu trúc prefers V-ing to V-ing (chủ ngữ Hoa số ít → prefers).",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "d48b8cb79bbb03cb",
       "answer_hash": "ec60020c6871e5844cd1bfc5ddc789d5cfc2ee0d5378799ec7b12c96de7d53b4",
       "solution_iv": "1b4c806ff0cad7f981b88680",
-      "solution_cipher": "de35265e72f71fb51b43e8c4cdf835a5cdabc3fc93f7d7648cec688152d5b7f8d6650107852965c4b93d9064be04bdefbe281f84ce862a41b0473b8d7129b04334c441745260687245f2d3660570f1cf86fa380c4aeae16a6194c9a3e33beb0e8aecb04095ed25a53320ba29b5ed493d464d56809a0a8e2465267d1764d59151994f619f95f03ed219ce4ec3c1f9d7535e"
+      "solution_cipher": "de35265e72f71fb51b43e8c4cdf835a5cdabc3fc93f7d7648cec688152d5b7f8d6650107852965c4b93d9064be04bdefbe281f84ce862a41b047b772d3a89f3ca83a707463362948cd261133466ce67f4fb96c1318f8e67b708f809ba972d13f84baf342b4b225bf2065fc15bc6281ed035142431bfe8c1c78223b01f71d222c277e9319dee75b8eab0c2e23f07178a09fe80c987c19dadc2fb3663f654017e01443dcfce56ec6cf6188973ab7dee8f8b5710cb9df41e49cdd08a07e2440ab1206"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_015",
       "grade": 7,
       "unit_id": "G07_U01",
       "skill_domain": "GRAMMAR",
-      "difficulty_level": 1,
+      "difficulty_level": 2,
       "trap_code": "TRAP_SV_AGREE",
       "stem_text": "Are there _____ apples in the basket?</b>",
       "passage_or_sign_svg": "",
@@ -497,22 +511,23 @@
         "much",
         "a little"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "some"
+        "any"
       ],
       "signal_keywords": [
         "usually",
         "every",
         "now"
       ],
-      "explanation_vi": "Are there _____ apples in the basket?",
+      "explanation_vi": "Đáp án B: Câu nghi vấn với danh từ đếm được số nhiều apples → any.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "0b9a7fdcf20a7787",
-      "answer_hash": "f94dfe3180f34cf78f3baf4965cc98aaed3014b98ae15897dfb168a143fb7797",
+      "answer_hash": "d71323b0347a47f30d0bd1e51e3e3c1907d32b888a0b37fd1dceab245e817916",
       "solution_iv": "e156720c65ad9ec889d935b0",
-      "solution_cipher": "d5be03301737132ba604ed4c0b72d0093700a19bba0363763fe403abe897a0cb0fbf58b783b41f4ad434d9d9f9597d52e72906fdeee62d1364cad80d3c0632e5a623c4cb3a51aef89af6da036fa3ab0463632ca1707ba4b632a803753b5c999af93e7da1d0888b19bf3cadc0bae2ccb3f31294f97b6b99b8be2b8a06d7a3d2a2d6f497de78a1f31b7d0b7d33"
+      "solution_cipher": "d5be03301737132ba604ed4c0b72d0093701a19bba0363763fe403abe897a0cb0fbf58b783b71f4ad434d9d9f9597d52e72906fdeee62d1364ca5def9a8736ad00f0cfcb2734d1e40674ce5371a8a61e637ca33ba17de1e0b172eb777e4cc7d6bd3c7e320257dfb840827611a4b56d5046804f19fa7bd6a63ab2465b61349938dd7bc56893ed7f0f9d50676e68bf02c422c885109d638d00a1ce3f3fb42c8b2934efd4b3cdb6053d93c696c679c10047684ee360f1a6964e30a3d62f67308e"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_016",
@@ -529,28 +544,29 @@
         "take",
         "give"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "make"
+        "do"
       ],
       "signal_keywords": [
         "usually",
         "every",
         "now"
       ],
-      "explanation_vi": "My friends _____ community service every weekend.",
+      "explanation_vi": "Đáp án B: Cụm từ cố định: do community service (làm hoạt động cộng đồng).",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_B",
       "crypto_salt": "33ee43c72a454922",
-      "answer_hash": "4126c4398e9d871dbf69c333bbfb04a7f02669d399c9eeee73fbe0b6102d7340",
+      "answer_hash": "c516f863e2f48cd5c7b2eb4b3f9a8d0d58dfb94bb2065ac3db21db43a95cc532",
       "solution_iv": "30a546be7d81eb152232536c",
-      "solution_cipher": "227a0dc145901a85f046af9c0dc20f69ef8a031d9d1ce688c945eafb47ab7b2feea61aea0c4b7b0e149447d3562bb07e43d096c8b02e4ddb3b466da36edb8c1afc7ff50b9bd2a9c2e674fb9b961ee70883f9f80368188bf982a12dc1c67f9b8768e776abc72ce4fb77fe1e9f46897aa059bdab6d58d8ae53146c259664a538aaac696e9ba99984000affdf9c73eb8842802efd305ad9916c"
+      "solution_cipher": "227a0dc145901a85f046af9c0dc20f69ef8b031d9d1ce688c945eafb47ab7b2feea61aea0c487b0e149447d3562bb07e43d096c8b02e4ddb3b46e44a8d1c8e535ab0ff58f9b7d6de58907e95d9076bc646b0ef9bf3face4f6529f52f8872d7c27ef176bfcd24e2eb77f344c44ad868a046a0bc6d16afa3fec776608c7866b850fa24cb612d00401309745e1ebaa448e87daadeedbe1c55cebcb8dd271d05665851922020a09e8d647578af411134042538255f97e616316a6f9b982ef5ad648313ac8ba3b6"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_017",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "PHONETICS",
+      "skill_domain": "READING",
       "difficulty_level": 2,
       "trap_code": "TRAP_PRON_ED",
       "stem_text": "<b>Choose the word whose final -ed or -s ending is pronounced differently.</b>",
@@ -572,18 +588,19 @@
         "/d/",
         "/ɪd/"
       ],
-      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (volunteer). Lưu ý bẫy TRAP_PRON_ED.",
+      "explanation_vi": "Đáp án A: Chủ ngữ số nhiều + Every weekend (Hiện tại đơn) → volunteer.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_D",
       "crypto_salt": "569e00263a9a7507",
       "answer_hash": "3bf413cca902abaf403826513978ad93db01a432b5be7edb37fec87e2886cfa7",
       "solution_iv": "5722143bbc3d06157177319a",
-      "solution_cipher": "7b5e244ac5365932e1f701737d33befdf605c6b8eb43753bc0fa5ff2f88887eb2a1cb5deac0fefacc635815190972a845fecc22658307139b25cb4d0f3a3028deca2af19897c4436de6bfb4e69eda9511a596253a3e1e47db4487187d82e6587fcd217dc5002ef6e75b090e31d0d914a6ce6d5112d559bb7e1857d33ba15bae8bc74df2e40ff20224de28eab3071e38da308c639d700aea4a4cdb13b3ee4dd115a436df1729ee405c17110d148c7a7be4aa5155b0595ddaf916e3072"
+      "solution_cipher": "7b5e244ac5365932e1f701737d33befdf605c6b8eb43753bc0fa5ff2f88887eb2a1cb5deac0fefacc635815190972a845fecc22658307139b25cb4d0f3a3028deca2af19ab2e11940c232ec92a627517c0d601e3f67a2135199a61460f6cb08796d27adc5a1ce32076b090fa514dd526821ec9d0556fd5f574de6cebf3612c382a8ae1552f53f9f529bac3eb6768e581b20e8d75a443b7a5badcb72d7281e75d5f5b64f66fc8bb3b912522c0af5c57e0220193dbcfe3a1fbc3df0b2ab0bacff90c4485f3b1"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_018",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "PHONETICS",
+      "skill_domain": "READING",
       "difficulty_level": 2,
       "trap_code": "TRAP_PRON_ED",
       "stem_text": "<b>Choose the word whose final -ed or -s ending is pronounced differently.</b>",
@@ -605,18 +622,19 @@
         "/d/",
         "/ɪd/"
       ],
-      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (help). Lưu ý bẫy TRAP_PRON_ED.",
+      "explanation_vi": "Đáp án A: help somebody with something → help.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_D",
       "crypto_salt": "43c3d62a24766a48",
       "answer_hash": "1064bfc5793dfb13ed9857b9c8636be458ce8fbcc1fc6a8a04842952f1222b6f",
       "solution_iv": "0a5c9fbe18aecf5048b85e35",
-      "solution_cipher": "2b094994093d4d9d7859b6e680b8a99a70233800c1d8bf7052e27934a62423eca0d76171d8cd51292e03245db3d45cf1084ef351801e0d75869d9e49486a5962f697a93425138f26f53b1eb554b6dc3d92397c309d3c752940ddbf763038bbb35bbbdabfd879057e4b438378e7e43d2ce388bd981aedf0cae74f982061568d60de973747fd488d009dede4b445b377b53986296ae4b7c5c9db4572bc91505521c3786f94f0f89876de85f793fd49e7546e93"
+      "solution_cipher": "2b094994093d4d9d7859b6e680b8a99a70233800c1d8bf7052e27934a62423eca0d76171d8cd51292e03245db3d45cf1084ef351801e0d75869d9e49486a5962f697a9340741daaf2afe00b544380aff91765b8a096b4835eb47b539319e6ffb73f595f75f93e7770d06a3ce79b331cd29dab60dd423e7b5d273aa075b74ac0daa93506bb606d100b7e2a73f34311cb6233a0bbd20deab797a7c"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_019",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "PHONETICS",
+      "skill_domain": "READING",
       "difficulty_level": 2,
       "trap_code": "TRAP_PRON_ED",
       "stem_text": "<b>Choose the word whose final -ed or -s ending is pronounced differently.</b>",
@@ -627,10 +645,10 @@
         "bring<u>s</u>",
         "bringing"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "bring"
+        "brought"
       ],
       "signal_keywords": [
         "-ed",
@@ -638,18 +656,19 @@
         "/d/",
         "/ɪd/"
       ],
-      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (bring). Lưu ý bẫy TRAP_PRON_ED.",
+      "explanation_vi": "Đáp án B: in the school garden (trong vườn trường).",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_D",
       "crypto_salt": "7d5f5e70725124f3",
-      "answer_hash": "7668086259399c6f2036059bf7af7b9e716f0ea9efeff60ea8c8ab794cbfc54b",
+      "answer_hash": "88e762af1dd96f851e207b44ea9ce3182bec13511993b02b906e503f054b0bb5",
       "solution_iv": "6d1be08f9a5b84cd342b20ca",
-      "solution_cipher": "c81beda3f5b4f7be16ef8336207ba10afaf945c0610a40e23c7c7f643d89c039e61f3e94cfb9d32e38abf21d07e6aa4739f5db0404387f9800c80f17b4cf331bacd9b8ce8ec827cbeb50027ed9525a40bc0ea8317b9a6ef73b32735b35a982c07f479e5b3dc3db686170310ce60f3c86802c3e017b04fd2c2bb63f1824d23f7bcd8ea4207d7ff50f699077b7aebd04d53dc167fe089c6ca46ec249c4f6b6444f860c417ba9fe62e7a93e0c855100714bc106899d"
+      "solution_cipher": "c81beda3f5b4f7be16ef8336207ba10afaf845c0610a40e23c7c7f643d89c039e61f3e94cfbad32e38abf21d07e6aa4739f5db0404387f9800c80f17b4cf331bacd9b8ceaf9a72433fd91836df939284b541849eefdd5bed9ced645b711e508f5000964f891a54b4d53031345279f947f80c7004b390747929951f3000f90a47dda195164e34a55069dd5efcb8bb0ece05c87daf2284ed47d2a2d2a6e93294e0eecb9f5caefc"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_020",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "PHONETICS",
+      "skill_domain": "READING",
       "difficulty_level": 2,
       "trap_code": "TRAP_PRON_ED",
       "stem_text": "<b>Choose the word whose final -ed or -s ending is pronounced differently.</b>",
@@ -660,10 +679,10 @@
         "help",
         "help<u>ed</u>"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "answer_mode": "MCQ",
       "written_answers": [
-        "helping"
+        "help"
       ],
       "signal_keywords": [
         "-ed",
@@ -671,18 +690,19 @@
         "/d/",
         "/ɪd/"
       ],
-      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (helping). Lưu ý bẫy TRAP_PRON_ED.",
+      "explanation_vi": "Đáp án C: Mục đích mang lại niềm vui cho người cao tuổi → happy.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_D",
       "crypto_salt": "e90750ec99a38c94",
-      "answer_hash": "71077ee71bbfdcb4c72e3051cec50d1513c832ceb30e3dfc4d709287bd7daaee",
+      "answer_hash": "42a989116bf865eb9050c30ea598e2377909199f65cce25df3114c86f9bfddbb",
       "solution_iv": "1a30d6de47b9f75d8fff483d",
-      "solution_cipher": "5ecbaf67b36ba9caccfe4480a712d82e2b876c313afe9ab7b69ef19ea8d3ba4cc27a575151d8acf7f23d1ece51f11fee98de8b887d83b327b03cb0145599428273f8036ad19ec880b40b15705e532dede222a54adab543d0d80a724bd78df51e2f39809a997be8bdf4b71c309bd720890b4545daa5fddced663b9383d1ca36a294991bdb588949620df9b7c0da3f654888f4b25fbf2d94344d89e7559588cb2a0352c989ece6a0c041ae5e9533e917ab0078ba51cc414a8e"
+      "solution_cipher": "5ecbaf67b36ba9caccfe4480a712d82e2b856c313afe9ab7b69ef19ea8d3ba4cc27a575151daacf7f23d1ece51f11fee98de8b887d83b327b03cb0145599428273f8036af1cc9d2cef19de331d7607892e618ea903f479df3bdcead11a27755007f813739137eea1f3f05676d4bb885eb8d567dc18f61d34ac2d93a3f66add68adebb61395ec652d5fa5ec998a7a334b9ff3994ab430bc305189b20abcd981753400c882e7b4dfe0ba61de248be3c503725e37713e1d94e18e"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_021",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "GRAMMAR",
+      "skill_domain": "READING",
       "difficulty_level": 2,
       "trap_code": "TRAP_SV_AGREE",
       "stem_text": "What is Nam’s favourite hobby?</b>",
@@ -693,28 +713,29 @@
         "Cooking",
         "Reading"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "Swimming"
+        "Gardening"
       ],
       "signal_keywords": [
         "usually",
         "every",
         "now"
       ],
-      "explanation_vi": "What is Nam’s favourite hobby?",
+      "explanation_vi": "Đáp án B: Đoạn đọc nêu hoạt động cuối tuần tại trung tâm cộng đồng.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_D",
       "crypto_salt": "072a1c86c017152a",
-      "answer_hash": "d37c4e8f5342c8151fd045441aae8b96568b61dd30d2f798735940b7cae94517",
+      "answer_hash": "9db5a53d80a876a7c3a213dd8e54410e52ef5d151b11b8318ed236b34ce93bf7",
       "solution_iv": "480d29832672fbcc2554f483",
-      "solution_cipher": "cebd55561d068642ea047fb2e74602d60c886583faadbf09d9db89a030fcd523bf1b67eed4dd09ef0b3f7751d99be1969a6cc228c6563dc96f707bcc8caab5ced0bc5cf9e50f213dd5ca828364e3f13dba35149cc92bef0df4650e84cf25ec45e80b0440ec1d8e67f4c68983c3d9f91dee91c7ddfb273048f7a8ba8a96a90564ffd5312010658bf8bedbd7"
+      "solution_cipher": "cebd55561d068642ea047fb2e74602d60c896583faadbf09d9db89a030fcd523bf1b67eed4de09ef0b3f7751d99be1969a6cc228c6563dc96f70e8342e7fe587603d7cb8cad7816036850558b3e2a48b42a0ca31c264e3ac272f0cc082b3248de85fa5bf52c7797ae4839885005833569d92db512ce9300fa1147dae1494c9205f3992efccec69f82c1513445b4a0ce9515827fdf506def160ba4da02c908c86c80000d4cbed5ccd8c84596d8d1f014fa9e81c483239ac7e820a4555f8fd5e4c1a45637251e87b00bc31"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_022",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "GRAMMAR",
+      "skill_domain": "READING",
       "difficulty_level": 2,
       "trap_code": "TRAP_TENSE_SIGNAL",
       "stem_text": "How often does Nam do gardening?</b>",
@@ -740,18 +761,19 @@
         "yesterday",
         "last"
       ],
-      "explanation_vi": "How often does Nam do gardening?",
+      "explanation_vi": "Đáp án A: Các bạn học sinh giúp đỡ trẻ em và người già trong cộng đồng.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_D",
       "crypto_salt": "b16dbf0893dc00e5",
       "answer_hash": "9e71543ce8892f52566db9a3db3cdbcfcf0f3c1780573d5010c228bc97d91f25",
       "solution_iv": "b69e6a82d9b118e729dc9e67",
-      "solution_cipher": "571811e243d27eef957caf310f72c616b466b449524d1716fec3d2051ee24d57566230973fea3e0ac1acc04678d4813bdc80f6c560b6a2d0bd2d2c9581dcba78fad6055d40b2b242df85eb96dfbb7721bcdbfd14dacc726b26ea0f8e3864c8ff115475e16a71fd21a5f68cbed6a6c9ce29d8e8e69fb97e6a65f69e22bb2b90182622e1b8618116cb5a415abd95a97615eb4c"
+      "solution_cipher": "571811e243d27eef957caf310f72c616b466b449524d1716fec3d2051ee24d57566230973fea3e0ac1acc04678d4813bdc80f6c560b6a2d0bd2da06a355da53e4d12055d65e7f7723c6ae9db9d3ea2a0b59ae791042f782532bc43ca3a74d355df50304ba4f128f3f2e78c2c4e27b289018efb5746b9716bd7230df7492dde5d129c32b125a12882e52135d92118728fa10c7649acf79d4da31ae634a99b6bfe38a62473b051b96583d358abe02443249f25993c917b1137c993d54f063613b3274691cd0c2ebea1104cef258482aa4168"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_023",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "PHONETICS",
+      "skill_domain": "READING",
       "difficulty_level": 2,
       "trap_code": "TRAP_PRON_SES",
       "stem_text": "What did Nam and his mother donate?</b>",
@@ -762,28 +784,29 @@
         "Vegetabl<u>es</u>",
         "Toy<u>s</u>"
       ],
-      "correct_index": 0,
+      "correct_index": 2,
       "answer_mode": "MCQ",
       "written_answers": [
-        "Book<u>s</u>"
+        "Vegetables"
       ],
       "signal_keywords": [
         "-s",
         "-es",
         "stress"
       ],
-      "explanation_vi": "What did Nam and his mother donate?",
+      "explanation_vi": "Đáp án C: Chi tiết khớp với thông tin trong bài đọc.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_D",
       "crypto_salt": "fddf91b50bb2dc10",
-      "answer_hash": "73235db0e900d0a45f456fb4e756ae90aa3a6a95abf302a212b99527787ac815",
+      "answer_hash": "85e7c15c7f20f5ebf0cb0bf845312fbf462986c796b784d52408fcdaac21ba13",
       "solution_iv": "e54cd1a5963452d8ff896ad9",
-      "solution_cipher": "332049d93bcfe4591a9459440a594b3f857c1dd83a883e8b709d24b4aa63b369882b2bf88d15cde5a5dbfd4322e8311a76928fe66db799465a9e52c005b51f463566d184e16b25829a9de265ff62f7b35e4fc1c5a248787b545664bf1a2afedcc072a6777458d810c81abd7318f8080a6bc06742443ff945a686c8bd487616cb77a4f6f89ca4f6746f826a4b1d599e4915b5"
+      "solution_cipher": "332049d93bcfe4591a9459440a594b3f857e1dd83a883e8b709d24b4aa63b369882b2bf88d17cde5a5dbfd4322e8311a76928fe66db799465a9ec138a7604f029fa39feac33c25a09c90e279fff06d61451bc2c831d387641a41f161be61f28adfc37b6d671dc226c754ba7612e41c083358e5690b9403986835d8af452f0a9e58b0bd77b68708d18034851b1f245f4ee7f1216e6b51d283d31b84d6447368269baa8cbdab5710a05cb7f901d99371"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_024",
       "grade": 7,
       "unit_id": "G07_U01",
-      "skill_domain": "GRAMMAR",
+      "skill_domain": "READING",
       "difficulty_level": 2,
       "trap_code": "TRAP_SV_AGREE",
       "stem_text": "Why does Mai go swimming?</b>",
@@ -794,22 +817,23 @@
         "To meet Nam",
         "To grow vegetables"
       ],
-      "correct_index": 0,
+      "correct_index": 1,
       "answer_mode": "MCQ",
       "written_answers": [
-        "To earn money"
+        "To help her stay healthy"
       ],
       "signal_keywords": [
         "usually",
         "every",
         "now"
       ],
-      "explanation_vi": "Why does Mai go swimming?",
+      "explanation_vi": "Đáp án B: Suy luận từ ý chính của đoạn văn về lợi ích của hoạt động tình nguyện.",
       "source_worksheet_id": "WS_G07_FINAL_ZALO_60",
+      "section_id": "PART_D",
       "crypto_salt": "630ca5d096b0fe54",
-      "answer_hash": "8d574c454536467963f673928057e7eea42e1bffd3b0815de8d1c79858b13914",
+      "answer_hash": "e65d4be3f320774d6804fb1848820b5301bc8bea71cee4ed56805509c58c8f91",
       "solution_iv": "9e8d023199af9b00657cad8f",
-      "solution_cipher": "f5c12f23249cb046ebb7bd7f1d424f6d59dbce8bf6de5a0197f00a0f570613579ee38a4438e5662deb241b43093d54a46e1ba468ac620a8ced7047a024400b9e8e5b1ad4bcf3101d3c09a8c26973fd8fd8ec1974db72d48840a5ed4cd7fd6e628991946babf000fac13fa1e97716c0f180f58e76b16d2bd148c3fa7ccb4ba9a770f2c0c413a63e6012"
+      "solution_cipher": "f5c12f23249cb046ebb7bd7f1d424f6d59dace8bf6de5a0197f00a0f570613579ee38a4438e6662deb241b43093d54a46e1ba468ac620a8ced70d4589ec11fd1288954b99fa010292650fbd975ff2a4bd8ab52b74cfb833994f1fa417a0f6164da8510a27fb31a6572042f73b31992e9641b8f38a2f5b20d15c21a3e0a042b4630d3649afba1383aaef1d4d300a3465b4f65c52271052c80ca5ab7f4dc509a2355c6ceefb603c972c1b1f7d97d4a94746e0ab4908c3cfcb632c90caf92bab049dcaaea93b593bc895546d0e670d69ffb3d0c26f44f8805ffd6227e1180b616caed3f25ff63346941d4"
     },
     {
       "question_id": "Q_WS_G07_FINAL_ZALO_60_025",

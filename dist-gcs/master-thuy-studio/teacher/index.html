@@ -82,7 +82,7 @@
           <span>Xuất ngay file Word (.docx) cả trên máy tính lẫn trên đám mây (0 đồng máy chủ).</span>
         </div>
       </div>
-      <input type="file" id="hiddenCameraInput" accept="image/*,.pdf,.docx" style="display:none" onchange="handleFileUploaded(this)" />
+      <input type="file" id="hiddenCameraInput" accept="image/*,.pdf,.docx,.txt,.md" multiple style="display:none" onchange="handleFileUploaded(this)" />
     </section>
 
     <!-- NOTIFICATION BANNER FOR NEWLY GENERATED WORKSHEET -->
@@ -692,17 +692,75 @@
       document.getElementById('hiddenCameraInput').click();
     }
 
-    async function handleFileUploaded(inputEl) {
-      if (!inputEl.files || !inputEl.files[0]) return;
-      const f = inputEl.files[0];
-      document.getElementById('plusMenuPopover').classList.remove('open');
-      if (f.name.endsWith('.txt') || f.name.endsWith('.md')) {
-        const txt = await f.text();
-        openWebHarvestModal(f.name.replace(/\.[^.]+$/, ''), txt);
+    let attachedFilesQueue = [];
+
+    function renderAttachmentTray() {
+      const tray = document.getElementById('composerAttachmentTray');
+      if (!tray) return;
+      if (!attachedFilesQueue.length) {
+        tray.style.display = 'none';
+        tray.innerHTML = '';
         return;
       }
-      // For .docx / .pdf / images: open Inbox helper modal so teacher can drop it directly into 00_LENH_DIEU_KHIEN_INBOX or paste text
-      openWebHarvestModal(`Đề mới từ tệp: ${f.name}`, '');
+      tray.style.display = 'flex';
+      const cardsHtml = attachedFilesQueue.map((item, idx) => {
+        const isImg = item.previewUrl && item.file.type.startsWith('image/');
+        return `
+          <div style="position:relative; display:flex; align-items:center; gap:0.5rem; background:var(--bg-subtle); border:1px solid var(--border); border-radius:12px; padding:0.35rem 0.65rem 0.35rem 0.35rem; max-width:210px;">
+            ${isImg
+              ? `<img src="${item.previewUrl}" style="width:44px; height:44px; object-fit:cover; border-radius:8px; border:1px solid #cbd5e1;" />`
+              : `<div style="width:44px; height:44px; border-radius:8px; background:#e0f2fe; color:#0369a1; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:0.75rem;">📄 FILE</div>`
+            }
+            <div style="overflow:hidden; font-size:0.78rem; line-height:1.25;">
+              <div style="font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:120px;">${item.file.name}</div>
+              <div style="color:var(--text-muted); font-size:0.72rem;">Trang ${idx + 1} · ${(item.file.size / 1024).toFixed(0)} KB</div>
+            </div>
+            <button onclick="removeAttachedFile(${idx})" title="Xóa ảnh này" style="position:absolute; top:-7px; right:-7px; width:22px; height:22px; border-radius:50%; border:none; background:#ef4444; color:#fff; font-weight:800; font-size:0.75rem; cursor:pointer; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 4px rgba(0,0,0,0.18);">✕</button>
+          </div>
+        `;
+      }).join('');
+
+      tray.innerHTML = `
+        ${cardsHtml}
+        <button class="btn" onclick="triggerPhotoToWorksheet()" style="border-style:dashed; padding:0.45rem 0.75rem; font-size:0.82rem;">
+          ➕ Đính kèm thêm ảnh (${attachedFilesQueue.length} ảnh đã chọn)
+        </button>
+        <button class="btn" onclick="clearAttachedFiles()" style="font-size:0.78rem; color:var(--danger);">
+          🗑️ Xóa hết
+        </button>
+      `;
+    }
+
+    function removeAttachedFile(idx) {
+      attachedFilesQueue.splice(idx, 1);
+      renderAttachmentTray();
+    }
+
+    function clearAttachedFiles() {
+      attachedFilesQueue = [];
+      renderAttachmentTray();
+    }
+
+    async function handleFileUploaded(inputEl) {
+      if (!inputEl.files || !inputEl.files.length) return;
+      const newFiles = Array.from(inputEl.files);
+      document.getElementById('plusMenuPopover').classList.remove('open');
+
+      for (const f of newFiles) {
+        const previewUrl = f.type.startsWith('image/') ? URL.createObjectURL(f) : null;
+        let textContent = null;
+        if (f.name.endsWith('.txt') || f.name.endsWith('.md')) {
+          try { textContent = await f.text(); } catch (e) {}
+        }
+        attachedFilesQueue.push({ file: f, previewUrl, textContent });
+      }
+      renderAttachmentTray();
+      const input = document.getElementById('composerInput');
+      if (!input.value.trim()) {
+        input.placeholder = `Đã đính kèm ${attachedFilesQueue.length} ảnh/tệp — Cô hãy nhập yêu cầu (VD: Tạo đề Lớp 8 từ ${attachedFilesQueue.length} trang ảnh này) rồi bấm Tạo ngay hoặc Đẩy vào INBOX...`;
+      }
+      input.focus();
+      inputEl.value = '';
     }
 
     function openWebHarvestModal(prefillTitle, prefillText) {
@@ -780,7 +838,10 @@
       }
       const gradeMatch = text.match(/lớp\s*(\d+)/i) || text.match(/khối\s*(\d+)/i);
       const grade = gradeMatch ? parseInt(gradeMatch[1], 10) : 9;
-      const ticket = window.MT_HYBRID.createInboxRequestTicket(text, grade);
+      const attachNames = (typeof attachedFilesQueue !== 'undefined' && attachedFilesQueue.length)
+        ? attachedFilesQueue.map(x => x.file.name).join(', ')
+        : null;
+      const ticket = window.MT_HYBRID.createInboxRequestTicket(text, grade, attachNames);
       const banner = document.getElementById('composerResultBanner');
       banner.style.display = 'block';
       banner.innerHTML = `
