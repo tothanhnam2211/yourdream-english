@@ -429,6 +429,159 @@
   // =========================================================================
   const MT_HYBRID = {
     isLocalBridgeActive: false,
+
+    INBOX_DRIVE_URL: "https://drive.google.com/drive/folders/151fBqzjfNFzlN0YnrwvEfjyt6gxeXDAQ",
+    OUTBOX_DRIVE_URL: "https://drive.google.com/drive/folders/1bZOe2dMRkB55v3phOgKLjFxs3xlL2tsE",
+
+    parseRawQuestionsText(rawText, defaultGrade) {
+      const lines = String(rawText || "").replace(/\r/g, "").split("\n").map(l => l.trim()).filter(Boolean);
+      const questions = [];
+      let curQ = null;
+
+      const flushQ = () => {
+        if (!curQ) return;
+        if (!curQ.options || curQ.options.length < 2) {
+          curQ.options = curQ.options && curQ.options.length ? curQ.options : ["Option A", "Option B", "Option C", "Option D"];
+        }
+        while (curQ.options.length < 4) curQ.options.push("");
+        if (typeof curQ.correct_index !== "number" || curQ.correct_index < 0 || curQ.correct_index > 3) {
+          curQ.correct_index = 0;
+        }
+        questions.push(curQ);
+        curQ = null;
+      };
+
+      for (const line of lines) {
+        // Check Answer/Explanation line
+        const ansMatch = line.match(/^(?:đáp\s*án|dap\s*an|answer|key)\s*[:=\-]?\s*([A-D])/i);
+        if (ansMatch && curQ) {
+          curQ.correct_index = "ABCD".indexOf(ansMatch[1].toUpperCase());
+          continue;
+        }
+        const expMatch = line.match(/^(?:giải\s*thích|giai\s*thich|explanation|hướng\s*dẫn)\s*[:=\-]?\s*(.+)$/i);
+        if (expMatch && curQ) {
+          curQ.explanation_vi = expMatch[1].trim();
+          continue;
+        }
+
+        // Check inline options A. ... B. ... C. ... D. ...
+        const qHeaderMatch = line.match(/^(?:Question\s*\d+|Câu\s*\d+|\d+)[\.\:\)]\s*(.+)$/i);
+        if (qHeaderMatch) {
+          flushQ();
+          let rest = qHeaderMatch[1].trim();
+          let inlineOpts = [];
+          let corrIdx = 0;
+          const optSplit = rest.split(/(?=\b\*?[A-D][\.\)]\s+)/);
+          if (optSplit.length >= 3) {
+            rest = optSplit[0].trim();
+            for (let i = 1; i < optSplit.length; i++) {
+              const part = optSplit[i].trim();
+              const m = part.match(/^(\*?)([A-D])[\.\)]\s*(.+)$/);
+              if (m) {
+                if (m[1] === "*") corrIdx = "ABCD".indexOf(m[2].toUpperCase());
+                inlineOpts.push(m[3].trim());
+              }
+            }
+          }
+          curQ = {
+            question_id: "Q_CUSTOM_" + (questions.length + 1),
+            stem_text: rest,
+            options: inlineOpts,
+            correct_index: corrIdx,
+            trap_code: "CUSTOM_TEACHER_SET",
+            explanation_vi: "Câu hỏi do Cô Thúy biên soạn & chuẩn hóa trên hệ thống."
+          };
+          continue;
+        }
+
+        // Standalone option line(s)
+        if (curQ) {
+          const multiOpt = line.split(/(?=\b\*?[A-D][\.\)]\s+)/);
+          if (multiOpt.length >= 2 && /^\*?[A-D][\.\)]/.test(multiOpt[0].trim())) {
+            for (const part of multiOpt) {
+              const m = part.trim().match(/^(\*?)([A-D])[\.\)]\s*(.+)$/);
+              if (m) {
+                if (m[1] === "*") curQ.correct_index = "ABCD".indexOf(m[2].toUpperCase());
+                curQ.options.push(m[3].trim());
+              }
+            }
+            continue;
+          }
+          const singleOpt = line.match(/^(\*?)([A-D])[\.\)]\s*(.+)$/);
+          if (singleOpt) {
+            if (singleOpt[1] === "*") curQ.correct_index = "ABCD".indexOf(singleOpt[2].toUpperCase());
+            curQ.options.push(singleOpt[3].trim());
+            continue;
+          }
+          curQ.stem_text += " " + line;
+        }
+      }
+      flushQ();
+      return questions;
+    },
+
+    saveCustomWorksheetToLocalCatalog(wsMeta, questions) {
+      const savedList = JSON.parse(localStorage.getItem("mt_custom_worksheets_v2") || "[]");
+      const entry = {
+        worksheet_id: wsMeta.worksheet_id,
+        title: wsMeta.title,
+        grade: Number(wsMeta.grade || 6),
+        unit_scope: wsMeta.unit_scope || "Chuyên đề Cô Thúy",
+        question_count: questions.length,
+        duration_minutes: Math.max(15, Math.round(questions.length * 1.5)),
+        approval_state: "Cô Thúy vừa tạo mới",
+        source_group: "Đề mới Cô Thúy",
+        is_custom_local: true,
+        questions: questions
+      };
+      const filtered = savedList.filter(x => x.worksheet_id !== entry.worksheet_id);
+      filtered.unshift(entry);
+      localStorage.setItem("mt_custom_worksheets_v2", JSON.stringify(filtered.slice(0, 50)));
+      return entry;
+    },
+
+    getCustomWorksheetsFromLocalCatalog() {
+      try {
+        return JSON.parse(localStorage.getItem("mt_custom_worksheets_v2") || "[]");
+      } catch (e) {
+        return [];
+      }
+    },
+
+    createInboxRequestTicket(requestText, grade, attachmentName) {
+      const ticket = {
+        ticket_id: "INBOX_REQ_" + Date.now(),
+        created_at: new Date().toLocaleString("vi-VN"),
+        teacher: "MASTER THÚY (0836 686 874)",
+        grade: grade || "Tự động",
+        request_prompt: requestText,
+        attachment_name: attachmentName || null,
+        target_folder: "00_LENH_DIEU_KHIEN_INBOX",
+        inbox_drive_url: this.INBOX_DRIVE_URL,
+        outbox_drive_url: this.OUTBOX_DRIVE_URL
+      };
+      const blob = new Blob([JSON.stringify(ticket, null, 2)], { type: "application/json" });
+      ticket.download_url = URL.createObjectURL(blob);
+      ticket.filename = `LENH_INBOX_CO_THUY_${Date.now().toString().slice(-6)}.json`;
+      return ticket;
+    },
+
+
+    // Zero-Key Dynamic Catalog & Shard Sync (GitHub + Google Drive Outbox)
+    OUTBOX_DRIVE_FOLDER_ID: "10_OUTBOX_AUTO_SYNC",
+    GITHUB_RAW_BASE: "https://raw.githubusercontent.com/tothanhnam2211/yourdream-english/main/public",
+    async fetchLatestCatalogWithFallback(localCatalogUrl) {
+      try {
+        const res = await fetch(localCatalogUrl, { cache: "no-store" });
+        if (res.ok) return await res.json();
+      } catch (e) {}
+      try {
+        const ghRes = await fetch(`${this.GITHUB_RAW_BASE}/shards/worksheets-catalog.json`, { cache: "no-store" });
+        if (ghRes.ok) return await ghRes.json();
+      } catch (e) {}
+      return { curated_sets: [], raw_63_files: [] };
+    },
+
     DRIVE_PRINT_QUEUE_FOLDER_URL: 'https://drive.google.com/drive/folders/1YUqDPtlgHLcNgEu1cRCRXxBIN6kEmN30',
 
     async detectEnvironment() {

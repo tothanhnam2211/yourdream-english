@@ -45,7 +45,8 @@
           onkeydown="if(event.key==='Enter') runComposerCommand()"
         />
         <button class="btn" onclick="startVoiceInput()" title="Nói yêu cầu bằng giọng nói">🎙️ Nói</button>
-        <button class="plus-send-btn" onclick="runComposerCommand()">✨ Thực hiện ngay</button>
+        <button class="plus-send-btn" onclick="runComposerCommand()">✨ Tạo ngay</button>
+        <button class="btn" style="background:#f59e0b; color:#fff; border:none; font-weight:700;" onclick="sendPromptToInbox()" title="Đẩy yêu cầu soạn đề mới vào thư mục 00_LENH_DIEU_KHIEN_INBOX">📥 Đẩy vào INBOX</button>
       </div>
 
       <!-- QUICK SUGGESTION CHIPS -->
@@ -54,6 +55,7 @@
         <button class="quick-chip" onclick="quickGenerateWorksheet(7, 'G07_U01', 20, 'Đề Ôn Giữa Kỳ 1 Lớp 7 (Chuẩn Global Success)')">⚡ Tạo đề Giữa Kỳ 1 Lớp 7 (20 câu)</button>
         <button class="quick-chip" onclick="quickGenerateWorksheet(9, 'G09_U01', 25, 'Đề Luyện Thi Vào 10 Lớp 9 (Săn điểm 9-10)')">⚡ Tạo đề Luyện Thi Vào 10 Lớp 9</button>
         <button class="quick-chip" onclick="quickGenerateWorksheet(8, 'G08_U02', 15, 'Chuyên đề Thể Sai Khiến GET & HAVE')">⚡ Chuyên đề GET & HAVE (4 mã đề)</button>
+        <button class="quick-chip" style="background:#fef3c7; border-color:#f59e0b; color:#92400e; font-weight:700;" onclick="openWebHarvestModal()">➕ Soạn / Dán đề mới vào Tủ đề (Trộn 4 mã Word)</button>
         <button class="quick-chip" onclick="openCameraGradingDemo()">📸 Chấm bài chụp từ điện thoại (3 giây)</button>
       </div>
 
@@ -373,7 +375,14 @@
           fetch('../shards/qa-verification-report.json').then(r => r.json()).catch(() => null)
         ]);
 
-        CATALOG = catRes.curated_sets || catRes.worksheets || [];
+        const baseCat = catRes.curated_sets || catRes.worksheets || [];
+        const customCat = window.MT_HYBRID.getCustomWorksheetsFromLocalCatalog ? window.MT_HYBRID.getCustomWorksheetsFromLocalCatalog() : [];
+        customCat.forEach(cw => {
+          if (cw.questions && cw.questions.length) {
+            cachedShardQuestions[cw.worksheet_id] = cw.questions;
+          }
+        });
+        CATALOG = [...customCat, ...baseCat];
         INVENTORY_63 = catRes.raw_63_files || catRes.drive_inventory_63 || [];
         MAP1 = Array.isArray(m1Res) ? m1Res : (m1Res.units || []);
         MAP2 = Array.isArray(m2Res) ? m2Res : (m2Res.traps || []);
@@ -496,11 +505,14 @@
       document.getElementById('studioModalBackdrop').classList.add('open');
 
       try {
-        const shardUrl = toRelativeShardUrl(ws.shard_json_path);
-        const shardRes = await fetch(shardUrl);
-        const shard = await shardRes.json();
-        const questions = shard.questions || [];
-        cachedShardQuestions[ws.worksheet_id] = questions;
+        let questions = cachedShardQuestions[ws.worksheet_id] || ws.questions || null;
+        if (!questions) {
+          const shardUrl = toRelativeShardUrl(ws.shard_json_path);
+          const shardRes = await fetch(shardUrl);
+          const shard = await shardRes.json();
+          questions = shard.questions || [];
+          cachedShardQuestions[ws.worksheet_id] = questions;
+        }
 
         const mixed = window.MT_HYBRID.mix4ExamCodesClientSide(questions, 2026);
         const letters = ['A', 'B', 'C', 'D'];
@@ -680,24 +692,122 @@
       document.getElementById('hiddenCameraInput').click();
     }
 
-    function handleFileUploaded(inputEl) {
+    async function handleFileUploaded(inputEl) {
       if (!inputEl.files || !inputEl.files[0]) return;
       const f = inputEl.files[0];
       document.getElementById('plusMenuPopover').classList.remove('open');
-      quickGenerateWorksheet(6, 'G06_CAMERA', 15, `Phiếu bóc tách từ ảnh chụp: ${f.name}`);
+      if (f.name.endsWith('.txt') || f.name.endsWith('.md')) {
+        const txt = await f.text();
+        openWebHarvestModal(f.name.replace(/\.[^.]+$/, ''), txt);
+        return;
+      }
+      // For .docx / .pdf / images: open Inbox helper modal so teacher can drop it directly into 00_LENH_DIEU_KHIEN_INBOX or paste text
+      openWebHarvestModal(`Đề mới từ tệp: ${f.name}`, '');
     }
 
-    function openWebHarvestModal() {
+    function openWebHarvestModal(prefillTitle, prefillText) {
       document.getElementById('plusMenuPopover').classList.remove('open');
-      document.getElementById('studioModalTitle').textContent = '🌐 Lấy Đề Trên Mạng & Chuẩn Hóa Sang Khung Master Thúy';
+      document.getElementById('studioModalTitle').textContent = '➕ Soạn Đề Mới / Dán Câu Hỏi Mới & Đẩy Yêu Cầu INBOX';
+      const defaultSample = prefillText || `1. Look! The students ______ English with Master Thuy right now.\nA. learn   *B. are learning   C. learns   D. learned\nGiải thích: Có dấu hiệu Look! và right now nên chia thì Hiện tại tiếp diễn.\n\n2. She suggested ______ to the library after school.\nA. go   B. to go   *C. going   D. went\nGiải thích: Cấu trúc suggest + V-ing.`;
       document.getElementById('studioModalBody').innerHTML = `
-        <p style="margin-top:0;">Dán đường link hoặc nội dung câu hỏi tiếng Anh lấy từ trên mạng vào ô dưới đây. Hệ thống sẽ tự động xóa quảng cáo/watermark lạ, kiểm tra độ chuẩn xác và đóng gói lại theo đúng khung <strong>MASTER THÚY (Zalo 0836 686 874)</strong>:</p>
-        <textarea id="webHarvestTextarea" rows="6" style="width:100%; padding:0.75rem; border-radius:12px; border:1px solid var(--border); font-family:inherit;" placeholder="1. My best friend ______ very active and friendly. A. am  B. is  C. are  D. be"></textarea>
-        <div style="margin-top:1rem; display:flex; gap:0.6rem; justify-content:flex-end;">
-          <button class="btn btn-primary" onclick="closeStudioModal(); quickGenerateWorksheet(6, 'G06_WEB', 15, 'Phiếu Chuẩn Hóa Từ Nguồn Tuyển Chọn Trên Mạng');">✨ Chuẩn hóa & Đưa vào Tủ đề của cô</button>
+        <div style="display:grid; gap:0.75rem;">
+          <div style="display:grid; grid-template-columns: 2fr 1fr; gap:0.65rem;">
+            <label style="font-weight:700; font-size:0.88rem;">
+              Tên bộ đề mới của cô:
+              <input id="customWsTitleInput" type="text" value="${prefillTitle || 'Đề Luyện Tập Chuyên Đề Mới — Cô Thúy'}" style="width:100%; margin-top:0.25rem; padding:0.55rem; border-radius:10px; border:1px solid var(--border); font-weight:600;" />
+            </label>
+            <label style="font-weight:700; font-size:0.88rem;">
+              Khối lớp:
+              <select id="customWsGradeSelect" style="width:100%; margin-top:0.25rem; padding:0.55rem; border-radius:10px; border:1px solid var(--border); font-weight:600;">
+                <option value="6">Khối 6</option>
+                <option value="7">Khối 7</option>
+                <option value="8">Khối 8</option>
+                <option value="9" selected>Khối 9</option>
+                <option value="10">Khối 10</option>
+                <option value="11">Khối 11</option>
+                <option value="12">Khối 12</option>
+              </select>
+            </label>
+          </div>
+          <label style="font-weight:700; font-size:0.88rem;">
+            Dán danh sách câu hỏi mới vào đây (Đánh dấu * trước đáp án đúng như *B. hoặc dòng Đáp án: B, hỗ trợ thẻ &lt;u&gt;gạch chân&lt;/u&gt;):
+            <textarea id="webHarvestTextarea" rows="8" style="width:100%; margin-top:0.3rem; padding:0.75rem; border-radius:12px; border:1px solid var(--border); font-family:inherit; font-size:0.9rem;">${defaultSample}</textarea>
+          </label>
+          <div style="display:flex; gap:0.6rem; flex-wrap:wrap; justify-content:space-between; align-items:center; margin-top:0.4rem;">
+            <a href="https://drive.google.com/drive/folders/151fBqzjfNFzlN0YnrwvEfjyt6gxeXDAQ" target="_blank" class="btn" style="background:#fef3c7; color:#92400e; border:1px solid #f59e0b; font-weight:700;">
+              📥 Mở thư mục 00_LENH_DIEU_KHIEN_INBOX trên Drive
+            </a>
+            <div style="display:flex; gap:0.55rem; flex-wrap:wrap;">
+              <button class="btn" onclick="sendCustomModalToInbox()">📨 Xuất vé yêu cầu INBOX</button>
+              <button class="btn btn-primary" onclick="createCustomWorksheetFromModal()">✨ Bóc tách ngay & Xuất Word 4 Mã Đề (.docx)</button>
+            </div>
+          </div>
         </div>
       `;
       document.getElementById('studioModalBackdrop').classList.add('open');
+    }
+
+    function createCustomWorksheetFromModal() {
+      const title = (document.getElementById('customWsTitleInput').value || 'Đề Mới Cô Thúy').trim();
+      const grade = parseInt(document.getElementById('customWsGradeSelect').value || '9', 10);
+      const rawText = (document.getElementById('webHarvestTextarea').value || '').trim();
+      const parsedQuestions = window.MT_HYBRID.parseRawQuestionsText(rawText, grade);
+      if (!parsedQuestions || !parsedQuestions.length) {
+        alert('Cô vui lòng dán ít nhất 1 câu hỏi (bắt đầu bằng Câu 1. hoặc 1. kèm đáp án A. B. C. D.)!');
+        return;
+      }
+      const wsId = 'WS_CUSTOM_G0' + grade + '_' + Date.now().toString().slice(-5);
+      const savedEntry = window.MT_HYBRID.saveCustomWorksheetToLocalCatalog({
+        worksheet_id: wsId,
+        title: title,
+        grade: grade,
+        unit_scope: 'Đề mới Cô Thúy'
+      }, parsedQuestions);
+
+      cachedShardQuestions[wsId] = parsedQuestions;
+      CATALOG.unshift(savedEntry);
+      document.getElementById('statActivePacks').textContent = CATALOG.length + ' bộ đề';
+      renderLibraryCards();
+      closeStudioModal();
+      quickGenerateWorksheet(grade, 'CUSTOM', parsedQuestions.length, title, wsId);
+    }
+
+    function sendPromptToInbox() {
+      const text = (document.getElementById('composerInput').value || '').trim();
+      if (!text) {
+        openWebHarvestModal('Yêu cầu soạn đề mới gửi INBOX', '');
+        return;
+      }
+      const gradeMatch = text.match(/lớp\s*(\d+)/i) || text.match(/khối\s*(\d+)/i);
+      const grade = gradeMatch ? parseInt(gradeMatch[1], 10) : 9;
+      const ticket = window.MT_HYBRID.createInboxRequestTicket(text, grade);
+      const banner = document.getElementById('composerResultBanner');
+      banner.style.display = 'block';
+      banner.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+          <div>
+            <span class="badge" style="background:#fef3c7; color:#92400e;">📥 ĐÃ ĐÓNG GÓI YÊU CẦU CHO 00_LENH_DIEU_KHIEN_INBOX</span>
+            <h3 style="margin:0.35rem 0 0.2rem;">Yêu cầu: "${text}"</h3>
+            <p style="margin:0; font-size:0.86rem; color:#065f46;">
+              Cô bấm <strong>1. Tải phiếu lệnh (.json)</strong> rồi bấm <strong>2. Mở thư mục INBOX trên Drive</strong> để thả phiếu hoặc file Word/ảnh đề gốc vào. Khi xử lý xong, kết quả sẽ nằm trong <strong>00_BAO_CAO_KET_QUA_OUTBOX</strong>!
+            </p>
+          </div>
+          <div style="display:flex; gap:0.55rem; flex-wrap:wrap;">
+            <a href="${ticket.download_url}" download="${ticket.filename}" class="btn btn-primary">1️⃣ Tải Phiếu Lệnh (${ticket.filename})</a>
+            <a href="${window.MT_HYBRID.INBOX_DRIVE_URL}" target="_blank" class="btn btn-accent">2️⃣ Mở 00_LENH_DIEU_KHIEN_INBOX →</a>
+            <a href="${window.MT_HYBRID.OUTBOX_DRIVE_URL}" target="_blank" class="btn">📤 Mở OUTBOX Nhận Đề</a>
+          </div>
+        </div>
+      `;
+      banner.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function sendCustomModalToInbox() {
+      const title = (document.getElementById('customWsTitleInput').value || 'Yêu cầu soạn đề mới').trim();
+      const rawText = (document.getElementById('webHarvestTextarea').value || '').trim();
+      document.getElementById('composerInput').value = `${title}: ${rawText.slice(0, 200)}`;
+      closeStudioModal();
+      sendPromptToInbox();
     }
 
     // =========================================================================
