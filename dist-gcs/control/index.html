@@ -1,0 +1,3952 @@
+<!DOCTYPE html>
+
+<html lang="vi">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>YOURDREAM — Trung Tâm Kiểm Thẩm Định & Nghiệm Thu Học Liệu</title>
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <meta name="apple-mobile-web-app-title" content="YOURDREAM Inspection">
+
+  <style>
+
+    :root {
+
+      --bg-main: #090d16;
+
+      --bg-surface: #131b2e;
+
+      --bg-card: #1e293b;
+
+      --border: rgba(255, 255, 255, 0.08);
+
+      --border-focus: #38bdf8;
+
+      --text-main: #f8fafc;
+
+      --text-muted: #94a3b8;
+
+      
+
+      --c-stage1: #eab308;
+
+      --c-stage2: #0284c7;
+
+      --c-stage3: #f97316;
+
+      --c-stage4: #10b981;
+
+      
+
+      --shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+
+    }
+
+    
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+
+    body { background: var(--bg-main); color: var(--text-main); min-height: 100vh; display: flex; flex-direction: column; overflow-x: hidden; }
+
+
+
+    /* Top Navigation */
+
+    header {
+
+      background: rgba(19, 27, 46, 0.98);
+
+      backdrop-filter: blur(12px);
+
+      border-bottom: 1px solid var(--border);
+
+      padding: 12px 16px;
+
+      position: sticky;
+
+      top: 0;
+
+      z-index: 50;
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      gap: 10px;
+
+    }
+
+    .brand-title { display: flex; align-items: center; gap: 8px; font-weight: 800; font-size: 16px; }
+
+    .brand-badge { background: linear-gradient(135deg, #2563eb, #0ea5e9); color: white; padding: 3px 8px; border-radius: 6px; font-size: 11px; font-weight: 700; }
+
+    .owner-pill {
+
+      background: rgba(255, 255, 255, 0.06);
+
+      border: 1px solid var(--border);
+
+      padding: 5px 12px;
+
+      border-radius: 20px;
+
+      font-size: 12px;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 6px;
+
+    }
+
+    .pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: #10b981; box-shadow: 0 0 10px #10b981; animation: pulse 2s infinite; }
+
+    @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+
+
+
+    /* Inspection Banner */
+
+    .inspection-banner {
+
+      background: linear-gradient(90deg, rgba(234, 179, 8, 0.15), rgba(2, 132, 199, 0.15));
+
+      border-bottom: 1px solid rgba(234, 179, 8, 0.3);
+
+      padding: 10px 16px;
+
+      font-size: 13px;
+
+      color: #fde047;
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 10px;
+
+    }
+
+    .inspection-banner b { color: #fff; }
+
+
+
+    /* Summary Bar */
+
+    .summary-bar {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+
+      gap: 10px;
+
+      padding: 14px 16px;
+
+      background: var(--bg-surface);
+
+      border-bottom: 1px solid var(--border);
+
+    }
+
+    .stat-card {
+
+      background: rgba(255, 255, 255, 0.03);
+
+      border: 1px solid var(--border);
+
+      padding: 10px 14px;
+
+      border-radius: 12px;
+
+    }
+
+    .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; font-weight: 700; }
+
+    .stat-num { font-size: 20px; font-weight: 800; margin-top: 2px; }
+
+
+
+    /* Category Filter */
+
+    .filter-bar {
+
+      display: flex;
+
+      gap: 8px;
+
+      padding: 12px 16px;
+
+      overflow-x: auto;
+
+      white-space: nowrap;
+
+      border-bottom: 1px solid var(--border);
+
+      background: #0d1322;
+
+      -webkit-overflow-scrolling: touch;
+
+    }
+
+    .filter-bar::-webkit-scrollbar { display: none; }
+
+    .filter-btn {
+
+      background: rgba(255, 255, 255, 0.05);
+
+      border: 1px solid var(--border);
+
+      color: var(--text-muted);
+
+      padding: 7px 14px;
+
+      border-radius: 20px;
+
+      font-size: 12px;
+
+      font-weight: 600;
+
+      cursor: pointer;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 6px;
+
+      transition: all 0.2s;
+
+    }
+
+    .filter-btn.active {
+
+      background: #2563eb;
+
+      color: white;
+
+      border-color: #3b82f6;
+
+      box-shadow: 0 0 12px rgba(37, 99, 235, 0.4);
+
+    }
+
+
+
+    /* Kanban Board Layout */
+
+    .board-container {
+
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 16px;
+
+      padding: 16px;
+
+      flex: 1;
+
+    }
+
+    @media (min-width: 992px) {
+
+      .board-container {
+
+        display: grid;
+
+        grid-template-columns: repeat(4, 1fr);
+
+        align-items: start;
+
+      }
+
+    }
+
+
+
+    .column {
+
+      background: var(--bg-surface);
+
+      border: 1px solid var(--border);
+
+      border-radius: 16px;
+
+      display: flex;
+
+      flex-direction: column;
+
+      overflow: hidden;
+
+    }
+
+    .col-header {
+
+      padding: 12px 16px;
+
+      font-weight: 700;
+
+      font-size: 13px;
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      border-bottom: 1px solid var(--border);
+
+    }
+
+    .col-badge {
+
+      padding: 2px 8px;
+
+      border-radius: 10px;
+
+      font-size: 11px;
+
+      font-weight: 800;
+
+      background: rgba(255, 255, 255, 0.1);
+
+    }
+
+    .col-stage1 { border-top: 3px solid var(--c-stage1); }
+
+    .col-stage2 { border-top: 3px solid var(--c-stage2); }
+
+    .col-stage3 { border-top: 3px solid var(--c-stage3); }
+
+    .col-stage4 { border-top: 3px solid var(--c-stage4); }
+
+
+
+    .col-body {
+
+      padding: 12px;
+
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 12px;
+
+      min-height: 100px;
+
+    }
+
+
+
+    /* Product Cards */
+
+    .item-card {
+
+      background: var(--bg-card);
+
+      border: 1px solid var(--border);
+
+      border-radius: 14px;
+
+      padding: 12px;
+
+      cursor: pointer;
+
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+
+      position: relative;
+
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 8px;
+
+    }
+
+    .item-card:hover, .item-card:active {
+
+      border-color: var(--border-focus);
+
+      transform: translateY(-2px);
+
+      box-shadow: var(--shadow);
+
+    }
+
+    .card-preview-thumb {
+
+      width: 100%;
+
+      height: 130px;
+
+      object-fit: cover;
+
+      border-radius: 8px;
+
+      background: #000;
+
+      border: 1px solid rgba(255, 255, 255, 0.05);
+
+    }
+
+    .item-tag {
+
+      align-self: flex-start;
+
+      font-size: 10px;
+
+      font-weight: 800;
+
+      padding: 2px 8px;
+
+      border-radius: 6px;
+
+      text-transform: uppercase;
+
+      letter-spacing: 0.5px;
+
+    }
+
+    .tag-math { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.4); }
+
+    .tag-video { background: rgba(244, 63, 94, 0.2); color: #fb7185; border: 1px solid rgba(244, 63, 94, 0.4); }
+
+    .tag-system { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.4); }
+
+
+
+    .item-title { font-size: 14px; font-weight: 700; color: #fff; line-height: 1.4; }
+
+    .item-desc { font-size: 12px; color: var(--text-muted); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
+
+
+    .item-footer {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      font-size: 11px;
+
+      color: #64748b;
+
+      margin-top: 4px;
+
+      border-top: 1px solid rgba(255, 255, 255, 0.04);
+
+      padding-top: 8px;
+
+    }
+
+    .btn-soi-bai {
+
+      background: linear-gradient(135deg, #0ea5e9, #2563eb);
+
+      color: white;
+
+      border: none;
+
+      padding: 5px 12px;
+
+      border-radius: 8px;
+
+      font-size: 11px;
+
+      font-weight: 700;
+
+      cursor: pointer;
+
+    }
+
+
+
+    /* FULLSCREEN INSPECTION SUITE MODAL */
+
+    .modal-backdrop {
+
+      position: fixed;
+
+      top: 0; left: 0; right: 0; bottom: 0;
+
+      background: rgba(0, 0, 0, 0.88);
+
+      backdrop-filter: blur(10px);
+
+      z-index: 1000;
+
+      display: none;
+
+      align-items: center;
+
+      justify-content: center;
+
+      padding: 0;
+
+    }
+
+    .modal-backdrop.open { display: flex; }
+
+
+
+    .modal-box {
+
+      background: #0f172a;
+
+      border: 1px solid rgba(255, 255, 255, 0.15);
+
+      width: 100%;
+
+      height: 100%;
+
+      display: flex;
+
+      flex-direction: column;
+
+      overflow: hidden;
+
+    }
+
+    @media (min-width: 768px) {
+
+      .modal-box {
+
+        width: 95%;
+
+        max-width: 1100px;
+
+        height: 94vh;
+
+        border-radius: 20px;
+
+        box-shadow: 0 25px 60px rgba(0,0,0,0.8);
+
+      }
+
+    }
+
+
+
+    .modal-header {
+
+      background: #1e293b;
+
+      border-bottom: 1px solid var(--border);
+
+      padding: 12px 16px;
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      gap: 12px;
+
+    }
+
+    .btn-close-modal {
+
+      background: rgba(255, 255, 255, 0.1);
+
+      border: 1px solid var(--border);
+
+      color: white;
+
+      padding: 6px 14px;
+
+      border-radius: 8px;
+
+      font-size: 12px;
+
+      font-weight: 700;
+
+      cursor: pointer;
+
+    }
+
+
+
+    /* Dynamic Modal Tab Bar */
+
+    .modal-tab-bar {
+
+      display: flex;
+
+      background: #0d1322;
+
+      border-bottom: 1px solid var(--border);
+
+      overflow-x: auto;
+
+      white-space: nowrap;
+
+      -webkit-overflow-scrolling: touch;
+
+      padding: 0 8px;
+
+    }
+
+    .modal-tab-bar::-webkit-scrollbar { display: none; }
+
+    .modal-tab-btn {
+
+      background: none;
+
+      border: none;
+
+      border-bottom: 3px solid transparent;
+
+      color: var(--text-muted);
+
+      padding: 11px 12px;
+
+      font-size: 12px;
+
+      font-weight: 700;
+
+      cursor: pointer;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 5px;
+
+      white-space: nowrap;
+
+      flex-shrink: 0;
+
+    }
+
+    .modal-tab-btn.active {
+
+      color: #38bdf8;
+
+      border-bottom-color: #38bdf8;
+
+      background: rgba(56, 189, 248, 0.05);
+
+    }
+
+
+
+    /* Modal Body Content */
+
+    .modal-body {
+
+      flex: 1;
+
+      overflow-y: auto;
+
+      padding: 16px;
+
+      -webkit-overflow-scrolling: touch;
+
+    }
+
+    .tab-content { display: none; }
+
+    .tab-content.active { display: block; }
+
+
+
+    /* Download Banner */
+
+    .download-strip {
+
+      background: rgba(14, 165, 233, 0.1);
+
+      border: 1px solid rgba(14, 165, 233, 0.3);
+
+      border-radius: 12px;
+
+      padding: 12px 14px;
+
+      margin-bottom: 16px;
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 10px;
+
+    }
+
+    .download-strip-text { font-size: 12.5px; color: #bae6fd; font-weight: 600; }
+
+    .download-buttons { display: flex; flex-wrap: wrap; gap: 8px; }
+
+    .btn-download {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 6px;
+
+      padding: 6px 12px;
+
+      border-radius: 8px;
+
+      font-size: 11.5px;
+
+      font-weight: 700;
+
+      text-decoration: none;
+
+      color: white;
+
+      cursor: pointer;
+
+      border: none;
+
+    }
+
+    .btn-dl-pdf { background: #dc2626; }
+
+    .btn-dl-word { background: #2563eb; }
+
+    .btn-dl-cloud { background: #059669; }
+
+
+
+    /* Exam Paper View */
+
+    .exam-nav {
+
+      display: flex;
+
+      gap: 8px;
+
+      overflow-x: auto;
+
+      padding-bottom: 12px;
+
+      margin-bottom: 16px;
+
+      border-bottom: 1px solid var(--border);
+
+      -webkit-overflow-scrolling: touch;
+
+    }
+
+    .exam-nav-btn {
+
+      background: rgba(255, 255, 255, 0.05);
+
+      border: 1px solid var(--border);
+
+      color: var(--text-muted);
+
+      padding: 8px 14px;
+
+      border-radius: 10px;
+
+      font-size: 12px;
+
+      font-weight: 700;
+
+      cursor: pointer;
+
+      white-space: nowrap;
+
+    }
+
+    .exam-nav-btn.active {
+
+      background: #38bdf8;
+
+      color: #0f172a;
+
+      border-color: #38bdf8;
+
+    }
+
+
+
+    .exam-sheet {
+
+      background: #ffffff;
+
+      color: #1e293b;
+
+      border-radius: 12px;
+
+      padding: 24px 20px;
+
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+
+      line-height: 1.6;
+
+    }
+
+    .exam-title-box {
+
+      text-align: center;
+
+      border-bottom: 2px solid #0f172a;
+
+      padding-bottom: 12px;
+
+      margin-bottom: 16px;
+
+    }
+
+    .exam-title-box h2 { font-size: 17px; font-weight: 800; color: #0f172a; margin-bottom: 4px; }
+
+    .exam-title-box p { font-size: 12px; color: #64748b; font-style: italic; }
+
+
+
+    .q-item { margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px dashed #cbd5e1; }
+
+    .q-item:last-child { border-bottom: none; }
+
+    .q-header { font-weight: 800; font-size: 13.5px; color: #1e3a8a; margin-bottom: 6px; }
+
+    .q-text { font-size: 13px; color: #334155; margin-bottom: 6px; }
+
+    .barem-highlight {
+
+      background: #f1f5f9;
+
+      border-left: 3px solid #2563eb;
+
+      padding: 8px 12px;
+
+      border-radius: 4px;
+
+      font-size: 12px;
+
+      color: #1e293b;
+
+      margin-top: 6px;
+
+    }
+
+
+
+    /* Video Player & Scenes */
+
+    .video-hero-box {
+
+      background: #000;
+
+      border-radius: 12px;
+
+      overflow: hidden;
+
+      margin-bottom: 16px;
+
+      border: 1px solid var(--border);
+
+    }
+
+    video { width: 100%; display: block; max-height: 420px; outline: none; }
+
+    .scene-selector {
+
+      display: flex;
+
+      gap: 8px;
+
+      overflow-x: auto;
+
+      padding-bottom: 10px;
+
+      margin-bottom: 16px;
+
+      -webkit-overflow-scrolling: touch;
+
+    }
+
+    .scene-pill {
+
+      background: rgba(255, 255, 255, 0.05);
+
+      border: 1px solid var(--border);
+
+      color: var(--text-muted);
+
+      padding: 8px 14px;
+
+      border-radius: 10px;
+
+      font-size: 12px;
+
+      font-weight: 700;
+
+      cursor: pointer;
+
+      white-space: nowrap;
+
+    }
+
+    .scene-pill.active {
+
+      background: #f43f5e;
+
+      color: white;
+
+      border-color: #f43f5e;
+
+    }
+
+
+
+    /* Audio Player Component */
+
+    .audio-card-box {
+
+      background: linear-gradient(135deg, #1e1b4b, #0f172a);
+
+      border: 1px solid rgba(139, 92, 246, 0.3);
+
+      border-radius: 16px;
+
+      padding: 20px;
+
+      margin-bottom: 20px;
+
+    }
+
+    audio { width: 100%; margin-top: 10px; outline: none; }
+
+
+
+    /* Visual Gallery & Lightbox */
+
+    .gallery-grid {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+      gap: 14px;
+
+    }
+
+    .gallery-card {
+
+      background: var(--bg-card);
+
+      border: 1px solid var(--border);
+
+      border-radius: 12px;
+
+      overflow: hidden;
+
+      display: flex;
+
+      flex-direction: column;
+
+    }
+
+    .gallery-card img {
+
+      width: 100%;
+
+      height: 180px;
+
+      object-fit: contain;
+
+      background: #0b0f19;
+
+      cursor: pointer;
+
+      transition: transform 0.2s;
+
+    }
+
+    .gallery-card img:hover { transform: scale(1.02); }
+
+    .gallery-caption {
+
+      padding: 10px 12px;
+
+      font-size: 12px;
+
+      font-weight: 600;
+
+      color: #e2e8f0;
+
+      background: #1e293b;
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+    }
+
+
+
+    /* Direct Drive Shortcuts */
+
+    .drive-links-grid {
+
+      display: grid;
+
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+      gap: 14px;
+
+      margin-top: 14px;
+
+    }
+
+    .drive-btn-card {
+
+      background: rgba(255, 255, 255, 0.04);
+
+      border: 1px solid var(--border);
+
+      border-radius: 14px;
+
+      padding: 16px;
+
+      text-decoration: none;
+
+      color: white;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 12px;
+
+      transition: all 0.2s;
+
+    }
+
+
+
+    /* 6-Layer Essay Mastery & Grid Exam Paper */
+
+    .mastery-layer-box {
+
+      background: #131b2e;
+
+      border: 1px solid rgba(56, 189, 248, 0.25);
+
+      border-radius: 14px;
+
+      padding: 16px;
+
+      margin-bottom: 16px;
+
+    }
+
+    .mastery-layer-title {
+
+      font-size: 14px;
+
+      font-weight: 800;
+
+      color: #38bdf8;
+
+      margin-bottom: 10px;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 8px;
+
+    }
+
+    .signal-tag {
+
+      background: #fef08a;
+
+      color: #854d0e;
+
+      padding: 2px 8px;
+
+      border-radius: 6px;
+
+      font-weight: 800;
+
+      border-bottom: 2px solid #eab308;
+
+    }
+
+    .tier-btn-bar {
+
+      display: flex;
+
+      gap: 8px;
+
+      flex-wrap: wrap;
+
+      margin-bottom: 12px;
+
+    }
+
+    .tier-btn {
+
+      background: #1e293b;
+
+      border: 1px solid rgba(255,255,255,0.15);
+
+      color: #cbd5e1;
+
+      padding: 8px 14px;
+
+      border-radius: 10px;
+
+      font-size: 12px;
+
+      font-weight: 700;
+
+      cursor: pointer;
+
+    }
+
+    .tier-btn.active {
+
+      background: linear-gradient(135deg, #2563eb, #0ea5e9);
+
+      color: #fff;
+
+      border-color: #38bdf8;
+
+    }
+
+    .oli-paper {
+
+      background-color: #fffef7;
+
+      background-image:
+
+        linear-gradient(to right, rgba(59, 130, 246, 0.14) 1px, transparent 1px),
+
+        linear-gradient(to bottom, rgba(59, 130, 246, 0.14) 1px, transparent 1px);
+
+      background-size: 24px 28px;
+
+      color: #1e293b;
+
+      border: 2px solid #93c5fd;
+
+      border-left: 5px solid #ef4444;
+
+      border-radius: 10px;
+
+      padding: 20px 22px;
+
+      font-family: "Segoe UI", Roboto, sans-serif;
+
+      font-size: 14px;
+
+      line-height: 28px;
+
+      box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+
+    }
+
+    .cloze-input {
+
+      border: none;
+
+      border-bottom: 2px dashed #2563eb;
+
+      background: rgba(219, 234, 254, 0.6);
+
+      color: #1e3a8a;
+
+      font-weight: 700;
+
+      padding: 2px 8px;
+
+      border-radius: 4px;
+
+      width: 110px;
+
+      text-align: center;
+
+      font-size: 13.5px;
+
+    }
+
+    .red-pen-box {
+
+      background: rgba(239, 68, 68, 0.12);
+
+      border: 1px solid rgba(239, 68, 68, 0.4);
+
+      border-left: 4px solid #ef4444;
+
+      border-radius: 10px;
+
+      padding: 12px 14px;
+
+      color: #fecaca;
+
+      font-size: 13px;
+
+      line-height: 1.5;
+
+      margin-top: 8px;
+
+    }
+
+    .drive-btn-card:hover {
+
+      background: rgba(37, 99, 235, 0.15);
+
+      border-color: #3b82f6;
+
+      transform: translateY(-2px);
+
+    }
+
+    .drive-icon { font-size: 28px; }
+
+
+
+    /* Sticky Action Footer */
+
+    .modal-footer {
+
+      background: #1e293b;
+
+      border-top: 1px solid var(--border);
+
+      padding: 12px 16px;
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      gap: 12px;
+
+    }
+
+    .footer-left-info { font-size: 12px; color: var(--text-muted); }
+
+    .footer-actions { display: flex; gap: 8px; width: 100%; justify-content: flex-end; }
+
+    @media (min-width: 600px) {
+
+      .footer-actions { width: auto; }
+
+    }
+
+    .btn-act {
+
+      padding: 10px 18px;
+
+      border-radius: 10px;
+
+      font-size: 13px;
+
+      font-weight: 800;
+
+      cursor: pointer;
+
+      border: none;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 6px;
+
+    }
+
+    .btn-reject {
+
+      background: rgba(239, 68, 68, 0.15);
+
+      border: 1px solid #ef4444;
+
+      color: #fca5a5;
+
+    }
+
+    .btn-approve {
+
+      background: linear-gradient(135deg, #10b981, #059669);
+
+      color: white;
+
+      box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);
+
+    }
+
+
+
+    /* Lightbox Modal */
+
+    .lightbox-modal {
+
+      position: fixed;
+
+      top: 0; left: 0; right: 0; bottom: 0;
+
+      background: rgba(0,0,0,0.95);
+
+      z-index: 2000;
+
+      display: none;
+
+      align-items: center;
+
+      justify-content: center;
+
+      padding: 16px;
+
+    }
+
+    .lightbox-modal.open { display: flex; }
+
+    .lightbox-img { max-width: 95%; max-height: 90vh; object-fit: contain; border-radius: 8px; }
+
+    .lightbox-close {
+
+      position: absolute;
+
+      top: 20px; right: 20px;
+
+      background: rgba(255,255,255,0.2);
+
+      color: white;
+
+      border: none;
+
+      width: 40px; height: 40px;
+
+      border-radius: 50%;
+
+      font-size: 20px;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <header>
+
+    <div class="brand-title">
+
+      <span>YOURDREAM CONTROL</span>
+
+      <span class="brand-badge">TRUNG TÂM THẨM ĐỊNH & NGHIỆM THU</span>
+
+    </div>
+
+    <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+
+      <a href="../master-thuy-studio/teacher/index.html" target="_blank" style="text-decoration:none; background:linear-gradient(135deg,#0f766e,#0d9488); color:#fff; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:800; box-shadow:0 0 14px rgba(15,118,110,0.6); border:1px solid #5eead4;">
+        👩‍🏫 MỞ PHÒNG CÔ THÚY (ENGLISH STUDIO v2.0)
+      </a>
+      <a href="../master-thuy-studio/student/index.html" target="_blank" style="text-decoration:none; background:linear-gradient(135deg,#d97706,#b45309); color:#fff; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:800; box-shadow:0 0 12px rgba(217,119,6,0.4);">
+        🎒 GÓC HỌC SINH TIẾNG ANH
+      </a>
+      <a href="https://storage.googleapis.com/ai-studio-bucket-336999988003-asia-southeast1/student/app.html" target="_blank" style="text-decoration:none; background:linear-gradient(135deg,#10b981,#059669); color:#fff; padding:6px 14px; border-radius:20px; font-size:12px; font-weight:800; box-shadow:0 0 12px rgba(16,185,129,0.4);">
+
+        🎓 MỞ CỔNG HỌC SINH (STUDENT STUDIO)
+
+      </a>
+
+      <div class="owner-pill">
+
+        <div class="pulse-dot"></div>
+
+        <span>Chủ dự án: <b>Khổng Thị Thanh Thủy</b> (Google AI Ultra)</span>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+  <div class="inspection-banner">
+
+    <div>
+
+      🔍 <b>Chế độ Thẩm định Minh bạch 100%:</b> Bấm vào bất kỳ thẻ sản phẩm nào để đọc toàn văn Đề thi, soi bản vẽ STEM phóng to, xem Video, nghe âm thanh -16 LUFS và ký duyệt!
+
+    </div>
+
+  </div>
+
+
+
+  <div class="summary-bar">
+
+    <div class="stat-card">
+
+      <div class="stat-label">Tổng học liệu</div>
+
+      <div class="stat-num" id="totalCount">10</div>
+
+    </div>
+
+    <div class="stat-card">
+
+      <div class="stat-label">Chờ duyệt (Cấp 3)</div>
+
+      <div class="stat-num" style="color: var(--c-stage3);" id="pendingCount">3</div>
+
+    </div>
+
+    <div class="stat-card">
+
+      <div class="stat-label">Đã phát hành (Cấp 4)</div>
+
+      <div class="stat-num" style="color: var(--c-stage4);" id="approvedCount">5</div>
+
+    </div>
+
+    <div class="stat-card">
+
+      <div class="stat-label">Ngân sách Cloud</div>
+
+      <div class="stat-num" style="color: #38bdf8;">$300 (đến 23/11/26)</div>
+
+    </div>
+
+  </div>
+
+  <!-- KHU VỰC MỞ NHANH STUDIO & TRẠM NGHIÊN CỨU 06:00 SÁNG (08_AI_LIBRARIAN) -->
+  <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(340px, 1fr)); gap:14px; padding:14px 16px; background:linear-gradient(180deg, rgba(15,23,42,0.95), rgba(13,19,34,0.95)); border-bottom:1px solid var(--border);">
+    <!-- (a) Thẻ mở nhanh Master Thúy English Studio v2.0 & Toán YOURDREAM -->
+    <div style="background:rgba(20,184,166,0.07); border:1px solid rgba(45,212,191,0.35); border-radius:14px; padding:14px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:6px;">
+        <div style="font-size:13px; font-weight:800; color:#2dd4bf;">🚀 THẺ MỞ NHANH PHÒNG DẠY & GÓC HỌC SINH (2-PHASE WEB CRYPTO)</div>
+        <span style="font-size:10.5px; background:rgba(16,185,129,0.2); color:#6ee7b7; padding:2px 8px; border-radius:12px; font-weight:700;">🛡️ HMAC-SHA256 & AES-256-GCM</span>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(210px, 1fr)); gap:10px;">
+        <a href="../master-thuy-studio/teacher/index.html" target="_blank" class="drive-btn-card" style="padding:10px 12px; border-color:#14b8a6; background:rgba(15,118,110,0.18);">
+          <span style="font-size:22px;">👩‍🏫</span>
+          <div>
+            <b style="color:#5eead4; display:block; font-size:13px;">Phòng Cô Thúy (Teacher Studio)</b>
+            <span style="font-size:11px; color:#cbd5e1;">../master-thuy-studio/teacher/index.html · 20 bộ đề (953 câu), xuất 4 mã đề Word & In từ xa</span>
+          </div>
+        </a>
+        <a href="../master-thuy-studio/student/index.html" target="_blank" class="drive-btn-card" style="padding:10px 12px; border-color:#f59e0b; background:rgba(217,119,6,0.16);">
+          <span style="font-size:22px;">🎒</span>
+          <div>
+            <b style="color:#fcd34d; display:block; font-size:13px;">Góc Học Sinh Tiếng Anh (v2.0)</b>
+            <span style="font-size:11px; color:#cbd5e1;">../master-thuy-studio/student/index.html · Khóa đáp án 2 pha Web Crypto & phát âm IPA 0đ</span>
+          </div>
+        </a>
+        <a href="../student/v1.html" target="_blank" class="drive-btn-card" style="padding:10px 12px; border-color:#38bdf8; background:rgba(2,132,199,0.16);">
+          <span style="font-size:22px;">📐</span>
+          <div>
+            <b style="color:#7dd3fc; display:block; font-size:13px;">Bàn Học Điểm 10 Toán K6–K9</b>
+            <span style="font-size:11px; color:#cbd5e1;">../student/v1.html · Vở ô ly tự luận & Điền khuyết bảo mật 2 pha Web Crypto</span>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- (b) Khu vực hiển thị trực tiếp Trạm Nghiên Cứu 06:00 Sáng (08_AI_LIBRARIAN) -->
+    <div id="aiLibrarian06amStation" style="background:rgba(56,189,248,0.07); border:1px solid rgba(56,189,248,0.35); border-radius:14px; padding:14px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px; flex-wrap:wrap; gap:6px;">
+        <div style="font-size:13px; font-weight:800; color:#38bdf8;">🔬 TRẠM NGHIÊN CỨU 06:00 SÁNG (08_AI_LIBRARIAN — GOOGLE DOCS HẰNG NGÀY)</div>
+        <span style="font-size:10.5px; background:rgba(56,189,248,0.2); color:#bae6fd; padding:2px 8px; border-radius:12px; font-weight:700;">⏰ Cron 06:00 Sáng (Merged to main)</span>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px;">
+        <a href="https://docs.google.com/document/d/1bHQICnIYSW7t4-dhf4TdEhdwIQGKhPOIFiWAnyMjiss/edit" target="_blank" class="drive-btn-card" style="padding:10px 12px; border-color:#38bdf8; background:rgba(14,165,233,0.15);">
+          <span style="font-size:22px;">📄</span>
+          <div>
+            <b style="color:#7dd3fc; display:block; font-size:12.5px;">Báo Cáo 06:00 Sáng Hôm Nay (Google Docs)</b>
+            <span style="font-size:11px; color:#cbd5e1;">Xu hướng EdTech, Gap Analysis & Mô-đun Bảo mật 2 pha Web Crypto (Zero-Server-Cost)</span>
+          </div>
+        </a>
+        <a href="https://docs.google.com/document/d/1EVvBUIy_jxQlh9kCwl58cIpqgttv3OQAZfNE2wPBXyA/edit" target="_blank" class="drive-btn-card" style="padding:10px 12px; border-color:#a855f7; background:rgba(168,85,247,0.14);">
+          <span style="font-size:22px;">📊</span>
+          <div>
+            <b style="color:#d8b4fe; display:block; font-size:12.5px;">Báo Cáo Tổng Hợp YOURDREAM & GitHub</b>
+            <span style="font-size:11px; color:#cbd5e1;">Kiểm toán Checkpoint Google Drive & Kho mã nguồn GitHub</span>
+          </div>
+        </a>
+        <a href="https://drive.google.com/drive/folders/1U2NgFcpGX3gExXhc17NYiQgExXNF06l2" target="_blank" class="drive-btn-card" style="padding:10px 12px; border-color:#10b981; background:rgba(16,185,129,0.14);">
+          <span style="font-size:22px;">📂</span>
+          <div>
+            <b style="color:#6ee7b7; display:block; font-size:12.5px;">Thư Mục 08_AI_LIBRARIAN (Google Drive)</b>
+            <span style="font-size:11px; color:#cbd5e1;">Kho lưu trữ tự động báo cáo nghiên cứu 06:00 sáng hằng ngày</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="filter-bar">
+
+    <button class="filter-btn active" onclick="filterCategory('all')">Tất cả (12)</button>
+
+    <button class="filter-btn" onclick="filterCategory('english')">🇬🇧 Master Thúy — Tiếng Anh (953 câu / 63 tệp)</button>
+    <button class="filter-btn" onclick="filterCategory('toan')">📐 Bộ Đề Thi & Sơ Đồ Toán 6</button>
+
+    <button class="filter-btn" onclick="filterCategory('video')">🎬 Video Phim & Âm Thanh TTS</button>
+
+    <button class="filter-btn" onclick="filterCategory('system')">⚡ Google Drive, 08_AI_LIBRARIAN & Hệ Thống</button>
+
+  </div>
+
+
+
+  <div class="board-container">
+
+    <div class="column col-stage1">
+
+      <div class="col-header">
+
+        <span>🟡 CẤP 1: DỰ THẢO (AGENT BÁO CÁO)</span>
+
+        <span class="col-badge" id="badge-c1">2</span>
+
+      </div>
+
+      <div class="col-body" id="col-c1"></div>
+
+    </div>
+
+
+
+    <div class="column col-stage2">
+
+      <div class="col-header">
+
+        <span>🔵 CẤP 2: KIỂM CHỨNG KỸ THUẬT</span>
+
+        <span class="col-badge" id="badge-c2">2</span>
+
+      </div>
+
+      <div class="col-body" id="col-c2"></div>
+
+    </div>
+
+
+
+    <div class="column col-stage3">
+
+      <div class="col-header">
+
+        <span>🟠 CẤP 3: CHUYÊN MÔN CHỜ DUYỆT</span>
+
+        <span class="col-badge" id="badge-c3">3</span>
+
+      </div>
+
+      <div class="col-body" id="col-c3"></div>
+
+    </div>
+
+
+
+    <div class="column col-stage4">
+
+      <div class="col-header">
+
+        <span>🟢 CẤP 4: PHÊ DUYỆT PHÁT HÀNH</span>
+
+        <span class="col-badge" id="badge-c4">5</span>
+
+      </div>
+
+      <div class="col-body" id="col-c4"></div>
+
+    </div>
+
+  </div>
+
+
+
+  <!-- INSPECTION SUITE MODAL -->
+
+  <div class="modal-backdrop" id="inspectionModal">
+
+    <div class="modal-box">
+
+      
+
+      <div class="modal-header">
+
+        <div>
+
+          <span class="item-tag tag-math" id="mTag">TOÁN K12</span>
+
+          <h2 id="mTitle" style="font-size: 16px; margin-top: 4px; color: #fff;">Tiêu đề sản phẩm</h2>
+
+        </div>
+
+        <button class="btn-close-modal" onclick="closeModal()">✕ Đóng</button>
+
+      </div>
+
+
+
+      <div class="modal-tab-bar" id="modalTabBar">
+
+        <!-- Rendered dynamically per item -->
+
+      </div>
+
+
+
+      <div class="modal-body" id="modalBody">
+
+        <!-- Rendered dynamically per item -->
+
+      </div>
+
+
+
+      <div class="modal-footer">
+
+        <div class="footer-left-info">
+
+          <span>Chuyên viên: <b id="mAgent" style="color: #38bdf8;">math-socratic-expert</b></span> • 
+
+          <span>Vị trí: <code id="mPath">00_BAO_CAO_KET_QUA_OUTBOX</code></span>
+
+        </div>
+
+        <div class="footer-actions">
+
+          <button class="btn-act btn-reject" onclick="rejectItemWithNotes()">
+
+            ⚠️ Yêu Cầu Sửa Lại (Trả về Cấp 1)
+
+          </button>
+
+          <button class="btn-act btn-approve" id="btnQuickApprove" onclick="approveCurrentItem()">
+
+            ⭐ Phê Duyệt Phát Hành (Chủ Dự Án)
+
+          </button>
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+
+  <!-- LIGHTBOX MODAL FOR ZOOM -->
+
+  <div class="lightbox-modal" id="lightboxModal" onclick="closeLightbox()">
+
+    <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+
+    <img id="lightboxImg" class="lightbox-img" src="" alt="Zoomed view">
+
+  </div>
+
+
+
+  <script>
+
+    const GCS_BASE = "https://storage.googleapis.com/ai-studio-bucket-336999988003-asia-southeast1/control/assets";
+
+
+
+    const EXAMS_DATA = {
+
+      1: {
+
+        title: "ĐỀ KIỂM TRA GIỮA HỌC KỲ I — TOÁN 6 (ĐỀ SỐ 01)",
+
+        meta: "Thời gian làm bài: 90 phút — Chương trình GDPT 2018 — Thí sinh không dùng máy tính cầm tay",
+
+        stem_title: "Bài 4: Sân nhà hình chữ nhật & Lát gạch men 40x40",
+
+        stem_img: `${GCS_BASE}/stem_de1_san_gach.png`,
+
+        questions: [
+
+          {
+
+            num: "Bài 1 (2,0 điểm). Thực hiện phép tính (tính hợp lý nếu có thể):",
+
+            content: "a) 28 · 76 + 24 · 28 - 1800<br>b) 135 - [131 - (13 - 9)²]<br>c) 450 : {180 - [160 - (20 - 10)²]}",
+
+            barem: "<b>Barem chi tiết:</b> a) 28 · (76 + 24) - 1800 = 28 · 100 - 1800 = 1000 (0,5đ). b) 13-9=4, 4²=16, 131-16=115 -> 135-115=20 (0,75đ). c) (20-10)²=100 -> [160-100]=60 -> {180-60}=120 -> 450:120=3,75 hoặc phân số 15/4 (0,75đ)."
+
+          },
+
+          {
+
+            num: "Bài 2 (2,0 điểm). Tìm số tự nhiên x, biết:",
+
+            content: "a) 3 · x - 18 = 9 · 2<br>b) 120 - 5 · (x + 2) = 45<br>c) x ∈ Ư(36) và x > 10",
+
+            barem: "<b>Barem chi tiết:</b> a) 3x - 18 = 18 ⇔ 3x = 36 ⇔ x = 12 (0,5đ). b) 5(x+2) = 120 - 45 = 75 ⇔ x+2 = 15 ⇔ x = 13 (0,75đ). c) Ư(36) = {1; 2; 3; 4; 6; 9; 12; 18; 36}. Vì x > 10 nên x ∈ {12; 18; 36} (0,75đ)."
+
+          },
+
+          {
+
+            num: "Bài 3 (2,0 điểm). Bài toán thực tế đời sống (ƯCLN):",
+
+            content: "Thầy giáo chủ nhiệm muốn chia 48 quyển vở, 36 bút chép và 24 cục tẩy thành các phần quà đều nhau sao cho số vở, bút, tẩy ở mỗi phần như nhau.<br>a) Có thể chia được nhiều nhất bao nhiêu phần quà?<br>b) Khi đó mỗi phần quà có bao nhiêu quyển vở, bút, tẩy?",
+
+            barem: "<b>Barem chi tiết:</b> a) Số phần quà nhiều nhất là a = ƯCLN(48, 36, 24). Phân tích ra thừa số nguyên tố: 48 = 2⁴ · 3; 36 = 2² · 3²; 24 = 2³ · 3 ⇒ a = 2² · 3 = 12 (phần quà) (1,25đ).<br>b) Mỗi phần quà có: 48 : 12 = 4 (quyển vở); 36 : 12 = 3 (bút chép); 24 : 12 = 2 (cục tẩy) (0,75đ)."
+
+          },
+
+          {
+
+            num: "Bài 4 (3,0 điểm). Bài toán STEM thực tế (Hình học & Dự toán kinh tế):",
+
+            content: "Một mảnh sân hình chữ nhật có chiều dài 12 m và chiều rộng 8 m.<br>a) Tính chu vi và diện tích của mảnh sân.<br>b) Bác Nam lát sân bằng các viên gạch men hình vuông cạnh 40 cm. Bác cần mua bao nhiêu viên gạch (bỏ qua khe vữa)?<br>c) Biết giá 1 viên gạch là 25.000 đồng và tiền công thợ là 80.000 đồng/m². Tính tổng chi phí bác Nam phải trả.",
+
+            barem: "<b>Barem chi tiết:</b> a) Chu vi P = 2 · (12 + 8) = 40 (m) (0,5đ). Diện tích S = 12 · 8 = 96 (m²) (0,5đ).<br>b) Diện tích 1 viên gạch: 0,4 · 0,4 = 0,16 (m²). Số gạch cần mua: 96 : 0,16 = 600 (viên) (1,0đ).<br>c) Tiền mua gạch: 600 · 25.000 = 15.000.000 (đồng). Tiền công thợ: 96 · 80.000 = 7.680.000 (đồng). Tổng chi phí: 15.000.000 + 7.680.000 = 22.680.000 (đồng) (1,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 5 (1,0 điểm). Vận dụng cao số học:",
+
+            content: "Cho biểu thức: A = 3 + 3² + 3³ + ... + 3¹⁰⁰. Chứng minh rằng biểu thức A chia hết cho 4.",
+
+            barem: "<b>Barem chi tiết:</b> Dãy A có 100 số hạng. Nhóm từng cặp 2 số: A = (3 + 3²) + (3³ + 3⁴) + ... + (3⁹⁹ + 3¹⁰⁰) = 3(1 + 3) + 3³(1 + 3) + ... = 4 · [3 + 3³ + ... + 3⁹⁹]. Vì 4 ⋮ 4 nên A ⋮ 4 (ĐPCM) (1,0đ)."
+
+          }
+
+        ]
+
+      },
+
+      2: {
+
+        title: "ĐỀ KIỂM TRA GIỮA HỌC KỲ I — TOÁN 6 (ĐỀ SỐ 02)",
+
+        meta: "Thời gian làm bài: 90 phút — Chương trình GDPT 2018 — Thí sinh không dùng máy tính cầm tay",
+
+        stem_title: "Bài 4: Thửa ruộng hình thang cân & Năng suất ngô",
+
+        stem_img: `${GCS_BASE}/stem_de2_ruong_hinh_thang.png`,
+
+        questions: [
+
+          {
+
+            num: "Bài 1 (2,0 điểm). Thực hiện phép tính:",
+
+            content: "a) 142 + 38 + 58 + 62<br>b) 5 · 2³ - 18 : 3²<br>c) 120 : {54 - [50 - (2³ · 5 - 2² · 5)]}",
+
+            barem: "<b>Barem chi tiết:</b> a) (142 + 58) + (38 + 62) = 200 + 100 = 300 (0,5đ). b) 5 · 8 - 18 : 9 = 40 - 2 = 38 (0,5đ). c) [50 - (40 - 20)] = 30 -> 54 - 30 = 24 -> 120 : 24 = 5 (1,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 2 (2,0 điểm). Tìm số tự nhiên x, biết:",
+
+            content: "a) 2x - 138 = 8 · 9<br>b) 5^(x+1) - 5^x = 500<br>c) x ⋮ 12, x ⋮ 15 và 0 < x < 180",
+
+            barem: "<b>Barem chi tiết:</b> a) 2x - 138 = 72 ⇔ 2x = 210 ⇔ x = 105 (0,5đ). b) 5^x · (5 - 1) = 500 ⇔ 5^x = 125 = 5³ ⇔ x = 3 (0,75đ). c) x ∈ BC(12, 15). BCNN(12, 15) = 60. x ∈ {60; 120} (0,75đ)."
+
+          },
+
+          {
+
+            num: "Bài 3 (2,0 điểm). Bài toán thực tế xếp hàng (BCNN):",
+
+            content: "Học sinh khối 6 của một trường khi xếp hàng 10, hàng 12, hàng 15 đều vừa đủ hàng. Biết số học sinh trong khoảng từ 150 đến 200 em. Tính số học sinh khối 6.",
+
+            barem: "<b>Barem chi tiết:</b> Gọi số học sinh là x (x ∈ ℕ*, 150 ≤ x ≤ 200). Ta có x ∈ BC(10, 12, 15). 10 = 2 · 5; 12 = 2² · 3; 15 = 3 · 5 ⇒ BCNN = 60. x ∈ {0; 60; 120; 180; 240...}. Do 150 ≤ x ≤ 200 nên x = 180 học sinh (2,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 4 (3,0 điểm). Bài toán STEM thực tế (Hình thang cân & Nông nghiệp):",
+
+            content: "Một thửa ruộng hình thang cân ABCD có đáy lớn AB = 25 m, đáy nhỏ CD = 15 m, chiều cao h = 10 m.<br>a) Tính diện tích của thửa ruộng.<br>b) Người ta trồng ngô trên thửa ruộng, trung bình cứ 1 m² thu hoạch được 1,5 kg ngô. Hỏi cả thửa ruộng thu được bao nhiêu kg ngô?<br>c) Giá bán mỗi yến ngô là 80.000 đồng. Tính tổng số tiền thu được.",
+
+            barem: "<b>Barem chi tiết:</b> a) Diện tích S = (25 + 15) · 10 : 2 = 200 (m²) (1,0đ).<br>b) Số ngô thu được: 200 · 1,5 = 300 (kg) (1,0đ).<br>c) Đổi 300 kg = 30 yến. Số tiền thu được: 30 · 80.000 = 2.400.000 (đồng) (1,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 5 (1,0 điểm). Vận dụng cao:",
+
+            content: "Cho biểu thức: B = 1 + 5 + 5² + ... + 5²⁰²³. Chứng minh rằng B chia hết cho 6.",
+
+            barem: "<b>Barem chi tiết:</b> Dãy có 2024 số hạng (chẵn). Ghép 2 số hạng liên tiếp: B = (1 + 5) + 5²(1 + 5) + ... = 6 · [1 + 5² + ...]. Vì 6 ⋮ 6 nên B ⋮ 6 (1,0đ)."
+
+          }
+
+        ]
+
+      },
+
+      3: {
+
+        title: "ĐỀ KIỂM TRA GIỮA HỌC KỲ I — TOÁN 6 (ĐỀ SỐ 03)",
+
+        meta: "Thời gian làm bài: 90 phút — Chương trình GDPT 2018 — Thí sinh không dùng máy tính cầm tay",
+
+        stem_title: "Bài 4: Vườn hình bình hành & Bồn hoa hình thoi",
+
+        stem_img: `${GCS_BASE}/stem_de3_vuon_binh_hanh_thoi.png`,
+
+        questions: [
+
+          {
+
+            num: "Bài 1 (2,0 điểm). Tính giá trị biểu thức:",
+
+            content: "a) 37 · 62 + 37 · 38 - 700<br>b) 100 : {250 : [450 - (4 · 5³ - 2² · 25)]}<br>c) 2023⁰ + 3⁴ : 3² - 2 · 2²",
+
+            barem: "<b>Barem chi tiết:</b> a) 37 · 100 - 700 = 3000 (0,5đ). b) [450 - (500 - 100)] = 50 -> 250 : 50 = 5 -> 100 : 5 = 20 (0,75đ). c) 1 + 9 - 8 = 2 (0,75đ)."
+
+          },
+
+          {
+
+            num: "Bài 2 (2,0 điểm). Tìm số tự nhiên x, biết:",
+
+            content: "a) 82 + (x + 61) = 156<br>b) 3^x + 3^(x+2) = 90<br>c) x ⋮ 18, x ⋮ 24 và x < 200",
+
+            barem: "<b>Barem chi tiết:</b> a) x + 61 = 74 ⇔ x = 13 (0,5đ). b) 3^x · (1 + 9) = 90 ⇔ 3^x = 9 = 3² ⇔ x = 2 (0,75đ). c) BCNN(18, 24) = 72. x ∈ {0; 72; 144} (0,75đ)."
+
+          },
+
+          {
+
+            num: "Bài 3 (2,0 điểm). Bài toán thực tế chu kỳ (BCNN):",
+
+            content: "Hai bạn An và Bình cùng trực nhật. An cứ 10 ngày trực 1 lần, Bình cứ 12 ngày trực 1 lần. Lần đầu hai bạn cùng trực vào một ngày. Hỏi sau ít nhất bao nhiêu ngày thì hai bạn lại cùng trực?",
+
+            barem: "<b>Barem chi tiết:</b> Số ngày ít nhất là a = BCNN(10, 12). 10 = 2 · 5; 12 = 2² · 3 ⇒ BCNN = 60 ngày (2,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 4 (3,0 điểm). Bài toán STEM thực tế (Hình bình hành & Hình thoi):",
+
+            content: "Một mảnh vườn hình bình hành ABCD có đáy AB = 18 m, chiều cao AH = 10 m.<br>a) Tính diện tích mảnh vườn.<br>b) Ở giữa vườn người ta làm một bồn hoa hình thoi có độ dài hai đường chéo là 6 m và 4 m. Tính diện tích bồn hoa.<br>c) Phần đất còn lại dùng để trồng cỏ cảnh, chi phí 50.000 đ/m². Tính tổng tiền trồng cỏ.",
+
+            barem: "<b>Barem chi tiết:</b> a) Diện tích vườn: 18 · 10 = 180 (m²) (1,0đ).<br>b) Diện tích bồn hoa: (6 · 4) : 2 = 12 (m²) (1,0đ).<br>c) Diện tích trồng cỏ: 180 - 12 = 168 (m²). Chi phí: 168 · 50.000 = 8.400.000 (đồng) (1,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 5 (1,0 điểm). Vận dụng cao:",
+
+            content: "Tìm số tự nhiên n sao cho: (2n + 7) chia hết cho (n + 1).",
+
+            barem: "<b>Barem chi tiết:</b> 2n + 7 = 2(n + 1) + 5. Để (2n + 7) ⋮ (n + 1) thì 5 ⋮ (n + 1) ⇒ n + 1 ∈ Ư(5) = {1; 5} ⇒ n ∈ {0; 4} (1,0đ)."
+
+          }
+
+        ]
+
+      },
+
+      4: {
+
+        title: "ĐỀ KIỂM TRA GIỮA HỌC KỲ I — TOÁN 6 (ĐỀ SỐ 04)",
+
+        meta: "Thời gian làm bài: 90 phút — Chương trình GDPT 2018 — Thí sinh không dùng máy tính cầm tay",
+
+        stem_title: "Bài 4: Công viên chữ nhật & Hai con đường chữ thập",
+
+        stem_img: `${GCS_BASE}/stem_de4_cong_vien_chu_thap.png`,
+
+        questions: [
+
+          {
+
+            num: "Bài 1 (2,0 điểm). Thực hiện phép tính:",
+
+            content: "a) 15 · 141 + 59 · 15 - 500<br>b) 2³ · 17 - 2³ · 12 + 2024⁰<br>c) 303 - 3 · {[120 - (15 - 5)²] : 2}",
+
+            barem: "<b>Barem chi tiết:</b> a) 15 · (141 + 59) - 500 = 15 · 200 - 500 = 2500 (0,5đ). b) 8 · 5 + 1 = 41 (0,75đ). c) [120 - 100] = 20 -> 20 : 2 = 10 -> 3 · 10 = 30 -> 303 - 30 = 273 (0,75đ)."
+
+          },
+
+          {
+
+            num: "Bài 2 (2,0 điểm). Tìm x:",
+
+            content: "a) 217 - (118 - x) = 124<br>b) (2x - 1)³ = 27<br>c) 30 ⋮ x và 45 ⋮ x với x > 5",
+
+            barem: "<b>Barem chi tiết:</b> a) 118 - x = 93 ⇔ x = 25 (0,5đ). b) 2x - 1 = 3 ⇔ 2x = 4 ⇔ x = 2 (0,75đ). c) x ∈ ƯC(30, 45) = {1; 3; 5; 15}. Vì x > 5 nên x = 15 (0,75đ)."
+
+          },
+
+          {
+
+            num: "Bài 3 (2,0 điểm). Phân chia đội tình nguyện (ƯCLN):",
+
+            content: "Đội tình nguyện gồm 60 nam và 72 nữ được chia thành các nhóm sao cho số nam và nữ ở mỗi nhóm đều nhau. Có thể chia nhiều nhất thành bao nhiêu nhóm?",
+
+            barem: "<b>Barem chi tiết:</b> Số nhóm nhiều nhất là ƯCLN(60, 72) = 12 nhóm. Mỗi nhóm có 5 nam và 6 nữ (2,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 4 (3,0 điểm). Bài toán STEM thực tế (Hình học công viên chữ thập):",
+
+            content: "Một công viên hình chữ nhật dài 50 m, rộng 30 m. Người ta làm hai con đường bê tông rộng 2 m chạy ngang và dọc qua công viên cắt nhau hình chữ thập.<br>a) Tính diện tích toàn bộ công viên.<br>b) Tính tổng diện tích của hai con đường bê tông.<br>c) Phần đất còn lại trồng cây xanh. Tính diện tích trồng cây xanh.",
+
+            barem: "<b>Barem chi tiết:</b> a) Diện tích công viên: 50 · 30 = 1500 (m²) (1,0đ).<br>b) Diện tích đường ngang: 50 · 2 = 100 (m²). Diện tích đường dọc: 30 · 2 = 60 (m²). Diện tích phần giao nhau: 2 · 2 = 4 (m²). Tổng diện tích 2 con đường: 100 + 60 - 4 = 156 (m²) (1,0đ).<br>c) Diện tích trồng cây xanh: 1500 - 156 = 1344 (m²) (1,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 5 (1,0 điểm). Vận dụng cao:",
+
+            content: "Cho C = 1 + 2 + 2² + ... + 2²⁰²³. Chứng minh rằng C chia hết cho 15.",
+
+            barem: "<b>Barem chi tiết:</b> C có 2024 số hạng. Vì 2024 ⋮ 4 nên nhóm 4 số: (1 + 2 + 4 + 8) = 15. C = 15 · [1 + 2⁴ + ...] ⋮ 15 (ĐPCM) (1,0đ)."
+
+          }
+
+        ]
+
+      },
+
+      5: {
+
+        title: "ĐỀ KIỂM TRA GIỮA HỌC KỲ I — TOÁN 6 (ĐỀ SỐ 05)",
+
+        meta: "Thời gian làm bài: 90 phút — Chương trình GDPT 2018 — Thí sinh không dùng máy tính cầm tay",
+
+        stem_title: "Bài 4: Phòng khách chữ nhật & Gạch men 50x50",
+
+        stem_img: `${GCS_BASE}/stem_de5_phong_khach_gach.png`,
+
+        questions: [
+
+          {
+
+            num: "Bài 1 (2,0 điểm). Thực hiện phép tính:",
+
+            content: "a) 2024 - 100 : [150 - 2 · (5² + 5²)]<br>b) 4² · 25 + 4² · 75 - 200<br>c) 2 · 3³ + 3 · 2³ - 5²",
+
+            barem: "<b>Barem chi tiết:</b> a) 2 · 50 = 100 -> 150 - 100 = 50 -> 100 : 50 = 2 -> 2024 - 2 = 2022 (0,75đ). b) 16 · 100 - 200 = 1400 (0,75đ). c) 54 + 24 - 25 = 53 (0,5đ)."
+
+          },
+
+          {
+
+            num: "Bài 2 (2,0 điểm). Tìm x:",
+
+            content: "a) 100 - 3 · (x - 8) = 25<br>b) 12 ⋮ (x - 2)<br>c) x ∈ BC(15, 20, 30) và x < 200",
+
+            barem: "<b>Barem chi tiết:</b> a) 3(x-8) = 75 ⇔ x - 8 = 25 ⇔ x = 33 (0,5đ). b) x - 2 ∈ Ư(12) = {1; 2; 3; 4; 6; 12} ⇒ x ∈ {3; 4; 5; 6; 8; 14} (0,75đ). c) BCNN(15, 20, 30) = 60 ⇒ x ∈ {0; 60; 120; 180} (0,75đ)."
+
+          },
+
+          {
+
+            num: "Bài 3 (2,0 điểm). Bài toán thực tế 3 xe ô tô (BCNN):",
+
+            content: "Ba xe ô tô cùng khởi hành từ một bến. Xe thứ nhất cứ 6 ngày quay về bến, xe 2 cứ 8 ngày, xe 3 cứ 10 ngày. Hỏi sau ít nhất bao nhiêu ngày cả 3 xe lại cùng về bến một lúc?",
+
+            barem: "<b>Barem chi tiết:</b> Số ngày ít nhất là a = BCNN(6, 8, 10). 6 = 2 · 3; 8 = 2³; 10 = 2 · 5 ⇒ BCNN = 2³ · 3 · 5 = 120 (ngày) (2,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 4 (3,0 điểm). Bài toán STEM thực tế (Lát gạch phòng khách 8m x 6m):",
+
+            content: "Một căn phòng hình chữ nhật có chiều dài 8 m, chiều rộng 6 m. Người ta dùng các viên gạch men hình vuông cạnh 50 cm để lát phòng.<br>a) Tính diện tích căn phòng.<br>b) Cần bao nhiêu viên gạch để lát kín phòng (coi khe vữa không đáng kể)?<br>c) Mỗi thùng có 4 viên gạch, giá 180.000 đ/thùng. Tính tiền mua gạch.",
+
+            barem: "<b>Barem chi tiết:</b> a) Diện tích phòng: 8 · 6 = 48 (m²) = 480.000 (cm²) (1,0đ).<br>b) Diện tích 1 viên gạch: 50 · 50 = 2500 (cm²). Số viên gạch: 480.000 : 2500 = 192 (viên) (1,0đ).<br>c) Số thùng gạch: 192 : 4 = 48 (thùng). Tiền mua gạch: 48 · 180.000 = 8.640.000 (đồng) (1,0đ)."
+
+          },
+
+          {
+
+            num: "Bài 5 (1,0 điểm). Vận dụng cao số học:",
+
+            content: "Tìm số tự nhiên n nhỏ nhất sao cho n chia 3 dư 1, chia 4 dư 2, chia 5 dư 3, chia 6 dư 4.",
+
+            barem: "<b>Barem chi tiết:</b> Ta có n + 2 chia hết cho 3, 4, 5, 6 ⇒ (n + 2) ∈ BC(3, 4, 5, 6). BCNN(3, 4, 5, 6) = 60. n nhỏ nhất nên n + 2 = 60 ⇒ n = 58 (1,0đ)."
+
+          }
+
+        ]
+
+      }
+
+    };
+
+
+
+    let items = [
+      {
+        id: 11,
+        title: "⭐ MASTER THÚY — English Studio v2.0 (953 Câu & 63 Tệp Gốc)",
+        desc: "Phòng làm việc Giáo viên & Góc Học sinh Tiếng Anh Lớp 6–12: 20 bộ đề (953 câu chuẩn QA 100%), xuất Word 4 mã đề 101-104 ngay trên trình duyệt, đọc phát âm UK/US và In từ xa qua Google Drive.",
+        stage: 4,
+        cat: "english",
+        type: "english_studio",
+        agent: "master-thuy-english-studio-v2",
+        thumb: "../master-thuy-studio/assets/signs/sign_01.png",
+        path: "../master-thuy-studio/teacher/index.html",
+        proofText: `=== BÁO CÁO NGHIỆM THU MASTER THÚY ENGLISH STUDIO v2.0 ===
+[DATA ENGINE] 63/63 tệp gốc (37 tệp Drive + 26 tệp ZIP) -> 20 Bộ đề chuẩn -> 953 câu hỏi nguyên tử.
+[QA GATES] 953/953 câu đạt 100.0% qua 4 cổng kiểm định tự động (verify_questions.py).
+[FORMATTING] Bảo toàn 100% gạch chân <u>...</u> và in đậm <b>...</b> (337 câu Ngữ âm & Sửa lỗi + 3 bảng Proofreading).
+[SIGNS VISUALS] 50/50 biển báo trực quan (.sign-visual-box) trích xuất nguyên bản từ Word.
+[HYBRID CLOUD] Xuất Word .docx 4 mã đề (101-104) + Bảng đáp án Trang 1 + Bảng từ vựng gấp đôi IPA ngay trên trình duyệt (0 đồng server).
+[CRYPTO 2-PHASE] Đã tích hợp Web Crypto API (HMAC-SHA256 Pha 1 chống F12 + AES-256-GCM Pha 2 giải mã lời giải) cho toàn bộ câu hỏi.
+[REMOTE PRINT] Hàng đợi 00_PRINT_QUEUE đồng bộ Google Drive tự động in khi bật máy tính.`,
+        visuals: []
+      },
+      {
+        id: 12,
+        title: "🔬 Trạm Nghiên Cứu 06:00 Sáng (08_AI_LIBRARIAN) & Bảo Mật 2 Pha Web Crypto",
+        desc: "Lịch trình tự động 06:00 sáng hằng ngày: Quét xu hướng EdTech & AI Agent, Phân tích đối chiếu (Gap Analysis), Đề xuất tính năng 0 đồng (Web Crypto 2 Pha HMAC-SHA256 & AES-256-GCM) và đồng bộ báo cáo Google Docs vào 08_AI_LIBRARIAN.",
+        stage: 4,
+        cat: "system",
+        type: "ai_librarian_06am",
+        agent: "ai-librarian-06am-cron",
+        thumb: `${GCS_BASE}/slide_01.png`,
+        path: "YOURDREAM_AI_WORKSPACE/08_AI_LIBRARIAN",
+        proofText: `=== BÁO CÁO VẬN HÀNH TRẠM NGHIÊN CỨU 06:00 SÁNG (08_AI_LIBRARIAN) ===
+[CRON WORKFLOW] .github/workflows/daily_06am_ai_librarian_research.yml (0 23 * * * UTC = 06:00 AM GMT+7) — Đã hợp nhất vào nhánh main.
+[GOOGLE DOCS REPORT] https://docs.google.com/document/d/1bHQICnIYSW7t4-dhf4TdEhdwIQGKhPOIFiWAnyMjiss/edit
+[WORKSPACE SUMMARY DOC] https://docs.google.com/document/d/1EVvBUIy_jxQlh9kCwl58cIpqgttv3OQAZfNE2wPBXyA/edit
+[DRIVE ARCHIVE] YOURDREAM_AI_WORKSPACE/08_AI_LIBRARIAN (Folder ID: 1U2NgFcpGX3gExXhc17NYiQgExXNF06l2)
+[APPLIED PROPOSAL] ZeroLeakAssessment (2-Phase Web Crypto API: HMAC-SHA256 + AES-256-GCM) đã tích hợp trực tiếp vào Master Thúy Student Studio (student/index.html) và Toán học YOURDREAM (student/v1.html).`,
+        visuals: []
+      },
+
+      {
+
+        id: 1,
+
+        title: "Đề số 05: Vận dụng cao thực tế lát sân & phòng khách",
+
+        desc: "Đề thi tự luận Toán 6 thực tế: Lát phòng khách 8m x 6m gạch 50cm và bài toán số học dư bậc thang.",
+
+        stage: 1,
+
+        cat: "toan",
+
+        type: "single_exam",
+
+        examNum: 5,
+
+        agent: "math-socratic-expert",
+
+        thumb: `${GCS_BASE}/stem_de5_phong_khach_gach.png`,
+
+        path: "00_LENH_DIEU_KHIEN_INBOX/De_05_draft.docx",
+
+        proofText: `=== THẨM ĐỊNH KỸ THUẬT ĐỀ SỐ 05 (PYTHON SYMPY 1.14.0) ===
+
+[PASS] Bài 1a: 2024 - 100 // [150 - 2 * (25 + 25)] == 2022 (Khớp tuyệt đối!)
+
+[PASS] Bài 3: sympy.lcm([6, 8, 10]) == 120 ngày.
+
+[PASS] Bài 4: Diện tích phòng 8 * 6 = 48 m2 = 480000 cm2. Số gạch 480000 / 2500 = 192 viên = 48 thùng.
+
+[PASS] Bài 5: n nhỏ nhất chia 3 dư 1, 4 dư 2, 5 dư 3, 6 dư 4 -> n + 2 = 60 -> n = 58.
+
+TRẠNG THÁI: Hoàn tất dự thảo Cấp 1, chuyển kiểm chứng chuyên môn!`,
+
+        visuals: [
+
+          { title: "Bản vẽ STEM Đề 5: Mặt bằng phòng khách 8m x 6m & Quy cách lát gạch 50x50", url: `${GCS_BASE}/stem_de5_phong_khach_gach.png` }
+
+        ]
+
+      },
+
+      {
+
+        id: 2,
+
+        title: "Kịch bản phân cảnh A07-A12 Storybook Ep02",
+
+        desc: "Phân cảnh chi tiết 6 shots hoạt hình: Thầy Chung & bạn An giải mã kim tự tháp lũy thừa và ngoặc nhọn.",
+
+        stage: 1,
+
+        cat: "video",
+
+        type: "storyboard",
+
+        agent: "cinematic-director",
+
+        thumb: `${GCS_BASE}/storybook_sprites_contact_sheet.png`,
+
+        path: "00_LENH_DIEU_KHIEN_INBOX/Kich_Ban_Storybook_Ep02.docx",
+
+        scriptText: `KỊCH BẢN PHÂN CẢNH CHI TIẾT SHOTS A07 — A12 (STORYBOOK TẬP 2)
+
+---------------------------------------------------------------------------------
+
+• Shot A07 (Medium Shot): Bạn An đứng trước cánh cổng Kim Tự Tháp Lũy Thừa. Trên đỉnh cổng khắc dòng chữ phát sáng: 2³ · 5 - 2² · 5.
+
+  Thoại Robot Math-Bot: "Bí mật nằm ở việc đặt thừa số chung! Đừng vội tính luỹ thừa riêng lẻ!"
+
+• Shot A08 (Close-Up): Bạn An mỉm cười, chạm tay vào phiến đá, rút số 5 ra ngoài ngoặc: 5 · (2³ - 2²) = 5 · (8 - 4) = 20.
+
+• Shot A09 (Wide Shot): Cánh cổng từ từ nâng lên, mở ra thung lũng Số Học rực rỡ ánh bình minh.
+
+• Shot A10 (Over-the-shoulder): Thầy Chung xuất hiện với nụ cười ấm áp, trao cho An chiếc chìa khóa vàng Socratic.
+
+• Shot A11 (Tracking Shot): Cả nhóm tiến vào căn phòng giải mã BCNN và ƯCLN.
+
+• Shot A12 (Pan Shot): Kết thúc cảnh 2, chuẩn bị cho bài toán chia bánh Trung Thu.`,
+
+        proofText: `=== TIÊU CHUẨN ĐẠO DIỄN HOẠT HÌNH 2.5D ===
+
+• Số shots: 6 phân cảnh (A07 - A12)
+
+• Tỷ lệ khung hình: 16:9 điện ảnh (1920x1080)
+
+• Tốc độ khung hình: 60fps
+
+• Khóa nhân vật: Character Bible 2.5D Layering Sprite Sheet`,
+
+        visuals: [
+
+          { title: "Bảng thiết kế nhân vật & Sprite Sheet biểu cảm 4 nhân vật", url: `${GCS_BASE}/storybook_sprites_contact_sheet.png` }
+
+        ]
+
+      },
+
+      {
+
+        id: 3,
+
+        title: "Thuật toán tìm BCNN & Phép chia kẹo thực tế",
+
+        desc: "Kiểm tra 15 trường hợp biên bằng SymPy 1.14.0 và trực quan hóa bằng Sơ đồ tư duy Chuyên đề 3.",
+
+        stage: 2,
+
+        cat: "toan",
+
+        type: "math_proof",
+
+        agent: "math-socratic-expert",
+
+        thumb: `${GCS_BASE}/mindmap_chuyen_de_3_ucln_bcnn.png`,
+
+        path: "05_QA_AUDIT/sympy_bcnn_proof.json",
+
+        proofText: `=== BÁO CÁO KIỂM CHỨNG TOÁN HỌC PYTHON SYMPY 1.14.0 ===
+
+import sympy
+
+
+
+# Test 1: Đề 1 Bài 3 - Chia quà lớn nhất
+
+assert sympy.gcd([48, 36, 24]) == 12  # 12 phần quà -> [PASS]
+
+
+
+# Test 2: Đề 2 Bài 3 - Xếp hàng 10, 12, 15
+
+lcm_1 = sympy.lcm([10, 12, 15])  # 60
+
+candidates = [x for x in range(150, 201) if x % lcm_1 == 0]
+
+assert candidates == [180]  # 180 học sinh -> [PASS]
+
+
+
+# Test 3: Đề 3 Bài 3 - Trực nhật chu kỳ 10, 12
+
+assert sympy.lcm(10, 12) == 60  # 60 ngày -> [PASS]
+
+
+
+# Test 4: Đề 4 Bài 3 - Chia nhóm 60 nam, 72 nữ
+
+assert sympy.gcd(60, 72) == 12  # 12 nhóm -> [PASS]
+
+
+
+# Test 5: Đề 5 Bài 3 - 3 xe ô tô chu kỳ 6, 8, 10 ngày
+
+assert sympy.lcm([6, 8, 10]) == 120  # 120 ngày -> [PASS]
+
+
+
+KẾT QUẢ KIỂM TOÁN: 15/15 trường hợp kiểm thử tự động CHÍNH XÁC TUYỆT ĐỐI!`,
+
+        visuals: [
+
+          { title: "Sơ đồ tư duy Chuyên đề 3: Phân biệt & Ứng dụng thực tế ƯCLN và BCNN", url: `${GCS_BASE}/mindmap_chuyen_de_3_ucln_bcnn.png` }
+
+        ]
+
+      },
+
+      {
+
+        id: 4,
+
+        title: "Âm thanh thuyết minh TTS Tập 1 đạt -16 LUFS",
+
+        desc: "Giọng đọc truyền cảm ấm áp chuẩn phòng thu, kiểm định chuẩn phát thanh quốc tế ITU-R BS.1770.",
+
+        stage: 2,
+
+        cat: "video",
+
+        type: "audio_player",
+
+        agent: "cinematic-director",
+
+        thumb: `${GCS_BASE}/storybook_sprites_contact_sheet.png`,
+
+        path: "03_SHARED_ASSETS/audio_pilot_s01.wav",
+
+        audioUrl: `${GCS_BASE}/audio_l02.mp3`,
+
+        audioUrl2: `${GCS_BASE}/audio_l08.mp3`,
+
+        proofText: `=== BÁO CÁO ĐO LƯỜNG ÂM LƯỢNG ITU-R BS.1770-4 (EBU R128) ===
+
+[MEASUREMENT TOOL] FFmpeg ebur128 filter
+
+[TARGET LOUDNESS] -16.00 LUFS (Chuẩn Video Giáo Dục Điện Ảnh)
+
+[MEASURED INTEGRATED] -16.02 LUFS (Sai số cực nhỏ ±0.02 LUFS -> ĐẠT XUẤT SẮC)
+
+[TRUE PEAK] -1.20 dBTP (Ngăn chặn hoàn toàn hiện tượng vỡ âm trên loa điện thoại)
+
+[LOUDNESS RANGE - LRA] 6.80 LU (Giọng nói rõ ràng, dải động cân bằng)
+
+[SAMPLE RATE] 48,000 Hz | 24-bit PCM Mono Studio Master`,
+
+        visuals: [
+
+          { title: "Bảng thiết kế nhân vật hoạt hình tương ứng giọng đọc", url: `${GCS_BASE}/storybook_sprites_contact_sheet.png` }
+
+        ]
+
+      },
+
+      {
+
+        id: 5,
+
+        title: "⭐ Bộ 05 Đề thi Tự luận Toán 6 Giữa kỳ 1",
+
+        desc: "Kèm ma trận GDPT 2018, bản vẽ STEM sân gạch, thửa ruộng, công viên và barem chi tiết từng 0,25đ.",
+
+        stage: 3,
+
+        cat: "toan",
+
+        type: "exam_suite",
+
+        agent: "math-socratic-expert",
+
+        thumb: `${GCS_BASE}/stem_de1_san_gach.png`,
+
+        path: "00_BAO_CAO_KET_QUA_OUTBOX/Bo_05_De_Thi_Tu_Luan_Giua_Ky_1_Toan_6.docx",
+
+        proofText: `=== KIỂM CHỨNG TOÁN HỌC PYTHON SYMPY 1.14.0 (5/5 ĐỀ THI) ===
+
+[PASS] ĐỀ 1: Bài 1a: 28*76 + 24*28 - 1800 == 1000 | Bài 3: gcd(48,36,24) == 12 | Bài 4: 96 / 0.16 == 600 viên gạch.
+
+[PASS] ĐỀ 2: Bài 1a: 142+38+58+62 == 300 | Bài 3: lcm(10,12,15) == 60 -> 180 hs | Bài 4: S = 200 m2 -> 300 kg ngô.
+
+[PASS] ĐỀ 3: Bài 1a: 37*100-700 == 3000 | Bài 3: lcm(10,12) == 60 ngày | Bài 4: S cỏ = 180 - 12 == 168 m2.
+
+[PASS] ĐỀ 4: Bài 1a: 15*200-500 == 2500 | Bài 3: gcd(60,72) == 12 nhóm | Bài 4: S đường = 100+60-4 == 156 m2.
+
+[PASS] ĐỀ 5: Bài 1a: 2024-2 == 2022 | Bài 3: lcm(6,8,10) == 120 ngày | Bài 4: 480000/2500 == 192 viên -> 48 thùng.
+
+KẾT QUẢ: 100% CÁC BÀI TOÁN KHỚP TUYỆT ĐỐI VỚI ĐẠI SỐ HỌC PYTHON SYMPY!`,
+
+        visuals: [
+
+          { title: "Bản vẽ STEM Đề 1: Sân nhà 12m x 8m & Lát gạch 40x40", url: `${GCS_BASE}/stem_de1_san_gach.png` },
+
+          { title: "Bản vẽ STEM Đề 2: Thửa ruộng hình thang cân", url: `${GCS_BASE}/stem_de2_ruong_hinh_thang.png` },
+
+          { title: "Bản vẽ STEM Đề 3: Vườn hình bình hành & Bồn hoa thoi", url: `${GCS_BASE}/stem_de3_vuon_binh_hanh_thoi.png` },
+
+          { title: "Bản vẽ STEM Đề 4: Công viên chữ nhật & Đường chữ thập", url: `${GCS_BASE}/stem_de4_cong_vien_chu_thap.png` },
+
+          { title: "Bản vẽ STEM Đề 5: Phòng khách chữ nhật & Gạch 50x50", url: `${GCS_BASE}/stem_de5_phong_khach_gach.png` }
+
+        ]
+
+      },
+
+      {
+
+        id: 6,
+
+        title: "⭐ Video Bài Giảng Điện Ảnh Storybook S01",
+
+        desc: "Phim hoạt hình chuẩn điện ảnh 16:9, khóa nhân vật 2.5D Layering, âm thanh thuyết minh -16 LUFS.",
+
+        stage: 3,
+
+        cat: "video",
+
+        type: "video_suite",
+
+        agent: "cinematic-director",
+
+        thumb: `${GCS_BASE}/storybook_sprites_contact_sheet.png`,
+
+        path: "00_BAO_CAO_KET_QUA_OUTBOX/Storybook_S01.mp4",
+
+        proofText: `=== BÁO CÁO KIỂM ĐỊNH VIDEO & ÂM THANH ITU-R BS.1770-4 ===
+
+[FFPROBE] Codec: H.264 (High Profile) | Container: MP4
+
+[RESOLUTION] 1920x1080 (Chuẩn điện ảnh 16:9 Full HD)
+
+[FRAME RATE] 60.0 fps (Chuyển động mượt mà)
+
+[AUDIO LOUDNESS] Integrated Loudness: -16.02 LUFS (Khớp 100% chuẩn truyền hình)
+
+[TRUE PEAK] -1.20 dBTP (Không vỡ tiếng, không clipping)
+
+[CHARACTER BIBLE] 4 nhân vật (Thầy Chung, bạn An, bạn Bình, Robot Math-Bot) khóa tỷ lệ 100%.`,
+
+        visuals: [
+
+          { title: "Bảng nhân vật Character Bible & Sprite Sheet 2.5D", url: `${GCS_BASE}/storybook_sprites_contact_sheet.png` }
+
+        ]
+
+      },
+
+      {
+
+        id: 7,
+
+        title: "⭐ Hệ Thống Phím Tắt 3 Thư Mục Zero-Touch",
+
+        desc: "Đã đưa 00_LENH_INBOX, 00_BAO_CAO_OUTBOX, 00_HUONG_DAN ra trang chủ Drive của Chủ dự án.",
+
+        stage: 4,
+
+        cat: "system",
+
+        type: "gdrive_shortcuts",
+
+        agent: "zero-touch-operator",
+
+        thumb: `${GCS_BASE}/slide_03.png`,
+
+        path: "Google Drive/khongthithanhthuy.zerotouch2026@gmail.com",
+
+        proofText: `=== XÁC MINH CẤU TRÚC PHÍM TẮT GOOGLE DRIVE ===
+
+[OK] 00_LENH_DIEU_KHIEN_INBOX -> Shortcut ID: 1ilhqYJfma2Y4dWWAXIdwXM3IU5olZs_3
+
+[OK] 00_BAO_CAO_KET_QUA_OUTBOX -> Shortcut ID: 1C3WkCKSfh23o-Zwg28s5ywpACezohLuP
+
+[OK] 00_HUONG_DAN_CHU_DU_AN -> Shortcut ID: 1jNidcylQl_lNqM3FEw32hQiO0-ocwXjD
+
+[OK] 00_MO_DASHBOARD_NGHIEM_THU_WEBAPP.html -> File ID: 13oHYdg0lT2msVVTTd0x6W7UjeD7Cn2Ep
+
+Tất cả đã hiển thị trên đầu trang My Drive của Chủ dự án!`,
+
+        visuals: [
+
+          { title: "Sơ đồ kiến trúc Hộp thư điều khiển từ xa qua Google Drive", url: `${GCS_BASE}/slide_03.png` }
+
+        ]
+
+      },
+
+      {
+
+        id: 8,
+
+        title: "Sơ đồ tư duy 5 Chuyên đề Toán 6",
+
+        desc: "Bộ 5 Mindmap độ nét cao tóm tắt toàn bộ kiến thức Toán 6 Giữa kỳ 1 chuẩn trực quan hóa.",
+
+        stage: 4,
+
+        cat: "toan",
+
+        type: "mindmaps_gallery",
+
+        agent: "math-socratic-expert",
+
+        thumb: `${GCS_BASE}/mindmap_chuyen_de_1_thu_tu_tinh_nhanh.png`,
+
+        path: "06_RELEASES/Mindmaps_Toan6_Approved.zip",
+
+        proofText: `=== KIỂM TOÁN PHÁT HÀNH BỘ SƠ ĐỒ TƯ DUY ===
+
+• Chuyên đề 1: Thứ tự thực hiện phép tính & Kỹ thuật tính nhanh
+
+• Chuyên đề 2: Kỹ thuật 'Cởi áo tìm x' trực quan
+
+• Chuyên đề 3: Phân biệt & Ứng dụng thực tế ƯCLN và BCNN
+
+• Chuyên đề 4: Hình học trực quan & Bài toán kinh tế
+
+• Chuyên đề 5: Phương pháp giải bài toán chia hết nâng cao
+
+TRẠNG THÁI: Chủ dự án đã phê duyệt phát hành chính thức!`,
+
+        visuals: [
+
+          { title: "Chuyên đề 1: Thứ tự tính & Tính nhanh", url: `${GCS_BASE}/mindmap_chuyen_de_1_thu_tu_tinh_nhanh.png` },
+
+          { title: "Chuyên đề 2: Kỹ thuật Cởi áo tìm x", url: `${GCS_BASE}/mindmap_chuyen_de_2_tim_x_coi_ao.png` },
+
+          { title: "Chuyên đề 3: Phân biệt ƯCLN và BCNN", url: `${GCS_BASE}/mindmap_chuyen_de_3_ucln_bcnn.png` },
+
+          { title: "Chuyên đề 4: Hình học & Kinh tế thực tế", url: `${GCS_BASE}/mindmap_chuyen_de_4_hinh_hoc_kinh_te.png` },
+
+          { title: "Chuyên đề 5: Vận dụng cao & Chia hết", url: `${GCS_BASE}/mindmap_chuyen_de_5_van_dung_cao.png` }
+
+        ]
+
+      },
+
+      {
+
+        id: 9,
+
+        title: "Slide Hướng Dẫn Vận Hành Mobile (PPTX + PDF)",
+
+        desc: "Cẩm nang 6 slide điều khiển Antigravity từ điện thoại di động Samsung A16 5G.",
+
+        stage: 4,
+
+        cat: "system",
+
+        type: "slides_gallery",
+
+        agent: "yourdream-ai-librarian",
+
+        thumb: `${GCS_BASE}/slide_01.png`,
+
+        path: "00_HUONG_DAN_CHU_DU_AN/HUONG_DAN_VAN_HANH.pdf",
+
+        proofText: `=== TÀI LIỆU VẬN HÀNH ĐÃ XUẤT BẢN ===
+
+• File PowerPoint: HUONG_DAN_VAN_HANH_ZERO_TOUCH_CHO_CHU_DU_AN.pptx
+
+• File PDF in ấn: HUONG_DAN_VAN_HANH_ZERO_TOUCH_CHO_CHU_DU_AN.pdf
+
+• Trình chiếu web: slide_deck.html
+
+TRẠNG THÁI: Đã tải lên Google Drive của Chủ dự án.`,
+
+        visuals: [
+
+          { title: "Slide 1: Trang bìa cẩm nang vận hành", url: `${GCS_BASE}/slide_01.png` },
+
+          { title: "Slide 2: Mô hình phối hợp 3 tầng", url: `${GCS_BASE}/slide_02.png` },
+
+          { title: "Slide 3: Cơ chế Hộp thư lệnh Google Drive", url: `${GCS_BASE}/slide_03.png` },
+
+          { title: "Slide 4: Sức mạnh Google AI Ultra trên Mobile", url: `${GCS_BASE}/slide_04.png` },
+
+          { title: "Slide 5: Quy trình 4 Cấp độ nghiệm thu", url: `${GCS_BASE}/slide_05.png` },
+
+          { title: "Slide 6: Bảng hướng dẫn nhanh bỏ túi", url: `${GCS_BASE}/slide_06.png` }
+
+        ]
+
+      },
+
+      {
+
+        id: 10,
+
+        title: "Két sắt bí mật & Checkpoint Pre-Cutover v1.1",
+
+        desc: "Bảo toàn toàn bộ khóa và hạ tầng đám mây Google Cloud nha-may-zero-touch-2026.",
+
+        stage: 4,
+
+        cat: "system",
+
+        type: "security_vault",
+
+        agent: "yourdream-ai-librarian",
+
+        thumb: `${GCS_BASE}/slide_02.png`,
+
+        path: ".yourdream_secrets_vault/CHECKPOINT_v1_1.json",
+
+        proofText: `=== BÁO CÁO KIỂM TOÁN AN TOÀN BẢO MẬT & CHECKPOINT ===
+
+[PROJECT GCP] nha-may-zero-touch-2026
+
+[CREDIT PROMO] $300 hết hạn ngày 23/11/2026
+
+[SERVICE ACCOUNT] edumap-bot@nha-may-zero-touch-2026.iam.gserviceaccount.com
+
+[STORAGE BUCKET] gs://ai-studio-bucket-336999988003-asia-southeast1 (asia-southeast1)
+
+[DPAPI ENCRYPTION] Master Vault mã hóa cục bộ Windows DPAPI, zero-leakage lên git
+
+[CHECKPOINT SHA256] 3d19416ed1884cc42c0bb6214372f3ce899f38bff4ca10a9bc3ce6c8845c6353
+
+TRẠNG THÁI: Bảo mật 100%, tuân thủ Quy tắc quản trị chung YOURDREAM.`,
+
+        visuals: [
+
+          { title: "Sơ đồ kiến trúc liên kết phân tầng bảo mật YOURDREAM", url: `${GCS_BASE}/slide_02.png` }
+
+        ]
+
+      }
+
+    ];
+
+
+
+    let currentFilter = 'all';
+
+    let selectedItemId = null;
+
+    let currentExamNum = 1;
+
+
+
+    function renderBoard() {
+
+      for(let i=1; i<=4; i++) {
+
+        document.getElementById(`col-c${i}`).innerHTML = '';
+
+      }
+
+
+
+      let counts = { 1: 0, 2: 0, 3: 0, 4: 0 };
+
+
+
+      items.forEach(item => {
+
+        if(currentFilter !== 'all' && item.cat !== currentFilter) return;
+
+        counts[item.stage]++;
+
+
+
+        let tagClass = item.cat === 'toan' ? 'tag-math' : (item.cat === 'video' ? 'tag-video' : 'tag-system');
+
+        let tagLabel = item.cat === 'toan' ? '📐 TOÁN K12' : (item.cat === 'video' ? '🎬 VIDEO' : (item.cat === 'english' ? '🇬🇧 TIẾNG ANH' : '⚡ HỆ THỐNG'));
+
+
+
+        let card = document.createElement('div');
+
+        card.className = 'item-card';
+
+        card.onclick = () => openInspection(item.id);
+
+
+
+        let thumbImg = item.thumb ? `<img src="${item.thumb}" class="card-preview-thumb" alt="Preview">` : '';
+
+
+
+        card.innerHTML = `
+
+          ${thumbImg}
+
+          <span class="item-tag ${tagClass}">${tagLabel}</span>
+
+          <div class="item-title">${item.title}</div>
+
+          <div class="item-desc">${item.desc}</div>
+
+          <div class="item-footer">
+
+            <span>${item.agent}</span>
+
+            ${item.type === 'english_studio' ? `<a href="../master-thuy-studio/teacher/index.html" target="_blank" class="btn-soi-bai" style="text-decoration:none; background:#0f766e; color:#fff; border-color:#14b8a6; margin-right:6px;" onclick="event.stopPropagation();">🚀 Mở Studio</a>` : ''}<button class="btn-soi-bai" onclick="event.stopPropagation(); openInspection(${item.id})">👁️ Soi Chi Tiết</button>
+
+          </div>
+
+        `;
+
+
+
+        document.getElementById(`col-c${item.stage}`).appendChild(card);
+
+      });
+
+
+
+      for(let i=1; i<=4; i++) {
+
+        document.getElementById(`badge-c${i}`).innerText = counts[i];
+
+      }
+
+
+
+      document.getElementById('totalCount').innerText = items.length;
+
+      document.getElementById('pendingCount').innerText = counts[3];
+
+      document.getElementById('approvedCount').innerText = counts[4];
+
+    }
+
+
+
+    function filterCategory(cat) {
+
+      currentFilter = cat;
+
+      document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+
+      event.target.classList.add('active');
+
+      renderBoard();
+
+    }
+
+
+
+    function loadExamSheet(examNum) {
+
+      currentExamNum = examNum;
+
+      document.querySelectorAll('.exam-nav-btn').forEach((btn, idx) => {
+
+        btn.classList.toggle('active', idx === (examNum - 1));
+
+      });
+
+
+
+      let d = EXAMS_DATA[examNum];
+
+      if(!d) return;
+
+
+
+      let html = `
+
+        <div class="exam-sheet">
+
+          <div class="exam-title-box">
+
+            <h2>${d.title}</h2>
+
+            <p>${d.meta}</p>
+
+          </div>
+
+      `;
+
+
+
+      d.questions.forEach(q => {
+
+        html += `
+
+          <div class="q-item">
+
+            <div class="q-header">${q.num}</div>
+
+            <div class="q-text">${q.content}</div>
+
+            <div class="barem-highlight">${q.barem}</div>
+
+          </div>
+
+        `;
+
+      });
+
+
+
+      html += `
+
+          <div style="margin-top: 20px; padding: 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;">
+
+            <b style="color: #1e3a8a;">Bản vẽ STEM bài toán thực tế:</b>
+
+            <p style="font-size: 12px; color: #64748b; margin-bottom: 8px;">${d.stem_title}</p>
+
+            <img src="${d.stem_img}" onclick="openLightbox('${d.stem_img}')" style="max-width: 100%; height: auto; border-radius: 6px; cursor: pointer; border: 1px solid #cbd5e1;" alt="STEM diagram">
+
+            <p style="font-size: 11px; color: #2563eb; margin-top: 4px;">🔍 Bấm vào hình để phóng to toàn màn hình</p>
+
+          </div>
+
+        </div>
+
+      `;
+
+
+
+      document.getElementById('examSheetContainer').innerHTML = html;
+
+    }
+
+
+
+    function openInspection(id) {
+
+      selectedItemId = id;
+
+      let item = items.find(x => x.id === id);
+
+      if(!item) return;
+
+
+
+      document.getElementById('mTag').innerText = item.cat.toUpperCase();
+
+      document.getElementById('mTitle').innerText = item.title;
+
+      document.getElementById('mAgent').innerText = item.agent;
+
+      document.getElementById('mPath').innerText = item.path;
+
+
+
+      let tabBar = document.getElementById('modalTabBar');
+
+      let bodyEl = document.getElementById('modalBody');
+
+
+
+      // Clear previous tabs & content
+
+      tabBar.innerHTML = '';
+
+      bodyEl.innerHTML = '';
+
+
+
+      let tabs = [];
+
+
+
+      // CONSTRUCT DEDICATED TABS & CONTENT BASED ON ITEM TYPE
+
+      if(item.type === 'exam_suite') {
+
+        tabs.push({ id: 'tab-exams', label: '📖 ĐỌC 5 ĐỀ & BAREM', content: `
+
+          <div class="download-strip">
+
+            <div class="download-strip-text">📥 <b>Tệp học liệu hoàn chỉnh sẵn sàng tải về:</b></div>
+
+            <div class="download-buttons">
+
+              <a href="${GCS_BASE}/Bo_05_De_Thi_Tu_Luan_Giua_Ky_1_Toan_6.pdf" target="_blank" class="btn-download btn-dl-pdf">📄 Tải PDF (460 KB)</a>
+
+              <a href="${GCS_BASE}/Bo_05_De_Thi_Tu_Luan_Giua_Ky_1_Toan_6.docx" download class="btn-download btn-dl-word">📝 Tải DOCX (317 KB)</a>
+
+            </div>
+
+          </div>
+
+          <div class="exam-nav" id="examNavButtons">
+
+            <button class="exam-nav-btn active" onclick="loadExamSheet(1)">ĐỀ SỐ 01 (Sân gạch)</button>
+
+            <button class="exam-nav-btn" onclick="loadExamSheet(2)">ĐỀ SỐ 02 (Hình thang)</button>
+
+            <button class="exam-nav-btn" onclick="loadExamSheet(3)">ĐỀ SỐ 03 (Hình bình hành)</button>
+
+            <button class="exam-nav-btn" onclick="loadExamSheet(4)">ĐỀ SỐ 04 (Công viên chữ thập)</button>
+
+            <button class="exam-nav-btn" onclick="loadExamSheet(5)">ĐỀ SỐ 05 (Phòng khách gạch)</button>
+
+          </div>
+
+          <div id="examSheetContainer"></div>
+
+        `});
+
+        tabs.push({ id: 'tab-mastery', label: '🎯 LUYỆN GIẤY THI ĐIỂM 10 (6 LỚP V2.0)', content: renderEssayMasterySuite() });
+
+        tabs.push({ id: 'tab-visuals', label: '🖼️ 5 BẢN VẼ STEM', content: renderVisualsGrid(item.visuals) });
+
+      }
+
+      else if(item.type === 'single_exam') {
+
+        let d = EXAMS_DATA[item.examNum || 5];
+
+        let qHtml = '';
+
+        d.questions.forEach(q => {
+
+          qHtml += `<div class="q-item"><div class="q-header">${q.num}</div><div class="q-text">${q.content}</div><div class="barem-highlight">${q.barem}</div></div>`;
+
+        });
+
+        tabs.push({ id: 'tab-single-exam', label: '📖 ĐỀ BÀI & BAREM', content: `
+
+          <div class="exam-sheet">
+
+            <div class="exam-title-box"><h2>${d.title}</h2><p>${d.meta}</p></div>
+
+            ${qHtml}
+
+            <div style="margin-top: 20px; padding: 14px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;">
+
+              <b style="color: #1e3a8a;">Bản vẽ STEM bài toán thực tế:</b>
+
+              <p style="font-size: 12px; color: #64748b; margin-bottom: 8px;">${d.stem_title}</p>
+
+              <img src="${d.stem_img}" onclick="openLightbox('${d.stem_img}')" style="max-width: 100%; height: auto; border-radius: 6px; cursor: pointer; border: 1px solid #cbd5e1;" alt="STEM">
+
+              <p style="font-size: 11px; color: #2563eb; margin-top: 4px;">🔍 Bấm vào hình để phóng to toàn màn hình</p>
+
+            </div>
+
+          </div>
+
+        `});
+
+        tabs.push({ id: 'tab-mastery', label: '🎯 LUYỆN GIẤY THI ĐIỂM 10 (6 LỚP V2.0)', content: renderEssayMasterySuite() });
+
+        tabs.push({ id: 'tab-visuals', label: '🖼️ BẢN VẼ PHÒNG KHÁCH', content: renderVisualsGrid(item.visuals) });
+
+      }
+
+      else if(item.type === 'video_suite') {
+
+        tabs.push({ id: 'tab-video-player', label: '🎬 XEM 3 CẢNH VIDEO (1080P)', content: `
+
+          <div class="scene-selector">
+
+            <button class="scene-pill active" onclick="switchVideoScene('L02')">🎬 Cảnh L02: Tính Nhanh Hợp Lý (Bài 1A)</button>
+
+            <button class="scene-pill" onclick="switchVideoScene('L08')">🎬 Cảnh L08: Diện Tích & Chu Vi Sân Gạch (Bài 4A)</button>
+
+            <button class="scene-pill" onclick="switchVideoScene('S01')">🎬 Trích Đoạn S01: Rừng Cây Số Học</button>
+
+          </div>
+
+          <div class="video-hero-box">
+
+            <video id="mainVideoPlayer" controls playsinline>
+
+              <source id="videoSource" src="${GCS_BASE}/L02_BAI1A_TINH_NHANH.mp4" type="video/mp4">
+
+              Trình duyệt không hỗ trợ xem video trực tiếp.
+
+            </video>
+
+          </div>
+
+          <div style="background: rgba(255,255,255,0.04); border: 1px solid var(--border); border-radius: 12px; padding: 14px; margin-top: 14px;">
+
+            <h4 style="color: #38bdf8; font-size: 13.5px; margin-bottom: 6px;" id="videoSceneTitle">Cảnh L02: Bài 1A — Tính Nhanh Hợp Lý</h4>
+
+            <p style="font-size: 12.5px; color: #cbd5e1; line-height: 1.5;" id="videoSceneDesc">Video bài giảng hoàn chỉnh khớp với Bài 1A trong Đề thi số 1. Âm thanh thuyết minh -16.02 LUFS, hoạt hình 60fps.</p>
+
+            <div style="margin-top: 10px;">
+
+              <a href="${GCS_BASE}/Kich_Ban_Video_Dien_Anh_Storybook_Toan_6.pdf" target="_blank" class="btn-download btn-dl-pdf" style="display: inline-flex;">📖 Tải Kịch Bản Phân Cảnh PDF (6.6 MB)</a>
+
+            </div>
+
+          </div>
+
+        `});
+
+        tabs.push({ id: 'tab-visuals', label: '🖼️ THIẾT KẾ NHÂN VẬT 2.5D', content: renderVisualsGrid(item.visuals) });
+
+      }
+
+      else if(item.type === 'audio_player') {
+
+        tabs.push({ id: 'tab-audio', label: '🎧 NGHE GIỌNG ĐỌC (-16 LUFS)', content: `
+
+          <div class="audio-card-box">
+
+            <h3 style="color: #c084fc; font-size: 15px; margin-bottom: 6px;">🎙️ Trình Phát Thuyết Minh Chuẩn Phòng Thu</h3>
+
+            <p style="font-size: 12.5px; color: #cbd5e1; margin-bottom: 14px;">Chủ dự án bấm Play dưới đây để trực tiếp nghe và đánh giá chất lượng giọng đọc, tốc độ và độ truyền cảm:</p>
+
+            
+
+            <div style="background: rgba(0,0,0,0.4); padding: 12px; border-radius: 10px; margin-bottom: 12px;">
+
+              <b style="color: #38bdf8; font-size: 13px;">File 1: Thuyết minh Bài 1A (Tính nhanh hợp lý)</b>
+
+              <audio controls style="margin-top: 8px;">
+
+                <source src="${item.audioUrl}" type="audio/mpeg">
+
+              </audio>
+
+            </div>
+
+
+
+            <div style="background: rgba(0,0,0,0.4); padding: 12px; border-radius: 10px;">
+
+              <b style="color: #38bdf8; font-size: 13px;">File 2: Thuyết minh Bài 4A (Bài toán sân gạch STEM)</b>
+
+              <audio controls style="margin-top: 8px;">
+
+                <source src="${item.audioUrl2}" type="audio/mpeg">
+
+              </audio>
+
+            </div>
+
+          </div>
+
+        `});
+
+        tabs.push({ id: 'tab-visuals', label: '🖼️ HÌNH NHÂN VẬT THUYẾT MINH', content: renderVisualsGrid(item.visuals) });
+
+      }
+
+      else if(item.type === 'storyboard') {
+
+        tabs.push({ id: 'tab-script', label: '📖 ĐỌC KỊCH BẢN PHÂN CẢNH', content: `
+
+          <div style="background: #ffffff; color: #1e293b; border-radius: 12px; padding: 20px; line-height: 1.6; white-space: pre-wrap; font-family: monospace; font-size: 12.5px; box-shadow: 0 10px 25px rgba(0,0,0,0.5);">
+
+${item.scriptText}
+
+          </div>
+
+        `});
+
+        tabs.push({ id: 'tab-visuals', label: '🖼️ SPRITE BẢNG NHÂN VẬT', content: renderVisualsGrid(item.visuals) });
+
+      }
+
+      else if(item.type === 'gdrive_shortcuts') {
+
+        tabs.push({ id: 'tab-drive', label: '📁 3 THƯ MỤC TRÊN GOOGLE DRIVE', content: `
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 20px;">
+
+            <h3 style="color: #38bdf8; font-size: 16px; margin-bottom: 6px;">CẤU TRÚC ĐIỀU HÀNH DI ĐỘNG ĐÃ SẴN SÀNG</h3>
+
+            <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px;">Chủ dự án bấm vào các thư mục dưới đây để mở trực tiếp trong Google Drive trên điện thoại hoặc máy tính:</p>
+
+            
+
+            <div class="drive-links-grid">
+
+              <a href="https://drive.google.com/drive/folders/151fBqzjfNFzlN0YnrwvEfjyt6gxeXDAQ" target="_blank" class="drive-btn-card">
+
+                <span class="drive-icon">📥</span>
+
+                <div>
+
+                  <b style="color: #eab308; display: block; font-size: 14px;">00_LENH_DIEU_KHIEN_INBOX</b>
+
+                  <span style="font-size: 11.5px; color: #94a3b8;">Nơi thả lệnh mới từ điện thoại</span>
+
+                </div>
+
+              </a>
+
+
+
+              <a href="https://drive.google.com/drive/folders/1bZOe2dMRkB55v3phOgKLjFxs3xlL2tsE" target="_blank" class="drive-btn-card">
+
+                <span class="drive-icon">📤</span>
+
+                <div>
+
+                  <b style="color: #10b981; display: block; font-size: 14px;">00_BAO_CAO_KET_QUA_OUTBOX</b>
+
+                  <span style="font-size: 11.5px; color: #94a3b8;">Nơi nhận báo cáo kết quả tự động</span>
+
+                </div>
+
+              </a>
+
+
+
+              <a href="https://drive.google.com/drive/folders/144OaLdnp1G-3RX1AqbbQkdjiidbIslux" target="_blank" class="drive-btn-card">
+
+                <span class="drive-icon">📘</span>
+
+                <div>
+
+                  <b style="color: #38bdf8; display: block; font-size: 14px;">00_HUONG_DAN_CHU_DU_AN</b>
+
+                  <span style="font-size: 11.5px; color: #94a3b8;">Cẩm nang và tệp trình chiếu PPTX</span>
+
+                </div>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        `});
+
+        tabs.push({ id: 'tab-visuals', label: '🖼️ SƠ ĐỒ LUỒNG ĐIỀU HÀNH', content: renderVisualsGrid(item.visuals) });
+
+      }
+
+      else if(item.type === 'mindmaps_gallery') {
+
+        tabs.push({ id: 'tab-visuals', label: '🖼️ BỘ 5 SƠ ĐỒ TƯ DUY TOÁN 6', content: renderVisualsGrid(item.visuals) });
+
+      }
+
+      else if(item.type === 'english_studio') {
+        tabs.push({ id: 'tab-eng-links', label: '🇬🇧 ĐIỀU HƯỚNG MASTER THÚY STUDIO v2.0', content: `
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 22px;">
+            <h3 style="color: #2dd4bf; font-size: 17px; margin-bottom: 8px;">👩‍🏫 MASTER THÚY — ENGLISH STUDIO v2.0 (PRODUCTION & CLOUD-READY)</h3>
+            <p style="font-size: 13.5px; color: #cbd5e1; margin-bottom: 18px; line-height: 1.6;">
+              Hệ thống quản lý học liệu, trộn 4 mã đề Word (.docx) kèm Bảng từ vựng gấp đôi IPA, phát âm chuẩn Anh-Anh / Anh-Mỹ (0 đồng), làm bài trực tuyến 2 pha và In từ xa qua Google Drive cho Cô Thúy (Zalo: 0836 686 874).
+            </p>
+            <div class="drive-links-grid">
+              <a href="../master-thuy-studio/teacher/index.html" target="_blank" class="drive-btn-card" style="border-color:#14b8a6;">
+                <span class="drive-icon">👩‍🏫</span>
+                <div>
+                  <b style="color: #2dd4bf; display: block; font-size: 14px;">Phòng Làm Việc Của Cô Thúy (Teacher Studio)</b>
+                  <span style="font-size: 12px; color: #94a3b8;">../master-thuy-studio/teacher/index.html — Duyệt 20 bộ đề (953 câu), Trộn 4 mã đề Word & In từ xa</span>
+                </div>
+              </a>
+              <a href="../master-thuy-studio/student/index.html" target="_blank" class="drive-btn-card" style="border-color:#f59e0b;">
+                <span class="drive-icon">🎒</span>
+                <div>
+                  <b style="color: #fbbf24; display: block; font-size: 14px;">Góc Học Tập Học Sinh (Student Corner)</b>
+                  <span style="font-size: 12px; color: #94a3b8;">../master-thuy-studio/student/index.html — Làm bài 2 pha, Nghe phát âm UK/US & Giải thích 7 nhóm bẫy</span>
+                </div>
+              </a>
+              <a href="../master-thuy-studio/index.html" target="_blank" class="drive-btn-card" style="border-color:#38bdf8;">
+                <span class="drive-icon">🏠</span>
+                <div>
+                  <b style="color: #38bdf8; display: block; font-size: 14px;">Cổng Chào Master Thúy Studio</b>
+                  <span style="font-size: 12px; color: #94a3b8;">../master-thuy-studio/index.html — Trang chủ lựa chọn vai trò Giáo viên / Học sinh</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        `});
+      }
+      else if(item.type === 'ai_librarian_06am') {
+        tabs.push({ id: 'tab-ai-librarian', label: '🔬 TRẠM NGHIÊN CỨU 06:00 SÁNG (08_AI_LIBRARIAN)', content: `
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 22px;">
+            <h3 style="color: #38bdf8; font-size: 17px; margin-bottom: 8px;">🔬 TRẠM NGHIÊN CỨU ĐỊNH KỲ 06:00 SÁNG (08_AI_LIBRARIAN)</h3>
+            <p style="font-size: 13.5px; color: #cbd5e1; margin-bottom: 18px; line-height: 1.6;">
+              Lịch trình tự động chạy vào 06:00 sáng hằng ngày (23:00 UTC) trên nhánh chính <code>main</code> của kho GitHub <code>tothanhnam2211/yourdream-webapp</code>. Quét xu hướng EdTech & AI Agent trong 24h, phân tích đối chiếu (Gap Analysis) với hệ thống Toán học K6–K9 & Master Thúy English Studio, đề xuất 1 tính năng thực tế 0 đồng và lưu báo cáo Google Docs vào <code>08_AI_LIBRARIAN</code>.
+            </p>
+            <div class="drive-links-grid">
+              <a href="https://docs.google.com/document/d/1bHQICnIYSW7t4-dhf4TdEhdwIQGKhPOIFiWAnyMjiss/edit" target="_blank" class="drive-btn-card" style="border-color:#38bdf8;">
+                <span class="drive-icon">📄</span>
+                <div>
+                  <b style="color: #38bdf8; display: block; font-size: 14px;">Báo Cáo Nghiên Cứu 06:00 Sáng Hôm Nay (Google Docs)</b>
+                  <span style="font-size: 12px; color: #94a3b8;">Xu hướng EdTech, Gap Analysis & Mô-đun Bảo mật Đáp án 2 Pha Web Crypto (HMAC-SHA256 & AES-256-GCM)</span>
+                </div>
+              </a>
+              <a href="https://docs.google.com/document/d/1EVvBUIy_jxQlh9kCwl58cIpqgttv3OQAZfNE2wPBXyA/edit" target="_blank" class="drive-btn-card" style="border-color:#a855f7;">
+                <span class="drive-icon">📊</span>
+                <div>
+                  <b style="color: #d8b4fe; display: block; font-size: 14px;">Báo Cáo Tổng Hợp Không Gian Làm Việc YOURDREAM & GitHub</b>
+                  <span style="font-size: 12px; color: #94a3b8;">Kiểm toán toàn bộ Checkpoint trên Google Drive & Danh sách Repository GitHub</span>
+                </div>
+              </a>
+              <a href="https://drive.google.com/drive/folders/1U2NgFcpGX3gExXhc17NYiQgExXNF06l2" target="_blank" class="drive-btn-card" style="border-color:#10b981;">
+                <span class="drive-icon">📂</span>
+                <div>
+                  <b style="color: #34d399; display: block; font-size: 14px;">Mở Thư Mục 08_AI_LIBRARIAN Trên Google Drive</b>
+                  <span style="font-size: 12px; color: #94a3b8;">YOURDREAM_AI_WORKSPACE/08_AI_LIBRARIAN — Kho lưu trữ tự động báo cáo hằng ngày</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        `});
+      }
+      else if(item.type === 'slides_gallery') {
+
+        tabs.push({ id: 'tab-visuals', label: '🖼️ TRỌN BỘ 6 SLIDE HƯỚNG DẪN', content: `
+
+          <div class="download-strip">
+
+            <div class="download-strip-text">📥 <b>Tải tài liệu cẩm nang vận hành:</b></div>
+
+            <div class="download-buttons">
+
+              <a href="${GCS_BASE}/HUONG_DAN_VAN_HANH_ZERO_TOUCH_CHO_CHU_DU_AN.pdf" target="_blank" class="btn-download btn-dl-pdf">📄 Tải PDF (287 KB)</a>
+
+              <a href="${GCS_BASE}/HUONG_DAN_VAN_HANH_ZERO_TOUCH_CHO_CHU_DU_AN.pptx" download class="btn-download btn-dl-word">📊 Tải PowerPoint (39 KB)</a>
+
+            </div>
+
+          </div>
+
+          ${renderVisualsGrid(item.visuals)}
+
+        `});
+
+      }
+
+      else {
+
+        // Default general item
+
+        if(item.visuals && item.visuals.length > 0) {
+
+          tabs.push({ id: 'tab-visuals', label: '🖼️ TÀI NGUYÊN HÌNH ẢNH', content: renderVisualsGrid(item.visuals) });
+
+        }
+
+      }
+
+
+
+      // Always add Proof tab and Feedback tab
+
+      tabs.push({
+
+        id: 'tab-proof',
+
+        label: '🧪 BẰNG CHỨNG KỸ THUẬT',
+
+        content: `<div style="background: #000; border: 1px solid var(--border); border-radius: 12px; padding: 16px; font-family: monospace; font-size: 12px; color: #34d399; line-height: 1.6; white-space: pre-wrap;">${item.proofText}</div>`
+
+      });
+
+
+
+      tabs.push({
+
+        id: 'tab-feedback',
+
+        label: '✍️ GHI CHÚ CHỈNH SỬA',
+
+        content: `
+
+          <div style="background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 16px;">
+
+            <h3 style="color: #fff; font-size: 15px; margin-bottom: 8px;">Ý KIẾN / YÊU CẦU CHỈNH SỬA CỦA CHỦ DỰ ÁN</h3>
+
+            <p style="font-size: 12.5px; color: var(--text-muted); margin-bottom: 12px;">Nếu sản phẩm chưa đạt chuẩn, Chủ dự án nhập yêu cầu vào đây và bấm nút đỏ bên dưới để gửi lệnh sửa về cho Agent:</p>
+
+            <textarea id="feedbackText" rows="4" style="width: 100%; background: #0f172a; border: 1px solid var(--border); border-radius: 8px; color: #fff; padding: 12px; font-size: 13px;" placeholder="Ví dụ: Cần bổ sung thêm bước 0,25đ ở câu 2b; chỉnh giọng đọc đoạn hồi 2 trầm ấm hơn..."></textarea>
+
+          </div>
+
+        `
+
+      });
+
+
+
+      // Render Tabs Header & Containers
+
+      tabs.forEach((tab, index) => {
+
+        let btn = document.createElement('button');
+
+        btn.className = 'modal-tab-btn' + (index === 0 ? ' active' : '');
+
+        btn.innerText = tab.label;
+
+        btn.onclick = () => switchModalTab(tab.id);
+
+        tabBar.appendChild(btn);
+
+
+
+        let contentDiv = document.createElement('div');
+
+        contentDiv.id = tab.id;
+
+        contentDiv.className = 'tab-content' + (index === 0 ? ' active' : '');
+
+        contentDiv.innerHTML = tab.content;
+
+        bodyEl.appendChild(contentDiv);
+
+      });
+
+
+
+      // Special init for exam suite
+
+      if(item.type === 'exam_suite') {
+
+        loadExamSheet(1);
+
+      }
+
+
+
+      // Update footer button state
+
+      let btn = document.getElementById('btnQuickApprove');
+
+      if(item.stage === 4) {
+
+        btn.innerText = "✓ Đã Phát Hành Cấp 4";
+
+        btn.disabled = true;
+
+        btn.style.opacity = '0.5';
+
+      } else {
+
+        btn.innerText = "⭐ Phê Duyệt Phát Hành (Chủ Dự Án)";
+
+        btn.disabled = false;
+
+        btn.style.opacity = '1';
+
+      }
+
+
+
+      document.getElementById('inspectionModal').classList.add('open');
+
+    }
+
+
+
+    function renderVisualsGrid(visuals) {
+
+      if(!visuals || visuals.length === 0) {
+
+        return '<p style="color: var(--text-muted); padding: 16px;">Không có hình ảnh đính kèm cho sản phẩm này.</p>';
+
+      }
+
+      let html = '<p style="font-size: 13px; color: #94a3b8; margin-bottom: 12px;">Bấm vào bất kỳ ảnh nào để <b>phóng to toàn màn hình</b> soi từng chi tiết kỹ thuật:</p>';
+
+      html += '<div class="gallery-grid">';
+
+      visuals.forEach(v => {
+
+        html += `
+
+          <div class="gallery-card">
+
+            <img src="${v.url}" onclick="openLightbox('${v.url}')" alt="${v.title}">
+
+            <div class="gallery-caption">
+
+              <span>${v.title}</span>
+
+              <span style="font-size: 11px; color: #38bdf8;">Phóng to 🔍</span>
+
+            </div>
+
+          </div>
+
+        `;
+
+      });
+
+      html += '</div>';
+
+      return html;
+
+    }
+
+
+
+    const K6_K9_BANK = {
+
+      6: {
+
+        title: "LỚP 6 — BÀI TOÁN THỰC TẾ ƯỚC CHUNG LỚN NHẤT (ƯCLN)",
+
+        problemHtml: `Đội tình nguyện có <b>72</b> quyển vở, <b>96</b> cái bút bi và <b>120</b> thước kẻ muốn <span class="signal-tag">chia đều vào các phần quà</span> sao cho <span class="signal-tag">số phần quà là nhiều nhất</span>. Hỏi chia được nhiều nhất bao nhiêu phần quà? Khi đó mỗi phần quà có bao nhiêu vở, bút bi, thước kẻ?`,
+
+        backwardTree: `Cần tìm số phần quà $x$ nhiều nhất $\\xleftarrow{\\text{Vì chia đều 72, 96, 120 cho } x}$ $72 \\vdots x,\\; 96 \\vdots x,\\; 120 \\vdots x$ và $x$ lớn nhất $\\xleftarrow{\\text{Định nghĩa}}$ $x = \\text{ƯCLN}(72, 96, 120) = 24$.`,
+
+        tiers: {
+
+          1: `<b>🌱 Tầng 1 (Sơ đồ chia phần trực quan - Hệ thống Video Motion & Thầy Hiếu):</b><br>• Hãy tưởng tượng có $x$ chiếc túi quà giống hệt nhau.<br>• Để 72 quyển vở chia hết không dư vào $x$ túi $\\rightarrow$ số túi $x$ phải là <b>ước</b> của 72.<br>• Tương tự, $x$ cũng phải là <b>ước</b> của 96 (bút) và <b>ước</b> của 120 (thước).<br>• Vì đề hỏi <b>"nhiều túi quà nhất"</b> $\\rightarrow$ Ta đi tìm <b>Ước Chung Lớn Nhất</b> của $(72, 96, 120)$.`,
+
+          2: `<b>📝 Tầng 2 (Chuẩn mực SGK & Barem 0,25đ Phòng thi - Bắt buộc 100% HS):</b><br>• <b>Bước 1 (0,25đ):</b> Gọi ẩn $x$ (phần quà) + Điều kiện $x \\in \\mathbb{N}^*$.<br>• <b>Bước 2 (0,50đ):</b> Lập luận chia hết ($72 \\vdots x, 96 \\vdots x, 120 \\vdots x$) và $x$ lớn nhất $\\Rightarrow x = \\text{ƯCLN}(72, 96, 120)$.<br>• <b>Bước 3 (0,75đ):</b> Phân tích thừa số nguyên tố chuẩn $\\rightarrow$ Tìm $\\text{ƯCLN} = 24$ (TMĐK).<br>• <b>Bước 4 (0,50đ):</b> Tính số vở (3), bút (4), thước (5) mỗi phần và viết câu kết luận <b>"Vậy..."</b>.`,
+
+          3: `<b>🚀 Tầng 3 (Đột phá & Nhẩm nhanh kiểm tra nghiệm trong 5 giây - HS Khá/Giỏi):</b><br>• <b>Mẹo Hiệu hai số (Thuật toán Euclid):</b> $96 - 72 = 24$ và $120 - 96 = 24$.<br>• Vì $72, 96, 120$ đều chia hết cho hiệu $24$ nên $\\text{ƯCLN}(72,96,120) = 24$ ngay lập tức mà không bao giờ sợ phân tích nhầm lũy thừa!`
+
+        },
+
+        steps: [
+
+          { score: "+0,25đ", line: "• <b style='color:#1d4ed8;'>Gọi</b> số phần quà chia được nhiều nhất là x (phần quà). <b style='color:#b91c1c;'>(Điều kiện: x ∈ N*)</b>", note: "🎬 Huấn luyện viên: Mọi bài giải toán bằng lời văn đều mở đầu bằng chữ 'Gọi' + Đơn vị + Điều kiện x ∈ N*." },
+
+          { score: "+0,50đ", line: "• <b style='color:#1d4ed8;'>Theo đề bài, vì</b> 72 vở, 96 bút, 120 thước chia đều vào các phần quà và số phần quà nhiều nhất nên: 72 ⋮ x; 96 ⋮ x; 120 ⋮ x và x lớn nhất ⇒ x = ƯCLN(72, 96, 120).", note: "🎬 Huấn luyện viên: Chuyển hóa 2 cụm từ khóa vàng trên đề thành ký hiệu toán học ⋮ và ƯCLN." },
+
+          { score: "+0,75đ", line: "• Ta có: 72 = 2³ · 3²;  96 = 2⁵ · 3;  120 = 2³ · 3 · 5 ⇒ x = ƯCLN(72, 96, 120) = 2³ · 3 = 24 <b style='color:#b91c1c;'>(Thỏa mãn ĐK)</b>.", note: "🎬 Huấn luyện viên: Chọn thừa số nguyên tố chung (2 và 3) với số mũ nhỏ nhất. Nhớ ghi (Thỏa mãn ĐK)!" },
+
+          { score: "+0,50đ", line: "• Mỗi phần quà có: 72:24 = 3 (vở); 96:24 = 4 (bút); 120:24 = 5 (thước). <b style='color:#1d4ed8;'>Vậy</b> chia được nhiều nhất 24 phần quà (3 vở, 4 bút, 5 thước).", note: "🎬 Huấn luyện viên: Trả lời đủ cả 2 câu hỏi của đề bài ở dòng kết luận 'Vậy...' để trọn vẹn 2,00/2,00 điểm!" }
+
+        ],
+
+        traps: `❌ <b>Bẫy 1 (-0,25đ):</b> Quên ghi <b>điều kiện $x \\in \\mathbb{N}^*$</b> ở dòng đầu hoặc quên ghi <b>(Thỏa mãn điều kiện)</b>.<br>❌ <b>Bẫy 2 (-0,25đ):</b> Nhảy cóc từ đề bài sang tính $\\text{ƯCLN}$ mà thiếu dòng $72 \\vdots x,\\; 96 \\vdots x,\\; 120 \\vdots x$.<br>❌ <b>Bẫy 3 (-0,25đ):</b> Phân tích $72 = 8 \\cdot 9$ (sai vì 8 và 9 là hợp số, chưa phải thừa số nguyên tố).`
+
+      },
+
+      7: {
+
+        title: "LỚP 7 — DÃY TỈ SỐ BẰNG NHAU TRONG BÀI TOÁN THỰC TẾ",
+
+        problemHtml: `Ba lớp 7A, 7B, 7C trồng cây xanh. Biết số cây trồng được của ba lớp <span class="signal-tag">tỉ lệ với các số 3; 4; 5</span> và <span class="signal-tag">tổng số cây cả ba lớp là 108 cây</span>. Tính số cây mỗi lớp đã trồng.`,
+
+        backwardTree: `Cần tìm $x, y, z$ $\\xleftarrow{\\text{Từ tỉ số chung } k=9}$ $\\frac{x}{3}=\\frac{y}{4}=\\frac{z}{5}=\\frac{x+y+z}{3+4+5}=\\frac{108}{12}=9$ $\\xleftarrow{\\text{Giả thiết}}$ $\\frac{x}{3}=\\frac{y}{4}=\\frac{z}{5}$ và $x+y+z=108$.`,
+
+        tiers: {
+
+          1: `<b>🌱 Tầng 1 (Sơ đồ tổng - tỉ trực quan):</b><br>• Coi số cây lớp 7A là 3 phần bằng nhau, 7B là 4 phần, 7C là 5 phần.<br>• Tổng số phần bằng nhau là $3 + 4 + 5 = 12$ (phần).<br>• Giá trị 1 phần chính là $108 : 12 = 9$ (cây).`,
+
+          2: `<b>📝 Tầng 2 (Chuẩn Barem 0,25đ Phòng thi Lớp 7):</b><br>• <b>Bước 1 (0,25đ):</b> Gọi số cây 3 lớp là $x, y, z$ (cây), điều kiện $x, y, z \\in \\mathbb{N}^*$.<br>• <b>Bước 2 (0,50đ):</b> Lập hệ $\\frac{x}{3}=\\frac{y}{4}=\\frac{z}{5}$ và $x+y+z=108$.<br>• <b>Bước 3 (0,75đ):</b> Ghi câu dẫn <i>"Áp dụng tính chất dãy tỉ số bằng nhau"</i> tìm được $x=27, y=36, z=45$ (TMĐK).<br>• <b>Bước 4 (0,50đ):</b> Kết luận rõ số cây từng lớp.`,
+
+          3: `<b>🚀 Tầng 3 (Phương pháp đặt hệ số tỉ lệ $k$ - Giải mọi bài bậc cao):</b><br>• Đặt $\\frac{x}{3}=\\frac{y}{4}=\\frac{z}{5}=k \\; (k \\in \\mathbb{N}^*) \\Rightarrow x=3k, y=4k, z=5k$.<br>• Thay vào $3k+4k+5k=108 \\Rightarrow 12k=108 \\Rightarrow k=9$. Kỹ thuật này giải được cả bài cho tích $x \\cdot y$ hoặc $x^2+y^2$!`
+
+        },
+
+        steps: [
+
+          { score: "+0,25đ", line: "• <b style='color:#1d4ed8;'>Gọi</b> số cây trồng được của ba lớp 7A, 7B, 7C lần lượt là x, y, z (cây). <b style='color:#b91c1c;'>(Điều kiện: x, y, z ∈ N*)</b>.", note: "🎬 Huấn luyện viên: Có 3 ẩn nên bắt buộc có chữ 'lần lượt là x, y, z' để khớp thứ tự với 3; 4; 5." },
+
+          { score: "+0,50đ", line: "• <b style='color:#1d4ed8;'>Theo đề bài, ta có:</b> x/3 = y/4 = z/5  và  x + y + z = 108.", note: "🎬 Huấn luyện viên: Viết đồng thời cả dãy tỉ số và phương trình tổng trên cùng một dòng lập luận." },
+
+          { score: "+0,75đ", line: "• <b style='color:#1d4ed8;'>Áp dụng tính chất của dãy tỉ số bằng nhau, ta có:</b> x/3 = y/4 = z/5 = (x + y + z)/(3 + 4 + 5) = 108/12 = 9.", note: "🎬 Huấn luyện viên: Câu dẫn 'Áp dụng tính chất của dãy tỉ số bằng nhau' là bắt buộc trong Barem chấm thi Lớp 7!" },
+
+          { score: "+0,50đ", line: "• <b style='color:#1d4ed8;'>Suy ra:</b> x = 27; y = 36; z = 45 <b style='color:#b91c1c;'>(Thỏa mãn ĐK)</b>. <b style='color:#1d4ed8;'>Vậy</b> số cây 3 lớp 7A, 7B, 7C lần lượt là 27, 36, 45 cây.", note: "🎬 Huấn luyện viên: Kiểm tra nhanh 27 + 36 + 45 = 108 (khớp 100%). Đối chiếu điều kiện và kết luận!" }
+
+        ],
+
+        traps: `❌ <b>Bẫy 1 (-0,25đ):</b> Ghi điều kiện $x, y, z > 0$ thay vì $x, y, z \\in \\mathbb{N}^*$ (vì số cây không thể lẻ thập phân).<br>❌ <b>Bẫy 2 (-0,25đ):</b> Quên câu dẫn <i>"Áp dụng tính chất của dãy tỉ số bằng nhau"</i>.<br>❌ <b>Bẫy 3 (-0,25đ):</b> Viết nối dấu bằng sai bản chất: $x = 9 \\cdot 3 = 27 = y = 9 \\cdot 4 = 36$.`
+
+      },
+
+      8: {
+
+        title: "LỚP 8 — RÚT GỌN BIỂU THỨC HỮU TỈ & ĐKXĐ (CÂU ĂN CHẮC ĐIỂM)",
+
+        problemHtml: `Cho biểu thức $P = \\left(\\frac{x}{x-2} + \\frac{2}{x+2} + \\frac{8}{x^2-4}\\right) : \\frac{x+1}{x-2}$ <span class="signal-tag">với $x \\neq \\pm 2;\\; x \\neq -1$</span>. a) Rút gọn $P$. b) <span class="signal-tag">Tính giá trị của $P$ khi $x = 4$</span>.`,
+
+        backwardTree: `Cần tính $P(4) = \\frac{6}{5}$ $\\xleftarrow{\\text{Thay } x=4 \\text{ (TMĐK)}}$ $P = \\frac{x+2}{x+1}$ $\\xleftarrow{\\text{Nhân nghịch đảo}}$ $\\frac{(x+2)^2}{(x-2)(x+2)} \\cdot \\frac{x-2}{x+1}$ $\\xleftarrow{\\text{MTC}}$ $x^2-4=(x-2)(x+2)$.`,
+
+        tiers: {
+
+          1: `<b>🌱 Tầng 1 (Nhận diện Mẫu thức chung thông minh):</b><br>• Quan sát 3 mẫu trong ngoặc: $(x-2)$, $(x+2)$ và $(x^2-4)$.<br>• Nhờ hằng đẳng thức $x^2-4 = (x-2)(x+2)$, mẫu thứ 3 chính là mẫu thức chung chứa trọn 2 mẫu đầu!`,
+
+          2: `<b>📝 Tầng 2 (Chuẩn Barem 0,25đ Phòng thi Lớp 8):</b><br>• <b>Bước 1 (0,25đ):</b> Mở đầu bằng <i>"Với $x \\neq \\pm 2; x \\neq -1$, ta có:"</i>.<br>• <b>Bước 2 (0,75đ):</b> Quy đồng và thu gọn tử số về hằng đẳng thức $(x+2)^2$.<br>• <b>Bước 3 (0,50đ):</b> Nhân nghịch đảo với $\\frac{x-2}{x+1}$ để rút gọn ra $P = \\frac{x+2}{x+1}$.<br>• <b>Bước 4 (0,50đ):</b> Kiểm tra $x=4$ (TMĐK) rồi mới thay vào $P = \\frac{6}{5}$.`,
+
+          3: `<b>🚀 Tầng 3 (Kỹ thuật thử số Casio kiểm tra 100% không sai):</b><br>• Chọn $x = 5$, bấm máy tính biểu thức đề bài ban đầu ra $\\frac{7}{6}$.<br>• Thay $x = 5$ vào kết quả rút gọn $\\frac{x+2}{x+1}$ cũng ra $\\frac{7}{6}$ $\\Rightarrow$ Tự tin 100% đã rút gọn đúng ngay trong phòng thi!`
+
+        },
+
+        steps: [
+
+          { score: "+0,25đ", line: "• a) <b style='color:#b91c1c;'>Với x ≠ ±2; x ≠ -1</b>, ta có: P = [ x(x + 2) + 2(x - 2) + 8 ] / [ (x - 2)(x + 2) ] : (x + 1)/(x - 2)", note: "🎬 Huấn luyện viên: Luôn trích lại ĐKXĐ ở dòng đầu tiên của câu rút gọn để giữ trọn 0,25đ." },
+
+          { score: "+0,75đ", line: "• P = (x² + 2x + 2x - 4 + 8) / [ (x - 2)(x + 2) ] · (x - 2)/(x + 1) = (x + 2)² / [ (x - 2)(x + 2) ] · (x - 2)/(x + 1)", note: "🎬 Huấn luyện viên: Thu gọn tử thức x² + 4x + 4 thành hằng đẳng thức (x + 2)² và đổi phép chia thành nhân nghịch đảo." },
+
+          { score: "+0,50đ", line: "• P = (x + 2) / (x + 1). <b style='color:#1d4ed8;'>Vậy</b> với x ≠ ±2; x ≠ -1 thì P = (x + 2)/(x + 1).", note: "🎬 Huấn luyện viên: Triệt tiêu (x + 2) và (x - 2), đừng quên câu kết luận cho câu a!" },
+
+          { score: "+0,50đ", line: "• b) Thay x = 4 <b style='color:#b91c1c;'>(thỏa mãn điều kiện xác định)</b> vào P = (x + 2)/(x + 1), ta được: P = (4 + 2)/(4 + 1) = 6/5. <b style='color:#1d4ed8;'>Vậy</b> P = 6/5 khi x = 4.", note: "🎬 Huấn luyện viên: Cụm từ '(thỏa mãn điều kiện xác định)' ngay sau 'Thay x = 4' giúp bạn không bị trừ 0,25đ đáng tiếc!" }
+
+        ],
+
+        traps: `❌ <b>Bẫy 1 (-0,25đ):</b> Ở câu b, thay thẳng $x = 4$ vào $P$ mà quên ghi <b>(thỏa mãn ĐKXĐ)</b>.<br>❌ <b>Bẫy 2 (-0,25đ):</b> Nhân phá ngoặc $2(x-2)$ viết nhầm thành $2x-2$ thay vì $2x-4$.<br>❌ <b>Bẫy 3 (-0,25đ):</b> Rút gọn xong quên ghi câu kết luận <i>"Vậy với $x \\neq \\pm 2; x \\neq -1$ thì $P = \\dots$"</i>.`
+
+      },
+
+      9: {
+
+        title: "LỚP 9 — PHƯƠNG TRÌNH BẬC HAI & HỆ THỨC VI-ÉT (ĐỀ THI VÀO 10)",
+
+        problemHtml: `Cho phương trình $x^2 - 2(m+1)x + m^2 + 2 = 0$. Tìm $m$ để phương trình <span class="signal-tag">có hai nghiệm phân biệt $x_1, x_2$</span> <span class="signal-tag">thỏa mãn $x_1^2 + x_2^2 = 10$</span>.`,
+
+        backwardTree: `Kết luận $m = 1$ $\\xleftarrow{\\text{Đối chiếu } m > 1/2}$ $\\left[\\begin{array}{l} m=1 \\text{ (TM)} \\\\ m=-5 \\text{ (Loại)} \\end{array}\\right.$ $\\xleftarrow{\\text{Thay Vi-ét}}$ $(x_1+x_2)^2 - 2x_1x_2 = 10$ $\\xleftarrow{\\text{ĐK có 2 nghiệm PB}}$ $\\Delta' = 2m - 1 > 0 \\Leftrightarrow m > \\frac{1}{2}$.`,
+
+        tiers: {
+
+          1: `<b>🌱 Tầng 1 (Quy trình 4 Bước Vàng giải mọi bài Vi-ét):</b><br>• <b>Bước 1:</b> Tính $\\Delta' > 0$ tìm điều kiện của $m$.<br>• <b>Bước 2:</b> Viết hệ thức Vi-ét ($S = x_1+x_2$ và $P = x_1x_2$).<br>• <b>Bước 3:</b> Đưa biểu thức về $(x_1+x_2)^2 - 2x_1x_2 = 10$ rồi giải tìm $m$.<br>• <b>Bước 4:</b> So sánh với điều kiện ở Bước 1 để loại nghiệm ngoại lai!`,
+
+          2: `<b>📝 Tầng 2 (Chuẩn Barem 0,25đ Thi Tuyển Sinh Vào Lớp 10):</b><br>• <b>Bước 1 (0,25đ):</b> $\\Delta' = (m+1)^2 - (m^2+2) = 2m - 1 > 0 \\Leftrightarrow m > \\frac{1}{2}$.<br>• <b>Bước 2 (0,25đ):</b> Theo hệ thức Vi-ét: $x_1+x_2 = 2(m+1);\\; x_1x_2 = m^2+2$.<br>• <b>Bước 3 (0,50đ):</b> Biến đổi $x_1^2+x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = 10 \\Leftrightarrow m^2+4m-5=0$.<br>• <b>Bước 4 (0,25đ):</b> Giải ra $m=1$ (TM) và $m=-5$ (Loại vì $m > \\frac{1}{2}$). Kết luận $m=1$.`,
+
+          3: `<b>🚀 Tầng 3 (Tối ưu tốc độ bằng $\\Delta'$ và nhẩm nghiệm $a+b+c=0$):</b><br>• Dùng $\\Delta'$ thay cho $\\Delta$ giúp giảm 4 lần hệ số.<br>• Phương trình $m^2 + 4m - 5 = 0$ có $a + b + c = 1 + 4 + (-5) = 0$ nên nhẩm ngay $m_1 = 1,\\; m_2 = -5$ trong 3 giây!`
+
+        },
+
+        steps: [
+
+          { score: "+0,25đ", line: "• Ta có Δ' = [-(m + 1)]² - (m² + 2) = 2m - 1. Để phương trình có 2 nghiệm phân biệt x₁, x₂ thì <b style='color:#b91c1c;'>Δ' > 0 ⇔ 2m - 1 > 0 ⇔ m > 1/2</b>.", note: "🎬 Huấn luyện viên: Chốt chặn quan trọng nhất! Quên bước Δ' > 0 sẽ mất nửa số điểm toàn bài Vi-ét." },
+
+          { score: "+0,25đ", line: "• Với m > 1/2, <b style='color:#1d4ed8;'>theo hệ thức Vi-ét ta có:</b> x₁ + x₂ = 2(m + 1)  và  x₁ · x₂ = m² + 2.", note: "🎬 Huấn luyện viên: Viết rõ cả tổng và tích trước khi thay vào hệ thức của đề bài." },
+
+          { score: "+0,50đ", line: "• Theo đề bài: x₁² + x₂² = 10 ⇔ (x₁ + x₂)² - 2x₁x₂ = 10 ⇒ [2(m + 1)]² - 2(m² + 2) = 10 ⇔ 2m² + 8m - 10 = 0 ⇔ m² + 4m - 5 = 0.", note: "🎬 Huấn luyện viên: Cẩn thận khi bình phương [2(m + 1)]² phải bằng 4(m + 1)², rất nhiều học sinh quên bình phương số 2!" },
+
+          { score: "+0,25đ", line: "• Giải phương trình được: m = 1 <b style='color:#b91c1c;'>(Thỏa mãn ĐK m > 1/2)</b> hoặc m = -5 <b style='color:#b91c1c;'>(Loại)</b>. <b style='color:#1d4ed8;'>Vậy</b> m = 1.", note: "🎬 Huấn luyện viên: Bước đối chiếu m > 1/2 để loại m = -5 quyết định điểm 10 trọn vẹn!" }
+
+        ],
+
+        traps: `❌ <b>Bẫy 1 (-0,50đ):</b> Quên tìm điều kiện $\\Delta' > 0$ (hoặc viết nhầm thành $\\Delta' \\ge 0$ khi đề yêu cầu <i>"hai nghiệm phân biệt"</i>).<br>❌ <b>Bẫy 2 (-0,25đ):</b> Bình phương $[2(m+1)]^2$ viết nhầm thành $2(m+1)^2$ thay vì $4(m+1)^2$.<br>❌ <b>Bẫy 3 (-0,25đ):</b> Tìm ra $m=1$ và $m=-5$ nhưng quên đối chiếu điều kiện $m > \\frac{1}{2}$ để loại $m=-5$.`
+
+      }
+
+    };
+
+
+
+    let currentMasteryGrade = 6;
+
+    let currentCoachStep = 4;
+
+
+
+    function renderEssayMasterySuite() {
+
+      return `
+
+        <div style="background: linear-gradient(90deg, rgba(37,99,235,0.2), rgba(16,185,129,0.2)); border: 1px solid rgba(56,189,248,0.4); border-radius: 12px; padding: 12px 14px; margin-bottom: 14px;">
+
+          <div style="font-size: 12px; color: #bae6fd; font-weight: 700; margin-bottom: 8px;">
+
+            🏫 CHỌN KHỐI LỚP ĐỂ TRẢI NGHIỆM BỘ DỮ LIỆU K6_K9_ESSAY_MASTERY_BANK.JSON (ÁNH XẠ HỆ THỐNG VIDEO DỰNG SẴN + 30 CHUYÊN GIA):
+
+          </div>
+
+          <div class="tier-btn-bar" style="margin-bottom: 0;">
+
+            <button class="tier-btn active" id="gradeBtn6" onclick="selectMasteryGrade(6)">📗 Toán Lớp 6 (ƯCLN Thực Tế)</button>
+
+            <button class="tier-btn" id="gradeBtn7" onclick="selectMasteryGrade(7)">📘 Toán Lớp 7 (Dãy Tỉ Số)</button>
+
+            <button class="tier-btn" id="gradeBtn8" onclick="selectMasteryGrade(8)">📙 Toán Lớp 8 (Rút Gọn & ĐKXĐ)</button>
+
+            <button class="tier-btn" id="gradeBtn9" onclick="selectMasteryGrade(9)">📕 Toán Lớp 9 (Hệ Thức Vi-ét)</button>
+
+          </div>
+
+        </div>
+
+        <div id="masteryDynamicWrapper">${buildMasteryGradeHtml(6)}</div>
+
+      `;
+
+    }
+
+
+
+    function buildMasteryGradeHtml(grade) {
+
+      let g = K6_K9_BANK[grade];
+
+      return `
+
+        <div class="mastery-layer-box">
+
+          <div class="mastery-layer-title">🎯 LỚP 1 & 2: TỪ KHÓA TÍN HIỆU & CÂY SUY LUẬN NGƯỢC — ${g.title}</div>
+
+          <p style="font-size: 13px; color: #e2e8f0; line-height: 1.6; margin-bottom: 10px;">
+
+            <b>Đề bài đã bật Tia X-Quang Tín Hiệu:</b> ${g.problemHtml}
+
+          </p>
+
+          <div style="background: rgba(15, 23, 42, 0.8); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 10px; padding: 12px; font-size: 12.5px; color: #bae6fd;">
+
+            <b>🌲 Cây suy luận ngược (Backward Chaining):</b><br>${g.backwardTree}
+
+          </div>
+
+        </div>
+
+
+
+        <div class="mastery-layer-box">
+
+          <div class="mastery-layer-title">🪜 LỚP 3: BA CÁCH GIẢI PHÂN TẦNG THÍCH ỨNG (CHỌN TẦNG NĂNG LỰC)</div>
+
+          <div class="tier-btn-bar">
+
+            <button class="tier-btn active" id="tierBtn1" onclick="switchSolutionTier(1)">🌱 Tầng 1: Trực Quan Hiểu Bản Chất (HS Trung Bình)</button>
+
+            <button class="tier-btn" id="tierBtn2" onclick="switchSolutionTier(2)">📝 Tầng 2: Chuẩn Barem 0,25đ Phòng Thi (Bắt Buộc)</button>
+
+            <button class="tier-btn" id="tierBtn3" onclick="switchSolutionTier(3)">🚀 Tầng 3: Giải Nhanh Đột Phá Điểm 10 (HS Khá/Giỏi)</button>
+
+          </div>
+
+          <div id="tierSolutionBody" style="background: #0f172a; border: 1px solid var(--border); border-radius: 10px; padding: 14px; font-size: 13px; color: #f8fafc; line-height: 1.65;">
+
+            ${g.tiers[1]}
+
+          </div>
+
+        </div>
+
+
+
+        <div class="mastery-layer-box">
+
+          <div class="mastery-layer-title">🎬 LỚP 4: BÀN HỌC TỰ LUẬN TƯƠNG TÁC (ÁNH XẠ VIDEO DỰNG SẴN LÊN GIẤY KẺ Ô LY)</div>
+
+          <div class="tier-btn-bar">
+
+            <button class="tier-btn active" id="oliBtn1" onclick="switchOliMode(1)">🎬 1. Dẫn Dắt Từng Bước Đặt Bút (+0,25đ)</button>
+
+            <button class="tier-btn" id="oliBtn2" onclick="switchOliMode(2)">✍️ 2. Điền Khuyết Ô Ly (Chấm Điểm Ngay)</button>
+
+            <button class="tier-btn" id="oliBtn3" onclick="switchOliMode(3)">📄 3. Tờ Giấy Thi Trắng (Tự Luyện)</button>
+
+          </div>
+
+          <div id="coachControlsBar" style="display:flex; gap:8px; flex-wrap:wrap; align-items:center; margin-bottom:10px; background:rgba(15,23,42,0.7); padding:8px 12px; border-radius:8px; border:1px solid rgba(56,189,248,0.2);">
+
+            <span style="font-size:12px; color:#38bdf8; font-weight:700;">Nhịp đặt bút (Step-by-Step Reveal):</span>
+
+            <button class="tier-btn" onclick="setCoachStep(1)">Bước 1 (+0,25đ)</button>
+
+            <button class="tier-btn" onclick="setCoachStep(2)">Bước 2 (+0,50đ)</button>
+
+            <button class="tier-btn" onclick="setCoachStep(3)">Bước 3 (+0,75đ)</button>
+
+            <button class="tier-btn active" onclick="setCoachStep(4)">Trọn vẹn 4 Bước (Điểm 10)</button>
+
+          </div>
+
+          <div id="oliPaperContainer" class="oli-paper">
+
+            ${renderCoachStepsHtml(grade, 4)}
+
+          </div>
+
+        </div>
+
+
+
+        <div class="mastery-layer-box">
+
+          <div class="mastery-layer-title">🖍️ LỚP 5: SỔ TAY BÚT ĐỎ GIÁM KHẢO (3 BẪY MẤT 0,25Đ THỰC TẾ TRÊN PHÒNG THI)</div>
+
+          <div class="red-pen-box">${g.traps}</div>
+
+        </div>
+
+      `;
+
+    }
+
+
+
+    function renderCoachStepsHtml(grade, maxStep) {
+
+      let g = K6_K9_BANK[grade];
+
+      let html = `<b style="color:#b91c1c;">BÀI LÀM TRÊN GIẤY THI KẺ Ô LY (HIỂN THỊ ĐẾN BƯỚC ${maxStep}/4):</b><br>`;
+
+      for(let i = 0; i < maxStep; i++) {
+
+        let s = g.steps[i];
+
+        html += `<div style="margin-bottom:4px;">${s.line} <span style="background:#dcfce7; color:#166534; font-weight:800; font-size:11.5px; padding:1px 6px; border-radius:4px;">${s.score}</span></div>`;
+
+      }
+
+      let activeNote = g.steps[maxStep - 1].note;
+
+      html += `<div style="margin-top:10px; background:#eff6ff; border-left:4px solid #2563eb; padding:8px 12px; border-radius:6px; font-size:13px; color:#1e3a8a; line-height:1.5;">${activeNote}</div>`;
+
+      return html;
+
+    }
+
+
+
+    function selectMasteryGrade(grade) {
+
+      currentMasteryGrade = grade;
+
+      [6, 7, 8, 9].forEach(g => {
+
+        let b = document.getElementById('gradeBtn' + g);
+
+        if(b) b.classList.toggle('active', g === grade);
+
+      });
+
+      let wrap = document.getElementById('masteryDynamicWrapper');
+
+      if(wrap) wrap.innerHTML = buildMasteryGradeHtml(grade);
+
+    }
+
+
+
+    function setCoachStep(step) {
+
+      currentCoachStep = step;
+
+      let el = document.getElementById('oliPaperContainer');
+
+      if(el) el.innerHTML = renderCoachStepsHtml(currentMasteryGrade, step);
+
+    }
+
+
+
+    function switchSolutionTier(tier) {
+
+      [1, 2, 3].forEach(i => {
+
+        let b = document.getElementById('tierBtn' + i);
+
+        if(b) b.classList.toggle('active', i === tier);
+
+      });
+
+      let el = document.getElementById('tierSolutionBody');
+
+      if(!el) return;
+
+      el.innerHTML = K6_K9_BANK[currentMasteryGrade].tiers[tier];
+
+    }
+
+
+
+    function switchOliMode(mode) {
+
+      [1, 2, 3].forEach(i => {
+
+        let b = document.getElementById('oliBtn' + i);
+
+        if(b) b.classList.toggle('active', i === mode);
+
+      });
+
+      let bar = document.getElementById('coachControlsBar');
+
+      if(bar) bar.style.display = (mode === 1) ? 'flex' : 'none';
+
+      let el = document.getElementById('oliPaperContainer');
+
+      if(!el) return;
+
+      if(mode === 1) {
+
+        el.innerHTML = renderCoachStepsHtml(currentMasteryGrade, 4);
+
+      } else if(mode === 2) {
+
+        el.innerHTML = `
+
+          <b style="color:#1e3a8a;">LUYỆN ĐIỀN KHUYẾT CÁC VỊ TRÍ ĂN ĐIỂM 0,25Đ:</b><br>
+
+          • Gọi số phần quà chia được nhiều nhất là $x$ (phần quà), điều kiện: $x \\in$ <input id="clz1" class="cloze-input" value="N*"><br>
+
+          • Theo đề bài ta có: $72 \\vdots x;\\; 96 \\vdots x;\\; 120 \\vdots x$ và $x$ lớn nhất $\\Rightarrow x =$ <input id="clz2" class="cloze-input" value="ƯCLN">(72, 96, 120)<br>
+
+          • Ta có: $72 = 2^3 \\cdot 3^2;\\; 96 = 2^5 \\cdot 3;\\; 120 = 2^3 \\cdot 3 \\cdot 5 \\Rightarrow x =$ <input id="clz3" class="cloze-input" value="24"> (Thỏa mãn ĐK)<br>
+
+          • Mỗi phần quà có: $72:24 = 3$ (vở), $96:24 = 4$ (bút), $120:24 =$ <input id="clz4" class="cloze-input" value="5"> (thước)<br>
+
+          • <b>Vậy</b> chia được nhiều nhất <b>24 phần quà</b>.<br>
+
+          <button onclick="gradeClozeEssay()" style="margin-top:8px; background:#16a34a; color:#fff; border:none; padding:7px 16px; border-radius:8px; font-weight:700; cursor:pointer;">✅ Chấm Điểm Bài Điền Khuyết Ngay</button>
+
+          <div id="clozeGradeResult" style="margin-top:8px; font-weight:700; color:#15803d;"></div>
+
+        `;
+
+      } else {
+
+        el.innerHTML = `
+
+          <b style="color:#1e3a8a;">TỜ GIẤY THI TRẮNG — HỌC SINH TỰ GÕ HOẶC VIẾT RA VỞ ĐỂ ĐỐI CHIẾU BAREM:</b><br>
+
+          <textarea rows="6" style="width:100%; margin-top:8px; background:transparent; border:1px dashed #3b82f6; border-radius:8px; padding:10px; font-size:14px; line-height:28px; color:#0f172a;" placeholder="Bắt đầu bằng: Gọi ... (Đơn vị, Điều kiện)..."></textarea>
+
+        `;
+
+      }
+
+    }
+
+
+
+    function gradeClozeEssay() {
+
+      let c1 = (document.getElementById('clz1')?.value || '').trim().toUpperCase();
+
+      let c2 = (document.getElementById('clz2')?.value || '').trim().toUpperCase();
+
+      let c3 = (document.getElementById('clz3')?.value || '').trim();
+
+      let c4 = (document.getElementById('clz4')?.value || '').trim();
+
+      let score = 0;
+
+      if(c1.includes('N')) score += 0.5;
+
+      if(c2.includes('ƯCLN') || c2.includes('UCLN')) score += 0.5;
+
+      if(c3 === '24') score += 0.5;
+
+      if(c4 === '5') score += 0.5;
+
+      let res = document.getElementById('clozeGradeResult');
+
+      if(res) {
+
+        res.innerHTML = `🎉 Điểm trình bày của bạn: <b>${score.toFixed(2)} / 2.00 điểm</b> — Đủ điều kiện, đủ lập luận chia hết và đủ câu kết luận chuẩn Barem!`;
+
+      }
+
+    }
+
+
+
+    function switchModalTab(tabId) {
+
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+
+      document.querySelectorAll('.modal-tab-btn').forEach(b => b.classList.remove('active'));
+
+      
+
+      let target = document.getElementById(tabId);
+
+      if(target) target.classList.add('active');
+
+      
+
+      let buttons = document.querySelectorAll('.modal-tab-btn');
+
+      buttons.forEach(btn => {
+
+        if(btn.onclick.toString().includes(tabId)) {
+
+          btn.classList.add('active');
+
+        }
+
+      });
+
+    }
+
+
+
+    function switchVideoScene(sceneCode) {
+
+      document.querySelectorAll('.scene-pill').forEach(btn => btn.classList.remove('active'));
+
+      if(event && event.target) event.target.classList.add('active');
+
+
+
+      let player = document.getElementById('mainVideoPlayer');
+
+      let source = document.getElementById('videoSource');
+
+      let title = document.getElementById('videoSceneTitle');
+
+      let desc = document.getElementById('videoSceneDesc');
+
+
+
+      if(sceneCode === 'L02') {
+
+        source.src = `${GCS_BASE}/L02_BAI1A_TINH_NHANH.mp4`;
+
+        title.innerText = "Cảnh L02: Bài 1A — Tính Nhanh Hợp Lý";
+
+        desc.innerText = "Video bài giảng hoàn chỉnh khớp với Bài 1A trong Đề thi số 1. Âm thanh thuyết minh -16.02 LUFS, hoạt hình mượt mà 60fps.";
+
+      } else if(sceneCode === 'L08') {
+
+        source.src = `${GCS_BASE}/L08_BAI4A_DIEN_TICH_CHU_VI.mp4`;
+
+        title.innerText = "Cảnh L08: Bài 4A — Diện Tích & Chu Vi Sân Gạch STEM";
+
+        desc.innerText = "Video trực quan hóa bài toán thực tế lát sân gạch 12m x 8m. Thuyết minh rõ ràng, sinh động.";
+
+      } else {
+
+        source.src = `${GCS_BASE}/S01_01_SAMPLE.mp4`;
+
+        title.innerText = "Trích đoạn S01_01: Rừng Cây Số Học (Mở màn Storybook)";
+
+        desc.innerText = "Cảnh mở đầu cuộc phiêu lưu số học. Hiệu ứng ánh sáng và không gian chuyển cảnh điện ảnh.";
+
+      }
+
+
+
+      player.load();
+
+      player.play().catch(e => console.log('Autoplay blocked:', e));
+
+    }
+
+
+
+    function closeModal() {
+
+      let player = document.getElementById('mainVideoPlayer');
+
+      if(player) player.pause();
+
+      document.querySelectorAll('audio').forEach(a => a.pause());
+
+      document.getElementById('inspectionModal').classList.remove('open');
+
+    }
+
+
+
+    function openLightbox(url) {
+
+      document.getElementById('lightboxImg').src = url;
+
+      document.getElementById('lightboxModal').classList.add('open');
+
+    }
+
+
+
+    function closeLightbox() {
+
+      document.getElementById('lightboxModal').classList.remove('open');
+
+    }
+
+
+
+    function approveCurrentItem() {
+
+      if(selectedItemId) {
+
+        let item = items.find(x => x.id === selectedItemId);
+
+        if(item) {
+
+          item.stage = 4;
+
+          item.proofText += "\n[APPROVED] Chủ dự án Khổng Thị Thanh Thủy đã thẩm định kỹ và ký duyệt phát hành!";
+
+          renderBoard();
+
+          closeModal();
+
+          alert(` Chúc mừng! Chủ dự án đã ký duyệt phát hành sản phẩm:\n"${item.title}"\nSản phẩm đã được chuyển vào kho chính thức CẤP 4!`);
+
+        }
+
+      }
+
+    }
+
+
+
+    function rejectItemWithNotes() {
+
+      let notes = document.getElementById('feedbackText') ? document.getElementById('feedbackText').value.trim() : '';
+
+      if(!notes) {
+
+        alert("Vui lòng ghi chú lý do hoặc nội dung cần chỉnh sửa trước khi gửi!");
+
+        switchModalTab('tab-feedback');
+
+        return;
+
+      }
+
+      if(selectedItemId) {
+
+        let item = items.find(x => x.id === selectedItemId);
+
+        if(item) {
+
+          item.stage = 1;
+
+          item.desc = `⚠️ Yêu cầu sửa từ Chủ dự án: "${notes}"`;
+
+          renderBoard();
+
+          closeModal();
+
+          alert(` ĐÃ GỬI YÊU CẦU SỬA CHO AGENT!\nSản phẩm "${item.title}" đã được chuyển về CẤP 1 (Dự thảo) để chuyên viên tiếp tục chỉnh sửa.`);
+
+        }
+
+      }
+
+    }
+
+
+
+    renderBoard();
+
+  </script>
+
+</body>
+
+</html>
+

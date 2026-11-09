@@ -1,0 +1,1792 @@
+{
+  "worksheet_id": "WS_G06_PRES_CONT_50",
+  "title": "Lớp 6 — Chuyên Đề Thì Hiện Tại Tiếp Diễn (50 Bài Tập Cơ Bản Đến Nâng Cao)",
+  "grade": 6,
+  "unit_scope": "G06_U03",
+  "question_count": 50,
+  "questions": [
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_001",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Look! Mai ______ (read) a comic book.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "are reading",
+        "reading",
+        "be reading",
+        "is reading"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is reading"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is reading.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "5dffd564547064cb",
+      "answer_hash": "faabdc2bf84804eea57f51883e04af65d3cde90962cbffa794ad01e6888ab6fc",
+      "solution_iv": "744e0c1169f5e0e29af249d9",
+      "solution_cipher": "42e45054e79a46b193087b6a735923cafff3adf30fd9ac87b66cb17ee41377b1b263021f919c06464e73bb392102eb7b9b177712827a8b2d4b25812ef98069becef324fc18ddacc428360dcc5d8453b77e3f750befe13f99c60db8c4eefbab9ac289c079c982ee9bf6b47df1eae3067870d678432664aafb291de399e59205a1d31d4108e6456349c6541e"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_002",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "I ______ (do) my English homework now.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "are doing",
+        "doing",
+        "am doing",
+        "is doing"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "am doing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: am doing.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "34840a44e54a8568",
+      "answer_hash": "2af05660d824e6f99573fe5a576c4e438d4e3da7a619fd950cdd3413319f37e8",
+      "solution_iv": "bd39a9139f1e90dd8274c933",
+      "solution_cipher": "2811751baca263751ee6f28d265320b1a535c0b4812b777d063dcaf4321cde47265f9cf6a8be53af886e9fdbec03561174abd7a71196f8c162f164f6ef2dc6e994caa9aadac8f5a1d01c9688efd5fce6d0f63f50710ebd613658e2f7756d17411de7d13f6b33da497aa168bb3df15b321360211dde1142e96793257d0d9bbffc1b39b05cceaef0"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_003",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The boys ______ (play) football in the schoolyard.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "playing",
+        "am playing",
+        "are playing",
+        "is playing"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are playing"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are playing.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "cfb8b358415b0794",
+      "answer_hash": "ff376296ac1d16cc21dfb2268547c4a59edaf5633fe3e943fdada3ad8d2de823",
+      "solution_iv": "d1869fc9b953eb3411d0d4e4",
+      "solution_cipher": "b37eaca3c63b098e3ec67b8d9155cd4a4920b3bbfd1d75a9c48ce96ba5b8deb48a883f913947bc14cd5b747c6170fe208ff0d34686a4991e2a31fba5de6c7dfda007033576a7e37bbc1387c1265dad222c304dc5888f8aac31c75c53588c1b2f8e630d956f2f8e7896f63e0baab9f607d63d0950be84dd4c01d5f21afcc631279024b18927970ee8c58a32d57b"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_004",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Listen! The baby ______ (cry).",
+      "passage_or_sign_svg": "",
+      "options": [
+        "crying",
+        "be crying",
+        "is crying",
+        "are crying"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is crying"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is crying.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "f546e202fbbd54bd",
+      "answer_hash": "09f45182d189928e6ae675187a405f7aef1a70133af93735dc0e5ee8ec4163c4",
+      "solution_iv": "406501e09452c5b9b5964125",
+      "solution_cipher": "a725ddff4f1c1d626cfb4d0552ab4e52e5648c3f762ab094115ee2595012282a55abae314fbd04e9b7bda649059929be4a5989ac45ce1dbd0ea56e90d7ba6a9244979baf111d9a2f6e28b109c8b7eec48469c7ee710cd225bcaf37264381cfe53b900394c4b20b9837beab7337fb8e1ffc5fabcb4c40863ba2d929eef4c8448e985c0f5b8a171f035f"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_005",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My mother ______ (cook) dinner at the moment.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "are cooking",
+        "cooking",
+        "be cooking",
+        "is cooking"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is cooking"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is cooking.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "6fc21f66bc21733d",
+      "answer_hash": "bad33be62fdf0e889da3c511e67a096e46336d61a5e3e8ec20f5e115f112338d",
+      "solution_iv": "f2f96be421f6f3996900a3d8",
+      "solution_cipher": "120af0a11f844d8e476ed97bffb5ecea65ba33c13202922295397a10749f561fb941f59ad563f6fcc0cac111a1d551867494adcc0a02e540cc5dd7895ab61f5ba57c0aa46d4a655d81cf1aa786127800ee8df62843398ffe83065571161b0ac7ebfeff1d0ad1089c14b0a1c995889a959324027dd5102612042fa54ef1b1bc73fbc27e994d9ad8cf9443ef"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_006",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "We ______ (study) English right now.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "are studying",
+        "is studying",
+        "studying",
+        "am studying"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are studying"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are studying.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "88ba7802a50cfc0d",
+      "answer_hash": "95c7b781b46ab6e21eef36832170eeacb2eae80c309596ad05de8c906620e971",
+      "solution_iv": "184626c5906b5f8c6732a988",
+      "solution_cipher": "985e484a9946c9f6dad55fdd2b18258aa52f60be54581dd433e4285a4d3f9af4096a6791a2c84a9efc34358cdf5f4321b5de81f52c6da940ca610f5f6d130068c24f3b542bc64849801923e7ae7d7be97773cc6c8b1b1222557111ee672ba2e132d77472fe0c6d2be206e2324515eb3b85247ed89a57000c334864fa7230a0a435b018ae67feb7082550b46e809f52"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_007",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The dog ______ (sleep) under the table.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "be sleeping",
+        "is sleeping",
+        "are sleeping",
+        "sleeping"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is sleeping"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is sleeping.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "d9bc012879eb3dad",
+      "answer_hash": "fde6b67aa574c435c3d4258749cefe3da2219f0e4420090576a10ad11de3867e",
+      "solution_iv": "844c85c7cb55053e85982ecc",
+      "solution_cipher": "b83bb6c5c0d7c1fd9359ee9aa3a37ce7322a61166a72609e5a65e2f2e4ad0210923c28825b4c66b6964da2738d7da2b7c76cd83205e0e1fadba25eb1074613a45fc622abd40edfcea23bd9a354b836e56df2f72b0b0ccea0f11df999c1bf729dd31a0ed3e1ebe88e011432a29b7e575c029db263de9abe07fe420cf07914d471491e1de887e0c94e592f2e027f"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_008",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Lan and Hoa ______ (draw) pictures now.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "am drawing",
+        "are drawing",
+        "is drawing",
+        "drawing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are drawing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are drawing.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "936d8ca194b69433",
+      "answer_hash": "d11a86f5d6fd26113e97540bf2182c7bbf20e1874dd03d7539804cde0bfe046c",
+      "solution_iv": "f8a6a850d85a596063ca073d",
+      "solution_cipher": "2fd86900f8e9a6c3a17223e86915e805a9922459f905e6d03aca21c305efa4ce9fe485359d291bbe00172c5689dd92f5670b14377a0cfaf837624a8f3b41c349b9f0e4a0ce19bdd40a83b9594a24e7bd670e0db3f614db16827deb5db09c255ca18dd12cecb998467b6429871cd89e0d4cd50ea19c911786ec72338a98a55564c76eeb0b71bff5bb2340ed28b3"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_009",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "It ______ (rain) outside.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "are raining",
+        "raining",
+        "be raining",
+        "is raining"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is raining"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is raining.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "8f8b1d4ff28f77f1",
+      "answer_hash": "24856ec68088d677073b50308d70af537ec57c1f05c415b547660c3da1bdf852",
+      "solution_iv": "9401b75824e0924b7e6e43a4",
+      "solution_cipher": "c6adc90754f3c6639dc74513b6cebc1dcc740349b0bbcab7ec3622c9f2200cafe9a839894fce76db2d634ef92b4ce21004f96034beb16f49687497f95cba091fc29868b08097e2d11b04c300f9e83a6a1480e889ae3dc7cca60bf96e35e05df4ec6d425a247d71f555964fad0b71ac5fc91769874def25f6397f5521d957d67fecf26d0cba244b4feef9b0"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_010",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "You ______ (sit) next to my best friend.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "are sitting",
+        "is sitting",
+        "sitting",
+        "am sitting"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are sitting"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are sitting.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "db9a20893622abc7",
+      "answer_hash": "d38485c917447aaae2f39c0d97a8018ac65ff3872b5e5351f2502993a5f3ff24",
+      "solution_iv": "67236c800f01cdf6c40d6dd0",
+      "solution_cipher": "71a050da99950795ad23eddb882b20c84145f4c39f119bb41f5485a3f754fc1fcb8a8e9e8114d710220806e87bfc09b542c1073bc14ba13a113631970075f37c2898cd0e76d851b498cba5b876f64792179604e434b9d190a18f0536a2da7d8d6e98bce12afc3acd030b09d52f626c10281d27de18004441a2e1e4a677feb1944d8cb68a39d8d832f3fb7c2c7c"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_011",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Nam ______ (not watch) television now.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not watching",
+        "be not watching",
+        "is not watching",
+        "are not watching"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is not watching",
+        "isn't watching"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is not watching.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "6f686a277ef1fed7",
+      "answer_hash": "ec6bf7a4b23e7f12e1a9868d670d069b96e63800f337bbed23ada26a8a57f273",
+      "solution_iv": "d57fdef711b4a369dd79f93f",
+      "solution_cipher": "1420499258a8865a841c7baa5ba67f467628bf4835c6640c02a9ed374064a3a63bf8addff955efabd2759986a1f2dfe6ddd42f63afed268bc01eb3b4c17728878538c59e67188fc350dd12dcd60150dad9163a89ccecaa859dace2384a905e859e5f5007132adcdd174628e40bd17ba25b1ccaee8cfbb3e03c98146828ef16bc7e99459a0d45097ece2dc0d0647f3b240cd6ba6819df19ea88126102159156b2a8dd7755745b"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_012",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "I ______ (not wear) a jacket today.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not wearing",
+        "am not wearing",
+        "is not wearing",
+        "are not wearing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "am not wearing"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: am not wearing.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "afec3063bd6ab91e",
+      "answer_hash": "1a3cfc51b38a35651fedab750aa6d5ce3cac60c0c9a7ddeb06998571c944e770",
+      "solution_iv": "eb06b8d43546eb520c261f1c",
+      "solution_cipher": "644ae2db51de986a4444eb8b4e4e9699a68f59a5825860730891b33567618e62481d928346d2a9530015bd83b2bf44cf8aaed53afc052d49c90e7b64ce6ee1775f1d9d77e87fc85e4bc1412784ca0a5e960c28ff64a5fb7e570608f69498313d45700d19df2c5739006868aad199eccc1ce88a1e1b9bbf485b4f5956653fefc6848c301918a121c4759bc341297a49d2c7abc6"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_013",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "The girls ______ (not swim) in the pool at the moment.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not swimming",
+        "am not swimming",
+        "are not swimming",
+        "is not swimming"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are not swimming",
+        "aren't swimming"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are not swimming.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "cbe8bd0a0bc46908",
+      "answer_hash": "1a57daafb8249537467a0eaf10b5c75454e550c0cf115359bab2090456e437ce",
+      "solution_iv": "02be09a3bdd39b7e15b6ea4a",
+      "solution_cipher": "29e1ac9777ab7c3af4c35f1249c4eecb23e2eb324f41836a93662e916db3872ba9d8b6be054bc7d59bbdf93d1cc454c6d738e1d7bae2cff34c5481cf5c2af5e4b087fe695e974b7ae1fa1030118a09bdd503d309cb72069660eabcca85d56931eff0f7504408d0ccacf2ce189c3cc5df7fd1be71eb7361c3f35770854f7b3dfe48bc6ee22e7e6dd85ec00ffcbf9bb962a0722677bf4c8094b6085892c9a2d6287e5816deae182d8836"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_014",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "______ your father ______ (work) in the garden now?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Is",
+        "Is",
+        "I",
+        "is Ising"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is",
+        "Is / working",
+        "is / working",
+        "working"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "89b26bbdc5717490",
+      "answer_hash": "0dc0e79f15b6dff91fc8bbeb414d5f25638dbc5f26eaeb930ae81e3f5a8be1ae",
+      "solution_iv": "0cf9b653d225800f51201b5f",
+      "solution_cipher": "d03a2a33a103eeb0478797f66f1327b73f52b91a572a3b353780cf6cbbbed847fa4b67cb9e51eef287574f3acea04449ebbe27b5cfec76eefc3bf56e8ede92f9d9da3ebc63bf0bd7badcf7484f7b724f72bb4baa3cc0cb71cdf3ffe184a1fbf553905af0e3ae3f0f564095133650136766070b576741d8a5ba470587697b7fbd15de5a46c90dfc4b36786081dc4de5af97573cea067587f7bd0e7fda530ac7eca74b1f"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_015",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "______ they ______ (listen) to music right now?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Are",
+        "Are",
+        "Ares",
+        "is Areing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are",
+        "Are / listening",
+        "are / listening",
+        "listening"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "1df9efdd6cb51c8a",
+      "answer_hash": "b96ba1007172f65b3d3b0e84590d47b243c21b0693f20eca912ddeed4fd79fe6",
+      "solution_iv": "733b6f9e01b286a6b1baad8a",
+      "solution_cipher": "1dbe333eab096866905ee58facf8088880afc46173910ef206befd18fb804ff93a3a44b04d65d9478b5bf3448b6a56eea6ee1e8eb531368f7b14261d9f5685a0689427d96475fbaba7890e96c7a2586056871d2e378bad671f7df7862b75b972bafeca3fffb527d00c640689040027334758f13dddbc9e6c34dced7fad7b78d996611c29450983344449d28c557ac5221951e6c0d0e48d247b22a4f88d2cb0e3bc024fd9ff5d2f198657e46562"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_016",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Where ______ your sister ______ (go) at the moment?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to going",
+        "going",
+        "goings",
+        "is goinging"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "going",
+        "is",
+        "is / going"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: going.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "61adc4406460f055",
+      "answer_hash": "5d42eacef5a9f89cb45ff615c9072677c5c665fbea45c02e7baab4d155bec8d1",
+      "solution_iv": "bc0739e43758b567faa5aa80",
+      "solution_cipher": "33ae386406e92b7c7c2c060d8d7745ca6f055b7fa4ab6c52fd3dec1a25baae36a0a39f1d097e5a9f3c2b268aa95b94ac498f9c17cdaeac57f222e8d372f87ca148fe71c32d5012b9939c125711aa0b62dd751bc84665ca9ea3fd06bc3c4a7933077e6a8feb57b77f1f00c0bd75f794a1af67d81ad4cc2dd19e27d613026168c82122a6db9cc35f464e86432ff8f6194b59c156"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_017",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "What ______ you ______ (write) now?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to are",
+        "are",
+        "ares",
+        "is areing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are",
+        "are / writing",
+        "writing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "3aa17b41951d04b0",
+      "answer_hash": "55311dfbe29bcd2253adfe1da173e3fbba24c04da955970f135e94c610fbc22b",
+      "solution_iv": "04d1bd39db3a716915f1b1b6",
+      "solution_cipher": "dc695b45235db829dbd366010e1f3765d15052d57ba5655d795e631f9b2ca69df8944274969c7b2789d18c213f8bedcf07b6054ee4fcdfdf83ddcde02e6f171868910e4346fc1e57af28930186c352a74970c653ae15fba30b636166feda0ef0791f6b4eefba56d3a27565afd00a7cfb143713baed7a5e8556a5733067ff5d02693ca614c282f934871a1a217cb7b73901d10f1e3ede04"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_018",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Why ______ the children ______ (run) so fast?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "ares",
+        "is areing",
+        "to are",
+        "are"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are",
+        "are / running",
+        "running"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "8310a19fe24595ac",
+      "answer_hash": "82f6f197c74c652296b41b8db170f5f07113e6eefb2801eb6ff27e80d762f75e",
+      "solution_iv": "4f02889b1fbde277f093d553",
+      "solution_cipher": "a56c60f27cedfa8032bba7d992e6fcc74d75cccef0e3f33378902437f40b370ebcdeb2c9d6363cdbb337ae31da111437852185892affbdf78f810f9b068ca0b27c2be5f0ba97e6968931ce70a9a6139e3e984c612070eeddb771d804ec1d15e7b0d5dcfe988299700e21c5495b2e30ff8c0f360ea42059a21e5d251104796609ee16ce59b838aa6015ffc32caf63043be2a3c7f12468e4"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_019",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My friends ______ (not make) noise in the library.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not making",
+        "am not making",
+        "are not making",
+        "is not making"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are not making",
+        "aren't making"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are not making.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "33f24a9c403ca971",
+      "answer_hash": "c0483b3290ac33287c992508f9503fbe7d95d605f7aded5929a90718d5744eab",
+      "solution_iv": "106c6c9618c6134bceb71b1e",
+      "solution_cipher": "0d4091b93933d969fdb1c5be82e3cd812c65a5074664fb2286e2a4719fbb7786d807a3b60297d885948aa7311cb6a5b1c580abba6b3d57961e4365e012f7ffb0506c7dae0e730fd46f9e04d04c1de2813669a6365a8ab3fc6f42b70ecc8e0a2067b5b389a74058b4d7a98bb16cdc80fa52f60f5424a79c80a5aaec0d98be7524cf5b3228cd40436e068543877d514d265c73a02e345912834d13f2e1a708bc44bf46a1"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_020",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "______ I ______ (speak) too quickly?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Am",
+        "Ams",
+        "is Aming",
+        "to Am"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Am",
+        "Am / speaking",
+        "am / speaking",
+        "speaking"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Am.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "a6bd4cde24dc6730",
+      "answer_hash": "883d126231d053d0244f04a9d9ab3cb3a19c9d94e9d8cffdb9bd480c1d2fd163",
+      "solution_iv": "c05537966e6b6287f84929d2",
+      "solution_cipher": "b22360d07854d23a81e110f7bc7548be5dc776292fefd5a17a09ec64ff9c5245f28cdaf3e47cceceecebbe6c6e2d855b2d8e52ce0a6d9ba5e56871c8b3c6c1386d55906af708b269b75f45b603e3dde23d4dc3391a76bb868f6c8a8f8d038f70dff9c132053676cb3730a05f4ba6fa96aad048eefb50c5791331993c663dfa4e4e47f9df1f5dee17842478ea921c047ebe20d1ea0bb21dedead63648cb1d16ad9a90239183a1"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_021",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Be quiet! The teacher ______ (explain) a new lesson.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is explaining",
+        "are explaining",
+        "explaining",
+        "be explaining"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is explaining"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is explaining.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "76d8a03cf8e27ea4",
+      "answer_hash": "b94ddb5eb65d3c08005e0efa7967fb3ee9bfaa92e7dea906ff975f82903e1f26",
+      "solution_iv": "de9f9ef6559326e144611541",
+      "solution_cipher": "4ddc3904e278fe19eb0e4b872e77e9306f6c0bcc6d738e0e15b24b04f7d9387f6714d0518f9c5b49a4f12ed1e857d26d539136ed636ffa31546fbf5cd136fccd10cd848e703f89babf482acc0d75758d09a914dbf124f329bcdc9e516d260649351a98330b439e3613ab407a2be280a26e5ae33fe78ed8593a815d3023dbfcc0d48224caeeb677dc57d79d75329af8d217"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_022",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Look at those clouds! The weather ______ (change).",
+      "passage_or_sign_svg": "",
+      "options": [
+        "changing",
+        "be changing",
+        "is changing",
+        "are changing"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is changing"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is changing.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "860ff1aaf0142790",
+      "answer_hash": "6facd2c8ff06de80f34b3b3c1cc84e7632c9345edb92c9e24c1b8a7e95dcb141",
+      "solution_iv": "6afbee1810e781045c660421",
+      "solution_cipher": "6c396139aeb2500d4af40f9261a9e431d8fd62eebd54c47ec901328d2ef4c0b3bfbf180a001019f37045f0e581e9aeefda7d2395dd9d63892d7f1451754280618bbe6ca8709c2c2c0e1aab5526e8f18aab7cce033e336cd9e94fb623427ad86b59a5b8395c76c70aee17040d339edd3653a36d9bf62ddafc7bf9e73547bef6c76cacddd43df72d3b8b0e3a92e1"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_023",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "At the moment, my brother ______ (prepare) for his test.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is preparing",
+        "are preparing",
+        "preparing",
+        "be preparing"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is preparing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is preparing.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "904fed525858df09",
+      "answer_hash": "cbd64f852b9aa3fcb53f1293e83a5ba0a344e7234cd7538d610d58b050fc4da2",
+      "solution_iv": "257a219471df01173bbb9a57",
+      "solution_cipher": "78c0a63e13e1edc1ded783a2813ebb5f7f50d4d81eb7aceff164fe022675b6e483c2bb3c04dfff16d91f352246a3cf7c7595732baab5de1bfdcbe919edd666d6e38e0e1c3ff02e1dbb9902bbc35f423be68aa5c51a711c088a06e81ff9d964e77d14f771296a0adb230d318f5ec032154dc3479f0b6183d9fc67d30223cbcf0d2c234cc805669f7082f444c51a6db4"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_024",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "The children ______ (have) lunch in the canteen right now.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "having",
+        "am having",
+        "are having",
+        "is having"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are having"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are having.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "d56209788bf719d1",
+      "answer_hash": "f45b38d7618ef99169b9960bfc5d690cd2f69a97e43d0300e25409826b6cf069",
+      "solution_iv": "9dc3242e2901b02880bb2950",
+      "solution_cipher": "31bc4325440b865550152b1cb57852253beece84b2d16846c309a914f354e33f308670ed19a4a6c2bd8bbbf5407d89abdecafbe55a1929a5e796e5913938e693b67a84a65524124a2cc7fad8abfeca18e2f34242407956fbc843a306fc99c15a67a32fdaa767593c5dcd2c4c0200432101bb97de154a5348cd3bd14d16b4a3e16aede6e384a26de098a401"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_025",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Listen! Someone ______ (sing) in the next room.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "be singing",
+        "is singing",
+        "are singing",
+        "singing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is singing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is singing.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "b4d02008a13eeda8",
+      "answer_hash": "29acffec3184696e617cee16f994f9288dab56cb9ebfa13bfb6112e2e9ad603c",
+      "solution_iv": "80b77984f3d6fde11bbb0536",
+      "solution_cipher": "4e118cd04cfc971f705d6c0d38f9db2a2af74154415e74e3976d7099df5a89221ea25ecdf1661ba843897fe48514b77cedb429ea1a70e099e0eda3d0169d5793513cd22fa047e77af19b492ce4191c84befd624bc1538216353aadfd687aa4a01ba26362b37652674ae32eec236260b1d1d158eb04c9b2350adf2c9851f0a24ee4fb6bf15c031e6b5092f3"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_026",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My grandparents ______ (stay) with us this week.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "are staying",
+        "is staying",
+        "staying",
+        "am staying"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are staying"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are staying.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "391c751d93aff6b8",
+      "answer_hash": "4fd16fb2e573aafa459169b03bed6cacebf74b5815f4174de52b71d3525c7aa7",
+      "solution_iv": "d23dba801e5c03875d5ca426",
+      "solution_cipher": "1cc35a9f075bc952067c83270e1f131c2fe296c0442b57921543c37c504290e8a81563350f41150b931bc2264a67922f2f67ca55f77eb688433befeffbc98de5256c21e531fce66a17e764660c2537d5bc2f0215c0d5f670406e855a99b21e14fef1b4eb6cc651b93ea54c6e8c49d004624e909f111cbbf662f258f74c9831956a6a2aa4c98abc585df23569c2"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_027",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "This afternoon, our class ______ (visit) the school library.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is visiting",
+        "are visiting",
+        "visiting",
+        "be visiting"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is visiting"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is visiting.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "12631af10e0e80aa",
+      "answer_hash": "95841c78e4fcbd761ff95a575939b9140e3a524fa8c68cae103776701c5c3050",
+      "solution_iv": "d1a069de56e921fcf498efb8",
+      "solution_cipher": "0d1a42584db40367124e45334726b942faa521349ead1f87ef18f7d486178a035dcffbd8ec51668c9cd14714cae9a7d72efc04b7a882bebf77b9fa29567511727f25116d59d4c65d15ba5364b5cd3c684175d709b40812d5b0916f851e2361faf69bdf04c5fa9d0aaf054d86697c75b00b1e88540fc231005c2a47ec3abc48feed39c43029121cc571393bd0bb"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_028",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Please wait. I ______ (look) for my notebook.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is looking",
+        "are looking",
+        "looking",
+        "am looking"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "am looking"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: am looking.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "a81664ff903b0df2",
+      "answer_hash": "c9511094cde17b809f4a32f1b0fad279266512c0c2017ff1049b44f7a63ae599",
+      "solution_iv": "c7781711898ba963315eee6c",
+      "solution_cipher": "c7061d0bbab85eaa815639e36435f9cf6da151b1c7fdbd9d5879d01a965a11359fec2852c167a0f5f8cd0114968c8f6700e2fbf69c385e75aa73734dfb234ef57d111915cd79f54ab23274ae7b2986c94d9ef8a060b446da89e2491556d19191f1ecd379fd5d351b2390f736235cf23add8b09c285e410063bcae996d3ebe32e6c32696f1648d502508c14"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_029",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Today, she ______ (wear) her new school uniform.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is wearing",
+        "are wearing",
+        "wearing",
+        "be wearing"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is wearing"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is wearing.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "a2ef0f68b978069a",
+      "answer_hash": "8bd7d7cbe6bedeb4ee603259df08415190eb89f9a10279602cbccdd65cbbf143",
+      "solution_iv": "fe9525704e0fb045a2bc3721",
+      "solution_cipher": "08e9d2cddd73e05dd285b98a7e9ceda69e5db9b3c0bae0e6125dcb1119fda87a5c26e413ce7ffd11f8af34d545017bb44b3aa1a6b1eff8c05bebe49a735ab27e4d914ebfcfab5651a4bd942b486a6b121739de5ae85591f240dfa079e5eeaae296075f8169aec5fe02382c285816d6a1d19718fd8e2b63edcddfb67d0e2d8378ad07051cf8d34603194b38"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_030",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Our teacher ______ (show) us how to use the map now.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is showing",
+        "are showing",
+        "showing",
+        "be showing"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is showing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is showing.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "83223f74790bef42",
+      "answer_hash": "90b169285a4264c5fee449a1367b8c2b4f15ac9d5d9cc9752531177e18e8f944",
+      "solution_iv": "91abdbbfb3948cebcfb6379c",
+      "solution_cipher": "cc7c15efffbe666d82868a9c06bfee04501bd1f0c4e0d8775b981e5040c800c0e3d426ecd7e11c7f5beb7528775229f8120c45f5764c001725d896d09ecbc810c5f570011fe32ad3b52bb347c335f4a610423aad061cce6ff814362afa00b176db0b9bdef87303569e7331abf3f52e336ec9c6c5190b2202f81ac086ca80fd0e507f6fed7167cf61a20e3b"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_031",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "She are reading a story now. ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "She is reading a story nows",
+        "not She is reading a story now",
+        "to She is reading a story now",
+        "She is reading a story now"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "She is reading a story now",
+        "she is reading a story now",
+        "she's reading a story now"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: She is reading a story now.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "f540b8c81ce0c715",
+      "answer_hash": "b27fa7ad1cfe31ea6e631f9e1a8ad6a7db1d0459d1395f0cbb493c185a778055",
+      "solution_iv": "bf19dcbe3bab06d3e692df5c",
+      "solution_cipher": "3248340acaab2f28f67f3c96d05ec767158d49cb8cb3d74257c6f093203e1af609a7cf4d6b6265361f449d533f2ad353e72f9e65746bbcfd41ff7112dda26f5a3f5ec62a43fc55566f256a1995b12b8c1a33c10e76de4fd09e834425851eb709177bd72d429658243f320896771e6b4e20dec79aaa0b9909a32d665c9e036443f849ecc9cbfe733f5a9ab38bf64afe981485650f560d2e81ce1b0ba3402416bab365a6772e78cda465c467912f63a4e1d3b50f4e14f0da8424f5d4afe901d71b1fe2a4f92b1c85e26d03cedb75b97a1a25c0a630fcd9d7c99c09ee17d923a5e1ee2ece62"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_032",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "They is playing basketball at the moment. ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not They are playing basketball at the moment",
+        "to They are playing basketball at the moment",
+        "They are playing basketball at the moment",
+        "They are playing basketball at the moments"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "They are playing basketball at the moment",
+        "they are playing basketball at the moment",
+        "they're playing basketball at the moment"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: They are playing basketball at the moment.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "15fa0fcbd409b8ca",
+      "answer_hash": "cbfc1a509329afaa0af05419317342f80fe6ddcc76af136acadf701c9c8e2501",
+      "solution_iv": "abc79cb08fb132e5b5061900",
+      "solution_cipher": "0dde7a0cedebaefa359d472c049c27d989f4e3ba00199951fd6a5ac1d1f6809890238b214a5eea7e9489a058730f9664fb1fb8471ca6f1c8749ef8a57b9fb8cf2ebe83e0739b6b50640487c400ff9b92c2c7addb761b6cd2fe08f2793ee195caabab7e52f0d6c66888e33fd78f0b84ed4dbfe25855bec0a64d15290b94d0ab582745eeae52ba645bd264949d23296ec3eb247ceb10be9e9e147dcb38d2819ac82ed46c46471757606b83f57f69a216d769180ab7f8be37b013b3fc2a429b0ee599e6288b4a7413d63b5290f3fbb558b68632686050c6b0ca4dddf3b98b6811570294f990bcbd4555b04c62e8a7f6c3bc050c80201592ed754100dd4b1c337172e0d319434649d7f1a9141fd4c1948986096b98f58c7b99ec266c85aa65424e46"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_033",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "I am writeing an email to my cousin. ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "I am writing an email to my cousins",
+        "not I am writing an email to my cousin",
+        "to I am writing an email to my cousin",
+        "I am writing an email to my cousin"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "I am writing an email to my cousin",
+        "i am writing an email to my cousin",
+        "i'm writing an email to my cousin"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: I am writing an email to my cousin.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "50e792f367637ed2",
+      "answer_hash": "af1a6b39376dc40a7f94c7e6f7a064711eeff7e18fa9814d67b9a0488c47381d",
+      "solution_iv": "b6c0cfce7cc5bfc1e6ae948c",
+      "solution_cipher": "015474cf9c51a4fabb72955d89eb529b8fb91e5f7ed60b3576cf527c41ba3d2efeb320b2c62001ef6f9745f111874e7d019680c81d7426baa5a737fcb98ec688f624222698c4e44b7f24e0c33b1efe6f93a04c4335f251bb48e22ebf407a6d65cbaaaba79d1fd5c48fc743299b913f14f25cf60b21e8e9dcc487faea13eace52c545a58eb2ab428d80c821882283a013f702f00a041982536c0059cf05282caa6db258c4014b9b0c050b70d2c4a94da957ec881faa1ef98b2bc845f928a9aec1170ac7d93e685f388c9efd4a3e8b89cd84355e0c20a0db87c4c29e1d918cc84063031d779c2147dfe4c75c2779d77a61a9a2293e3084ec30086fc28582ea4372c9ef69c8"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_034",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Look! The cat is runing across the garden. ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Look! The cat is running across the garden",
+        "Look! The cat is running across the garden",
+        "Look! The cat is running across the gardens",
+        "not Look! The cat is running across the garden"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Look! The cat is running across the garden",
+        "look! the cat is running across the garden"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Look! The cat is running across the garden.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "04dba0a9d7d1961f",
+      "answer_hash": "612c3404b548f63f5bd58cf233a54db70a5782f174f067758ca50d34eddd564f",
+      "solution_iv": "ae33bd7b12d1e6ac547537a4",
+      "solution_cipher": "7117c25fa84e8dd1092e452da8e085b39d319700596139c5bde6baf993542a2d5c488915ef3d54eaa6e282657dc240d741f2c9a2bb5a1fea2d6fff2af449289d341b24cbd5089127001e9bf113bf94f52f0457e5555f63dcafb11d4a2547a8569f0d5276dabc12ea42c1423ebc55ee3f8a817e1dc55c5f5277996678eb62ea6d54ad6f4c9322d865841b811e7c1f1d0347f4d30ee4dbe97b37d78589fb3a4b2189134f860c0a3c23f017588d5ba1e299dac5a8832f6652213dccb7d73883f207bda7f420669ba5cb9ada806cbd0289b22a0b74d7c7561727d5a2cb3fd9b92d727a6a397616c0075c3a0ab5ad1e4899159938440c2940cd23"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_035",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Does he studying in his room now? ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not Is he studying in his room now?",
+        "to Is he studying in his room now?",
+        "Is he studying in his room now?",
+        "Is he studying in his room now?s"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is he studying in his room now?",
+        "is he studying in his room now?"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is he studying in his room now?.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "3980ea79a7aeee99",
+      "answer_hash": "8d001198e5ddcccc87fcac9f947fab2f3a0844ab2afdc8b36412fc03ef2e786d",
+      "solution_iv": "3aba9cf0121bf89eb61b6edd",
+      "solution_cipher": "76ccd6a69339c7fb82209df82471bbf4f5d940f57d33c298ea119920afe65127fb4c058f323bdaac4ba064b93235b1b2a08bda52f98e3b9ba72c9fce6ee0ec1c4007c8174cc202c5bd3077f6f59f78a7ee6abec22769ded1ddc6acbbc58d24accc8af1c2a1c2d1f20e1959cf24d25051a7cb72ad4dfba3588119efc86fb5d9b493491e9096a14ad99ba9d7ca9779647dc72e41c32afe6a19502fbf3f2b603bd8d5ed0ad4d18aa87a4eb9befa94ede59d94338b01ca1a2bdc6117a30487000c17ad74f60ac316eb41e2286b6b82488583973f3370b798e3"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_036",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My brother not is sleeping now. ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "My brother is not sleeping now",
+        "My brother is not sleeping nows",
+        "not My brother is not sleeping now",
+        "to My brother is not sleeping now"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "My brother is not sleeping now",
+        "My brother isn't sleeping now",
+        "my brother is not sleeping now",
+        "my brother isn't sleeping now"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: My brother is not sleeping now.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "3cb6e81b0a75efd3",
+      "answer_hash": "0723a17408909240a5b514cdacfff652273cb18c9c8c42c03e12c2ef9f3996b5",
+      "solution_iv": "ed001952a210472378397f2a",
+      "solution_cipher": "ad25c731a4924fd7f12362c7c2b7d014693e808215b66c68beb46bcad349d23c59278ee22669b7eebc1da3cccd0082271abaf50eb8fe69a4285ee7e3e6896f1426e0d1f0c0490480eae3642486681e61c92a192770d9500012342d8a2cbe4c98445da7f3eb20d843e36d64f3b0b935343ec8653f55f98917122fbf1382e7eb23385c586aac56dd6adf8db254e02a82f7be7fd2f4ccc2a0aef27fb88ad3fd7965ee94ed3b02b415fc8cfe4f9c79c75584858cec411d604b96b4639852cb63c806fe94097918883d5a3e0da5a444955fc330b7ada53cd2c7f38670e0f9437aa861df9e37963ce664c50f5ff13a4abe55963e4d4edb121a288dda359f38a2339379f296cbcf03412fd8438e41480a805e39d4628fb0"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_037",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "We are haveing breakfast at present. ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "We are having breakfast at presents",
+        "not We are having breakfast at present",
+        "to We are having breakfast at present",
+        "We are having breakfast at present"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "We are having breakfast at present",
+        "we are having breakfast at present",
+        "we're having breakfast at present"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: We are having breakfast at present.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "3a13cbb70991c161",
+      "answer_hash": "7ff15e99d917ec944aa970d2a32d4a4d883dad2f660c5b96dbf52e1e1e1f4616",
+      "solution_iv": "a4ab78952a28fe5353dfbae3",
+      "solution_cipher": "f5c4ba14432857544d08d7650cec115795698485140495467e1189b78a53cc2e844839815ba60a2c2d9cdc8c9869f508a960c69baa263def581f401f8fc8cb37bafffe911852662011f376c80bae52e988215edad3fce4298db2c6ee8a514c384716410eaea7008ea0c4886af9ac2f9775ff4f757530e747c85d6e02f5a3abf6e132731f376593d4060968ecbc7561de9df1db2aa0353f23122a976f3794818ba82df4e7d301b1444a897ad56e4c657386f698800a0cafb435d41f00e4220803077e7150c83bac2ede3dfd76ce3840be59c6a5b443fdd7df9539f6eafc5df31ee267230f64d798b33a5f9c6e1d27b59a596436740595abfabe0862c1392f6b5552145ade"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_038",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "What you are doing right now? ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not What are you doing right now?",
+        "to What are you doing right now?",
+        "What are you doing right now?",
+        "What are you doing right now?s"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "What are you doing right now?",
+        "what are you doing right now?"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: What are you doing right now?.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "cdfde2e246517d05",
+      "answer_hash": "d1bf925a629b3483f0ea931effde0a0358f0ea874a02b49d1f564aa8b33332b8",
+      "solution_iv": "b562a3acbfb168f5b1b21282",
+      "solution_cipher": "06eccd221db0f745f614da6d3e1a433be58d614389fcda788d623e045df2d4273ab225230e9dbd0d7042f82f30190fa569078c92f4628e7b8fe371ee229d18f4b9dc38e73c3d91fc12e83eee3f37a3b2eab5a4757aa8c2e4078f31311406c8eca75dae3dabb45796c8f05c62f6ae6059e9bf13e241fe1f7a676a2cd34f1c9892f855b03c2618f94d295fa519e367fe74d90d8798e9ef8c19f78acf32bfd8dadb043eb7fbadf28746bb8d4c3dc4537e4333d141a5bf8034283b9645a025674d732371158fb4789f0ff26ced21dce72062d4"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_039",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The students are siting quietly in the classroom. ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not The students are sitting quietly in the classroom",
+        "to The students are sitting quietly in the classroom",
+        "The students are sitting quietly in the classroom",
+        "The students are sitting quietly in the classrooms"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "The students are sitting quietly in the classroom",
+        "the students are sitting quietly in the classroom"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: The students are sitting quietly in the classroom.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "d19b36711e8a4a26",
+      "answer_hash": "6dd2cfd9565c2b048858ae1f76e4b332e75fadd3ad5b885d5c5e5da2366ece2f",
+      "solution_iv": "c83b28380f96134031194cb2",
+      "solution_cipher": "fd33a925b5ccf4c3519c3de07778d7d1ea44f9dc0cf8a877db569064c1fb4b4f4fefe1062df651bd768077cf916d9a564556a1bab8ef2f9c214b453d990abd04f6b421a65a30bc965ca458b0d49383ce8925b4af828ac1c0f053254930fc151ba5a447902fc47ef46038ccac16fa0f218cac9c22b34fd045fd7e8903b2144a806c7e5b1cbfdade3a67e859a2064bcdb3deea4b0a91f5bd18a769b6e8c6e1fc77dcf50a25f1970decdbbcaf32301babc8c371db6a5cea5270b440dc25918d948775b433964422badefae157fa4aae2c3ac6beea7fcca86048a76aeffc7484d9c555c6eac0b88b3ec82936abba34ef32937306779fa6306dec6cf2d7f07049cf65c694473c445152d6312c5522de"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_040",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Is the girls dancing on the stage now? ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Are the girls dancing on the stage now?",
+        "Are the girls dancing on the stage now?",
+        "Are the girls dancing on the stage now?s",
+        "not Are the girls dancing on the stage now?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are the girls dancing on the stage now?",
+        "are the girls dancing on the stage now?"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are the girls dancing on the stage now?.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "0d236b41733e2f3a",
+      "answer_hash": "811f0d3e63906b3f38cb4ec599cb3b14410d80a23d218b21c5183495523c0203",
+      "solution_iv": "8dd1dac4eed679b58a8bcbe4",
+      "solution_cipher": "8887dd823c5f00bf06536b83f30760962bb2c0da7ba95bc41ef9d26f423e3f44897a5949c1810f4a1793b0aedbe44b03539761c536af9ac759fb8c9f1e1f8e6aec11d5885a0b64d113a5cc399bfe2860dbf308e32fdc003960fad41ce86052f19bcea58a0394f6c20eebdd8e8a2364fbda4a32bfba45340a9e5e471f39a1556619eb6819b36f75408ba74d741a2c337bc19180080450d15aa3412c0793acb57f4befd607ca3b902317981a7ee0098d94f08f2a5da3e6cf66d979e3ca1f69e7fe48b789826ae7ae77c2c7ae53f967e6d9e764083d693155b5af952ef3b925fea1f387a26dfe41d1ea71d4143f788eeb"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_041",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "He reads a book. (Use \"now\" and the present continuous.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "He is reading a book nows",
+        "not He is reading a book now",
+        "to He is reading a book now",
+        "He is reading a book now"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "He is reading a book now",
+        "he is reading a book now",
+        "he's reading a book now"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: He is reading a book now.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "0ff9be81be51cfd1",
+      "answer_hash": "4c0c2ca7fa77c760b13d6a1d997123aec7bc8cfc0ab64959d1c8926a9922026b",
+      "solution_iv": "ce401ff7f076589729a90518",
+      "solution_cipher": "fae496894ecc107c56cfca2650cfcf021af79cee3eec55154af877fe5d594a3a40965aad7eb72723f4f96ad5a14cb520513d3614d6b22440a16ee6d297249e660d57c816a6ae13cbd6a5aabdf603f41ededa783b053033d3078a0b71a3abea0b94ae67163aed86f785fe691dc01ab18ebe6774a6a9372122660cffeaa52446dfde72e326ea2c7ea04631eae21a6fa7897ed547570e48d3b278e438629a58b2b0321cc909c80be9a33f700a63fe49eb9045febd75df7b1e598c8ac5b207d168f75da2d0dd8b918c2b7eeb9de6255c084fc9ba98fd6e7c97d3e57e3445"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_042",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "They are cleaning the classroom. (Make negative.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not They are not cleaning the classroom",
+        "to They are not cleaning the classroom",
+        "They are not cleaning the classroom",
+        "They are not cleaning the classrooms"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "They are not cleaning the classroom",
+        "They aren't cleaning the classroom",
+        "they are not cleaning the classroom",
+        "they aren't cleaning the classroom",
+        "they're not cleaning the classroom"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: They are not cleaning the classroom.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "bc82d10ca1dfcc78",
+      "answer_hash": "0d1066d793fdf3f388f125f9c956f0daac74e81c58d65e7d3d3d19f4ed785e75",
+      "solution_iv": "ab68273ccbe98d0206b0dbe4",
+      "solution_cipher": "c2a4a9af08f0f5033f5afac89cc4edc3d0dcf90ba3cf367004c2b690aa07d70d2c16dc1ae56c338a6a437996ee6e966858b071446b9d90660932db3ff8f6f499d3bb477e94aaba38886e4775dfff564b1c03e4ead5810a73773bd84b8771c012d90ba60d45d128ce423c296adec8e3a9c87b3b9e87c0ebb27ca9f61980f21515164d0af6b953718267856064606f3b134decc4f3a10d395c33367fcb8b49fdf6a3c693eca661f41a74d56dc158e822df337933fd50081415db43b163af3a16fe6992dad81c6034cd48c892dc619552aea8c18891699e6e0b91721f44500d59930fbddedc8785d0ca8748ddb556ac14c0a52c8d327cba1954e3e3081dc877e4c6139b57ba903c126c92b1305d1997619dac630474ac5ba3c69afcebd0e0d02ca0f04741eeaacacbdb29732d9a96c1219bc8e3b152606858aa4d8da91c0c76811c8978f88a3dbcc5e54c6adc4059f26ead7af7"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_043",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Your mother is making a cake. (Make a Yes/No question.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Is your mother making a cake?",
+        "Is your mother making a cake?s",
+        "not Is your mother making a cake?",
+        "to Is your mother making a cake?"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is your mother making a cake?",
+        "is your mother making a cake?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is your mother making a cake?.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "bdc55661308e2b98",
+      "answer_hash": "77800290c2512192f6b18852e98b9acb7628e12e02c9a5f7e72513b809e5fea5",
+      "solution_iv": "55efac96444511be15074e3e",
+      "solution_cipher": "cb35a383bdff5d6123ab8f5a89fde43d154d4ab9bfcf61289a585b8f1eb7a733d99608d7638b211ab1ca4eb06046fbccd739bc16662c05c4a3951bf86e8647f58b33d95ca87acde37fd01f82f305885f30a01ef761129a9d511ffc785d659f88e12d3c450e0e864b92fd33cc639de82abed935a17153f2708a499f926e766fa8d6c67aeb9cc42471a62748825b42d43539a459b188e7f374352bac329e88660120300181ed6db71792dde751c6e219ab0dbf901da804cd3be8aaf47ce2d71202d3a01eec7aa598317c8b07f539cf1fcf1f"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_044",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Mai is talking to her teacher. (Ask about \"Mai\" using Who.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Who is talking to her teacher?",
+        "Who is talking to her teacher?s",
+        "not Who is talking to her teacher?",
+        "to Who is talking to her teacher?"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Who is talking to her teacher?",
+        "who is talking to her teacher?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Who is talking to her teacher?.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "8af56491e3ae4381",
+      "answer_hash": "6cbc96f1d3068f64a528c81cbad846412b04c68cd8e0582387888b813d29b6f1",
+      "solution_iv": "a44d2c576bf9164d55ed2f58",
+      "solution_cipher": "f3cfd051b0f1bdebf9c5f40d91263ba05be9977782fd3927323ecd29936e76e07cc009733dd0272a77c3c15c5669de692db32337739a87ea4ce7ce0e21f3f403f0e73ddd672b4b0b26a69a0da1681fff0f4f49588317c28a92ff6417d754a0a2638fcdf69b7d9dd53931c3a88516c36afacb393a3c9071a372803789efd4f6b0e41af823c68ad4edf80ed03f5f7a1acf22cdf3a3e4aa3af04a5771604cd93cd12e2d287c7baae9b7936cfd86d435498235b540c79d465b7361df265940a649bf8d29fa124edca62cce71e8a1f02eda72dda04597"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_045",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The boys are playing chess. (Ask about the activity.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not What are the boys doing?",
+        "to What are the boys doing?",
+        "What are the boys doing?",
+        "What are the boys doing?s"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "What are the boys doing?",
+        "what are the boys doing?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: What are the boys doing?.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "b591703ff4ca4627",
+      "answer_hash": "824974e95f0bbcdc0397e28285acdc788c4b6834bd2add7d11d06c430b60b69b",
+      "solution_iv": "4b2a0e0585f9a62e63a38053",
+      "solution_cipher": "80cb897d3f1d12ce30bec841d23a9eaae65480b9b7bb717a5ae2bac42b712b3f33137ba793ba8e79570ee25b29233b22a5b56a869e215d11d8d54c497d8bcd82677375ddbc83121b30a8cc58ea396aad12dd23c4e5f9eac3357d0d1cc33050b3a701c5db54f525195f0eaf09328b11b770ddb1b42eb955edc972c89b27ad0a3bfd9d07d96d67057e79c9825d317fa20107293b3174980f93123d197323c8a987f27499745ea420f70dcd966fee1622b3525126553f872e6a2b8d05c0c0e06e2db7a3"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_046",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "I am studying in my bedroom. (Ask about the place.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Where are you studying?",
+        "Where are you studying?s",
+        "not Where are you studying?",
+        "to Where are you studying?"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Where are you studying?",
+        "where are you studying?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Where are you studying?.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "47699639c57cb228",
+      "answer_hash": "28e76d93ed4ec2561f3239f3845bade392647d21ebb8374d10c707ceef568191",
+      "solution_iv": "e59eff227b06eca54c69ebb8",
+      "solution_cipher": "ca393583df97db2d0ca2e3c507ff53c4a5abf3634387ce5412e0ef3911716865c4144f766da6632891a57cebf912bcda9c12b171b6ab44fbe518dfcaa68ae67009921a9e41861224d795c1594b5831246795da93bbc2977e69ce976e868ed6b7dfa991857207df89dfa5da7e33e4e66d24caefa151c92b00ee2038cdda7bcb4bcc12a8d84c5090605a287ab2b2b279097414bc2d3024a609c6110d7d837b0d8d8277fab66eca758f1e9d6aeebe3c57df19ba5b193ddc58c9448e737e78e3a2"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_047",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "She is wearing a blue dress. (Make negative.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not She is not wearing a blue dress",
+        "to She is not wearing a blue dress",
+        "She is not wearing a blue dress",
+        "She is not wearing a blue dres"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "She is not wearing a blue dress",
+        "She isn't wearing a blue dress",
+        "she is not wearing a blue dress",
+        "she isn't wearing a blue dress",
+        "she's not wearing a blue dress"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: She is not wearing a blue dress.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "cc0485decf708052",
+      "answer_hash": "6671f41b304ade79315ebc58f7f35a7877a5d544a65ea4183e1fd92e5b7b5d6d",
+      "solution_iv": "ca11b235aff124c7020cdc54",
+      "solution_cipher": "47ce6992283ffe8ab4791fd9cb87e66621bf70d63fab8c188bf67555f7c3784c3e71793dba951d1d86952cdfcc743a372c65a289beaa0c062f0b5b7ab151e34c464bd926940b3a7e12ee18ec6f4bcef66efdb8b339a38f60f817c040d8accee33a53eea8eb3d312f8464e5a8ae45fe279d7c718b8f48e7d12e96d555881bc5397cdc2546f62ca86163b7e847dee16b22bd350e9e12f6f08be3a847c3471739cd9ce8d9b4ce594960952d6d14fbe09cef67100b1aea890feacb3f6836b6341df5e6d3abd7e2ffc98c46cebfa055b2236f3dab24ea983503b0bc236c86664e73ebcb372dc0e7d119bc4040386158bea93245d764215f1f1ca60c70d58a21d4f046836a6e75287d782fb8f9af68576fef894b67462daa7e3a490348d322cf853e034b200ea1462efd28e743d8d675d255f5e677870b4612aa336572"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_048",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "They are waiting for the bus. (Make a Yes/No question.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Are they waiting for the bus?",
+        "Are they waiting for the bus?s",
+        "not Are they waiting for the bus?",
+        "to Are they waiting for the bus?"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are they waiting for the bus?",
+        "are they waiting for the bus?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are they waiting for the bus?.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "af2d95f00c2a4094",
+      "answer_hash": "bc600d8a89dfc46bd8c4f574888908546221373c49409311bbd2b5302c94afd8",
+      "solution_iv": "24ca61da6bcd8f9d67001c2e",
+      "solution_cipher": "04646c4bef0290d48349202deb3473c5938cdb00193688442cfa456ff8acdac39a105d4506a9346e3664b7c2dd36e3728da6fa4b799507102d656f08099afb6bb9fc2e2b0c88f288c0841cd278c6daffbb4093ff7087538acb04f4bb360c5d80507ed7e7545a0043f3dc25a9b560f647aec717390d70377aef7b006e46d1cc393d26a9598cdebc9be4e2878aae7a0965de9c6eaaf9bb21206a00541a4eadfcee3ab0eb5b117cf7b1433aa72bdb378ab9e50e744d511df87baef3fa5dcb38f14efe8781aebc788e3c47234d323086f6a0b2"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_049",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "The students / not / use / their phones / now. (Make a sentence.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not The students are not using their phones now",
+        "to The students are not using their phones now",
+        "The students are not using their phones now",
+        "The students are not using their phones nows"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "The students are not using their phones now",
+        "The students aren't using their phones now",
+        "the students are not using their phones now",
+        "the students aren't using their phones now"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: The students are not using their phones now.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "33f03ea4f97a4e16",
+      "answer_hash": "7ab9c46055ae4789305c347ccfa4db60e28b870039a3b0a8c45562551c837fb5",
+      "solution_iv": "6c6c498ac611cf064ab8e12b",
+      "solution_cipher": "65d06d2f267203d0d364025a5bb96a3cbfece2c535ae4bbdab6c14a4c1c06b25d61e8a666da2bcbc75bfa9d3ddd44ee12cb88b046c63ab64fb98783f3151288f7b9b01112685910baf417e8ce2d70eef3dbe6f29bb1bd36221eb33acd6f05b5f79925f8299abc5d960f247cd063c26fbd5859c962cac9e68160ac17b3efe9e06e7da831f5015fcaae662a359055dd6fb5afb295fae288fc6c7c29270387cbdb85131b009ac0e33d72587f97469602dbdabb05cb04c58482b10c7a9b4722135d33bdf8acf82a011b3798a7082852d941f9c36db7225ae80a2621d8e8b3cf31e4ebf50352825beae3bf011e737f9c765da949cf332636eeba87db157c752be34b5b1abb0baa6396e5a191d7acf710ced82167170eef07f68cae00707b24f991aadb7d0f36d5845a81dd70bf45aef36b4376f598f36fdc67b3d7062b9425bc3c51cb27b485a8b0bf52337c3d96874906c951f8a7fe96a"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_CONT_50_050",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Why / your sister / laugh / at the moment? (Make a question.) ........................................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not Why is your sister laughing at the moment?",
+        "to Why is your sister laughing at the moment?",
+        "Why is your sister laughing at the moment?",
+        "Why is your sister laughing at the moment?s"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Why is your sister laughing at the moment?",
+        "why is your sister laughing at the moment?"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Why is your sister laughing at the moment?.",
+      "source_worksheet_id": "WS_G06_PRES_CONT_50",
+      "crypto_salt": "f55fb56bebc559d2",
+      "answer_hash": "ddfd2729b990d4e1b4d0fbacb1f22cf124c8c72773d9bd65fdfedc9877e74087",
+      "solution_iv": "4e0eb2caf67391b2d81d30d2",
+      "solution_cipher": "15754c4fad15a8bfc74f50e7eea6051d9e64416721cc0f21bb93610ea72289ac333afee17ab543353eef819d05f7a2efe3ea2b155e0ce4e0aedf0df8011c46e0fda360bbe26991b9b8d96ca656f6cdfb69707eef73cfaea3b025bede73f8a3ecd431054a92f3901ab4b6952610bd01c575e06d26bf71574f58eb3c67a584d59a708663d1e162b4d1c3248589c64c609121e32cb038e153ef6b107ee12f4ed0f28480791a41f157afb7e180ecb95c661527ee22a90d0f6f4178d5ba136a6f8a6ccbd1628dc9ff2253803db42d7b4b23e107c70140fa3e2e2c63bdfcc1f0f3119f07a93a9efa6b443a42ee639b0ee1b82b730978dee752df7a"
+    }
+  ]
+}

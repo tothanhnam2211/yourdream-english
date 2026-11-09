@@ -1,0 +1,21 @@
+# Security & Secrets (NEVER COMMIT)
+*key*.json
+*secret*
+*credential*
+anti_gcs_key.json
+.env
+.env.*
+
+# Python & Temp Artifacts
+__pycache__/
+*.pyc
+.tempmediaStorage/
+scratch/
+cdp_*.png
+qa_*.png
+*.tmp
+*.log
+
+# Duplicate Archive Copy in GCS Bundle (preserved in public/archive-files/)
+raw_63_archive/
+dist-gcs/master-thuy-studio/archive-files/

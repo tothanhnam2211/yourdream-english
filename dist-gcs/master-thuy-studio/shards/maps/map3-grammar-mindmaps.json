@@ -1,0 +1,311 @@
+[
+  {
+    "mindmap_id": "MM_G06_PRESENT_TENSES",
+    "title": "Bản Đồ Tư Duy 1: Hiện Tại Đơn vs Hiện Tại Tiếp Diễn (Lớp 6 - Lớp 7)",
+    "grade_band": "Lớp 6 – Lớp 7",
+    "unit_link": "G06_U01, G06_U03, G07_U01",
+    "drive_pdf_id": "1-WYDOyb9fHKIQM5i4-eg3lxrJNgeYgeE",
+    "center_node": {
+      "title": "PRESENT SIMPLE vs PRESENT CONTINUOUS",
+      "subtitle": "Thói quen lặp lại  ↔  Đang diễn ra ngay lúc nói"
+    },
+    "timeline_svg_caption": "Trục thời gian: Hiện tại đơn (Các chấm lặp lại hàng ngày • • • •) vs Hiện tại tiếp diễn (Vòng sóng ngay tại NOW ◉)",
+    "branches": [
+      {
+        "branch_id": "B1",
+        "title": "1. CÔNG THỨC CỐT LÕI (FORM)",
+        "color": "#2563eb",
+        "nodes": [
+          {
+            "label": "Hiện tại đơn (+)",
+            "formula": "I / You / We / They + [V nguyên thể]  |  He / She / It + [V-s/es]",
+            "cloze_hint": "Động từ với He/She/It thêm gì?"
+          },
+          {
+            "label": "Hiện tại đơn (-) & (?)",
+            "formula": "(-) S + [don't / doesn't] + V nguyên thể  |  (?) [Do / Does] + S + V nguyên thể?",
+            "cloze_hint": "Trợ động từ phủ định/nghi vấn"
+          },
+          {
+            "label": "Hiện tại tiếp diễn (+)",
+            "formula": "S + [am / is / are] + [V-ing]",
+            "cloze_hint": "To be + V-ing"
+          }
+        ]
+      },
+      {
+        "branch_id": "B2",
+        "title": "2. DẤU HIỆU NHẬN BIẾT 3 GIÂY (SIGNALS)",
+        "color": "#059669",
+        "nodes": [
+          {
+            "label": "Dấu hiệu Hiện tại đơn",
+            "formula": "[every day], [usually], [often], [always], [sometimes], [never], on Mondays",
+            "cloze_hint": "Các trạng từ tần suất"
+          },
+          {
+            "label": "Dấu hiệu Tiếp diễn",
+            "formula": "[now], [right now], [at the moment], [at present], [Look!], [Listen!], [Be quiet!]",
+            "cloze_hint": "Từ báo hiệu ngay lúc nói"
+          }
+        ]
+      },
+      {
+        "branch_id": "B3",
+        "title": "3. CẦU NỐI SO SÁNH VÍ DỤ",
+        "color": "#d97706",
+        "nodes": [
+          {
+            "label": "Thói quen hàng ngày",
+            "formula": "Lan usually [walks] (walk) to school every morning.",
+            "cloze_hint": "Lan là ngôi 3 số ít -> walks"
+          },
+          {
+            "label": "Ngay lúc này",
+            "formula": "Look! Today it is raining, so Lan [is going] (go) by bus now.",
+            "cloze_hint": "Có Look! và now -> is going"
+          }
+        ]
+      },
+      {
+        "branch_id": "B4",
+        "title": "4. BẪY HAY SAI TRONG PHÒNG THI",
+        "color": "#dc2626",
+        "nodes": [
+          {
+            "label": "Bẫy 1: Đã có doesn't",
+            "formula": "She doesn't [like] milk. (KHÔNG viết doesn't likes!)",
+            "cloze_hint": "Sau doesn't động từ về nguyên thể"
+          },
+          {
+            "label": "Bẫy 2: Động từ chỉ trạng thái",
+            "formula": "Các từ [know, like, love, want, need, understand] KHÔNG chia V-ing!",
+            "cloze_hint": "Stative verbs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mindmap_id": "MM_G07_PAST_SIMPLE_ED",
+    "title": "Bản Đồ Tư Duy 2: Thì Quá Khứ Đơn & Quy Tắc Phát Âm Đuôi -ED (Lớp 7 Unit 3)",
+    "grade_band": "Lớp 7 – Lớp 8",
+    "unit_link": "G07_U03",
+    "drive_pdf_id": "18r8bDTkejED3rzowg74NlwcmSBd1lXVk",
+    "center_node": {
+      "title": "PAST SIMPLE & -ED PRONUNCIATION",
+      "subtitle": "Hành động đã kết thúc trong quá khứ (yesterday, last..., ago)"
+    },
+    "timeline_svg_caption": "Trục thời gian: Điểm đánh dấu [X] đã khép lại hoàn toàn ở PAST trước mốc NOW",
+    "branches": [
+      {
+        "branch_id": "B1",
+        "title": "1. CÔNG THỨC QUÁ KHỨ ĐƠN",
+        "color": "#2563eb",
+        "nodes": [
+          {
+            "label": "Với động từ TO BE",
+            "formula": "I / He / She / It + [was]  |  We / You / They + [were]",
+            "cloze_hint": "Hai dạng quá khứ của be"
+          },
+          {
+            "label": "Với động từ thường (+)",
+            "formula": "S + [V-ed / V cột 2 (bất quy tắc)] (VD: donated, went, bought)",
+            "cloze_hint": "Động từ có quy tắc và bất quy tắc"
+          },
+          {
+            "label": "Câu phủ định (-) & Hỏi (?)",
+            "formula": "(-) S + [didn't] + [V nguyên thể]  |  (?) [Did] + S + [V nguyên thể]?",
+            "cloze_hint": "Mượn trợ động từ did"
+          }
+        ]
+      },
+      {
+        "branch_id": "B2",
+        "title": "2. DẤU HIỆU BẮT BÀI (SIGNAL WORDS)",
+        "color": "#059669",
+        "nodes": [
+          {
+            "label": "Từ khóa thời gian",
+            "formula": "[yesterday], [last night / last week / last summer], [2 days ago], [in 2022]",
+            "cloze_hint": "Các mốc thời gian quá khứ"
+          }
+        ]
+      },
+      {
+        "branch_id": "B3",
+        "title": "3. MẸO 5 GIÂY PHÁT ÂM ĐUÔI -ED",
+        "color": "#7c3aed",
+        "nodes": [
+          {
+            "label": "Đọc là /ɪd/",
+            "formula": "Tận cùng là âm [/t/ và /d/] -> wanted, needed, visited, donated, decided",
+            "cloze_hint": "Tình Đợi (/t/, /d/)"
+          },
+          {
+            "label": "Đọc là /t/",
+            "formula": "Tận cùng là [/k/, /p/, /f/, /s/, /ʃ/, /tʃ/] -> helped, looked, washed, watched, laughed",
+            "cloze_hint": "Khi Sang Sông Phải Chờ Thu Phí"
+          },
+          {
+            "label": "Đọc là /d/",
+            "formula": "Tất cả các âm còn lại -> [cleaned, watered, played, lived, volunteered]",
+            "cloze_hint": "Các âm hữu thanh còn lại"
+          }
+        ]
+      },
+      {
+        "branch_id": "B4",
+        "title": "4. BẪY CẦN TRÁNH",
+        "color": "#dc2626",
+        "nodes": [
+          {
+            "label": "Bẫy sau didn't / Did",
+            "formula": "Did you [go] (KHÔNG dùng went) to the nursing home yesterday?",
+            "cloze_hint": "Trả động từ về nguyên mẫu"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mindmap_id": "MM_G09_WORD_FORMATION",
+    "title": "Bản Đồ Tư Duy 3: Cầu Nối 3 Bước Giải Bài Từ Loại — Word Formation (Lớp 8 - Lớp 9)",
+    "grade_band": "Lớp 8 – Lớp 9 (Ôn thi vào 10)",
+    "unit_link": "G09_U01",
+    "drive_pdf_id": "19WqGkyNuyrL_dyHlXhnp7vDOYKvpRGGi",
+    "center_node": {
+      "title": "3-STEP WORD FORMATION BRIDGE",
+      "subtitle": "Nhìn vị trí  →  Đoán từ loại  →  Kiểm tra Số nhiều & Tiền tố phủ định"
+    },
+    "timeline_svg_caption": "Cầu nối biến đổi: [Từ gốc trong ngoặc] ➔ Bước 1: Vị trí ngữ pháp ➔ Bước 2: Đuôi N/V/Adj/Adv ➔ Bước 3: Bẫy nghĩa (un-/im-/-s)",
+    "branches": [
+      {
+        "branch_id": "B1",
+        "title": "BƯỚC 1: NHÌN TRƯỚC & SAU CHỖ TRỐNG",
+        "color": "#2563eb",
+        "nodes": [
+          {
+            "label": "Khi nào điền DANH TỪ (Noun)?",
+            "formula": "Sau [a / an / the / this / my / many / giới từ (of, in, for)] hoặc sau [Tính từ]",
+            "cloze_hint": "Mạo từ / Sở hữu / Giới từ + Noun"
+          },
+          {
+            "label": "Khi nào điền TÍNH TỪ (Adj)?",
+            "formula": "Đứng trước [Danh từ] hoặc đứng sau [be / look / seem / feel / become / keep + O]",
+            "cloze_hint": "Adj + Noun hoặc Linking verb + Adj"
+          },
+          {
+            "label": "Khi nào điền TRẠNG TỪ (Adv)?",
+            "formula": "Bổ nghĩa cho [Động từ thường], đứng trước [Tính từ], hoặc đứng đầu câu trước dấu phẩy",
+            "cloze_hint": "V + Adv hoặc Adv + Adj"
+          }
+        ]
+      },
+      {
+        "branch_id": "B2",
+        "title": "BƯỚC 2: HỌ ĐUÔI TỪ LOẠI (SUFFIXES)",
+        "color": "#059669",
+        "nodes": [
+          {
+            "label": "Đuôi Danh từ chỉ vật/việc",
+            "formula": "[-tion / -sion] (tradition), [-ment] (development), [-ness] (happiness), [-ity] (creativity)",
+            "cloze_hint": "Các hậu tố danh từ trừu tượng"
+          },
+          {
+            "label": "Đuôi Danh từ chỉ người",
+            "formula": "[-er / -or] (visitor), [-ist] (artist, tourist), [-ian] (musician), [-ant] (participant)",
+            "cloze_hint": "Cẩn thận nhầm Danh từ chỉ việc và chỉ người!"
+          },
+          {
+            "label": "Đuôi Tính từ & Trạng từ",
+            "formula": "Adj: [-ful, -less, -al, -ous, -ive, -able]  |  Adv = [Adj + -ly] (ngoại lệ: hard, fast, well)",
+            "cloze_hint": "Cách tạo Tính từ và Trạng từ"
+          }
+        ]
+      },
+      {
+        "branch_id": "B3",
+        "title": "BƯỚC 3: CỔNG KIỂM TRA BẪY ĐIỂM 10",
+        "color": "#dc2626",
+        "nodes": [
+          {
+            "label": "Cổng A: Danh từ Số ít hay Số nhiều?",
+            "formula": "Có [many / several / a lot of / one of the / động từ are/were] -> Danh từ phải thêm [-s/-es]!",
+            "cloze_hint": "VD: one of the most famous [attractions]"
+          },
+          {
+            "label": "Cổng B: Nghĩa Tích cực hay Phủ định?",
+            "formula": "Đọc kỹ vế còn lại! Nếu mang nghĩa xấu/trái ngược -> Thêm [un- / in- / im- / dis- / -less]",
+            "cloze_hint": "VD: Polluted water is [unsafe] to drink."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "mindmap_id": "MM_G11_CAUSATIVE_GET_HAVE",
+    "title": "Bản Đồ Tư Duy 4: Chuyên Đề Cấu Trúc Sai Khiến — Causative GET & HAVE (Lớp 9 – Lớp 12)",
+    "grade_band": "Lớp 9 – Lớp 12 (Chuyên đề Master Thúy)",
+    "unit_link": "G11_U01, G12_U01",
+    "drive_pdf_id": "1HyZyeEMhChyy5nJCFVDR6U_CokTsZ4sJ",
+    "center_node": {
+      "title": "CAUSATIVE: HAVE & GET",
+      "subtitle": "Nhờ ai làm việc gì (Chủ động)  ↔  Thuê làm cái gì (Bị động)"
+    },
+    "timeline_svg_caption": "Quy tắc vàng: Xét ngay danh từ đứng giữa (NGƯỜI làm hay VẬT được làm?)",
+    "branches": [
+      {
+        "branch_id": "B1",
+        "title": "1. DẠNG CHỦ ĐỘNG (NHỜ NGƯỜI LÀM)",
+        "color": "#2563eb",
+        "nodes": [
+          {
+            "label": "Cấu trúc với HAVE",
+            "formula": "S + HAVE + [somebody (NGƯỜI)] + [V nguyên thể (bare infinitive)]",
+            "cloze_hint": "My mum had the mechanic [repair] my bike."
+          },
+          {
+            "label": "Cấu trúc với GET",
+            "formula": "S + GET + [somebody (NGƯỜI)] + [TO + V nguyên thể]",
+            "cloze_hint": "We got our neighbours [to help] us."
+          }
+        ]
+      },
+      {
+        "branch_id": "B2",
+        "title": "2. DẠNG BỊ ĐỘNG (VẬT ĐƯỢC LÀM)",
+        "color": "#059669",
+        "nodes": [
+          {
+            "label": "Dùng chung cho cả HAVE & GET",
+            "formula": "S + [HAVE / GET] + [something (VẬT)] + [V3 / V-ed (Past Participle)]",
+            "cloze_hint": "I had my hair [cut] before the party."
+          }
+        ]
+      },
+      {
+        "branch_id": "B3",
+        "title": "3. CẦU NỐI VIẾT LẠI CÂU (REWRITE BRIDGE)",
+        "color": "#d97706",
+        "nodes": [
+          {
+            "label": "Câu gốc",
+            "formula": "A technician installed our new air conditioner yesterday.",
+            "cloze_hint": "Xác định: người = a technician; vật = our new air conditioner"
+          },
+          {
+            "label": "Viết lại Chủ động",
+            "formula": "→ We had a technician [install] / got a technician [to install] our new air conditioner.",
+            "cloze_hint": "Đưa người lên trước"
+          },
+          {
+            "label": "Viết lại Bị động",
+            "formula": "→ We had / got our new air conditioner [installed] yesterday.",
+            "cloze_hint": "Đưa vật lên trước -> dùng V3/ed"
+          }
+        ]
+      }
+    ]
+  }
+]

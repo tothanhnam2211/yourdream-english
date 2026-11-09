@@ -1,0 +1,43 @@
+[
+  {
+    "archetype_id": "ARC_ENG_GRAMMAR_DRILL",
+    "name": "Khuôn 1: Phiếu Chuyên Đề Ngữ Pháp & Từ Vựng (30–50 Câu)",
+    "description": "Gồm hộp tóm tắt công thức ngắn ở đầu trang + Các phần từ Nhận biết đến Vận dụng + Khung điền đáp án chấm nhanh.",
+    "header_brand": "MASTER THÚY · Thạc sĩ – Giảng viên Tiếng Anh | Zalo: 0836 686 874",
+    "layout_features": [
+      "Đáp án A–B–C–D căn đều trên 1 hàng",
+      "Khung điền đáp án đầu trang 1",
+      "Tách riêng bản Học sinh và Đáp án Giáo viên"
+    ]
+  },
+  {
+    "archetype_id": "ARC_ENG_SIGNS_NOTICES",
+    "name": "Khuôn 2: Phiếu Đọc Hiểu Biển Báo & Thông Báo Thực Tế (Signs Around Us)",
+    "description": "Hình vẽ biển báo nét đen trắng tương phản cao (in photocopy không bị đen nhòe) + 4 phương án A, B, C, D rõ ràng.",
+    "header_brand": "MASTER THÚY · Thạc sĩ – Giảng viên Tiếng Anh | Zalo: 0836 686 874",
+    "layout_features": [
+      "Biểu tượng Vector chuẩn in đen trắng",
+      "Phân 3 cấp độ: Easy -> Intermediate -> Challenging"
+    ]
+  },
+  {
+    "archetype_id": "ARC_ENG_EXAM_MIXER",
+    "name": "Khuôn 3: Đề Kiểm Tra Giữa Kỳ / Cuối Kỳ 50 Câu (Trộn 4 Mã Đề 101–104)",
+    "description": "Chuẩn cấu trúc Global Success (Pronunciation -> Stress -> Vocab & Grammar -> Error Correction -> Reading -> Writing).",
+    "header_brand": "MASTER THÚY · MÃ ĐỀ 101–104 | Zalo: 0836 686 874",
+    "layout_features": [
+      "Tự động đảo câu tạo 4 mã đề chống nhìn bài",
+      "Xuất bảng đáp án tổng hợp 4 mã đề trên 1 trang cho cô"
+    ]
+  },
+  {
+    "archetype_id": "ARC_ENG_FOLDABLE_VOCAB",
+    "name": "Khuôn 4: Tờ Cẩm Nang Từ Vựng Gập Đôi & Mã QR Nghe Phát Âm",
+    "description": "Bảng từ vựng 2 cột theo từng Unit (Cột trái: Từ + IPA; Cột phải: Nghĩa + Ví dụ). Học sinh gập đôi giấy để tự dò bài.",
+    "header_brand": "MASTER THÚY · Cẩm Nang Từ Vựng Theo Unit | Zalo: 0836 686 874",
+    "layout_features": [
+      "Đường kẻ đứt nét gập đôi ở giữa trang A4",
+      "Mã QR góc phải quét nghe giọng đọc chuẩn"
+    ]
+  }
+]

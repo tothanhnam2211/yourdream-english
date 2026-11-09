@@ -1,0 +1,103 @@
+[
+  {
+    "trap_code": "TRAP_PRON_ED",
+    "skill_domain": "PHONETICS",
+    "title_vi": "Bẫy phát âm đuôi -ed (/ɪd/, /t/, /d/)",
+    "description_vi": "Học sinh hay đọc nhầm động từ kết thúc bằng /k/, /p/, /f/, /s/, /ʃ/, /tʃ/ sang /d/ thay vì /t/.",
+    "quick_rule_5s": "Nhớ thần chú: 'Tình Đợi (/t/, /d/ -> /ɪd/)' — 'Khi Sang Sông Phải Chờ Thu Phí (/k, s, ʃ, f, tʃ, p/ -> /t/)' — Còn lại là /d/.",
+    "target_grades": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "trap_code": "TRAP_PRON_SES",
+    "skill_domain": "PHONETICS",
+    "title_vi": "Bẫy phát âm đuôi -s/-es (/ɪz/, /s/, /z/)",
+    "description_vi": "Học sinh nhìn chữ cái cuối mà quên xét âm cuối (ví dụ: laughs kết thúc bằng chữ gh nhưng phát âm là /f/ nên +s đọc là /s/).",
+    "quick_rule_5s": "Nhóm /s/: 'Thời Phong Kiến Phương Tây (/θ, p, k, f, t/)' — Nhóm /ɪz/: 'Sóng Giờ Chưa Sợ Gió Giông (-s, -ss, -ch, -sh, -x, -z, -ge)' — Còn lại là /z/.",
+    "target_grades": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "trap_code": "TRAP_SV_AGREE",
+    "skill_domain": "GRAMMAR",
+    "title_vi": "Bẫy chia động từ Ngôi thứ 3 số ít & Chủ ngữ ghép",
+    "description_vi": "Quên thêm -s/-es với He/She/It/Danh từ số ít ở Hiện tại đơn, hoặc dùng has thay vì have với We/They.",
+    "quick_rule_5s": "Gạch chân ngay Chủ ngữ trước chỗ trống! Chủ ngữ số ít (1 người/1 vật) -> Động từ có 's' (is / has / does / V-s/es).",
+    "target_grades": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  {
+    "trap_code": "TRAP_TENSE_SIGNAL",
+    "skill_domain": "GRAMMAR",
+    "title_vi": "Bẫy Dấu hiệu Thì (Hiện tại đơn vs Tiếp diễn vs Quá khứ vs Hoàn thành)",
+    "description_vi": "Nhầm thói quen (every day, usually -> V-s/es) với hành động đang diễn ra ngay lúc nói (now, at the moment, Look! -> am/is/are + V-ing).",
+    "quick_rule_5s": "Khoanh tròn từ chỉ thời gian! Có 'Look! / Listen! / now / at the moment' -> phải có 'be + V-ing'. Có 'yesterday / ago / last' -> V2/ed.",
+    "target_grades": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+    "skill_domain": "GRAMMAR",
+    "title_vi": "Bẫy cấu trúc Sai khiến (Causative HAVE & GET: Người làm vs Vật được làm)",
+    "description_vi": "Nhầm giữa HAVE + người + V nguyên thể, GET + người + TO V và HAVE/GET + vật + V3/ed (bị động).",
+    "quick_rule_5s": "Nhìn tân ngữ ngay sau HAVE/GET: Nếu là NGƯỜI -> HAVE + V_nguyên / GET + TO V. Nếu là VẬT -> luôn dùng V3/ed!",
+    "target_grades": [
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "trap_code": "TRAP_WORD_FORM_NEG",
+    "skill_domain": "WORD_FORM",
+    "title_vi": "Bẫy Từ loại (Word Formation): Đúng từ loại nhưng thiếu tiền tố phủ định hoặc số nhiều",
+    "description_vi": "Học sinh xác định đúng chỗ trống cần Tính từ hoặc Danh từ nhưng không đọc nghĩa cả câu để thêm un-/im-/dis- hoặc -s số nhiều.",
+    "quick_rule_5s": "Cầu nối 3 bước: (1) Xác định từ loại (N/V/Adj/Adv) -> (2) Nếu là Danh từ đếm được: xét Số ít hay Số nhiều -> (3) Đọc nghĩa: Tích cực hay Phủ định (un-/in-/dis-).",
+    "target_grades": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  {
+    "trap_code": "TRAP_SIGN_DISTRACTOR",
+    "skill_domain": "SIGNS",
+    "title_vi": "Bẫy đọc Biển báo thực tế: Nhầm 'must not' (Cấm) với 'do not have to' (Không cần)",
+    "description_vi": "Biển báo có gạch chéo đỏ là CẤM TUYỆT ĐỐI (mustn't / cannot / No + V-ing), nhưng phương án nhiễu hay cài chữ 'don't have to' hoặc đổi giờ AM/PM.",
+    "quick_rule_5s": "Soi kỹ 3 điểm trên biển báo: (1) Có vòng tròn gạch chéo = MUST NOT; (2) Giờ mở cửa (8 a.m. - 4 p.m. = 3 p.m. vào được); (3) Từ khóa 'Free' = pay nothing.",
+    "target_grades": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  }
+]

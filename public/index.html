@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MASTER THÚY — English Studio v2.0 | Hệ Sinh Thái Soạn Đề & Dạy Học Tiếng Anh 6–12</title>
+  <link rel="icon" href="./favicon.ico" />
+  <link rel="stylesheet" href="./shared/css/studio.css" />
+  <script src="./shared/js/hybrid-cloud-engine.js"></script>
+</head>
+<body>
+  <!-- TOP NAVIGATION -->
+  <header class="studio-topbar">
+    <div class="brand-cluster">
+      <div class="brand-monogram">MT</div>
+      <div class="brand-titles">
+        <h1>MASTER THÚY — English Studio v2.0</h1>
+        <p>Thạc sĩ · Giảng viên Tiếng Anh · Zalo / ĐT: 0836 686 874</p>
+      </div>
+    </div>
+    <div class="nav-pills">
+      <a href="./teacher/index.html" class="nav-pill active">👩‍🏫 Phòng làm việc của Cô Thúy</a>
+      <a href="./student/index.html" class="nav-pill">🎒 Góc học tập Học sinh (Lớp 6–12)</a>
+    </div>
+    <div class="printer-pill" id="hubPrinterStatus">
+      <span class="printer-dot"></span>
+      <span id="hubEnvText">Đang kiểm tra kết nối máy in & đám mây...</span>
+    </div>
+  </header>
+
+  <main class="studio-container">
+    <!-- HERO WELCOME CARD -->
+    <section style="background: linear-gradient(135deg, #0f766e 0%, #115e59 100%); color: #fff; border-radius: 24px; padding: 2rem; margin-bottom: 1.75rem; box-shadow: var(--shadow-float);">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1.5rem;">
+        <div style="max-width: 720px;">
+          <span style="background: rgba(255,255,255,0.18); padding: 0.3rem 0.85rem; border-radius: 999px; font-size: 0.82rem; font-weight: 700;">
+            ✨ Phiên bản v2.0 Production & Cloud-Ready · Chuẩn SGK Global Success 6–12
+          </span>
+          <h2 style="font-size: 1.85rem; margin: 0.75rem 0 0.5rem;">Chào mừng Cô Thúy & Các Em Học Sinh!</h2>
+          <p style="margin: 0 0 1.25rem; opacity: 0.94; font-size: 1rem;">
+            Toàn bộ <strong>63 tệp học liệu gốc</strong> trên Google Drive đã được chuẩn hóa thành <strong>20 bộ đề tương tác (953 câu hỏi nguyên tử)</strong> bảo toàn 100% gạch chân <code>&lt;u&gt;</code>, in đậm <code>&lt;b&gt;</code> và <strong>50 biển báo trực quan</strong>. Hệ thống hoạt động mượt mà cả trên <strong>Google Cloud Storage (0 đồng máy chủ)</strong> lẫn máy tính ở nhà.
+          </p>
+          <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+            <a href="./teacher/index.html" class="btn btn-accent" style="padding: 0.75rem 1.35rem; font-size: 0.96rem;">
+              👩‍🏫 Vào Phòng Làm Việc Của Cô Thúy →
+            </a>
+            <a href="./student/index.html" class="btn" style="padding: 0.75rem 1.35rem; font-size: 0.96rem; background: #fff; color: #0f766e; border: none;">
+              🎒 Học Sinh Đăng Nhập Làm Bài Online →
+            </a>
+          </div>
+        </div>
+
+        <div style="background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.22); border-radius: 18px; padding: 1.2rem 1.4rem; min-width: 270px;">
+          <div style="font-weight: 700; margin-bottom: 0.6rem; font-size: 0.92rem;">⚡ Truy cập nhanh theo vai trò:</div>
+          <ul style="margin: 0; padding-left: 1.15rem; font-size: 0.88rem; line-height: 1.85;">
+            <li><a href="./teacher/index.html#tab-library" style="color: #fff; text-decoration: underline;">Tủ đề 20 bộ đề & 63 tệp gốc Drive</a></li>
+            <li><a href="./teacher/index.html#tab-maps" style="color: #fff; text-decoration: underline;">4 Bản đồ Tiếng Anh & Mindmap [ ? ]</a></li>
+            <li><a href="./teacher/index.html#tab-live" style="color: #fff; text-decoration: underline;">Sổ điểm Online & Chấm bài qua ảnh</a></li>
+            <li><a href="./student/index.html?demo=MT601" style="color: #fef08a; text-decoration: underline;">Thử giao diện Học sinh Lớp 6 (MT601)</a></li>
+            <li><a href="./student/index.html?demo=MT901" style="color: #fef08a; text-decoration: underline;">Thử giao diện Học sinh Lớp 9 (MT901)</a></li>
+            <li><a href="./student/index.html?demo=MT1101" style="color: #fef08a; text-decoration: underline;">Thử giao diện Học sinh Lớp 11 (MT1101)</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- KPI SUMMARY -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-num" id="kpiCatalogCount">20 bộ / 63 tệp</div>
+        <div class="kpi-label">Đầy đủ 63 học liệu gốc đã bóc tách</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-num" id="kpiQuestionCount">953 câu</div>
+        <div class="kpi-label">Câu hỏi nguyên tử đạt 100% 4 cổng QA</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-num">🇬🇧 UK / 🇺🇸 US</div>
+        <div class="kpi-label">Loa phát âm IPA chuẩn Anh-Anh & Anh-Mỹ</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-num">Hybrid Cloud</div>
+        <div class="kpi-label">Xuất Word .docx & Hàng đợi in 00_PRINT_QUEUE</div>
+      </div>
+    </div>
+
+    <!-- 3 CORE PILLARS -->
+    <div class="card-grid">
+      <div class="ws-card">
+        <div>
+          <div class="ws-badges">
+            <span class="badge badge-grade">Dành cho Cô Thúy</span>
+            <span class="badge badge-ready">Nút (+) vạn năng</span>
+          </div>
+          <h3 class="ws-title">1. Soạn Phiếu, Trộn 4 Mã Đề 101–104 & In Qua Đám Mây</h3>
+          <p class="ws-meta">
+            Bấm dấu <strong>(+)</strong> để tạo đề mới, trộn 4 mã đề <strong>101–104</strong> và tải trực tiếp file <code>.docx</code> (ngay cả khi tắt máy tính nhờ bộ tạo Word trên trình duyệt). Khi bấm in từ điện thoại, lệnh in tự đẩy vào <code>00_PRINT_QUEUE</code> trên Google Drive để máy tính ở nhà tự động in.
+          </p>
+        </div>
+        <div class="btn-row">
+          <a href="./teacher/index.html" class="btn btn-primary">Mở Phòng Làm Việc Của Cô</a>
+        </div>
+      </div>
+
+      <div class="ws-card">
+        <div>
+          <div class="ws-badges">
+            <span class="badge badge-grade">4 Bản Đồ Tiếng Anh</span>
+            <span class="badge badge-preview">Mindmap [ ? ]</span>
+          </div>
+          <h3 class="ws-title">2. Sơ Đồ Tư Duy Ngữ Pháp [ ? ] & Từ Vựng Gấp Đôi</h3>
+          <p class="ws-meta">
+            Bản đồ hóa toàn bộ chương trình <em>Global Success 6–12</em>: khóa ngữ pháp vượt cấp, phân loại 7 nhóm bẫy phòng thi, sơ đồ tư duy có nút <strong>[ ? ] tự che công thức</strong>, và bảng từ vựng gấp đôi tích hợp loa <strong>🇬🇧 Anh-Anh / 🇺🇸 Anh-Mỹ</strong>.
+          </p>
+        </div>
+        <div class="btn-row">
+          <a href="./teacher/index.html#tab-maps" class="btn btn-primary">Khám Phá 4 Bản Đồ & Mindmap</a>
+        </div>
+      </div>
+
+      <div class="ws-card">
+        <div>
+          <div class="ws-badges">
+            <span class="badge badge-grade">Dành cho Học Sinh</span>
+            <span class="badge badge-ready">Làm bài 2 pha</span>
+          </div>
+          <h3 class="ws-title">3. Phòng Thi Online 2 Pha & Chấm Tự Luận Thông Minh</h3>
+          <p class="ws-meta">
+            Bảo toàn 100% gạch chân <code>&lt;u&gt;</code> ngữ âm, đóng khung <strong>50 biển báo thực tế</strong>, chấm tự luận chấp nhận viết tắt tương đương (<code>don't = do not</code>, <code>isn't = is not</code>) và chỉ mở đáp án + giải thích 7 nhóm bẫy sau khi bấm <strong>Nộp bài</strong>.
+          </p>
+        </div>
+        <div class="btn-row">
+          <a href="./student/index.html" class="btn btn-accent">Vào Góc Học Sinh Làm Bài</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    window.addEventListener('DOMContentLoaded', async () => {
+      const mode = await window.MT_HYBRID.detectEnvironment();
+      const envEl = document.getElementById('hubEnvText');
+      if (mode === 'LOCAL_BRIDGE') {
+        envEl.textContent = '🟢 Máy tính ở nhà & Trạm máy in: Đang trực tuyến (Local Bridge)';
+      } else {
+        envEl.textContent = '☁️ Chế độ Đám mây (GCS Zero-Cost): Tự động lưu lệnh in vào 00_PRINT_QUEUE';
+      }
+
+      fetch('./shards/qa-verification-report.json')
+        .then(r => r.ok ? r.json() : null)
+        .then(data => {
+          if (data && data.total_questions_checked) {
+            document.getElementById('kpiQuestionCount').textContent = data.total_questions_checked + ' câu';
+          }
+        })
+        .catch(() => {});
+    });
+  </script>
+</body>
+</html>

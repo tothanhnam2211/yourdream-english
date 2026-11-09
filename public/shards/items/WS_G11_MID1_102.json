@@ -1,0 +1,1666 @@
+{
+  "worksheet_id": "WS_G11_MID1_102",
+  "title": "Lớp 11 — Đề Kiểm Tra Giữa Kỳ I · Mã Đề 102 (Đảo Mã Đề Tự Động)",
+  "grade": 11,
+  "unit_scope": "G11_U01",
+  "question_count": 50,
+  "questions": [
+    {
+      "question_id": "Q_WS_G11_MID1_102_001",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Choose the word with a different stress pattern.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "development",
+        "benefit",
+        "teenager",
+        "exercise"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "development"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (development). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "95aac115cbdf63e4",
+      "answer_hash": "0937ca99dc8b046e392535dbee1c236706bbddc1dffc32e2ab13bf9832362000",
+      "solution_iv": "8a0aa675bd3a1357833eed0c",
+      "solution_cipher": "798c6829f589af077ef8ad2945b893e6bf58806e88dbd8ebe0a5226cb1dd8c7503977312647bfff76475d30764fbbe5ce72df86823d5fd9c1c5bb704075b51a13cf27cc1ff0b55313ab60c258772c734714311a95037c4c94582f4dbb59cec875e1d587f934c84a569e8a58bd82e08eced996b64bdc81e46e51e04288f788a35fa1ed268a11306b019cd1a8c142620630b001624233b3c411222e9df060dea982e817b325943e58f7c667d87fb112b88d1aeca89d3c37fc5163e2566864d42d84b"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_002",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Choose the word with a different stress pattern.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "discussion",
+        "attention",
+        "solution",
+        "generation"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "generation"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (generation). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "7e13eeac19736c08",
+      "answer_hash": "7073dd5063ecf98177262ab6569aecc16ec59324e8d13ca2362024b51626c53c",
+      "solution_iv": "8d1ff2a84723e8550af33c80",
+      "solution_cipher": "e4a36436719049fdccf2cef62715aaaa3f916e9a462ba42ad40efe290cb389edc78d77e544bffeb327e93456101222e6b9d7a5526dd59629e8f7919676cf543e25bddfdb8a2acfa9ea1131a1f2afdb0d86f72d3f530779447bb197aad6ff8b6c04a9b8a2aaefb3259e7fad6bc9923e0e3616d1d7456d1495d5973ac5757de86936ab447fec79885b9d977b60564e02a753f2928dcd2c2ce76d6f5f2de84f2e8a558a4c7a2bb139fc37683caa6f2e24de078f2a58ccf7d667ccdae837747496"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_003",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Choose the word with a different stress pattern.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "conflict (n.)",
+        "habit",
+        "culture",
+        "routine"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "routine"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (routine). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "1a5bab6ee724255f",
+      "answer_hash": "411023bdde11a7e13e7b387b9449472e00ca6b9e0cb73b442b567869271aba28",
+      "solution_iv": "9e8a64e0fad09eaee463b52f",
+      "solution_cipher": "87aa597b9e4517dbb11e084d0ea8d88cac96d0c1a4db4abcfdb9cd88c9769d2364a942886a298ba90241b7ec3c6af990620267271e8f69a32bd2ae937c55166695088be91be3df642f2c076c8cda964f5a812ff82c0819c2f7eee7b16457c1f2a60ac5a91bad1b89b86571a41c4bb095e6f61313e1fcd182f8b47d5fcc7bebbdde59da4d64eaef2fb7e367f7e96665924e90ce1bcd703d2c5aaf98a0f4b67b5dce7be62b516a0ea60f4e17f6b4e8ba8ed1c1819c53c92d70bb"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_004",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Choose the word with a different stress pattern.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "medicine",
+        "engineer",
+        "pioneer",
+        "volunteer"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "medicine"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (medicine). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "a95861ee7133f098",
+      "answer_hash": "670dda835351d0c05662290a18cc9113260171b9f61c9ab6ee4a7c8df2c90a42",
+      "solution_iv": "916a418b5a61f95b6314fdcb",
+      "solution_cipher": "62ba21e55515611bfc8d47beb79af52f68a289aefe9075544ca37623303c266ae5f3a4f750733df2d49b45fee9e1099c9590b3569bdf3f4bd0092164d1019816af1261cd65ef3dcfa431c9296cd36979b8e18a7c2f69b50a5b0635607264bebc6e9198ab18378e9084d0e70b608e766d3c0e5c7451e0e7089865686b62935bf5da61e1c041e2c538d2d58f08f8276a922a1c97a2eef6b026a6832ece61026fded01dabcf0165f61824ef309ea4173713e61bf184bfd8cea9ee502a"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_005",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Choose the word with a different stress pattern.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "digital",
+        "solution",
+        "facility",
+        "pollution"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "digital"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (digital). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "2914d0c951f8819a",
+      "answer_hash": "51247c637b7c09628418b6a6669adef632b0061a780105d59018ec5b3aab2b30",
+      "solution_iv": "d6eb584414e27a592251e662",
+      "solution_cipher": "68cf7c1069b333a053788b1c7c7c0ba12137fc491bc7a67f9d33286b9a9b81bd10479bd0694620bb35dbd11c0d0bc25b28c8ef6851cf0e02dedde72fa7e164c0bb3cc933896eca9b1a7a2d74d1854655dc37a44dde89ef477b23eca23d451789069fdf43002fcded7c5553701b20a49350554d5341400557e6c6129cce3ecabbab0a54ca834e3bc9aac433964ef79f128becd2a69a74f2c44cf843de493eadee6eb45257aaa963b7478792b638aff9ec06e2539277ee389e16"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_006",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Regular exercise can improve your physical ______.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "conflict",
+        "privacy",
+        "strength",
+        "vehicle"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "strength"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (strength). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "58fd84fdb60f2433",
+      "answer_hash": "40c95da7bcf12e5618f31d4d65632062723c67770e6c201655054f3765eb5361",
+      "solution_iv": "13766b3c7868c3e64a40e807",
+      "solution_cipher": "0acbcd8f508f378d5b3cb935d255d67b55320726243b3bfc37156adf5e6ca28fb7bec24a1dd2dbcb3be8713e3791effcef97603cc07308e87c43ff1d1e05d1e097ebd46b9e969056ba1c3cfeb77b84a3bcfec4c23887422dd3e3136255880c3427e85c9bd7f03cdb48467991da8c9d6023ec368b207f14f6b912c0bb89419dcc3fa82cb079083815c11773a9a71871732b7077ae3d63980526605b543b22ad217683c5e54a8c2ec72b531d33b3900bd5816800a0a4ddcf2572568c"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_007",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My mother ______ yoga classes two years ago.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "joined",
+        "is joining",
+        "has joined",
+        "joins"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "joined"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (joined). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "b14b8747013ff076",
+      "answer_hash": "9f95def159621810bbaeb92f3b16cb83de992ded7d4b4338b5de5b90bd4ec513",
+      "solution_iv": "1be27fadb5fc6497bde8fd42",
+      "solution_cipher": "e077851ee0e765f2aef332e1c8208147211667754171fd8e952a11b18fa7fb19c8b02d462fc03358a433cdc4f8138b0a8c74c35144d8675eb96f5a37da3ccf54a71a062f4e61d22f5027dde8c69fb8161fbdb6faf21c65cd2dbb9023de02d86a5e4a834adbe9c9179299bf003be862c0658da596e41bb3fb005930360751cb0037d796691f13905319044ee1ded18bcdc8923c16f2ea5c4505809b4a5d8a2e06939087d7077c22bfe22da7fed8cb1d36cfcf8bae82cab69356819f"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_008",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "We ______ our grandparents last Sunday.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "visit",
+        "visited",
+        "have visited",
+        "are visiting"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "visited"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (visited). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "49e2b98f202a53ec",
+      "answer_hash": "512b11440804f4e6d75b4964c290829e594530902adc8dce82c4c77ac073dba1",
+      "solution_iv": "0dc973bef66a22908a8dfbfd",
+      "solution_cipher": "4419f79106e85dce147e0338b26383107847b698872d2cb1b7dfcea5611d66d4492bfa4c2929c5e00d1f11010dc87802a7b97d5e5dc827b5803afdbe261716af056c17ed8afd0eab974dfbbf2e7fc89d5d9427f7df7bd49124b646be1e56a0a46e215172bddd745b73f7cb32d319d18de6c196d00621265e1fbbf30c2dfcd84693c600801e3165ebd795c4a652950b884732db1ddd64e1e1fa561aee21d7eb369f2b273d5b5138be92f6ffdbc332160b812f43cdc726defaed08b861e2"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_009",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My sister ______ healthier meals recently.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "cooks",
+        "cooked",
+        "was preparing",
+        "has prepared"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "has prepared"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (has prepared). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "cf0e8c5ce7b1fb41",
+      "answer_hash": "fff9ebfa13faf16d62af7095cd28e403a3e5e051a0cc1514bdd88407e00e9832",
+      "solution_iv": "5e514599955bf8f3b2c609d4",
+      "solution_cipher": "f932a58bf90279c09c1ad33b9685226db0f727ed980c1b657ac789c4909beed710aaac0f1924d016b533ab6745959b61b9a8667a117fb466a7e469d5b93c8ca61b1b42dd2fea1fc85b47c32bd901b5c72823c7c6ce1528c6a39e00ecbb443d30d0639495da2c5cd110e1ea0fee754ec6307d79a07080ba73ce7f565ba3f361f33819dc325af7cada0a80289f2b4af3d33859df0eb9f51a6c16167c7c4dafdbd260af36777037f843ea9e33bdadfd4e153e231964b9154687af31686a9c207377c3fd64"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_010",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "How long ______ you ______ this fitness tracker?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "did / own",
+        "do / owned",
+        "are / owning",
+        "have / owned"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "have / owned"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (have / owned). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "ad9865cbecf82d16",
+      "answer_hash": "a86e257c8da00c0b508772cd07b69ef1e7be9dbea31f19fd726dd3fc38ac1eb5",
+      "solution_iv": "bdd6fa11df3b0ecd852b33d3",
+      "solution_cipher": "a4cf67dbabedda5135c4c03d8011a35afcb59fa01e8ca3b3ffc32476f0b9fe55c83f97a8c718c399c4d52b22debb67fb77835106cea216a78af3c5637da565661d73318dd4cba0a7b912eff980aab87e45846d9a4086165a5ad91b0065e445479c1f3054d87701608fd18485441d2decba7927a1e6aedccfc1154af175cd80f39add106b0c6fc2b4678d51af143ce61ee696c3cc5286d611d9cd2368f3746d7379d64cffa816252f4f44667141e685b3d4331e7e3c0fc546bc476a0b07aaf4d9e0b36b"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_011",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "You ______ leave your bike here. The sign says “No parking.”",
+      "passage_or_sign_svg": "",
+      "options": [
+        "do not have to",
+        "must not",
+        "should",
+        "may"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "must not"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (must not). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "7f9d41e9cb5b0748",
+      "answer_hash": "adab192e335ff216e4965ace33ff458c4e30a04fbe314fd9eb064c6bb0d17141",
+      "solution_iv": "7fc4b14649c2624e53f1737b",
+      "solution_cipher": "bc544dd025dc62ee94a3a93f6f9240283ba795ac15df06ce8c58d19e040634bb82a8b401c21f7fe531728307ce437b52e74301fe076e443a00a33d308a9d997845e1234bc8e9e603499f1cc6d9ec3d76fa776f5318b9a4fd323a8e5bb237a3958893ff6f4731cdb16ec473d8c0ff73634b8924137cb4e237b2e4c25a1677b34609dd9d5d657a7f629ec67785390f3d732dbe469506df6faabe7043f7b06dcf2f7f808377432a2c64ae6293bedc83bb104c085c1ae12390ae6899b8606e369a37c871"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_012",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "At this school, everyone ______ follow the safety rules.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "may",
+        "has to",
+        "could",
+        "should not"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "has to"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (has to). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "8bacd848e53e246e",
+      "answer_hash": "8f82bbb2c3d6ef67a86ea3efaa972abb89dad4b037b03f1a17a2f1eb4c9a2ffa",
+      "solution_iv": "863695a44ebdf65553fd23e4",
+      "solution_cipher": "6224d1405fd863e2204ba8169291d5f6b8543fb07b2277f174470ea5358799bd547082f0ca21f9ef229debfa0561b851a70bafa6b7a81bb4135298d608ba2f2c775b5866bd5e7060dc890730fc0ddcbac40d9431924f57a42f29c44132022dddec494a12e3d9e010f888ef699eb7145398f376d9814150d47cd53467eac7195cd09884522e2df027797729d134bccc32466b23d15b54b4f078e511163aa7a69535636063d196c1d75df3951aae3e377f51130d9c8488e4"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_013",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "You ______ apologise for speaking rudely to your grandmother.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "cannot",
+        "must not",
+        "should",
+        "do not have to"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "should"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (should). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "fe13e53ebb2c9a9e",
+      "answer_hash": "4bd9c8d08ecc8df4f31748d938cf585b938f56e2985dd5e197e97643ffbaaa42",
+      "solution_iv": "5de8eaee81e90ebc433076cc",
+      "solution_cipher": "c5e7e8f3c5e418ed72d14fde1a31aed1c9e18a0ebe5f509a4e3296395eb78710e2d93844b01435985c2c10b1117fbc3eb0e22bebeda8dbbc33fe63ef3c63747e4d0ef6992ad3344c0cc9b3e3a996fae60935299adc6f2cf782dd87809b9eafc4fa700e04f6f342ef7e6dcf2eb0f0d215ba86c60cadbe8f09f6bfb8ad8c91d6109a652b0bbe69159bb1e0af96d4e13d5f2bf7e042e48943504101acc001a291f27eac4c23d300de118ae809b15fa78c76dd274f364d9602"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_014",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Different ______ sometimes lead to arguments between parents and teenagers.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "greenhous<u>es</u>",
+        "generation<u>s</u>",
+        "treatment<u>s</u>",
+        "nutrient<u>s</u>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "generation<u>s</u>"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (generation<u>s</u>). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "ba1f40a83e8c119e",
+      "answer_hash": "6e79a072457641aded5f5796d73cffc03fe72bb3dad27c7c20a883d0fd21bc61",
+      "solution_iv": "7cc0e44fc8568eface7e55e2",
+      "solution_cipher": "34277e2f4f48146bd90a87d70ed1607df2c119e965285fe03a2415a9e04740785b7c455aca22abebefa796c03c021c70991fab71c349d1e52363022889f560388c25ed9769ee3b913f05bdb4eef368abd97a1a12006688d2a0cb14ce47a1b8a11104bed11c01a7536271621f0735102a15ffd8185c5b0b6a0b7d7abaf3422d127b9d426007428a1989f0fbecb82b1a91f71b1b4c9edcb349eb746d988738bc4d9b16bb85cb0bc194559345356101c28dd732caa3c2632233ec9cc56e84e6cb56ca97c44e4ced2daf3beadea71e73b2"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_015",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "My family tries to pass traditional ______ on to younger members.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "screen<u>s</u>",
+        "valu<u>es</u>",
+        "devic<u>es</u>",
+        "vehicl<u>es</u>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "valu<u>es</u>"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (valu<u>es</u>). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "13a0e40765acf62b",
+      "answer_hash": "3107c71bfcd32df85c7365da7c64a3d2b5b13be111a1830e4e60a846aec25dd1",
+      "solution_iv": "2de96c5745f8f40f0a6e7b7d",
+      "solution_cipher": "2bfed40eeb7287723f8c5d956d0b57c95d23347f236315f3212dff813a750fb8bb7a4e31a07310076e6de498c4ec047b3af4f88bee47a85e72b4ca64b2a52190ba5e1cf40d2e98b7b17f5e6c2e8f43146e22272869b549c15ca0b751d25e0cce5eb89d55e1067912215c4581f9069e1b7c192b2d98af6298bdfa13069b8fbd2be9738d3b77cdf4ab8c4b9591054979bf410654bc019011c8139bcd5423663f3c6a9e2e66a060c74a56891f79528effcc7dbf20c8a4792c2e85d663103faefca4135e0ecfe1"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_016",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "These new apartments look ______.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "comfortable",
+        "comfort",
+        "comfortably",
+        "comfortingness"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "comfortable"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (comfortable). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "35744894653b3944",
+      "answer_hash": "3eb8d1809f4740d7ed8b3206882ce7145fcb7e5bae857feb60697bcc9e9d992c",
+      "solution_iv": "e3402814234b35781baed7c4",
+      "solution_cipher": "f3300d885deab648704391949bdbbff6aa7f57985ee91e0bc6cacc731a3710c6e95af072fb3577f084ffdd4cde70c8df1123b35a9026da8a41c7d09b840834e8e455db397191e3eb5674ddea12d9c78bb0de809c32a9f3de8dc92fb64fb8932d545e18da2b74da3eedec9bcdfaf6400939ab3b84c785444cf21bf97888fec416d1b59265ca66f20e838a8929ac79e5bfa8853d801c4a576f0545c361cc10df3d1ce7727f27ed191a9457e182e29e4628fcc49e755e5b29bb21b3fb5b43a97a55dc"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_017",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "I ______ what you mean, but I have a different opinion.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "understand",
+        "have been understanding",
+        "am understanding",
+        "was understanding"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "understand"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (understand). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "221ab7505ded8d90",
+      "answer_hash": "79c74c7bcbe3e2bf517eac8d948b25716ac06a2c3ab49437c42c7e3a67b2071c",
+      "solution_iv": "4ebb4190e921edeee2925897",
+      "solution_cipher": "bb9ce765623f9b348aec9417ae451094e2ec6856f959446333471493a3ec7cb7c7345267634dc050a5c07f6f3689c542a0ebe907d56bf17f1e5c4e98ddc975d30dfb1d71e389b5132f08d97d1fca2b2c698be90d9b2981e600295ac026ece891a36557d57e02d5b31fbf00e45856af5f3cd9edecf6eb8e65f016a3314032a7baa546c5fdde77b433e0912be1c702fb43d251e92f5c143ebca94a8b9adada99e335b2466cea6d95e2898f5e9e800549976e5c7120f9917dd47c39688bae4a1d"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_018",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "At the moment, our class ______ ideas for a greener school.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "has shared",
+        "is sharing",
+        "shares",
+        "shared"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "is sharing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (is sharing). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "f024f9e5c4d0daf1",
+      "answer_hash": "b4cdec2790d256b0d7b834a9f514b1210ca66a32f899bc62adf65c2734d09a80",
+      "solution_iv": "7518f6fe52e96362cf8e7816",
+      "solution_cipher": "42265195d28ed5ac003ca6509b64810286ea3268d4ab7d6c73a17e98d0985e002061a8da7fc9967e3c0db05f8acf8d794e2eecbd278153182ac195582b18810429a7c92ab774b30607e51df33570ebd8554d0b9d1e8fa6d15b30d4da9b3cf16faa95dd140674b91183c4a0802945ff3bd041651dfcd87c4c8d3b97983ced27c98885e628951714cec1c91f6d8780824a97789f161e4d67aac2fe21ce2d36028879e0961d9d1928f84406e2d2bd59821b5f8fe3a01096f17c642793301701c3aa444718"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_019",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "Cities can reduce air pollution by improving public ______.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "transport",
+        "generation",
+        "argument",
+        "screen time"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "transport"
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (transport). Lưu ý bẫy TRAP_WORD_FORM_NEG.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "d2bc103a972dcc5a",
+      "answer_hash": "417ce8294592faa01ebb97f5672e27dd2d9d221856547dfcf00e9b308e96f59c",
+      "solution_iv": "aae6c5f48df33f44ba90d2e8",
+      "solution_cipher": "d0497c54b2b323b670b14a05fe42a873ddb9ca791f6067bc5995eae6dd7f08a6b6cc732667096ba26fc93dee053511b0ffb50845b3ea702a3be1c74442044ee1454136499ce481f6098f082b5b2f421020b8547371ca2b96389ab95a38260b24547bf8c0b330f96121e9678c425ed68bd1aa45dde974895845aac5cb941fa55e5649cbe7c3f88af67d146e5eb919414ba4fb49b2e35e0f5282c8ab57ab3c594c9a2f99fe81bff2431d54339a4830c6263cd82742b09aa7293dd0d7c57a0c4920cc26"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_020",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "A ______ is a tall building with many floors.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "cycle lane",
+        "greenhouse",
+        "skyscraper",
+        "playground"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "skyscraper"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (skyscraper). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "f67e8e4e6c36b9aa",
+      "answer_hash": "bf33681d6aee692ee340de8f50a6deeb6a2d867200d9c8503022cfadd775cd61",
+      "solution_iv": "34937c9ceff4ae88de26ece3",
+      "solution_cipher": "c673e0bd4bd07be27b26cf8c84a74cb5298742b81c7b7fa66908c45a0b0f3d3e26382c161006d34f245dfcff611836d8db1784ad6a1890e7bb94d8f10e7ee12d21f5f4261ea2d00de315810977c40c901777b933a255ef09401a22050cdc00642820b7166c86d6be1e0e4c9748d9983e837e7422d1ea40e75c260b34d8da535c4ed5d526cd6ad9d4a23d4c47768b6a67f87ff13b991eb3b55ba93707a40a34ff3de05e1cad49754eed8777d9681261093c9a87d2cc1708ac76197819becb18"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_021",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "I ______ the school health workshop last Thursday.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "attend",
+        "have attended",
+        "am attending",
+        "attended"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "attended"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (attended). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "7ea25141712de02a",
+      "answer_hash": "9cf9bcd1e9338fa69377c652a877ab4361b9bf15077003cdeb657b53b2e3a04d",
+      "solution_iv": "fde7139a410714241d9d88ca",
+      "solution_cipher": "cb616a3e16474674cf7d7b005eafdd5b3a08ee82ec80b8cd0fbefa204b7ca8f378cf0006b4d9de4c6531fe9de2febe164bea9c8c54217763683cf0debc82a213ce7ddeda947d25b7bf74102e670f4f9432051878512d218d123cb54a898f255d5ec61599a630f7a0fb20c709d1aef4edc08f322b8b4789b603f76a23ecd2485098cd1e40ea5be76adabc5ec21a8a2e497304f2df65f0b1fa2eab8badbdb2bc5edd9a8050fba843e46dc6275f9b36ca5c73f962bd0b1dd8cf04381ff57483e7"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_022",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My brother ______ for a cycling club since April.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "trained",
+        "trains",
+        "is training",
+        "has trained"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "has trained"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (has trained). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "6c22a2dab4976d85",
+      "answer_hash": "1bbe8718e42c2ac0a026cfce6c1308b59926737177f4a0c504a3aff93126480e",
+      "solution_iv": "c63d6c854b26bacba588dca0",
+      "solution_cipher": "82a00596a9f344d613aab0c87d69e03d7cd90cd423cdff8fec5ded84e6159c929a2bea012443d3b7fc5aec9de79a65a23b9bf7030b35d919e7c636e76e7e85ac9e7fe60dd676ec1e013c8ae62a8cac1270bec282c6bb0aa341767bdff65e274c3325974f2422d43d633a1ea0d67e64a90c99c963897b67e71948711e2f406809dd36d78064f3f372b4a9f017d6fbedf6ce142c5862392c4a55ea5a5d9fde605b6c0ccec262cf1d17acd9c87ad98b1cb68bd1d9d79dc0ffd785d21a0a782cefd6316f4c82c0"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_023",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The council ______ two new green spaces this month.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is opening",
+        "has opened",
+        "opens",
+        "opened"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "has opened"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (has opened). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "7aef3f3ea7746267",
+      "answer_hash": "8e3699cc205c8174faaff922e468b47f3b257d74ac98c2062e3e8fe77557b91a",
+      "solution_iv": "30f62c5f40a1b50fb0182eb9",
+      "solution_cipher": "543f8d0c06d28e0d2dc75cce92895b29e869c7d35453158373f09659581501e441b1baa1f4d014d8434cb322aaad998c1f9b7db53d6d3531ae5d9473f20dc8f6318d6e1e50a5281f3626254560e2d1102f424f3abfb0434711dd19dd7de53cee79a5321163f29452e4283c7b8e9a1ac2e659629300f56f5b167cf7954022918144e2968ad51f7f8aea49b04570d7f57dcf426baa1eb6ca97bb0d4f4d85167c0fd4384e6daa7a823ef1697a5ed3cff6737195375c2b2700d4e2da2777171d52"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_024",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "People may feel less stressed when they keep a good work-life ______.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "conflict",
+        "treatment",
+        "balance",
+        "pressure"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "balance"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (balance). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "2c2759a5390200b4",
+      "answer_hash": "8da59cf307ac90ca4c40d817ffe40e1f6b5393a51b55a75da780b4d1c697ea17",
+      "solution_iv": "7f04e79f2958e55dbb5dd782",
+      "solution_cipher": "41f04c5036546aa8bec0d3dbd82e85605e5be433a55125c20c0815390777ffeb0fc403a0694604e68ce209bc3bedf3b218f89942f8f3ea1679ffda409136f89eb2133a1c6c3d5cf9a3433c745799aba7a555aaf62e62ebad58b10ec54a1c0d9775652adf95b0321ffbc4aaaf37c0e7a9a8074a0a2892877a0a614c009c56d08777b14379c9bc246efcce600eabc30d8c95de714fbf3a83797ce607d6a64e17eb1052a9357104d2b7af9e0b2fe4e63b08534121c4e7e0de43dd"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_025",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The food in the school canteen tastes ______ today.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "deliciously",
+        "delicious",
+        "well",
+        "health"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "delicious"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (delicious). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "d835b6d21436cbea",
+      "answer_hash": "1272ee9d0c5ac53229a3bf714f5a7478f49cf3ea1744f47fbd66c171960a8654",
+      "solution_iv": "2f70b51e75ac664348473e92",
+      "solution_cipher": "190792dc321fad767ad1ab599b8d3e8179f8f66853b396dc872c0a1d2562da9f38209b3f32d3d0d840ddcc3b692f987470aafedf22150a39f27bd075cae3e7daa495b7b2d265a9f98b4d329788969f63a5ba05f0c6afb1a9598d834629dfc4b0d6ab498811d952bf16b145f91c3a66b57145e6e04d3710785db6d5a1324e717322d317d6a197608a7fd2df347ec102bf5e3f3e8f1634bfcf467a4340cf3f93cb568abfeef72da080ab0661050409dd60edcd110f5974a2bacfe86d90bf"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_026",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Teacher: “Why should we walk more often?” Student: “______”",
+      "passage_or_sign_svg": "",
+      "options": [
+        "On the second floor.",
+        "Because it is good for our health.",
+        "In the year 2035.",
+        "Yes, I have."
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Because it is good for our health."
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (Because it is good for our health.). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "afb100528afc25ee",
+      "answer_hash": "b9daaa4ee587c71f1f074bb982d05cedf37c13ec84efc769d72da5a04b888b61",
+      "solution_iv": "e19997c528872afa48ce8b9d",
+      "solution_cipher": "bc5ec0d0354517a9eac98ed807a3bea1d9c042df8efeb6e36eab4127df4cb19d3c23068304bc65121509909b6611b4820508b22c50fae12a105503980b2e0242c4f9877557da2e7bdccf325c5f4576a37f7c98a948b7a17b6c5379402a7cb16dfbb84919c7e03d885b5bde2f26c48655611046cad485aa72930f09832878e896524e151c3f6042491335ff8256cc5f355305e2ac67922656fc8fb694709263e0768432418a8eff39bfc2674ceef3be1e67fb2d5c229db8d955bd253e4f1dc60b61281f6cec85a892f61df08681317b23eb8ab3c19bdb7e5237b0246ac1da2d2d3b6ba89fcf3d019a03f59ff7746cf26155f71a"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_027",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Huy: “My parents and I disagree about my bedtime.” Mai: “______”",
+      "passage_or_sign_svg": "",
+      "options": [
+        "The food smells good.",
+        "You could explain your reasons politely.",
+        "Buy a new bus ticket.",
+        "Stop speaking to them forever."
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "You could explain your reasons politely."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (You could explain your reasons politely.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "88b8198a2c5f0535",
+      "answer_hash": "af9cdb594b8d00a50b95beda74a6ebfb5d38807839b63f20ef616e6c04357ace",
+      "solution_iv": "8166ee9f8018900414aa5ae5",
+      "solution_cipher": "f78ea55eace30aa5a02d4ce871116c226dc776c7efa5f64c9d9984e2a12e543fa01e7cc216f958840ece411928f9f6132d5d2484eb21e31239cf7883c3ac60702f0d67912e0c260e3ad036aec1b8318d8256c8946bd55e5309f1ba945d73bc3ea559f50a508c6414e0065449f578b521184e7a7e48600ca537581bf4956d2b40994f3ec23467bb1ad4aadc802182a30bba66f61468cba332ce8f1e701c6d7d5c27ab7efb34c1148ea65f2db8b7099796291ca749852171bf3f0f38684c057ba43e9377511bc70c79232dfee2d5498d4eb60f107bf1b4efb6fc04cda961f3d4111e4d3fa6b438f1200895b0a5e2ae85e79841595531e9de6808e002"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_028",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Lan: “I have just finished my health project.” Nam: “______”",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Well done! What did you learn?",
+        "In the gym.",
+        "I must not park here.",
+        "No, it is forbidden."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Well done! What did you learn?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (Well done! What did you learn?). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "f3500a8e7f7738be",
+      "answer_hash": "91c8892b10a30fe333cc6e40cc39430a869cd59bc14fdafdb3735f45c76c270c",
+      "solution_iv": "c75a40fbced3e94db025e64c",
+      "solution_cipher": "c84a85f9a9de6436a6f61e7b7efaa85d4c641448591e2c9f24f54b38dc04e4ccac2920832b5a0bc5a51769909f338969d68c7e9517a933cf7fe6124bb8734792a60a93dd7c139ec7fa9e5aae8ca951ea2c2d2182910dedae3fc0fe05eda54cc09436db996b80d742106ab091f9fada314fc909d3b8f32fa5c13e8f202f1821e05425aa9c7dd216d283ec88917a2979ba0243f51d57a3fde30e4625534eff219cb9f695e63f3274d2c84ce81b7a42025efa74eef50b497a2c14876745d84fcce6c50ae302892ff64a2b3b81e01457be4c0f5ac8cd2c5dca3c2bba3f9c9e5781a3fc3787bee2790f"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_029",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "SIGN: “CYCLISTS MUST WEAR HELMETS.” What does it tell cyclists?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "They have to wear helmets.",
+        "Helmets are optional.",
+        "Only pedestrians need helmets.",
+        "Helmets are sold here."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "They have to wear helmets."
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (They have to wear helmets.). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "89f2f3191ad1b535",
+      "answer_hash": "6eee50e2beb3f7aa6934123675586ed50f477e2a968928d53a782f4ced857546",
+      "solution_iv": "b74d81e7735db2b0ca6a3c3f",
+      "solution_cipher": "042e12649c3b5ba0279e337bf8dd5c87b68e962456246892afbff4d2d0a3126ccbecdaf09eeb30096ef6ddd6391cd3ec7eee36be2d2455d5f5263d3a966a7cb318e4a8c3cae18320124de8c43d122922c196b97f6f1a9018bd6a26a6aa9c9dd8680b900bed17a1b733a2c745298e45271d9b8ccfd0b50771eab74a3528285b834910a2025e4b012fd799e447f87773fe59cff0f377246fde412eb6dd24af5e0ed2e638564cd9b425289bdb4d71e4709ecd07c6e4e95640fe26ae6b122a05cc4e49e9c91e7a8361e640ce4974566c7973d4f63597139a6afad30f7a1a5131255d087857f77d06"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_030",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "SIGN: “NO ENTRY – STAFF ONLY.” Who may enter?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "All students",
+        "All visitors",
+        "Anyone with a bike",
+        "Only authorised staff"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Only authorised staff"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (Only authorised staff). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "6de0b7dbe5edcebc",
+      "answer_hash": "73539c2baf5b776ae44cfd837e31eba882eff0af63b8f875db185c4832a0e165",
+      "solution_iv": "f143715c92e7819e0c8742d0",
+      "solution_cipher": "1a892630f59563fd69c34e7d2e7a5720dace7d132e76ce29b117b9e52b003ada706d02ad70a869b6c985b7a043c596dc778e0abfb823af7639910602612a5e967ebbacb9c95aecfeb833d71fc4882b39173c6fa8a2d84d7a6efb05fe984358b3509e22662b4d3a727f9272d51fb86fa13d3d7b89224c674275421e2185b9dc63f54ad9bc5c0323b724e31564c293df33a4733709fbecac08bbfaac12468202a9ff22c5d22cfd91058d0181f43b4e84d90107dccd2c84c30ed29121060467f148ffae1077a8950209aa85fd468cbf00ca5d54486e4204bffee9532e2e"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_031",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "SIGN: “PLEASE SWITCH OFF LIGHTS WHEN LEAVING.” What should people do?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Switch on extra lights.",
+        "Open all windows.",
+        "Turn off the lights before leaving.",
+        "Leave the lights on."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Turn off the lights before leaving."
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (Turn off the lights before leaving.). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "e9038a9525cab98d",
+      "answer_hash": "561eb7b6ff162bdcb99d787cc7d9540e047eb791fff8359580f2796ebe3c45c7",
+      "solution_iv": "f23b44be8c8d0f3b425d9e22",
+      "solution_cipher": "9af83099d388fda83cd48876bcd6d20d149a08e2669ead6c38e3043eea3c0f29a7e32bb9b869364973e7d0ccc6184013f24ace80813a4638c02f6bd9feac9a9d92e683caf7ba40daec5cbca7d7b27d4310e33a7f041fc16ad649ce5436fd61fb0db8f2018ed08060dba61922e4ce9fb8d5a7da81e281b53c31bc5f21269e6df1dcf9ff4bafb3169a17666579965c1400ca2f5b0760a6c6aad26d455de3a4768b4b9e31dcc0ee3c5ec74c848043179542e62941f64209f1839a77ba295ed870f5f568bdb933c2d2c5dfbb54ba52d998f9fe2d6bc2863ec8bdc8061db54f784163a0b2a2eff7a6f8adf56920416a6caf52fca8f3a0a06f7aae"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_032",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "NOTICE: “The youth debate starts at 9 a.m. Registration closes at 8:45 a.m.” When must participants register?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "By 8:45 a.m.",
+        "On the next day",
+        "At noon",
+        "After 9 a.m."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "By 8:45 a.m."
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (By 8:45 a.m.). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "8096b2bfa87af431",
+      "answer_hash": "0f8e4c6c9ec80c4a78ca553be3522248da68dfea3e3c17e142f82dabca6b4af6",
+      "solution_iv": "f0def7d21bc70081ae918b96",
+      "solution_cipher": "ae9972353065a7c517fa95f88d043ca6d4ace607a876022eb46b7b4537bed6ac7f44721a35d6e5347fbde3261b024d45e7d589869860905bec4055a1b0b0476ca2149395de04c15f64669c674580c68ca799ab95ebfc381077ef949087ff9b5c5c5e92457da68bc633ed64243eb6b4b55b77699b9599cb86461f5faff4995801169e04725bafeec8c6876fb6f7ec718adc4649b7f6f8ca96abc236f5f0f5014336886395a4ec2a4e079df7f7ce947b09487da06e341351f387eb5d482cb081d41ded4175a5d55ea20dad"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_033",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "NOTICE: “The smart-library app is under maintenance tonight. You can borrow books at the counter.” What is still possible?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Entering the library only tomorrow.",
+        "Borrowing books at the counter.",
+        "Using the app tonight.",
+        "Reading only electronic books."
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Borrowing books at the counter."
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (Borrowing books at the counter.). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "e89236216ed61fa2",
+      "answer_hash": "72c9357ab4fa07089a78df9cb84bc5ba2af2214efaf14bda999200bfcedf8e26",
+      "solution_iv": "5033fa36e6c974162083e47f",
+      "solution_cipher": "482c6f044cd62980f1aa26b6aabfc7fa8f7272d8de80802290e6336194437ea17cee882d250dc004568bdda4691b773a7930dbd6c69141551796255dd245d19a401794c3473633dc126e732e24494b70b6ad767a468b206df64a221fb98244c98ebc3ab72fb4ad6d20e02600415ab24e864238c927a1141fdb69c4a5c579d0ca3a59b47f2fcc1aab301d4e5a7034df24b0d1a25d61894b382bc5d5a47b7a180045488fa2b621e0a7834c667877f5563738651b08ae2ba876f476b267b8d0a113927015339ce9071d67e7c4f0bcd5a7477b47300d4c4caf17a618f656c879c4554434fe28d0e4b372733ac7c441a08f15"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_034",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "NOTICE: “Free city tour on Saturday. Meet at the museum entrance, not the bus station.” Where should visitors meet?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "At the museum entrance",
+        "At the hospital",
+        "At the central park",
+        "At the bus station"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "At the museum entrance"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (At the museum entrance). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "c9cf36d45e6428d8",
+      "answer_hash": "7ececfda918f99a9c058443f958d975a07cddc7ef6ec3d310c660ea8522a673f",
+      "solution_iv": "fe61461185e78ac426fe5d17",
+      "solution_cipher": "4e55645889fc011599c273d0cb621bbe9b479b72e6d210833580001dcc841216036cb7e3d21e0b16fcca896282e07f015e594100d9b68cf10aa068e62fbf2f52107c98382f546f528ef8346a6228219bed106ab5895bd26cc337ff5c579bdd6b4178a64162e57a8207d3e8b5811914f7bf556e88d259129dd3fb01c664281b5e0d32205dac88c568a32a72d62ecd90ad8fe2ab25528c3c82ee8abe238fe1477538603b8ccd11478d59773b5a6758667e0296300a6f3d5033423f92615d12744acc00f0079d5c54b6d0383d5c8b8752cc92f57685d87762a8ee4b49fc8d5d"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_035",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "NOTICE: “The fitness class will be held online if heavy rain continues tomorrow.” What does this mean?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "The class was cancelled last week.",
+        "The class is only for teachers.",
+        "The class may move online depending on the weather.",
+        "The class is always online."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "The class may move online depending on the weather."
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (The class may move online depending on the weather.). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "74ecc831b61f1638",
+      "answer_hash": "da5621dbcc0ad81fcc7631b3b524e0433a461d3ecd88832dd1d89ce021497185",
+      "solution_iv": "aa6887d3386b1545397782cb",
+      "solution_cipher": "b794680a80c1b6a22d1cfbed68d494a66d06432b50bcb7e12d400f0c74b0bd9bf6e9650266c9059bd9a26902382bfd7456da5a665303147b998603a54765f649c23bb9e0456a17daa1af03e956c8adddf4a5aabffb9f19202460e8f759b9e33eb473fa5c43ba9dbf845141c12609c920eba09b012a14d9c15a4b6641166b04536f11cfb4d0caa17df84e517d18cc681a51edcba75f96f73791f179f20a1ff297de9c71379d869281025e7a92ead07834867a9f95beae90b786c2f4501c5a19ee0330861258927383bd79a99dbe500cb639b00e2750d386a2f3f2b6edd316a2ca995849ece79d4bed8604bca58de5c6ab4c265ba5e1b9f585d3fc3cc197f5c5fd18d82a793d8d62bbd0232757b8ecfd153547d0550a9c9cc3"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_036",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "What did Minh find difficult at his new school?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Doing his homework.",
+        "Making contact with classmates.",
+        "Learning about trees.",
+        "Finding a bus stop."
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Making contact with classmates."
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (Making contact with classmates.). Lưu ý bẫy TRAP_WORD_FORM_NEG.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "571bd78abc03d0c9",
+      "answer_hash": "09e4d5f662481b2352e91f89229dc630081061280594ba99e3b9d72f8750c09b",
+      "solution_iv": "4c3e1152d7e9427e00226e5a",
+      "solution_cipher": "92d15a41e08becd7fb439e9b18f14f68ddd8c072748d4ba26032cec38a2b5e0b7096afcc7c289e4dd2e2d7b2d0b0cb8e7dae42ccafb3625dfc5a4a277f57c21e52ddf86532787bda926dace1238ed6c86a002e47618af12bf67029dd68bd607738cc0678f052513c2c3ba77bcd38085e315cff832d5213a6b6ab5bf52cc2c08773a25b3338a174c81c57411ee4f0911eeb594d7f2d1aee728cb925f9172da7bc802962e09564f9fb1c5918de930bfba2cb160df9edfd2e7b7cd8a7874c2081795dde144ce013ea3d8efaacb2c7607ed17c642b64de11b8d649d68216a47e4d18b40f155ca746a8989acadf9909c4"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_037",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "What did Minh’s teacher suggest?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Buying a fitness tracker.",
+        "Studying alone after class.",
+        "Joining a tree-planting volunteer team.",
+        "Moving to another school."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Joining a tree-planting volunteer team."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (Joining a tree-planting volunteer team.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "668df97025b55e3c",
+      "answer_hash": "7e445645564cc13de4ddd62464e8753481e02eca9c9ea3a91faeb674f8ab05e4",
+      "solution_iv": "d3871ca2a72f4c57d4d30589",
+      "solution_cipher": "0c7e8b81f73c7895cce86f34f3b5f5deb1dcba3af192a939f5e4118960fce81fd622ccce6e8f08f03fa3493b6b180fd3b8ed432c262428070cc3219c0d1ab596ba4efd7d7ac86ae98d92790870613b7b36b4e51f5d728e3c3ed60c94d5428a8d722cab8e2dd1fd13afbf1951c3be1540d8ceffaa5625a05802a4e40f4c8fe3d8349a81be56c8c4ccff6ac6742fd3cddf775b92fca48473fbcd6a0842d7428e1e9a54fbe456ffc455cf4003cf7dc2c09a0ebaf2aa5518715cbecaeada512ab06263e046a0e1bcdf06a133e5811b01e527e6e9494aa5313eef4a8f4e574881be82b30b95aeca67f14e6c8b594b5df3e1e2d666b69a5e2901988a"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_038",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Which statement about Minh is TRUE before he joined the team?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "He had never done such an activity before.",
+        "He had already led many teams.",
+        "He disliked all outdoor activities.",
+        "He knew everyone in the team."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "He had never done such an activity before."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (He had never done such an activity before.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "046cf49c30f994ea",
+      "answer_hash": "c07d2b879d1d1a58134790b4491caf2710675bd9f521a1d89c00fa2ce294c3ca",
+      "solution_iv": "8a9f0d4566a0e636dda6f882",
+      "solution_cipher": "03d6ba3e129dd789e490e8a126e9da9fec6aba927424ab0bbd0afe5acc9245f1b305a8e82c6e778cca48e07f2bc249246a39d2f6dfb3d4fea74ff194dd393848cdeb254fbde690aeb34a8b4d69d99ce9c2c8d53f333040761bc8a575745f137639dc498b31082548437e6501db34bbd167c366bb16f63b199f08924f74a0fb88c02cc9aea9afe34f285ebafb648e5d6d3ec6829127c18463f50a0d48d4921c4ccf6c476de8106cadebbfd3534f3790c2f86913df18ddbacf7ea0447811f1ed1bc76e033da86ac520eeed9c54d932d1ca2d068278398339e4e27ca186bfe9cd41b147505cc90c534acce66008a5ca39799650663265485ea3f2b591f66ab371"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_039",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "What has Minh continued to do?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Study at his old school",
+        "Avoid classmates",
+        "Travel abroad",
+        "Volunteer"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Volunteer"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (Volunteer). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "fd84aeca860112a0",
+      "answer_hash": "154d10f43ff789f65d9a587c970eaea333708e84e1c9db1202a87def6fd22db4",
+      "solution_iv": "2be3c5b166c0a3c409b54aa4",
+      "solution_cipher": "2669b3336bc67ac8d88784136d672469fd2e56b460817a8ba23cadfdbb6cf6dd474e3796627bced7409e2fd5cb8bfb5906cd7f2165fd9b51b9d5ccec5e3563bf5279cb23170deae8b30529a90c7bd2d1a3cc18b5c0eaa5f1aed5207d96eff49ca9cfca01c07345952e9da92ef0a45044c4500624f5a71cb9fb792c989063bce02b3412e53d7e5150d84dea3815cc7598f0f14a55d392c40e0924a7f632586ece818265d76341ef28b2fa7079436d875f4e3eb7e81a5094557a7f7bb975"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_040",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "What can we infer from Minh’s experience?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Confidence depends on grades alone.",
+        "Only adults can volunteer.",
+        "Volunteering can build social confidence.",
+        "All students must plant trees."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Volunteering can build social confidence."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (Volunteering can build social confidence.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "978e6e87ee05d2a3",
+      "answer_hash": "263519493768d2412114600cd1a6962a0524fc5f459f2e9d04099f0e15a04441",
+      "solution_iv": "eddc2c3b7e7d1e52f6500af1",
+      "solution_cipher": "20f646072de8bfd4a60ad70e09b205d62b4c726d7044cdea4f92425555304089e0ed872c6a93dcb9b28278cb65d46dbb054f8f60567d747f9125159035ba64313c0b644686eb11c09526ea5889705d0818aaa4cd133ea9774ddaaa01643014d2092750a11d1e26a6a754dd29de604f6e93447ae0710485b12066aae82acb5dcc0de0bceb96c26d394adb9737d99771a9a9d0d7cf35ad2f9adf5e9032207a3e80d3030d3b69832b3cdf3377ed6483aa012a525561c834afa6475c1d2310688e9d8f792cb900095513d0e6d83bcf1380a8eaf0bcebb623e1f59fd2e84d62d1f0a47d1d7e32c6139afbc2d4ea97728d3b08501c13a75255f4331bf1fff232"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_041",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "What is Riverton planning?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "A pedestrian-friendly neighbourhood",
+        "A new airport",
+        "A large car park",
+        "A second museum"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "A pedestrian-friendly neighbourhood"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (A pedestrian-friendly neighbourhood). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "a3b9fd738f91ee44",
+      "answer_hash": "a7ed4232819d3395ad6ff42adc2040ea4134d371307b88957ffa32bf187b68e5",
+      "solution_iv": "5ad1d15786e91f2e9dd944ed",
+      "solution_cipher": "d956e9793419d7e1ee2fa70b8bf4c0ec4b49e6276e23dcdf99dbfff1308a74c5e455d78dedf5a2ca9614e1c0ad87c517612a8f2eab3985b54a547de514e810884b169c60dc818ce18312c296aecdf6119ce72609b6c47e37a108fbd0d9527d908cd41428453ef48ee4d90a5577a2e6847390d151ffbb5b01b56a7068c403f52e5bb0f74495c4d15ca9ab0f07de4855a2b0aaffa1281e10b646382e63d97f74fe8783aa821d2e741617c894feb0c86f8e3baaa5eb8078eb4c978d1cf1fa43af9c074ce3314134ee1a2f7ca1ca186a6f86b6f37a68b6a7c49465a112497641064aaf36b783640a44cb61fe9f7c91caae8648"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_042",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Which service will help people who cannot walk far?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "A free flight.",
+        "A new bicycle race.",
+        "A sports club.",
+        "A small electric shuttle."
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "A small electric shuttle."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (A small electric shuttle.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "148ebdb6551f2055",
+      "answer_hash": "e5af30255c118056f3f04a6274e79dc4e1b062371bd3c4a1f22082502c1b0e29",
+      "solution_iv": "e88236dcf8bd4c284f3a035f",
+      "solution_cipher": "c16f7fe01d55a943c51ffe86c856cdc0c94e645ebf63284553c34508e4b20a134462c568adab3314d721be7e74fbacaecf6def12dbece1104c9cd80498d9e364ee80541f894119b1f49236d52a538f1b9e5ac515ff4210ce1c1824f5c358d1c509d2804d28474a5fa5f438bf8d882bb183c69b292228ea4dc5845e4fa87d1cab1c5c7e974f470fa3a3dd01e19c7050f0ab5c2f49975dd384fc58163ffbac02d78ad337611fbe6480583333fcc8b7e641f21905ef1ebdf13cbeb8eaa40400811c59f6e4c6ae116f2f134164c4b5faadc0451e42c77423bb1f3593bce78d"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_043",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Where can residents read the proposal?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Only in local shops.",
+        "At a clinic or a gym.",
+        "Online or at the local library.",
+        "Only at the mayor’s home."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Online or at the local library."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (Online or at the local library.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "cfde3866553eac53",
+      "answer_hash": "2a0818cc8ff693ab378a2eea20206b35b2006799d59ddc22a900b98728b19129",
+      "solution_iv": "cf4b74927c71bc749f4397b8",
+      "solution_cipher": "33d28270327c8919fa13824b154b93140bc3dec062b08d5bc138c524e0c90ab369d7a0985a96c844506e844b8980bfbc6330a7f0cf8596e675e0bfa9bcdfe24ae40dff81e5e68c7f55ead1c4a4aa44f0569c74800ced3d9ec2091e2a697f7214de6aaf7fa02569823acc56e464728f9f0c060cd440c22505046e375e4d5deea4f3dac98eb6c37fd225e5186709ba4966d19b7ddb50c26c79597a9239bf65bd8962541573eae84bb23854b9e5f5d6225f1f9a54de8ff3f67b2c9d5074114ecc1865d3e52856681c919fac8a7dae59c6704db9e2d9fce1aa9dacbe50318de3c7276112c9cc93238774c7"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_044",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Why are some shop owners worried?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "The shuttle will be too fast.",
+        "The library will close.",
+        "Fewer parking places may affect their businesses.",
+        "The streets will have no trees."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Fewer parking places may affect their businesses."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (Fewer parking places may affect their businesses.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "61ca8b704ee30528",
+      "answer_hash": "fe344607bdbc30dd8b3819345b5755849e1bfc2cc71e61e2cedfa088b6a4177a",
+      "solution_iv": "e0768c5cf2fb4c84a87c9cc3",
+      "solution_cipher": "27cd33fd6a26adcf8aa43e148ddbb1f086b7850977b9402a6b6d30b709f2539b1c86ee03d3bb7f2854ffaf82cd5b6823347c8b512dc7b9401021f77a1399d407886f9f3d5160a7d27d7c99b68b15d75ca57df708d3e2d934155857dc4f428d20929d75fda81f50265611a8dd629b90b4d057414900799202853a9fda5f5e88d825dcf4c7fd7e04fb49cbcc9688f31873c8dafa5c3a9939e830911f52826e956c23e0d0335381bd89ca669f7d5d7eebdac0d77c4f3c65624e4e2820da0e1fc043acf6a68219be8fe04ffef2040a8c974e17c1cb16915683dd6314513e15f24aeb976fb401625421ef49e6e325e498277769bcea2d3d5839e32b08774be8c604cdd6af5f901e1dcaed3f5402ca19"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_045",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Which statement is TRUE according to the passage?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Shop owners will not be consulted.",
+        "The plan has already been approved.",
+        "The decision was published yesterday.",
+        "The final decision will follow community consultation."
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "The final decision will follow community consultation."
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (The final decision will follow community consultation.). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "6d47617c7223fc8e",
+      "answer_hash": "f68260d88c1a4b462a8eec1f0e906e6bb9dd232fd1cc045affbede5c7ddb0e7d",
+      "solution_iv": "aee5104ec7b151d8dc16136c",
+      "solution_cipher": "bcab69bf246a3d4690a4f7d177c3f30b78c23a279b2f69a80ea6bd51b3754bc9cda2bdc89083fef8a81a8c2818427c66fb75ec5c9c261730b5575a260cd1a5c58b531efefe9eb8db3029546cfbaeab8badde64a024a2c47cfce1a7189b44506bf0d7033d5d695325216afb3a0cdd5428ca0736858077da2f5aed0221a65eeb0ecba335527afef0e28556f03f267c8537dfd402625a579676335495c6ade8b167f7683aeda377fdddbcb1e1a82c5df2d16039110d7bc8155f2c9e5489dd285434121bbd39fde0568ddaea63a2bbdbb7b35784144ed16d36a74cede4372ac2cf4bde22c737b0cf465e33b3fceeb8873484794cab093ccb3ce682a58f7cc556538b8634569cc37a6a4761cc3ffc99332ca1270e56b4fa99c2beb4f0ce"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_046",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Which sentence correctly expresses prohibition?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "You should enter this restricted area.",
+        "You don't have to enter this restricted area.",
+        "You must not enter this restricted area.",
+        "You need not enter this restricted area."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "You must not enter this restricted area."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (You must not enter this restricted area.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "ec7df6330e33e603",
+      "answer_hash": "666e55e4c9b3310985a2c3b6295a758f56c80b6efa6035196900e6659b2ffaad",
+      "solution_iv": "9351ae3a1d81cd30ea815afc",
+      "solution_cipher": "50987ba11cf7c01b9d3a24beaed550ba86c85dcfbeb7b0f12e243120c2ca9f68ea79f99e250944dececed2758bacf45e701c5c05a6de3b0060baf6f245d53026c3a7a5fc43abb18a3c4e1b855b86d5fd17c356e05e8442dcaa08a39897d867788a160317e3806d90855790e2659a044d051a01c463ff6ac4a322223b9354a36b33bc6871ad29743281dc36f80ca26fbc701073a1493418be5c5457790405be9a132423305a58ec31a5d6811152abbe95e1256bf2b6a1d1a30a28cfce94b50b72e3e63b471c262310291849805962ac38e07d8d2c8f710bc35a624da1f956204cd69a915fd10ea179e2a84a4a2b2f88435e2b1e798438d52f6ae74c"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_047",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Choose the grammatically correct sentence.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "This device is belonging to my father.",
+        "I am believing smart cities will help us.",
+        "My brother is having a meeting with city planners now.",
+        "The building seems safely at night."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "My brother is having a meeting with city planners now."
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (My brother is having a meeting with city planners now.). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "37f41866e89d73c0",
+      "answer_hash": "14116ab8014cb3bafcf54fb08195a42b76aed021bd7111b22512714a76836da6",
+      "solution_iv": "1a5f01aa3193857fb37821a3",
+      "solution_cipher": "0e82a9824a679185e27907056373f7ac507b2c40797b0d957fae37d3ea56b44df392844085de8d2bfc9298807ee092d94ecffe044e7561632d95c12f511fd9c614b77e342dd91fd27ae29954805675e9a6aa81ba32d7cb7b2389489a325c5809ec56f80b266c3f3bc091938af60a9890c4a1a3b147db2cd9db6aef07038e1e680b508003978440d1ca93a8d6104a6cb9ef4749cbdae31aea9a1cafd41b4e2739c72d0f5fdbb5e75173662cb663654b785cd6908fdb5915ec47c8db6a9ee50d8e3bedffa9c35990f3c6917291098750238030a171ed25213e39600441299821b04fa9a1b3cbe47ea2c57003e0fa5e67b7ba1cd41d1dab3853ddb81dc4e9e30885051e6bf7088ef52a13307bd3d1ec987bcaf6aab48dd9fb12baacb8"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_048",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Which sentence has the same meaning as “He started using the app in May and still uses it”?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "He is used the app since May.",
+        "He has used the app in May.",
+        "He used the app since May.",
+        "He has used the app since May."
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "He has used the app since May."
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (He has used the app since May.). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "bb591b8d40fcc3f4",
+      "answer_hash": "fdf0a8a8623a49b9fc41855b540ea928768992e29223fdba028e83f02514088d",
+      "solution_iv": "92a2bc5487fea1fbe1d23369",
+      "solution_cipher": "791c63f83f5698e9ff36ca5929fd2269ece3b828d13deb22fb576bea363e4329f15fc45749c865c4a361f15667396c6ab5b961c3fbcb9ab41b9f90476cc8808f15d98fc0a68b9446e414657eaa9a9a28d68d77868c08a692bdad9a30d14c249fc31f4e1d4305e21c7a7f2dd9d185fc0c5ff2394012278d14f6e18c2748e9ee0ca16a0ecfabb907a88df0590a279b9e74b3d4fd6398d09c8d867688071c9e8b5ea6acb27c6301c6e85497b713bd213564cf4175ed5460d40df8da9ee68bfd1a185c1acd25decb3411851897ee46054932ceb3516e509d91b1ec9ded8912b5c364b8e1d2ecda4a59ec2609b6"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_049",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Choose the most appropriate advice. “My grandfather finds the new bus app confusing.”",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Tell him that his opinions do not matter.",
+        "Make him stop travelling.",
+        "Ignore him because he is older.",
+        "Show him how to use it and keep a printed timetable available."
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Show him how to use it and keep a printed timetable available."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (Show him how to use it and keep a printed timetable available.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "46ea1a3d7297fb7d",
+      "answer_hash": "7af7bdc8fcab58d4b8488d3b90ac1f651d38ffba8428e420ef28006646b069eb",
+      "solution_iv": "877391b2a621ed1014941e3c",
+      "solution_cipher": "18856266ae42ce8bc84eac75d080f96e6d19f2ee8ad4e9f4c386e73d9fffb90078fa9e7ec671ba85b2b3a8e842df94589aaacd46bafc4aa678aa272c1702a66d43557298658eeb3a477c5b17006a55e99bb1ec6124293e3f92d186face12229cf97cbb2fdaba782e464242f1d71764d2c4816e909fe9f0a3e5c61760ae7f30a650f6ca0a8676b91b88432739b333a06921d7f3c8d9207d9c732c54759513fa919d7d3dbf987131e44d1842206440d7d9cbc3b492f304498442ec73b70134af4426a7e79775cbd3d75a54f3e87c0962f2b20f58de49991a631194d1d09123385ce03f0cfc8b54c7514a4fa2e8717f9230d8e3b0f6b37c2c214fcf8148820a6f378116d94182d7dc3680ae02352c7c6fa12e8ff8f86a56b855da267457b76282765b5f928f3d12fb"
+    },
+    {
+      "question_id": "Q_WS_G11_MID1_102_050",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Choose the sentence in which the linking verb is followed correctly.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "The river water smells strangely today.",
+        "The green transport plan sounds reasonable.",
+        "The eco-bus looks efficiently.",
+        "The new buildings seem attractively."
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "The green transport plan sounds reasonable."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (The green transport plan sounds reasonable.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G11_MID1_102",
+      "crypto_salt": "e300f562c3194c8b",
+      "answer_hash": "366900b7f441a33046ee3dcd99d4caaa7346e1f71634db30b9c094ed746e5ae9",
+      "solution_iv": "8c3f3de8fc8aad510b2fc3a7",
+      "solution_cipher": "e6380f9cdbc3860e79f5a049fa811f4318536ab2de80b377c744507295aac44d352f605a47c8549539934e0c229842604469f00bd271102b8f5d059defcb05d3073bfe70d2c17f86c15d94bb29bf50b01ef9aefd71586301a50f62c785ef12ac603a1ee6836ba09a1f2853e355e49d5ad52dbf1fcfdf0a1aef1855d0638e1b1623b2f95e644401c5b9831f38c90ead94d738ae7ddf80e1a0620d3f8f1390e932b59872d043671d36fa584708a9eba9371d5fe8e1753dfe2a383634bfdf61de2b9209916227c352ad0040ea3a1a0548709e10e83aae9d3931d645b8e701847c3387d0739358fc299cd4e49993250a24ff0a8fa281fe43f3255285b231f7d57ded33"
+    }
+  ]
+}

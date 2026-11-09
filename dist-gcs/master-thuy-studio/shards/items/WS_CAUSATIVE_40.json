@@ -1,0 +1,471 @@
+{
+  "worksheet_id": "WS_CAUSATIVE_40",
+  "title": "Chuyên đề Nâng cao · Cấu trúc Sai khiến GET & HAVE (40 Câu)",
+  "grade": 11,
+  "questions": [
+    {
+      "question_id": "Q_CAUSATIVE_001",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "My mum had the mechanic _____ my bike yesterday.",
+      "options": [
+        "repaired",
+        "repairs",
+        "repair",
+        "to repair"
+      ],
+      "correct_index": 2,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án C (repair) — Cấu trúc: have + person + bare infinitive.",
+      "crypto_salt": "6bbbf4b702099237",
+      "answer_hash": "1edae5d720faa689ed2246cf412bdc37050ef12f7d9b64c2ee44c52c51b8acdc",
+      "solution_iv": "68268a97a7cf8c7fb454564e",
+      "solution_cipher": "5387a6911f38a46a97e430afd395e8390223a5bbcf2ad9c0213ef1efdc6799277e7b56e6ed163e53691e87bd8ee7b1c37619eb600476e7a1a14bae9c2f2c58a49f4dd3f5a368f624f823a5ae3d610bd7dbbb4006d33a32ef97d4c36055185fb4f1a29438574ea52086687d29a5dd7b9a100aa650f5157373337e0df2ded466a7b452f45daca41ec08f96e8e56a6ffd8982ca3f357ca9eead0294f8a7ae21ed9476dbd11d27edd3"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_002",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "We got our neighbours _____ us clean the garden.",
+      "options": [
+        "help",
+        "to help",
+        "helped",
+        "helping"
+      ],
+      "correct_index": 1,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án B (to help) — Cấu trúc: get + person + to-infinitive.",
+      "crypto_salt": "e360f70c0dde9044",
+      "answer_hash": "a90526d22b14e5bfc276f273fbf5e36a37736c1008e6e0c893e7c7df4bd8f119",
+      "solution_iv": "6f74306c764316c0353d8278",
+      "solution_cipher": "2ed2380b0f2a7bce9b48813c632a024c1d5dde37a885690cdf3706d2c5e8395d1d64b649074a863eb1ec6e45a27ae94b7a4e0a17117adadaf6b9c10799308e2756f77c65b14f8acb58a59287e1a055874e94e2e95d0d355bb45e316235d76e0886889a8b2c2c29043a4cb799230ec2f93ae4dc511bd43353ce27daa9f99f417076b46e726c00a30af8a7c082621fd8a63cfd803648dedcf424af163c97447aa076d158c8d4"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_003",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "I had my hair _____ before the celebration.",
+      "options": [
+        "cut",
+        "to cut",
+        "cutting",
+        "cuts"
+      ],
+      "correct_index": 0,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án A (cut) — Cấu trúc: have + thing + past participle.",
+      "crypto_salt": "fc1b3a351e1ef061",
+      "answer_hash": "0e5209661c4e6c3f091242f37de49d578215cecbfa140367519a96c6e45fd0bc",
+      "solution_iv": "62c10b4635230399983e1455",
+      "solution_cipher": "6073e42c3a765b2021c8c8f45e5e7ab87536e7e821a431e97990827508e246d18d4820600bcbc9a1b87cef1ffb5f00488c7f2b99c5cc2c6c6ecf74701fd629e766d6ca1cec79c69aff95a5e0ec931fe84d613db451eba9ba97aec7ee2301df1ba1136e8404f788cbebb4d5ce18dd764a2c04134a18266ac1a5b3fb8216d714b6ff80cc4f762f8c45bc4c9c950e85386209ed50f4c87a97fd53428306de37a788ffd58b"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_004",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "She got her laptop _____ last weekend.",
+      "options": [
+        "repair",
+        "repairs",
+        "repairing",
+        "repaired"
+      ],
+      "correct_index": 3,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án D (repaired) — Cấu trúc: get + thing + past participle.",
+      "crypto_salt": "b196e56c42e32b00",
+      "answer_hash": "4f18cb7390ad66f91baa4ec59930e2372d26afc106f1f159e32be9d52de22753",
+      "solution_iv": "06d8e07c10c6a9202228aecd",
+      "solution_cipher": "2e1069761ecc358b1966370f45943c9a655e3219237b1681c723e2549d72b9ccd8a8eae3fc52ea243187e580628c534f7af44c1b62bfc151e9a4ff9e05ed91306b2c7f8d34e3060f2250414a167047a7c0f3c8939b1500d1de394c6d01ad9a4313cff453e204ab697f2c723d24304ac87b358e11fe76134c2a757a8732c6d6532a6020a5e56542f6710cc81acbad166052006e47b1555efed0f10c90af65d7aac92439bb36bd6e"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_005",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "Dad had me _____ the windows this morning.",
+      "options": [
+        "clean",
+        "cleaned",
+        "to clean",
+        "cleaning"
+      ],
+      "correct_index": 0,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án A (clean) — Cấu trúc: have + person + bare infinitive.",
+      "crypto_salt": "f0d41398368e8145",
+      "answer_hash": "0cf317758a6cf12c47a86cc273960e2416b88eeb8c051ffbba3835d35e194d44",
+      "solution_iv": "ac26b798ab772727eea60c36",
+      "solution_cipher": "4d7fa0065b52fca7820b64cc2ae6de91e462c3ac44880f7b8a6695bcc0381a2f11cacde352f456a270156054c0f7bd9c64e5a70918e341c057947f45deee17630aa935dc6b336b652f9b3e3544ef216ee490ea6f34fe349d487bf273f30cefd9c80159e7a012593d5a6f21ad232c4e96d22fed028d073049054f323e168adfcb0c2b9f3e497b421bb3636cc91d50f643c441b368f602594257ad7d5b6ae38f4a35e6f0d596a3"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_006",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "They got the photographer _____ a family picture.",
+      "options": [
+        "take",
+        "took",
+        "to take",
+        "taking"
+      ],
+      "correct_index": 2,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án C (to take) — Cấu trúc: get + person + to-infinitive.",
+      "crypto_salt": "9d41e1491d5d6c32",
+      "answer_hash": "67775c1e9b5f3e9393cc2071343a9908e654b9b1114dd7ac8bc8c66030afc46d",
+      "solution_iv": "6e43e54f77a3f16fab40b5f9",
+      "solution_cipher": "2216616b1b82964baf6690b93442f9c6c34b67068885cf590cfc03ef4051dde7812116ad33050992467186b00d5b18576b4e1496b0179228e553f5c1d05638998caf18630915d104e1ef1b117e4b86a544e0fcf19a33b749ff9957950835b67d7b4112b53b3babe4a5998d5075277ad843c9f0be32b15850d0858133666b16137002c968147ffab3aa54adce1e201f4cac2b4529698491ea5db50f88eb430c2745f7476396"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_007",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "The school had its walls _____ during the summer.",
+      "options": [
+        "paint",
+        "painted",
+        "to paint",
+        "painting"
+      ],
+      "correct_index": 1,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án B (painted) — Cấu trúc: have + thing + past participle.",
+      "crypto_salt": "a9ea06cdd278166b",
+      "answer_hash": "dea109b4969008a6b840c06430ad3ce764de3251c8bc7c38e4763c40fdec493b",
+      "solution_iv": "b2e4f448901b69a7e1f91a71",
+      "solution_cipher": "62e505a73c67df657dc2f9bfb2d11df977537d642a4e1a7c76681cd322a927a3f8042c636d55d6530a780752ea98e81fcacbd9d4b5c0b0c69ca87b4b6492dc4ec3fa18a7fdb8acfb83fb3cdb3d85bc782129d96353d4236367367875785c265b72518e8d73dc35f2ceb531293616a5b14fc4ac9f0424d1661085f55a59bb637ce4844e29e2fa8cd52c84612de5e5678d80bc70b36ba668499ac327f2b1361d2d0fdd713d6cf323"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_008",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "Our teacher got us _____ the story again.",
+      "options": [
+        "read",
+        "reads",
+        "reading",
+        "to read"
+      ],
+      "correct_index": 3,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án D (to read) — Cấu trúc: get + person + to-infinitive.",
+      "crypto_salt": "c004b8a2010f3add",
+      "answer_hash": "435ffdcf71638a2d1ad145366728ceedc7264b4c2f13c39fba8fdd80dab54f9c",
+      "solution_iv": "2fb82751426d1804cdd5b2a6",
+      "solution_cipher": "28229b5506f2990fe6b8c273dd20bb574b36211ac07b1c74c176bd85d22f265f28ede9f6c83bbbca48ae560ed1a73482dc78e866a2d385294b930a2991e8e25f1cb25ab67af66b2325d82d991360401d20e6d734440a3a4fdf55f1c18cea9e3c40c83647491106101e7921317ba3c5852adcfd220e4a98db9877d8639cc620fc38d631703170be87354eb56a6e6141dfc78e25a19c9dae753ffc4b6ef2572069ac56b36f9a"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_009",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "The coach had the players _____ five laps.",
+      "options": [
+        "ran",
+        "running",
+        "run",
+        "to run"
+      ],
+      "correct_index": 2,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án C (run) — Cấu trúc: have + person + bare infinitive.",
+      "crypto_salt": "335e8bccfc9ecf8e",
+      "answer_hash": "3bb17da3c7ca80379c7ad09b8e354b946b315e5dadda70db921233e55a35456c",
+      "solution_iv": "71e88adfc50725ef2f997070",
+      "solution_cipher": "0470ec8271f595334e9b7e294fd3b5e674a5aeaf570375ffb4d37be6f802b36b811e10b97250f89db5184ae368b95275cb495e0c29faf10cd5b40f13e9d377c0e02a251975d142c37a4fab6b4b06ad030964444f822ff85b020b622723f9c04946d5d8c5cc90ee78bb0088dfc8b8415be31f994c29d2d161eef65d93540e79ef09c8ed5071a7317f5017ca7d0d9b1885047cce8f58e11b93a3a21adf3db044ad848ac198"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_010",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "He got the broken lock _____ immediately.",
+      "options": [
+        "fix",
+        "fixed",
+        "fixing",
+        "to fix"
+      ],
+      "correct_index": 1,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án B (fixed) — Cấu trúc: get + thing + past participle.",
+      "crypto_salt": "3eb819d917088a8d",
+      "answer_hash": "94170538260389daa47634d315becc7ace2deea05720d5c3881e0857ec8fc1c4",
+      "solution_iv": "d9cd2af0bf349409c21b71be",
+      "solution_cipher": "d45b7cb789e440c7ec1c00c5ca2fd42dee22d28bd7c964eeb581468d6b81c2fbc473b5eb9aac897f9eba494d5f43db472d79802fef2eb4e71515a8422b969f4ce1ca12076e1fe91edc27d3695b8fd9da00d5997e67c07262902d09eec08a8aaf49881fca74b55756193ea838036e6935b525a7264e505c3caca377c2112ef69430aedcf0e73089b269788d144233a0f7d259ba21749746b9135f8234356535ea075fcf46"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_011",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "The manager had the staff _____ the tables.",
+      "options": [
+        "arrange",
+        "to arrange",
+        "arranged",
+        "arranging"
+      ],
+      "correct_index": 0,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án A (arrange) — Cấu trúc: have + person + bare infinitive.",
+      "crypto_salt": "fc23808880f8a771",
+      "answer_hash": "8a2f3609ea4f9f8a5f33bc19a1a449fbc9df11ee656d1ff8ed7c566628864b2a",
+      "solution_iv": "681a1d24c7db4ac498e3dfe4",
+      "solution_cipher": "9bba8784b0731547ffc44607ac29bab358f826af525c6e68dc4be13863c94ad19185b401686e094745f67b8a7657490f4fadc80f5c78d5c8956adde4c7ed6aab84f38e81420dabe0124fd4aeff9fdac9b34a4718aafd1ca0471ed85b84ee430914b01ec67156f39dbe8cd21c3efeed37f3c0ced24480457d5453a18d401ea6ad4fd46a165ea9a810f0ce11e0b26734d0c0457fd932eccdb9a9fccb3cbf1d7bdb7d91d52fe9bd09f4"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_012",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "She could not _____ her son to wake up early.",
+      "options": [
+        "had",
+        "make",
+        "got",
+        "get"
+      ],
+      "correct_index": 3,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án D (get) — Cấu trúc: get + person + to-infinitive.",
+      "crypto_salt": "b2f1d15afa3785ff",
+      "answer_hash": "1e6224bedb504fbd9b603d20ed399398867edaf5de3cbf9dbadcc74713c9baba",
+      "solution_iv": "e5d73d8c2976a6a903918a42",
+      "solution_cipher": "3184b474a7c4e317b0efaadb166f1e9805ac5e216893e6cbb717d8650453a1b8e7ce2a4203366c9c0c1909793ddc3a7f0324db0f49a53dc14a1c15e01ce93a38348c45aa03b9c3fb45ab627862fac4b1b49fd060cbbf4e36fd0275bc6fe9154baab143496650dce79f635399d387ee6b6ee06d16e1c22c1fc123d5d7588046e5e583b8a4285e687f2131648b632a4f1612450f5556192434f9cb59dfb3449b5803"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_013",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "Could you get your brother _____ this form?",
+      "options": [
+        "to complete",
+        "completed",
+        "completing",
+        "completes"
+      ],
+      "correct_index": 0,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án A (to complete) — Cấu trúc: get + person + to-infinitive.",
+      "crypto_salt": "fcee08e04778a9ee",
+      "answer_hash": "f7b2c28e4f332aa8fc8796c23c9af27890727ec649d7d9b0541aed665254f42f",
+      "solution_iv": "76625b76d5cb277f7fd9ada8",
+      "solution_cipher": "2526eeb0654e615b685d793f51a77691f30249ae32f26889041e80ef3a14f55b5262689e1c48e5538b3f4e11fdb2262715f10a45844ebabde5a6f91c9b28a71ecfd11e1c11275aef8a52e39d2f7c25dee153c54604b480fd1f79cca7cf06694a09dc72facda66b33795c0b90627a272ac00d2bf4ac652c380624991ac2f389d37a9cc5c67d72e57747e1f1369dde4f98bbb7bb543ca5c096db8cd65d4a2cf3476777b35d02bf8c6ca8"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_014",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "We will have our windows _____ next Tuesday.",
+      "options": [
+        "clean",
+        "cleaned",
+        "to clean",
+        "cleaning"
+      ],
+      "correct_index": 1,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án B (cleaned) — Cấu trúc: have + thing + past participle.",
+      "crypto_salt": "600cd12bef00e254",
+      "answer_hash": "434c2b2c8f411ae89b709f2cf5017c6ce38e0c49c50436ae60c3ebfb38c0cc52",
+      "solution_iv": "2984516038301c7a7692544c",
+      "solution_cipher": "10709ebb752359997b97cd2e3d4032cddd5132bc84582edfa83c502f86b8473b4805598c24ec87d6831ea2a2098e6cf61c4a5be8865fc9f7672411ef6367dedc0da1fa1c096075744985e9c04a77e62e7ad4de90bfe41382b66f25336bc53354b4b7adb37f7f2ac5eb5f9b632900d9544991858796f32ad90fb8aa7bb7ca4a7dd0eab2f03ccb668ad5f5a5db54dd83aa3d8c0c37b33b613992bfc4581f0ce08280546dd954d79e"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_015",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "My teacher had me _____ the sentence once more.",
+      "options": [
+        "wrote",
+        "writing",
+        "write",
+        "to write"
+      ],
+      "correct_index": 2,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án C (write) — Cấu trúc: have + person + bare infinitive.",
+      "crypto_salt": "515df25c34ef2538",
+      "answer_hash": "1379d34d42fe189fca68cc02310201dbcb50576b0dff1f2c383a1b409d883247",
+      "solution_iv": "6181f234c7211fc72d3eedaf",
+      "solution_cipher": "c46cd31b51353f42e388773022e18177730276694a5617516b39c47614df4598468aa9867f9caddd89a4575242c71ce578581fba0c9b7ebf4aace38b04cec6c697bc81e0bd322bafa2964b80a44ddad40faa5d17a4c58387d47a32de86dc9b845a4c6c87a52597545516c4d612ff633d34a203d5d97c0b4dc291784e36511aa8c4dd766b9aa3ba3e26482aaae6c83e91d27eba1e11b84c020026b7730e78819a039c8719659b"
+    },
+    {
+      "question_id": "Q_CAUSATIVE_016",
+      "grade": 11,
+      "unit_id": "G11_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "She got her friend _____ her with the project.",
+      "options": [
+        "helping",
+        "helped",
+        "help",
+        "to help"
+      ],
+      "correct_index": 3,
+      "signal_keywords": [
+        "had",
+        "got",
+        "have",
+        "get",
+        "gets",
+        "has"
+      ],
+      "explanation_vi": "Đáp án D (to help) — Cấu trúc: get + person + to-infinitive.",
+      "crypto_salt": "bc8f9e9ec33a7bd8",
+      "answer_hash": "4a6d88fa34ddf742cbdab1ee6f80373659df3fcdcd897c4bf3a0043b9c6d42c2",
+      "solution_iv": "09c02b3c4c842d2aeba91f23",
+      "solution_cipher": "1b43ca2c5eb480bf1291a8ef2b0c50f9e74421ff099c0afdccefa87a68fc33ad2be829cd393f92dbd99b5bc249e9ad6e281f445008fcf9fda0998f50f6b2d28015a782d2e581cd665878cf689b4cbee51abe988cb67b18ec93f2103cdb1eb3bcfb74d2b99a27bc923d4bbcc8bcb950e182c003a4b47951990a53b048169640ab49e0d8722528708274671ea41534f2e5c89dc8d97d283b00a78695c48b068bf26120c1a58a"
+    }
+  ]
+}

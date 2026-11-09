@@ -1,0 +1,1789 @@
+{
+  "worksheet_id": "WS_G06_ERROR_48",
+  "title": "Lớp 6 — Thử Thách 48 Câu Sửa Lỗi Sai & Proofreading (Units 1–3)",
+  "grade": 6,
+  "unit_scope": "G06_U03",
+  "question_count": 48,
+  "questions": [
+    {
+      "question_id": "Q_WS_G06_ERROR_48_001",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 1 with error <u><b>go</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>go</u> → is going",
+        "Sửa <u>go</u> → to go",
+        "Sửa <u>go</u> → <b>goes</b>",
+        "Sửa <u>go</u> → go"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "goes",
+        "go -> goes"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>go</u> → Sửa đúng: <b>goes</b>. (He / she / it + động từ thêm -s/-es.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "7eb72d13b8b1d7a5",
+      "answer_hash": "17a8018f8736a31c83d5173e1b106b4ae0cfab977eaeab29e169fe19d8676a8a",
+      "solution_iv": "52b96d4d1777869121a2bcea",
+      "solution_cipher": "5c466e8a6bb5bcf6ac8af63c0c0e2dd78c5bd7985aedb54f2e1f39bbb6af5f146ce4cf42473c898d04ad7e9915425cca5bfa513623c11d524d319af0462fdc4ac9d0538054ea8697b6f4398244b9c704e7787b38bc461b96fdffe22cddd16f9a59d999e407cfe52e831e7f8a6a6a7dff778b26010b53fb15b3334b36bdc086e2fcf2810443e369946584b097b8f2e4632a50a377508754418eb1fbfd59964e1d105729b0472c4329e791e24919d7759c6883b9214996940b20e77e6f61905ef69d838cdde4328454e0db375dce7bd23385414e76"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_002",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 2 with error <u><b>has</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>has</u> → to have",
+        "Sửa <u>has</u> → <b>have</b>",
+        "Sửa <u>has</u> → haves",
+        "Sửa <u>has</u> → is haveing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "have",
+        "has -> have"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>has</u> → Sửa đúng: <b>have</b>. (Chủ ngữ we đi với have.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "de6a76c9c62c27c0",
+      "answer_hash": "d8a4bcf9fa0e14bd52057c33c03aded503324500b0f8c2dbee231097330f69ad",
+      "solution_iv": "94634ea05c1ff57dd37dd5fb",
+      "solution_cipher": "91b45dafa60feba4470e6f64b68847c4871040813944c8cac1264a9984fee03111412236f0bcf58785914f5bdc643e3fa157c48c517bf09eb9baf11188270ee6f070398e3d95f27223af21f524c4207fcdd5529ff334ecee83400c733a462579b232a80072e6370b177ac7c63a3e0d7d6e6db92fd1359f68ef80afe717db474966af3de9297342302512483783999cd5a2d0a69a21fb51c291f5d404da9a58118cf5b482a46e83fa05dfdca06ccfd30f343da0bcd317963126aaf1aa1915dc765c1abc999b80ba86c951"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_003",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 3 with error <u><b>don't</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>don't</u> → does nots",
+        "Sửa <u>don't</u> → not does not",
+        "Sửa <u>don't</u> → to does not",
+        "Sửa <u>don't</u> → <b>does not</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "does not",
+        "doesn't",
+        "don't -> doesn't"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>don't</u> → Sửa đúng: <b>doesn't</b>. (Phủ định hiện tại đơn với she: does not.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "25edee159f6fbd3d",
+      "answer_hash": "0608be9b983d960df99150fea4395ea2a3fcceb2008c77d89d42f1d526e0b59d",
+      "solution_iv": "430e70fe2dbe904f6c1092da",
+      "solution_cipher": "1cda4d5c2ed8a1c99c5456a6f561b27dca24684082ebf79a1126ac59da73b750c014d049efc843ffa9ccb4b0703d9bc48c6d0b9d39efdac470d4378a3b6f191b5b129afba24deb411c93c7a58678e038b201ce37dd58f0e98fc4f7fda2ad725922fe2a66f2c2779b48128685148074741c1fa0b8be86d963bf17cb262065a7f42bbed4ef79459958fc44e4432a4fcb301d50a264b5475b40bf9854751dbacd6745ae641037161a1b304ad181d8031aeb3168bc3cfc173fe95ca20aa045143977f987f41af26d8ffef049a5fdaab4e83cbd7d737061bafce14294def13ea5a0b490d32f47ff59eee7814f54d9b7dde02053fb881548985c7207"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_004",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 4 with error <u><b>do</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>do</u> → is playing",
+        "Sửa <u>do</u> → to play",
+        "Sửa <u>do</u> → <b>play</b>",
+        "Sửa <u>do</u> → plays"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "play",
+        "do -> play"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>do</u> → Sửa đúng: <b>play</b>. (Cụm đúng: play football.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "9de1382035d8481e",
+      "answer_hash": "45fc07b748889bd4f01d831c32efa03d9b36b9229f1e5df5d47c4bf30e7437c2",
+      "solution_iv": "108908fc3056cfa05da2af8a",
+      "solution_cipher": "393216c89eded0ca582d0f0a22647dad1b8c37005a66f65ba9f03b690f51ab04040b94b0b7e4d924c7ae543a31a48c2fac5bd464bb25765d5bf46775aa72c0f59f1f3ab16ea186526666c57b0b393bd675225dbef135a9fbe26ecde6e11b43faf0f21f26c345303b155146131d7292e27f5f4b04893b403814f3a88d68101ccb7ce004a0418d39232208e9221c2ae4f28895048b9748779989f9cfa53199246ccdcd5d6fad42ae65548288ee924dbac99370c5857b3eb0015c79c4809e3331762740179b5874"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_005",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 5 with error <u><b>are</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>are</u> → to is",
+        "Sửa <u>are</u> → <b>is</b>",
+        "Sửa <u>are</u> → i",
+        "Sửa <u>are</u> → is ising"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is",
+        "are -> is"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>are</u> → Sửa đúng: <b>is</b>. (There is + một vật số ít.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "7b906046a284a47a",
+      "answer_hash": "b1855187bbb9abf5b480195ffc293b5a3a2070093a6537d656f6e1ce230aa3ed",
+      "solution_iv": "067325afe0fb910e4381b68e",
+      "solution_cipher": "3c6ea2ef5fc058410f3e076409838f0b1d24daece7c52fde2f983baa6dd512e05df39e42b196f1c711dd0bff27a29f16d2ab4c52d6ea21f424cbcb0842fd6c29c06630db3c41987fb00e1c314f784ddd784cf0e6c1cf58ab871474dd94d1afb431ab4c9e25b9fe34928ce01465e8ceb4dc41f13e4d5a9e3a1ea33ada503cdaac007237c8a8489f542e46d3b79ab0dd16a62fb30dfc029503ff183eb85ad7f5b778c7c1c7646441e94d735bb2ec0a1df9d8aac485acecf233292892db4968e64b0a597a7a9ecd"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_006",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 6 with error <u><b>next</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>next</u> → <b>next to</b>",
+        "Sửa <u>next</u> → next tos",
+        "Sửa <u>next</u> → not next to",
+        "Sửa <u>next</u> → to next to"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "next to",
+        "next -> next to"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>next</u> → Sửa đúng: <b>next to</b>. (Giới từ chỉ vị trí: next to.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "4d5166c2a57a3507",
+      "answer_hash": "4ed67c1e516d816edafc76d4aca619fa4167c2daf1f6a9d949372585380cda3f",
+      "solution_iv": "adbbff1676e36e2f39ddc5d7",
+      "solution_cipher": "33e7ca0e363073a9f92c785917eed73870f487fbce2c1530ce656b25c898f745f319afb6e8f06d3ed5e9b6d903144b319d6ef3708f358ae9ee9715fa01e521a5dd5371428a431c2a4d0a4d924bb68b9de8f80006570cca785be9cb352b1954a3c97678093af67394bfc13c977fbaae7b9505b9cb3e121872dc7528b0fcd6c7f90ebdeeb91c524ffb4de046c3b68757bd39db314f5b9f882de3bcc237a2f66552702cbe34ffd237831fff91949e8da12aff111e62885ac010d5aaa9cf95487cfb15b8e1746abb3abbbe568e0f50d5cd6000fffa3fd5ec8d13b60db9de"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_007",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 7 with error <u><b>is</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>is</u> → is areing",
+        "Sửa <u>is</u> → to are",
+        "Sửa <u>is</u> → <b>are</b>",
+        "Sửa <u>is</u> → ares"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are",
+        "is -> are"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>is</u> → Sửa đúng: <b>are</b>. (These + động từ số nhiều.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "a926ddba03604490",
+      "answer_hash": "9fad905b49d1cc1fc99d80ec1fc8a867d3fd46a484ea67813ccb48c6342cf8cd",
+      "solution_iv": "490e337959cc7ad61e819a24",
+      "solution_cipher": "1d8e75e3ef838646ae570156a3d8d7e0b9654cb75418977877a86a08088b42948186404c3c6896567d67d89398826c92ae70c3c8e805959989582ec3d01f508c2b1547ef6ef2f6a5c16082ef16ec46d68d76869e3218ec49232be6f82398ab078438d238066d521b5dc4aff2d2057743abaea7822f3ab88a2eeffaf696191c1089bd2f807058ac071c4503a211fdbf192bcf7910ce67cd9b526dc11a6af34dbf9cb5a478bdf9bdaa9acc72c3680cee8c0a5ee18b2ee66a1f264e025f1752f8ef3b3b59e6104016f3b8"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_008",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 8 with error <u><b>in</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>in</u> → is oning",
+        "Sửa <u>in</u> → to on",
+        "Sửa <u>in</u> → <b>on</b>",
+        "Sửa <u>in</u> → ons"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "on",
+        "in -> on"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>in</u> → Sửa đúng: <b>on</b>. (Tranh treo trên bề mặt tường: on the wall.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "3865fd93b9ebf9aa",
+      "answer_hash": "cd5b8be0070f4b5a020dd90cedcdc87c240b0d8b19e8438021827f11de3f2179",
+      "solution_iv": "5b95da68da6dd284e0bc1af6",
+      "solution_cipher": "1d4c3e4dd53193a0ae56c05f7a44287cdc3e8cbbd5de678f3edd752b52601b585a0459a33e8b625485afcf50113e0ec067e0317e288b1680c638b318d1500c9de549800346d08765906f09a589af27ad22b921138d997246a55a6f48234349d7d71dc3d1b28968fec3c6b7911691b69d03ceff80ba5b0986d5ec012de6e326e66191515e0c60795655b8c74e0fbcb58510e60676bb98caccfb47cfc2ceb7374bb5f6059e42d7d3528a4280427616e92925f008b959f14d986d1055e0635bcc90c1ce53138bc19ae25be3426e673fcce6e04a5764da36"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_009",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 9 with error <u><b>have</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>have</u> → <b>has</b>",
+        "Sửa <u>have</u> → ha",
+        "Sửa <u>have</u> → is haing",
+        "Sửa <u>have</u> → to ha"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "has",
+        "have -> has"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>have</u> → Sửa đúng: <b>has</b>. (Chủ ngữ số ít + has.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "af7f6797528a04f5",
+      "answer_hash": "d731ba2ea1b031d650a8f91ffff64f799acdadc9671e49279a47473bb5f9da98",
+      "solution_iv": "67057455c2a697009b3a004f",
+      "solution_cipher": "b7c693bc26fcbc4b84fe1deabedba34f905c90e91412d12ba68216a3ddacdd1e2049521cabac73db2645c995dca153b3fb5e67b9a7563a1ca5c08fdb4e6212a095b72de3fc1acbd3cf74c1ccadc9e6adc6aa65060790b1d09a09cf62af7ffd3d9c7195f30385b22c76c2ce4bc1b32bc3d18086d273353cf8c5ca74866d604198d68de6e48d163bf4f5ed0402f404cc5e4682d51eedf9f7cee03c5c963270d4d93bacd58412f243b72b8dc9039e5d2fdd3ffb88d3c070cc2b4648da52af873e111d3f0e458433"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_010",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 10 with error <u><b>play</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>play</u> → playings",
+        "Sửa <u>play</u> → is playinging",
+        "Sửa <u>play</u> → to playing",
+        "Sửa <u>play</u> → <b>playing</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "playing",
+        "play -> playing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>play</u> → Sửa đúng: <b>playing</b>. (Hiện tại tiếp diễn: am/is/are + V-ing.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "bd161ced2ed1afe1",
+      "answer_hash": "c223dd570bfeacfb098f63bf66b177a96347305268bba79cc9536553afc007cf",
+      "solution_iv": "f5823a63d018dd0d5b7098c7",
+      "solution_cipher": "fbaa17ad0d797df68ae5f469ecd9e8764980b94b5d85a80b292dc817bb0bb744a0c2c86ee71c9e59216f08bdf2944ea0ee065188a535ca0ba067fd55b5471c609fb1e9c4ffdfe1d86d95ff90b6c71afce053fcda27fcfe5267d60c9fd3baede9bae0ea4d26cf2a54e568e0b0b1acfb63f5a91448d97c6d5a2e4b5687a5b36b2e751d9f6b5ba4b926ee51fe606123d1f51519f415591e388472ee3127dc45c5b462755b563d352cc21c8da028dc5d56e73499a836be5db61ca5aa49be61751b7f5b1300ca2e85acd1568ad78a4cdbbd0e858740a2db6e4edfdebda5a0a461f82741bf1c3261"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_011",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 11 with error <u><b>runing</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>runing</u> → to running",
+        "Sửa <u>runing</u> → <b>running</b>",
+        "Sửa <u>runing</u> → runnings",
+        "Sửa <u>runing</u> → is runninging"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "running",
+        "runing -> running"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>runing</u> → Sửa đúng: <b>running</b>. (run → running (gấp đôi phụ âm n).)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "42152b7e8ccc0ff6",
+      "answer_hash": "5e07192eed87372c50419e9317201365b66abeb57db73d47b792f83fd52474c9",
+      "solution_iv": "37809bce3d1655ddbb14a633",
+      "solution_cipher": "0ab38a54b710e3ebabbdbb1472588d18cd4331121ab51604a895651dae8c243944edb92e73f075afe49bfd65e98a9ea2b78baef328a417bc516d69685525965dfc19a3cbda6cb23d0bcf3cdafda4ea879f6467f8dd1219cb9481a6239dbb6a3bcc58a7bf31d9e25e580bc125e20f7fe48c591004feaf2756c0ddd323320f8a55359ccfb66e806f0efff48712f8bfefe0fbd710c9ebcdf27a83f6040476e012787513634cdf50f1cf7f2db4697690ad9a5fc7b782faa739f8861c38cebad61d963b8d6bf664121389e4f201499c9e03908b78f70a69903467e9d790612d005e9c7ef3651cc7"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_012",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 12 with error <u><b>kindness</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>kindness</u> → kinds",
+        "Sửa <u>kindness</u> → is kinding",
+        "Sửa <u>kindness</u> → to kind",
+        "Sửa <u>kindness</u> → <b>kind</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "kind",
+        "kindness -> kind"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>kindness</u> → Sửa đúng: <b>kind</b>. (Sau be dùng tính từ: kind.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "b1add836843bbb76",
+      "answer_hash": "887cf3ee0cdb03fee829d6201150eb72f56c366d4ccfd4d51579880ef74eec43",
+      "solution_iv": "215023f882d2a27223fa6f27",
+      "solution_cipher": "545eeff71c0098a6db27fc54ae0b71a3a3bf246ec74c9ad33323d596c06b864af504bbf50804a32f7633119d104601d3e1493ceaf74276a44da5792aaa475e2e57fa1b1e407cde304d3beacb6ddfed1366016109a96d74c3296e3525f6aab69c5baac2cea8861a302e60d42b000156a3749f6e63017c6446a5768625c434276da5e562739175b0a17dc95449a0db541f32ba96d81dcb6c0f7f642da51c102824e52c5035be45cc433ea7841ee54036d5ff166d07c65fb440050f7fc91ccbce3ded4dd5a33b197b8d53c4b5f34feec5871983e8a8"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_013",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 13 with error <u><b>studies</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>studies</u> → <b>study</b>",
+        "Sửa <u>studies</u> → studys",
+        "Sửa <u>studies</u> → is studying",
+        "Sửa <u>studies</u> → to study"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "study",
+        "studies -> study"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>studies</u> → Sửa đúng: <b>study</b>. (Sau does dùng động từ nguyên mẫu.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "83fad6689a612f2e",
+      "answer_hash": "049fc1c5195059f94bc40e980931db4f2d8d363075137fa8782c5052f17de80e",
+      "solution_iv": "4dd895b988b4474f550ac91c",
+      "solution_cipher": "e415947e4170c18f54bff98415c4af4df0a16e495248701953947764c3939fda04e4bef9814c6f08cf75f5fa47aa33929daf33118bfe5aebbb1b686dc4e8e76ee89ab1e331ddfcb2d7e5e77399b9500d5894d1a09b7809c8f8b5e1df5d677902ab60465a32da64e7e8815042077c901cde48208444b90d3905551309dbdf2d842adafd441af2400dfda3056bc9dc72b0f860f13f2d707fa5ab2f467c65183913e045454ec38226fdd70146c5a2c188590ba5983d3375dd3aa5e86b1b05ef4975282f99f00ced81b455858c3f426593e65ec6dd179d98b58a1a73f622d031664b81"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_014",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 14 with error <u><b>plays</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>plays</u> → is playing",
+        "Sửa <u>plays</u> → to play",
+        "Sửa <u>plays</u> → <b>play</b>",
+        "Sửa <u>plays</u> → plays"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "play",
+        "plays -> play"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>plays</u> → Sửa đúng: <b>play</b>. (My classmates là chủ ngữ số nhiều.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "265d6d3e63a0cca8",
+      "answer_hash": "6ee3de1779dde8c0dfefa84d57c0e89b4ca76c590716a418b70b04ff9f9c2d5a",
+      "solution_iv": "4bc1d1c0e097d43a96339732",
+      "solution_cipher": "c6c5812d143dac9b4ee52977f077a48517d7ecf8a611a3000639af18b36d1fdecb3fa306f06fce006c7181146d8404356612b153365fdf984c5a8fea0b2b51d2108821bfe064453b1de04230675ed07a9c8d490e28e21a49e4f759c58ea12969435679dbc9404f0cd27352afa3ecfda1cbcfb05908b03eedf30f303f976ddf4c7d12c9ce42c8af5b3b4f80f70724cd5b03dcc7b3b6bfa98198a512cbe1c08e81c8af13711c0878fcefd2850a5b43ae311d066afe323b1cee048eaf3fbe9a6f7ab700c07a96f59fc9ff27ef7beeeaee7f3e22dc471777ba670b5926"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_015",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 15 with error <u><b>teachs</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>teachs</u> → to teach",
+        "Sửa <u>teachs</u> → <b>teaches</b>",
+        "Sửa <u>teachs</u> → teach",
+        "Sửa <u>teachs</u> → is teaching"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "teaches",
+        "teachs -> teaches"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>teachs</u> → Sửa đúng: <b>teaches</b>. (Động từ kết thúc bằng -ch → -es.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "d0535077109d3501",
+      "answer_hash": "2aaf1888422bc20f85e2cb68a87152d4f50312d5be1e2a2d635909fb7643323b",
+      "solution_iv": "23da66a5c1effbd247f18a0e",
+      "solution_cipher": "84b20f777f71894253805c04da4bf834119bd5cdabbba5f20989391464c2bd6cd9b89bd0f6ab88fda3a80ba9c335875306a892b6312c3227475ed5cb30dc1fb22fbe8f8f4261e7faf3cfbf4de50db9a3c3c7ee232c71017cea0ba6819bec43cce6c0b065739cc22bec964b009853d95c64ffe470bf162ff2dff9a90f807aa1c8c2b4d1bae554f50900771c471524bd3a92637bb18d6eba8665a7f34bfbd4ed8ff15ab3977e7393d47f468c843ad4574ae57a2046591ddff021875fd8ccfd7cda132f5b9e26ada7027c6150b0f3b3620ab67a90dfd15b8b7c319aa160fc72d091c23cc1b11be4c1"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_016",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 16 with error <u><b>borrow</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>borrow</u> → to lend",
+        "Sửa <u>borrow</u> → <b>lend</b>",
+        "Sửa <u>borrow</u> → lends",
+        "Sửa <u>borrow</u> → is lending"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "lend",
+        "borrow -> lend"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>borrow</u> → Sửa đúng: <b>lend</b>. (Người cho mượn dùng lend somebody something.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "761e7e4165208e57",
+      "answer_hash": "ba2ef1d558b3816b96bb66198ce3be6bdd164c89c42fb56c7192a04a051e791e",
+      "solution_iv": "ba6dae09370275bc23d9b2ce",
+      "solution_cipher": "ad07a6e29cbba70c9e59a2161b3a32e5bf9681c683394d1b9c076bdbc2ba259e8570509d87e57f3f5d810d21268bc7ef766c0d70006f02686e7397d05eb7de752c5aeea542b7535fb04fe48b6880a54d0f367ba3b608fa7745afc3c8d400df447205d1dbaa44e2a903d8c091ebe7864b4fff26842336d610a8bc0dba29f65c2af98e84bdaf170854cf1b9066df811f640c6371d623dbb502e6034a44078b690bedfdf311890ba3736858848955fc1a7c230688826a5264374dfbfb3537c42cf01a3c6f901aa1061bfd7c466d8df333c60d343c9958bea2f7ffbc08279425a9453a4fc172f9"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_017",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 17 with error <u><b>Minh</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>Minh</u> → Minh'",
+        "Sửa <u>Minh</u> → is Minh'ing",
+        "Sửa <u>Minh</u> → to Minh'",
+        "Sửa <u>Minh</u> → <b>Minh's</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Minh's",
+        "minh's",
+        "Minh -> Minh's"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>Minh</u> → Sửa đúng: <b>Minh's</b>. (Sở hữu cách: tên + apostrophe s.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "902b2405f965054d",
+      "answer_hash": "e277aa2c9968f4fa2a7e3ed97677b1b8aa2eb57cf7dac4394f50c913a523ad27",
+      "solution_iv": "5c9fae0b3626ed3e9b2dca2a",
+      "solution_cipher": "fb60e08434f600ef6e720fa289de973c6999cbf3921d6118a07dde616786c4a6acfe0146d2c28d954d2d968d05bd1dcd99d557c7492c06ae5c659bdd6aa073e853822732307897d696fde132541e5acfdcfdd49e56941663f6c33c39711e921f7f4486015e28c5845d4dba4db70bda4db75e0e16f20c9462435d80581a168ceb6e1c3ee7e1630ef1d77f032205f5985643f4893f9b5536b4c0ad526cf219a691709a0b00ae24b5f14c4311f1a0b2f1792e5009d93af4d8e7ae2e9baa1451eb5e0b9b98ee224f83e073f993b141b4536959ca50371453bba473ee9f271bc0c7582064d7"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_018",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 18 with error <u><b>furnitures</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>furnitures</u> → to furniture",
+        "Sửa <u>furnitures</u> → <b>furniture</b>",
+        "Sửa <u>furnitures</u> → furnitures",
+        "Sửa <u>furnitures</u> → is furnitureing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "furniture",
+        "furnitures -> furniture"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>furnitures</u> → Sửa đúng: <b>furniture</b>. (Furniture là danh từ không đếm được.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "bf308f2ea1c4f9eb",
+      "answer_hash": "7bc58f0773510324ce5103bb202878ab2a5ee2c0b93d384dcafa76540cd338a2",
+      "solution_iv": "cb577b98035d0bcf77c2ca29",
+      "solution_cipher": "30158c172c07f88928b5292905ceaed390443c9a0ca7940d61dd8d7341e320d7186775d0ef5cc2fb7cd78b90dcfa11b634789f6763ed3122e1fbe0d304514cf118988c218a7a2e7ff2cb6fde475b26256f935a42e75b9ed3f183d8c67ff32abe2cbdff1c97db8eae3f7362a4be17bb105644d146b973b9a4a76409f193562a278efa81561e5da66911f033df1d39521c259b975d9de694e056bce47e3cfd098781f9a97ca8b88484ec653a5f95d9e299c87d911a00ea8c32f382a5fd1d1b7770997aff9d65feeeeb8ba77fc01ad8a2c2054fec8a8f48e68098c6452f74f2bf7618ecf28d81dbfa896b3218d79cc19c148c1b13636daf82f9"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_019",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 19 with error <u><b>on</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>on</u> → to in",
+        "Sửa <u>on</u> → <b>in</b>",
+        "Sửa <u>on</u> → ins",
+        "Sửa <u>on</u> → is ining"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "in",
+        "on -> in"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>on</u> → Sửa đúng: <b>in</b>. (Giới từ: in front of.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "780977ef2061fd09",
+      "answer_hash": "2fe99beed77b0b38165d84cb1c1bb6acb3d3d806451d4a2e61f7b09c3c820168",
+      "solution_iv": "03a5b3794b41cecda78be845",
+      "solution_cipher": "4a5ab6c3f12d72af46e76022dc53a94c2c1430a7d256615d743a9f75aa6907fe88be92169dc3c3fa0b26c90a02d614176264ae60a52e92a5ddbe96d4fb8aa6b066fa497b18ea5fdfb0d972d90f55fcaac06b20e11a9c637e8c3315249bb452f0a27b87b11a507be04d6ad0dd545d4b34a5bd9af54a84f79439f2578d73947f7080bafb2e5fd641a2f4f4797bceb15a79d697020343c3a0ea94f7e349095240623f09e0e9cb2d305373d32ab6868723db671f8fa9446c848b12a82b9ebe"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_020",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 20 with error <u><b>bedroom</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>bedroom</u> → <b>bedrooms</b>",
+        "Sửa <u>bedroom</u> → bedroom",
+        "Sửa <u>bedroom</u> → is bedrooming",
+        "Sửa <u>bedroom</u> → to bedroom"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "bedrooms",
+        "bedroom -> bedrooms"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>bedroom</u> → Sửa đúng: <b>bedrooms</b>. (How many + danh từ đếm được số nhiều.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "acf9368d25335211",
+      "answer_hash": "b8749b91526e8d1300d5f19d54cef62d5fa3d5a75e323ebefce45f15a3ddae05",
+      "solution_iv": "acc9d82babd6230047bd7999",
+      "solution_cipher": "6b00cca8ace00dee87ea1b6848f18377a34717412809227f6fa481e4f11e5e1b890acb2f57d0e736b5747b35ada8b7a40ff02c5eec563f9e9f5c30334517092923cbbb46ad0456ff148e7b3dd7f95176ab860bd8a2465d10f5466aae0cae1c4771048e426cd8e87106aeba1d1e46d3288e37b2acb87927cfdc8cd8123bfda1f4600a28dd43010117f7d5f50c4524e471b09ce8422f147461943d3cab480e4bd9b5a7dcefd3d7eaea1f82997272a2436d5fcf7e8f43b5031bbe9020e6e4a9dd543e82793f3d19b771135e771e2ae3d645bbad489c495e4179ac50bf07c8ec66d8e22155140c5dbafa35b6e5df8ce8e432a998"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_021",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 21 with error <u><b>wear</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>wear</u> → wear",
+        "Sửa <u>wear</u> → is wearing",
+        "Sửa <u>wear</u> → to wear",
+        "Sửa <u>wear</u> → <b>wears</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "wears",
+        "wear -> wears"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>wear</u> → Sửa đúng: <b>wears</b>. (Thói quen, chủ ngữ số ít: wears.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "f1e4a1ecb77b3b18",
+      "answer_hash": "584ae0d68c712781ad3d757883fa3656d2457d584e0b54c516d97f1df04231d0",
+      "solution_iv": "b1aa0ba35ff5d217686496d4",
+      "solution_cipher": "f9a174293643e70b0f66bd3abc368c2bfe4df59daccc1cecf82e8f9454cae2fca5d417d0bfd16382f985bf06ce6fd344cfcb83bee961e390a3b0d475d33c6a9d20698c6254cc29dc41ebec3ea13f9a10db49042a2e05119e94b4e8fe30931a534137c124f63eaff0db235034397eb31ce34ffb7163f92e5a1dbf2b0de3f7c39fcf1be746f556152febba941cc93c839911b085b6411d9a1af37a7b14029a1ad39c3fd3421c4acd6a286fdc8a0e09c904aaf7f515095ff8ec2b094c0cbf50d774a30cd430554c32c739f79407c0715d8503dde6b531e8e71235"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_022",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 22 with error <u><b>practise</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>practise</u> → practisings",
+        "Sửa <u>practise</u> → is practisinging",
+        "Sửa <u>practise</u> → to practising",
+        "Sửa <u>practise</u> → <b>practising</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "practising",
+        "practise -> practising"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>practise</u> → Sửa đúng: <b>practising</b>. (At the moment + hiện tại tiếp diễn.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "e036bf146e716a5b",
+      "answer_hash": "27392f3c7a39d26fb8ef3b1e64ed3919b5a65559a20a22770fdad461be2579b8",
+      "solution_iv": "c3e8d566013d2329e767d99e",
+      "solution_cipher": "410e2cd95ffe35eb01bc58ec7a06c40a4ea88270bda8a39b1fe4a711aa67da6f31310dee7473dee881cd9623d331026cca5675da883fd75c272b95ec24c06a3b8e8cdecf8da1e87a3582816389c6f7b8140d7606251bad1f607596e7afc7f0d7ac1f50cf61d415811cf74be26e2adc961dd022a3dd43d20a12f7052c70fe92e8f8d482c7869e01d832522eca29164bb2de60486a25d61db2b5cbcd78f56916d9f451236eefd6d6790fcf8325a8436889d45d42a61e9a59fad32c5e215890fa2f4a8d0afd9965413ca9a4b9669bbcdf4469b79cb8b8b1a3cc5e43159b1f474fc17ee6133382799a8749d5c627b36d3875f73a3e"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_023",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 23 with error <u><b>Is</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>Is</u> → to Are",
+        "Sửa <u>Is</u> → <b>Are</b>",
+        "Sửa <u>Is</u> → Ares",
+        "Sửa <u>Is</u> → is Areing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are",
+        "are",
+        "Is -> Are"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>Is</u> → Sửa đúng: <b>Are</b>. (Hai chủ ngữ nối and → are.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "e5f65e7dc01a5064",
+      "answer_hash": "a51621f674219762867f0867b0d2ca4df82379ce7ce6181f3dc23b90e79075fa",
+      "solution_iv": "1783d9fbba9875150955c172",
+      "solution_cipher": "85d790217074f5f34f9bb84cb5cc8797eb0b49cfabb79da6ffd44b1f8791da1083bc6bc69721a80590433e658e2a4f1ce9827b1f4e0c8e138ae64e0c4950c59f861d3baaa0efee18dd20fd337e12ea240f7dfcd235e7b544a89de41e19615b70e561d598637e367bc7737ea8beef48e0d3e7d1260da17046911567d3ceff3404bb2029659b8d521e4cf379e16964da08b6d8aa859d83c36a06ac2b2ed51516c8d05c6fbd3efedbb77ddbdc3360b4b871d9c9f1dabd1ed4426ab25a850dd7fbeaff3bff8d9d198131450133bde76884"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_024",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 24 with error <u><b>creatively</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>creatively</u> → to creative",
+        "Sửa <u>creatively</u> → <b>creative</b>",
+        "Sửa <u>creatively</u> → creatives",
+        "Sửa <u>creatively</u> → is creativeing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "creative",
+        "creatively -> creative"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>creatively</u> → Sửa đúng: <b>creative</b>. (Sau be + tính từ (creative).)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "805fbb1854d3ee71",
+      "answer_hash": "b9e5ad193a1189457c33d53c193038f01badf44530602241d1d5ebdd6d0736a2",
+      "solution_iv": "ae80e35d08cb498ab41a2454",
+      "solution_cipher": "03b6be6b9dcea015f6d34726002a306daf559ff7880d2785b79c107c00e2d80f9f1ea82bc9dc116f2cfea3b5cd8897d14f5863cf1a5eaccc4dba0c07566a6384a5e5628481c553be08db87c04a1962c719a0ad97441d101758e5cf3bd58d4bf55f851f26cb1a2c1397ccb9a064088b6e26aaeb709bce9500efae1aa504a05b95ccbb705a1f2c95add5e670fa77a0bcd04beca29520e5e6e5f225649ce61d3a7f82e40e2a1240cd96d9a79dec22cdf91dd32bcf2dcedf7065b4f332c2c8df91f92479758341f73703c4fb1c452029d284b12ede26e7a37dee1afe9d88e09fa84443af7050d6"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_025",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 25 with error <u><b>to take</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>to take</u> → <b>take</b>",
+        "Sửa <u>to take</u> → takes",
+        "Sửa <u>to take</u> → is takeing",
+        "Sửa <u>to take</u> → to take"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "take",
+        "to take -> take"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>to take</u> → Sửa đúng: <b>take</b>. (Sau does not dùng động từ nguyên mẫu, bỏ to.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "33fca59062956385",
+      "answer_hash": "6872219650b93f015018fbaed23bbea30acdb497e9f04c9c270e53380b485a63",
+      "solution_iv": "e15dede59247435f88664fb7",
+      "solution_cipher": "95c2efdb92036f0615d8063815d0d5199f58766d56bf871547afca9f7e26eff24558368a4b567c3ba5610face40e5c61cfd22ff6f4bca3d1dadb2cfe8dab81e4fdd6182d804ed049168deb1c98ff22c6e727f29d168ac4325ae3985fee9c16e2e66d961a42e0b8435202903c702899d5cf1dd005a69ba3bbf68245b4660cca15bdd2f25fc904a4a2f4d0ef2c4dea1691186231f4061e5458a6586b16dd4defd127e3ccd8a506770a5c6b1a59da24817bbf0df969067f387a3914f13d574b861a2a08fbd8f0c722301406d6a9845c261d3299e2db0eaa631a0f83b090c90645c1337bdcf775f5abcead9b3d"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_026",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 26 with error <u><b>do</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>do</u> → to have",
+        "Sửa <u>do</u> → <b>have</b>",
+        "Sửa <u>do</u> → haves",
+        "Sửa <u>do</u> → is haveing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "have",
+        "do -> have"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>do</u> → Sửa đúng: <b>have</b>. (Cụm đúng: have time for something.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "0c9e09a1062f225f",
+      "answer_hash": "1e49da3d883f292d2fe6179956e3792d61104ed0a712a449243b59327f12da76",
+      "solution_iv": "047bb1de46b5f720fbd85c62",
+      "solution_cipher": "b73e4a8550005e9931f358694a6bc30e5e19043036ffb6d55ad73340c1db728c55a3c30ff3a637e30a2d6f7bf8128a8effecb07bad8c44f80ae07be9de415f057dd49e47563cc5d79249099f3eff47b62224576426f6e966755c36fdf0963413eb4bfa2bca3407a180d74ba451cf6a1a17fed4525e0d5af8ae248846ce79730cf071fbe324d7a9f3e27f0a7d04313e6e08b5bfdfd02a1b86956f8c0b2f850c7554181968594519395c71e0e9cf108819c77178350bcc2c8349d2fe6524d0fc9577e0748a2661d3e803015aec22290526"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_027",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 27 with error <u><b>study</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>study</u> → is doing",
+        "Sửa <u>study</u> → to do",
+        "Sửa <u>study</u> → <b>do</b>",
+        "Sửa <u>study</u> → dos"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "do",
+        "study -> do"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>study</u> → Sửa đúng: <b>do</b>. (Cụm đúng: do homework.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "0056c21e0def4501",
+      "answer_hash": "61f476c861efef8ce5efe974a6a0327a9d40f3643af6452cc26535df068bafbd",
+      "solution_iv": "e1fc2aba8ef3e30bec31a0ca",
+      "solution_cipher": "e36e8d3907d6d57f60d0303e000ddaa037c67812c73cde1abc4f22cf682ca3789855c71f44e7e5b7f796c8194e332babf6ddc6fb59509dffaaa1bc87e328459389097481e084e0fabb44edf5e072f5b8ad3b1a229c573d0e2fccb590cc01736b9db50fd9f5d4b2f440df8ca41532b10dc454a5aaf1ed88b3375d739231ecfc61e4092993f4250367d6601f6614cf8cbd92f5c4b50fd5d3c330951f984600269f184c6c5d1ecea364f9d382012264eed9eca77e3682f3179885f6828680a1ad81b01aae07"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_028",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 28 with error <u><b>takes</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>takes</u> → is takeing",
+        "Sửa <u>takes</u> → to take",
+        "Sửa <u>takes</u> → <b>take</b>",
+        "Sửa <u>takes</u> → takes"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "take",
+        "takes -> take"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>takes</u> → Sửa đúng: <b>take</b>. (Sau does not + động từ nguyên mẫu.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "14a7796230551455",
+      "answer_hash": "91984527406c54e4f8d7b5def148e66b54380ee6069d951c1804f00e61f4f58c",
+      "solution_iv": "bd6201eb0f8b173d4bc0d2a0",
+      "solution_cipher": "a44b060fb256f423201e06ff0d0a71a40b359aa6278f2208ea0cc34ed6fcdc265736e14409446dd6fe27b9218e5f127e20eb765cff4fc70dd71ce3568e1a24a2db5a79c7e98e89b0341f9941e34b5416e33fd6920b1c8dfd8d99244226e5a5bd1545671ea5b5fa53ddf163ad95a284fd2b1d0a508fdd4300d38bf43f6c982332a317e9bdf40015aa2e1157b143439b3a3485cb7e42fbf1dd956b2bebc2409f2ca6320e1e3d1f27ccc2603247211128a584d1a77f4f5d51bbae59dd429463123b2ac8da9b4de4a3d9a1f4eabca16d2b3245df55ecfeb5093e77e1"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_029",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 29 with error <u><b>some</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>some</u> → anys",
+        "Sửa <u>some</u> → is anying",
+        "Sửa <u>some</u> → to any",
+        "Sửa <u>some</u> → <b>any</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "any",
+        "some -> any"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>some</u> → Sửa đúng: <b>any</b>. (Câu phủ định thường dùng any.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "54f2f8097a552473",
+      "answer_hash": "6d4624e9803d7a6be0ea4127da2b1235d73f9a7ec7519db4d89038ae35c9b92e",
+      "solution_iv": "9d656aea71584ec38189e21f",
+      "solution_cipher": "7e4f41b92fa9d830a04e46b874b04338dd0a3265b41a11f76edb530437ecf1ab4ef725d77114099988b50f94029cdda53aa1057bc868478713d72c2b16b085016d225554583c084d7ddd312d3a82ca3f7b5e61bba50d77aedd111e1acf5ef2362f3b3826bca5f74da43270535712aac92bed7081b83f018730e6cb3bf18999c809f5d47c49fc87ff58e6b666eb84ce2616cea5fea27925255c54035164c532f256239be7565374633eeae5e1ac6d6c56da9e14c384a4580d9c2f4889959aaa5ea9501bba071fd2432b8fe08db287efa3d9e6"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_030",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 30 with error <u><b>spaces</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>spaces</u> → to space",
+        "Sửa <u>spaces</u> → <b>space</b>",
+        "Sửa <u>spaces</u> → spaces",
+        "Sửa <u>spaces</u> → is spaceing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "space",
+        "spaces -> space"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>spaces</u> → Sửa đúng: <b>space</b>. (Space mang nghĩa diện tích trống: không đếm được.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "2c716b9f726024af",
+      "answer_hash": "aed89caced86087eb987a58e742ead0fbc120e2016160708437b3837fe198f00",
+      "solution_iv": "dbe1682b77666e306f815f46",
+      "solution_cipher": "32f08c84214e24fd345eb0f28bb4599552fae6ba44ec0e3b53d884d5784037bfa1989fd74a37285223daf3ac8939e402093214b6559c883882d1465da10b51612f37028623b33298d1b87f9278485f02584ed2a1829081cb72872b48a1a60b0b6b7599728147e7d55c572925987a994bd34344cbf14c4fd256f4bbd30b89bc383c580a0a7764708a0723a20ab44db80b6bc02f83fc0fdb015908ae60cf7ac1acbda57a29a1d2b165ed5b14458e73078cf827a76343a2f72ff75b9df805a95168b0e84f3c8001890dd68c5eb5e482aeb39faaf5d22841341ef0175a1c7eb8ccce77497b12d3e4e696eb8100ba9ba6fe7a12c4ddea"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_031",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 31 with error <u><b>theirs</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>theirs</u> → to their",
+        "Sửa <u>theirs</u> → <b>their</b>",
+        "Sửa <u>theirs</u> → theirs",
+        "Sửa <u>theirs</u> → is theiring"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "their",
+        "theirs -> their"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>theirs</u> → Sửa đúng: <b>their</b>. (Đứng trước danh từ dùng their, không dùng theirs.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "0c661c7460b76ae8",
+      "answer_hash": "1bbbc2f26a9cda33cf4f5128217c7626681451938d5094eb11c61e16fb14980e",
+      "solution_iv": "7813ac456694ecda15636857",
+      "solution_cipher": "a535d4ec53e62710152bcdf3766caccb90086b813c86b994e72cb23b00fe40b306d30fd62330d144a7aa39434031d21055a80dba143a0643cf33f98d5cb2a96870067018c054a865e848fa0d8ed7406e777244718e2306e5223787fd488f0bfa2eb7fadfaac398665967092c949d0fcc98093c472845f8e15d203d607cd802b5a943ff1f5efbf1cf001d9ed7db1010ce782a556af389a5432497e339cf617b7ebcd0f4e7ce65b45d4cfc4cd95a43255975ddee6f22fedccc56e09ce492c0194f32871ae9f246251ca674a7de7f86e9cc9a27b0d84407aa9f19154cfda6e76fa3c70399015cded83379cbbb11ab2c1d5dd3"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_032",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 32 with error <u><b>among</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>among</u> → is betweening",
+        "Sửa <u>among</u> → to between",
+        "Sửa <u>among</u> → <b>between</b>",
+        "Sửa <u>among</u> → betweens"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "between",
+        "among -> between"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>among</u> → Sửa đúng: <b>between</b>. (Between dùng cho hai vị trí được nêu.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "a383bee6dc85a291",
+      "answer_hash": "89952151c191b2e31bc8146d1a456dec0ef3a0d32a627fb5b1479cc03123ec9d",
+      "solution_iv": "fb444fc74ef27ba851fb3cd5",
+      "solution_cipher": "67c1d53f321213ebdbcfd71efc62987743e041e7b05bb5708da61dce65982035c2a5fef886bff2180f0b5a0f397a0dd4724bb0a1dfc726accb9001ef06820d4f446f1cf5dd08cb04d842d8fb9e1185349c2b1deb86f8f4e7d3a16eb387e7ea03fcaa63f469ceb09374ab42739a76233da9bf10d3f1ad813213c97067db306ffe02c74d406165f8a08f0b1dc2dab71a7eede45c83392f014d89147aeebfe531d14b894bcc5a726819e4386d3ab7005ca6adfc4946be7a56f9a510df67c275838f32e63bebc479f842c91e1db31805be0dce8b09b1d86478b95c44d7be10c5a786a286437f37b049"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_033",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 33 with error <u><b>helps</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>helps</u> → is helping",
+        "Sửa <u>helps</u> → to help",
+        "Sửa <u>helps</u> → <b>help</b>",
+        "Sửa <u>helps</u> → helps"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "help",
+        "helps -> help"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>helps</u> → Sửa đúng: <b>help</b>. (Sau does dùng động từ nguyên mẫu.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "f4c7349a76352c42",
+      "answer_hash": "a75c6e9da6f5c42119d0eca625e656451e7c4fc63ae5cbac0d9b78be1bf8b302",
+      "solution_iv": "a4eddbc71203c783ee3f02f2",
+      "solution_cipher": "837314a8693254f584224d4032a3951b80017ae8225707196eafeb7dcfa7f322aa02aa90981326ba2f79314b22286f8eeabc1eb9a9d5f09f5d17b425c6772e0c91ba3c7103e4d614e574dd116ed7cf4c8ae87e6d0102a02ac99b746265b8baa85fb4037ca5aefa2e1110a0be40be942d5a992eea71d61f548c5bd5cbc79a794c70789eb594ab05b78402dce13f0a5eda1428d9326783d047bc3b4e880d5d5888e3f92398f16ef47d5adaf82c46bc55c9e4d910d0a1199f9e770428928f8b67950d0a0f646ea038d2a31fa818eec6f695173f47e4b9ae944daeef"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_034",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 34 with error <u><b>rehearses</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>rehearses</u> → rehearsing",
+        "Sửa <u>rehearses</u> → be rehearsing",
+        "Sửa <u>rehearses</u> → <b>is rehearsing</b>",
+        "Sửa <u>rehearses</u> → are rehearsing"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is rehearsing",
+        "rehearses -> is rehearsing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>rehearses</u> → Sửa đúng: <b>is rehearsing</b>. (Right now nhấn mạnh hành động đang diễn ra.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "5ded49552508e13f",
+      "answer_hash": "60cbc2ae5fb2b7df3593a21b09052f4a6c5dc7049f42a4f4b9dd57f590ef62bb",
+      "solution_iv": "fb29e3b66b04f816eda6be4a",
+      "solution_cipher": "5175a42cf296f48f1338223225425d91596159d0b13d73932cf75856df3e37927c0c21923f17bbdb0e2ac108564818ecaad290e4d2b3b9dcc9be52986a67432974bd0cbf0946076f9ff4985095cdef3c295dc0cc76b0ca0d818736c292adc7ebe4f2058667474200cb36063d2546248e8fc5611d15cae7f061e11d50461ec0b520f06bf67ffc1a946865c8ec53594aa1b847cde14bf465ce3bf4028b9ea109ffef20a07d609c1f559263599907df3b448b935d97fb91d81bd5613f0fa6894a233973fa1f2236324f2bb6bd12f40f0e27dceb24c575910debd135b5f8ca91e4a27d57073d49443943c973eed57f540b172c2e72b1eecf699599735287b27865086af3b6b30ab05bec50"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_035",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 35 with error <u><b>is having</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>is having</u> → is haing",
+        "Sửa <u>is having</u> → to ha",
+        "Sửa <u>is having</u> → <b>has</b>",
+        "Sửa <u>is having</u> → ha"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "has",
+        "is having -> has"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>is having</u> → Sửa đúng: <b>has</b>. (Miêu tả đặc điểm sở hữu: has.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "de0f18fc1c1f620a",
+      "answer_hash": "4912f2c34d935026cb28edc65ec4dcf8af9626578c3e3393784e860bffec8485",
+      "solution_iv": "ac339b61d9d2f45bc70313dc",
+      "solution_cipher": "1bedfa398a6d29840a76e08a2c0df1bd373aa0d8a7f3a8b73a7eb5afcf2f845e847db9d4eca1e5086e8fa395a0df2f6e22d240a803fa283247931fbdd91152b9e2b5ca66c8e4971911cb897b35d010ce0f349c97acd57ffff803e6d7602145d30a848276dbaff90b7cf874248e46a1a2add82f35d15fba5f67f9381319a79b3dbfd78d70638910521de13fc522b97b55c525d3d969da68893bdda600fd170069acfc3811e3d924865eb0fb80c9a6f84dad27e4cc41155922b607b857ec4510523838ecbdd50b23bd6cbf1e2ea7994dd5349098943830f3d668c90bec8508c3"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_036",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Tìm và sửa lỗi sai được gạch chân trong câu: \"Sentence 36 with error <u><b>plays</b></u>.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sửa <u>plays</u> → playing",
+        "Sửa <u>plays</u> → be playing",
+        "Sửa <u>plays</u> → <b>is playing</b>",
+        "Sửa <u>plays</u> → are playing"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is playing",
+        "plays -> is playing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>plays</u> → Sửa đúng: <b>is playing</b>. (Listen! → hành động đang diễn ra.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "2cb94d4722c2e5c1",
+      "answer_hash": "93bdd71b5da9c8d45302764a8724924f3845d435f767903ddc3d50e091fd51a0",
+      "solution_iv": "cc8fa9259f545cf81de91734",
+      "solution_cipher": "d225af7266b108f23103df865f2ab2fbd0da57fe579a0a0e7c15d672b178e4e4bc9a98575760d1c0a98acbe7c2f54bf446e287e6b7f9fd6d1db21fd6c2e189ca10fe933afcce33545aba99d0b5756ac3a02ae825967d9df7c87bd17c78e4cd93f15f16e7af8a49d794e53be8c944691b5ed0d8e14f026d55ec126737aa9661ddfcb29ec5ff5a67aa8c6818b980c8f612b35b22a8cbdb7e62876b0a5f5f7c0358623fee4ead7b725c797e5801b677bd64574a65307a96b1c8a099cadfd60302587796b535b90f50143631325f13c4401dbf3ceab346abfbe7c128ffe8b7826f0775f839606aece1e8d4781228"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_037",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #37]</b> Sửa lỗi sai gạch chân <u><b>get</b></u> tại vị trí <b>(37)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>Every morning, my brother Nam <b>(37)</b> <u><b>get</b></u> up at six. He has breakfast and goes to school by bike. He don't have lessons on Sundays. At school, he studies English and does basketball with his friends during the break. He always is ready for the first lesson.</div>",
+      "options": [
+        "Sửa <u>get</u> → <b>gets</b>",
+        "Sửa <u>get</u> → get",
+        "Sửa <u>get</u> → is geting",
+        "Sửa <u>get</u> → to get"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "gets",
+        "get -> gets"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>get</u> → Sửa đúng: <b>gets</b>. (Nam = he → gets up.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "44e8e6c8d5b162ba",
+      "answer_hash": "f3336aa885955dcd87fcd1170d034d1d4a0e5168e45cffaba2cf1e2515536b2c",
+      "solution_iv": "6103ff9592b9fa80c95d9ea0",
+      "solution_cipher": "fff1c2f2253b9ee69a42efe1b27800c9bc4abd3d60abd561ffee23d694466b4782139d36b785a19dea104e4331beb347ba4f2bc71a15440070ce2bff30b4700c5586452e0e188eb3f30a4486430f0ddc304b1b3cfdad4be46fe32c74e2d3c05871d93b8b380ec94c29c0a87fef5532171078ec24d7982b270de043f358a45195f6958dc258eba1beac29c4e15d2f5b3b07cd5940799bd9b4b40fc282c38ead58519aa6307509252e8b75f1710a5a495bb4baa2fd1fb58b4c7d2f96703b994e4f5b"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_038",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #38]</b> Sửa lỗi sai gạch chân <u><b>don't</b></u> tại vị trí <b>(38)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>Every morning, my brother Nam get up at six. He has breakfast and goes to school by bike. He <b>(38)</b> <u><b>don't</b></u> have lessons on Sundays. At school, he studies English and does basketball with his friends during the break. He always is ready for the first lesson.</div>",
+      "options": [
+        "Sửa <u>don't</u> → not does not",
+        "Sửa <u>don't</u> → to does not",
+        "Sửa <u>don't</u> → <b>does not</b>",
+        "Sửa <u>don't</u> → does nots"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "does not",
+        "doesn't",
+        "don't -> doesn't"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>don't</u> → Sửa đúng: <b>doesn't</b>. (He + does not.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "b448132797fa1802",
+      "answer_hash": "a8fb53808dd630eafba542cfe480c5cff00c563cbf61c838c1ac1df8632814d1",
+      "solution_iv": "61042185d9b63173b4dce392",
+      "solution_cipher": "987b41e0507a47465da010861e8bc0ad948ff5090ee92b425b7d5318979078b377523ca6b48658635cd7f77bcbfb2b039390c036e4df303b1ed8a25e00018081b2d86525240a13f15b74da3639c1c4057ca1aabd847116a02ce80c627fedb3f7c2bfd8aef622301e99efc995a7d774dcbb6c69c014bea44b4ec833eb18cef9ba838036bfde3ba17e02f4182a03fdd83bcf909220c25098368f69f04bbfeb2667f62a02b6e09248a037932b6fd39071f5451e81fe79c6be58aff96e849a20b08fe9593db556c06fc6424561c12f332f17749e"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_039",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #39]</b> Sửa lỗi sai gạch chân <u><b>does basketball</b></u> tại vị trí <b>(39)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>Every morning, my brother Nam get up at six. He has breakfast and goes to school by bike. He don't have lessons on Sundays. At school, he studies English and <b>(39)</b> <u><b>does basketball</b></u> with his friends during the break. He always is ready for the first lesson.</div>",
+      "options": [
+        "Sửa <u>does basketball</u> → <b>plays basketball</b>",
+        "Sửa <u>does basketball</u> → plays basketballs",
+        "Sửa <u>does basketball</u> → not plays basketball",
+        "Sửa <u>does basketball</u> → to plays basketball"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "plays basketball",
+        "does basketball -> plays basketball"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>does basketball</u> → Sửa đúng: <b>plays basketball</b>. (Play basketball là kết hợp từ đúng.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "1f0787c6a7c431e8",
+      "answer_hash": "4eb46cc75c732150e9b3bb46a4380de313c7cbbf10807bc6cc22914b5a61f133",
+      "solution_iv": "ddca159d022a6147ad12af72",
+      "solution_cipher": "df76cff240c74e56f3ff303b38bbdd975676c455c7382b1342e9160bf02c7384dc13d717ea3a5e1d137c9f8c26c85feb5267bde83e268cac84364d2e5ad36031293c1bba810fbd13985c2c309d9a9ca6b8e5e3d907ee9ca17eac723e62787fb5a955fbd22c44dd8227e691c32fc3ff041b6ea92054a10663ef2956584bb45a43ab370518ac89404993dc5a51acf15b6dd7c84e1d9a53c082ea194af51575802daeda0e8308114b2909b322265b9d062c9f26008a13d7c8c6f038f3a65a8c4703b43fde850d3deec38fd4ebc5378e50031d0502bd0075e56a0556f2c50dab64ef6af194f8b82498faa5fd3f39167781a9eec3bd1ba22fe403af8cea32bb9a1c31e67370c49bb13f884ff63f13247be7a9f6c9436b"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_040",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #40]</b> Sửa lỗi sai gạch chân <u><b>always is</b></u> tại vị trí <b>(40)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>Every morning, my brother Nam get up at six. He has breakfast and goes to school by bike. He don't have lessons on Sundays. At school, he studies English and does basketball with his friends during the break. He <b>(40)</b> <u><b>always is</b></u> ready for the first lesson.</div>",
+      "options": [
+        "Sửa <u>always is</u> → is is alwaying",
+        "Sửa <u>always is</u> → to is alway",
+        "Sửa <u>always is</u> → <b>is always</b>",
+        "Sửa <u>always is</u> → is alway"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is always",
+        "always is -> is always"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>always is</u> → Sửa đúng: <b>is always</b>. (Trạng từ tần suất đứng sau be trong cách dùng thông thường.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "7ff430e36305254c",
+      "answer_hash": "3c5e83196c44d8b04a13b98ac3cf52515fcfbc8c36107822ea7ffbe5ae23561d",
+      "solution_iv": "4ba33a7bf2150b0700b25eaf",
+      "solution_cipher": "fd4b8035e029e932bc88129d97b4489b404dd8f9c380bd0113c3de15b51d5e8e2dc25aaf22eb2d3517ff32d239caa7bd6591465df813788ad05a7ff3d0086c6f4dc659ecb4ad39f0ab1a51efdcf8228231d0d53576f8e0ccec8584810d2081a52c9a91e1e614af88645d74aa62f152a5db100779cef3192dd548248e702a41e0be5ee4f470d55b423a53b14bb21ceef85dd1f6bb5d66f9dbb297ea9acabbed80b1526715680460882c0cce1d70373be7445a353953f9caa033daa3bbb396f039c25271da9ea6e4311d471bfb1e3e8fd8dc50c23c4c8f973e6c305e1c0af3a074acf97d9ecf83543c5241c6c59eb8cde1c6627d392dff923b20faba1547a42af6b7ad72cf77093c8b379eef11c1db8a18bfc342"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_041",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #41]</b> Sửa lỗi sai gạch chân <u><b>is</b></u> tại vị trí <b>(41)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>My cousin lives in a small flat. There <b>(41)</b> <u><b>is</b></u> two bedrooms in the flat. Her room is next the bathroom. She has a desk, a bed and two shelfs for her books. A family photo hangs in the wall above her desk.</div>",
+      "options": [
+        "Sửa <u>is</u> → to are",
+        "Sửa <u>is</u> → <b>are</b>",
+        "Sửa <u>is</u> → ares",
+        "Sửa <u>is</u> → is areing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are",
+        "is -> are"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>is</u> → Sửa đúng: <b>are</b>. (There are + two bedrooms.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "416f584ef2f0b338",
+      "answer_hash": "9cf3d41ac051b1692a978256596c19f34684e8c566bd71768c3f7bfecf592dcf",
+      "solution_iv": "c3489e0ac65c28270004f7e1",
+      "solution_cipher": "c14168c4cc7570034aa579763af77c308d7f51bdcf45bf53ed4a1616b31fa8c8e3a6b93714b8f5157484b039c43f408a090c674dd221085ac92b1bce52b470886ee59d4f5a4f13ebb8566b36af245f66b11e79e5cd20ba12565366d54904e685bc791a5332c57439c1dfb10a84140239ef9341118f04e12efa88fd4daeb916d5260aa1b2348c18f26e1f5d4e3e26692ed742719e959f56ff50916402fbb1e6172dced659051a46eda13ad4f8b84caac2657daf32067fa86c2ea245a93e57a186"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_042",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #42]</b> Sửa lỗi sai gạch chân <u><b>next</b></u> tại vị trí <b>(42)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>My cousin lives in a small flat. There is two bedrooms in the flat. Her room is <b>(42)</b> <u><b>next</b></u> the bathroom. She has a desk, a bed and two shelfs for her books. A family photo hangs in the wall above her desk.</div>",
+      "options": [
+        "Sửa <u>next</u> → next tos",
+        "Sửa <u>next</u> → not next to",
+        "Sửa <u>next</u> → to next to",
+        "Sửa <u>next</u> → <b>next to</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "next to",
+        "next -> next to"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>next</u> → Sửa đúng: <b>next to</b>. (Cụm chỉ vị trí: next to.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "ea3a1c4e702645f2",
+      "answer_hash": "83baac796827740aeaff063d35c9ed5b18607854d630e22389a61854bf170948",
+      "solution_iv": "a99045400874cc25f1281f89",
+      "solution_cipher": "413ec7a54bf9a4a8d9d00bc50f066b2b4d796b05fabb457633ae8cb453e7d35997ef6adaf18e7b5d2fe3f56825912edfd9ea9d5c660014a73cb766e85c0a087c0c11fa1a1f7d17126f5555cf920adf9ee25b033782e0eec3c3719e4346495d3b11d8e440fd0055a0bc2e9eb3416b63044055fd3d14b99195fb391441743be2546fb4a9df1b3b460b5832cc0e88c9607ba97302193f3ca94ace5585cf24be3f6935984bc6051364347888ec83ea879ede18b600ea59db91a71edbd4beb17368cb9a417a494f5629e2bbf742bc7a977188577b8688a6ef"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_043",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #43]</b> Sửa lỗi sai gạch chân <u><b>shelfs</b></u> tại vị trí <b>(43)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>My cousin lives in a small flat. There is two bedrooms in the flat. Her room is next the bathroom. She has a desk, a bed and two <b>(43)</b> <u><b>shelfs</b></u> for her books. A family photo hangs in the wall above her desk.</div>",
+      "options": [
+        "Sửa <u>shelfs</u> → to shelv",
+        "Sửa <u>shelfs</u> → <b>shelves</b>",
+        "Sửa <u>shelfs</u> → shelv",
+        "Sửa <u>shelfs</u> → is shelving"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "shelves",
+        "shelfs -> shelves"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>shelfs</u> → Sửa đúng: <b>shelves</b>. (Shelf → shelves (danh từ số nhiều).)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "f3ee84eb7931d89f",
+      "answer_hash": "c8cd85f5530727a8c5459afeedcef852cda258a389a4ebfceb0540d2ddbc5df4",
+      "solution_iv": "cd93466eb1f046397315e3ba",
+      "solution_cipher": "f098057b8c961a319ad1eadc3dc3b82480e668ec3614718c8bc595484907c88f2234b5c38dda46460084924ccf29f7169021dcde1ef186c2d0fb514696cdd3a362278d7b9b1f93d04b14d78e9b7ebbe3d7af03dccc60833dbd1f4b581a92a0a182b5d33bf7702a8d3131f56f1c426c2498f1ba99bd348905839f1d1ae25196d2a2292078f740d23b604f156ecf108bd0591397521c6d3b3af612d0b0014c0c34f7f3c59d634218e951782a60400dfcf95103dd27b819081b3cb1c139e30d535efbb7ed922c83e450ab2e9b62c4a2c42c8276959e7ab04363f60c1118c45523b7891171290d77"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_044",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #44]</b> Sửa lỗi sai gạch chân <u><b>in</b></u> tại vị trí <b>(44)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>My cousin lives <b>(44)</b> <u><b>in</b></u> a small flat. There is two bedrooms in the flat. Her room is next the bathroom. She has a desk, a bed and two shelfs for her books. A family photo hangs in the wall above her desk.</div>",
+      "options": [
+        "Sửa <u>in</u> → to on",
+        "Sửa <u>in</u> → <b>on</b>",
+        "Sửa <u>in</u> → ons",
+        "Sửa <u>in</u> → is oning"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "on",
+        "in -> on"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>in</u> → Sửa đúng: <b>on</b>. (Hangs on the wall.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "4b7a93438a76751d",
+      "answer_hash": "555e1aebcd0220dc8d0a9f72914337c3954bf154427ff0ed06b0a6122aa022ad",
+      "solution_iv": "6b579d9cc2c3d5efb51bc1db",
+      "solution_cipher": "3ccad69c94b6c12fa1a370168aa6d4b839133c867b5e553292acb0f9a472410345214de94f903b81702db8a63803b5fc0f5126694d3d4b9ff44fdd80f8229f49e4046066199cb112fc15634ffad353be23a9a74c1fb63c82f7315974378054093ad75a8d3e21946237a7b6ede32cd3e316d0f853b37c9ede1bf9cc5a4a3704992886c35a564bc187dc9790137f1958dd36f2d31ddb3a687095f47500b91c5aeeeb03484057d8817d7376ffcec373325153d61488b18a"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_045",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #45]</b> Sửa lỗi sai gạch chân <u><b>have</b></u> tại vị trí <b>(45)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>This is my best friend, Linh. She <b>(45)</b> <u><b>have</b></u> long black hair and bright eyes. She is kind and always helps her classmates. Right now, she study for an English test. Her younger brother are playing with a ball in the garden. I like Linh because she never tells lie to her friends.</div>",
+      "options": [
+        "Sửa <u>have</u> → ha",
+        "Sửa <u>have</u> → is haing",
+        "Sửa <u>have</u> → to ha",
+        "Sửa <u>have</u> → <b>has</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "has",
+        "have -> has"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>have</u> → Sửa đúng: <b>has</b>. (She has + hair/eyes.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "9d05865e0e7d4479",
+      "answer_hash": "db21a677bec117e8d71dfd2d1eece1ad7d767f74984bf71a9887682391c1b7c0",
+      "solution_iv": "7e4913f93c7eaada113e4e5c",
+      "solution_cipher": "d3fb10a23056702df3cde81fa757c46c5445e9d11cbdd4c47f8793d18eb8b5eee313ad01ad52a058734933ceb65623f77e11a851181466e01760db82ae1625c35f6a35dd3b1e077a35c3a3a9f2f2a1cd85d6d8d47372f7de678e237b61e0b9767f8b5676b8640b5f0ffb37c904a1407f833154a54abeb8337cc167d26eb5ec8c1c84e00f38e512108eb078bdd1b69d6f02905b90c23d96ab038804ea5ffb9cc3bd5f10e258fec2d29edb05a12d2ee69a756ba69127836c98df94a2e6dd8487"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_046",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #46]</b> Sửa lỗi sai gạch chân <u><b>study</b></u> tại vị trí <b>(46)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>This is my best friend, Linh. She have long black hair and bright eyes. She is kind and always helps her classmates. Right now, she <b>(46)</b> <u><b>study</b></u> for an English test. Her younger brother are playing with a ball in the garden. I like Linh because she never tells lie to her friends.</div>",
+      "options": [
+        "Sửa <u>study</u> → studying",
+        "Sửa <u>study</u> → be studying",
+        "Sửa <u>study</u> → <b>is studying</b>",
+        "Sửa <u>study</u> → are studying"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is studying",
+        "study -> is studying"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>study</u> → Sửa đúng: <b>is studying</b>. (Right now → is studying.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "f280bcb95ce7f827",
+      "answer_hash": "9eae0aae2f7c5d10d9653b817ea1d6ebbc4519ffcaeca9e937e219bfc28ef6fd",
+      "solution_iv": "3561289de619bc55a49ef748",
+      "solution_cipher": "1cc7da55a8e6883d7481895697ea97b821a29cec3688493bac5051041e165495a3a5987ee09d626d6b89beb2a381ce0e2d71485e2a4d4ec0bac2f9afef9dd21ccefbfa82ba3272239c73ee91334b66f147328917b447f89566e973963a3eba800154a1f47e5dfd405690b1f355e8984d40d4981bc5a48df8dc1b6fe6406a737799a5986045c81604e5d9ab60733a84cfb570e16fc3c4cd54355191fa07f465b0eb54e9d57fb0810462a83fb881abd73a769ef8be52bcae1abd56f0325641c61f37a3da94b3d4245a0e3a41cce3ecae09364cb9bd2e435bbcb34f0480a3aa5a"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_047",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #47]</b> Sửa lỗi sai gạch chân <u><b>are</b></u> tại vị trí <b>(47)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>This is my best friend, Linh. She have long black hair and bright eyes. She is kind and always helps her classmates. Right now, she study for an English test. Her younger brother <b>(47)</b> <u><b>are</b></u> playing with a ball in the garden. I like Linh because she never tells lie to her friends.</div>",
+      "options": [
+        "Sửa <u>are</u> → <b>is</b>",
+        "Sửa <u>are</u> → i",
+        "Sửa <u>are</u> → is ising",
+        "Sửa <u>are</u> → to is"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is",
+        "are -> is"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>are</u> → Sửa đúng: <b>is</b>. (Her younger brother: số ít.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "dc3d01b538aac4b6",
+      "answer_hash": "c7b46a4090f74d3bd81eaa20607322b10909c6e71cafc28c4fcaef410b294a75",
+      "solution_iv": "dd20e3991fdfdf0c2807468d",
+      "solution_cipher": "250c6ad9250d3867e3025af96ac8586b1958a1511f9edc1614aa3252eca2a01a887664655ba0c2248ac02084451a6f2f78c07aa72eccfb15a98e0f92f6d08e9f3e837be4c1f3907fd6e7f303b58c2923001e415046f912ab5b6b4cf59e9565c89eb15daa8da1739e59c4942a909fe8e63f4a35f09b08d03235c3fb818783a23c3f17dd0b6821b63aa71989cba67f7e77aad20a8cc47603284d2d69f458845ec276b3532cfcd7d8889d9706c27b80b447e9a94881f6e05cb1ebcb26e86146f395f5bb2d02"
+    },
+    {
+      "question_id": "Q_WS_G06_ERROR_48_048",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "ERROR_FIX",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>[Proofreading #48]</b> Sửa lỗi sai gạch chân <u><b>lie</b></u> tại vị trí <b>(48)</b> trong đoạn văn:",
+      "passage_or_sign_svg": "<div class=\"proofreading-box\"><b>Đoạn văn Proofreading:</b><br/>This is my best friend, Linh. She have long black hair and bright eyes. She is kind and always helps her classmates. Right now, she study for an English test. Her younger brother are playing with a ball in the garden. I like Linh because she never tells <b>(48)</b> <u><b>lie</b></u> to her friends.</div>",
+      "options": [
+        "Sửa <u>lie</u> → <b>lies</b>",
+        "Sửa <u>lie</u> → li",
+        "Sửa <u>lie</u> → is liing",
+        "Sửa <u>lie</u> → to li"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "lies",
+        "lie -> lies"
+      ],
+      "signal_keywords": [
+        "every day",
+        "always",
+        "usually",
+        "now",
+        "right now",
+        "there is",
+        "there are"
+      ],
+      "explanation_vi": "Lỗi sai: <u>lie</u> → Sửa đúng: <b>lies</b>. (Tell lies là kết hợp từ tự nhiên.)",
+      "source_worksheet_id": "WS_G06_ERROR_48",
+      "crypto_salt": "8ccc4f557be291f6",
+      "answer_hash": "0537f095f166e9d5fb8ebfca76eb7b519c1132b2c983ad0b490f61644f0f72e0",
+      "solution_iv": "cfa15f06708e271aac5751a8",
+      "solution_cipher": "3a63fcdf10507bb2b9fb29e136f1f9bc7e82b90159b614c526d58cd5e0af0ebc05f3e9e372ab61bd8a31d601be28595ece1a2ad4a9875ee08e919848f13c3aa862ea52cc71cb864c5d8761d847c2acd7c45567dfa3ada4adf605259a9dcec5c357000178747ffa4adbdfa200598aec914f3aa153b38bc19c0b993c8ac3b88d629f84a885a39d6c99f5e6ee5cca57699b56ef3bdba0ca361eba8169e7219dff881df378b15e9e66c8d27b6817782a54c517bdeb0967d7a610f4bd5f90fbdca84240026ff9280773ff521af726a6bd3e31689e91dd915c95"
+    }
+  ]
+}

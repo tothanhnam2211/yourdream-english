@@ -1,0 +1,1119 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Bàn Học Điểm 10 — Luyện Viết Tự Luận Toán THCS</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <!-- KaTeX for textbook-quality math rendering (Zero raw LaTeX) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <style>
+    /* 3 Beautiful Themes for Students */
+    :root[data-theme="light"] {
+      --bg-page: #f0f7ff;
+      --bg-header: rgba(255, 255, 255, 0.95);
+      --bg-card: #ffffff;
+      --bg-subtle: #f8fafc;
+      --border: #dbeafe;
+      --text-main: #0f172a;
+      --text-muted: #475569;
+      --primary: #2563eb;
+      --primary-soft: #eff6ff;
+      --accent: #0ea5e9;
+      --shadow: 0 10px 30px -8px rgba(37, 99, 235, 0.12);
+    }
+
+    :root[data-theme="mint"] {
+      --bg-page: #ecfdf5;
+      --bg-header: rgba(255, 255, 255, 0.95);
+      --bg-card: #ffffff;
+      --bg-subtle: #f0fdf4;
+      --border: #bbf7d0;
+      --text-main: #064e3b;
+      --text-muted: #374151;
+      --primary: #059669;
+      --primary-soft: #ecfdf5;
+      --accent: #10b981;
+      --shadow: 0 10px 30px -8px rgba(5, 150, 105, 0.12);
+    }
+
+    :root[data-theme="dark"] {
+      --bg-page: #0b1120;
+      --bg-header: rgba(15, 23, 42, 0.95);
+      --bg-card: #151f32;
+      --bg-subtle: #0f172a;
+      --border: rgba(255, 255, 255, 0.1);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-soft: rgba(59, 130, 246, 0.15);
+      --accent: #38bdf8;
+      --shadow: 0 12px 30px -8px rgba(0, 0, 0, 0.5);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif; }
+    body {
+      background: var(--bg-page);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background 0.25s, color 0.25s;
+    }
+
+    /* Top Student Header */
+    header {
+      background: var(--bg-header);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 12px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+    }
+    .brand-box { display: flex; align-items: center; gap: 10px; }
+    .brand-logo {
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: #fff;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; font-weight: 800;
+    }
+    .brand-title { font-size: 17px; font-weight: 800; letter-spacing: -0.3px; }
+    .brand-sub { font-size: 12px; color: var(--text-muted); font-weight: 600; }
+
+    /* Focus & Theme Controls */
+    .toolbar-right { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .focus-toggle-btn {
+      background: linear-gradient(135deg, #8b5cf6, #6366f1);
+      color: #fff;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 12.5px;
+      font-weight: 800;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+      transition: transform 0.15s;
+    }
+    .focus-toggle-btn.active {
+      background: linear-gradient(135deg, #f59e0b, #ea580c);
+      box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
+    }
+    .theme-group {
+      display: flex;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 3px;
+      gap: 2px;
+    }
+    .theme-btn {
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      padding: 5px 10px;
+      border-radius: 16px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .theme-btn.active {
+      background: var(--primary);
+      color: #fff;
+    }
+    .star-badge {
+      background: #fef3c7;
+      color: #92400e;
+      border: 1px solid #fcd34d;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12.5px;
+      font-weight: 800;
+    }
+
+    /* Navigation Bar (Hidden in Focus Mode) */
+    .course-nav-bar {
+      background: var(--bg-card);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .pill-row { display: flex; gap: 6px; flex-wrap: wrap; }
+    .grade-pill {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 7px 14px;
+      border-radius: 12px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .grade-pill.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+      box-shadow: 0 4px 10px rgba(37, 99, 235, 0.25);
+    }
+
+    .problem-tabs-bar {
+      background: var(--bg-subtle);
+      border-bottom: 1px solid var(--border);
+      padding: 8px 20px;
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+    }
+    .q-tab {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 8px 14px;
+      border-radius: 10px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .q-tab.active {
+      background: #f59e0b;
+      color: #fff;
+      border-color: #d97706;
+      box-shadow: 0 3px 10px rgba(245, 158, 11, 0.3);
+    }
+
+    /* Main Workspace Layout */
+    .workspace {
+      max-width: 1360px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 18px 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      flex: 1;
+    }
+    @media (min-width: 1024px) {
+      .workspace {
+        grid-template-columns: 5fr 7fr;
+        align-items: start;
+      }
+    }
+
+    /* FOCUS MODE: Single centered column, zero distractions */
+    body.focus-mode .course-nav-bar,
+    body.focus-mode #helperCardBox {
+      display: none !important;
+    }
+    body.focus-mode .workspace {
+      max-width: 920px;
+      grid-template-columns: 1fr;
+    }
+
+    .card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      margin-bottom: 16px;
+    }
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      gap: 8px;
+    }
+    .card-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Clean Problem Statement */
+    .problem-box {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--primary);
+      border-radius: 14px;
+      padding: 16px;
+      font-size: 15.5px;
+      line-height: 1.75;
+      color: var(--text-main);
+    }
+    .key-signal {
+      background: #fef08a;
+      color: #854d0e;
+      padding: 2px 8px;
+      border-radius: 6px;
+      font-weight: 700;
+      border-bottom: 2px solid #eab308;
+    }
+
+    /* Visual 3-Step Flow Pills (No Wall of Text!) */
+    .flow-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 8px;
+    }
+    .flow-pill {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px 14px;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      line-height: 1.5;
+    }
+    .flow-num {
+      background: var(--primary);
+      color: #fff;
+      width: 24px; height: 24px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    /* Helper Switcher Tabs (Only 1 short box visible at a time) */
+    .helper-tabs {
+      display: flex;
+      gap: 6px;
+      background: var(--bg-subtle);
+      padding: 4px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      margin-bottom: 14px;
+    }
+    .helper-tab {
+      flex: 1;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      padding: 8px 10px;
+      border-radius: 9px;
+      font-size: 12.5px;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: center;
+    }
+    .helper-tab.active {
+      background: var(--bg-card);
+      color: var(--primary);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Notebook Grid Paper (Vở Ô Ly Học Sinh) */
+    .notebook-paper {
+      background-color: #fffef9;
+      background-image:
+        linear-gradient(to right, rgba(59, 130, 246, 0.14) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(59, 130, 246, 0.14) 1px, transparent 1px);
+      background-size: 24px 32px;
+      color: #0f172a;
+      border: 2px solid #93c5fd;
+      border-left: 6px solid #ef4444;
+      border-radius: 14px;
+      padding: 22px 24px;
+      font-size: 15.5px;
+      line-height: 32px;
+      box-shadow: inset 0 0 20px rgba(59, 130, 246, 0.04), 0 8px 24px rgba(0, 0, 0, 0.08);
+      min-height: 250px;
+    }
+    .ink-row {
+      padding: 4px 10px;
+      border-radius: 8px;
+      margin-bottom: 6px;
+      transition: all 0.2s;
+    }
+    .ink-row.active-row {
+      background: rgba(254, 240, 138, 0.65);
+      border-left: 4px solid #f59e0b;
+    }
+    .point-chip {
+      background: #dcfce7;
+      color: #166534;
+      font-weight: 800;
+      font-size: 12px;
+      padding: 2px 8px;
+      border-radius: 12px;
+      margin-left: 8px;
+      border: 1px solid #86efac;
+    }
+    .teacher-tip {
+      margin-top: 14px;
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-left: 4px solid #2563eb;
+      border-radius: 12px;
+      padding: 12px 16px;
+      font-size: 14px;
+      color: #1e3a8a;
+      line-height: 1.55;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    /* Progress Bar & Big Next Step Button */
+    .step-progress-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      padding: 10px 14px;
+      border-radius: 12px;
+      margin-bottom: 14px;
+      flex-wrap: wrap;
+    }
+    .step-dots { display: flex; gap: 6px; flex-wrap: wrap; }
+    .step-dot {
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text-muted);
+      padding: 6px 12px;
+      border-radius: 8px;
+      font-size: 12.5px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .step-dot.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+    .btn-next-ink {
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: #fff;
+      border: none;
+      padding: 9px 18px;
+      border-radius: 10px;
+      font-size: 13.5px;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    }
+
+    .cloze-box-input {
+      border: 2px solid #3b82f6;
+      background: #eff6ff;
+      color: #1d4ed8;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 8px;
+      width: 115px;
+      text-align: center;
+      font-size: 14.5px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Clean Student Header with Focus Mode & 3 Themes -->
+  <header>
+    <div class="brand-box">
+      <div class="brand-logo">10</div>
+      <div>
+        <div class="brand-title">Bàn Học Điểm 10</div>
+        <div class="brand-sub">Luyện viết bài thi tự luận Toán THCS gọn gàng, chắc điểm</div>
+      </div>
+    </div>
+
+    <div class="toolbar-right">
+      <button class="focus-toggle-btn" id="focusBtn" onclick="toggleFocusMode()">
+        🎯 Chế Độ Tập Trung: TẮT
+      </button>
+
+      <div class="theme-group">
+        <button class="theme-btn active" id="th-light" onclick="setTheme('light')">☀️ Sáng Đẹp</button>
+        <button class="theme-btn" id="th-mint" onclick="setTheme('mint')">🌿 Dịu Mắt</button>
+        <button class="theme-btn" id="th-dark" onclick="setTheme('dark')">🌙 Ban Đêm</button>
+      </div>
+
+      <div id="crypto2PhaseStatusBadge" style="background:#eff6ff; color:#1d4ed8; border:1px solid #93c5fd; padding:6px 12px; border-radius:20px; font-size:12px; font-weight:800;">
+        🛡️ Pha 1: Khóa HMAC-SHA256 (Chống F12)
+      </div>
+
+      <div class="star-badge">⭐ Điểm rèn luyện: <span id="starScore">10.0</span></div>
+    </div>
+  </header>
+
+  <!-- Grade & Exam Selector -->
+  <div class="course-nav-bar">
+    <div class="pill-row">
+      <button class="grade-pill active" id="gBtn6" onclick="selectCourse('K6_EXAM')">📗 Lớp 6: Đề Thi Giữa Kỳ (5 Câu)</button>
+      <button class="grade-pill" id="gBtn7" onclick="selectCourse('K7_CORE')">📘 Lớp 7: Dãy Tỉ Số Bằng Nhau</button>
+      <button class="grade-pill" id="gBtn8" onclick="selectCourse('K8_CORE')">📙 Lớp 8: Rút Gọn Biểu Thức</button>
+      <button class="grade-pill" id="gBtn9" onclick="selectCourse('K9_CORE')">📕 Lớp 9: Hệ Thức Vi-ét</button>
+    </div>
+
+    <div class="pill-row" id="variantRow">
+      <span style="font-size:12.5px; color:var(--text-muted); align-self:center; font-weight:700;">Chọn đề luyện:</span>
+      <button class="grade-pill active" id="vBtn1" onclick="selectVariant(1)">Đề 1</button>
+      <button class="grade-pill" id="vBtn2" onclick="selectVariant(2)">Đề 2</button>
+      <button class="grade-pill" id="vBtn3" onclick="selectVariant(3)">Đề 3</button>
+      <button class="grade-pill" id="vBtn4" onclick="selectVariant(4)">Đề 4</button>
+      <button class="grade-pill" id="vBtn5" onclick="selectVariant(5)">Đề 5</button>
+    </div>
+  </div>
+
+  <!-- Question Selector Strip -->
+  <div class="problem-tabs-bar" id="questionTabsBar"></div>
+
+  <!-- Main Workspace -->
+  <div class="workspace">
+    <!-- Left Column: Problem + Compact Single-Tab Helper (Zero Wall of Text!) -->
+    <div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">📖 Đề Bài & Từ Khóa Quan Trọng</div>
+          <button onclick="toggleSignalHighlight()" id="sigBtn" style="border:1px solid #eab308; background:#fef9c3; color:#854d0e; padding:4px 10px; border-radius:8px; font-size:12px; font-weight:700; cursor:pointer;">
+            💡 Tô sáng từ khóa: BẬT
+          </button>
+        </div>
+        <div class="problem-box" id="problemBox"></div>
+        <div id="visualMediaBox"></div>
+      </div>
+
+      <!-- Compact Helper Card: Only 1 concise view shown at a time -->
+      <div class="card" id="helperCardBox">
+        <div class="helper-tabs">
+          <button class="helper-tab active" id="hTab1" onclick="switchHelperTab(1)">🧭 Sơ Đồ 3 Bước</button>
+          <button class="helper-tab" id="hTab2" onclick="switchHelperTab(2)">💡 Cách Hiểu Dễ Nhất</button>
+          <button class="helper-tab" id="hTab3" onclick="switchHelperTab(3)">⚠️ Lỗi Hay Bị Trừ Điểm</button>
+        </div>
+        <div id="helperContentArea"></div>
+      </div>
+    </div>
+
+    <!-- Right Column: Student Grid Notebook (Starts at Step 1 so it's never a wall of text!) -->
+    <div>
+      <div class="card">
+        <div class="card-header">
+          <div class="card-title">📝 Vở Ô Ly Tập Viết Điểm 10</div>
+          <span id="pointBadge" style="background:#dcfce7; color:#166534; padding:4px 12px; border-radius:20px; font-size:12.5px; font-weight:800;">
+            Điểm câu này: 2,0 điểm
+          </span>
+        </div>
+
+        <!-- 3 Friendly Practice Modes -->
+        <div class="helper-tabs" style="margin-bottom:12px;">
+          <button class="helper-tab active" id="modeBtn1" onclick="switchNotebookMode(1)">🎬 Xem Viết Từng Dòng</button>
+          <button class="helper-tab" id="modeBtn2" onclick="switchNotebookMode(2)">✍️ Tập Điền Từ Khóa</button>
+          <button class="helper-tab" id="modeBtn3" onclick="switchNotebookMode(3)">📄 Tự Viết Vào Vở</button>
+        </div>
+
+        <!-- Step-by-Step Controller -->
+        <div class="step-progress-bar" id="stepBar">
+          <div class="step-dots" id="stepDotsBox"></div>
+          <div style="display:flex; gap:6px;">
+            <button class="step-dot" onclick="showAllSteps()">Hiện cả bài</button>
+            <button class="btn-next-ink" onclick="nextStep()">▶️ Viết dòng tiếp theo</button>
+          </div>
+        </div>
+
+        <!-- Grid Notebook Paper -->
+        <div class="notebook-paper" id="notebookPaper"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const GCS_ASSETS = "https://storage.googleapis.com/ai-studio-bucket-336999988003-asia-southeast1/control/assets";
+
+    const K6_VARIANTS = {
+      1: {
+        b1_expr: "37 \\cdot 64 + 37 \\cdot 36 - 1700", b1_common: "37", b1_pair: "64 + 36", b1_ans: "2000",
+        b2_eq: "145 - 3(x + 2) = 55", b2_ans: "28",
+        b3_items: "72 quyển vở, 96 bút bi và 120 thước kẻ", b3_nums: "72, 96, 120", b3_gcd: "24", b3_each: "3 quyển vở, 4 bút bi, 5 thước kẻ",
+        b4_desc: "Sân trường hình chữ nhật dài $12\\text{ m}$, rộng $8\\text{ m}$. Nhà trường lát gạch hình vuông cạnh $40\\text{ cm}$.",
+        b4_area: "96", b4_tiles: "600", b4_img: `${GCS_ASSETS}/stem_de1_san_gach.png`
+      },
+      2: {
+        b1_expr: "45 \\cdot 57 + 45 \\cdot 43 - 1500", b1_common: "45", b1_pair: "57 + 43", b1_ans: "3000",
+        b2_eq: "210 - 5(x - 3) = 85", b2_ans: "28",
+        b3_items: "84 quyển vở, 112 bút bi và 140 thước kẻ", b3_nums: "84, 112, 140", b3_gcd: "28", b3_each: "3 quyển vở, 4 bút bi, 5 thước kẻ",
+        b4_desc: "Mảnh vườn hình thang cân có đáy lớn $18\\text{ m}$, đáy nhỏ $12\\text{ m}$, chiều cao $10\\text{ m}$.",
+        b4_area: "150", b4_tiles: "938", b4_img: `${GCS_ASSETS}/stem_de2_vuon_hinh_thang.png`
+      },
+      3: {
+        b1_expr: "68 \\cdot 75 + 68 \\cdot 25 - 2800", b1_common: "68", b1_pair: "75 + 25", b1_ans: "4000",
+        b2_eq: "180 - 4(x + 5) = 60", b2_ans: "25",
+        b3_items: "90 quyển vở, 120 bút bi và 150 thước kẻ", b3_nums: "90, 120, 150", b3_gcd: "30", b3_each: "3 quyển vở, 4 bút bi, 5 thước kẻ",
+        b4_desc: "Khu đất hình bình hành có cạnh đáy $20\\text{ m}$, chiều cao tương ứng $12\\text{ m}$.",
+        b4_area: "240", b4_tiles: "1500", b4_img: `${GCS_ASSETS}/stem_de3_bai_xe_binh_hanh.png`
+      },
+      4: {
+        b1_expr: "82 \\cdot 63 + 82 \\cdot 37 - 3200", b1_common: "82", b1_pair: "63 + 37", b1_ans: "5000",
+        b2_eq: "250 - 6(x - 1) = 70", b2_ans: "31",
+        b3_items: "60 quyển vở, 80 bút bi và 100 thước kẻ", b3_nums: "60, 80, 100", b3_gcd: "20", b3_each: "3 quyển vở, 4 bút bi, 5 thước kẻ",
+        b4_desc: "Công viên hình chữ nhật dài $20\\text{ m}$, rộng $14\\text{ m}$.",
+        b4_area: "280", b4_tiles: "1750", b4_img: `${GCS_ASSETS}/stem_de4_cong_vien_chu_thap.png`
+      },
+      5: {
+        b1_expr: "25 \\cdot 73 + 25 \\cdot 27 - 500", b1_common: "25", b1_pair: "73 + 27", b1_ans: "2000",
+        b2_eq: "120 - 4(x + 2) = 40", b2_ans: "18",
+        b3_items: "90 quyển vở, 120 bút bi và 150 thước kẻ", b3_nums: "90, 120, 150", b3_gcd: "30", b3_each: "3 quyển vở, 4 bút bi, 5 thước kẻ",
+        b4_desc: "Phòng khách hình chữ nhật dài $9\\text{ m}$, rộng $6\\text{ m}$ lát gạch vuông cạnh $60\\text{ cm}$.",
+        b4_area: "54", b4_tiles: "150", b4_img: `${GCS_ASSETS}/stem_de5_phong_khach_gach.png`
+      }
+    };
+
+    let currentCourse = 'K6_EXAM';
+    let currentVariant = 1;
+    let currentQIndex = 0;
+    let currentHelperTab = 1;
+    let currentNotebookMode = 1;
+    let currentStep = 1; // Default to Step 1 so there is NO wall of text!
+    let highlightSignals = true;
+
+    function renderMathInContainer() {
+      if (window.renderMathInElement) {
+        renderMathInElement(document.body, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false }
+          ],
+          throwOnError: false
+        });
+      }
+    }
+
+    function getQuestionsData() {
+      let v = K6_VARIANTS[currentVariant] || K6_VARIANTS[1];
+      let sigClass = highlightSignals ? "key-signal" : "";
+
+      if (currentCourse === 'K6_EXAM') {
+        return [
+          {
+            title: "Câu 1: Tính Nhanh",
+            points: "2,0 điểm",
+            problem: `Thực hiện phép tính (<span class="${sigClass}">tính hợp lý nếu có thể</span>):<br><b>a)</b> $A = ${v.b1_expr}$<br><b>b)</b> $B = 200 : \\{ 5 \\cdot [ 120 - (6 - 4)^3 \\cdot 10 ] \\}$`,
+            media: `<details style="margin-top:10px; cursor:pointer;"><summary style="font-size:13px; font-weight:700; color:var(--primary);">🎬 Bấm để xem Video Bài Giảng Mẫu (1080p)</summary><video controls playsinline style="width:100%; max-height:190px; border-radius:10px; margin-top:6px; background:#000;"><source src="${GCS_ASSETS}/L02_BAI1A_TINH_NHANH.mp4" type="video/mp4"></video></details>`,
+            flow: [
+              `Nhìn câu a thấy số <b>$${v.b1_common}$ lặp lại</b> $\\rightarrow$ Đặt $${v.b1_common}$ ra ngoài ngoặc.`,
+              `Trong ngoặc còn $(${v.b1_pair}) = 100$ tròn trăm cực dễ nhẩm!`,
+              `Câu b tính từ trong ra ngoài: Ngoặc tròn $()$ $\\rightarrow$ Ngoặc vuông $[]$ $\\rightarrow$ Ngoặc nhọn $\\{\\}$.`
+            ],
+            easyGuide: `🌱 <b>Mẹo hiểu nhanh:</b> Khi thấy một số cùng nhân với hai số khác nhau ($a \\cdot b + a \\cdot c$), em hãy rút $a$ ra ngoài làm thừa số chung: $a \\cdot (b + c)$. Ở câu b, nhớ tính lũy thừa $2^3 = 2 \\cdot 2 \\cdot 2 = 8$ trước khi nhân với $10$ nhé!`,
+            traps: `⚠️ <b>Hai lỗi nhiều bạn mắc nhất:</b><br>• Nhẩm nhầm $2^3 = 6$ (đúng phải là $2^3 = 8$).<br>• Lấy $120 - 8$ trước rồi mới nhân $10$ (sai thứ tự nhân chia trước, cộng trừ sau).`,
+            steps: [
+              { score: "+0,5đ", line: `$a)\\; A = ${v.b1_common} \\cdot (${v.b1_pair}) - 1700$`, tip: "Bước 1: Đặt thừa số chung ra ngoài ngoặc đơn để gom cặp số có tổng bằng 100." },
+              { score: "+0,5đ", line: `$A = ${v.b1_common} \\cdot 100 - 1700 = ${v.b1_ans}$`, tip: "Bước 2: Nhân với 100 rồi thực hiện phép trừ cuối cùng." },
+              { score: "+0,5đ", line: `$b)\\; B = 200 : \\{ 5 \\cdot [ 120 - 2^3 \\cdot 10 ] \\} = 200 : \\{ 5 \\cdot [ 120 - 80 ] \\}$`, tip: "Bước 3: Tính trong ngoặc tròn (6 - 4) = 2, sau đó tính 2³ = 8 rồi nhân 10 được 80." },
+              { score: "+0,5đ", line: `$B = 200 : \\{ 5 \\cdot 40 \\} = 200 : 200 = 1.$`, tip: "Bước 4: Tính ngoặc vuông được 40, ngoặc nhọn được 200, rồi chia 200 : 200 = 1." }
+            ],
+            clozeHtml: `• Câu a: Đặt $${v.b1_common}$ ra ngoài, trong ngoặc tổng bằng <input id="c1" class="cloze-box-input" placeholder="Nhập..."> $\\Rightarrow A =$ <input id="c2" class="cloze-box-input" placeholder="Nhập..."><br>• Câu b: $(6-4)^3 = 2^3 =$ <input id="c3" class="cloze-box-input" placeholder="Nhập..."> $\\Rightarrow$ Kết quả $B =$ <input id="c4" class="cloze-box-input" placeholder="Nhập...">`,
+            clozeAns: ["100", v.b1_ans, "8", "1"]
+          },
+          {
+            title: "Câu 2: Tìm x",
+            points: "2,0 điểm",
+            problem: `<span class="${sigClass}">Tìm số tự nhiên $x$</span>, biết:<br><b>a)</b> $${v.b2_eq}$$<br><b>b)</b> $$2^{x+1} - 3 = 29$$`,
+            media: ``,
+            flow: [
+              `Ở câu a, giữ nguyên cụm nhân chứa $(x)$ như một "hộp bí mật" cần tìm.`,
+              `Ở câu b, chuyển $-3$ sang vế phải: $2^{x+1} = 29 + 3 = 32$.`,
+              `Đưa $32$ về lũy thừa cơ số $2$ là $2^5 \\Rightarrow x + 1 = 5 \\Rightarrow x = 4$.`
+            ],
+            easyGuide: `🌱 <b>Mẹo "Bóc vỏ hành":</b> Đừng phá ngoặc vội! Hãy tìm cả cụm chứa $x$ từ ngoài vào trong. Với bài có $x$ trên số mũ ($2^{x+1} = 32$), em chỉ cần nhẩm $32 = 2^5$ để hai vế có cùng cơ số $2$.`,
+            traps: `⚠️ <b>Cẩn thận kẻo mất điểm:</b><br>• Tuyệt đối không lấy $145 - 3$ ở câu a!<br>• Làm xong nhớ viết dòng kết luận <b>"Vậy $x = \\dots$"</b> ở cuối bài.`,
+            steps: [
+              { score: "+0,5đ", line: `$a)\\; ${v.b2_eq} \\Rightarrow$ Tìm cụm chứa $(x)$ bằng cách lấy Số bị trừ trừ Hiệu`, tip: "Bước 1: Coi cả tích chứa ngoặc là Số trừ. Lấy Số bị trừ trừ đi Hiệu." },
+              { score: "+0,5đ", line: `Giải ra được $x = ${v.b2_ans}$. Vậy $x = ${v.b2_ans}$.`, tip: "Bước 2: Tìm x và viết câu kết luận 'Vậy x = ...' để giữ trọn điểm." },
+              { score: "+0,5đ", line: `$b)\\; 2^{x+1} - 3 = 29 \\Rightarrow 2^{x+1} = 29 + 3 = 32 \\Rightarrow 2^{x+1} = 2^5$`, tip: "Bước 3: Chuyển -3 sang thành +3 được 32, viết 32 thành 2⁵." },
+              { score: "+0,5đ", line: `$\\Rightarrow x + 1 = 5 \\Rightarrow x = 4$. Vậy $x = 4$.`, tip: "Bước 4: Hai lũy thừa cùng cơ số 2 bằng nhau nên hai số mũ bằng nhau: x + 1 = 5." }
+            ],
+            clozeHtml: `• Câu a: Giải ra $x =$ <input id="c1" class="cloze-box-input" placeholder="Nhập..."><br>• Câu b: $2^{x+1} = 32 = 2$ mũ <input id="c2" class="cloze-box-input" placeholder="Nhập..."> $\\Rightarrow x + 1 = 5 \\Rightarrow x =$ <input id="c3" class="cloze-box-input" placeholder="Nhập...">`,
+            clozeAns: [v.b2_ans, "5", "4"]
+          },
+          {
+            title: "Câu 3: Toán Thực Tế (ƯCLN)",
+            points: "2,0 điểm",
+            problem: `Đội tình nguyện có <b>${v.b3_items}</b> muốn <span class="${sigClass}">chia đều vào các phần quà</span> sao cho <span class="${sigClass}">số phần quà là nhiều nhất</span>. Hỏi chia được nhiều nhất bao nhiêu phần quà? Mỗi phần có bao nhiêu món mỗi loại?`,
+            media: ``,
+            flow: [
+              `Gọi số phần quà là $x$ (phần quà), điều kiện $x \\in \\mathbb{N}^*$.`,
+              `Thấy chữ <b>"chia đều"</b> và <b>"nhiều nhất"</b> $\\rightarrow x = \\text{ƯCLN}(${v.b3_nums})$.`,
+              `Tính ra $x = ${v.b3_gcd}$ (thỏa mãn), rồi chia để tìm số vở, bút, thước trong mỗi phần.`
+            ],
+            easyGuide: `🌱 <b>Mẹo nhận dạng trong 3 giây:</b> Cứ đọc đề thấy cụm từ <b>"chia đều vào các túi/đĩa/phần"</b> và hỏi <b>"nhiều nhất"</b> thì 100% là bài toán tìm <b>Ước chung lớn nhất ($\text{ƯCLN}$)</b>!`,
+            traps: `⚠️ <b>Ba vị trí giám khảo hay trừ $0,25$ điểm:</b><br>• Quên ghi điều kiện $x \\in \\mathbb{N}^*$ ở dòng đầu.<br>• Quên viết dòng chia hết ($\\vdots$) trước khi suy ra $\\text{ƯCLN}$.<br>• Quên tính số lượng từng món ở cuối bài.`,
+            steps: [
+              { score: "+0,25đ", line: `Gọi số phần quà chia được nhiều nhất là $x$ (phần quà), điều kiện: $x \\in \\mathbb{N}^*$.`, tip: "Bước 1: Mở đầu bằng chữ 'Gọi' kèm đơn vị (phần quà) và điều kiện x ∈ N*." },
+              { score: "+0,50đ", line: `Theo đề bài, các loại quà được chia đều và $x$ lớn nhất nên $x = \\text{ƯCLN}(${v.b3_nums})$.`, tip: "Bước 2: Lập luận chia hết và x lớn nhất để suy ra x là ƯCLN." },
+              { score: "+0,75đ", line: `Phân tích ra thừa số nguyên tố, ta tìm được: $x = \\text{ƯCLN}(${v.b3_nums}) = ${v.b3_gcd}$ (Thỏa mãn ĐK).`, tip: "Bước 3: Tìm ra ƯCLN và nhớ ghi chữ (Thỏa mãn ĐK) ngay bên cạnh." },
+              { score: "+0,50đ", line: `Mỗi phần quà có: ${v.b3_each}. Vậy chia được nhiều nhất $${v.b3_gcd}$ phần quà.`, tip: "Bước 4: Tính số lượng mỗi món trong 1 phần quà và kết luận 'Vậy...'." }
+            ],
+            clozeHtml: `• Gọi số phần quà là $x$, điều kiện: $x \\in$ <input id="c1" class="cloze-box-input" placeholder="Nhập..."><br>• Vì chia đều và số phần quà nhiều nhất nên $x =$ <input id="c2" class="cloze-box-input" placeholder="Nhập...">$(${v.b3_nums}) =$ <input id="c3" class="cloze-box-input" placeholder="Nhập...">`,
+            clozeAns: ["N*", "ƯCLN", v.b3_gcd]
+          },
+          {
+            title: "Câu 4: Hình Học Sân Gạch",
+            points: "3,5 điểm",
+            problem: `${v.b4_desc}<br><b>a)</b> Tính <span class="${sigClass}">diện tích</span> khu vực trên.<br><b>b)</b> Tính <span class="${sigClass}">số viên gạch</span> cần dùng để lát kín.`,
+            media: `<img src="${v.b4_img}" style="width:100%; max-height:200px; object-fit:contain; border-radius:10px; border:1px solid var(--border); margin-top:10px; background:#fff;" alt="Bản vẽ STEM">`,
+            flow: [
+              `Bước 1: Tính diện tích sân theo đơn vị mét vuông ($\\text{m}^2$).`,
+              `Bước 2: Đổi diện tích sân và diện tích 1 viên gạch về <b>cùng một đơn vị đo</b>.`,
+              `Bước 3: Số viên gạch = (Diện tích sân) : (Diện tích 1 viên gạch).`
+            ],
+            easyGuide: `🌱 <b>Quy tắc sống còn khi làm bài lát gạch:</b> Sân tính bằng <b>mét ($\text{m}$)</b> nhưng viên gạch lại tính bằng <b>xăng-ti-mét ($\text{cm}$)</b>. Em nhớ đổi $40\\text{ cm} = 0,4\\text{ m}$ (hoặc đổi $\\text{m}^2$ ra $\\text{cm}^2$) trước khi chia nhé!`,
+            traps: `⚠️ <b>Lỗi mất điểm nhiều nhất:</b><br>• Quên đổi đơn vị mà lấy diện tích sân chia thẳng cho $40$.<br>• Ghi đơn vị diện tích thiếu số $2$ trên đầu (ghi $\\text{m}$ thay vì $\\text{m}^2$).`,
+            steps: [
+              { score: "+1,0đ", line: `$a)$ Diện tích khu vực cần lát là: $S = ${v.b4_area}\\;(\\text{m}^2)$.`, tip: "Bước 1: Viết lời giải rõ ràng và ghi đúng đơn vị diện tích là (m²)." },
+              { score: "+1,0đ", line: `$b)$ Đổi kích thước viên gạch về cùng đơn vị mét và tính diện tích $1$ viên gạch.`, tip: "Bước 2: Đổi cạnh gạch từ cm sang m rồi tính diện tích 1 viên gạch." },
+              { score: "+1,0đ", line: `Số viên gạch cần dùng là: Lấy diện tích sân chia diện tích $1$ viên gạch $= ${v.b4_tiles}$ (viên).`, tip: "Bước 3: Thực hiện phép chia diện tích để ra số viên gạch." },
+              { score: "+0,5đ", line: `Vậy diện tích là $${v.b4_area}\\text{ m}^2$ và cần dùng $${v.b4_tiles}$ viên gạch.`, tip: "Bước 4: Viết câu kết luận cho cả hai ý a và b." }
+            ],
+            clozeHtml: `• Diện tích khu vực là: $S =$ <input id="c1" class="cloze-box-input" placeholder="Nhập..."> ($\\text{m}^2$)<br>• Tổng số viên gạch cần dùng là: <input id="c2" class="cloze-box-input" placeholder="Nhập..."> (<input id="c3" class="cloze-box-input" placeholder="Đơn vị">)`,
+            clozeAns: [v.b4_area, v.b4_tiles, "VIÊN"]
+          },
+          {
+            title: "Câu 5: Điểm 10 Chia Hết",
+            points: "0,5 điểm",
+            problem: `Cho $S = 1 + 3 + 3^2 + 3^3 + \\dots + 3^{11}$. <span class="${sigClass}">Chứng minh $S \\vdots 13$</span> và <span class="${sigClass}">$S \\vdots 40$</span>.`,
+            media: ``,
+            flow: [
+              `Cộng thử 3 số đầu: $1 + 3 + 3^2 = 1 + 3 + 9 = 13$ (chia hết cho $13$!).`,
+              `Ghép $12$ số hạng của $S$ thành $4$ nhóm, mỗi nhóm $3$ số hạng liên tiếp.`,
+              `Đặt $13$ làm thừa số chung: $S = 13 \\cdot (1 + 3^3 + 3^6 + 3^9) \\vdots 13$.`
+            ],
+            easyGuide: `🌱 <b>Bí kíp chinh phục câu $0,5$ điểm:</b> Đừng sợ dãy số dài! Em chỉ cần cộng thử $2, 3$ hoặc $4$ số đầu tiên. Thấy $1 + 3 + 3^2 = 13$ thì cứ thế chia đều cả dãy thành các nhóm $3$ số hạng!`,
+            traps: `⚠️ <b>Lưu ý nhỏ:</b> Khi rút $3^3$ ra khỏi nhóm $(3^3 + 3^4 + 3^5)$, bên trong ngoặc phải còn số $1$ đầu tiên: $3^3 \\cdot (1 + 3 + 3^2)$.`,
+            steps: [
+              { score: "+0,15đ", line: `$S = (1 + 3 + 3^2) + (3^3 + 3^4 + 3^5) + (3^6 + 3^7 + 3^8) + (3^9 + 3^{10} + 3^{11})$`, tip: "Bước 1: Nhóm 12 số hạng thành 4 nhóm, mỗi nhóm gồm 3 số hạng liên tiếp." },
+              { score: "+0,15đ", line: `$S = (1 + 3 + 3^2) + 3^3(1 + 3 + 3^2) + 3^6(1 + 3 + 3^2) + 3^9(1 + 3 + 3^2)$`, tip: "Bước 2: Đặt lũy thừa nhỏ nhất của mỗi nhóm (3³, 3⁶, 3⁹) ra ngoài ngoặc." },
+              { score: "+0,10đ", line: `$S = 13 \\cdot (1 + 3^3 + 3^6 + 3^9) \\vdots 13$ (điều phải chứng minh).`, tip: "Bước 3: Vì 1 + 3 + 3² = 13 nên đặt 13 làm nhân tử chung ⇒ Chia hết cho 13!" },
+              { score: "+0,10đ", line: `Tương tự ghép nhóm 4 số hạng: $S = 40 \\cdot (1 + 3^4 + 3^8) \\vdots 40$.`, tip: "Bước 4: Vì 1 + 3 + 3² + 3³ = 40 nên ghép nhóm 4 số hạng suy ra ngay S ⋮ 40!" }
+            ],
+            clozeHtml: `• Tổng 3 số đầu: $1 + 3 + 3^2 =$ <input id="c1" class="cloze-box-input" placeholder="Nhập..."><br>• Tổng 4 số đầu: $1 + 3 + 3^2 + 3^3 =$ <input id="c2" class="cloze-box-input" placeholder="Nhập...">`,
+            clozeAns: ["13", "40"]
+          }
+        ];
+      } else if (currentCourse === 'K7_CORE') {
+        return [
+          {
+            title: "Toán 7: Dãy Tỉ Số Bằng Nhau",
+            points: "2,0 điểm",
+            problem: `Ba lớp 7A, 7B, 7C trồng cây xanh. Biết số cây ba lớp <span class="${sigClass}">tỉ lệ với $3; 4; 5$</span> và <span class="${sigClass}">tổng số cây là $108$ cây</span>. Tính số cây mỗi lớp.`,
+            media: ``,
+            flow: [
+              `Gọi số cây ba lớp 7A, 7B, 7C lần lượt là $x, y, z$ (cây), điều kiện $x, y, z \\in \\mathbb{N}^*$.`,
+              `Lập dãy tỉ số: $\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5}$ và $x + y + z = 108$.`,
+              `Áp dụng tính chất dãy tỉ số bằng nhau: $\\frac{x+y+z}{3+4+5} = \\frac{108}{12} = 9$.`
+            ],
+            easyGuide: `🌱 <b>Hiểu nhanh bản chất:</b> Lớp 7A chiếm $3$ phần, 7B chiếm $4$ phần, 7C chiếm $5$ phần. Tổng cộng có $3+4+5 = 12$ phần ứng với $108$ cây, nên mỗi phần là $108 : 12 = 9$ cây!`,
+            traps: `⚠️ <b>Nhớ ghi câu dẫn ăn điểm:</b> <i>"Áp dụng tính chất của dãy tỉ số bằng nhau, ta có:"</i> trước khi cộng các tử số và mẫu số.`,
+            steps: [
+              { score: "+0,25đ", line: `Gọi số cây của ba lớp 7A, 7B, 7C lần lượt là $x, y, z$ (cây), điều kiện: $x, y, z \\in \\mathbb{N}^*$.`, tip: "Bước 1: Gọi ẩn x, y, z kèm đơn vị (cây) và điều kiện thuộc N*." },
+              { score: "+0,50đ", line: `Theo đề bài, ta có: $\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5}$ và $x + y + z = 108$.`, tip: "Bước 2: Viết dãy tỉ số bằng nhau và phương trình tổng số cây." },
+              { score: "+0,75đ", line: `Áp dụng tính chất của dãy tỉ số bằng nhau: $\\frac{x}{3} = \\frac{y}{4} = \\frac{z}{5} = \\frac{x+y+z}{3+4+5} = \\frac{108}{12} = 9$.`, tip: "Bước 3: Viết câu dẫn chuẩn SGK và tìm ra giá trị tỉ số chung bằng 9." },
+              { score: "+0,50đ", line: `Suy ra: $x = 27;\\; y = 36;\\; z = 45$ (Thỏa mãn ĐK). Vậy ba lớp trồng được $27, 36, 45$ cây.`, tip: "Bước 4: Nhân 9 với 3, 4, 5 rồi đối chiếu điều kiện và kết luận." }
+            ],
+            clozeHtml: `• Điều kiện: $x, y, z \\in$ <input id="c1" class="cloze-box-input" placeholder="Nhập..."><br>• Giá trị tỉ số chung $\\frac{108}{12} =$ <input id="c2" class="cloze-box-input" placeholder="Nhập..."> $\\Rightarrow x =$ <input id="c3" class="cloze-box-input" placeholder="Nhập...">`,
+            clozeAns: ["N*", "9", "27"]
+          }
+        ];
+      } else if (currentCourse === 'K8_CORE') {
+        return [
+          {
+            title: "Toán 8: Rút Gọn Phân Thức",
+            points: "2,0 điểm",
+            problem: `Cho $P = \\left(\\frac{x}{x-2} + \\frac{2}{x+2} + \\frac{8}{x^2-4}\\right) : \\frac{x+1}{x-2}$ <span class="${sigClass}">với $x$ khác $\\pm 2$ và $x$ khác $-1$</span>.<br><b>a)</b> Rút gọn $P$. &nbsp;&nbsp; <b>b)</b> Tính giá trị của $P$ khi $x = 4$.`,
+            media: ``,
+            flow: [
+              `Nhận ra mẫu thứ ba $x^2 - 4 = (x - 2)(x + 2)$ chính là mẫu thức chung.`,
+              `Quy đồng trong ngoặc thu được tử số $x^2 + 4x + 4 = (x + 2)^2$.`,
+              `Nhân nghịch đảo với $\\frac{x-2}{x+1}$ để rút gọn ra $P = \\frac{x+2}{x+1}$.`
+            ],
+            easyGuide: `🌱 <b>Mẹo kiểm tra kết quả rút gọn 100% đúng:</b> Em chọn $x = 5$ thay vào đề bài ban đầu và thay vào kết quả $\\frac{x+2}{x+1}$, cả hai đều ra $\\frac{7}{6}$ là yên tâm tuyệt đối!`,
+            traps: `⚠️ <b>Đừng quên ở câu b:</b> Khi thay $x = 4$, nhớ mở ngoặc ghi chữ <b>(thỏa mãn điều kiện xác định)</b> để không mất $0,25$ điểm.`,
+            steps: [
+              { score: "+0,25đ", line: `$a)$ Với $x$ khác $\\pm 2;\\; x$ khác $-1$, ta có: $P = \\frac{x(x+2) + 2(x-2) + 8}{(x-2)(x+2)} : \\frac{x+1}{x-2}$`, tip: "Bước 1: Trích lại ĐKXĐ và quy đồng mẫu thức chung (x - 2)(x + 2)." },
+              { score: "+0,75đ", line: `$P = \\frac{x^2 + 4x + 4}{(x-2)(x+2)} \\cdot \\frac{x-2}{x+1} = \\frac{(x+2)^2}{(x-2)(x+2)} \\cdot \\frac{x-2}{x+1}$`, tip: "Bước 2: Đưa tử thức về hằng đẳng thức (x + 2)² và đổi phép chia thành nhân nghịch đảo." },
+              { score: "+0,50đ", line: `$P = \\frac{x+2}{x+1}$. Vậy với $x$ khác $\\pm 2;\\; x$ khác $-1$ thì $P = \\frac{x+2}{x+1}$.`, tip: "Bước 3: Rút gọn nhân tử chung và kết luận câu a." },
+              { score: "+0,50đ", line: `$b)$ Thay $x = 4$ (thỏa mãn ĐKXĐ) vào $P$, ta được: $P = \\frac{4+2}{4+1} = \\frac{6}{5}$.`, tip: "Bước 4: Ghi (thỏa mãn ĐKXĐ) rồi thay số tính ra 6/5." }
+            ],
+            clozeHtml: `• Rút gọn câu a được $P = (x+2)/$ <input id="c1" class="cloze-box-input" placeholder="Nhập..."><br>• Thay $x = 4$ (<input id="c2" class="cloze-box-input" placeholder="Nhập...">) vào $P$ được kết quả bằng <input id="c3" class="cloze-box-input" placeholder="Nhập...">`,
+            clozeAns: ["X+1", "TMĐK", "6/5"]
+          }
+        ];
+      } else {
+        return [
+          {
+            title: "Toán 9: Hệ Thức Vi-ét",
+            points: "1,5 điểm",
+            problem: `Cho phương trình $x^2 - 2(m+1)x + m^2 + 2 = 0$. Tìm $m$ để phương trình <span class="${sigClass}">có hai nghiệm phân biệt $x_1, x_2$</span> thỏa mãn <span class="${sigClass}">$x_1^2 + x_2^2 = 10$</span>.`,
+            media: ``,
+            flow: [
+              `Bước 1: Tìm điều kiện có 2 nghiệm phân biệt $\\Delta' = 2m - 1 > 0 \\Leftrightarrow m > \\frac{1}{2}$.`,
+              `Bước 2: Viết hệ thức Vi-ét: $x_1 + x_2 = 2(m+1)$ và $x_1x_2 = m^2 + 2$.`,
+              `Bước 3: Thay vào $(x_1+x_2)^2 - 2x_1x_2 = 10$, giải ra $m = 1$ (nhận) và $m = -5$ (loại).`
+            ],
+            easyGuide: `🌱 <b>Quy tắc 4 bước ăn trọn điểm Vi-ét:</b> (1) Tính $\\Delta' > 0$ $\\rightarrow$ (2) Viết Tổng và Tích Vi-ét $\\rightarrow$ (3) Biến đổi biểu thức đề bài $\\rightarrow$ (4) Đối chiếu điều kiện $\\Delta' > 0$ để loại nghiệm.`,
+            traps: `⚠️ <b>Hai lỗi hay gặp nhất:</b><br>• Quên điều kiện $\\Delta' > 0$ ở đầu bài.<br>• Khi bình phương $[2(m+1)]^2$ quên bình phương số $2$ thành $4(m+1)^2$.`,
+            steps: [
+              { score: "+0,25đ", line: `Ta có $\\Delta' = (m+1)^2 - (m^2+2) = 2m - 1$. Để PT có $2$ nghiệm phân biệt thì $\\Delta' > 0 \\Leftrightarrow m > \\frac{1}{2}$.`, tip: "Bước 1: Tìm điều kiện Δ' > 0 trước khi áp dụng hệ thức Vi-ét." },
+              { score: "+0,25đ", line: `Với $m > \\frac{1}{2}$, theo hệ thức Vi-ét ta có: $x_1 + x_2 = 2(m+1)$ và $x_1x_2 = m^2 + 2$.`, tip: "Bước 2: Viết rõ Tổng và Tích hai nghiệm theo tham số m." },
+              { score: "+0,50đ", line: `Ta có: $x_1^2 + x_2^2 = 10 \\Leftrightarrow (x_1+x_2)^2 - 2x_1x_2 = 10 \\Rightarrow 4(m+1)^2 - 2(m^2+2) = 10 \\Leftrightarrow m^2 + 4m - 5 = 0$.`, tip: "Bước 3: Đưa về tổng và tích rồi thu gọn phương trình bậc hai theo m." },
+              { score: "+0,50đ", line: `Giải ra: $m = 1$ (Thỏa mãn $m > \\frac{1}{2}$) hoặc $m = -5$ (Loại). Vậy $m = 1$.`, tip: "Bước 4: Đối chiếu điều kiện m > 1/2 để loại m = -5 và kết luận." }
+            ],
+            clozeHtml: `• Điều kiện $\\Delta' > 0 \\Leftrightarrow m >$ <input id="c1" class="cloze-box-input" placeholder="Nhập..."><br>• Giải ra $m = 1$ (Nhận) và $m = -5$ (<input id="c2" class="cloze-box-input" placeholder="Nhập...">). Vậy $m =$ <input id="c3" class="cloze-box-input" placeholder="Nhập...">`,
+            clozeAns: ["1/2", "LOẠI", "1"]
+          }
+        ];
+      }
+    }
+
+    /* ============================================================================
+     * ZERO-LEAK 2-PHASE ASSESSMENT MODULE (Web Crypto API — 06:00 AM AI Librarian)
+     * - Phase 1: HMAC-SHA256 one-way answer verification (prevents F12 peeking)
+     * - Phase 2: AES-256-GCM solution & step commentary decryption upon submission
+     * ============================================================================ */
+    const ZeroLeakAssessment = {
+      normalize(str) {
+        return String(str || '').trim().toUpperCase().replace(/\s+/g, '');
+      },
+      bytesToHex(buf) {
+        return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+      },
+      hexToBytes(hex) {
+        const clean = String(hex || '').trim();
+        const out = new Uint8Array(clean.length / 2);
+        for (let i = 0; i < out.length; i++) out[i] = parseInt(clean.substr(i * 2, 2), 16);
+        return out;
+      },
+      async computeHmac(questionId, inputVal, saltHex) {
+        const enc = new TextEncoder();
+        const key = await window.crypto.subtle.importKey(
+          'raw',
+          enc.encode(`${questionId}:${saltHex}`),
+          { name: 'HMAC', hash: 'SHA-256' },
+          false,
+          ['sign']
+        );
+        const sig = await window.crypto.subtle.sign('HMAC', key, enc.encode(this.normalize(inputVal)));
+        return this.bytesToHex(sig);
+      },
+      async verifyAnswer(questionId, studentInput, saltHex, expectedHmacHex) {
+        if (!studentInput || !expectedHmacHex) return false;
+        const hashHex = await this.computeHmac(questionId, studentInput, saltHex);
+        return hashHex === expectedHmacHex.toLowerCase();
+      },
+      async encryptSolution(questionId, saltHex, payloadObj) {
+        const enc = new TextEncoder();
+        const seedHash = await window.crypto.subtle.digest('SHA-256', enc.encode(`${questionId}:SUBMITTED:${saltHex}`));
+        const aesKey = await window.crypto.subtle.importKey('raw', seedHash, { name: 'AES-GCM' }, false, ['encrypt']);
+        const iv = window.crypto.getRandomValues(new Uint8Array(12));
+        const cipherBuf = await window.crypto.subtle.encrypt({ name: 'AES-GCM', iv }, aesKey, enc.encode(JSON.stringify(payloadObj)));
+        return { ivHex: this.bytesToHex(iv), cipherHex: this.bytesToHex(cipherBuf) };
+      },
+      async unlockSolution(questionId, saltHex, cipherHex, ivHex) {
+        const enc = new TextEncoder();
+        const dec = new TextDecoder();
+        const seedHash = await window.crypto.subtle.digest('SHA-256', enc.encode(`${questionId}:SUBMITTED:${saltHex}`));
+        const aesKey = await window.crypto.subtle.importKey('raw', seedHash, { name: 'AES-GCM' }, false, ['decrypt']);
+        const decryptedBuf = await window.crypto.subtle.decrypt(
+          { name: 'AES-GCM', iv: this.hexToBytes(ivHex) },
+          aesKey,
+          this.hexToBytes(cipherHex)
+        );
+        return JSON.parse(dec.decode(decryptedBuf));
+      }
+    };
+    window.ZeroLeakAssessment = ZeroLeakAssessment;
+
+    let activeCryptoPack = null;
+
+    async function prepareActiveCryptoPack() {
+      const q = getQuestionsData()[currentQIndex];
+      const qId = `${currentCourse}_V${currentVariant}_Q${currentQIndex + 1}`;
+      const saltSeed = await window.crypto.subtle.digest('SHA-256', new TextEncoder().encode(`YD_MATH_2026:${qId}`));
+      const saltHex = ZeroLeakAssessment.bytesToHex(saltSeed).slice(0, 16);
+      const hashes = [];
+      for (let i = 0; i < q.clozeAns.length; i++) {
+        const h = await ZeroLeakAssessment.computeHmac(`${qId}_B${i + 1}`, q.clozeAns[i], saltHex);
+        hashes.push(h);
+      }
+      const encSol = await ZeroLeakAssessment.encryptSolution(qId, saltHex, {
+        clozeAns: q.clozeAns,
+        steps: q.steps
+      });
+      activeCryptoPack = {
+        questionId: qId,
+        saltHex,
+        clozeHmacHashes: hashes,
+        solutionIv: encSol.ivHex,
+        solutionCipher: encSol.cipherHex,
+        phase2Unlocked: false
+      };
+      const badge = document.getElementById('crypto2PhaseStatusBadge');
+      if (badge) {
+        badge.style.background = '#eff6ff';
+        badge.style.color = '#1d4ed8';
+        badge.style.borderColor = '#93c5fd';
+        badge.textContent = '🛡️ Pha 1: Khóa HMAC-SHA256 (Chống F12)';
+      }
+    }
+
+    function toggleFocusMode() {
+      document.body.classList.toggle('focus-mode');
+      let isFocus = document.body.classList.contains('focus-mode');
+      let btn = document.getElementById('focusBtn');
+      btn.classList.toggle('active', isFocus);
+      btn.innerText = isFocus ? "🎯 Chế Độ Tập Trung: ĐANG BẬT (Bấm để mở rộng)" : "🎯 Chế Độ Tập Trung: TẮT";
+    }
+
+    function setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      ['light', 'mint', 'dark'].forEach(t => {
+        document.getElementById('th-' + t).classList.toggle('active', t === theme);
+      });
+    }
+
+    function toggleSignalHighlight() {
+      highlightSignals = !highlightSignals;
+      document.getElementById('sigBtn').innerText = highlightSignals ? "💡 Tô sáng từ khóa: BẬT" : "💡 Tô sáng từ khóa: TẮT";
+      renderAll();
+    }
+
+    function selectCourse(c) {
+      currentCourse = c;
+      currentQIndex = 0;
+      currentStep = 1; // Always start cleanly at Step 1
+      ['K6_EXAM', 'K7_CORE', 'K8_CORE', 'K9_CORE'].forEach((code, idx) => {
+        document.getElementById('gBtn' + (idx + 6)).classList.toggle('active', code === c);
+      });
+      document.getElementById('variantRow').style.display = (c === 'K6_EXAM') ? 'flex' : 'none';
+      renderAll();
+    }
+
+    function selectVariant(v) {
+      currentVariant = v;
+      currentStep = 1;
+      [1, 2, 3, 4, 5].forEach(i => {
+        document.getElementById('vBtn' + i).classList.toggle('active', i === v);
+      });
+      renderAll();
+    }
+
+    function selectQuestion(idx) {
+      currentQIndex = idx;
+      currentStep = 1; // Start at Step 1 so student is never hit by a wall of text
+      renderAll();
+    }
+
+    function switchHelperTab(t) {
+      currentHelperTab = t;
+      [1, 2, 3].forEach(i => {
+        document.getElementById('hTab' + i).classList.toggle('active', i === t);
+      });
+      renderHelperArea();
+      renderMathInContainer();
+    }
+
+    function switchNotebookMode(m) {
+      currentNotebookMode = m;
+      [1, 2, 3].forEach(i => {
+        document.getElementById('modeBtn' + i).classList.toggle('active', i === m);
+      });
+      document.getElementById('stepBar').style.display = (m === 1) ? 'flex' : 'none';
+      renderNotebook();
+      renderMathInContainer();
+    }
+
+    function setStep(s) {
+      currentStep = s;
+      renderNotebook();
+      renderMathInContainer();
+    }
+
+    function nextStep() {
+      let qs = getQuestionsData();
+      let maxS = qs[currentQIndex].steps.length;
+      currentStep = (currentStep < maxS) ? (currentStep + 1) : 1;
+      renderNotebook();
+      renderMathInContainer();
+    }
+
+    function showAllSteps() {
+      let qs = getQuestionsData();
+      currentStep = qs[currentQIndex].steps.length;
+      renderNotebook();
+      renderMathInContainer();
+    }
+
+    function renderHelperArea() {
+      let q = getQuestionsData()[currentQIndex];
+      let box = document.getElementById('helperContentArea');
+      if (currentHelperTab === 1) {
+        let html = `<div class="flow-steps">`;
+        q.flow.forEach((f, idx) => {
+          html += `<div class="flow-pill"><div class="flow-num">${idx + 1}</div><div>${f}</div></div>`;
+        });
+        html += `</div>`;
+        box.innerHTML = html;
+      } else if (currentHelperTab === 2) {
+        box.innerHTML = `<div style="background:var(--bg-subtle); border:1px solid var(--border); padding:14px; border-radius:12px; font-size:14.5px; line-height:1.65;">${q.easyGuide}</div>`;
+      } else {
+        box.innerHTML = `<div style="background:#fef2f2; border:1px solid #fecaca; border-left:4px solid #ef4444; color:#991b1b; padding:14px; border-radius:12px; font-size:14px; line-height:1.65;">${q.traps}</div>`;
+      }
+    }
+
+    function renderNotebook() {
+      let q = getQuestionsData()[currentQIndex];
+      let dotsBox = document.getElementById('stepDotsBox');
+      let paper = document.getElementById('notebookPaper');
+
+      let dotsHtml = '';
+      q.steps.forEach((st, idx) => {
+        let sNum = idx + 1;
+        dotsHtml += `<button class="step-dot ${sNum === currentStep ? 'active' : ''}" onclick="setStep(${sNum})">Bước ${sNum} (${st.score})</button>`;
+      });
+      dotsBox.innerHTML = dotsHtml;
+
+      if (currentNotebookMode === 1) {
+        let html = `<div style="font-size:13px; font-weight:800; color:#dc2626; margin-bottom:8px;">BÀI LÀM MẪU TRÊN VỞ Ô LY (ĐANG XEM BƯỚC ${currentStep}/${q.steps.length}):</div>`;
+        for (let i = 0; i < currentStep; i++) {
+          let isCur = (i === currentStep - 1);
+          html += `<div class="ink-row ${isCur ? 'active-row' : ''}">${q.steps[i].line} <span class="point-chip">${q.steps[i].score}</span></div>`;
+        }
+        html += `<div class="teacher-tip"><span>👩‍🏫</span><div><b>Cô giáo hướng dẫn:</b> ${q.steps[currentStep - 1].tip}</div></div>`;
+        paper.innerHTML = html;
+      } else if (currentNotebookMode === 2) {
+        paper.innerHTML = `
+          <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:8px;">
+            <div style="font-size:13.5px; font-weight:800; color:#1d4ed8;">✍️ EM HÃY ĐIỀN VÀO Ô TRỐNG (BẢO MẬT 2 PHA WEB CRYPTO):</div>
+            <span style="font-size:11.5px; background:#eff6ff; color:#1e40af; padding:2px 8px; border-radius:12px; border:1px solid #bfdbfe; font-weight:700;">
+              🔐 HMAC-SHA256 + AES-256-GCM (Chống F12)
+            </span>
+          </div>
+          <div>${q.clozeHtml}</div>
+          <div style="margin-top:14px; display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+            <button class="btn-next-ink" onclick="checkCloze()">✅ Kiểm Tra Đáp Án (Pha 1 — HMAC-SHA256)</button>
+            <button class="step-dot" style="border-color:#0d9488; color:#0f766e;" onclick="unlockClozePhase2()">🔓 Nộp Bài & Giải Mã Đáp Án (Pha 2 — AES-256-GCM)</button>
+            <span id="clozeFeedback" style="font-weight:800; color:#15803d;"></span>
+          </div>
+          <div id="cryptoUnlockedBox" style="display:none; margin-top:12px; background:#f0fdf4; border:1px solid #86efac; border-radius:10px; padding:10px 14px; font-size:13.5px; line-height:1.6;"></div>
+        `;
+      } else {
+        paper.innerHTML = `
+          <div style="font-size:13.5px; font-weight:800; color:#1d4ed8; margin-bottom:8px;">📄 TỰ TRÌNH BÀY LẠI BÀI LÀM CỦA EM:</div>
+          <textarea rows="4" style="width:100%; background:transparent; border:1px dashed #3b82f6; border-radius:10px; padding:10px; font-size:15px; line-height:32px; color:#0f172a;" placeholder="Em có thể gõ thử lời giải vào đây hoặc viết ra vở ô ly thật..."></textarea>
+          <div style="margin-top:10px; background:#f8fafc; border:1px solid #cbd5e1; padding:10px 14px; border-radius:10px; font-size:13.5px; line-height:1.7;">
+            <b style="color:#dc2626;">☑️ Tự kiểm tra 3 điều trước khi nộp bài:</b><br>
+            <label><input type="checkbox" checked> Đã ghi đủ điều kiện và đơn vị đo?</label><br>
+            <label><input type="checkbox" checked> Đã có câu lập luận rõ ràng?</label><br>
+            <label><input type="checkbox" checked> Đã viết câu kết luận "Vậy..." ở cuối bài?</label>
+          </div>
+        `;
+      }
+    }
+
+    async function checkCloze() {
+      if (!activeCryptoPack) await prepareActiveCryptoPack();
+      const total = activeCryptoPack.clozeHmacHashes.length;
+      let ok = 0;
+      for (let i = 0; i < total; i++) {
+        const inputEl = document.getElementById('c' + (i + 1));
+        const val = (inputEl?.value || '').trim();
+        const isMatch = await ZeroLeakAssessment.verifyAnswer(
+          `${activeCryptoPack.questionId}_B${i + 1}`,
+          val,
+          activeCryptoPack.saltHex,
+          activeCryptoPack.clozeHmacHashes[i]
+        );
+        if (inputEl) {
+          inputEl.style.borderColor = isMatch ? '#16a34a' : '#dc2626';
+          inputEl.style.background = isMatch ? '#dcfce7' : '#fef2f2';
+        }
+        if (isMatch) ok++;
+      }
+      document.getElementById('clozeFeedback').innerHTML = `🛡️ [Xác thực HMAC-SHA256 Pha 1]: Em đã điền đúng <b>${ok}/${total}</b> ô trống!`;
+    }
+
+    async function unlockClozePhase2() {
+      if (!activeCryptoPack) await prepareActiveCryptoPack();
+      await checkCloze();
+      const decrypted = await ZeroLeakAssessment.unlockSolution(
+        activeCryptoPack.questionId,
+        activeCryptoPack.saltHex,
+        activeCryptoPack.solutionCipher,
+        activeCryptoPack.solutionIv
+      );
+      activeCryptoPack.phase2Unlocked = true;
+      const badge = document.getElementById('crypto2PhaseStatusBadge');
+      if (badge) {
+        badge.style.background = '#dcfce7';
+        badge.style.color = '#166534';
+        badge.style.borderColor = '#86efac';
+        badge.textContent = '🔓 Pha 2: Đã Giải Mã AES-256-GCM';
+      }
+      const box = document.getElementById('cryptoUnlockedBox');
+      if (box) {
+        box.style.display = 'block';
+        box.innerHTML = `
+          <div style="font-weight:800; color:#166534; margin-bottom:4px;">🔓 ĐÃ GIẢI MÃ ĐÁP ÁN PHA 2 (Web Crypto AES-256-GCM):</div>
+          <div>• <b>Đáp án chuẩn các ô trống:</b> ${decrypted.clozeAns.map((a, idx) => `Ô ${idx + 1}: <code>${a}</code>`).join(' &nbsp;|&nbsp; ')}</div>
+        `;
+      }
+    }
+
+    function renderAll() {
+      let qs = getQuestionsData();
+      let qBar = document.getElementById('questionTabsBar');
+      qBar.innerHTML = '';
+      qs.forEach((q, idx) => {
+        let b = document.createElement('button');
+        b.className = 'q-tab' + (idx === currentQIndex ? ' active' : '');
+        b.innerText = q.title;
+        b.onclick = () => selectQuestion(idx);
+        qBar.appendChild(b);
+      });
+
+      let curQ = qs[currentQIndex];
+      document.getElementById('pointBadge').innerText = `Điểm câu này: ${curQ.points}`;
+      document.getElementById('problemBox').innerHTML = curQ.problem;
+      document.getElementById('visualMediaBox').innerHTML = curQ.media || '';
+
+      prepareActiveCryptoPack();
+      renderHelperArea();
+      renderNotebook();
+      renderMathInContainer();
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      renderAll();
+      setTimeout(renderMathInContainer, 300);
+    });
+  </script>
+</body>
+</html>

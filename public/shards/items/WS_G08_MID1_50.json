@@ -1,0 +1,1659 @@
+{
+  "worksheet_id": "WS_G08_MID1_50",
+  "title": "Lớp 8 — Đề Kiểm Tra Giữa Học Kỳ I (50 Câu Chuẩn Global Success)",
+  "grade": 8,
+  "unit_scope": "G08_U01",
+  "question_count": 50,
+  "questions": [
+    {
+      "question_id": "Q_WS_G08_MID1_50_001",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Choose the word with a different vowel sound.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>moon</b>",
+        "<b>book</b>",
+        "<b>look</b>",
+        "<b>cook</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>moon</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>moon</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "a50401c5add9c091",
+      "answer_hash": "a14622a44faadd56253a40327f81c9dd225593f23cdba777ff8703079b6ec4dc",
+      "solution_iv": "6365b08fc74007375e810ff0",
+      "solution_cipher": "e0113273ccc838ef0a4510a2eaa8a4e0de8c7d5e2b2a6e7561beae9e4f1e7c86dc680c76f25709608de1a2d99475a0a08a74178096d4d165dc2154960b1f1815ac64aaa2dcb1593d2f4f32247c8211e073898a54c683560359a131b08c33757869318f8b303c157f1cfde02d34b79fa8d7ba459cc7707fa557a8a62253398d86726562a0c8bc3169bfa14ab2cedbf9d4f7461194bbd6519bdddb540958c1f492a25b67074a9faeeeb274f500d9f0612c9be3bf7075298ca7b01cca17b558b8d544"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_002",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Choose the word with a different vowel sound.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>food</b>",
+        "<b>foot</b>",
+        "<b>school</b>",
+        "<b>room</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>foot</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>foot</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "ba6db57197e62a6b",
+      "answer_hash": "0d396a9209d280ca36411b9342971eb6cbb83878922d25a1dc2ad65b22aa087b",
+      "solution_iv": "b1167999532d2812cd3a40d7",
+      "solution_cipher": "31ed1fad1eac827e2eb7e49dc443be115523d2b5df97e4182af966254a164cc72aae049b1195854c2b52be98b92d356620a3fdebb580b691e92152ce898ff3aa9d9f2e4c31e6c719e169774f4a3db02aa8652b13a68afe36b1790f5f9cbeed2f87bbd4f7dd64f6c9c08271566f6aa0a9488986a1c485f88ba6bdff622fb0c1c0e2d328238f321e5ea2019774291c8f8324d17dd8e5e48b6849ea2e5bbf303b509f0a5a2feff725fa975db7a48fad1a78295776ded126147430f3a842659eae9781"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_003",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Choose the word with a different vowel sound.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>boy</b>",
+        "<b>coin</b>",
+        "<b>book</b>",
+        "<b>toy</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>book</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>book</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "e33901bc85dfbe75",
+      "answer_hash": "fb603d870634106b5c8b3e1bed6f65831cc1240764f56505681410e0693f3384",
+      "solution_iv": "e15b86297d0cd35976cec463",
+      "solution_cipher": "def42cd6e2af6d2b0911a2a965dc8c699fa4b7a6185290cc1019736578135dffbc174f40410a7625f6b5c83bd6f9646b71fb46b9ec372c8974ccf75276b8ca7f45d68c3746f5fc707738cc105d08276ac1e3f6cb3b06a1114cb03149b7f7f1b5b71f6708d6c3020794f3cb52de96efb5d4d66dd06d330e5a516f97533ed3325af9b758073b3cab52df4936dc4db4c5c60b1bf72ce7681eb2cda888472239ef68e64bd485daebba4d451964583f31f127ba18dbfd86e9931689e6528d1d1a13300b"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_004",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Choose the word whose first vowel sound is different.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>village</b>",
+        "<b>about</b>",
+        "<b>picnic</b>",
+        "<b>river</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>about</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>about</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "815aadec2b0586df",
+      "answer_hash": "420c1c7cf13974d9cc0c44d7c39bc360bdc1bef16bdfcd150a6bbdb42e774cb7",
+      "solution_iv": "a61c8723345de07925c715c1",
+      "solution_cipher": "4711a7b52b5d13cd56e9eb3ad64693574ea383f996818e398d2e499f1d5b1cd04cf305acb19324c5fcbca3212afe4ba202f70a92aec7719f5e9fb644908091ea06ff0a2bd2e39bc56519b7e1f701b78f01a17944f4aece843ff6173a03105512181c5eee8becf54cd23e778844c44e8d7662f97bfd150f09a9dc3d488a55af23306514a508696f201ef94de36d2c6af51658e755dd4622b4eb3e89c85b0e99571791ffed3b04d21d21587a10c0b0460df14d658f8975fd06fb3ba1cadf9ab40fc26d58"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_005",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "<b>Choose the word with a different main stress pattern.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>countryside</b>",
+        "<b>enjoy</b>",
+        "<b>relax</b>",
+        "<b>prefer</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>countryside</b>"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>countryside</b>). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "08fc8516b2cb4b9a",
+      "answer_hash": "c1cba882328a2814f9afec5829a2feda1c67b88591d805d24304379de30193ac",
+      "solution_iv": "f380890f8e62ba9db0fef50d",
+      "solution_cipher": "25e00c500db55688c74238978520ce080701915494a9038ab11118a7774bd5b363f9337800b4145fe9a26bed1cbb31a3ae3e0917a76c6ac5becdd9877006f61842f8e8cb5783f0e6e32029b0e295ab1e246e53f67bbdba32307caea487732af3195e0a0d51f4f1a6b0dad1f4c82ce37f4541dd2b5341226a42754000f1bf3f71d0a970dce9fddc496ce2fe80bdb4fa3bd3fbf444120a4aa38cbe924e31c3a8b51d03870a305518dd1552e10ad812976eb55e1ffb441bb3fa6aad45ba13a2573af70848ddb2bd7cd19297d4967c5b7d"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_006",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>In her leisure time, Hoa enjoys ______ bracelets for her friends.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>make</b>",
+        "<b>to making</b>",
+        "<b>made</b>",
+        "<b>making</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>making</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>making</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "f6f842cde7773d94",
+      "answer_hash": "0da0fd1689dd1bd7d5dc02c69a244dbbb51fc517cc8440bb8fdd952aa1cc8b97",
+      "solution_iv": "098409a21c686ac242d25d4e",
+      "solution_cipher": "1f6674ae0d960f703cce8a58216b2bfe986ab6a230c72d82e3248b026b564539d8f6186b23f43f37f867564177ffc3a1fc8d458d43ad1479e6e0fb89a6b4a8cf5fa9658899f83bc63d3668e4faa22aef04adc4e0cc03b1c78eb4a43e6930e4d79ebc3dba9dd910ea973e6090a5516767684f7a417921d5b8fbf623153bf85dcc08313d4a5c06a89732cf19b620f22acd5d89e2396c44695be79a4f6688e2284ea0b45c4ecbe159354e9e20d8836b474d5528359b13670cbb785776ac21fbbac0bab268c39c"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_007",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>I usually ______ the Internet to find DIY ideas.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>make</b>",
+        "<b>go</b>",
+        "<b>play</b>",
+        "<b>surf</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>surf</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>surf</b>). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "91ff920c59957aca",
+      "answer_hash": "37b2dd5a3cfdba4c0635e2c18f0b6138635006a4467a9a60fa066d8b02e36405",
+      "solution_iv": "6eb4399598f6803b7416987f",
+      "solution_cipher": "d2c1f483e7bc8c6eba5f8b2a33e58a15deaed55174ee92eded1d02fb5367d7b1f98dba4c949c6908ef6913a87f64c0c5b1f3416c10576d86787346187f55ff5bb80df07bb5ed84c6e5d3492a92996500063a4c49c02b3f57e60595c3c239b3bbf2922521697acaea15616b31533c44347bbeedf911df57011f382d69e7ca0a0e60b26569fba4c9adab3a618d498fff118b80ba9c50e802072521b48665d390d4aab5fbb0eb035e36eac010b4d9ed3a49424f59f5bcbfc51f70528fd7f1f76f893f472e7d57"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_008",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>My brother is keen on ______ models from recycled paper.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>build</b>",
+        "<b>built</b>",
+        "<b>building</b>",
+        "<b>to build</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>building</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>building</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "7555601c87835e03",
+      "answer_hash": "2905cc1b2bf80fe65e44acd01901b0e24786adcb701ec13d8f30a10114e1fce8",
+      "solution_iv": "1122d61b85bdd6d1d47ea101",
+      "solution_cipher": "8a50f02bcb77d25671b291712625fbb22364c476cc7159f6d954dfb671fc6688999eeec4cda1b2250760e87a9c6737897978e8f2462cf01fb23703614209a83c13510ecea40e04bc718b79bac9cdf0841b83d9f0bf6394316ebfc56ea19bd6beaf8cd8448bb578d6a95e9e86f9672134faee8d920c5e38eaf61f40457780e0b920d494fddc58f467435850f086153323d69cb53a073fcbd2b876c964bf5e1fada163e1cdfbee2be1246789fc67f34444cccd83b589e64663362eeb796c936981ae15ab863316dded2a"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_009",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>My sister would like ______ a photography club.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>joining</b>",
+        "<b>to join</b>",
+        "<b>joined</b>",
+        "<b>join</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>to join</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>to join</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "cdf54ebff23fdf8b",
+      "answer_hash": "45ad535f01f95893d0e288cfad5ddc504ebb63caabef4ade32b4c3e5cfc6a122",
+      "solution_iv": "8fc0b82a9e4ebc1d78a2bd91",
+      "solution_cipher": "3403acfd28ad489161860a22b467c64de23692549e0535745a19a66011299be55cb4ef6599e89ca0d7abe34a554c179e2e3d451c45f0a7bc240bbe2f21f39e11bd105c5301f81bf50f38ca123da67e25c37e1e9a6ba74f1dae778b77fdc901063868192eeaa5b5fd66b29288ea99c38bed5076738a58f5f29a75338cf664b981bf6793520931356c9fd6371f6f2170873d6a0a232f0518a6c78b6e35892d61a6bbbe419180fa14ee1829e7b7af2a164fe2f5ed042026597c410f852b9c778ab315087f7bb01399"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_010",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>They dislike ______ noisy games late at night.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>play</b>",
+        "<b>to playing</b>",
+        "<b>playing</b>",
+        "<b>played</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>playing</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>playing</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "f26ef9d4d6628237",
+      "answer_hash": "83d6fabe8497a4548a4600f11c5f94a78ed0e71a5e0608e5bc0a7bb1ec8ecc76",
+      "solution_iv": "5370448c132106caddfe4371",
+      "solution_cipher": "1dfd59600ac661777c4fbc38e9ac65791c82ae65ee3aa2e931ee2fbe05ed2412a3c861cb7c16bc43fc6f2320bd15ce6feb2c94f7ba3e7080b419822a68d7f56f1157db0ff0e08c5611d5931367ed52606f16c901d81b6b5cf8e62858487ac257f22af52cc44bfc0d7d0d61821041d907024b552e982813ec2690d0cd906a54a21fe51550a33558d081210413b945a3754e52a4a9ca45e7a4a6995333f6faa769011c652601526b60b683029ed4f5b5fe96cb91837ccfc1ffdf09fc266889395ee41405c59d6b1f"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_011",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Many teenagers enjoy ______ with friends after school.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>hang out</b>",
+        "<b>to hanging out</b>",
+        "<b>hanging out</b>",
+        "<b>hung out</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>hanging out</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>hanging out</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "7fbf83f8fa0b1241",
+      "answer_hash": "277849eb1aa8bf1cb1ce6887112656bacaa2e9326171eaa1e6d9687eaa3b752d",
+      "solution_iv": "03502d89709525f58c46770b",
+      "solution_cipher": "6355281e055e7d1a5f6ea8823b4f881256ea22c3c8dda33488abf658ba64d7c47a68a54e896183cf3b47441e7da5f7f4e4dd4c25c6cda6209ecdc4c1674526ceae7ad990544f4275d262826c5f060407a59a9b131e89c8bb8e68c64a86f0dd28733ab6bc4dd9deda188cf14ae4ac7d15d8eab3da821ca319eeb5f0e45fa965b3823fa82665901a930b5388a57f1c3010c7583c21cf991574cbbc1e22ee57169dae9720a78bdcbf3d1d797e99323b7a34206ed926c3a3cfb9c38dbb147fe77e17a9a2c9572bb1ccea731b88f3b372f4"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_012",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>My grandfather often works in the ______ to grow rice.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>paddy field</b>",
+        "<b>shopping centre</b>",
+        "<b>cinema</b>",
+        "<b>bookshop</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>paddy field</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>paddy field</b>). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "4aacb13eab01aa68",
+      "answer_hash": "e17b71bbfe6589fd966e4592831e10996a44fd26d388f70500fa4330dd21318f",
+      "solution_iv": "481fd5246087fc39e62a55db",
+      "solution_cipher": "66750146256f48f3ebce3a9bf85433e2e7c5bc62adc3be93bd28f458e2468adc823c1d86d57429425196fd4ed69cdaffd4cd5c54b7dd97e4319057640922eececbb8e7cb7d0ad905aae7da1a39dfd33eff4b63fe908c01c34d1a3ea2d0618cd131a507be1fb2b240ba4836a2bbe14ee2462e62211b1c4f313308a9d01ea2b4cd38cf2408e4ecd3c1d251557101b7e146f8e262e78c9d63a0c386489faf14c54b6b3a836f639107dd797415e2fd2a1f60ed051abc2f6deeb818d0aeef0d97f5b495524bc5ba6128c5b43d8250d93b2a8c8c14bf"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_013",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>The air in this village is ______ than in the busy town.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>cleaner</b>",
+        "<b>clean</b>",
+        "<b>more clean</b>",
+        "<b>cleanest</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>cleaner</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>cleaner</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "7f9ba22ae605a8aa",
+      "answer_hash": "bde668623f37903e98e290cf262f00a8084292de561bca2646e40b7bcb4ea700",
+      "solution_iv": "839df70591e8a04dc7cbe05f",
+      "solution_cipher": "bce099b0e1e74af97d1668e70588a7d6ab529739ae8ee48c90e16530e93514fa6754ef0f4aec48dab94e37232ce5c1ba57a288d61f0ec72a5ffe4a2ff5c40949de03b5b02d463c04451d0abc4cef807d5519810185fafa167a19f01e9f16bc1b81c0359bcb7dfdda6d531a6a6a3c36fc4ae336e649c79947cc24fa7ea0556c7e1eb9b075723896d6460dfbf8aa615712185abdf94d05b71e09f3fdd91300502bb0425023dcfea4b672f62e9dd39fa9d5c5fb09d1f9d205ad3a142453ee9efcb7f57a26354d56cc"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_014",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Mai runs ______ than her younger brother.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>fastest</b>",
+        "<b>faster</b>",
+        "<b>more fast</b>",
+        "<b>fast</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>faster</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>faster</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "52817f961bacbc53",
+      "answer_hash": "271e237a0b5301410a5c714254df5e3b7a28ad79675b911670b2b7271c2f944a",
+      "solution_iv": "1687d4bfc95389ddbbb5d7e1",
+      "solution_cipher": "f144d8489c116505bc49363c7ff0a7bf6db8c4eaec5a1e95a7a190a539829e3ed648334a5bef321ee3f0cccefba845dc494050d90be648e89327ad00a4e53fcfe4b6758c7239eccd93abf199f5f6893d953386cfa95f9a2127a9c0f13c8546d99c1116a39ee41310e1c3b3ff6743cf5f6fa7f07827eb2211a64ba641eb8105d7298bb93efa1b227d1ab43effa18fb1cff70937abd980249b6c31a2659dbd2455c5e1b62d121be1e7c0a804ac154e37da60c333d686968399193566d336cf689023b0762bd8"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_015",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>Lan completed the project ______ than I did.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>careful</b>",
+        "<b>carefully</b>",
+        "<b>more carefully</b>",
+        "<b>most carefully</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>more carefully</b>"
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>more carefully</b>). Lưu ý bẫy TRAP_WORD_FORM_NEG.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "4b6848771a333fc2",
+      "answer_hash": "2e75449e558c62436e5ca0017b45c71049440fc804aa50442a976860f280d0a1",
+      "solution_iv": "01e4fae9763cf6bdf9df7563",
+      "solution_cipher": "f65f84098c284ca222be51f993f95c07249d3740af91265f1b372ec2c2b6454f28c9719a269fd0ef4b2063b891e6394582da11ae3160029ed95611918f6b8b6423cf10713ad6282c58eb48a747a1fd0415272e55ddeff6cda884c0b0fd7d41a991518c80a8d3804e4208932f972bdd2143afcce481fec8f63bfa4db162830bd72d01f1e1a21120970f4cfe9fc06cfa20bbbd070df4c82d54de570ddd2a4726b652ca9c6e9c94d3c62a450d90c97b9a1f5b6436abd4039226ca7d502aa27ada3a4227c27d068ec33a237bbfba82da7534e95070f67e0b6cf676b3"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_016",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>This machine works ______ than the old one.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>more good</b>",
+        "<b>better</b>",
+        "<b>best</b>",
+        "<b>good</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>better</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>better</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "39d684582d366005",
+      "answer_hash": "5d00529f04616a1920c912c71303dc0f680d5001013c644c92827bde9b927462",
+      "solution_iv": "fbcdc1173d29245b91e5b0bb",
+      "solution_cipher": "5fb2203f3acd7537915a8720be70f65d0e127caa6b0af1ebdd5cde8c32deb7f82b73cdb5b7faa97dc4e9d2dc9d5282e90ce74b8c7e07dc53254be9f3a05fa59ef282c9112dd504f6f622b7a72c12b0b7b995d22ad1829c4cb4816b4efe8b23dfc973a7a88feb0e5a38980fa4fa549d2a84da03647395ed3dadcfc9cb47422b8477d41a254d48a27168d0dd88b1b098100b401da021afc10680b7909acdd8f14a8681ffe121dc2ab4124e0d3795303fd34ceeb5d969413b1edf43b32a4a4f2a6eae0e7961e5"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_017",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>Farmers are working ______ this year than last year.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>more hard</b>",
+        "<b>harder</b>",
+        "<b>hardest</b>",
+        "<b>hard</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>harder</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>harder</b>). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "1b935c53650a73ad",
+      "answer_hash": "71033cd9a18044d0c40878a5140af281535b58ae3bf15e939457b82d6a6ec75c",
+      "solution_iv": "2ca7395a7f0cb7f89c83ed56",
+      "solution_cipher": "63f8cc8216af2697146acf9a4e7c0d2d6f1cc774071363e4f74b5729ea5a110d9b60edc20cf4a0788097fa83b5d20598383074a4a284ff64a769e0bbc4d0bb32aa1ba3f61566b4b4bfaf8a6bbe4ceda5eb5eed3a5ecd92b0e3e9eb53ada410b94f5308dd02790a5f8be99e5f965797ea3a4a8ca23d18a5e7dcf7bbc1a89170f70a57b1af121a4aa94759f448cb493d14a22f33c7180cf1696575684459cc416367dfd05dfbf1543439a456713eeaadb5376affd33cc74d9143c7eca1b3d86776ad80c52041f96a4482"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_018",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>The bus arrived late, ______ we missed the first activity.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>but</b>",
+        "<b>so</b>",
+        "<b>or</b>",
+        "<b>and</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>so</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>so</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "21d567e4a355273e",
+      "answer_hash": "7c10f30e8a26a326f7f622311d4b811da562db7f2350a183e29777586b449e84",
+      "solution_iv": "65ccb49ca838fb9d8a1c4e0e",
+      "solution_cipher": "92a207d34a580a643eb292d6c29eee204da6b502bb49197dec00fea895e2607d938a2a801f55a5330aada6df32ca33adcf70557c49cfded8327a19b26a477234bfe4d6a153fc1e3756d0dac652a18ac2ff0da8b3956fc37df98bc5ab2a549409fa30f4d39d68724e11f6b528eb0759c7ee05dceb888fcb89de5ddc5e3268170567411d182247aec2d2ebe3d5a918f8c1be22f7abeea45dd5a0fc6a230757080177f48ca203af7d09d8a0667e175db915244109c1aac38abb263ba18a45"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_019",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>I wanted to join the drama club, ______ I was too busy.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>so</b>",
+        "<b>and</b>",
+        "<b>or</b>",
+        "<b>but</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>but</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>but</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "001b9620333fb619",
+      "answer_hash": "b1d8e5156d427d1b176b79f0f4c5a83e173795beb629f698711fb58c75de894f",
+      "solution_iv": "3add69beb79bc69baf09c1c0",
+      "solution_cipher": "725b7a5b54b836b8e3d8689a641848ad8f4ce05b803b2e409410cadbdce0e1f0fa02ed91e0459f6744211266e20d591607603093d25aacb5f99e06056c44b6f40aef6cbb3bbbda7ee4eb883a0ed4c35325c9311d0c7d9cd115c9f38158ae899ca5034cde98a76b446fc7e3e7ad72f1a32c19e6e77d874f0de3e470a41bb4205c4f2ac1fafd3b5a65a8736cd640f11f935f1f0839af3fcc242a2105f1cde2e7e424b2674ee6d68bed055f10c38d0c80d71320038a4a1823a74dbd425db1cb04"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_020",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Would you like to play badminton, ______ would you rather go cycling?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>and</b>",
+        "<b>so</b>",
+        "<b>or</b>",
+        "<b>but</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>or</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>or</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "f0015fd8d8125220",
+      "answer_hash": "846bf1f1c526d328c1341486560626fc10e5f6a32d187ae4d50cec4d31732feb",
+      "solution_iv": "e1dce84159368c7d88e3314d",
+      "solution_cipher": "b65a33681c2d8d6848ff11f603a25a83b924aec0d787f7be6c310d667168a4125a0c5e3839d83261bfc0ef0150e6459f99264b74dace23e57ac5208523ee20820b780098f0c19461ebd9e44eaf75d5f43294163ff659fac33ec69045c929e293e040618bf0464702b5682c9b8c89242810479a50eaf1e592efabb79d884a5edd3c1a4ee47201072b99323f8aa6e36d8b771e0d13f098d7653867e43ca3b9a793d48d875c01ea9d0e1acf03442aab45ee81d944d47da3ced0a3ae7da203"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_021",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Minh joined the art club, ______ he made several new friends.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>because</b>",
+        "<b>although</b>",
+        "<b>if</b>",
+        "<b>and</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>and</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>and</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "0ae7d94a5f88887c",
+      "answer_hash": "8fccfcb4ba2c3012797678b1cbaf0393bf82c8ce81e31d7a3d3a90656f0d6f00",
+      "solution_iv": "67e63510c8312f9907803f59",
+      "solution_cipher": "a2f8d0db4c969de3700cf3b132ff2cc660c3204f03271df987e17e9968b299c768c61b8b7a05ef92132be24ae03dd5b732e1e5fb10503b2e369c5623a67b64aefc0e0680c5b360f524e2bebb02d159b2b753f927a4277fded793343acaa84e83c8386283ec7850b7b1876544731993224bc545813e5450b910841e6cb797ab730e99326447ae9b8b23bfcde678c7819aa3d9e5e9f096ce222719474150fd60ad70c195433d0e085c05b2916fd11f5862a7febdec0130f6160727e6637304b0"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_022",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "<b>Some teenagers feel ______ before important exams.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>stressed</b>",
+        "<b>stress</b>",
+        "<b>stressful</b>",
+        "<b>stressing</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>stressed</b>"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>stressed</b>). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "56355e327823b813",
+      "answer_hash": "615edcb38ec3b4dba84f77d014a7f534920360b12e50658bcadbdcdbeee50298",
+      "solution_iv": "e2e941a4b44902299cd54dbc",
+      "solution_cipher": "3075c426c12dcc84c1c4af7c1612ab19b09c94185537e3ac5fb608a073451c3abc894b975af2e1d0c30efb74918ef9934e7916d216ce4a5d7994469bee00934f2593cfb3137bd250d5cb2b074163ded1ea4fd995c1ac2f61e747f53871a70038a64896f1f78f6efc9362847498e6dcab67c4370a913ec467206ca6713571cfb3ded408802d2c0a67249bae3dd2db3b44dc7bc8facc89fd0f022e4f88e723add33a298f2091b9700ddcbc38656587c095f27c238c82eab96bb32e535dbb86af71a58231394d49d6b226"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_023",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>The school ______ meets every Friday to discuss students' ideas.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>student council</b>",
+        "<b>harvest</b>",
+        "<b>crop</b>",
+        "<b>craft</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>student council</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>student council</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "793adb19331dcbb0",
+      "answer_hash": "1a3aba23f8df45924bc77dab0af5cc06ea89501237bb945dd86936133e92e9a6",
+      "solution_iv": "48c589291238aa119b8e36b4",
+      "solution_cipher": "10088878bf6bb385523be404c97db8cba7f679a63075ad49f579e1acfbcc04903efe6cb08dd093126a2dc1b76173c9b9a16a8d17d00b75b3e7300924d44f0eabe28a98c7cb740c56ca39c06fa86e36a485591edab4a947dfd2a9da3c804ef8692640b813abe90584aa1336b64ab91d057128724a153404364361295b1e8f33213a8f85319b1c73397fdcf7d644999b1003fd2fe282597fdd90a317523c34ab2afe8be105a42e0f5c228da0da36319c50b184aa0670b1765f98179746adcef75dce7c1bfdae208d82fd3cbd17877dd80ccd2c67caf54298"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_024",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Teenagers should ______ their time between study and leisure.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>balance</b>",
+        "<b>gather</b>",
+        "<b>collect</b>",
+        "<b>raise</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>balance</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>balance</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "de4cc80ca5905b0a",
+      "answer_hash": "1585b533b570289185a84d72aea97226aeb270070575d32103e63502fd4e2f95",
+      "solution_iv": "a04103607cb50a325d938f6a",
+      "solution_cipher": "a990b71dc80d22be4d3718a000ea94ec8c17306cd41a7544e7c211fdc30eb058b3da537283a4ced4baf9a1c0484efddcfe5f10a06c0a079ffc0c7a2e2865573f95eae7db4d1cc6a0a7aff781aac34d8cf7deab9dba6db8dae19cb7d57d0edc9a2100a94450515ebd3dcfa97857dac16293a96970725f80c8a2a57a40a8e026bdaad4c1aca01916a9ce94cf02bd1601c1a3f7cedaa7a20d3d0257aa31529c3fc0663d97e5be7baad0b358564379e0fff7a21992003013c3d7aca4e6ba16c255c7593b1e56173b57"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_025",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>My cousin ______ a craft workshop last weekend.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>played</b>",
+        "<b>took part in</b>",
+        "<b>made up</b>",
+        "<b>looked after</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>took part in</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>took part in</b>). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "29e36c962364ec2c",
+      "answer_hash": "ae1bfb82b92e200ac0cd4d89a016d59530f1eb64d1d99bf370afec2bb92de6d5",
+      "solution_iv": "8a07cfdf4e0060503ebe3209",
+      "solution_cipher": "68afded9866bfed296bee21549e0f9fbb1b076a74dfd4a44c31f46e61da446af2910049d8713be8a0f649b389533a0facffc5b3e9cc8bce7bc01593ca2ff76006d4d32d02c8f0f55a4559036a062e5ff737b78f45528ce6137c77cc7217fab6dd6fdbd389dd509b78a500981249f1eaf3e10c2bb53b7598abf424d0fa4abb5005ea3b9559aff1d6c56b50e0539d55eb45bde5ddcb64205a693846091735511357c29177ccc37a00fdbf43e792b3690b970dc7433b01357d5e5f30ea5f0171bc0c972f86f1b45b2c917e691e789c355c91dca468736"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_026",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Lan: \"Do you fancy playing badminton after class?\" - Mai: \"______\"</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>It is a big village.</b>",
+        "<b>It is next to my house.</b>",
+        "<b>I have a new book.</b>",
+        "<b>Sure, that sounds fun!</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Sure, that sounds fun!</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>Sure, that sounds fun!</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "c26fe29dcc862809",
+      "answer_hash": "f1eba845401873a4004971e202794a91cca70a8e5ad76072771a613e41ff8c4b",
+      "solution_iv": "763a86891b45f9803b782cec",
+      "solution_cipher": "095b1a2c7b3da29a81fe4c5bbf943e815f216c14e87550dec853d268a3620acf2958a1ae7ee99d8f509aa2be6da423d07e930d9bf97d7b555110b7257649f7e6cecafacf4fcab6379c3b543c30fca75a5362024270d38d8e9843fd5bafdc3c538d092980bb5c6b6ce9c09cd860f3973dee1212cc8b05ec3f180fd6f1deb482fa968806899c5f104c80faabd43adee4f89932e0db6c0cb31bc270e16ee93ad05466b4bfd341504e0d097f18f718cc478e6e067868f05981b343e735f4cb13660ffd1bb0f785c07de31e87501ef0a94d047496c6e01f2b8b901d2b13eb67643a72faf3486a00"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_027",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "<b>Nam: \"I feel stressed about my test.\" - Hoa: \"______\"</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Why not take a short break?</b>",
+        "<b>I like the village market.</b>",
+        "<b>The test was yesterday.</b>",
+        "<b>I never play football.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Why not take a short break?</b>"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>Why not take a short break?</b>). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "238cda7eacdd21a9",
+      "answer_hash": "fbc910203f15814c0999ec93d5363c303b8a21fe32d5c2747d52468c25c8e9d6",
+      "solution_iv": "722e11aeb85029297b603641",
+      "solution_cipher": "026c1b9ce704e3b3819c7ac636356b15d1a99682079b809a4bd294a4ab69e4357953e7d0099605fcf88f3b486c4589327311a47aa014d1994f139ff235d3a8863563a84ae1e79ec04e436169aba00ae0262beb698133af1c1100c0a34abe6f0e7ad7376bb1bcebb6f3511f30552c848207a1ae36eb831e6b155eb9b06d635d3751ab1c6c6f7054fc95a8987751d1056264e54f49466e3d341fa28be01416893206466fedb94d0e7ee9e09f9703206917098a9022395108bf2b064ee79c33ff8a14d4f02994a832c6ffc6e6e7ae5c35d5516af920b511b425813689fdcce09429ce859277df6e0a29feb12d2a7d5327"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_028",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>Student: \"May I join the English club?\" - Teacher: \"______\"</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>It is made of wood.</b>",
+        "<b>No, I prefer dancing.</b>",
+        "<b>Yes, of course. Sign up here.</b>",
+        "<b>The road is quiet.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Yes, of course. Sign up here.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>Yes, of course. Sign up here.</b>). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "082ac5bbbd8bd2d1",
+      "answer_hash": "621e1b4b93e5bc8653732970970a57ac42be376aae14138846a25039e1e7d6f8",
+      "solution_iv": "47d862a203a2789fdbc7967b",
+      "solution_cipher": "8047b1399f6f6aee7d96c98d032d04611d7241b39f23e0890548e0cff8621cdff2ad5c4773ded9faeaa9996e74c6dc0e4030ad16a5c1d9b2e89610aaaf417224c8de8ab71ce6528e3a54a8e77a6eb5fe934051d54fe01536690524b57ff64dce53fc67dc32e989c11a1c0cd9dc509d99b173eee03996deba822c69f802b4ddc2ce183b6913daedcd28c01815fa97949388808e6c7d0307d28fcd5df51d8551998601e333abbc3244723bbcce131d4607851acc4e0835e88006bd9c078ab8ffc6dcb5aeaa6d2659a4887a5cb3dea2dd973325a1491c5e177035097fb5ddc541ffae5efea18fc8f861e4a775d18592821d82421cdee0e32cb42368"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_029",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Mai: \"Thanks for helping me with the project.\" - Minh: \"______\"</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>You are welcome.</b>",
+        "<b>Never do that.</b>",
+        "<b>I do not like games.</b>",
+        "<b>The project is blue.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You are welcome.</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>You are welcome.</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "2b931a400dbaea13",
+      "answer_hash": "923614ec2431cde91fdc75f44931bcbfdb99365335cb183515823f388498e62e",
+      "solution_iv": "a497bb6a3d36153159f95b34",
+      "solution_cipher": "4cb5aef09cb1b8b8e82939073cd42ae74e2d54e299f9abb01e45891e9a8015db8b1a94e51b3ea40e6b6ac9e7dcc416b01a4e09d01a5edf3e5c193bf83404632784ad4ee1635099efeb9159d0029099cdc10b98f4560c9a5cdade866ab71c3dced5b71e276f54203a6430b8d8fec36e6c745dd59cec03224623e9e65c7de4ad0ec255556543a44448c4d1f29e8a74a8b2a75062afc29eaeccf894b43e929707d6c92324e5bc28603df6d4cff6ff377518b85bfbafec6e07eaeab2a30397be4cf161ec3dc29e20eb9b0db96f8fddbbc55187ffac250472658798"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_030",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>SIGN: \"KEEP OFF THE GRASS\". What does it mean?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>You should water the grass.</b>",
+        "<b>You must not walk on the grass.</b>",
+        "<b>The grass is for camping.</b>",
+        "<b>The grass is ready to cut.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must not walk on the grass.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>You must not walk on the grass.</b>). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "7ff2a261b674bde6",
+      "answer_hash": "b77ad27f8f78a940acfaf648ac96ed40c4c1f35dc484ee2f75a175fc63fa00f2",
+      "solution_iv": "b2e933e4b38e83d2d283f89c",
+      "solution_cipher": "3c5e2c82f47f9fa09b409f0fe750e64543395b72a2476b8aaa09c4422e0e82c82f391e35ad94e95367027b4e907be3864157184af9323957f93c1bfc29c09c1d56977c8e17646d7a46e840f7d8bb4b0b272bfb4ac2af62028b3d1c932f9c83d98b3f1637281de2c5e1ff7f7cb045f0b42a6ce0bbe8632c62745f35b2b15c81ec984b400817fe3945bf7dab05d9500f3c46de429d71fc647889fd96eb3c0f8bd0eae84f2d17a9466020f97ad95caaa0dd5b39ed9fa0602df708a9f042b5eda97d99c6f172ea230b3b3d36b29c1e9d8fcdf766e5f8e67cf2f99275619d4279965914a105b28a27e6de8bc1ccdd501f6298306c7a2ec48e05194fb462dd2048"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_031",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>SIGN: \"NO MOBILE PHONES IN THE LIBRARY\". What does it mean?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Only teachers can use phones.</b>",
+        "<b>You can make calls quietly.</b>",
+        "<b>You must not use mobile phones here.</b>",
+        "<b>You can buy a phone here.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must not use mobile phones here.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>You must not use mobile phones here.</b>). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "ea1696e2836abf83",
+      "answer_hash": "6aa2343fccf7f922ecd9c521fdf47fdaf3c81c7df348c10e2e90ea49d218f389",
+      "solution_iv": "21363f3f59c99070f1603c16",
+      "solution_cipher": "c51580c1c75bc20044af6f1398b1530dad4993a689544c06bd4e954b06cd24c3871ab16da4194f8d54fe01fc15c62caa75d1fce20d05cc9eece66e7e1590ce95e174e7e29081e1faa8807ee17a45dd11a685d5856a97143671653e808daa3cafc40bc08d18172bad3e1a9d53fafda4a47069a1ec74eff733b17b59ec2c41623d529b685d90cdf487286faa0b8516414edaf9e1049840d167c0464e7ae2a35f5df708298b00afddc2df9aaee2b7a9aa5e287f3dc00c72beb1ff0ab519a3382379af0d0afe5a8435b40ab59ab0e81da735b37fe30a120e07bdfcbf5c7dd947500bef0fda02c030a47095e5b06df2f5adbd561fc445b1a5abc5317698f97738dda8c6ab5b8791108136"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_032",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>SIGN: \"CYCLE PATH ONLY\". Who should use this path?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Cyclists</b>",
+        "<b>Drivers of cars</b>",
+        "<b>Passengers on buses</b>",
+        "<b>People riding motorbikes</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Cyclists</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>Cyclists</b>). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "ed514523875b7ae9",
+      "answer_hash": "6c15972280299b512e68439667217b7d586fe36b8a84618ff1c108b3858c2f00",
+      "solution_iv": "dc23ebadf73be2f742c0e4cb",
+      "solution_cipher": "b15e954f425e6881dd7b41de28a9652ead83d44562fcec852cce1ba51ae1d9ad93ee9d280707c0a2331bf95f1f670a3c76e562f836dec25206480cb6bf113d75c8e8ef59b083939c922de3346a24a29ec19e54015fa53d913fb367b47dca186833bdde053b8564ee764d3970bed59713251c8e082afa31bace804f3156dc6ad913167f73ada2afbfc3e58184f3b7e3f09ef52f51ec52fafbefa7ed4af89bb8beb14e1dbffeaa559416fa4f4b2decc91046b3d68cdaf3d031888a18ebda879cf06237873ef2dfb4e10fa615d240fe221b"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_033",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>NOTICE: \"TEEN CLUB: The meeting starts at 4:30 p.m. today instead of 4:00 p.m.\" What has changed?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>The place</b>",
+        "<b>The day</b>",
+        "<b>The starting time</b>",
+        "<b>The club name</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>The starting time</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>The starting time</b>). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "cb4959c6afb65f51",
+      "answer_hash": "9ace6013e10b527ee77dd0147379a2c37a6854c3bdffaf3a19d2d1d1d75b5f89",
+      "solution_iv": "3d4f5adf7e945086c600291b",
+      "solution_cipher": "26f3624340bb766743256f9f0b2804b1dd00758b134622b6d08443e90d7a25314764fd7398ae3b558ccd6c394a725cfbbed15c1099501d0d6028a24faaddc94c3d42d15d4681151d904a423962f87ea13244536aedde4447302722f56a69b6db2b0c6aac0ef1e08be5186f9aa1ac6373ef22480bfdfefaf107fdfd23fd4fbb7ef7ec0246432eddd87a5e0ed3f235f5f2c16c1e0acdf33aba6eaf6ef0716622fbfd9a182bffcd9c0e059088aa14c8daa8c9b4a94b4f4f2ec0c66e2f34b4fdf4595354c888689b0ec000c79b722765ffade77db4c81570b3f33b79f011ebc3c207f716"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_034",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>NOTICE: \"ART CLUB: Bring a pencil and a notebook. Paint is provided.\" What must students bring?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>A pencil and a notebook</b>",
+        "<b>Some paints</b>",
+        "<b>Only an apron</b>",
+        "<b>A camera and a phone</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>A pencil and a notebook</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>A pencil and a notebook</b>). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "321a99e7177d1659",
+      "answer_hash": "6b2113bdbdcd18c183d48c1c0b58f26aaecd86ac93628a83f7243774c167a8e4",
+      "solution_iv": "ea389fb285e6fe3af916465a",
+      "solution_cipher": "5ab910fb358174d8607dff9912243b603dc1ab296a421a437d8493e4a1108c66b395a5ffe161d1392d833508f4642f76051ea639406933ab92db9f8a5d7de38d6d055a1f8ed56584d0789bd059fcd69034122d421eb67cd50aa00211d6a5414e57745889ee9ef67b3d0712bf4288b6f745d9deb0556cb33262674f9062a2743a4cbfc95d6f1c5a887e4e45445bc83c487c3813e251914d487448b18abe606c26e6c7b196b854f4562878ec857e58c6c59ae285f3f3b40c1bbf4cc9e93305b50e67d5124296202662e63886d736a8e40646e2e6c239c5557a455d6bae3b30201bbeedc27fd43062886ac86187e4ef"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_035",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>NOTICE: \"COUNTRYSIDE TRIP: Meet at the school gate at 7:15 a.m. The bus leaves at 7:30.\" When must students meet?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>At 7:15 a.m.</b>",
+        "<b>At 7:30 a.m.</b>",
+        "<b>At 8:00 a.m.</b>",
+        "<b>After the bus leaves</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>At 7:15 a.m.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>At 7:15 a.m.</b>). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "e1e758705dc2a3c4",
+      "answer_hash": "4a4ab26c9dd05cc07b4516bb9d25b723c4ffa910a9f6b4ff75e4e88d8dc26009",
+      "solution_iv": "9972549694296dcd94c2cc9b",
+      "solution_cipher": "5f8f3e235e5aa8bf4ad14b08a58d2e83d10c8efd2b984fc0c893cb10046b32f8ec9767e6825375d3f11ce839538d2a0783087064f57200eb7a0c11f401ab04376a7ab74cb9031ff724d5b925d16524c0cff4df8e7660b912e9f3056155d76240a5b9264d52420ab5025da536d48179d955fa63194730b946149d51d673415f22f8df3bfc9f186154df25fa7c8f93ece444f366bd68ef6f2563bbc89a8cec6d9ae463efb248603ab5a942985b3af22d5b6d6b3685259ff365181301e1f9060478c5d0db42b03ad655edd65e4d825649ceccd2fa102c9591fd"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_036",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>How long does the writer usually stay in the village each summer?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Two days</b>",
+        "<b>One month</b>",
+        "<b>One weekend</b>",
+        "<b>Two weeks</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Two weeks</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>Two weeks</b>). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "6fe1f8a58fa08222",
+      "answer_hash": "63d6dafe9db5df20d80f7dbe050eca35cdbc268957c48444c0b1fb9ec5bfa30d",
+      "solution_iv": "d4d2b3e9dfe06174e03d3847",
+      "solution_cipher": "c2ff289c96a9dea105f8d6398b4063c63cbd5a77b7602f04d88a46b54ffd9a1b17730f9c1c74017c1edf64ff462ef9864fce011367849ad4a1f9a3d152e05905a63864e9a3319b054609776a88487e5abdbf6fefbcfbf3b02fb7063feb829f76aaa45714b717a3e001d3c657e1d7989bb199f7e53c32356b72ea79f40c89b629a29500a4db23468a50da957ecab20a07020006d8cddb6acfc7cb5d7e1c0a0c76d094391f2f0ee31b70fe03e5125b4d8f41785caa4f4612027b021e18391f410b48c879a6ff22686893a43bb6c6f9b1"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_037",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Why does the grandfather leave home at six o'clock?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>To go to school</b>",
+        "<b>To meet his friends</b>",
+        "<b>Because the market closes at six</b>",
+        "<b>Because customers arrive early</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Because customers arrive early</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>Because customers arrive early</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "1ea93c37eb1f91a1",
+      "answer_hash": "89ead016eb4503ba8d552917ab23f54af378b481e53df1960b6d6d7ae902d3a1",
+      "solution_iv": "2de369b1bdb879a75d4f9772",
+      "solution_cipher": "3750a4e0347c83d8798b7dbb22b4372ef178a03c213d1f3ea66bf053ae3819a70a3f8fe926c636167b85970ba31355b9621b377c5c6b9d67f20fc80d3f08faeff823449f50bb3c3bb35aa6f3bd0474d34ff6e03f561769120fa968e96cead2fada00c1d127178d2d04704b4e4178155e7addea13a2ac8ec5ea9100bfee688fe5cca7fe012dd29777d6f747bcbe77dc8ca5bc9235cac944063edc16eb2e23f578721b9ea67fb91f028bafcbfbb51eeb3664c9af55d8199f125672c78e1dc2d6db35e72eabe694a0c2de89d751b41bd0cd645d781a864fdeed037e65a1e59de8144f5160d5bae974697bf10debcb5fd95d22ce6e5aed"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_038",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>What does the word \"yet\" show in the passage?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>A reason</b>",
+        "<b>A choice</b>",
+        "<b>A result</b>",
+        "<b>A contrast</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>A contrast</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>A contrast</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "ba73fa557bf19c74",
+      "answer_hash": "0b66d76521e6b8809fe0689677b88152f76de2feb7d9a61eb1e58315dd9856e1",
+      "solution_iv": "992c3bd9f309dbea34946858",
+      "solution_cipher": "17db7636d80caf7fd4a38f76aada8ef87ac1c6b8cc86da0030ec9de6208054789392b7c3f9ad47c08bb6e70b777e46ce1e1c99d2e7cfe717469ccdf38b241cba517b96938b22ef795fe1c009a08ad9c3933ece2f8adcb646e2fe9b4a8831ac7a5c3f55bffcfe04a6e5c04516b1478c5032d892bf28ce84c2cb3c94e1edf91364e7a5ed0d6affbc73b5e432fe7aaa507b410585c750a622d8f29c40f5d9c1f50287188d2d75ca8a9b7acdada14171dc0f890638a9a353ffedd2e0c28aa82ab046605fc2710bb0c958cc079388ff"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_039",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Why do some villagers use smartphones?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>To play games all day</b>",
+        "<b>To take online lessons</b>",
+        "<b>To avoid growing vegetables</b>",
+        "<b>To sell farm products online</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>To sell farm products online</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>To sell farm products online</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "ef9429d7ae3ad7a9",
+      "answer_hash": "d57b09786ecb297e13280cfe30d3e9eb3fe4bf0f3f2a5c468409eec1336f7ef2",
+      "solution_iv": "5334f37a7dc5ac56c992884a",
+      "solution_cipher": "a6a355198be1a1ec510815fe72d884fc7166ae8be7e605123becd3a397c5978b072dfd66bf1d73bcd48713d5b0dcf58bdf8b7a86ce6e1b392de8294354656c88da7560f6380b34c897fda24151306fbed3ded594a6ddcf0575f303674d20f9d32fd49632969d600039e312fa22e29e5e971b280ad3ca76694abb5f67b1405a69f6915282338d03ae0b409c20fe7f0247b7d9a3a6d600fa31457d48b244b7e094211c01e357a096379542ce9ee97f4ebf4c5910d869cc40835ff26d909a23e5991446a4be13cdab150e86d950e805e883ebe35c9c52ef60a8d1ce88d81bae0bc95e7b132760edd6b58bd7730e58bce77025"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_040",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>What does the writer value most about village life?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Wide roads</b>",
+        "<b>Big shopping centres</b>",
+        "<b>Helpful neighbours</b>",
+        "<b>Fast transport</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Helpful neighbours</b>"
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>Helpful neighbours</b>). Lưu ý bẫy TRAP_WORD_FORM_NEG.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "8a34a511726c6053",
+      "answer_hash": "57798d124e49d2c550981a397765d8a73cbbf70345d56065f6eb5dd3077788c1",
+      "solution_iv": "e861df3b6a6ad8628fecb1c3",
+      "solution_cipher": "8f5160579c20000e4f52032e5367f8873e29a377f442b744c9aad68f023f72ba771db95f4fb2911868dc675939aa878583e42cf4f3037ccc84540351359af204864d6a3fa230e40f86f284f578fa6e4308cdb18365114fda6b50fb7526c14be570a7a2306229283e4f1a43d9b26622b88661ab06061ac349f49130897e5716c30bde3a9f26f2cc81ddc83e5913f9b626faa0c7d2cd18cdd25405985d82d52e69c6048000af3b5c740c8dc3368f88d569f1e07309ea36131d5f035b3e03f80ec75fb4e2f253d7c8aa9c79bb2e77b25aacdcfd67c53eb7654b602843e99d4f121243a3"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_041",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "<b>What was the main goal of Screen-Smart Week?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>To stop all online learning</b>",
+        "<b>To balance online and offline activiti<u>es</u></b>",
+        "<b>To encourage more phone use</b>",
+        "<b>To replace every school club</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>To balance online and offline activiti<u>es</u></b>"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>To balance online and offline activiti<u>es</u></b>). Lưu ý bẫy TRAP_PRON_SES.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "e446df040d660efc",
+      "answer_hash": "7d30a9b2f8fddcaeddcf4f72772a73bedcb47c207252689a2d6f5907ecbe52cd",
+      "solution_iv": "6b162cfa866b97842c66ba6c",
+      "solution_cipher": "d31882d1d29f1d90356a7c04d812bbe941f16f49fd66788e33467250123ce557f4bfda247124d1a6dc2c3872c0bcb6871696a5fce6619cf70674f8ced0ba2d5e48fe26091dfd0ddf466f81953c4991681c8d8e34af2f4e020a76a9fdd1404c00078392260fb7bc1449e02edf90c0b8c7b67380af2ce4b318e39594568224a51bb8cdcd26f89675b0dda0b667aec6fe312825630d7ac5a7d7fbf72874c560b7746d91ae9731064bbc4c248230388eea4446263d3d77caacc9b90a7b4dd96477cd07866bf7211ac255af9690ed3a090ec79b21f06fdef0989ec8a8d01a14b94d8513586aacd3eff6802cbd84b210a7d8cf90e7101d9b37c434d9fbdc2d1bc8610df7f3760233c6b846d43afdca68f000eb85fc7f37bc6b90"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_042",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>What did Mai choose to do after school?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Play online games</b>",
+        "<b>Join the football team</b>",
+        "<b>Watch more videos</b>",
+        "<b>Draw pictures</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Draw pictures</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>Draw pictures</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "d955c85ce380fd42",
+      "answer_hash": "c2a9f82934a4b521eb0e475b1e408fd90a619d73b00a120fb87f24e99dc0c443",
+      "solution_iv": "e5a230afe3187c6427ad6dca",
+      "solution_cipher": "a04a0438eb8e96288dd060eb7b0467a066b80c74364a68c4a8f54eebdad26e7fbc63882e3d50b74d4daf42fe950d456c712c9de2e8e5c22e27a1767face51b2f23e8249b6f0a5aea37e8c12f26adc6feb004f16c9d5f6a331f6fbf773a42d0251d8675d8604ff703b5b9b9c88f62307cb1d5c83e89e9b5dbdf487d878a1a550cdf84c6ddf511743f50347ac38a365e28e879863bb8841be8444928f19a757cb597f863c0cf8ba5d5b7905770330865b836f422c0e110c627542c157d6c2977c0c4b0a9b93608fa8d0cb0a58272aebfbaf01539"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_043",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>What was difficult for Mai at first?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Finding a pencil</b>",
+        "<b>Joining the school</b>",
+        "<b>Learning to swim</b>",
+        "<b>Missing her online messages</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Missing her online messages</b>"
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>Missing her online messages</b>). Lưu ý bẫy TRAP_WORD_FORM_NEG.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "ed5fc1bddd718856",
+      "answer_hash": "c9b04483b96f1a25e7e94ccaca4457877ca5e60e4b7ee948cb14ae9eaeb7e363",
+      "solution_iv": "bf822775d53b54c343c3ec9a",
+      "solution_cipher": "ff5439f5b085ddad03a91a331a54b04f42dfff0def8730611357503e9ce57a65e66867044b3db1bc2dc06316dc4ba3ead6ce95e2a987731d78390e5eb1d86fd062f5628cef20d7e300ecd6889fef1e6075a9864a6387370b1c62d0cef4b134a3e0fe40e6594100afb226a703c44f89702e178a0744b1f83eba0e58a22a70e587f4e5241ed5789da3308d7df5eb6e5296dfa620682b0a35db43cd22361c66de3d73ed13672bf749178f853907d97b658a683b29c3430933ef339fd0ba4c3ae320383b27ea256c0f12800108769a528ca612da61438c12763d3a6c812ba39a8b3223af0aa8b5301bc7fce16cda4756192c71d19b9c"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_044",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>What did most students report after the challenge?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>They had less homework</b>",
+        "<b>They managed their time better</b>",
+        "<b>They wanted no school clubs</b>",
+        "<b>They stopped using phones forever</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>They managed their time better</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>They managed their time better</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "e6141d7ca06619a7",
+      "answer_hash": "fd27673b13ba4afc9459ee57f46afcf5af7e534cd24c44ffada8f986ef7a968a",
+      "solution_iv": "8f65995560595ee6e8788442",
+      "solution_cipher": "dbfb4b15de23e1e94d530ff801fbfd7a2a0c132c54e927c27aac69ea9cf67b18573f405b62c0fada6b72f5de4c1b9bfe131ed8980e7351849e7fd1f6c2f2573374c7a4cbee28a3b9830832cb8db82983115470521cf42436159523fd770dad8e3fe422bff9ba488614b86654d9b72e55764205762cffaf0926a05db74c0e0cbf366407bda31ab7410ee20996e13e19eea3f11639d136e754f11e71310b712840e08f2231070d514477cca840ad6af968c073ea8f31d8c7165c873f4a720ff41baf995acf1eeb17de76885a35383600bb87fa222699e72ce7b54ba8b01554255c4b31d60443e7aa6b6d5a6ef2564e9fbe08043744b4"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_045",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Which title best matches the passage?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Farming in the Countryside</b>",
+        "<b>Learning to Use Technology Wisely</b>",
+        "<b>The History of Mobile Phones</b>",
+        "<b>A New School Building</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Learning to Use Technology Wisely</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>Learning to Use Technology Wisely</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "44e9d444c8df43d4",
+      "answer_hash": "2e1d27c47af3f3add51d544f66cb0c674358192ed8715c8a12083e57835fc9cb",
+      "solution_iv": "849fde46cd4b49f765a4f498",
+      "solution_cipher": "9da336c7b6604ee1b0c3644dceea6b4e44453c5b2156bcc05653d45692cdd70c17bb7e3160083494e7fc4d24aa68e8588d5a6e65f3895480e8a55e1df4d2f4fcedc9d8105a62545b2d337d348ed164526ce20d7a349c6c13e2b7a23daebe0757fb4f3985e89149e15bb32f60211a93d5517aea866bbcd9c1ef66c3ab3e6a6f1dba462d22cc8cc3d1783654e2a27277182e7e996f6feba828b92721af98e744fce3b871d54ca21ce2a31076deee8c686949d2e7c1267ea0ab29f3aefa44c1cbf2857058564db5560b48f52c6a2040061dfc6a1d26f981f63b894db3f74e0eec82813bdfd8b3869fdd15f3a428e2730efec30ec9c24d139cf5e7233f"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_046",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>Choose the sentence that has the SAME meaning: \"Linh likes making models more than playing online games.\"</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Linh prefers playing online games to making models.</b>",
+        "<b>Linh dislikes making models and playing games.</b>",
+        "<b>Linh plays online games more often than making models.</b>",
+        "<b>Linh prefers making models to playing online games.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Linh prefers making models to playing online games.</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (<b>Linh prefers making models to playing online games.</b>). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "4962407e4a2e2aa5",
+      "answer_hash": "d003ae75e427be7a1a1297050528e8c2bfd45d118b4d588505415b6b8e7207fb",
+      "solution_iv": "3aa2488b8c06908acc97e74d",
+      "solution_cipher": "27a3b9ce9705d7e0091e7a222ea7d5525a9f208e3f7edbfcb0298a0fff3d55bbb1c54f709aa8a2afdd393a12b8ab231f12da60f386f6a7a9261c097273dfb3ccae69c0325dd040467f2af06546356ccd8820c6ba98a118e87e33558f43af09054ffbd41944eb5ef1a0a906a5dd5a93b2fa6b06a977e39450fd44a83805c5c788224f54e848127b62082d915832c3fb9e017069a03af9042941a2e8d87c43a340fd24dcb071445fc538f2b9c1d0476f1d60c339a525e80f57439e103240a4f471d4cbc0f34c552f406cf338c3aa767dce804d9d9eb56a20adc28faec03cceab09e52f53354014b895182bf705cdadf0598881a78b281c03fb98804be0f4887080cfcc2f151f0040e6ecc4cc4670987ab92d6ad7c369a6ec8c7583acb32a0ac590e2c94d"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_047",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>Choose the BEST combination: \"He practises every day. He still feels nervous before performances.\"</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>He practises every day, but he still feels nervous.</b>",
+        "<b>He practises every day, so he feels nervous.</b>",
+        "<b>He practises every day, and he never feels nervous.</b>",
+        "<b>He practises every day, or he still feels nervous.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>He practises every day, but he still feels nervous.</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (<b>He practises every day, but he still feels nervous.</b>). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "87be57b2a2644ddc",
+      "answer_hash": "015b3d773a04cb8b96aa93a86d3d84b8754d28bfd35a4326d5a07a266a1e1d64",
+      "solution_iv": "c6dc8803fd6d513f259273f3",
+      "solution_cipher": "eb6a3e6c59b6ed7cd8dd2cf318cdf012b5238ac110fab778bb462946fc40bf8999f4ca46578deacfebf1932ad20b205d8ca08b69d5341ad9e9646f0ac5d91c9a397c6560a359a09f5597fe3b4ca98a087054da6b7a3e65e19c0f28e08afd238bb8b94c0da6660464039ec6ed3ac636a9df78b9cf017ebb8195f266eb7541eb37be312851511281e409c5271fb122e8fbca2d6c510bc10e7bf69af40b32ebde18abcf9c6250f8687d4c6cd5aa59fbe80efa77eabb3dcaab27eeec01a837b916d41b428267441f3bac6abb0c9b720f3944bdfb8272b1aa2169abb3e67d5725745d373d7aa39c3777730f1fbc5a9113bb793b0bc3129cdd390520b233ce182d0102136f3850018e1aabb94f801e5098e4c6f97433db35d475c9e50d1259cdfbff5b8d2f8b"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_048",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>Lan makes more mistakes because she writes too quickly. Choose the correct conclusion.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Lan writes more carefully than Hoa.</b>",
+        "<b>Lan writes as carefully as Hoa.</b>",
+        "<b>Lan needs to write more carefully.</b>",
+        "<b>Lan should write more quickly.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Lan needs to write more carefully.</b>"
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>Lan needs to write more carefully.</b>). Lưu ý bẫy TRAP_WORD_FORM_NEG.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "c4f5a89ce2210dcf",
+      "answer_hash": "aec96e1ba77f73304bec9208405e9f0b334f3df575e213e3af38556106e55596",
+      "solution_iv": "5f19cfcbc38cef2327900c7f",
+      "solution_cipher": "d71f2268a710907070bbc2f8899a2aca231267f25624756791574ca549d31c5bb02994d346962ab49164d45a190191a8993425a533da36179016b165e687df364fc0e3063c873783d07648170ee4539deab3a63dbddade8423fa1840831f6dea9a101ee7480bc236e50cfb5f60d3f468d76a5cd003aaeb6433742580f9e7cfe2fe11de633ae6eb1157f9a015329ef668a5587cb8a5c79b8b21758612255bc9afc2dc03b43b9089e21bc228e23a3d12f6b7bab226fe73d982342ab977618dd137f0f30b210f799f309d8b1f258f2951d260ebf4497acbb0ccbde8caa634b442c907626736741e0f4b49d7fc43c492cb5546b185dec39de497cd6f9e53019e0e46e3a2"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_049",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Choose the sentence with the correct comparative adverb.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>My brother cycles more safe than I do.</b>",
+        "<b>My brother cycles more safely than I do.</b>",
+        "<b>My brother cycles safest than I do.</b>",
+        "<b>My brother cycles safely more than I do.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>My brother cycles more safely than I do.</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (<b>My brother cycles more safely than I do.</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "394cb422ce84850d",
+      "answer_hash": "f62b5a9b9bab67cbfb9a842400a8819b5bf0558670c390fbf321f44b72653684",
+      "solution_iv": "cec08d85a2dc81efd534a03a",
+      "solution_cipher": "d2130bcaf97f6fcbfa54c7057d9d598619cbea4148268420a79c3a54fb1a449176d561509dfa7a2f8c71afae659d7f1abbcff2c986570c3f2d403b6938ee4bb8e6aed3ed0e1c96b495f2901a090eb3c4f7952e6036e9fb3716ac500e699fa66c1088da4761cc5cfc755746871ec1241c477c6c0cd0eb62d3800de8838441a4b89f467a8a7ff27d1a7827ad7650c23a46726e971121518a53061a9f0f2535371d14426e4c48214fdea2e9f62dcb0decd05efc2691e53f41c75d5b439163b81181bbbd3ff3f5ba015677b1040077e566f3ae0536c94993a6375c0131045b6bea93d72b59be815deb9b9c4ed22fc8d76624f152d31d3ecb5e175d58743c14358f5738c254f2f1cae08e26"
+    },
+    {
+      "question_id": "Q_WS_G08_MID1_50_050",
+      "grade": 8,
+      "unit_id": "G08_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>A student wants to spend less time online and more time outdoors. Which plan is BEST?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "<b>Checking social media throughout a walk</b>",
+        "<b>Playing online games every evening</b>",
+        "<b>Putting the phone away during a daily walk</b>",
+        "<b>Watching outdoor videos for three hours</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Putting the phone away during a daily walk</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (<b>Putting the phone away during a daily walk</b>). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_MID1_50",
+      "crypto_salt": "4a7a865e94e16ada",
+      "answer_hash": "b7c4eccf9a154633e0e0174e118a1b6a74cf4cb6faa33654a9f7af721bd2714b",
+      "solution_iv": "32a0248d562249032f12890e",
+      "solution_cipher": "62517931b8af88eabd2b60c84644719746635208b558056502037352b6d612532b168c3d3a932be51b8dc598a27a9a826e27b06369e3fbfbab3015784be8941c1347da00bbef437e07e58205758f16696fb82b0bbd243a1764298630f527e0cd1012171654b992a4ca1615e40a09c001250e0c2709621252cc4621bfc1925a0d672dacc482c432144930524249821572539b713e7dc829aba95f6fa3a0d21793c3e4534868cf7c2b990ff07f0de9f8886b58c69b837cab8f56b41b850e7118efcbe6661a986c58e5738c0816b5914750655c1f27bca5c19a78d4d6c928c351c096bbbbcd1ede9bd990d0b4c86a9a1270c0b0d56fb9f3b8512f162457c6a36f915179ba06bbaf3fb36d6ada417f"
+    }
+  ]
+}

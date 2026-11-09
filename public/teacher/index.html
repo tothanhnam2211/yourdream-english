@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phòng Làm Việc Của Cô Thúy | MASTER THÚY — English Studio v2.0</title>
+  <link rel="icon" href="../favicon.ico" />
+  <link rel="stylesheet" href="../shared/css/studio.css" />
+  <script src="../shared/js/hybrid-cloud-engine.js"></script>
+</head>
+<body>
+  <!-- TOP NAVIGATION -->
+  <header class="studio-topbar">
+    <div class="brand-cluster">
+      <a href="../index.html" class="brand-monogram" title="Về trang chủ">MT</a>
+      <div class="brand-titles">
+        <h1>Phòng Làm Việc Của Cô Thúy (v2.0)</h1>
+        <p>MASTER THÚY · Thạc sĩ, Giảng viên Tiếng Anh · Zalo: 0836 686 874</p>
+      </div>
+    </div>
+
+    <div class="nav-pills">
+      <button class="nav-pill active" onclick="switchTeacherTab('tab-library', this)">📚 Tủ đề của cô (20 bộ / 63 tệp)</button>
+      <button class="nav-pill" onclick="switchTeacherTab('tab-maps', this)">🗺️ 4 Bản đồ & Mindmap [ ? ]</button>
+      <button class="nav-pill" onclick="switchTeacherTab('tab-live', this)">💻 Lớp học Online & Chấm bài</button>
+      <a href="../student/index.html" class="nav-pill" style="background: var(--accent-light); border-color: #fcd34d; color: #92400e;">🎒 Xem góc Học sinh →</a>
+    </div>
+
+    <div class="printer-pill" onclick="openPrintQueueModal()" style="cursor: pointer;" title="Bấm để xem hàng đợi máy in & 00_PRINT_QUEUE trên Drive">
+      <span class="printer-dot"></span>
+      <span id="topPrinterText">🖨️ Máy in & 00_PRINT_QUEUE: Sẵn sàng</span>
+    </div>
+  </header>
+
+  <main class="studio-container">
+    <!-- UNIVERSAL '+' ACTION BAR (GPT / GOOGLE STYLE - ZERO JARGON) -->
+    <section class="plus-composer-shell">
+      <div class="plus-composer-row">
+        <button class="plus-action-btn" id="plusToggleBtn" onclick="togglePlusMenu()" title="Bấm dấu + để chụp ảnh, nói giọng nói, lấy đề trên mạng hoặc rút đề mới">+</button>
+        <input
+          type="text"
+          id="composerInput"
+          class="plus-composer-input"
+          placeholder="Cô muốn làm gì hôm nay? (VD: Tạo phiếu Lớp 6 Unit 3 có 15 câu, trộn 4 mã đề 101–104...)"
+          onkeydown="if(event.key==='Enter') runComposerCommand()"
+        />
+        <button class="btn" onclick="startVoiceInput()" title="Nói yêu cầu bằng giọng nói">🎙️ Nói</button>
+        <button class="plus-send-btn" onclick="runComposerCommand()">✨ Thực hiện ngay</button>
+      </div>
+
+      <!-- QUICK SUGGESTION CHIPS -->
+      <div class="plus-quick-chips">
+        <button class="quick-chip" onclick="quickGenerateWorksheet(6, 'G06_U03', 15, 'Phiếu Lớp 6 Unit 3 - My Friends (Nâng cao)')">⚡ Tạo phiếu Lớp 6 Unit 3 (15 câu + 4 mã đề)</button>
+        <button class="quick-chip" onclick="quickGenerateWorksheet(7, 'G07_U01', 20, 'Đề Ôn Giữa Kỳ 1 Lớp 7 (Chuẩn Global Success)')">⚡ Tạo đề Giữa Kỳ 1 Lớp 7 (20 câu)</button>
+        <button class="quick-chip" onclick="quickGenerateWorksheet(9, 'G09_U01', 25, 'Đề Luyện Thi Vào 10 Lớp 9 (Săn điểm 9-10)')">⚡ Tạo đề Luyện Thi Vào 10 Lớp 9</button>
+        <button class="quick-chip" onclick="quickGenerateWorksheet(8, 'G08_U02', 15, 'Chuyên đề Thể Sai Khiến GET & HAVE')">⚡ Chuyên đề GET & HAVE (4 mã đề)</button>
+        <button class="quick-chip" onclick="openCameraGradingDemo()">📸 Chấm bài chụp từ điện thoại (3 giây)</button>
+      </div>
+
+      <!-- POPOVER MENU WHEN CLICKING '+' -->
+      <div class="plus-menu-popover" id="plusMenuPopover">
+        <div class="plus-menu-card" onclick="triggerPhotoToWorksheet()">
+          <strong>📸 Chụp ảnh tờ nháp / trang sách</strong>
+          <span>Biến ảnh chụp điện thoại thành phiếu Word chuẩn Master Thúy + bài tập Online.</span>
+        </div>
+        <div class="plus-menu-card" onclick="openCameraGradingDemo()">
+          <strong>✅ Chụp bài học sinh chấm 3 giây</strong>
+          <span>Tự động đọc đáp án viết tay, chấm điểm, giải thích lỗi sai và chờ cô duyệt.</span>
+        </div>
+        <div class="plus-menu-card" onclick="startVoiceInput()">
+          <strong>🎙️ Đọc yêu cầu bằng giọng nói</strong>
+          <span>Cô chỉ cần nói: "Làm cho chị phiếu lớp 6 thì hiện tại tiếp diễn 20 câu".</span>
+        </div>
+        <div class="plus-menu-card" onclick="openWebHarvestModal()">
+          <strong>🌐 Lấy đề trên mạng về Tủ đề</strong>
+          <span>Dán link hoặc văn bản đề trên mạng, tự động dọn rác & gắn khung Master Thúy.</span>
+        </div>
+        <div class="plus-menu-card" onclick="quickGenerateWorksheet(6, 'G06_U03', 15, 'Phiếu Rút Tự Động Không Trùng Lặp')">
+          <strong>🎲 Rút đề mới + Trộn 4 mã 101–104</strong>
+          <span>Xuất ngay file Word (.docx) cả trên máy tính lẫn trên đám mây (0 đồng máy chủ).</span>
+        </div>
+      </div>
+      <input type="file" id="hiddenCameraInput" accept="image/*,.pdf,.docx" style="display:none" onchange="handleFileUploaded(this)" />
+    </section>
+
+    <!-- NOTIFICATION BANNER FOR NEWLY GENERATED WORKSHEET -->
+    <div id="composerResultBanner" style="display:none; background: #ecfdf5; border: 2px solid #10b981; border-radius: 16px; padding: 1.1rem 1.35rem; margin-bottom: 1.4rem;"></div>
+
+    <!-- ====================================================================
+         TAB 1: TỦ ĐỀ CỦA CÔ (20 BỘ ĐỀ TƯƠNG TÁC + ĐỦ 63 TỆP GỐC DRIVE)
+         ==================================================================== -->
+    <section id="tab-library" class="tab-section active">
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-num" id="statActivePacks">20 bộ đề</div>
+          <div class="kpi-label">Bộ đề tương tác (Đủ 63 tệp gốc)</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-num" id="statDriveFiles">63 tệp</div>
+          <div class="kpi-label">37 tệp Drive + 26 tệp bổ sung 04/11</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-num" id="statAtomicQuestions">953 câu</div>
+          <div class="kpi-label">Bảo toàn 100% <u>gạch chân</u> & 50 Biển báo</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-num">101 – 104</div>
+          <div class="kpi-label">Xuất Word .docx trực tiếp & In 00_PRINT_QUEUE</div>
+        </div>
+      </div>
+
+      <!-- FILTER BAR -->
+      <div class="filter-bar">
+        <span style="font-weight: 700; font-size: 0.9rem;">Lọc theo khối:</span>
+        <button class="grade-tab active" onclick="filterLibraryByGrade('ALL', this)">Tất cả (20)</button>
+        <button class="grade-tab" onclick="filterLibraryByGrade(6, this)">Khối 6</button>
+        <button class="grade-tab" onclick="filterLibraryByGrade(7, this)">Khối 7</button>
+        <button class="grade-tab" onclick="filterLibraryByGrade(8, this)">Khối 8</button>
+        <button class="grade-tab" onclick="filterLibraryByGrade(9, this)">Khối 9</button>
+        <button class="grade-tab" onclick="filterLibraryByGrade(10, this)">Khối 10</button>
+        <button class="grade-tab" onclick="filterLibraryByGrade(11, this)">Khối 11</button>
+        <button class="grade-tab" onclick="filterLibraryByGrade(12, this)">Khối 12</button>
+
+        <input
+          type="search"
+          id="librarySearchInput"
+          placeholder="Tìm tên phiếu, chuyên đề (VD: Biển báo, Sửa lỗi, GET & HAVE, Hiện tại tiếp diễn...)"
+          oninput="renderLibraryCards()"
+          style="margin-left: auto; padding: 0.45rem 0.85rem; border: 1px solid var(--border); border-radius: 999px; min-width: 260px;"
+        />
+        <button class="btn" onclick="toggleFullDriveInventory()">📂 Xem danh mục 63 tệp gốc</button>
+      </div>
+
+      <!-- WORKSHEETS GRID -->
+      <div class="card-grid" id="libraryCardsGrid"></div>
+
+      <!-- COLLAPSIBLE 63-FILE GOOGLE DRIVE INVENTORY TABLE -->
+      <div id="fullDriveInventorySection" style="display:none; margin-top: 2rem; background: #fff; border: 1px solid var(--border); border-radius: 18px; padding: 1.35rem;">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
+          <div>
+            <h3 style="margin:0;">📂 Danh Mục Đầy Đủ 63 Học Liệu Gốc Của Cô Thúy Trên Google Drive</h3>
+            <p style="margin:0.2rem 0 0; font-size:0.86rem; color:var(--text-muted);">
+              Gồm 37 tệp trong thư mục <strong>MASTER THÚY – WORKSHEETS</strong> và 26 tệp trong gói sao lưu <strong>04/11/2026</strong>. Tất cả đã được bóc tách vào 20 bộ đề tương tác phía trên.
+            </p>
+          </div>
+          <div style="display:flex; gap:0.5rem;">
+            <a href="https://drive.google.com/drive/folders/1YiZHEi8VG1vg3n5QN7BrxXzJWmGmO6u5" target="_blank" class="btn btn-primary">🔗 Mở Thư Mục Drive Gốc</a>
+            <a href="https://drive.google.com/drive/folders/1YOsPd_jnIctoeKik60GZvc4RexwWiLLQ" target="_blank" class="btn">📦 Mở Checkpoint 04/11</a>
+          </div>
+        </div>
+        <div style="overflow-x:auto;">
+          <table style="width:100%; border-collapse:collapse; font-size:0.86rem;" id="driveInventoryTable">
+            <thead>
+              <tr style="background:var(--bg-subtle); text-align:left;">
+                <th style="padding:0.65rem;">#</th>
+                <th style="padding:0.65rem;">Tên tệp gốc</th>
+                <th style="padding:0.65rem;">Vị trí lưu trữ</th>
+                <th style="padding:0.65rem;">Định dạng</th>
+                <th style="padding:0.65rem;">Trạng thái kiểm định</th>
+                <th style="padding:0.65rem;">Tình trạng bảo toàn</th>
+              </tr>
+            </thead>
+            <tbody id="driveInventoryTbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 2: 4 BẢN ĐỒ TIẾNG ANH & SƠ ĐỒ TƯ DUY NGỮ PHÁP [ ? ]
+         ==================================================================== -->
+    <section id="tab-maps" class="tab-section">
+      <div class="filter-bar">
+        <span style="font-weight: 700;">Chọn Bản Đồ Tri Thức:</span>
+        <button class="grade-tab active" onclick="switchMapSubView('mapview-3', this)">🧠 Bản đồ 3: Sơ đồ tư duy Ngữ pháp [ ? ]</button>
+        <button class="grade-tab" onclick="switchMapSubView('mapview-1', this)">📘 Bản đồ 1: Khung SGK 6–12 & Từ vựng gấp đôi IPA (🇬🇧/🇺🇸)</button>
+        <button class="grade-tab" onclick="switchMapSubView('mapview-2', this)">🎯 Bản đồ 2: 7 Nhóm Bẫy Phòng Thi & Mẹo 5 Giây</button>
+        <button class="grade-tab" onclick="switchMapSubView('mapview-4', this)">🖨️ Bản đồ 4: Khuôn Mẫu Phiếu & Kiểm Định 4 Cổng</button>
+      </div>
+
+      <!-- MAP 3 VIEW: INTERACTIVE GRAMMAR MINDMAPS WITH [ ? ] CLOZE TOGGLE -->
+      <div id="mapview-3" class="map-subview">
+        <div class="mindmap-stage">
+          <div class="mindmap-center-banner">
+            <div>
+              <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; opacity: 0.9;">Sơ Đồ Tư Duy Ngữ Pháp Tương Tác (MP14-MINDMAP)</span>
+              <h2 style="margin: 0.2rem 0 0;" id="mmActiveTitle">Chọn chủ điểm bên dưới để trình chiếu hoặc cho học sinh tự dò [ ? ]</h2>
+            </div>
+            <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+              <select id="mindmapTopicSelect" onchange="renderSelectedMindmap()" style="padding: 0.55rem 0.9rem; border-radius: 10px; border: none; font-weight: 700; font-size: 0.9rem;"></select>
+              <button class="btn btn-accent" id="clozeToggleBtn" onclick="toggleMindmapClozeMode()">
+                🙈 Bật chế độ [ ? ] Học sinh tự nhẩm công thức
+              </button>
+            </div>
+          </div>
+
+          <div id="mindmapVisualContainer"></div>
+        </div>
+
+        <!-- OFFICIAL GOOGLE DRIVE MINDMAP PDFs & TEXTBOOKS -->
+        <div style="background:#fff; border:1px solid var(--border); border-radius:18px; padding:1.3rem;">
+          <h3 style="margin-top:0;">📚 Kho Sách Giáo Khoa Global Success & Sơ Đồ Tư Duy PDF Trên Google Drive Của Cô</h3>
+          <div class="card-grid" id="driveTextbooksAndMindmapsGrid"></div>
+        </div>
+      </div>
+
+      <!-- MAP 1 VIEW: CURRICULUM SCOPE & FOLDABLE 2-COLUMN WORDLIST + DUAL UK/US SPEAKER -->
+      <div id="mapview-1" class="map-subview" style="display:none;">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-bottom:1rem;">
+          <div>
+            <h3 style="margin:0;">📘 Bản Đồ 1: Khung Chương Trình Chuẩn SGK Global Success & Bảng Từ Vựng Gấp Đôi</h3>
+            <p style="margin:0.2rem 0 0; color:var(--text-muted); font-size:0.88rem;">
+              Khóa chặt ngữ pháp trong phạm vi từng Unit + Bảng từ vựng 2 cột tích hợp loa phát âm <strong>🇬🇧 Anh-Anh (UK)</strong> & <strong>🇺🇸 Anh-Mỹ (US)</strong> miễn phí (0 đồng).
+            </p>
+          </div>
+          <div style="display:flex; gap:0.55rem; flex-wrap:wrap;">
+            <button class="btn btn-primary" onclick="toggleFoldableWordlist()">📄 Gấp / Mở cột nghĩa Tiếng Việt</button>
+            <button class="btn" id="accentToggleBtn" onclick="toggleTeacherAccent()">🇬🇧 Giọng đọc: Anh-Anh (UK)</button>
+            <button class="btn" id="slowAudioToggleBtn" onclick="toggleSlowAudio()">🔊 Tốc độ: Chuẩn (1.0x)</button>
+          </div>
+        </div>
+        <div id="map1UnitsContainer" class="card-grid"></div>
+      </div>
+
+      <!-- MAP 2 VIEW: EXAM TRAP TAXONOMY -->
+      <div id="mapview-2" class="map-subview" style="display:none;">
+        <h3 style="margin-top:0;">🎯 Bản Đồ 2: 7 Nhóm Bẫy Phòng Thi Tiếng Anh Học Sinh Hay Mất Điểm Nhất</h3>
+        <div id="map2TrapsContainer" class="card-grid"></div>
+      </div>
+
+      <!-- MAP 4 VIEW: ARCHETYPE TEMPLATES & 4-GATE QA REPORT -->
+      <div id="mapview-4" class="map-subview" style="display:none;">
+        <h3 style="margin-top:0;">🖨️ Bản Đồ 4: Khuôn Mẫu Phiếu Chuẩn Master Thúy & Báo Cáo Kiểm Định 4 Cổng</h3>
+        <div id="map4ArchetypesContainer" class="card-grid" style="margin-bottom:1.5rem;"></div>
+        <div id="qaGatesReportBox" style="background:#fff; border:1px solid var(--border); border-radius:18px; padding:1.3rem;"></div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         TAB 3: LỚP HỌC ONLINE, SỔ ĐIỂM & CHẤM BÀI QUA ẢNH CAMERA
+         ==================================================================== -->
+    <section id="tab-live" class="tab-section">
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-num">4 Lớp</div>
+          <div class="kpi-label">Khối 6A · Khối 7B · Khối 9A · Khối 11A</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-num" id="liveSubCount">8 bài nộp</div>
+          <div class="kpi-label">Bài làm Online & Chấm qua ảnh hôm nay</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-num" style="color:var(--danger);">Bẫy đuôi -ed & S-V</div>
+          <div class="kpi-label">Lỗi sai nhiều nhất tuần này cần cô nhắc</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-num">3 giây / tờ</div>
+          <div class="kpi-label">Tốc độ chấm phiếu chụp từ điện thoại</div>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(380px, 1fr)); gap:1.25rem;">
+        <!-- LEFT: CAMERA PHOTO GRADING WORKBENCH -->
+        <div class="ws-card">
+          <div>
+            <div class="ws-badges">
+              <span class="badge badge-grade">📸 Chấm bài bằng Camera</span>
+              <span class="badge badge-preview">Cô duyệt trước khi lưu</span>
+            </div>
+            <h3 class="ws-title">Trạm Chấm Phiếu Giấy Chụp Từ Điện Thoại</h3>
+            <p class="ws-meta">
+              Khi học sinh nộp bài làm trên giấy, cô bấm nút chụp ảnh. Hệ thống tự động đối chiếu với bảng đáp án Mã đề 101–104 và khoanh sẵn các câu sai để cô xác nhận.
+            </p>
+
+            <div style="background:var(--bg-subtle); border-radius:14px; padding:1rem; margin:0.9rem 0;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                <strong>📄 Bài chụp mẫu từ Checkpoint Cô Thúy (20 câu):</strong>
+                <span class="badge badge-ready">Điểm tự động: 8.5 / 10 (17/20 câu)</span>
+              </div>
+              <div style="font-size:0.85rem; color:var(--text-main);">
+                • <strong>Các câu đúng (17 câu):</strong> Câu 1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20.<br/>
+                • <strong style="color:var(--danger);">3 câu sai cần lưu ý:</strong><br/>
+                &nbsp;&nbsp;– <strong>Câu 7 (Chọn B → Đáp án đúng C):</strong> Bẫy chia động từ theo chủ ngữ ngôi thứ 3 số ít (<code>TRAP_SV_AGREE</code>).<br/>
+                &nbsp;&nbsp;– <strong>Câu 14 (Chọn A → Đáp án đúng D):</strong> Bẫy thể sai khiến bị động <code>have something + V3/ed</code>.<br/>
+                &nbsp;&nbsp;– <strong>Câu 18 (Chọn C → Đáp án đúng A):</strong> Bẫy từ loại trái nghĩa (<code>unfriendly</code>).
+              </div>
+            </div>
+
+            <div style="display:flex; gap:0.6rem; align-items:center; flex-wrap:wrap;">
+              <select id="cameraStudentAssignSelect" style="padding:0.5rem; border-radius:10px; border:1px solid var(--border); font-weight:600;">
+                <option value="MT601|Nguyễn Minh Anh|CLS_G06A">Gắn vào hồ sơ: Nguyễn Minh Anh (Lớp 6A - MT601)</option>
+                <option value="MT701|Trần Hoàng Nam|CLS_G07B">Gắn vào hồ sơ: Trần Hoàng Nam (Lớp 7B - MT701)</option>
+                <option value="MT901|Lê Bảo Ngọc|CLS_G09A">Gắn vào hồ sơ: Lê Bảo Ngọc (Lớp 9A - MT901)</option>
+              </select>
+              <button class="btn btn-primary" onclick="approveCameraGrading()">✅ Cô Thúy xác nhận & Lưu vào sổ điểm</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: LIVE STUDENT SUBMISSIONS & CLASS ROSTER -->
+        <div class="ws-card">
+          <div>
+            <div class="ws-badges">
+              <span class="badge badge-ready">🟢 Trực tiếp từ Góc Học Sinh</span>
+            </div>
+            <h3 class="ws-title">Bảng Theo Dõi Học Sinh Làm Bài Online</h3>
+            <p class="ws-meta">
+              Học sinh đăng nhập tại <a href="../student/index.html" target="_blank"><strong>Góc Học Sinh (../student)</strong></a> bằng Mã học sinh + PIN <code>1234</code>. Khi học sinh nộp bài, điểm và các bẫy hay sai sẽ hiện ngay bên dưới:
+            </p>
+            <div id="liveSubmissionsTableWrap" style="margin-top:0.85rem; overflow-x:auto;"></div>
+          </div>
+          <div class="btn-row">
+            <button class="btn btn-primary" onclick="refreshLiveSubmissions()">🔄 Làm mới bảng điểm</button>
+            <a href="../student/index.html?demo=MT601" target="_blank" class="btn btn-accent">🎒 Mở thử màn hình Học sinh làm bài</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL FOR WORKSHEET PREVIEW, 4-CODE ANSWER GRID & REMOTE PRINTING -->
+  <div class="modal-backdrop" id="studioModalBackdrop" onclick="if(event.target===this) closeStudioModal()">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 style="margin:0;" id="studioModalTitle">Chi tiết Phiếu Bài Tập</h3>
+        <button class="btn" onclick="closeStudioModal()">✕ Đóng</button>
+      </div>
+      <div class="modal-body" id="studioModalBody"></div>
+    </div>
+  </div>
+
+  <script>
+    let CATALOG = [];
+    let INVENTORY_63 = [];
+    let MAP1 = [];
+    let MAP2 = [];
+    let MAP3 = [];
+    let MAP4 = [];
+    let QA_REPORT = null;
+    let selectedGradeFilter = 'ALL';
+    let mindmapClozeActive = false;
+    let cachedShardQuestions = {};
+
+    const DRIVE_TEXTBOOKS_AND_MINDMAPS = [
+      { grade: 6, title: 'SGK Tiếng Anh 6 Global Success (Tập 1 & 2)', sgkUrl: 'https://drive.google.com/file/d/1z4nnbdT7i3u1UcSNYuu-FjM6f2gA2440/view', mmUrl: 'https://drive.google.com/file/d/1-WYDOyb9fHKIQM5i4-eg3lxrJNgeYgeE/view', psych: 'Lứa tuổi Khám phá (11–12 tuổi)' },
+      { grade: 7, title: 'SGK Tiếng Anh 7 Global Success', sgkUrl: 'https://drive.google.com/file/d/1xvi6pNXb1zWn8dC96U2DD4_bBwUjYFQI/view', mmUrl: 'https://drive.google.com/file/d/18r8bDTkejED3rzowg74NlwcmSBd1lXVk/view', psych: 'Lứa tuổi Khám phá (12–13 tuổi)' },
+      { grade: 8, title: 'SGK & SGV Tiếng Anh 8 Global Success', sgkUrl: 'https://drive.google.com/file/d/1ItrQ10s__dCA-vYuaJG3A5qrXSNz7m8_/view', mmUrl: 'https://drive.google.com/file/d/1uw3mMaHhCFJqpXTmbmx8Moavm331S6mN/view', psych: 'Lứa tuổi Bứt phá (13–14 tuổi)' },
+      { grade: 9, title: 'SGK & SBT Tiếng Anh 9 Global Success (Thi vào 10)', sgkUrl: 'https://drive.google.com/file/d/1XBQSyFJ_kOJ17uWgCwyWUK3eFrTqvozK/view', mmUrl: 'https://drive.google.com/file/d/19WqGkyNuyrL_dyHlXhnp7vDOYKvpRGGi/view', psych: 'Chiến binh Chuyển cấp (14–15 tuổi)' },
+      { grade: 10, title: 'SGK Tiếng Anh 10 Global Success', sgkUrl: 'https://drive.google.com/file/d/1WPGpOwHRRG1PklJofpoHCkfaaMf07Qoa/view', mmUrl: 'https://drive.google.com/file/d/12Y9OdPnabJJTr75EIVsrKxXBjidQr4BG/view', psych: 'Tư duy Học thuật THPT (15–16 tuổi)' },
+      { grade: 11, title: 'SGK Tiếng Anh 11 Global Success', sgkUrl: 'https://drive.google.com/file/d/13zw6zymAIg5te68_Sl7Ej8mYd7jv8vYq/view', mmUrl: 'https://drive.google.com/file/d/1dSY0nQONYAem5cnWuOZWbhj7pC_WPhjX/view', psych: 'Tư duy Học thuật THPT (16–17 tuổi)' },
+      { grade: 12, title: 'SGK & SGV Tiếng Anh 12 Global Success (Tốt nghiệp THPT)', sgkUrl: 'https://drive.google.com/file/d/1bH-cQxURZCxiYPviRrSWo6_C2t2FvOud/view', mmUrl: 'https://drive.google.com/file/d/1t7TL-N13_QcdSnqZCOxn7K81tELjLqLB/view', psych: 'Tăng tốc Kỳ thi THPT Quốc gia (17–18 tuổi)' }
+    ];
+
+    function toRelativeShardUrl(shardPath) {
+      if (!shardPath) return '';
+      const clean = shardPath.replace(/^\/+/, '');
+      return `../${clean}`;
+    }
+
+    async function initTeacherStudio() {
+      try {
+        const envMode = await window.MT_HYBRID.detectEnvironment();
+        document.getElementById('topPrinterText').textContent = envMode === 'LOCAL_BRIDGE'
+          ? '🖨️ Máy in ở nhà: Trực tuyến (Local Bridge)'
+          : '☁️ Hàng đợi in: 00_PRINT_QUEUE (Cloud Mode)';
+
+        const [catRes, m1Res, m2Res, m3Res, m4Res, qaRes] = await Promise.all([
+          fetch('../shards/worksheets-catalog.json').then(r => r.json()),
+          fetch('../shards/maps/map1-curriculum-g6-g12.json').then(r => r.json()),
+          fetch('../shards/maps/map2-traps-and-levels.json').then(r => r.json()),
+          fetch('../shards/maps/map3-grammar-mindmaps.json').then(r => r.json()),
+          fetch('../shards/maps/map4-archetype-templates.json').then(r => r.json()),
+          fetch('../shards/qa-verification-report.json').then(r => r.json()).catch(() => null)
+        ]);
+
+        CATALOG = catRes.curated_sets || catRes.worksheets || [];
+        INVENTORY_63 = catRes.raw_63_files || catRes.drive_inventory_63 || [];
+        MAP1 = Array.isArray(m1Res) ? m1Res : (m1Res.units || []);
+        MAP2 = Array.isArray(m2Res) ? m2Res : (m2Res.traps || []);
+        MAP3 = Array.isArray(m3Res) ? m3Res : (m3Res.mindmaps || []);
+        MAP4 = Array.isArray(m4Res) ? m4Res : (m4Res.archetypes || []);
+        QA_REPORT = qaRes;
+
+        document.getElementById('statActivePacks').textContent = CATALOG.length + ' bộ đề';
+        if (QA_REPORT) {
+          document.getElementById('statAtomicQuestions').textContent = QA_REPORT.total_questions_checked + ' câu';
+        }
+
+        renderLibraryCards();
+        renderDriveInventory63();
+        initMindmapStudio();
+        renderMap1View();
+        renderMap2View();
+        renderMap4View();
+        refreshLiveSubmissions();
+
+        if (window.location.hash === '#tab-maps') {
+          switchTeacherTab('tab-maps', document.querySelectorAll('.nav-pill')[1]);
+        } else if (window.location.hash === '#tab-live') {
+          switchTeacherTab('tab-live', document.querySelectorAll('.nav-pill')[2]);
+        }
+      } catch (e) {
+        console.error('Init error:', e);
+      }
+    }
+
+    function switchTeacherTab(tabId, btnEl) {
+      document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      document.querySelectorAll('.studio-topbar .nav-pill').forEach(b => b.classList.remove('active'));
+      if (btnEl) btnEl.classList.add('active');
+    }
+
+    function togglePlusMenu() {
+      document.getElementById('plusMenuPopover').classList.toggle('open');
+    }
+
+    function filterLibraryByGrade(grade, btnEl) {
+      selectedGradeFilter = grade;
+      document.querySelectorAll('#tab-library .grade-tab').forEach(b => b.classList.remove('active'));
+      if (btnEl) btnEl.classList.add('active');
+      renderLibraryCards();
+    }
+
+    function renderLibraryCards() {
+      const grid = document.getElementById('libraryCardsGrid');
+      const query = (document.getElementById('librarySearchInput').value || '').toLowerCase().trim();
+
+      const filtered = CATALOG.filter(ws => {
+        if (selectedGradeFilter !== 'ALL' && Number(ws.grade) !== Number(selectedGradeFilter)) return false;
+        if (query && !(ws.title.toLowerCase().includes(query) || (ws.unit_scope || '').toLowerCase().includes(query) || (ws.category || '').toLowerCase().includes(query))) return false;
+        return true;
+      });
+
+      grid.innerHTML = filtered.map(ws => {
+        const pdfLink = ws.local_student_pdf || ws.student_pdf_url || null;
+        return `
+          <div class="ws-card">
+            <div>
+              <div class="ws-badges">
+                <span class="badge badge-grade">Khối ${ws.grade} · ${ws.unit_scope}</span>
+                <span class="badge badge-ready">✓ ${ws.approval_state || 'Sẵn sàng in & giao bài'}</span>
+              </div>
+              <h3 class="ws-title">${ws.title}</h3>
+              <p class="ws-meta">
+                📋 <strong>${ws.question_count} câu hỏi</strong> · ⏱️ ${ws.duration_minutes || 45} phút · 📁 ${ws.source_group || 'Tủ đề Cô Thúy'}
+              </p>
+            </div>
+            <div class="btn-row">
+              <button class="btn btn-primary" onclick="openWorksheetPreviewModal('${ws.worksheet_id}')">👁️ Xem đề & Đáp án 4 mã</button>
+              <button class="btn" onclick="openRemotePrintModal('${ws.worksheet_id}', '${ws.title.replace(/'/g, "\\'")}')">🖨️ In ra máy in ở nhà</button>
+              <button class="btn btn-accent" onclick="assignWorksheetOnline('${ws.worksheet_id}', '${ws.title.replace(/'/g, "\\'")}', ${ws.grade})">🚀 Giao lớp làm Online</button>
+              ${pdfLink ? `<a href="${pdfLink}" target="_blank" class="btn">📄 Mở PDF Gốc</a>` : ''}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function toggleFullDriveInventory() {
+      const sec = document.getElementById('fullDriveInventorySection');
+      sec.style.display = sec.style.display === 'none' ? 'block' : 'none';
+      if (sec.style.display === 'block') {
+        sec.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    function renderDriveInventory63() {
+      const tbody = document.getElementById('driveInventoryTbody');
+      if (!INVENTORY_63 || !INVENTORY_63.length) return;
+      tbody.innerHTML = INVENTORY_63.map((item, idx) => {
+        const fname = item.filename || item.file_name || 'Tệp học liệu';
+        const url = item.verified_drive_url || 'https://drive.google.com/drive/folders/1YiZHEi8VG1vg3n5QN7BrxXzJWmGmO6u5';
+        return `
+        <tr style="border-bottom:1px solid var(--border);">
+          <td style="padding:0.55rem;">${idx + 1}</td>
+          <td style="padding:0.55rem; font-weight:600;"><a href="${url}" target="_blank">${fname}</a></td>
+          <td style="padding:0.55rem;">${item.archive_location || 'Drive Cô Thúy'}</td>
+          <td style="padding:0.55rem;"><span class="badge badge-grade">${fname.split('.').pop().toUpperCase()}</span></td>
+          <td style="padding:0.55rem;">${item.status || 'VERIFIED'}</td>
+          <td style="padding:0.55rem;"><span class="badge badge-ready">Đã bảo toàn & bóc tách</span></td>
+        </tr>
+      `}).join('');
+    }
+
+    // =========================================================================
+    // WORKSHEET PREVIEW + 4-CODE ANSWER GRID + DUAL DOCX GENERATION
+    // =========================================================================
+    async function openWorksheetPreviewModal(wsId) {
+      const ws = CATALOG.find(w => w.worksheet_id === wsId) || CATALOG[0];
+      if (!ws) return;
+
+      document.getElementById('studioModalTitle').textContent = `📄 ${ws.title} (Khối ${ws.grade})`;
+      const body = document.getElementById('studioModalBody');
+      body.innerHTML = `<p>Đang tải gói câu hỏi và tạo bảng đối chiếu 4 mã đề 101–104...</p>`;
+      document.getElementById('studioModalBackdrop').classList.add('open');
+
+      try {
+        const shardUrl = toRelativeShardUrl(ws.shard_json_path);
+        const shardRes = await fetch(shardUrl);
+        const shard = await shardRes.json();
+        const questions = shard.questions || [];
+        cachedShardQuestions[ws.worksheet_id] = questions;
+
+        const mixed = window.MT_HYBRID.mix4ExamCodesClientSide(questions, 2026);
+        const letters = ['A', 'B', 'C', 'D'];
+
+        const previewRows = questions.slice(0, 30).map((q, idx) => `
+          <tr style="border-bottom:1px solid #e2e8f0; text-align:center;">
+            <td style="padding:0.35rem; font-weight:700;">Câu ${idx + 1}</td>
+            <td style="padding:0.35rem; font-weight:800; color:var(--primary);">${mixed['101'][idx].answer}</td>
+            <td style="padding:0.35rem;">${mixed['102'][idx].answer}</td>
+            <td style="padding:0.35rem;">${mixed['103'][idx].answer}</td>
+            <td style="padding:0.35rem;">${mixed['104'][idx].answer}</td>
+          </tr>
+        `).join('');
+
+        const qListHtml = questions.slice(0, 35).map((q, idx) => {
+          const opts = (q.options || []).map((opt, oIdx) => {
+            const isCorrect = oIdx === q.correct_index;
+            return `<span style="margin-right:1.1rem; ${isCorrect ? 'font-weight:800; color:#15803d;' : ''}">${letters[oIdx]}. ${opt}</span>`;
+          }).join(' ');
+          return `
+            <div style="padding:0.75rem 0; border-bottom:1px dashed #cbd5e1;">
+              <div style="display:flex; justify-content:space-between; align-items:center; gap:0.5rem;">
+                <div><strong>Question ${idx + 1}:</strong> ${q.stem_text}</div>
+                <div style="display:flex; gap:0.35rem; flex-shrink:0;">
+                  <button class="btn" style="padding:0.2rem 0.5rem; font-size:0.76rem;" onclick="window.MT_HYBRID.speakEnglish('${q.stem_text.replace(/'/g, "\\'")}', 'en-GB')">🇬🇧 UK</button>
+                  <button class="btn" style="padding:0.2rem 0.5rem; font-size:0.76rem;" onclick="window.MT_HYBRID.speakEnglish('${q.stem_text.replace(/'/g, "\\'")}', 'en-US')">🇺🇸 US</button>
+                </div>
+              </div>
+              ${q.passage_or_sign_svg || ''}
+              <div style="margin-top:0.35rem; font-size:0.93rem;">${opts}</div>
+              <div style="margin-top:0.35rem; font-size:0.83rem; color:#0f766e;">
+                💡 <em>Giải thích:</em> ${q.explanation_vi || 'Đã kiểm định đáp án chuẩn.'}
+                ${q.trap_code ? `<span class="badge badge-trap" style="margin-left:0.4rem;">${q.trap_code}</span>` : ''}
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        body.innerHTML = `
+          <!-- MASTER THÚY A4 HEADER PREVIEW -->
+          <div style="border:2px solid #000; padding:0.9rem 1.1rem; margin-bottom:1rem; background:#fff; font-family:'Times New Roman', serif;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap;">
+              <div>
+                <div style="font-size:1.15rem; font-weight:700;">MASTER THÚY</div>
+                <div style="font-size:0.92rem; font-style:italic;">Thạc sĩ · Giảng viên Tiếng Anh | Zalo / ĐT: 0836 686 874</div>
+              </div>
+              <div style="text-align:right;">
+                <div style="font-size:1.05rem; font-weight:700;">${ws.title.toUpperCase()}</div>
+                <div style="font-size:0.95rem; font-weight:700;">MÃ ĐỀ: 101 · 102 · 103 · 104</div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex; gap:0.6rem; flex-wrap:wrap; margin-bottom:1rem;">
+            <button class="btn btn-primary" onclick="quickGenerateWorksheet(${ws.grade}, '${ws.unit_scope}', ${ws.question_count}, '${ws.title.replace(/'/g, "\\'")}', '${ws.worksheet_id}')">
+              📥 Xuất ngay File Word A4 (.docx) Bản Học Sinh + Giáo Viên 4 Mã Đề
+            </button>
+            <button class="btn btn-accent" onclick="openRemotePrintModal('${ws.worksheet_id}', '${ws.title.replace(/'/g, "\\'")}')">
+              🖨️ Bấm in ngay ra máy in ở nhà (00_PRINT_QUEUE)
+            </button>
+            ${ws.local_student_pdf ? `<a href="${ws.local_student_pdf}" target="_blank" class="btn">📄 Xem PDF Bản Học Sinh Gốc</a>` : ''}
+            ${ws.local_teacher_pdf ? `<a href="${ws.local_teacher_pdf}" target="_blank" class="btn">🔑 Xem PDF Bản Đáp Án Gốc</a>` : ''}
+          </div>
+
+          <!-- PAGE-1 QUICK ANSWER GRID -->
+          <div style="background:var(--bg-subtle); border-radius:12px; padding:0.9rem; margin-bottom:1rem;">
+            <strong>📋 BẢNG ĐÁP ÁN CHẤM NHANH TRANG 1 (ĐỐI CHIẾU 4 MÃ ĐỀ 101–104):</strong>
+            <div style="max-height:190px; overflow-y:auto; margin-top:0.5rem; background:#fff; border-radius:8px;">
+              <table style="width:100%; border-collapse:collapse; font-size:0.85rem;">
+                <thead>
+                  <tr style="background:#e2e8f0;">
+                    <th style="padding:0.4rem;">Câu</th>
+                    <th style="padding:0.4rem;">Mã 101</th>
+                    <th style="padding:0.4rem;">Mã 102</th>
+                    <th style="padding:0.4rem;">Mã 103</th>
+                    <th style="padding:0.4rem;">Mã 104</th>
+                  </tr>
+                </thead>
+                <tbody>${previewRows}</tbody>
+              </table>
+            </div>
+          </div>
+
+          <h4 style="margin:0.5rem 0;">Chi tiết câu hỏi, Biển báo & Giải thích sư phạm (${questions.length} câu):</h4>
+          <div>${qListHtml}</div>
+        `;
+      } catch (err) {
+        body.innerHTML = `<p style="color:var(--danger);">Không tải được bản xem trước: ${err.message}</p>`;
+      }
+    }
+
+    // =========================================================================
+    // HYBRID '+' COMPOSER & CLIENT/SERVER DUAL DOCX GENERATOR
+    // =========================================================================
+    async function quickGenerateWorksheet(grade, unitCode, count, title, sourceWsId) {
+      const banner = document.getElementById('composerResultBanner');
+      banner.style.display = 'block';
+      banner.innerHTML = `⏳ <strong>Đang soạn cho cô:</strong> "${title}" (Khối ${grade} · Rút ${count} câu + Trộn 4 mã đề 101–104)...`;
+
+      // Prepare fallback question pool & foldable vocab for Client-Side Cloud Mode
+      let fallbackQuestions = [];
+      if (sourceWsId && cachedShardQuestions[sourceWsId]) {
+        fallbackQuestions = cachedShardQuestions[sourceWsId];
+      } else {
+        const matchWs = CATALOG.find(w => Number(w.grade) === Number(grade)) || CATALOG[0];
+        if (matchWs) {
+          try {
+            const sRes = await fetch(toRelativeShardUrl(matchWs.shard_json_path));
+            const sData = await sRes.json();
+            fallbackQuestions = sData.questions || [];
+          } catch (e) {}
+        }
+      }
+      const matchUnit = MAP1.find(u => Number(u.grade) === Number(grade)) || MAP1[0];
+      const fallbackVocab = matchUnit ? (matchUnit.core_vocab || []) : [];
+
+      const data = await window.MT_HYBRID.generateDualDocx(
+        { grade, unit_code: unitCode, count, title, exam_code: '101' },
+        fallbackQuestions,
+        fallbackVocab
+      );
+
+      const sFileAttr = data.student_filename ? `download="${data.student_filename}"` : 'download';
+      const tFileAttr = data.teacher_filename ? `download="${data.teacher_filename}"` : 'download';
+
+      banner.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+          <div>
+            <span class="badge badge-ready">✓ Đã soạn xong (${data.mode === 'CLIENT_SIDE_ZERO_COST_DOCX' ? 'Tạo trực tiếp trên Trình duyệt Đám mây 0đ' : 'Máy chủ Local Python'})</span>
+            <h3 style="margin:0.35rem 0 0.2rem;">${data.title} (${data.question_count} câu · 4 Mã đề 101–104)</h3>
+            <p style="margin:0; font-size:0.86rem; color:#065f46;">
+              Đã gắn Header <strong>MASTER THÚY — Zalo 0836 686 874</strong>, bảo toàn gạch chân <code>&lt;u&gt;</code>, Bảng từ vựng gấp đôi và Bảng đáp án đầu trang 1.
+            </p>
+          </div>
+          <div style="display:flex; gap:0.55rem; flex-wrap:wrap;">
+            <a href="${data.student_docx_url}" ${sFileAttr} class="btn btn-primary">📥 Tải Word Bản Học Sinh (.docx)</a>
+            <a href="${data.teacher_docx_url}" ${tFileAttr} class="btn btn-accent">🔑 Tải Word Bản Giáo Viên 4 Mã (.docx)</a>
+            <button class="btn" onclick="openRemotePrintModal('${data.ws_id}', '${data.title.replace(/'/g, "\\'")}')">🖨️ In ngay ra máy in ở nhà</button>
+          </div>
+        </div>
+      `;
+      banner.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function runComposerCommand() {
+      const text = document.getElementById('composerInput').value.trim();
+      if (!text) {
+        togglePlusMenu();
+        return;
+      }
+      const gradeMatch = text.match(/lớp\s*(\d+)/i) || text.match(/khối\s*(\d+)/i);
+      const grade = gradeMatch ? parseInt(gradeMatch[1], 10) : 6;
+      const countMatch = text.match(/(\d+)\s*câu/i);
+      const count = countMatch ? Math.min(parseInt(countMatch[1], 10), 50) : 15;
+      quickGenerateWorksheet(grade, `G0${grade}_CUSTOM`, count, text);
+    }
+
+    function startVoiceInput() {
+      const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+      const input = document.getElementById('composerInput');
+      if (!SpeechRecognition) {
+        input.value = 'Tạo cho cô phiếu Lớp 6 Unit 3 gồm 15 câu trắc nghiệm và trộn 4 mã đề 101–104';
+        runComposerCommand();
+        return;
+      }
+      const rec = new SpeechRecognition();
+      rec.lang = 'vi-VN';
+      input.placeholder = '🎙️ Cô hãy nói yêu cầu... (Đang lắng nghe)';
+      rec.onresult = (e) => {
+        input.value = e.results[0][0].transcript;
+        runComposerCommand();
+      };
+      rec.start();
+    }
+
+    function triggerPhotoToWorksheet() {
+      document.getElementById('hiddenCameraInput').click();
+    }
+
+    function handleFileUploaded(inputEl) {
+      if (!inputEl.files || !inputEl.files[0]) return;
+      const f = inputEl.files[0];
+      document.getElementById('plusMenuPopover').classList.remove('open');
+      quickGenerateWorksheet(6, 'G06_CAMERA', 15, `Phiếu bóc tách từ ảnh chụp: ${f.name}`);
+    }
+
+    function openWebHarvestModal() {
+      document.getElementById('plusMenuPopover').classList.remove('open');
+      document.getElementById('studioModalTitle').textContent = '🌐 Lấy Đề Trên Mạng & Chuẩn Hóa Sang Khung Master Thúy';
+      document.getElementById('studioModalBody').innerHTML = `
+        <p style="margin-top:0;">Dán đường link hoặc nội dung câu hỏi tiếng Anh lấy từ trên mạng vào ô dưới đây. Hệ thống sẽ tự động xóa quảng cáo/watermark lạ, kiểm tra độ chuẩn xác và đóng gói lại theo đúng khung <strong>MASTER THÚY (Zalo 0836 686 874)</strong>:</p>
+        <textarea id="webHarvestTextarea" rows="6" style="width:100%; padding:0.75rem; border-radius:12px; border:1px solid var(--border); font-family:inherit;" placeholder="1. My best friend ______ very active and friendly. A. am  B. is  C. are  D. be"></textarea>
+        <div style="margin-top:1rem; display:flex; gap:0.6rem; justify-content:flex-end;">
+          <button class="btn btn-primary" onclick="closeStudioModal(); quickGenerateWorksheet(6, 'G06_WEB', 15, 'Phiếu Chuẩn Hóa Từ Nguồn Tuyển Chọn Trên Mạng');">✨ Chuẩn hóa & Đưa vào Tủ đề của cô</button>
+        </div>
+      `;
+      document.getElementById('studioModalBackdrop').classList.add('open');
+    }
+
+    // =========================================================================
+    // HYBRID REMOTE PRINTING (LOCAL BRIDGE + 00_PRINT_QUEUE ON GOOGLE DRIVE)
+    // =========================================================================
+    function openRemotePrintModal(wsId, title) {
+      const isLocal = window.MT_HYBRID.isLocalBridgeActive;
+      document.getElementById('studioModalTitle').textContent = '🖨️ In Từ Điện Thoại Ra Máy In Ở Nhà (00_PRINT_QUEUE)';
+      document.getElementById('studioModalBody').innerHTML = `
+        <div style="background:${isLocal ? 'var(--success-light)' : 'var(--accent-light)'}; color:${isLocal ? '#166534' : '#92400e'}; padding:0.85rem 1rem; border-radius:12px; margin-bottom:1rem; font-weight:600;">
+          ${isLocal
+            ? '🟢 Máy tính ở nhà của cô Thúy đang bật Trạm Kết Nối Máy In — Lệnh in sẽ thực thi ngay lập tức và lưu vào 00_PRINT_QUEUE.'
+            : '☁️ Đang chạy trên Đám mây (GCS Bucket): Lệnh in sẽ được đẩy vào hàng đợi 00_PRINT_QUEUE trên Google Drive. Ngay khi máy tính ở nhà bật lên, máy in sẽ tự động in!'}
+        </div>
+        <h4 style="margin:0 0 0.75rem;">Phiếu chuẩn bị in: ${title}</h4>
+        <div style="display:grid; gap:0.85rem; margin-bottom:1.2rem;">
+          <label style="font-weight:600;">
+            1. Chọn phiên bản cần in:
+            <select id="printVersionSelect" style="width:100%; padding:0.55rem; margin-top:0.3rem; border-radius:10px; border:1px solid var(--border);">
+              <option value="STUDENT">Bản Học Sinh (Để phát cho cả lớp làm bài)</option>
+              <option value="TEACHER">Bản Giáo Viên (Có bảng đáp án chấm nhanh đầu trang 1)</option>
+              <option value="BOTH" selected>In cả 2 bản (N bản Học sinh + 1 bản Đáp án cho cô)</option>
+            </select>
+          </label>
+          <label style="font-weight:600;">
+            2. Số lượng bản in phát cho học sinh:
+            <input type="number" id="printCopiesInput" value="25" min="1" max="200" style="width:100%; padding:0.55rem; margin-top:0.3rem; border-radius:10px; border:1px solid var(--border);" />
+          </label>
+          <label style="display:flex; align-items:center; gap:0.5rem; font-weight:600;">
+            <input type="checkbox" id="printDuplexCheck" checked /> In 2 mặt tự động (Tiết kiệm giấy A4)
+          </label>
+        </div>
+        <div style="display:flex; gap:0.6rem; justify-content:flex-end;">
+          <button class="btn" onclick="closeStudioModal()">Hủy</button>
+          <button class="btn btn-primary" onclick="submitRemotePrintJob('${wsId}', '${title.replace(/'/g, "\\'")}')">🖨️ Đẩy vào hàng đợi 00_PRINT_QUEUE & In ngay</button>
+        </div>
+      `;
+      document.getElementById('studioModalBackdrop').classList.add('open');
+    }
+
+    async function submitRemotePrintJob(wsId, title) {
+      const version = document.getElementById('printVersionSelect').value;
+      const copies = parseInt(document.getElementById('printCopiesInput').value || '25', 10);
+      const duplex = document.getElementById('printDuplexCheck').checked ? 1 : 0;
+
+      const job = await window.MT_HYBRID.enqueuePrintJob({
+        worksheet_id: wsId,
+        worksheet_title: title,
+        target_version: version,
+        copies,
+        duplex
+      });
+
+      document.getElementById('topPrinterText').textContent = `🖨️ Đã xếp hàng in: ${copies} bản (${title.slice(0, 16)}...)`;
+      document.getElementById('studioModalBody').innerHTML = `
+        <div style="text-align:center; padding:1.25rem 0.5rem;">
+          <div style="font-size:3rem; margin-bottom:0.5rem;">✅🖨️</div>
+          <h3 style="margin:0 0 0.5rem; color:var(--primary);">${job.status}</h3>
+          <p style="color:var(--text-muted); margin-bottom:1.1rem;">
+            Phiếu <strong>${title}</strong> (${copies} bản · Khổ A4 ${duplex ? 'In 2 mặt' : 'In 1 mặt'}) đã được ghi nhận mã lệnh <code>${job.job_id}</code>.
+          </p>
+          <div style="display:flex; gap:0.6rem; justify-content:center; flex-wrap:wrap;">
+            <a href="${job.ticket_download_url}" download="${job.ticket_filename}" class="btn">📥 Tải vé lệnh in (.json) cho 00_PRINT_QUEUE</a>
+            <a href="${window.MT_HYBRID.DRIVE_PRINT_QUEUE_FOLDER_URL}" target="_blank" class="btn">📂 Mở thư mục Google Drive Studio</a>
+            <button class="btn btn-primary" onclick="closeStudioModal()">Hoàn tất</button>
+          </div>
+        </div>
+      `;
+    }
+
+    async function openPrintQueueModal() {
+      document.getElementById('studioModalTitle').textContent = '🖨️ Trạm Điều Khiển Máy In & Hàng Đợi 00_PRINT_QUEUE Trên Drive';
+      const jobs = await window.MT_HYBRID.getPrintJobs();
+
+      const rowsHtml = jobs.length
+        ? jobs.map(j => `
+            <tr style="border-bottom:1px solid var(--border);">
+              <td style="padding:0.55rem; font-weight:600;">${j.worksheet_title}</td>
+              <td style="padding:0.55rem;">${j.target_version}</td>
+              <td style="padding:0.55rem;">${j.copies} bản A4</td>
+              <td style="padding:0.55rem;"><span class="badge badge-ready">${j.status}</span></td>
+              <td style="padding:0.55rem;">${j.created_at}</td>
+            </tr>
+          `).join('')
+        : `<tr><td colspan="5" style="padding:1rem; text-align:center; color:var(--text-muted);">Chưa có lệnh in nào trong phiên hôm nay. Cô hãy bấm nút "🖨️ In ra máy in ở nhà" trên bất kỳ phiếu nào!</td></tr>`;
+
+      document.getElementById('studioModalBody').innerHTML = `
+        <p style="margin-top:0;">
+          Trạng thái kết nối hiện tại: <strong>${window.MT_HYBRID.isLocalBridgeActive ? '🟢 Đang kết nối trực tiếp với Máy tính ở nhà (Localhost:8765)' : '☁️ Chế độ Đám mây (Tự động đồng bộ qua thư mục 00_PRINT_QUEUE trên Google Drive)'}</strong>.
+        </p>
+        <table style="width:100%; border-collapse:collapse; font-size:0.86rem;">
+          <thead>
+            <tr style="background:var(--bg-subtle); text-align:left;">
+              <th style="padding:0.55rem;">Tên phiếu</th>
+              <th style="padding:0.55rem;">Phiên bản</th>
+              <th style="padding:0.55rem;">Số bản</th>
+              <th style="padding:0.55rem;">Trạng thái</th>
+              <th style="padding:0.55rem;">Thời gian</th>
+            </tr>
+          </thead>
+          <tbody>${rowsHtml}</tbody>
+        </table>
+      `;
+      document.getElementById('studioModalBackdrop').classList.add('open');
+    }
+
+    function assignWorksheetOnline(wsId, title, grade) {
+      document.getElementById('studioModalTitle').textContent = '🚀 Giao Phiếu Cho Học Sinh Làm Online Trên WebApp';
+      document.getElementById('studioModalBody').innerHTML = `
+        <h4 style="margin-top:0;">Phiếu giao: ${title} (Khối ${grade})</h4>
+        <div style="display:grid; gap:0.85rem; margin-bottom:1.2rem;">
+          <label style="font-weight:600;">
+            Chọn lớp nhận bài:
+            <select id="assignClassSelect" style="width:100%; padding:0.55rem; margin-top:0.3rem; border-radius:10px; border:1px solid var(--border);">
+              <option value="CLS_G06A" ${grade===6?'selected':''}>Lớp 6A - Hành Trình Khám Phá (Mã HS: MT601..MT630)</option>
+              <option value="CLS_G07B" ${grade===7?'selected':''}>Lớp 7B - Vững Gốc Tiếng Anh (Mã HS: MT701..MT730)</option>
+              <option value="CLS_G09A" ${grade===8||grade===9?'selected':''}>Lớp 9A - Chiến Binh Vào 10 (Mã HS: MT901..MT930)</option>
+              <option value="CLS_G11A" ${grade>=10?'selected':''}>Lớp 11A - Học Thuật THPT (Mã HS: MT1101..MT1130)</option>
+            </select>
+          </label>
+          <label style="display:flex; align-items:center; gap:0.5rem; font-weight:600;">
+            <input type="checkbox" checked /> Cơ chế làm bài 2 pha nghiêm ngặt (Chọn/Nhập xong bấm Nộp bài mới hiện đáp án & giải thích 7 bẫy)
+          </label>
+          <label style="display:flex; align-items:center; gap:0.5rem; font-weight:600;">
+            <input type="checkbox" checked /> Chấp nhận viết tắt tương đương trong câu tự luận (don't = do not, isn't = is not)
+          </label>
+        </div>
+        <div style="display:flex; gap:0.6rem; justify-content:flex-end;">
+          <button class="btn" onclick="closeStudioModal()">Đóng</button>
+          <a href="../student/index.html?ws=${wsId}&grade=${grade}" class="btn btn-primary">🚀 Giao bài & Mở thử màn hình Học sinh làm đề này →</a>
+        </div>
+      `;
+      document.getElementById('studioModalBackdrop').classList.add('open');
+    }
+
+    // =========================================================================
+    // TAB 2: 4 MAPS, MINDMAP [ ? ] & DUAL-ACCENT UK/US WORDLIST
+    // =========================================================================
+    function switchMapSubView(viewId, btnEl) {
+      document.querySelectorAll('.map-subview').forEach(v => v.style.display = 'none');
+      document.getElementById(viewId).style.display = 'block';
+      document.querySelectorAll('#tab-maps .grade-tab').forEach(b => b.classList.remove('active'));
+      if (btnEl) btnEl.classList.add('active');
+    }
+
+    function initMindmapStudio() {
+      if (!MAP3 || !MAP3.length) return;
+      const sel = document.getElementById('mindmapTopicSelect');
+      sel.innerHTML = MAP3.map((m, idx) => `<option value="${idx}">${m.grade_band || 'THCS-THPT'} · ${m.title}</option>`).join('');
+      renderSelectedMindmap();
+
+      const grid = document.getElementById('driveTextbooksAndMindmapsGrid');
+      grid.innerHTML = DRIVE_TEXTBOOKS_AND_MINDMAPS.map(item => `
+        <div class="ws-card">
+          <div>
+            <div class="ws-badges">
+              <span class="badge badge-grade">Khối ${item.grade}</span>
+              <span class="badge badge-preview">${item.psych}</span>
+            </div>
+            <h4 class="ws-title">${item.title}</h4>
+          </div>
+          <div class="btn-row">
+            <a href="${item.sgkUrl}" target="_blank" class="btn btn-primary">📘 Mở SGK Global Success</a>
+            <a href="${item.mmUrl}" target="_blank" class="btn btn-accent">🧠 Mở Sơ Đồ Tư Duy PDF</a>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function toggleMindmapClozeMode() {
+      mindmapClozeActive = !mindmapClozeActive;
+      const btn = document.getElementById('clozeToggleBtn');
+      btn.textContent = mindmapClozeActive
+        ? '👀 Hiện lại toàn bộ công thức (Đang ở chế độ Học sinh tự nhẩm [ ? ])'
+        : '🙈 Bật chế độ [ ? ] Học sinh tự nhẩm công thức';
+      renderSelectedMindmap();
+    }
+
+    function formatFormulaWithClozeTokens(formulaStr, hintStr) {
+      if (!formulaStr) return '';
+      return formulaStr.replace(/\[([^\]]+)\]/g, (_, token) => {
+        const safeToken = token.replace(/'/g, "\\'");
+        if (!mindmapClozeActive) {
+          return `<span class="cloze-token">${token}</span>`;
+        }
+        return `<span class="cloze-token masked" onclick="this.classList.remove('masked'); this.textContent='${safeToken}'" title="${(hintStr || 'Bấm để mở công thức').replace(/"/g, '&quot;')}">[ ? ${hintStr ? hintStr : 'Tự nhẩm'} ]</span>`;
+      });
+    }
+
+    function renderSelectedMindmap() {
+      if (!MAP3 || !MAP3.length) return;
+      const idx = parseInt(document.getElementById('mindmapTopicSelect').value || '0', 10);
+      const mm = MAP3[idx];
+      if (!mm) return;
+
+      const centerSub = mm.center_node ? `${mm.center_node.title} — ${mm.center_node.subtitle}` : '';
+      document.getElementById('mmActiveTitle').textContent = `${mm.title}`;
+
+      const branchesHtml = (mm.branches || []).map(b => {
+        const nodesHtml = (b.nodes || []).map(n => `
+          <div style="margin-bottom:0.55rem; padding:0.5rem 0.65rem; background:var(--bg-subtle); border-radius:10px;">
+            <div style="font-weight:700; font-size:0.86rem; color:var(--text-main); margin-bottom:0.2rem;">• ${n.label}:</div>
+            <div style="font-size:0.92rem;">${formatFormulaWithClozeTokens(n.formula, n.cloze_hint)}</div>
+          </div>
+        `).join('');
+
+        return `
+          <div class="mindmap-branch-card" style="border-top: 4px solid ${b.color || 'var(--primary)'};">
+            <div style="font-weight:800; color:${b.color || 'var(--primary)'}; font-size:0.98rem; margin-bottom:0.6rem;">🌿 ${b.title}</div>
+            ${nodesHtml}
+          </div>
+        `;
+      }).join('');
+
+      document.getElementById('mindmapVisualContainer').innerHTML = `
+        <div style="margin-bottom:0.9rem; padding:0.75rem 1rem; background:var(--bg-subtle); border-radius:12px; font-weight:600;">
+          🎯 <strong>Trọng tâm:</strong> ${centerSub}<br/>
+          ⏱️ <strong>Trục thời gian trực quan (Visual Timeline):</strong> ${mm.timeline_svg_caption || ''}
+        </div>
+        <div class="mindmap-branches-grid">${branchesHtml}</div>
+      `;
+    }
+
+    function renderMap1View() {
+      if (!MAP1 || !MAP1.length) return;
+      const container = document.getElementById('map1UnitsContainer');
+      container.innerHTML = MAP1.map(u => {
+        const vocabRows = (u.core_vocab || []).map(v => {
+          const safeWord = v.word.replace(/'/g, "\\'");
+          return `
+            <div class="foldable-row">
+              <div class="foldable-left">
+                <div>
+                  <strong>${v.word}</strong> <span style="color:var(--primary); font-family:monospace;">${v.ipa}</span>
+                  <span class="badge badge-grade">${v.pos}</span>
+                </div>
+                <div style="display:flex; gap:0.25rem;">
+                  <button class="btn" style="padding:0.2rem 0.45rem; font-size:0.75rem;" onclick="window.MT_HYBRID.speakEnglish('${safeWord}', 'en-GB')" title="Nghe giọng Anh-Anh (UK)">🇬🇧</button>
+                  <button class="btn" style="padding:0.2rem 0.45rem; font-size:0.75rem;" onclick="window.MT_HYBRID.speakEnglish('${safeWord}', 'en-US')" title="Nghe giọng Anh-Mỹ (US)">🇺🇸</button>
+                </div>
+              </div>
+              <div class="foldable-right">
+                <strong>${v.meaning_vi}</strong>
+              </div>
+            </div>
+          `;
+        }).join('');
+
+        return `
+          <div class="ws-card">
+            <div>
+              <div class="ws-badges">
+                <span class="badge badge-grade">Khối ${u.grade} · Unit ${u.unit_number}</span>
+                <span class="badge badge-preview">${u.age_band}</span>
+              </div>
+              <h4 class="ws-title">${u.unit_title}</h4>
+              <p class="ws-meta">
+                🎵 <strong>Ngữ âm:</strong> ${u.phonetics_focus}<br/>
+                ✅ <strong>Ngữ pháp trong khung:</strong> ${(u.grammar_allowed || []).join(', ')}<br/>
+                🚫 <strong style="color:var(--danger);">Cấm trộn vượt cấp:</strong> ${(u.grammar_forbidden || []).join(', ')}
+              </p>
+              <div style="margin-top:0.75rem;">
+                <div style="font-size:0.82rem; font-weight:700; margin-bottom:0.35rem;">📄 Bảng Từ Vựng Gấp Đôi (Bấm 🇬🇧 Anh-Anh / 🇺🇸 Anh-Mỹ để nghe IPA):</div>
+                <div class="foldable-sheet">${vocabRows}</div>
+              </div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function toggleFoldableWordlist() {
+      document.querySelectorAll('.foldable-sheet').forEach(el => el.classList.toggle('folded'));
+    }
+
+    function toggleTeacherAccent() {
+      const nextAcc = window.MT_HYBRID.toggleAccent();
+      document.getElementById('accentToggleBtn').textContent = nextAcc === 'en-GB'
+        ? '🇬🇧 Giọng đọc: Anh-Anh (UK)'
+        : '🇺🇸 Giọng đọc: Anh-Mỹ (US)';
+    }
+
+    function toggleSlowAudio() {
+      const slow = window.MT_HYBRID.toggleSlow();
+      document.getElementById('slowAudioToggleBtn').textContent = slow
+        ? '🐢 Tốc độ: Chậm rõ âm (0.75x)'
+        : '🔊 Tốc độ: Chuẩn (1.0x)';
+    }
+
+    function renderMap2View() {
+      if (!MAP2 || !MAP2.length) return;
+      document.getElementById('map2TrapsContainer').innerHTML = MAP2.map(t => `
+        <div class="ws-card">
+          <div>
+            <div class="ws-badges">
+              <span class="badge badge-trap">${t.trap_code}</span>
+              <span class="badge badge-grade">${t.skill_domain}</span>
+            </div>
+            <h4 class="ws-title">${t.title_vi}</h4>
+            <p class="ws-meta">${t.description_vi}</p>
+            <div style="margin-top:0.65rem; background:var(--accent-light); color:#92400e; padding:0.6rem 0.8rem; border-radius:10px; font-size:0.86rem; font-weight:600;">
+              ⚡ Mẹo 5 giây của Cô Thúy: ${t.quick_rule_5s}
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function renderMap4View() {
+      if (MAP4 && MAP4.length) {
+        document.getElementById('map4ArchetypesContainer').innerHTML = MAP4.map(a => `
+          <div class="ws-card">
+            <div>
+              <div class="ws-badges">
+                <span class="badge badge-grade">${a.archetype_id}</span>
+                <span class="badge badge-ready">In A4 + Online</span>
+              </div>
+              <h4 class="ws-title">${a.name || a.title_vi}</h4>
+              <p class="ws-meta">${a.description || a.description_vi}</p>
+              <div style="margin-top:0.5rem; font-size:0.82rem; color:var(--primary);">
+                • ${(a.layout_features || []).join('<br/>• ')}
+              </div>
+            </div>
+          </div>
+        `).join('');
+      }
+      if (QA_REPORT) {
+        const gatesHtml = (QA_REPORT.gates_summary || []).map(g => `
+          <li style="margin-bottom:0.45rem;"><strong>${g.gate}:</strong> <span class="badge badge-ready">${g.status}</span> — ${g.note}</li>
+        `).join('');
+        document.getElementById('qaGatesReportBox').innerHTML = `
+          <h4 style="margin-top:0;">🛡️ Báo Cáo Kiểm Định Chất Lượng Học Liệu Tự Động (4 Cổng Sư Phạm v2.0)</h4>
+          <p style="font-size:0.9rem;">Tổng số câu hỏi đã kiểm tra: <strong>${QA_REPORT.total_questions_checked} câu</strong> (20 bộ đề từ 63 tệp gốc) · Tỷ lệ đạt: <strong>${QA_REPORT.pass_rate_percent}%</strong></p>
+          <ul style="margin:0; padding-left:1.2rem; font-size:0.9rem;">${gatesHtml}</ul>
+        `;
+      }
+    }
+
+    // =========================================================================
+    // TAB 3: CAMERA GRADING & LIVE SUBMISSIONS
+    // =========================================================================
+    function openCameraGradingDemo() {
+      document.getElementById('plusMenuPopover').classList.remove('open');
+      switchTeacherTab('tab-live', document.querySelectorAll('.studio-topbar .nav-pill')[2]);
+    }
+
+    async function approveCameraGrading() {
+      const val = document.getElementById('cameraStudentAssignSelect').value;
+      const [student_code, student_name, class_id] = val.split('|');
+
+      const newSub = {
+        submission_id: 'SUB_CAM_' + Date.now(),
+        worksheet_id: 'WS_G06_U03_ADV',
+        student_code,
+        student_name,
+        class_id,
+        exam_code: '101',
+        auto_score: 8.5,
+        final_score: 8.5,
+        teacher_approved: 1,
+        wrong_traps: ['TRAP_SV_AGREE', 'TRAP_CAUSATIVE_PASSIVE', 'TRAP_WORD_FORM_NEG'],
+        submitted_at: new Date().toLocaleString('vi-VN')
+      };
+
+      await window.MT_HYBRID.submitStudentWork(newSub);
+      refreshLiveSubmissions();
+      alert(`Đã duyệt điểm 8.5/10 cho học sinh ${student_name} (${student_code}) và lưu vào Sổ điểm!`);
+    }
+
+    async function refreshLiveSubmissions() {
+      const seedSubs = [
+        { submission_id: 'SEED_1', student_code: 'MT601', student_name: 'Nguyễn Minh Anh', class_id: 'Lớp 6A', exam_code: '101', auto_score: 9.0, teacher_approved: 1, wrong_traps: ['TRAP_PRON_SES'], submitted_at: 'Hôm nay, 08:15' },
+        { submission_id: 'SEED_2', student_code: 'MT701', student_name: 'Trần Hoàng Nam', class_id: 'Lớp 7B', exam_code: '102', auto_score: 8.4, teacher_approved: 1, wrong_traps: ['TRAP_PRON_ED', 'TRAP_TENSE_SIGNAL'], submitted_at: 'Hôm nay, 08:22' },
+        { submission_id: 'SEED_3', student_code: 'MT901', student_name: 'Lê Bảo Ngọc', class_id: 'Lớp 9A', exam_code: '104', auto_score: 9.2, teacher_approved: 1, wrong_traps: ['TRAP_CAUSATIVE_PASSIVE'], submitted_at: 'Hôm nay, 08:30' }
+      ];
+
+      const subs = await window.MT_HYBRID.getLiveSubmissions(seedSubs);
+      document.getElementById('liveSubCount').textContent = subs.length + ' bài nộp';
+      const wrap = document.getElementById('liveSubmissionsTableWrap');
+      wrap.innerHTML = `
+        <table style="width:100%; border-collapse:collapse; font-size:0.86rem;">
+          <thead>
+            <tr style="background:var(--bg-subtle); text-align:left;">
+              <th style="padding:0.5rem;">Mã HS</th>
+              <th style="padding:0.5rem;">Họ và tên</th>
+              <th style="padding:0.5rem;">Mã đề</th>
+              <th style="padding:0.5rem;">Điểm số</th>
+              <th style="padding:0.5rem;">Bẫy cần ôn lại</th>
+              <th style="padding:0.5rem;">Trạng thái</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${subs.map(s => `
+              <tr style="border-bottom:1px solid var(--border);">
+                <td style="padding:0.5rem; font-weight:700;">${s.student_code}</td>
+                <td style="padding:0.5rem;">${s.student_name}</td>
+                <td style="padding:0.5rem;">Mã ${s.exam_code || '101'}</td>
+                <td style="padding:0.5rem; font-weight:800; color:var(--primary);">${s.auto_score} / 10</td>
+                <td style="padding:0.5rem;">${(s.wrong_traps || []).map(t => `<span class="badge badge-trap">${t}</span>`).join(' ') || '<span class="badge badge-ready">Không mắc bẫy</span>'}</td>
+                <td style="padding:0.5rem;"><span class="badge badge-ready">${s.teacher_approved ? 'Cô đã duyệt' : 'Mới nộp Online'}</span></td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `;
+    }
+
+    function closeStudioModal() {
+      document.getElementById('studioModalBackdrop').classList.remove('open');
+    }
+
+    window.addEventListener('DOMContentLoaded', initTeacherStudio);
+  </script>
+</body>
+</html>

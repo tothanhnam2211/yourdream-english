@@ -1,0 +1,1053 @@
+{
+  "worksheet_id": "WS_G06_U03_ADV",
+  "title": "Lớp 6 — Unit 3: My Friends (Phiếu Nâng Cao & Bứt Phá)",
+  "grade": 6,
+  "unit_scope": "G06_U03",
+  "question_count": 31,
+  "questions": [
+    {
+      "question_id": "Q_WS_G06_U03_ADV_001",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Choose the word with a different initial consonant sound.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "patient",
+        "polite",
+        "picnic",
+        "basketball"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "patient"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (patient). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "8b83615e2d17c6bb",
+      "answer_hash": "b1c8d05b790d309d1487bae72ab5c3c43ce491d299d4174f882f31fc509d731d",
+      "solution_iv": "9d4fd1b47a4b1a089f0b5e79",
+      "solution_cipher": "708d33c2d9c9653cdaf70a311d514aec93d7d9f6f992e7d50ff34523fb57f36553ccb28d31ab0244b95594c66c6cfd0b07c3a6dbc59f777495b77c8b3a9a1077f716d8555d616030bf7917d9aa341362accb0ba419225186e402f0fb8d8cfe3df2c119db5f76028292c8317e5d820751932f55907ff59a2aee9201f4ccffd514e0994eeaf7a329e3dc2acb87309b3b264b1710858fe3f2b7eba7e93e94b8682785d84fa5dcab5c4238e5bc4a2128e5411e7a4536426cf717b6"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_002",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Choose the word with a different initial consonant sound.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "beautiful",
+        "best",
+        "busy",
+        "polite"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "beautiful"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (beautiful). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "8c2e22ea6920b540",
+      "answer_hash": "4f7b0436870eef82da461075cd2fd9797f00de3fe9579b4bedefaa181efa8043",
+      "solution_iv": "58e95dfddfbbe0fa7e2940af",
+      "solution_cipher": "c3821dcb71c80fa9fd2109b70d37ee212bcc2843f0fd2afd1c2ccef2195e5cf7d0159bf48b99c4dc27cd9559ce293ca4d0c923f655fd62e80ddbe0bd29352b0a24eba1f65575757b0c7e4159bfac5764c9eb2ad191e87afa0ee4e446e8ffe2e45ab08c6d8aac6cf63409db79c0fb8e755c52451c00d741107410cefd8960d2826a3ccbbfdbbf6924c11eef392a8d7e0aeaf6404572a7e973d231be1ebe3cbcb7c15780a26eb5b55ef021b4fad4392b92a77dbe07c6fc969005275bb37e"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_003",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Choose the word with a different initial consonant sound.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "puppy",
+        "pencil",
+        "book",
+        "picnic"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "puppy"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (puppy). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "a4b3e560a1ff8ac1",
+      "answer_hash": "a800d58c6fef133a068915ce7933ce3cb2f1f707f3178b5064954f20179c8b42",
+      "solution_iv": "5451e8907252544087d7b985",
+      "solution_cipher": "a2de6e62abcaf7b3a1d571acbb4dd3bb3175f2db74b386030c97b8ab493ce228610de4b2ecd2caefb18dee21db0aec31dd1b2a9de87b66b2466085d480fd8f3e243687063bfc36ff47c926ff9afe94c5306612e82db519a81e34cac73216db0d15739597e6a01c8189dad52c5503cdf2ce40eada38b54e21736612a6a93fcc93b44814a714967536786f08a9018639b38b09734f3f23eb0259506830501b910ba8481e4d3d532cdfff0dc6a98c2fbb95f70b10fed5"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_004",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Choose the word with a different initial consonant sound.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "brother",
+        "brave",
+        "patient",
+        "backpack"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "brother"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (brother). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "befc7c539721d149",
+      "answer_hash": "9ac600d6781ab743374903d37a897a286f5d6211dc89964f2d0735064713aabf",
+      "solution_iv": "7b05c702e9b13c81d2e409a7",
+      "solution_cipher": "4879bca4ed48e7d116ba6575f25cd44f6428a958a74f96031dad3d36d44d696afc0d0e31c24d7be3a5a3d2789c3f4e253fdde6b792b484b27b9179179aa3df938d02723cc74fd42efe2f12c9cd4518276224e9dbc79e2040a3441a21dea6fe69c43942843792e039139c1ac40e2b084881e73ffcb346fd535388b641d3ad48258339f0b9a4fa96065dd6fcd4da377106f6401b57b924006624bb6591a787393a1a31ef91e0d6511ca4e5085846a6b2229f892bdd491fc2a546"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_005",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Look! Mia _____ a portrait of her best friend.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "draws",
+        "draw",
+        "is drawing",
+        "drew"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "draws"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (draws). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "f21b2eaf8166e4fd",
+      "answer_hash": "b3eb2db48a6b8f6e478b83f36bf1c1edc24800758a579ec784d8cd2a47c3a19f",
+      "solution_iv": "fd912fc6e82721c2cc0c4819",
+      "solution_cipher": "2e016b2249c39f46c0a60751d5ef6c884cc3aae31a667cb38366972ad7a6baac2d744858532045b886ff5b4e40b2a3cd04b60b4fce8811e20a2be0367a83bbce8d6a9a6147fd12a124b0f1a3832f43f7e0dd3e4b2616af30c39b9de7a3e46fefb445e51057a387bbc8f56bdf405060fead968f2cb2ef3c635d9b38b68f09414f43409fa93430ba6c176ac8e9b97659c9cd3b84014c66072c4240543d21b9fe3822f14cb963ab124c5b2d950d838fd8543b62a74ad14da37220"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_006",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My best friend usually _____ others, but today she _____ for a competition.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "helps / is preparing",
+        "is helping / prepares",
+        "help / is preparing",
+        "helps / prepares"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "helps / is preparing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (helps / is preparing). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "a7cbc6de0408300c",
+      "answer_hash": "43a2a930965f2c40058bfb88c2d29bbde6b3ad8ca88191cd7bdfffd6560ddb92",
+      "solution_iv": "f80950f8dc02a57534bd8ec5",
+      "solution_cipher": "ffd1f69c4a128be6cecb7f0096ea420c79b0e060c514695d4cd61f74f5f8c8009fafb674d068ebac3aff03f1faf83f425743f9df11cf5958aec303aa3b7b6f9d0fa08d45c335da1fde4d6619fb1558c97ceb5b6473d7ff8ab5793da59ba70e159ba00557684e9fa28c251cfd97f17627eb03111459f7a62451c94a092237f6e80a39c255156bc67ea86bc1e246645b9069eb71d3c6211d57537d6ad7052d81c0cd4299c67948a604b3a9f361399863c9a36f0f41c37bc307b66d82ac40dd40ea344983d7d21b824a5891115b4087eb88bf48d169ec77ec"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_007",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Which sentence describes personality rather than appearance?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "She has wavy hair.",
+        "She is generous.",
+        "She is tall.",
+        "She wears glasses."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "She has wavy hair."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (She has wavy hair.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "c5d8c83ab21409b3",
+      "answer_hash": "64583f49b1fd2f1d4ec7f5d1fa65ed85af66bc2a66e6b535845bed817eb9761a",
+      "solution_iv": "fe3ec6dee0e125335b83f656",
+      "solution_cipher": "d3df5c7da634315a182d18699d755ac53d1c599e2b0de66eafa78c51e966ebd40976ec3b7ac883512c2d6508a61f9a971d700b598477565d7eb23ee5a54cc024ec5b04bff9d0b93c807e51ca095f2e4e0c1d933dcea1f351a14de3265d8f812445a2d039ab30ecd8fa389782c1908215060f58a629ffdadec87fe501f0c808659c6d09375a7e9eabb402ae344ad8dea1b58bb74893ea04fcb35856551e2fb75adde9be2aa8b82fd54fb20d0ad0179d37953ddfd52a0c0d40db0dad8d80d9263753513932945dfbd7037665e149d76e"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_008",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "James never forgets a promise. He is very _____.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "careless",
+        "unreliable",
+        "reliable",
+        "shy"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "careless"
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (careless). Lưu ý bẫy TRAP_WORD_FORM_NEG.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "d8fead8e94d836f5",
+      "answer_hash": "93ca67642a630dc8eb6ce08dc26832bca6086520a42aded83b783533194e9b91",
+      "solution_iv": "bcdb92f8dc72b459880e01e4",
+      "solution_cipher": "14d6ed8fbbd2b6091d13ac0342ee81942d002d98834b004774657fcc17ec01477b62253ac88115ae50f35d549a252637c0bdea9a07279f276999c8a3be19726b98d545cb7e26b5a48e2c616d1ac321b95cfe8079349b8dc40321d5b167c61bc01adf8ef358b2bca73631fa214d6e46281061716fd6c1a792be95f37a6f5701ed9ed5244be6848ca8945a9d5e7fca1970058a4945bc8f92d6a74d5f534ae71f0daa6ff59527164b025bd058c5ce54d88ec2385d63b8de01d29f1b88f0e361db47"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_009",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Hoa has _____ hair and _____ eyes.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "long black / big brown",
+        "black long / brown big",
+        "long black / brown big",
+        "black long / big brown"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "long black / big brown"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (long black / big brown). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "db6741950ad58525",
+      "answer_hash": "4f0d0a69e070d431b370184eb079437aa28b23bbc2ff88f838eb45d44454f5cf",
+      "solution_iv": "635828abe10697f3b3cbce18",
+      "solution_cipher": "d11086af2751ccb97350835117c1ff05e0e9236c5a0fdf995a27a0c8fba5ee78f21fd99e5ff800d963222f82b64046f2e25605611e28ad35080a126fe111babee6345b2794ffc03fa08a7eb6e02f47590092068c59ce131a0659fe628d65f2ec1837419b19d494818f3169c013bf224a05bd305fd61ed88360ca304ee91a22577f5d43c4f9c9fa6b758a5f79748670c14ae183ea3372b94be9e7bc2e3a51c8dd9c6d12ede343d1a5e4d39e7038dda163848fcb4a79eb5b2176c57762bc4db3146f02a876947b497597b8adae83037cbc2804887cfdac4d"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_010",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Quiet, please! The students _____ for a speaking test.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "prepare",
+        "prepares",
+        "prepared",
+        "are preparing"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "prepare"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (prepare). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "444032541fc1c608",
+      "answer_hash": "96fd62f3e5630514ff032d6dae0551f503bd65e90663a98d730d520072551e4a",
+      "solution_iv": "4436a70fb9abd2e38733c307",
+      "solution_cipher": "816669b075f102232e000242674cbea90b2bdad6f12839b3f561f32df31bcc9933eb3a3429c31674e252754a86e24a0d8cbf69110a3dde25c40a00eae0008099197618d30f3f09159901c64ca612ee635ff05f2283a7128e52c7b70fdcf7155509c83614f4ba494d933f85d1bc5dd934854ec9e85bb9313217fbea1542baafb53375a00a273c0d06c9009b3efc0b0116273e9600bbd9670a8a98d4ab8bba5bbfc3ab73aa8ffd5a198d822e88309f6cffca4da1fc1e9300def2"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_011",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "What _____ your new classmate _____ like?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "do / look",
+        "does / look",
+        "is / looking",
+        "does / looks"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "do / look"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (do / look). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "c73a86e437aadc3a",
+      "answer_hash": "252817388bc2322679ceec9f2fd5d98cb2c4ada2dfef4345cf2d5296903ef251",
+      "solution_iv": "6a7c3122e3035ee2d4ff2e3c",
+      "solution_cipher": "15b44afd7decd8c79e368cfeb503359f7adf3c64018e2d6630827aa03feae4fdbf92765174b28a29586974cdbaf15d505db992d380d022e9c7fcf4632e9a826149bc30f721ad2a285e4e93fe540b0f41ae70836ec1345403bb637e94ae73a1c382afd6fb5100f88cb6cbae6c4573ce9a2afabc8bd0916612763edd107ff044c62a376b580483d37758957b54c2856137e8e7304ddcc30a368bfea31070fa1368566df15e561168bd3d9e585ff2848da505a4713e939014e535642ea303"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_012",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "\"What _____ Nam like?\" – \"He is kind and patient.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is",
+        "does",
+        "are",
+        "do"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "is"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (is). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "3284a8aab6a3d4be",
+      "answer_hash": "de5e3e0b756fdd5c49748e83cb3b51d8624582e374147910ce47fb0d7da52372",
+      "solution_iv": "44d7c53bff6b1b80eceddd8e",
+      "solution_cipher": "50b08de60294f63b78831f101c32a6d019308ef8213787d34bd27ea208e1485a041543c33dfd54a88d197be8f81fb3ab2c2f91bad50df34298174a5c63443839ad06bb6c9c596dd38cf1ec90b971e62f1b301cf98cafdf9b068f4bc7a5568c24d9276eb9e5233e6432d275dbe546f57ee25e3ec1e8f79d36c64e2ad8aa6497533cdcc1cb6b71501e0f210583ebada337c2fecc0512a5397600580553c90e802c11f17d8271f6fb956fa79f6b24d818"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_013",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "Our monitor is very _____; she checks every answer twice.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "careful",
+        "lazy",
+        "impatient",
+        "noisy"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "careful"
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (careful). Lưu ý bẫy TRAP_WORD_FORM_NEG.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "370a79e8aa848e56",
+      "answer_hash": "90bc78b3c0736c7f2d50a93630895e777d69834a784d1596511dffea1577dbe5",
+      "solution_iv": "ea0e91d4aa4bf7470b917f2c",
+      "solution_cipher": "a09d3a7df39467fddd644d9d2f014cee4e3010a5458555821adca8a2af9dd536e97db015993164419310f5ad1c13645ad118d589c5184dabce995991bcf58eaadf182925d258e5129189614bc80104c419a67f9e345d95cb6492cc070591fa66e22a57132db293223f13598c0c9cb254289b22a29e90927d525527fa6b54123fb466d9a29ba972bd763978719e86133dc3b0017c85b09d91e705c5cb99adf98e29dcab88da0db0bb36711a4b54e1dbd545badf66f4574f0a10f886e978d2"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_014",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "I cannot talk now. I _____ my cousin with his project.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "help",
+        "am helping",
+        "helps",
+        "helping"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "help"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (help). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "aa97c903d4566360",
+      "answer_hash": "17e8a313e88ecb2329545dc26b1cd68d1d2be6f68af8d16cb267f2f342b8a1dd",
+      "solution_iv": "25e5ee4836dcd8292f76c90a",
+      "solution_cipher": "f02434856a091b4b15715dddadbf077a6f3f1f0de84004034ba467c709d0301d11374f07a2da31babaae86b9704257ef317a19c893dc4384751d71f5b3b45ddfefe7056db75f72737d4af8f6528fe85edb678c9372b20eadcd77e4e8a81fd659bf71f6f65a456982ff6363e3c90aeb546d84acc4eec47e068cfa3c037349fb5c8519fd9a4ec3e3f0e598104a13e219ee54e303a368ef172afad87b10426cb5d046523cd2ecc52f2253ef0345fdd09c28a405405c96456e"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_015",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Look! Lan plays badminton with her new classmates now.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not completed sentence",
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (completed sentence). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "9af84c9c706b1e85",
+      "answer_hash": "991e143725fb8322b189c36108b1b5e25f72f87b21a5b8b9daada8dbdd01b089",
+      "solution_iv": "2907a5c6d0ff74eef13a72c4",
+      "solution_cipher": "c9a3d09953960cd59814ae64c82901410795650fc84f9c0f3899a961b84e7f6aaf46d6f5a33243b52843effb855fd28503a16f0a41c04e8f03966c7897db0d0854f6f8d7f14dfeb08215eb7339541bea25650a3318667a4aa8357de566fe6a97e1fb9d2c8471fd4ea8b1b2d9878cd39214a3f62fbecbcebd8409608e2bc44651d020e865a6ba5bd7b4cce27b45294d56ff82c2ef5ae99cabe99f4ad2bb5051a3a74ccf0d2960e293fa2c224e8737ef704182807537d5d947a2fcc30b639d7df23a44629cd5d330b5243cb5360cfa68099c5782"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_016",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "She is long black hair and wears glasses.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "completed sentences",
+        "not completed sentence",
+        "to completed sentence",
+        "completed sentence"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "448807d14ac98caf",
+      "answer_hash": "517c78e511704ed4ac3e5c55593528a56971e221bbe68b61cf35c2612d3a873d",
+      "solution_iv": "4fd097aaa17c072e1a0af10e",
+      "solution_cipher": "fcb0d04692b77710613c458c53efcc84e58c95d196a8e4c4f046e49ec48dda80987a2abf995af15f013b498bd494e7d32a936c085556c5a18db38328b55a5b58dba2904ac4ad7adfe74597c3801348152f1ffb96431d51a3730b61497d6b9c413fe632d1fef5c389d4d318c9fa5f223e4a6000516e97d699998539faa4356889ed17aefd25b4015584243493c3ecf7dc9ec5f6455e4bcdfd30ae287d6ffcedb43510a4c23a7900feb8bb97fa8e5d0c4e5dbc196a3f2f96c9f126e1fdd96a1682de7482c80f6e16e213dab570a445eb"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_017",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "\"What does your best friend like?\" – \"She is kind and patient.\"",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences",
+        "not completed sentence"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "17df222369e48773",
+      "answer_hash": "40ae775e8b1755e0ee77f90c1c3ad1f823f83fa2bd01f836fb1210e2785ac239",
+      "solution_iv": "88a4d6506d42a14299af4ebc",
+      "solution_cipher": "2a9ba28220ed8c7b50922dedc0cae62c9805dde9a4a074128038d7f7c3f4fc1d395fa81e13b9b545b7a6c22b34f745084903fd077cac14b9f2755fc7b33022fd4319e681ee1d59b682ae65909c7704bd3cc9ab6ffde07f995a6e21d2eb49c459f688bed64cadb150860252d0649d7018d309a12fe5d6f0b0b7a17be9e59fceb7c39175aba4d411ee97b9ce08f66bf8997a3e114819dcf51a08f381c331e6e86a2ea224b98f41e310ab0282e58c55e10758960c314581ce08f7565c61f46c1fe4770f9552f1d62f9880223e189aa585"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_018",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "At the moment, Tom and his friends is making a poster.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not completed sentence",
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (completed sentence). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "b2615a577556425d",
+      "answer_hash": "d4330de4dba944321ed2a94c5897c2bdae064b7f822dcdfff027e23d08db2404",
+      "solution_iv": "0961747b5806b06557e3631e",
+      "solution_cipher": "2488b07c5a751b7ec27be171e7d824c59d9faf68246a48778bc6bff96d6e75c94f71c380560bf8d0a5614054a8c20e0b3cb9c1e61d19c8ed4529347cb70c929864e9f373e56d3747c3d821c70b3dd97f73f29b0d0c3b79faada9765513257a8eb1645adba4f870f0f5b2378f9546fffa48e9c76610448020ee52e98b355e7b6bbeafb6df76b3edf5b95fd604b6e658c2a824d8e819918765820f66c676e9a679a0cc53b4e5ebeca3550c194c9b480d6b5bd42e542940000e23149da56b4a8cd7133c344f31f071f1d65bcdb1d3c3a562d51118"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_019",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Why did Linh speak so little in her first week?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "She disliked her classmates.",
+        "She felt shy with new people.",
+        "She was ill.",
+        "She wanted to change schools."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "She disliked her classmates."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (She disliked her classmates.). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "bbece9a7f93f6fde",
+      "answer_hash": "dfdf00f3b69439bbf075b190dca35d106dedb915bda4b8578ec72956c639f08f",
+      "solution_iv": "a94c493285b868ecf09cb1c4",
+      "solution_cipher": "43b9fbebc236ca0f4b7ed505557f0f532d07a4224664bea48714932c3474021edc28977d0e57733fbe264aa4bea478964f6a22e60de4461116a23c8db272505c55b3c4ea6b577473a0fd1ebc6a202ccdee404c71f5617cad58b9efcca32ba525df9bacb39c5856ec533aaadc9a9ffc61b81e6feaab795387a9261eb969155c8040d234b60a76c2f58f085463afe03469d98d53665537e4815502758a88c9bc3fccd77e159f4f324d0086f1186267ddab19b496d5163023305db9eb3a9998cce080dea4a89c1abb8b3c943f5b8416dcf3b307f0477c2929e0a45491e0add442d0477faf"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_020",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "What is Linh doing this week?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Reading a book alone.",
+        "Planning a sports event.",
+        "Painting a welcome sign.",
+        "Taking a speaking test."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Reading a book alone."
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (Reading a book alone.). Lưu ý bẫy TRAP_SIGN_DISTRACTOR.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "530454135858b16d",
+      "answer_hash": "e50064f69015fb957132083d99b0157deb63e7bf5148bdd80b6e8c62814bd201",
+      "solution_iv": "04973157745c5c19c6672127",
+      "solution_cipher": "56ffaf00d5b6f9d09141a6580e3db5b2863f4f14918025210bdffc76a5d319a3b7800f949599a29cc3ce80019a1102bef292c4aeac78f85525934a9aa89a97c24af306eabcf39f7721f482f6e191233b61578f2afbecd4666e8977f151ac7792f3f70a7abccd85066c9b75843e32d64cc231dd1d6fb2dda18a61ef854a32be20f881aa1662fe2a58538f67212ec5d983471cb42226a8134c76d69f4061ca6b2c7482854dac6773048b4a2794709fbb88ccf8e2cbfefbc08b6b7ddf176a620369da8d3e67965cda8d858af8e747714d20e41a6548b5a6c713a353f03c"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_021",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "Which pair of adjectives BEST describes Linh?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Creative and patient.",
+        "Noisy and careless.",
+        "Lazy and unfriendly.",
+        "Impatient and selfish."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Creative and patient."
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (Creative and patient.). Lưu ý bẫy TRAP_WORD_FORM_NEG.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "b0c3cab71ed3d57a",
+      "answer_hash": "07a4393fc9fbe829e90b2471d80b3165d35dff3734617d6c9f6e29213f709d79",
+      "solution_iv": "933e2e72605ecf8eacedac38",
+      "solution_cipher": "aa4ab7b00930137c1f2af5236b2a5fa7b56687e1da456ab15ac40a94a18f6de400cb26c5661de3257f3f4c4745d310a2bfccfd918abfbf7e3cd37b27e4f66068d4a52db395fdc0ac7c4276bb98a49449a48ced80dc7ccb058ed2ca3ab8dd01aedefa51b0d32498766f0d4358e757533b0c15edbdd3a0c48a4e67568e5f1631805524baf4ce916b573db3ef000c775c470fb538cabfedcfbb416270f4ad30d41905d449b93306644dca1b1a81efb0ced52e1d22f1be420861924f6b5e6cc6b3740eeaef29fdbabdd3e98dcbbb3ad231a68c8f1f1764548e8b3063"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_022",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "What can we learn from the passage?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Quiet students are always unfriendly.",
+        "A first impression can be wrong.",
+        "Friends must have the same hobbies.",
+        "Only confident people can lead a group."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Quiet students are always unfriendly."
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (Quiet students are always unfriendly.). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "bd90a1c9d405e5df",
+      "answer_hash": "ee453f20c9087b86769dbfa9f51e097ba721b343e5fcd2a979594f8e68904bf2",
+      "solution_iv": "e5a910c480c55325719c5013",
+      "solution_cipher": "5b4eff146d532b537e3160d5a818c0a7114ba1f2c69e5a41cd3da83cd1ed2422abcb8a3b4b3699f08d24b083f478d886e36ba67a99b9324748472a016d92d97fd9470b9975be77468f6b791d92d222892672dc16e59a8847b7fcca137d9e6e7dccfe2c8cbdaa0a5a501085b8c246cc3cfc899f71ab2099e486cda3804f0ee42378e1cfa725135eda3489b028f5e8940cb23a58939fcadbc735f0e730faa41af9b3c6933930174c6693ffcfdf8f17572223fa99379849d7665645b84167d3cfb6035fa590f9cb80c85bdcab7e76642a7da0b57b48c20fce1905186e67896d0d1078dae902bfc05b32a35b10682881be08127701695731d4e56b"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_023",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Bao feels comfortable when speaking in front of others.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences",
+        "not completed sentence"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "7066fbd863683fde",
+      "answer_hash": "a5a7d076caf6f47b0a7d3b1c7d761070e17eaaa4d1f478d78a5100f3103dc793",
+      "solution_iv": "1eed92e41d11a90a831aaf9d",
+      "solution_cipher": "78ad83eb4e728f9f0102ada40f64fb1e401544a3b12a9401c2cb60d255186c5bce60a15fa62aa96d474fd945e03f22b59f64ea126a9a177f74e2013fe862f0e375de4be02e14854b2730f308497112d8566957f98034618b57e2c1b1973bde6be788433cca2b417d3a179e93fe83ed395d4328abc54dfe877ec8c89aeaaf050af5a1df9f9e1b865017164ea1ef4995affdca6a80a56d3f5e98338e1aa2e1962cd4746cde2c69bd1971c184722e19f43eb5da55da6ec66a9ef621d125f5ad3143673f01741340238f8184fe5ec5360c"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_024",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Bao wears his glasses from morning to night.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "completed sentence",
+        "completed sentences",
+        "not completed sentence",
+        "to completed sentence"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "2f7bd2550e98f628",
+      "answer_hash": "c712ba8f2a30fe43532a4e393f9d7653234e36bc4e3641832849c4a6b2c5d83d",
+      "solution_iv": "fa64281af1ffa1779f361154",
+      "solution_cipher": "dfee34f017cb628bf0f252efcf1d56db448452d2187f0e555465eb2b20e1ec8fe083fa5afcd7089b5a588e2c62b7e25e6cbf3ee565878c5ad4e98cbd09d3a7c31b39d739d37769e9abe755016d26b0504e196d1c38ed8f8ae4beaf9867fd353608821d4d8b8b4733c6d7b987c26c6a1bc49811bcdd4903a04c89418066ad3affc0be9362beca77a73d89c684aeccc0bdbeda741b080c7cb9363e146208d7f971304ca90025e45b88e70c7766acaabc0e41a00be8a8dfef5066d72f48091c893da5e438f4dce2776fcdb3d47ca1c383"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_025",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Bao and Minh are working on a talk about healthy habits.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "completed sentence",
+        "completed sentences",
+        "not completed sentence",
+        "to completed sentence"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "36628408e9243cbd",
+      "answer_hash": "c228fc83019110ae535f86acfa7e99848d5a2ed8c7b246dd733908c2e14bbae2",
+      "solution_iv": "47536ccd6922e266eda5520a",
+      "solution_cipher": "d99f9adee014b63265f01d6e1ce30e8e858c0b628119217ba434e88cbed710e1400e7cdebfc49425227ef37c9fb700bb54c07ad317f0bb45b1a799641a590ba11d7d58d06c560c24b76ea2f18421339ed632e802a20940e8b4a71b2b2d2464056f3b0af0e5433a36a9f343d761a499aca683bbcf6c3a9d4fc08d6fd4892a5376fece01c5d61a146bb6c75421ff579e40e167b0e5fb367ae9d891b44b3a64e2f7a90a8f2605d88801b0f1d40144321255b8737d79071817f4a89b96a9607f5e92c1c63845c68c67a3e62125a9a1f85b"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_026",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Alex is going hiking with Bao and Minh on Saturday.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences",
+        "not completed sentence"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "4115a67a3aaccf96",
+      "answer_hash": "ee9a1a89c3b2ea1c64b655844e9289f1c8450d00076d2242b3c9c5eb3c0afad3",
+      "solution_iv": "50da48637eb6f5809c332f57",
+      "solution_cipher": "74c192001f9ed633358dc62c3f19745fdde5dca0c9c00abd099f2e382d0fcac2d9252d40161f0e7d1bb6de228ff8ffaba525dacd8ee21e9584a42d74ff4d68cc5735c3aaba6e6501970c461004ce2a55747180fc1f52c3d13b283ef620734de41e27a284fca50f9dc6bd0dee47372c6b6448921aa3766bf15772b5e50194112845bd549f9c0c2a82e2fea7df94de5180e5873d40f198a3115fbafebc72582036809f3d54f8b6c3b18f5be93599166c1d5aa6f91f559274cbbefe460f7a1c75ceff6e5a00adc8b15d34a5a124422da2"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_027",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Linh / have / long / straight / black hair / and / brown eyes.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is Linh has long, straight black hair and brown eying",
+        "to Linh has long, straight black hair and brown ey",
+        "Linh has long, straight black hair and brown eyes",
+        "Linh has long, straight black hair and brown ey"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Linh has long, straight black hair and brown eyes",
+        "linh has long, straight black hair and brown eyes"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Linh has long, straight black hair and brown eyes.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "ece39f9e304ad2ff",
+      "answer_hash": "e81eca62984a3c244e32dfac18d5a93f880fa70c7e2a88c59cdd1012e1f83edd",
+      "solution_iv": "e2e6de0c7505627e3acbe3eb",
+      "solution_cipher": "433bfd111e3da8bb8a4696ecbec79e0188d01f9f714c58646e27ba6d7d65d4a95f4c66547b17658314e4308aa7f7883f6c62d0df21817c5fe24693f76975242be8bbff4f5975807a783e6d23219d223d678ef3538149ad48021b06ff015fe1e808ab5f7c51adf419b2ba2a5dc0c2add67ebf4ae289d80fd965e29aada17d2b44a06dff89771dafa63759c75abc1df750c47652fd0765321e095518640f4c425490fd627e358b589923a4f26c6b768a957d6251227aea6801e6eb6cde26622a1dfbadb2cc66ee4236d224565b9d439461c03d0de230f641b680534513ff674afcd27263aec8d62e908c36911be79daf2835bffbef08607c17567e"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_028",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "What / your best friend / look like / ?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to What does your best friend look like?",
+        "What does your best friend look like?",
+        "What does your best friend look like?s",
+        "not What does your best friend look like?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "What does your best friend look like?",
+        "what does your best friend look like?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "What does your best friend look like?",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "3d5877821fa8e3bc",
+      "answer_hash": "abb25056b4fac722fd8f39843d80113cd4cebca47a187baf81e8ebdfee98e704",
+      "solution_iv": "b5af35fe8ff3f89b47c7057b",
+      "solution_cipher": "64243bd1f46dbbaea443a8aab9afbdf3622cf822ff7b6067952bbe876ce25f9abba5c2fbdff0f9f356413a1f1301d1f1cc09e204c6a1b6c90a888ae64c424789501a32368b7bcc63c68dbeb216aa770ffb5ce72c4ddab2ddbab093d55fb33c6d3c0fce1e482cf0e5a595e391b7a0bf447346a6ddb801b1b0d0bd626e2340369d03ec55854540c930e8e22427a82ad0526e71c3ca89a763874663bb0b91a990ca87aca10b2ab73fa8877bff48db994ddef63ed0c9088db7e104964d53d33732704395eebfca71e4d3b22ddd575a0407c483407f20da"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_029",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Why / they / make / a poster / at the moment / ?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Why are they making a poster at the moment?",
+        "Why are they making a poster at the moment?s",
+        "not Why are they making a poster at the moment?",
+        "to Why are they making a poster at the moment?"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Why are they making a poster at the moment?",
+        "why are they making a poster at the moment?"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Why are they making a poster at the moment?",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "6623a901f1716134",
+      "answer_hash": "aee4e9ab05654043153e4686d5df535cd0299b61e89ec5100a759c5243324f3d",
+      "solution_iv": "72cedba16522cbcfd4045e6c",
+      "solution_cipher": "ca9d2d3e7feb1d1a823c1d67693165217ace69c6be219ae0d9c7d73ca5bb726a53167edb2ac52c820e2a2a03a2597cc3016f991b2ab07ea4ce0a91261590c66e2a74ca69351d5f2668c2c9aa3e68b61667f90669a626fd91b84487d3481ca6edd2be046dfdd2e8eb952499e5a0493d8be29bd44dfbc9660e46d7015c40d2f4498ad47b580b151a2b8890affbf59953a4968a1c976ce781e126501597af6abf083d21fda5390c27701418f1da8a66e69dae0b63f857664d8b0860e878bf79ea3a45f5a417121e81c6b2378f6b9a7b4b49434a7dfebbd2459e1ff3669008d8c74520ec77022574f9"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_030",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Our class monitor / usually / help / new students / feel welcome.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Our class monitor usually helps new students feel welcomes",
+        "not Our class monitor usually helps new students feel welcome",
+        "to Our class monitor usually helps new students feel welcome",
+        "Our class monitor usually helps new students feel welcome"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Our class monitor usually helps new students feel welcome",
+        "our class monitor usually helps new students feel welcome"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Our class monitor usually helps new students feel welcome.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "952058b299dc5698",
+      "answer_hash": "c267112ca60f7ca398ed511817550acbece149892ba9f040e106ab2f2e0ba6a5",
+      "solution_iv": "9941e4701db3ed5531a3e0d9",
+      "solution_cipher": "562e95240e9359bb036ba78c286056abe72946387301d11a0591b6f2bb23a928fea43ac1aa9d5f7e25bc6e287014ddd326ac463239483a69c75dbcd8674c1f22462a37b6fa836ea140eac6a87fa2e298d76ed3bef96ce7844218222c60aa8daaa75b0f05fa3c74b02efcddfe29b823a9fb51ce95e9127552930a4fee8f485be6ff6e4f0a400367adcf68b641cfc8021aaaeb4c580a08b275ab63e8219c96aa2a2dcfb2e8712ac26bdf75e09478a99b463e159dea41bcb0731a7a918612e6337636162ecbbc0ba07988d25497b3242b52dbdc0e34b0f52dcd67ca47387fa63ac103e373423e41b02b33a867d325d9f5d528613214bc0ea45ffdb150314982346322dd4b5403b6c77100c67d39a60aacabe58f"
+    },
+    {
+      "question_id": "Q_WS_G06_U03_ADV_031",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Write 70–90 words about a close friend. Include appearance, at least TWO personality traits with examples, and what your friend is doing these days. Explain why this friendship matters to you.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Write 70–90 words describing a close friend. The response should include appearance, at least two personality traits with examples, an activity happening these days, and why the friendship matters",
+        "Write 70–90 words describing a close friend. The response should include appearance, at least two personality traits with examples, an activity happening these days, and why the friendship matter",
+        "is Write 70–90 words describing a close friend. The response should include appearance, at least two personality traits with examples, an activity happening these days, and why the friendship mattering",
+        "to Write 70–90 words describing a close friend. The response should include appearance, at least two personality traits with examples, an activity happening these days, and why the friendship matter"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Write 70–90 words describing a close friend. The response should include appearance, at least two personality traits with examples, an activity happening these days, and why the friendship matters",
+        "write 70–90 words describing a close friend. the response should include appearance, at least two personality traits with examples, an activity happening these days, and why the friendship matters"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Write 70–90 words describing a close friend. The response should include appearance, at least two personality traits with examples, an activity happening these days, and why the friendship matters.",
+      "source_worksheet_id": "WS_G06_U03_ADV",
+      "crypto_salt": "41a8e43aca10e19e",
+      "answer_hash": "81667c2b5fb8750d488932456efa09fc7c57fac6c2bd3be8800d217891143d83",
+      "solution_iv": "1c6ee4e50dee6ee5ee58d8ef",
+      "solution_cipher": "468fd5ca732c4775ca1d40c727a799fbfb675974f21b6331da299e03e330421e1ecc34e646ee538cbd796c61c0237cb8cfd6d71221fb9f0e128172ec3a8b619c88eb0ad1a61de174d9623f6a130d751e0b838f9a159807e01f3fe2778f2ac9e46d762ee4ffada525345f79ae8bf51b55172d8315d449047a32caea0d94f5c86a650d9891986cffe0d5eb2e48168a37936ead344b47f1e6b7f9231b72b27532725f125afb3d58db9e986dd0a8d309fd08b2c3d99bb4606d3c5dce0977471e4db923261f3d6a7cc5a58541acc67b5cf84328ade6404a8598a602a6529296112be5dd3726e2b373aee686d4da08829463575532c044405909407d59aaec6dd61396ed162969d890faeb4dd8af4dfb92757a07fd72cbdef05629317ac66b3e1be9f163621625dfd90760a1b15f5786d30cdd0c825694123945bc836e3ea0b9891d957c5ab4007154547e41e67cfc2bd4795e7f2236bc4d80d209aa05516730410b55f9f8e17334f6ece28c1057d8326b81455ca0f66b71a6d1415b1c213fb68a8972fdac0e5595c4b286de1fb70c1954d51fefda62effa5af56ecfd89916b2e4ec0191f5c1e0f8afbc23b0095cf7e029412e632a026a5e4c90ec9db06fa1b6b460adf1b4d8db4582d83c7db000d22267d9384f6beece994b6ec42a79c845156c772bb9bb3dda1bdc2ddf3c27ab0b9dac669b3dbafa56f30ed4361c8e73474b06da161dc12c4fcb42434f425366981d681300be66c328ee3987496eb55f5796f10382a621248cd61c8e4e934be04a86ee3b8f6f0a5625a033818ed6d8066d66c87a7d2d491a887c42da0dda2a959dc093fd13c0b61792d328a6ad06c700ab4daf20ab31b71ae40be3dc2f84adfe700ed2ee2cfdbd107215a47c486503199fbe57ae2252ed92fd51eefa84d1d92e3ff7d778f09c7949e13aafca548aa7383968a19c2bfa2ba688dab4b44e7ec1a0e89e3313f1e6e875b9bfbf2b3cdb"
+    }
+  ]
+}

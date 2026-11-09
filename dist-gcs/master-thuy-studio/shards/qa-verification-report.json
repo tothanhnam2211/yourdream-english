@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0-production",
+  "verified_at": "2026-11-04 19:40:56",
+  "acceptance_state": "TECHNICALLY_VERIFIED",
+  "total_worksheets_curated": 20,
+  "total_raw_files_preserved": 63,
+  "total_questions_checked": 953,
+  "passed_all_4_gates": 953,
+  "pass_rate_percent": 100.0,
+  "rich_underline_bold_items": 337,
+  "visual_sign_and_proofreading_items": 62,
+  "questions_by_grade": {
+    "6": 299,
+    "7": 206,
+    "8": 90,
+    "9": 258,
+    "11": 100
+  },
+  "curriculum_units_mapped": 11,
+  "gates_summary": [
+    {
+      "gate": "Cổng 1: Chuẩn khung SGK Global Success (Map 1)",
+      "status": "ĐẠT 100%",
+      "note": "Đã khóa danh mục ngữ pháp vượt cấp cho từng khối 6–12."
+    },
+    {
+      "gate": "Cổng 2: Đáp án, Giải thích & Bảo toàn <u>/<b> (Map 2)",
+      "status": "ĐẠT 953/953 câu",
+      "note": "Bảo toàn 337 câu có gạch chân/in đậm & 62 khung Biển báo/Proofreading."
+    },
+    {
+      "gate": "Cổng 3: Độ phân biệt 4 phương án A-B-C-D & Tự luận viết tắt",
+      "status": "ĐẠT 100%",
+      "note": "Hỗ trợ chấm tương đương viết tắt (don't = do not, isn't = is not)."
+    },
+    {
+      "gate": "Cổng 4: Chuẩn in A4 Master Thúy & Không Watermark AI (Map 4)",
+      "status": "ĐẠT 100%",
+      "note": "Header MASTER THÚY · Zalo 0836 686 874 · Tách riêng bản Học sinh & Giáo viên."
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,1711 @@
+{
+  "worksheet_id": "WS_G06_THERE_IS_ARE_50",
+  "title": "Lớp 6 — Chuyên Đề There Is & There Are (50 Câu Khẳng Định, Phủ Định, Nghi Vấn)",
+  "grade": 6,
+  "unit_scope": "G06_U02",
+  "question_count": 50,
+  "questions": [
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_001",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ a desk in my bedroom.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There is",
+        "There are",
+        "There be",
+        "It have"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is",
+        "there is",
+        "there's"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "1998643ab4acf2ad",
+      "answer_hash": "c6db3e7546fe04b1bed7e50810aa9ccd98d80b0c08e84bc417b411a89435288b",
+      "solution_iv": "649b77fe253b51a6e773ea33",
+      "solution_cipher": "ef0154b772c51482570a73c324f17d96aef437f9d3a19087dc41835e6f7c0ecf19172b7c5a82441da58b6ad9e59fc6319dc4d1957a5cb15de22d9bf6b1a98bd6d3e43d318a6b1d4dc7575cbf5ff58dccb578a293f25d73fe3517f7a06aa5e740aa49fa56f289d6941cfaae3b407efc8b80ddc3abba91ff4556c3d71524fc914afcb0766b5bb1abecf29c86937587d3a157036d7e6bc59cd3028a8637"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_002",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ two windows in our classroom.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There are",
+        "There is",
+        "There be",
+        "They is"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are",
+        "there are"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "1e690bf96316c64f",
+      "answer_hash": "9f29c013f009419ec4a9c2f24adbcd10838f609d15a06f41334571351e3be4d2",
+      "solution_iv": "9fc741a4f13121e4ccb6368c",
+      "solution_cipher": "0474d5d7b0a726d97e06c384c6285aa49670960843d1da29782ef4c88e68b84acdaf4b3436b0335455542aabff25b1584f7fc588d8aae839c99b66df9e638c9ccd0d3be8a2f218d3fbd9115494370a8f9aad150d13f0ddd3f3aa9f7207926124d69742f8c2eaaf99614d8cc92bfa03df498b73a89f6123629175056a1ff14701c76f19b87eeb1b06d785ecd213d6ccf50c6bcb7d5f"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_003",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ an orange on the table.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There be",
+        "It have",
+        "There is",
+        "There are"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is",
+        "there is",
+        "there's"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "bb03ddfda0779e9f",
+      "answer_hash": "9e3669f6a52cbc0e8da7b3394278dc8acf93fcf5576b9a53247fdbd004824922",
+      "solution_iv": "9d1874d74a572ce6bd615590",
+      "solution_cipher": "03f724b6c7097f73000ebb5fbab819ba5dea0e293bdccd09b917a882bf4d3ba620761a42764e5f2650c949dc55addcb09c02291504e221834619573cb91d810dc84d0ac0d14b5098a71e86d740e7bcde7ff7ae9ff47d82cfd1c48b4423fe2af36edbe23a21e557954f202a0a5ac82d4807280167adbff95bb6ccc98c307cb707c7e72140e31f3717d4888903f42bcf690c7c20fe0835c63a1eae4b16"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_004",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ five books in my school bag.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "They is",
+        "There are",
+        "There is",
+        "There be"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are",
+        "there are"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "5c9fd488a5665e99",
+      "answer_hash": "fac9b3a0ce0ee983ab758da4a52940e6730e035ba0300caac88a5059edda5f60",
+      "solution_iv": "b14b01607c87e48de743c2fd",
+      "solution_cipher": "e634f64ed12d48e64b04c0713c4e6edcf7ddd1bb0bd633a6ecd72e42f82e4b57cf213be5a6a69aae8f092efae56202d0c02ca1b4b12dbc327a76489955e9f45a94008adc809a2db5311ed0629ede0d4508e3e360d607f86ac26985d1c19d09874341fe20e22d5f2e68a87137d12a4fafeb363f0fdf08616bcc91becaa10ea233603b4bc36440af5b3b62517e4e7e1f75fc0632c0b7"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_005",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ some milk in the fridge.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "It have",
+        "There is",
+        "There are",
+        "There be"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is",
+        "there is",
+        "there's"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "c2776a85541a818e",
+      "answer_hash": "a3142c37a446836fb06f90e661b8ae8c82eeddd466b61bcaaff31768daf2e342",
+      "solution_iv": "a7b68cc77cd7c45ad71a0e93",
+      "solution_cipher": "9531534ef2ede44f2d0480b866a6d6afcb088806f315f05f303e5836b5298af82c315b338662d64b9b01612b247dcfc0347bd5958a0058072005748e6d5fdda859205826a000eb01187e00c3bfd0566f6c907c268754ac765dc9f01b5af2dbf52a86198581de03c5019b17994fd5686722bcb91f70bad159aa7b426bf353405016657f89b32d640395e44c76d731f742790ae1519093dadfb6ed0e0d"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_006",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ three children in the garden.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There are",
+        "There is",
+        "There be",
+        "They is"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are",
+        "there are"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "f5e8fdae275e3b7b",
+      "answer_hash": "4d697777dcce5c1e9a921ad82dc2e6e71050fc6c9ed904c3ed9897c1314de20e",
+      "solution_iv": "5fb2faeccd1ca7f9abbf21c4",
+      "solution_cipher": "0da5546ce4346d0e3e4278bb22872488a3a3804c11750a8a0274d9373ab7b2d8a85c376a94f3c482344d7e86fcb256fac910b04102b2ac0c51092f52fcd99bf8b98725aa864e8e691714a3e216a918be7a74a5f6508334385594419e07468c20d45a997a4cf26ac2dc5c4ab58cbd14774de6f0c24058cf8dd21b9aa4037d2f393e035f053ca4a521706979831fc453ca6cd54d7b4a"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_007",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ a clock above the board.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "It have",
+        "There is",
+        "There are",
+        "There be"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is",
+        "there is",
+        "there's"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "dbf7ddf80b59d92e",
+      "answer_hash": "af265685f4a5073b58092e4ca2c856757b2d4ac6d9d43803f11ace0cefbfb865",
+      "solution_iv": "38aab457f8b0201f8a163022",
+      "solution_cipher": "ca453b9b15edb598b0eeb2eeed40ab80e2bdb1dd44b67532c0b34ddf42153eaf2c602099cd76effcfa4c508f9189e83ae4000d97df6396e05be23c269e42c7f9dcb57963d319fb22dad34d08f16b0871149fa65f6db784041d683e0843a702c06cb91e91bd97ad2938d0f07d2ca8a4d039e7944ef08240ec8304459da86eec96fd0ba0e6607a1ae21d291830409b763bad8750977d116cc49ca8aca1"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_008",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ some rice in the bowl.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There are",
+        "There be",
+        "It have",
+        "There is"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is",
+        "there is",
+        "there's"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "5607eefe16b1d8e6",
+      "answer_hash": "ad2c6ed28fc9b3bfa5f18dcbcab867dceef06ae0788d09988c0d93d0919d3b4a",
+      "solution_iv": "40067ac4f3fc9385cccc6a35",
+      "solution_cipher": "7722e10ab019a51c50c081952dd20405e3cc700e781be6e78cb77ec85352f35232708711a33db2ca150a27f842d91dddf228b94f2f05f526b99d26614e77e316beb2f975a34992f8cb08579ba00c89cb4006b806b3f659774d8241622901f9e33dd90e64e21d6f165d3c5afefe11dd7e199371eb4e866e45a356baa280ebd20c648cc26dcf38cfce69373f9489f21095daa2cad127f20df5d685ce92"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_009",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ many trees near my school.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There is",
+        "There be",
+        "They is",
+        "There are"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are",
+        "there are"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "7faeaf4a2d44c171",
+      "answer_hash": "3a8276d2be7559bbfd497d1be7d9ef3c56ed5e6710763012e743e850379e6878",
+      "solution_iv": "db34635fea8e457d14e9876e",
+      "solution_cipher": "b9a9a5f16b9274a55ba2d69b89188d55e681827bf18e7066eb181571a021384df9d48fdbe26b690e5891b3a3c3182af7b6ff733790a4d18395c51f6f0021ca21b1376307c5ef1305a1bc73e600c24c3b0f0f29cd8bddb749baef49740c284bcd300257f39387ab8a1b60780244d3769d59b6f2ab555d90e7b1d5998e30783e1d9581ad8e18ce7a1d3e43c25322fd85c324f1d029e8"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_010",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "__________ a new student in our class.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There be",
+        "It have",
+        "There is",
+        "There are"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is",
+        "there is",
+        "there's"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "f150ffbeee60cf48",
+      "answer_hash": "290056cb46dc7ed77f3374dd0327cf69e65acb1e34eabd1f9e103ae987dc271d",
+      "solution_iv": "e1edbe297d12599daa40f4c6",
+      "solution_cipher": "9ad3967ddc9d6b8b4e6453111aa33a4329275e5c9aed64668399222002703a96b81d1373290b7e3c17e3da53d7de014f69a8d87586df73960dbcdec8e8f575f3149aa454e730bb028a0501b008b5d967c5f348cc3b034c961476243e3bfbf11af06375a450253d2fb25502227532e0693315e98a06f9e088a9828ad85d302c1874de9fbfd25e3783c994a7b6c3676e867a1b017e657c5948a14628af"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_011",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is a TV in my bedroom. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There is not  a TV in my bedrooms",
+        "not There is not  a TV in my bedroom",
+        "to There is not  a TV in my bedroom",
+        "There is not  a TV in my bedroom"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is not  a TV in my bedroom",
+        "There is not (is not) a TV in my bedroom",
+        "There is not (isn't) a TV in my bedroom",
+        "There isn't  a TV in my bedroom",
+        "There isn't (isn't) a TV in my bedroom",
+        "there is not (is not) a tv in my bedroom",
+        "there is not (isn't) a tv in my bedroom",
+        "there isn't (isn't) a tv in my bedroom",
+        "there's not  a TV in my bedroom",
+        "there's not (isn't) a TV in my bedroom",
+        "there's not (isn't) a tv in my bedroom"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is not  a TV in my bedroom.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "e1e0a02c726ac339",
+      "answer_hash": "58ec5a65119711a1f28c7db8322169a5ecb96d050253e129c64efa570ded9344",
+      "solution_iv": "9583c6fc54c191a19e13c1e1",
+      "solution_cipher": "2c21b357de1fcd58b74abb1b120895695eb40d9eb5f7bac53e910020c7039e9195629c1db0a89539211ceebbfa074d1a745eb27386efd01f18ed14ee03ac139cda2549b267fbfe07f840072d7d1055732bd8025118f821eeb26a7ea1acc0eeabb193aee73681babf9c326d61af5d3341ea21e75803eafae8bd8c3fe0eef9a8cb25407705b48e788a9c0bd6968a67b30fba20d1923187784dd479fa0a56266a296dd45a068a424c91f9ad48cde06d74091bc16cddef8a4564ebe14c237e28b90ae19c196c2428fd887f9b24fe87e8d182774218f4559f14e6fcba6702354e3d0dc6ada28559f7847ec4a2423941762100e2fe0d7729948c0871e6ad768d61709d3ca518949e4a1f8e528c3f8b26e5edb5a4940d9e8817fac4fc489d9dafaf3b1e62651f134b12ff46aa76304e2fe177553d3c06108fcb9d7d7267ac286bd27541b9be41b50ec76aa1d8fcdcadb2435c0604ced70ce0d128b04751d03800f3e798903fd99b901c0ffddc8f269e495b748243276f4b24841acc5ae389bb01dce5dc192e3c14b836db56dace45c1b612e1a615d520601e4b9d8d884f288e830f6f982fc8df8f3c41039946f42dd32425a2e0572ce8452a57b60622a91e0e0c76384812ffe0bc94bf3bda2f96fbcc934996e83257467f08cf1a494c331fba757a2fd201c16d53e6f2b3b85aff9a2656f2c7e4e59bc5ee8aead6f8ba78860db77ed7f724eeca922965567c23c11c91cab968dbc0661ed8e03731bd5290a80d69e31f8bc9c865e96af21aaf1d12b3af2112ba89eda7389506d10c06aaccab8d50dc88d4ea70d9a154accb7dda"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_012",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are some flowers on the balcony. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to There are not any flowers on the balcony",
+        "There are not any flowers on the balcony",
+        "There are not any flowers on the balconys",
+        "not There are not any flowers on the balcony"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are not any flowers on the balcony",
+        "There aren't any flowers on the balcony",
+        "there are not any flowers on the balcony",
+        "there aren't any flowers on the balcony"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are not any flowers on the balcony.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "aeed90f581bfddb7",
+      "answer_hash": "95bb0112ad81500ebc40d0e916814e2c8677d3cffc348bbd8a67fecfeced2203",
+      "solution_iv": "9d7658c50eded60e243342c5",
+      "solution_cipher": "0e0e96823128daee167af5912f00e7275d72122848283f99c14ebd2da1091df0ffe016fe3f888f57b2dea97f8bd7c508bfce502ce422f6f431d891005b14435a4997685524fea58953ddca3d1800f786094b4e9e02490d11fd2aa8a0f33eec8c2877c783680358d0ff88f783095971f4fa464fc97b626bae649871b5931161dc79b6cf8b68e17358ce26264d3e92513237eecbd102ec68de1f14bdb3f56d5ff598c6c2a8c29d54f065fc27894237a656fbcd0e33dbb569a88fd85302110b59b368759280b02c735f55e8194c997431f5fe283f67a419f2ff4c82659fd4d551d0104c3e52ea7089b7f99e113b455022f388731daea92ba2c5f93f775c9f3b22c7e4dd0b675367fed0db405f437e78d3d8c6d4f5a6c71f3cb1996ecd12dd0cca5c25d553b670d5c835adeced9b1116d4c897e6800ae13c7a520412482c0de3f184c6f8be3f0f93"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_013",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is some water in the bottle. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to There is not any water in the bottle",
+        "There is not any water in the bottle",
+        "There is not any water in the bottles",
+        "not There is not any water in the bottle"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is not any water in the bottle",
+        "There isn't any water in the bottle",
+        "there is not any water in the bottle",
+        "there isn't any water in the bottle"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is not any water in the bottle.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "f0c5de3c29c7cbab",
+      "answer_hash": "04a56c44c2d9327f77c633f61fa0d498a461f1bd87f84a0a1d08841654c87a22",
+      "solution_iv": "2829eefad5b27477f5650efe",
+      "solution_cipher": "6ebd31aee0655096874ddb0c190e449ec4f011bf8b3da45d44fd0af52a0492d1dc228269c3c432e70105ead2bda0e457528fecde5ca04d997eb7a8f1bd9206c9adf6be38ca7c33ca37d6ce10388dcbc7eb30201150b267126c95693a92138518d3769fb42a3e43c81a5d0c52db0320840de25b126c13f8585392902efcf83da5434c1ac52eea681eb326895774979d086ae24ad86cbf4a18991848feff5223c17bb126aa88bcb62e7c49df84f357f3d9f8866d265d7fcfff6aad78744193027977b2b405040f23635941987bd157e15b4414e2d4d2dd33fb91efd7c437b1947984257aab3ad7e7efd107ca200a4e216c16aacd12758df6ced9cc05e83618bd83f5013e14c46625e9f0f0098a34dbf3fc46e1f934a40b29ea1a44270493c6d0d483e7893d6f08f110771c1f9c59ad17530e56"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_014",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are four chairs in the kitchen. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not There are not four chairs in the kitchen",
+        "to There are not four chairs in the kitchen",
+        "There are not four chairs in the kitchen",
+        "There are not four chairs in the kitchens"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are not four chairs in the kitchen",
+        "There aren't four chairs in the kitchen",
+        "there are not four chairs in the kitchen",
+        "there aren't four chairs in the kitchen"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are not four chairs in the kitchen.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "5d764fc8d513d875",
+      "answer_hash": "ca446f8ae0473a04d97285ddc4add1efcd0e6713da482adfa17912bef2ed43aa",
+      "solution_iv": "cf79c75627f4d9a0d842e5af",
+      "solution_cipher": "f25b1c0a3511838baaf89c6a92580a9f1a7f9407f82ab843e2c5f3710f0c1f174b8b71a5316b4334fa25f860c5a7eccf2ded3a9ecb84684fec63c50f74a942291a36a7e15aafe1a3664307bd243874cd59ba078c4669dc84da36a0dab76c7c7873b648b55e9b1f3c8469e5d829c7b8a1924ad07c5b5803a3d59c1c7d4396420bdf175de0795374b61e5a6356b21872d974505ab823b49abafcff435d837a8d31691b66c4b38185ed03604b9f9d05f5b6050a28faed51b05ab8d89ab574b63ff0e401ce18bb25a568d8ba5c209dd82bcca7c70de20b23fbd87f14996ff84b678776c58c981c47674c467abf138ff1bc104e9448e0dbe9a8791bf11da43c1a137609cd51348cf5f4fb33feb1ddc88033a145b0246d9c43abf2b0cda8cb8404f4421ce9730574dbea7ed0ef8d97405cf522dd929ca15fa82b5ebebd4f4ef336cbed6d6b6c735da5"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_015",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is a computer on the desk. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There is not a computer on the desks",
+        "not There is not a computer on the desk",
+        "to There is not a computer on the desk",
+        "There is not a computer on the desk"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is not a computer on the desk",
+        "There isn't a computer on the desk",
+        "there is not a computer on the desk",
+        "there isn't a computer on the desk"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is not a computer on the desk.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "5d5d3ac580d08766",
+      "answer_hash": "b29e88f88e5ea967ff68e90953c2b8cc9c4ffd917acce7a7ef88c518b9f3ca4f",
+      "solution_iv": "4359896b4f04d84fb4b816e6",
+      "solution_cipher": "61ebf6bcf8e9ff596e402522f6f686b63f5d6663be6cbd9f198a33b514e4d56735cd2bbfc6bf2303ea3bd60d738539a9460ad9f6ba4b14973aa0044cf655f91450b83b8fd2199e5ca26734fd826b75a7c84c2e75872779c1ffda10043c75acc63fd5d1dc3da28fb8e72937a7c3c2f3feb803800a402b031e00996a2483c68cf5cab7a2c4979c45cd9cdfd2e900a8364c6715517b6ddd5eafe2860a6529f8c85f71cb7000e545c78eb2c7209735987127b8a9df2150d64ad362e828b9ce9b0edc52298ec8fff3535c8d17cfbbb2ad0e24fb2b222bcd91d848ece7b218003cfbe84f182651522d34e3ababa20f8b7e437a53ddd49d9da6593c4a41e8549683ec0a818a334f79c75c802abb33e07766196a2002ff530478400514ad5d3e47a3742628e3dac09f1c7cb10b0fbf835a"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_016",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are some shops near our house. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There are not any shops near our houses",
+        "not There are not any shops near our house",
+        "to There are not any shops near our house",
+        "There are not any shops near our house"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are not any shops near our house",
+        "There aren't any shops near our house",
+        "there are not any shops near our house",
+        "there aren't any shops near our house"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are not any shops near our house.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "7581c4c9462de3ac",
+      "answer_hash": "1b5aa5495bbec5d330deb0753b01c1a0db6f4a069f3f429b1778c41a7ee91b8e",
+      "solution_iv": "999ee5ba446817e8c66b6d5d",
+      "solution_cipher": "9ff2cb76cd8b9b99baacd4d1d55ed4e0e9bdf8cbcd4b96a8c837c0d9ce94528c35fc2cc027919ad7f3b2885487c0332bbf64bc1d298e2c16f803d92ae641b03520c2e03b79cf595c28e3064f7d15f6bd4aa65c50b918e56691aabbb06b8b6c0e28aa76d72928fab06a88b70e5554ef1d2cb4bf8276ab9469d6565ff5728150d778ea7fcf76ccbb457ddea565ec838fc0770a9ec07045fd49559f3efd9d72cc5391a5ee7651deda8a61fd8ac51501a99eae460c144b31d9af2fb4833a791b0740657ef9c2d587973cde9ff398de5de11aec6c06bfe2313cb928012835055de04374c2134da5537516ef3334bb1c5869d3ceabc2191d18702cfe0ddd4bbe4b69617d9207a0371e89e325cfc541d95ab9f454135e40111b907243435c9845496d929baefa80ccd9523a0de89798c0a18387f6c9d20ad5fa7233d9b5bc36"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_017",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is an apple in the box. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not There is not an apple in the box",
+        "to There is not an apple in the box",
+        "There is not an apple in the box",
+        "There is not an apple in the boxs"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is not an apple in the box",
+        "There isn't an apple in the box",
+        "there is not an apple in the box",
+        "there isn't an apple in the box"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is not an apple in the box.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "e24aafc05b5f65b3",
+      "answer_hash": "40b4f252d627a43f2e70b709f4034e1fd39ecd615bf184ea32ba1e868d6f7967",
+      "solution_iv": "564961ee7b2d12dfbfff4614",
+      "solution_cipher": "487489c2336354712ff3405b3531712a2044ec34e079574caa1c6c9d218fc3f4f4d1b62f7f962ce91f11eae909906e188effbb87f9156d18b0e2554b3f80f3ef9973582576995c70702769dce5b2616d10efca86ae511e9aa04ab8247239a2a6348f519cae2c04dcc6ff8df97832df83281a1f9ce13e286b16dc0068c2cc53e337b7829b528740654e28149f1721f3997c4718325090d6aaa4657547f8e71eea03844bffa83ef55a5bf2fc4aa22b870ae203f315d9c6199e5ac4be4b8250beaf2c3e1f63aaa3f270c0b21ad28f15c1c8ce8b91bd0481ee409970f566e698b160c1c1798dc87a8e5cfc154112a701688df4727a393ae88948d4860662e5f98b4c8a64979eb06ea72e1cf0bb99b9e1da38797c2d3a8bc1d8841cd0435d46e9"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_018",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are many pictures on the wall. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There are not many pictures on the walls",
+        "not There are not many pictures on the wall",
+        "to There are not many pictures on the wall",
+        "There are not many pictures on the wall"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are not many pictures on the wall",
+        "There aren't many pictures on the wall",
+        "there are not many pictures on the wall",
+        "there aren't many pictures on the wall"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are not many pictures on the wall.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "4b45937546285f7f",
+      "answer_hash": "8c750c55eb797f93e4b04468ae6824ac161a8567e4169eaaee8a3e5fa201f02b",
+      "solution_iv": "cd535bbe3d01a1e1e01cbcb8",
+      "solution_cipher": "1187bef58421b4f9976db3466e02c090a400c4936fdd47df5cf55402f50cf8cbac44f5d8a88012a7cff244f9d3d175ef1ed0bdc01625905d42ce694c40810be9ac8c8661e147f9bb41c261e060e37d50ebf145d7c304c7b3d7b1fb890d7625a9ad1f16b7048315d52c2cf4c7f15b11d61adb73ed9f60a659e9fe4486003715165c64741ed2d1e4fd73a5fb3d00f981646ad7df5e57f53943efbe2a8abebc26ac92f8fb37cbe15bbb5202f63b84efdf014525f9598b788b89278aa265650e8d6e86d730f15ed88600a3f807ee1672263d961678f95f5616261fdc0952dbff84f7c2c9658de2e3989bd825f9f0e0ae2bdea2559dc2afaf5a62c98bf0882d728f13d08d41457bf3e863e6f2014b71c5db8cb9b2894e5ec09d6becd48d347f3c266508bb9b260ab7f9406f55f7ce19a733df43082a3cc3e213a9d5143708e7e2be3e87"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_019",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is some cheese in the sandwich. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not There is not any cheese in the sandwich",
+        "to There is not any cheese in the sandwich",
+        "There is not any cheese in the sandwich",
+        "There is not any cheese in the sandwichs"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is not any cheese in the sandwich",
+        "There isn't any cheese in the sandwich",
+        "there is not any cheese in the sandwich",
+        "there isn't any cheese in the sandwich"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is not any cheese in the sandwich.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "9683ce9d481dfdbd",
+      "answer_hash": "668f1666eaf74fd26b2409f937997fe5eae4c44671e8a9197980d274ed318dfd",
+      "solution_iv": "584d6ae10825aaeecb3f640c",
+      "solution_cipher": "66d62eccd0b00ab098fe838f0ea726a3efc14ffcba651092d02c8a3a99b7a20314a6ae3049ff618ed8fdf1085c4d2067a72784c122e68a1c764574041f535a945ca6ead45f196a8eba8d7b7b0e476d106010664270c01fbf835c590c893316f88421be1ac0a86aad6588cfb8a9434360747c8e44de931a720c56035e97e31614fa8e71586e10b4d462ea7b92c34c97f9cb9aa342c183f58c74e7a6bd059657a6f5b16e5f3bc757aaa809843f7482e252a79e245eb4129e56aac43c29e0a63d03fcf04ed5948aed570ff98a459b8012a590537e1a0d2ce9ccabe761ff865acbbed13149bbbb3076df0ad714d78bcc681506728200c870bdb3421b33c192b04f01a4800fde1256890749b633efc2521776c51c238a93bedb52fe3a549c652d8186e8a39cb7f3635b2cc4e8e8e17801b7affb8b253f6323de33135cffceb63bbedd73"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_020",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are two bathrooms in the flat. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There are not two bathrooms in the flats",
+        "not There are not two bathrooms in the flat",
+        "to There are not two bathrooms in the flat",
+        "There are not two bathrooms in the flat"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are not two bathrooms in the flat",
+        "There aren't two bathrooms in the flat",
+        "there are not two bathrooms in the flat",
+        "there aren't two bathrooms in the flat"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are not two bathrooms in the flat.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "5f4c05b5528b5d96",
+      "answer_hash": "6ad73f8990c8ec298ff08da8903eaf48850c22196fe388d74e3e22f5ce77e6c6",
+      "solution_iv": "3108e3eea91d800698bae1a2",
+      "solution_cipher": "1cd5986cc85f67e441e41d2e04d174ab7e76bd3cd9a7944625d56e86a7f60e475db148e5f6f7b1d57cdfc2297ad8ba783f1884175e390c34c4de04a18886fe816829ed910f2214af676c632adef409a9db7d4e449ed1b906bf17b6e7b52583712385da741b8a8a5016845decd58810dc92c6e4e2ed21f260d12dc343d3bc633dc4d68fd410c394ae85ca91971860ce0b22e5d0535c8426af27d1005375ec6349adcdd6aef2fb6443fcee026b64ab3c34d57d9587d19e812330fc582bf573b55a1de82cab663c2c8cd9ff513cca1640c370f440b436ae8a44a6a88b53371c3f71e8ea254feeaefceb04d208b74ebc779cad0418c5c68dfd830559e969a1f37e6263252283c4bbc968b4d8f2bdc80bb8f132906ad679cd9d6e404100269b8aa63daddaff26c15b72d98a9d2be68c547e07294183240e818eaaf7649ae0366a96257b"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_021",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is a cat under the sofa. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Is there a cat under the sofa?",
+        "Is there a cat under the sofa?",
+        "Is there a cat under the sofa?s",
+        "not Is there a cat under the sofa?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is there a cat under the sofa?",
+        "is there a cat under the sofa?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is there a cat under the sofa?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "d6bdc0e1fe893450",
+      "answer_hash": "61887b41714991548bf3db7ee431d297ac0624537b7f76438e7431a5c1a9db2d",
+      "solution_iv": "6d81e0e872aa337026791ff5",
+      "solution_cipher": "871353746b81d5fb8c670ef0559118158b1dd52857c5a905e64aced6b28d01be10742b38f0529e7d3d3a5f121bee54af87d1b59a0eb3643b579530deb00ed492855a9a046667ea655ad1faadaad402c1c1cc966fd3cfedfd4b8020497f6b642b53e1056ebeefc8bf5e1fc20c0324657b339a0886fd8f00817becb886eb235e28a18365bde8f3b618b1c204a17183528f3dbf884143d184632dac086646007443350d6e406898f2d30e9a31667aa28ea5a39bc9069ebd82d69fe08987bd93bdca6b19b520d277712f7f97852a5864883f763f20b5"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_022",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are some books on the shelf. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Are there any books on the shelf?",
+        "Are there any books on the shelf?",
+        "Are there any books on the shelf?s",
+        "not Are there any books on the shelf?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are there any books on the shelf?",
+        "are there any books on the shelf?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are there any books on the shelf?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "c1c9cd26120ce4db",
+      "answer_hash": "df3bc36fdd57759682978ca1b2fc1791b4545d6c1b5db9fffcc696f7ed537c59",
+      "solution_iv": "c3a0e42260d3dd01feaafc77",
+      "solution_cipher": "8ba42ca69029778f9ea89bc3f8f21d6d153ce2b0f366fb5f8a500e2732f78acf1e89f6a5d9c764c1b2a96af2d11620c7845fd53d541a8e6325c6f8426c24f902f7ac8d21795cf46b55e4a02039fe6996e26cf79754400eb6162fb41511c632cf017bc0fea0ec0d5ba02d97ffb724cf5d530218744aa4033c2aba5f05a61d379e43f7c8920b5ba9a1686c2dd8984a17153baa22ae30b45770f2381b7c5cbf3580acde33c1f6ab05deac390385f8c97dab7605c0a250a0dd2e75286f9617ae1dcdbd86d17df7343be23851a9748d0ecf833b19b0e267e96cae3d6dcfb894"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_023",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is a park near your home. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Is there a park near your home?",
+        "Is there a park near your home?s",
+        "not Is there a park near your home?",
+        "to Is there a park near your home?"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is there a park near your home?",
+        "is there a park near your home?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is there a park near your home?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "454257dc55b3398d",
+      "answer_hash": "d1e709988c2d80e6c906ab0789b97d13d3c0a5ddd5080a0e99f44ff8509d6e49",
+      "solution_iv": "e043bf133f0d01f3b89ffcfd",
+      "solution_cipher": "3b5cc3f6f07534794c4f4e73821ef9198b4d0f7b8dbf55bc7109a243c147b57bfd9b3d97e745bf7a3ade629d37f4d28495e8517dd8c9d83f88c3168eb944e6982c07537b42bec59a5e7e474cd7bae89af1433635864bde661a98673cde08b5475699ec28809ae7574f1141d35faf427b8c690c7432d8652d5f86f354de0727b0cd24fb0b43ad40644f78a0cf1d1b0f48a7980f9a531b796b4cc724a56bc20b8137a2afbbfdd29783fa106e656bd9db1384aaf4daf130969cbeec0cc4d7ba69b0f7293521c35e89d8d00e53dbeabe5d7604a545ec1698d9"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_024",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are three bedrooms in the house. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Are there three bedrooms in the house?",
+        "Are there three bedrooms in the house?",
+        "Are there three bedrooms in the house?s",
+        "not Are there three bedrooms in the house?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are there three bedrooms in the house?",
+        "are there three bedrooms in the house?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are there three bedrooms in the house?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "b6aa8d965061aa3c",
+      "answer_hash": "84a599c48ca81e0df52a7a96cd1bd8f268fd198a8ba6b762d090f894743b5407",
+      "solution_iv": "d1ad824bba42bfdbbbd0539b",
+      "solution_cipher": "b6acac4e5e910efe0694d68fc412b7c7f0e0330ebbbd39d41f9b1a70f9a4fd2a889902ff10c79d4191cf57c4a45b056498e82be013d7e7b59886710823cc805b5822403a38a9278a09790cbd594319571b46c5f19cdd3520702fb9bea7dcfd0eb498f3cc797ba5b61b03dce17179bbf79cd983038484a8998474fb4bebe008348a62c1bb41972cd93914da19a9ae08040b62158b47a6850224f03a620569732a5dc8f741b399946de4606db9631e367f0d61175aaa9dc665ffb051f435000f26886c804a5d7551d1b6fcaf5a67086d43952b5554882c76c9d09e575a06fd2869d6b8a5a302e3d7825e8d10ec"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_025",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is some juice in the glass. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not Is there any juice in the glass?",
+        "to Is there any juice in the glass?",
+        "Is there any juice in the glass?",
+        "Is there any juice in the glass?s"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is there any juice in the glass?",
+        "is there any juice in the glass?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is there any juice in the glass?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "1cddf53eb1527007",
+      "answer_hash": "9ede1a5ba6928f1658780172e2887314dbc7109d10230b57c6108893470c346c",
+      "solution_iv": "77851525008ce444b011eedb",
+      "solution_cipher": "54a2280fee89426fd1f9869f616292125990ba203c4d1d7a46861f6768296d9dcf822d02dc377fb9d182da0bda9533bbb7551c82bbad67dec29c9e30f7d6f6ada75304c225ee1e84bab1e879fd93c1c3907d174b04a753a635f5067b24094aec5a1a0ffa1dab672529aa41c39699eeedf0711fb8f8140b4abcd2e7309db304101f47f38562edc65a5ec0c9c9657ee29466b044cc0b8c268a5ccd55b56847448e4bad90cb7bb7afe2c41aae17796d92d6329df42333e156ae3cfc9033907b28652558e64c1971d5d8d56d43a012e7f2c2f5dd49924ae78c072861"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_026",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are students in the library. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Are there students in the library?",
+        "Are there students in the library?",
+        "Are there students in the library?s",
+        "not Are there students in the library?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are there students in the library?",
+        "are there students in the library?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are there students in the library?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "774d12a0b591f8bb",
+      "answer_hash": "70ddff213969fdc6b766487e69279f60bf5bb7799f1d2404184ec55870cdb542",
+      "solution_iv": "620352474fea38771a75774c",
+      "solution_cipher": "62772034eb4708012053c6a55c06e429d3535d0d441509a2beff9f832e64566ea45e0ee88a202983f8f3b24859cc3b1494e11af63b45cfdf575337c19f5f76191c8ca06e02f7123b2600c5e939ab20eb738cdd7f760f853399825f3543a084dc21e1b1e1ba1649d966966b11cde0039577e7ac7342d4354e31b1e583f9537d5656144f4e31c4cd127a29cc1b0561beb34407630e0ebc122d3ec9ccb97db79731e34538debab9383c6a04bd042147fb95d91f9a98b0f56d9cc41f13a1c04008b71e1ea9f5f45a2ae9b9fb81c85f76933516c50b67de4b30990b4e1f912272e68f"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_027",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is a mirror in the bathroom. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Is there a mirror in the bathroom?",
+        "Is there a mirror in the bathroom?",
+        "Is there a mirror in the bathroom?s",
+        "not Is there a mirror in the bathroom?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is there a mirror in the bathroom?",
+        "is there a mirror in the bathroom?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is there a mirror in the bathroom?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "ed87282856a2b006",
+      "answer_hash": "afaed3d80a4fda24b77004d548011ba488814df74e3aec9c2e83a3cd9cd81482",
+      "solution_iv": "2eae013db64848aa7df067c3",
+      "solution_cipher": "f79476466fa403f07c6ff99998cd920106209497ea6bc74565014646683f027b69105c7099101875e95b82b922cbc0c42b53442c6b09341224e6ccef7b3f455ae08345bc01d482532f6f00845b3b628ce7fa611168ca47108c6dc69ade7bdea6f5d36a574198be071b5a973307497e89f4a8036f8f3aa9c734aeac1612a8539cdbc59fdd344278806a2f4fea8f0f3e84fe0f21738b8bf050f42ca7cc79335697490c3169e5f39e295bfd84c0e31385d484b0d69c3600b3e6bc8c492a5f7d350c9de1428ff2e399632c439b6ed62eebf734d09b33d08a58629c8d007d710f0b02"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_028",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are two lamps in the living room. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Are there two lamps in the living room?",
+        "Are there two lamps in the living room?s",
+        "not Are there two lamps in the living room?",
+        "to Are there two lamps in the living room?"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are there two lamps in the living room?",
+        "are there two lamps in the living room?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are there two lamps in the living room?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "bdb2da160e05e55e",
+      "answer_hash": "a250c8e6ad99e5436e6e4b921b4c7359fc9ad2609a0cecfe6c229c652ae1852b",
+      "solution_iv": "caa9cc7759b1d1e177583a88",
+      "solution_cipher": "f76e2b66d3a0c28687c83e6a70277e3f073ae872ab0d1bebf1c0b94a93c5817c0af5b5497ba2295ed313eb5f76ff3251ea8f07e20d59378a4d84abe09a2d2cb697851da381e46dcabb323f8f06f143580c7a7e5ebac9f31f1b7e9b24b02aae5bcc6896767bfded02089c1df90031a162b883900aead9bb544af95ab5c6ad0487f7a932c899600fb5f5a1abbb53e8c7f54f10a870532e77ae4d3b3a8f2d5d80f0341ed8acf065e0f1b52fc0ff4e249e929977b6b301431856251a7dbf12ec356738fe39b9d9841fd14c8dcf20d2c9855dceb3c4812535af8e1fb6096cbe7ae99544a5710b3d2bfea9c741e02d71d184"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_029",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is a bus stop opposite the school. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Is there a bus stop opposite the school?s",
+        "not Is there a bus stop opposite the school?",
+        "to Is there a bus stop opposite the school?",
+        "Is there a bus stop opposite the school?"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is there a bus stop opposite the school?",
+        "is there a bus stop opposite the school?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is there a bus stop opposite the school?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "d1d875ed7de0378a",
+      "answer_hash": "df95e748d7dfd33545bd47479c3081b7b5c4508278a32cb98d2bbe08f8fe6f18",
+      "solution_iv": "b7cb97731cdd1c27998eb73f",
+      "solution_cipher": "d35f3a64fecd3f7fed61cac56114bdc76beb4328771082405d9067359fbb24c908750cf691f1bd0d3398571780b410bb4788336a110c966b41aef42c2faa305a54be28441c8438d20331942f17e77cea1ea5de1aef19d1117e319be9e55275b112d64d87921d87639118da90821ef4dce86c339390e79a330715d8b71a1081a3bc68d91c8aeae1336bf6df4f9c41631fa036ebb24f197addb92efce8016e5a2e3614ad7faa6dc56485542fdc835dc036f2c6280cab0f3d53456f38a63b258771b662aa184ce9f2e8135e852448e0a4a20b7d8518897413318e1e0816467c204b2c9a7c73f9018a5305a1eda8f3946357d016"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_030",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are some eggs in the fridge. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Are there any eggs in the fridge?",
+        "Are there any eggs in the fridge?",
+        "Are there any eggs in the fridge?s",
+        "not Are there any eggs in the fridge?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are there any eggs in the fridge?",
+        "are there any eggs in the fridge?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are there any eggs in the fridge?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "367bbd77aa393e20",
+      "answer_hash": "38736380dca4673af2e97941333624ad07381093d3e463d35b9d16f49a8dc213",
+      "solution_iv": "e6efce98844c13e67b013414",
+      "solution_cipher": "bb6bd6a7593950db135502e77b7afce76bd4cbfa17b92e54ce701fceb5ffe8e30cdd4735185c567c34dfb17cc1ea9034abb62764396d847044e6ae782b848fc6da6f4c8a7d586ab6759b07f929ed8638583f89df27c6c576123d312a8e7c92bf69f589373de87b32621d34d88d63e368ed311f1fe04629bbc59efef101aa27d7b2c90dc4671c45cad9f0db94bf19bfddbc0495bbdd837aa90817fad66efe79fc7dcc3fe6026a14f3eafc081e0502c671095745dfd26b1e5273a1cf6cd554e2bb3a043340b04d03eba601dcbd61b5e686b48839dadbd57ee0896d1d2723"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_031",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are a big wardrobe in my room. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There is a big wardrobe in my rooms",
+        "not There is a big wardrobe in my room",
+        "to There is a big wardrobe in my room",
+        "There is a big wardrobe in my room"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is a big wardrobe in my room",
+        "there is a big wardrobe in my room",
+        "there's a big wardrobe in my room"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is a big wardrobe in my room.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "aa582a5b04aee8aa",
+      "answer_hash": "b5e6224084731518902d83868833442c541217d37c4ee62cf247e1c49f2b5ce9",
+      "solution_iv": "5fafebe98441679ef7779198",
+      "solution_cipher": "b1a17c1e30ce8bb00d8f8b95ea45c4fab38274baa294847a5adcaf0e6a86a9c2e6589535996090bae4943a6bc4c7074b120b3a21835175b8420d2306f31aa4ec673ea561d98b613036637e46e63ca8a19d3023864c1f18ac5b2a709660c2cd6df6c714447f4822f61064078784741b5a4558e673ab4005ac02e50e034184aa15375737acca635939b5ebe063f0b3c4e4e8ec57e865049a591f3e561d0b8ee049e74b320595cdb2c32fb9cd31f0854844d4af81894b68719408056330e9a63ec4865558bb684552a9b420bf3027467c9335402f5373c6db73d4e0485e0218fa9fc832571d268d3f041545cc098da633526afb960113bf72d4306c23b091f0a181391b6ad2"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_032",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Is there any students in the hall? ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Are there any students in the hall?",
+        "Are there any students in the hall?",
+        "Are there any students in the hall?s",
+        "not Are there any students in the hall?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are there any students in the hall?",
+        "are there any students in the hall?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are there any students in the hall?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "fe2a8f3900213421",
+      "answer_hash": "de7eeae77deeae290facbfa38c0af0d1900d32b86737a5984c50ca7666032ac6",
+      "solution_iv": "9dff571e649fea4d7dbb48fb",
+      "solution_cipher": "94ce9a47a731417d542ce0976b7e3dfe3e6b67af5f0512b48a51adc58e3862494d183cc7761f629c0d3260e4b86c940f4e43f1d1fa2e2501955b603110ede71d201e4c4b16ae1e34b31fb4167c8c72eb99089ccef96f6db5423317586235db10e974e554cf4f12cd88915bc620d85a956ce48bc940f4f4b269244ffd8062c844464a90a8d0594549b3c187804cef58b112c362059c763ad9801e1b10a6657b76e278180f3c562a8d7a6d4409859896a47b5285201df95020e49880bf9cf6a92c9a1513739850b5e57c3fdcd5d1a450ba6f68a81d8c2641929edc4da7b453a518b78e97"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_033",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There isn't some bread on the plate. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There is not any bread on the plates",
+        "not There is not any bread on the plate",
+        "to There is not any bread on the plate",
+        "There is not any bread on the plate"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is not any bread on the plate",
+        "There isn't any bread on the plate",
+        "there is not any bread on the plate",
+        "there isn't any bread on the plate"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is not any bread on the plate.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "fe5cd2d272f36e69",
+      "answer_hash": "c1bcb734c9f57bd31b3c9de13e0b6bef740c14e12572197d14be99a301b49fba",
+      "solution_iv": "51aef39010aecd24172dabb6",
+      "solution_cipher": "1b3b11b047a5dfa89d7510b29a9baf9ddf5b067dd610dabf83ce5a76818dfdb157aa65fc18c9407ebad7335195e2bf606ec37c2d4985af1248119e32dc0dea8aec43942d70d1d982998d4894ba5d0c3df474eca04a4931f2c213725ffd863d5e61675bd7cb9d3f9b8cf851c5c57d388581f11458c0a275e65003e8e0a1275f61fa1a94a6854cf2e862c63a0cd1615de512481e31b6cece127724750b1f7e4702c05b5f16e8ed8d43eddd1faa229e64371312a7dcc79bd7b71b9f936801b4f8fe0d42c1fc5517ffb3e6c527059e0a53b536213313631a7a5b82acf4f1cce3a2385321cfb91cf58c2053bc3c1503b86c6d629a1c06452425dd6e00eae4aa1a9616352c2082b5bf35df13edb98bfe3e92e0ee5438001b4347bdcd7d774825795a16a15274a6d8fc0c5856ec5c40fb"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_034",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is two maps behind the door. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to There are two maps behind the door",
+        "There are two maps behind the door",
+        "There are two maps behind the doors",
+        "not There are two maps behind the door"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are two maps behind the door",
+        "there are two maps behind the door"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are two maps behind the door.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "98e79b4422b023e9",
+      "answer_hash": "2c219f9fe104ff6a0eee54d475ad0837cc52fe16250c2bc77c55e201be7c86bf",
+      "solution_iv": "fdda39065772a43e96a9ab90",
+      "solution_cipher": "1d80369f17a8754ede556aa80bd9d9274405cad71f088aa31cb88b8f9a82d59687f8b6b47d5e1acae7c372d737c7589540b7e651d7b1f8197dd4c0b775d5b6f52787779cf7a6cf513f1e1f6198ed4435bed6f3df6aafa87919a20213a211adbfdb291c16a0aad951cf128e4a68757064e0b6d72f1707e4d45f192a0eadecb0e91f5f1a04d84e2ba28c3cd33543dc834c4c79130eddef2efa939822db1104e09620d3b69856e7692f1e2a57dc2de2a2e7899849dfd7d857d7450ac3562b1cffe2ab252480a079866d52f4109c1241f6aa8901ec03ceaf2108fa1458874ccbfef4"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_035",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Are there a sofa in the living room? ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Is there a sofa in the living room?s",
+        "not Is there a sofa in the living room?",
+        "to Is there a sofa in the living room?",
+        "Is there a sofa in the living room?"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is there a sofa in the living room?",
+        "is there a sofa in the living room?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is there a sofa in the living room?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "f16d4d90d68ebe5e",
+      "answer_hash": "fe2ecb6aceccf03db47906a45d1be37d23e39e17837cfda87fad85793e7becaa",
+      "solution_iv": "699d0243c0dfcc8a8a608b55",
+      "solution_cipher": "443f274a9d0ef30e30eb3d79752903eb474833faae526241c75a5084c87be995603fe8c6dd930e904492f695d37216b240958f2dabfbacd9142a5bc0a1a23ac54b1d8ee01e209290bb9fa8def7a26aac53d49830a7517677e740b46dfe33a630f082c814e392642131c6b5e62c4a25c72056c242959e93280a0bba50246ca271988a559b2f529e19060af26f0cb298e4e9a5778ac8efd7b087b0904e5ece7223a06902c888ff041df13649a6b3d28b17d08b9593cbf5870d29f0427547d35ed9df196da949f5d780f51043449082f3834b6a8fd98cfdeea66891690522129bb941abc1"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_036",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There aren't some pencils in the box. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not There are not any pencils in the box",
+        "to There are not any pencils in the box",
+        "There are not any pencils in the box",
+        "There are not any pencils in the boxs"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are not any pencils in the box",
+        "There aren't any pencils in the box",
+        "there are not any pencils in the box",
+        "there aren't any pencils in the box"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are not any pencils in the box.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "4f1e141b0cb91d02",
+      "answer_hash": "dab33325bfc430b9bc5971ab8b6442aab002a43c7eec03b9772ddc18ba449d2c",
+      "solution_iv": "3b15079655fd9e9bf4b50c6e",
+      "solution_cipher": "eeabc37c3c138e7c266cfd7244d9d10c526e7ecbc4d1c9b9abf0ee6806c65eccdafb354e8d68dedb2724efda3cabf105d731a6adec6af2367dacd3cf75c596135bb8718de26b9fc96bba2aee7d8ff4431aa76cf2801a8d8180f03bf9333b453b81b45649eb2f40e40275e1ea44b19326f05435aa2517027e45e4de29770a9525f4e3c24812277e651587421f3b4e6d049d2d129f77bb9ed24491184ccea2068bfa2da30bd781b29f195490a182b0086d2cbd4311a1eaee774df72ac78e522896956c0b24a4c81e40e8ed26e73b061776ff15d9b529f5cb956e55f3bfc792e1dd5c65208ee8979185e8b17699eedc8414712a23f5d65642a63ec5aa7d5d5eb56d3b6549f3d57f7cd784c9f6bd34bffa14d47f45029a4038d25b532cfa36c4b7b662c9a237381de9e8b91bd6b0d8c344bfce67"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_037",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are an English book on my desk. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not There is an English book on my desk",
+        "to There is an English book on my desk",
+        "There is an English book on my desk",
+        "There is an English book on my desks"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is an English book on my desk",
+        "there is an english book on my desk",
+        "there's an English book on my desk",
+        "there's an english book on my desk"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is an English book on my desk.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "14ed7a12f1ace55a",
+      "answer_hash": "ed37797593281ddb100f8c1da896dacafa7bb5f2f71fa20a2ccff0199dfa18a7",
+      "solution_iv": "b29a79e7502a6098aa737f14",
+      "solution_cipher": "949348782d1bc0c8c692f810783127a797fab4443314e38fa12464ed29bd94d8cc4d9c6f73c022c352213e73dda1bdb9a2804f06270db7e4e838be47f2c67bf11922a9c7228b6679551af9c0b12faca2532ff3d98b8c246ce8b617811593c5ac9cfd305cf2207d8d7bb354bad4406e0d635917be0ca179099a1347dae28c56fbc9d2aa57637306e905ce2159d6dbf897c45a8d5e2f192ce8cc6fec61250dce1ea0379567fd88c12cf142c76f4b835cabaa694382d8843b4c0aad9d59c0afe5110e3ec553c6a7407ad858861b608113b9d6ff78826bd33db194d6028591bdd02c6c71cb2423844d8adccf97c7b92c345438423fcbdb497f3b6708a8a3f8ba9eb30c5e58cad9117be501c206a3560b6580b7e7a55ab1f58dc615683de10c7b414a3b6bef4693e29be9c8a0c066cc"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_038",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Is there many people in the playground? ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Are there many people in the playground?",
+        "Are there many people in the playground?s",
+        "not Are there many people in the playground?",
+        "to Are there many people in the playground?"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are there many people in the playground?",
+        "are there many people in the playground?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are there many people in the playground?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "77a39a74840e269e",
+      "answer_hash": "82c9f4d5fbdcab9d99062f539c6393a4d6a2325e66dc48f2031c625d05a3c019",
+      "solution_iv": "bd99f23015c712e6b6fb11bb",
+      "solution_cipher": "d696824009266d82b96eba8efca0d17551712dd6c9d984b7b459006200cd2ec2f992922dabd9ffe861bcceaccb11f16ce4d90b9d377b4a29578103587d8f688d4ac46fd37b779357c7f3ee86bde7762799c2d89a341bf2933da1e9a6f3120922a9718605e51f03f763d641e2a09c541bdf521af62cc3ec9f4376ee9dfceadee91fbff0e67f3550782f382a508227b795623fe8f27b2af997ab6f00b04639282938b7459a6d248779625effd7d6c66a9ecf0b9ca9ff9e83adcd91062f07a11ca5302216810dec458211f91bcfafa075cad3c84a4151c738a2305060967bc738764404a7c3afa33f5f17fa88b2746b2f40ee67"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_039",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There are some furniture in our new flat. ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not There is some furniture in our new flat",
+        "to There is some furniture in our new flat",
+        "There is some furniture in our new flat",
+        "There is some furniture in our new flats"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is some furniture in our new flat",
+        "there is some furniture in our new flat",
+        "there's some furniture in our new flat"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is some furniture in our new flat.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "83e21531bcf39782",
+      "answer_hash": "553113c373ce45f97e07b38ad2cdc59cb8c60513dc4b4c5fd49477d9cf148343",
+      "solution_iv": "ab6232fc9a923e1ff3d346a7",
+      "solution_cipher": "7cd94c9d798b3087dacaae8f2a0e4bdcc38a709795ad6793ed3b920defe867eb726a9fb20de483e8278465d0b970a166dea457aaa56c1250475e038d40fe48f154314b7e407a29ff117b671b457293e68b75e56fccd101c91e6494ad37451cd4ccd407c1715cfc6fd3b16c885248a94945a50248f262f82dd1172f03e3a1e6ed5881117f7b24476d9a9640a254a91eedab3f38253365c8f0a72a49029942570dacc5c991d1080618bdf761010ee3be61cbc39ae8739b730230b71809b15b54d8250aa2cce474014d2ae4cc7ac65cb093ca4d08bc83793716388d996552ae1d9caed5e8e911e76ab75d69654b9410175c92ea0fcc3461cb9c70a874610915a212611ede2717448dbdf785cdbc9e52df00510e0190340a1e55"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_040",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There is five children at the bus stop. ........................................................................................ Write complete sentences using There is / There are. Follow the instructions.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not There are five children at the bus stop",
+        "to There are five children at the bus stop",
+        "There are five children at the bus stop",
+        "There are five children at the bus stops"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are five children at the bus stop",
+        "there are five children at the bus stop"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are five children at the bus stop.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "8e96ff59d3cd422e",
+      "answer_hash": "0bbea4cd769db4a6e4096b19538e6249f3ca62b40cfe87ad3597cc52033bc728",
+      "solution_iv": "bf8d2287f994f56def7ddcb8",
+      "solution_cipher": "cd43cb2c3d1818c0e5fdbf63352fdb557f68ca9053ddb85dc197268b21902f355b02b7dccbe3fb854edf7f270b625a708e7aa98d1dda82507042be087f185c33a0e5d1758f82f1e775da3485c2f64b9610760ece0ffde06572c219394adf4b4f3265aec7dedd294bd764bce3784972b1e34324d05ac0f5582100d90fe7ecde52f632c0e6e6d261e32aedfaaefa88f75651d900cbe97fb516c31a83c5a116d44f3a60114571ff1dfd21b10b55fb8198289c493115a72f80699b598c4005f5c3ea22d597ba3a196adb8fc49ddd2060b1a87544c7674ba6378d999645461a1400b237010aefc29520137389222619c29b"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_041",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "a / garden / behind / our house (affirmative) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not There is a garden behind our house",
+        "to There is a garden behind our house",
+        "There is a garden behind our house",
+        "There is a garden behind our houses"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is a garden behind our house",
+        "there is a garden behind our house",
+        "there's a garden behind our house"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is a garden behind our house.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "c3b18844bc83465d",
+      "answer_hash": "9efe9e5a2a4aff9c7d0cae92397831ab9f29436a05a740d13a2f6b8da032b1aa",
+      "solution_iv": "c582410ebb51daf091705458",
+      "solution_cipher": "f0211dbd45d53ea94ce8732368353bafec956867a75a09e4b61e133fc484110c5fea61b3b7bc74c563b98a8bd6a78bd95bbe83bc5fb7570d98f1cfcfef775be7275561bda86e472525e26a7f2e47c589e764a17951c2f90e0e3de0b5d3026834633c0aab0705e01ba3fd84bfa1d246b70e706620de74cd0662f6ea0d06e1e81a88f0040d14cada3eb223e0e8d77cebf84596ee7b00d27907d71f3938e484b9c17070330414441e8dc767043f58a7b7e35ac429b4a881072082474768e65aaef0c46389f55fb56a45e5ec7371d6f9e64299d7e72abc93757d4bc812eecfe589412ac5915581e6dbc115102704f7092017fc62c8469c51692838be78e875126faad92af8bd"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_042",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "any / students / classroom / now? (question) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Are there any students in the classroom now?s",
+        "not Are there any students in the classroom now?",
+        "to Are there any students in the classroom now?",
+        "Are there any students in the classroom now?"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are there any students in the classroom now?",
+        "are there any students in the classroom now?"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are there any students in the classroom now?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "37453cd999755619",
+      "answer_hash": "9cd92a8045086582ed3dc32f114d049e634118815b750cc26ec00efbf5ce6366",
+      "solution_iv": "87e300191ee2a74f72cc0d18",
+      "solution_cipher": "47a3654a731042f2e7169aa1a3b64238cbf024e50fa171bfeb7f67e8d85a49397c0d639b07004bb6a79baaf3516bb90c8a85773466da620ea53a7ff057fc41350616bde578b698b2d67e91e34d6c6145239fa6566adb7307f5430d98d15b6fcfbc2a734406a05a1c03ff94a59b1d2c49a28c9db191fe7db251e3e41a6d6b62299d9c71022b18adf7a38d698c93791e6a5be026e2a595faedb3f83caebbb213ca821a7cfffdfe338f18df5c432bfef8515ef34192573e4a9215a11dd9530d98f2dddf015850e3d6dce47b10f2a18a3e5558cfc83eb9387fd62fde2391da7b87a2aee331b33f75aa535fe69fae8401df5e4a1d57d94a62cbd8f28ce912c24d"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_043",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "not / any / milk / fridge (negative) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There is not any milk in the fridges",
+        "not There is not any milk in the fridge",
+        "to There is not any milk in the fridge",
+        "There is not any milk in the fridge"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is not any milk in the fridge",
+        "There isn't any milk in the fridge",
+        "there is not any milk in the fridge",
+        "there isn't any milk in the fridge"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is not any milk in the fridge.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "c406b2b9d69ac453",
+      "answer_hash": "afc8be18a046f72d61af90b6614a8488814f7dda540cae0b1c830a1f615473d1",
+      "solution_iv": "50604810ccb417444060218e",
+      "solution_cipher": "93a156d4b3a7fdce74b893844b8f3d14d6cc1f5b802b13a379689246ee3f0348a9bb5c7099c59960897f3a53af198569a8232ad0c202b90654116901965cbd2aa81e34fa9712a223f26f9546d275c52059f6dccef4a0895d01eec7ae95ed9704c8dd6aa76db5b7df377ad950b251691867f6d4d47fef407b824be6479b66357f21b331daf75b790cb28d5c102958284b0e273e2a742c4d58797d6d735866649674d4c1b0cc6961b8c57f6800314c10a30b763ccbd7175faa6b4739ef153263ff319fcf0bc07c7351c6b8a7d213d431ab3ea51016acdec8aba3a236d86f728ad54b930b14bed2a2206ec2fce27ed2f2b32d1903b1006a13599671a592e12821da3f651dbcc3bd87aa493169a1eb9d24827bbe37f5b0e6cd55c86b5d1f10893ac890f5587e2b01bcd229316c5c16"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_044",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "two / pictures / between / windows (affirmative) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There are two pictures between the window",
+        "is There are two pictures between the windowing",
+        "to There are two pictures between the window",
+        "There are two pictures between the windows"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are two pictures between the windows",
+        "there are two pictures between the windows"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are two pictures between the windows.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "a0227817d2a0333b",
+      "answer_hash": "3462e617ee9baa75833fd475c6af2648e61c484ed9f18335dcd4f43be50cf2ae",
+      "solution_iv": "1972568c7fa05ba2fbf6d20d",
+      "solution_cipher": "7976dee0500d2df1e3acdccdea3d486823ee28d9fca3d9acf79b6fb6e68a5e4e608d49acdde298444e9b338ec68da741a35f1b367335c14201164fc1a75c222c58704cbde2f1fa6c8872feed807bd00eb76775683b2212fecc09b40a49a1eec2ac5b4cca9da840575f8cfca35bbb4c89fcfcdffb5ee92be883d21d40a6dfce83d7c7f7f40f7c087778cdd85aa1f2d6bfe5ded9ad5a39011340acdc512f8792e5dcf5668680b74c623ba20459389392c3f9c5280c766505dc736b05f6c7eee03b307aec9fd9f69d4602469157fcf2d25d0e994132236313805354377ec4f419f0e693a214991f35a1d702e08b0234dc28f91f690e9f9d6ab4"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_045",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "a / supermarket / opposite / school? (question) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Is there a supermarket opposite the school?",
+        "Is there a supermarket opposite the school?s",
+        "not Is there a supermarket opposite the school?",
+        "to Is there a supermarket opposite the school?"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Is there a supermarket opposite the school?",
+        "is there a supermarket opposite the school?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Is there a supermarket opposite the school?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "51f172f841f9522b",
+      "answer_hash": "cef46dca1e94121d0f2d8b902ff5ceff6bd4441b79b3b28bdac1539d63cc3ef5",
+      "solution_iv": "373f80a429859b684677bb97",
+      "solution_cipher": "04d17c956076575bfb779711a9229ec527a5d6bb9cda87842ac3dc1ef133fd00589782a615404b2ca21cd4aa59127dac9a968f984bb3ec678612bb7588905f50f7e8ff3b249f06dc69b873c67c8348d49d20e2d907fd9477fdbce16db06a1e557f14972a29b0b3c56ed48fde4e09cfc769e7be59f02bb1f83ae30129f5493d3b034451289dfc0ddabe78104b5df8ced15fb956c35d1e7eafa6d6e62fabc787c97ecd780af3197e97e140f004ba6c5cb80e970959d3292a329e1998f0e42394a3093bedb92c125d0e4e2bdb4a4c18cf9a4f70dc126a815cbbd053bf146fbb512aa85bff26ffe5785cb53d04805ce2c5ba71eb5f4788ba4273db7ef0"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_046",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "not / any / chairs / balcony (negative) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There are not any chairs on the balcony",
+        "There are not any chairs on the balconys",
+        "not There are not any chairs on the balcony",
+        "to There are not any chairs on the balcony"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are not any chairs on the balcony",
+        "There aren't any chairs on the balcony",
+        "there are not any chairs on the balcony",
+        "there aren't any chairs on the balcony"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are not any chairs on the balcony.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "935fa79b06a52112",
+      "answer_hash": "afab6fd7b1b91b6754c0efbc7978066edbf4da21e874d65f05e6d2ebee36d6ca",
+      "solution_iv": "70b57f840944e62d0bde83b9",
+      "solution_cipher": "9ef8a2a1dc30e6899c1d1e1b6badd1322b8b2f0affed651d3a3fd0e154e7a5d0f1a2374f34af2bf82097408e63d8ae16bfba9a73ce36cce94cf276661e96319e4ef793a72b9d4c6a6b8c08317659192df67ff3047087e12ee61a4447035842e38dbda77ea3883cf6cca3d2f7eeca5cde4617068333fca508a1e9b979fddd2c2cd3d1c22f9d35eb6e97a146880ca40d10011af423643912f1a5aebf3c0fdd698a3f0059111a6680d8a7eb021b88ce228f59ffdc879ddd11a3d08220fdd308cd9884b86b3cf0ff6e8aa915eeaeed3a673eb18a956ccf0bb8ad6cab9e7d92ea6fbc320583fde9aa1259541f463330ac3436d088d6686035a61d9a1f647c2a22e7e90ec17e7c324380bf696024053878808950387338017c50082ce98c2f1b6a9a608b2e700c50eb31e3106f40c591e79e4929aa7a2fef34933975e44fa535b4773a11"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_047",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "some / bread / kitchen / table (affirmative) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "There is some bread on the kitchen tables",
+        "not There is some bread on the kitchen table",
+        "to There is some bread on the kitchen table",
+        "There is some bread on the kitchen table"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There is some bread on the kitchen table",
+        "there is some bread on the kitchen table",
+        "there's some bread on the kitchen table"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There is some bread on the kitchen table.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "3b01de0c10a5cfd3",
+      "answer_hash": "05fd8183cb63c2ab5955be966cd5ab969d06ebb46cfe7b13f171ca6730c6bed7",
+      "solution_iv": "52b000bbf2a615c191e49f24",
+      "solution_cipher": "b9f277dc8779ca859914259e7a1f562dbe578269c6c357292628ffb27f4a70e03a36f60d08bf63c1a7a25211b337eb01da992e043b6a51a18d2c0da6a8659fc89af8100c63742f3712393fe06f6d4f09b1e58b04885fbfe231ffa897bdcde4999e0e62783062c95d42a7e361094089e87883fa609deccb41fe1c638f6a6dfa33c37abcf40fe18409fefa98f572a10b0cac320c9a47fcefd103b28b138c426d0674ef3969b4ae18db11cb924400b2f6fc725e2655b7f4ceb0c697335a8b8e1af47394ff1e3f92fa8e53cad8d5d46ff8f8a2cc08785cfc69672babf8d5d9ea4eb3f3836a48f6a449da755ed46dedea30fc803d9a86e6ba2d3a4956f4a40e67a376c6b27c2c6d192d324113e9d7848594c1ebd4ffcb0f9c231338200c4e"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_048",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "how many / bedrooms / in / your house? (question) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not How many bedrooms are there in your house?",
+        "to How many bedrooms are there in your house?",
+        "How many bedrooms are there in your house?",
+        "How many bedrooms are there in your house?s"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "How many bedrooms are there in your house?",
+        "how many bedrooms are there in your house?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: How many bedrooms are there in your house?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "f1ff6c42d8179dca",
+      "answer_hash": "7592729ff3063bf50d37dd0c25195d0a33d5de98a05db6623cb2240d90efb158",
+      "solution_iv": "eddcd4f8a4e0fbb57d444b85",
+      "solution_cipher": "66826111c937746841574cfef1af790e558b63b75504d25e9ffea0d549a3132cb7bfe9ebd5c24098f50f9b117988628abd93d9076d4580ea2571056303d3b97ae6ecf0866ab0a0c03005526ae8f4433cbfcfd75e2d4e2003de4af1d48607ca38c9acecbf0c6050442a26f9042ce4bf7fd0998f7ecbffadb271ed255c5535797f3293ebaad4f8cfd96dedd676a3282e71e8bb31bc91a1fc35c3f3e86b665591172ddc7c9bb45cd57445db2e297c3416f3c90e71a88177842a20c7b8b624516d9a8699e3ce33ca3c19af0cc99c48f478f88e1e0e0a3abcec21619a16cd9c01747d17cc083c25d1f72c9f4772b690a54e87a2baabb72e9e4deb"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_049",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "how much / water / in / bottle? (question) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to How much water is there in the bottle?",
+        "How much water is there in the bottle?",
+        "How much water is there in the bottle?s",
+        "not How much water is there in the bottle?"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "How much water is there in the bottle?",
+        "how much water is there in the bottle?"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: How much water is there in the bottle?.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "30d390ff65b23f3f",
+      "answer_hash": "99e391693c7d321d86311344e19dc3104d4fa6ab80148321813a17b4175a2d07",
+      "solution_iv": "3f5a13bed9f8740dbc9c3507",
+      "solution_cipher": "f2107da67fbf44ae91101c05268fbc777d237f793e7ddbe42d73403012ae791b82910b5e9dba4592656c1636ce1bae2168936021ff5a38f99b11625ef470a83aea35266d53d714f769bddba7c4609b2f7964baccf2bbaf5b684b2fa48592ca69e887fd54d32c636324e45097a7c42fbe48ceabf0bca8b9548b8f9f1f8d7c426ba21f7956326a584f52c622ce9404b4f98fa5eb00008d435074ebcbf0411ac5f3fb1bab90408d75cff240cc71e09e420911b6b5f392aeff113d53939f632d65ce092e3eebc913acd2f893da0435c7b67d5a04eca228db506e72244ce4aa5e65dfce5a4001447bacabc34c956c"
+    },
+    {
+      "question_id": "Q_WS_G06_THERE_IS_ARE_50_050",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "three / books / and / a pencil case / on / desk (affirmative) ........................................................................................",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not There are three books and a pencil case on the desk",
+        "to There are three books and a pencil case on the desk",
+        "There are three books and a pencil case on the desk",
+        "There are three books and a pencil case on the desks"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "There are three books and a pencil case on the desk",
+        "there are three books and a pencil case on the desk"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: There are three books and a pencil case on the desk.",
+      "source_worksheet_id": "WS_G06_THERE_IS_ARE_50",
+      "crypto_salt": "b80223c9b3bff5e6",
+      "answer_hash": "0d43b112fb30fdf7d97ae3d906065184f08031338ece31bc410bf4764b50c47b",
+      "solution_iv": "1080cc14d19439d288d09178",
+      "solution_cipher": "55716ff4676f3c783ed4df0dbed93a83eb3d728b08c029a65f29275140c44bed18fc71dd69602279bbfdc65cd01995bb7c8c2477fbd39eeeeb6a24f263646059ab5bbc962e481205931b7e323a71edcc89ad04998a56071be4352188cae49ab24042a76d78112f58c7ceeefd40379f61c74288e4451555726776a92abbdd7a86d83b9deab580949a5dfb37e84e2346d84f3caea3f96c7683852c08616428449bc1583955fdab4fd469d6a1e798ca54cd75e9d7943024d6e85b99c76992bdd52463c523de89060a9f354ab4eeac57f503d6874b7130e70c2a3f06d8f026016b157e1e69faaf63ab63664740c4d1dfa6356882925b02b535fc9b5d243daf5c871842ad2d1a1baf589d20d2ddb684873c7a963af4"
+    }
+  ]
+}

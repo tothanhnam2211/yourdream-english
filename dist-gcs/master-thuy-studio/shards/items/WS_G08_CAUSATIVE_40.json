@@ -1,0 +1,1315 @@
+{
+  "worksheet_id": "WS_G08_CAUSATIVE_40",
+  "title": "Chuyên Đề Ngữ Pháp Trọng Tâm — Thể Sai Khiến GET & HAVE (40 Câu)",
+  "grade": 8,
+  "unit_scope": "G08_U02",
+  "question_count": 40,
+  "questions": [
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_001",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "My mum had the mechanic _____ my bike yesterday.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "repaired",
+        "repairs",
+        "repair",
+        "to repair"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "repair"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (repair). Lưu ý bẫy TRAP_CAUSATIVE_PASSIVE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "f55ba260dd560b0b",
+      "answer_hash": "f2a188aaf46e551ba781c3da1bf1b33071c37ee8ab09556fb0bee2c0881d679c",
+      "solution_iv": "be7727790d3240a928fa566b",
+      "solution_cipher": "3b42e7de4965061004d5b38f41baac7cca33cdde9c13bdef5f12e4ea5f125557884dc6f74503878f1da2b4c926ad366d055a652f5c4e11a3b4f7b9706b9ea69b6e01421d3d0bab3110b135f4029462e758284930df49a4c78ddb71df1e692a2dbf52e4c518a25dab99eb0a54d92ec9820b5d32889bbe67aee9c99d3cba189170db83b3d3cfa5cd16477962c080a8bf827ab87a7b2042a5a733e365ac32256ca4929bc97954f09250e2a84724d7af74fdd6850e9508bcae1177b77289c8a8e0a4"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_002",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "We got our neighbours _____ us clean the garden.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "help",
+        "to help",
+        "helped",
+        "helping"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "to help"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (to help). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "3bd35b9bc4117506",
+      "answer_hash": "c1898093b8150132df1d479d0eab6142f9e1399c945b446d6b2ca9e76ed69300",
+      "solution_iv": "1348f33971e40f8aae042fd3",
+      "solution_cipher": "c3a4fec11d15ede5d18f0274a3573123d8551f6f53a15421a05d0703ca70d0cba0f1905b0b63a35962806f1699dadf6739c8ccc669677148c4494416438f3cc52d2182e6fe66a030cf4b8643e6ebfacffb5d6b3e438152ef715019eaba5082270f3df3c523ffc7d8b3e7bdf8d3de974f797e2ab78f01786611e9ee6ec0d5eddde213a8d351398cafb13bc12a897ab7b8376e6334b0c6f3523af09699072b9e5016ecfd00a4a8d42ab6df944abee4fa264e0ce8eb90edf754e2"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_003",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "I had my hair _____ before the celebration.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "cut",
+        "to cut",
+        "cutting",
+        "cuts"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "cut"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (cut). Lưu ý bẫy TRAP_CAUSATIVE_PASSIVE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "8fe47b31a635cb95",
+      "answer_hash": "95adf230039744a3213fddf81c46510f2520a6d60960669760b5358ab194dbda",
+      "solution_iv": "b5521634c08faf09e3a966e9",
+      "solution_cipher": "c1ff1e71c4eab4eaa9934738a025315df606d27b093fcad18b716b33be9a657c4be174b6f25db7f7b38b32ce09fa2a659c9b2dfde086156f2b11e3ec4907e3a855046cea4c3a18f3552ff81f52c8315c5b02790e23353627cb7ba6ed12d74d88b7c498c08b2f025fc54835202d868522d0d7902305b0cf15774df5388a21549847d5c860f48060e447e4fd3a754bb2d0cd95074726c38c8b6f73e2c1c6e8890e33acf1132c60bd371ed3e0211d3c0ed7abc2af9a6a3f9b0fcfd2"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_004",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "She got her laptop _____ last weekend.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "repair",
+        "repairs",
+        "repairing",
+        "repaired"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "repaired"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (repaired). Lưu ý bẫy TRAP_CAUSATIVE_PASSIVE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "ee36b52730d0e94d",
+      "answer_hash": "8d64c7ed6bb081dff68de6189536eb3865c8825663c13633238250b91085e728",
+      "solution_iv": "4a18b0ef5f42adf99cae636d",
+      "solution_cipher": "95c7e0a90e7b9184e22b95e0e71bebf1e5f6a80ecd47d19aea4ef3cecc6a3f15d3d0986f5d46aa560973560442b2661cc66c64fa965b8306452aeca15eafb093dc80b3b450971084e52ddbdb88d9bae37a09a1c3d6b9064f253cc01e9a853d86d3fafbff70101a72ca413c7189da45fbd7b1e3ac1ec6cec9abc9a5a00ba8ee6ada820c0b9acc4c295a8022fb6f9024f6d0a25b725a4d3a53db7f9d0790ee46ab42102c04e00c6ca5da08cac5bbfbcc02a270354eb16270194561e07587087ae58f5cfdf3"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_005",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "Dad had me _____ the windows this morning.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "clean",
+        "cleaned",
+        "to clean",
+        "cleaning"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "clean"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (clean). Lưu ý bẫy TRAP_CAUSATIVE_PASSIVE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "2a2f16f6db373a43",
+      "answer_hash": "3ced551343cd70720572066d20dde3761f15d1c220bed97526cb81dc233fa7b9",
+      "solution_iv": "459cad69164119ebf96bb977",
+      "solution_cipher": "5f6794a239795f3fdf4f2a9f937cdb290b12963d1365aa893df0ff112a63b99260613f8f948a78782097b347ba9a7a3abe7035673c8049a861000ccf176d7c8eaddbb0a0c296cd04819f77c28ca30edb8c9f143b904b29dc1995d87303333df269dc11caa9f4080b5653d6bd1f917cff85b6838abee25b19a936e0478d2d14f78ae59df0b4f01c2dea91fcee5363a35fbbe20201b5b11dfb4ed843e3f8934729ffc0d81c0a6442a6f90bc9da6d9d941bb46341d14b0ce7590b116632d83e"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_006",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "They got the photographer _____ a family picture.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "take",
+        "took",
+        "to take",
+        "taking"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "to take"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (to take). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "774b2e2148bb5746",
+      "answer_hash": "722d7af17f77797a9f4160ab0c809f6501403d9a907362d356f8feade8a28880",
+      "solution_iv": "8db11c8527f2bdb9c0753ff3",
+      "solution_cipher": "f4e24a51bd116057b755f2911a359b3da3077744e36c1a70dfd332c2c970565c17f56e676ae6e35892ee449f5926870cc5ccaff61cff0fe7def00cf75037bb7da47543bef5479e59a31f91cb48f0e3e16b2813304712ef7aebe4232cf46f2585dfba0deaf1f5884a3c90ad2cfa67085e086ddf0122c50a650632fe4bd7cf2258580d767a1ab4ba269bb329564741181514d178000aeaa1231d340e1be750b5b8e1c9985c67639b3abc2a20c70cfe1e7c6e383720030d02fce1"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_007",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "The school had its walls _____ during the summer.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "paint",
+        "painted",
+        "to paint",
+        "painting"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "painted"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (painted). Lưu ý bẫy TRAP_CAUSATIVE_PASSIVE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "925b8ff462994419",
+      "answer_hash": "1b84a65df16016832372f413e93c3c0e0a15f07bc47d2efb336b30ad9a591e61",
+      "solution_iv": "63b6ce6ba301f85270ce316b",
+      "solution_cipher": "0fbb04d364be78d85617638578d646d8534e7d75e5edaa43c7e2449784d75595fdd2de0756e734eb7789d4ccda102c4463632cfbf9b211cdb6be7cf6796c9794a7580a9036218b72c8c94dc60f507ed595ce67437ce88b315074db7cfc470988837517c084bdea99f4e0a0c35fbcaa14f5ba629d9a5c7bc0e9a44aefcfdbb07edb16e680d82dde42331ab754a538e778d7e82238351743e8b86af205287bfa646ae87241a66e4bc10279e705b321a3ffdf0aef6816e08b8db96208d3be6624935bf6"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_008",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Our teacher got us _____ the story again.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "read",
+        "reads",
+        "reading",
+        "to read"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "to read"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (to read). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "1c8fbd204df94ed8",
+      "answer_hash": "fe0d157a82e3c08337d6ed8f85cb8d2e1ae80c1bc87e4a4efc848a627c82d448",
+      "solution_iv": "a9bcc817c77b56cf8b860c4e",
+      "solution_cipher": "e14d10b93a3936c9d78b365a42ba11a2f80e7413d3a98fedad5f381f16125ae46c15f47cc1d396275ab9628b50486bef3a5d722564baaff075e6a5f1a9fea7e3b0c3daded63549d55adde35afa3a12b8ea199b7bf9c667e01e405c17b983c062d9bc250d03738b7e87979c30248eb0198bd29c5b83c80cb2598e8a07a9513f82af9a251c4feb477543b07ddbf86d986b6e44a2027765ae99c038e4c89e7728e2e33dd986206fc436643ade2db48c593add6a5247d573b31609"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_009",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The coach had the players _____ five laps.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "ran",
+        "running",
+        "run",
+        "to run"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "run"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (run). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "95bb18e630533f5b",
+      "answer_hash": "14473fbc46c425a94383ff3f7a5f027c097d121fcc2d387212745e46de981986",
+      "solution_iv": "e96406e63d164eeb4d684911",
+      "solution_cipher": "3adc576517f9a0f0adc9a9a19d2042131c95f332b1b1292c1eeea08a91ccb04f5aa6b466ae8d4461600c14503092a08d0ded070429be188dd61c7260869cee9b1daa0218509c88d022e6c169788d1bc05c75f1b6639b648dd02cbb962af441b49794be81fd31937730fb64867334efc222f9bc8e731223aef55526bc239c7f76f22ddd6997aa9b3507e195fef93d47dade66a442234535ea05956ed80e7b8901faeeccdbe68316bfcc1916d9f4dae0a5db"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_010",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "He got the broken lock _____ immediately.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "fix",
+        "fixed",
+        "fixing",
+        "to fix"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "fixed"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (fixed). Lưu ý bẫy TRAP_CAUSATIVE_PASSIVE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "5ecaa4f42f77e99a",
+      "answer_hash": "abc32c3ea99a336a55189590c82a3ed8859d5ca3e7c6ba69c81e7406148a2c2c",
+      "solution_iv": "57ded50104cef439fdb25cbe",
+      "solution_cipher": "60a7c04b23d39626759da04bf5bec8da8e772ecaa4b6381f1c57887b85eb3e932c1d33ca4486194c5d7183f17c2c3204d80e757dee92610c1017fb7e2fc17c864038c9fc47d6159a8f0d2bfdebce295862d3ea21e24b061f34f39f8b41659e0fde830093d7da47dd7d1a0eb637e3099c57acc3c461881802ca4d029a5e3ef0d1af0c3afb00a6cf6e4f302af6a9917bdc51008ed1a5eea811538d659e72aabc8328162f7a32425e4dbf1f69e3201b0255a00a3135e9e4ef7b7f06b89a00c3"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_011",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The manager had the staff _____ the tables.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "arrange",
+        "to arrange",
+        "arranged",
+        "arranging"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "arrange"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (arrange). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "99484c59f98fb369",
+      "answer_hash": "295204295554d52a88d2f356776a23e73ecdcd0f80736e2d649fe49987682276",
+      "solution_iv": "a6fc3c7fead3e05f510ca0c9",
+      "solution_cipher": "02fc4161d393e40a367113f512d9314865853e11c7706fd36a22f90d405573fea87b2b95234ddf77e75b1f7010a393b344ebd7ff237bcc4fbf3a8221594998c9bf39c03c404b3bdda0bfcc55e4cfb7980022f34e9febe05a280f4db0606022d2dba8016e5c6a7684d9bef7ec912907022424f3ab936f1d762a168ffac8c7d42158379a4a6917d93445f3ed8f0ca412d766ad542f6822c374b8f67700e337c0caf5cfdc5a7c7a5da73d3c8ccf0a08b754b860ae9f0b4ee212b2"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_012",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "She could not _____ her son to wake up early.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "had",
+        "make",
+        "got",
+        "get"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "get"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (get). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "e6d76831012c34c4",
+      "answer_hash": "7c7bfae96f4abc533e87cee7aeeb0a6d0aaeeee9cb5bc3e4e7cbd971ae862703",
+      "solution_iv": "2aa45b0deee0a1225c4f9c5b",
+      "solution_cipher": "59e9c98deff17c7f4d9a628e0ee8d9ccff2f6c2b59b6625df740e94c8921ad57a15ea8cba06e7cf7b2f07545500128b4257e297bb099c1952b500b82a6a8a82a74b5c1a5c886709d6648bf75ca30d103db61e296d065f95869ad6dc9d904cc92b9d2330143916571c9939fb6edaf0b671e5fdf15e140f09e068e53c2d4d60c9c0ca5dca9acf85e506f5065a70ba850be4a0bdbd0fd33b85bbfbea30386e566c7c1f3aca57e3148353cae0a97b57f36e3fe"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_013",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Could you get your brother _____ this form?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to complete",
+        "completed",
+        "completing",
+        "completes"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "to complete"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (to complete). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "f843828c691332c6",
+      "answer_hash": "93a5a723e97fd004a3cc6a1e1015d588c3b6ad49ec42f120c027c7815f57be1e",
+      "solution_iv": "9dde7a10132503e77899d716",
+      "solution_cipher": "1684a342c2a17908fae1de7af372d29cb3f864ffc4b7922af111fcde6e93babf3be89592076d064dcc0984f35cec4a357fe71e61845f2f1f4c11e12922c9627d3cf6b845c264e91195210ea4ed30e7e4a3964ca72352ebee272bdf5cfab0ab4a7b9fa238a7ff8379bbed8c57ac51c0fb8f75b2eddd16403b00cb812da3b4fc3facc31821a4b5395a9b1f6c5ef515fefe5c254bab9fcb1cf843e2cf3fba98a395a64293d6ffc34357b70b5d1254733ff4fd1e8be113ddb6b7d7b1346e543bc11b68"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_014",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "We will have our windows _____ next Tuesday.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "clean",
+        "cleaned",
+        "to clean",
+        "cleaning"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "cleaned"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là B (cleaned). Lưu ý bẫy TRAP_CAUSATIVE_PASSIVE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "27b2c178ef899662",
+      "answer_hash": "7fcc8ac51f4ce0de12c177ad1a0e8fdf01ee6b470aa4fc9f2e1a22e227ddf35c",
+      "solution_iv": "7794fd26c394365e96edebc0",
+      "solution_cipher": "df5d1d862bcb9fb412d2abf4f332a76190be90ffa56fdfdba8ae961255b74d95a76b2899e1e73466b65968519c3a9596f4e2c8c36b010dab84486392ecf6df263dbc77355c5b10667c4518b3e1f1c08aa4a8e9e926a7c499d308c3f113639a0244d513c598bee8d37ab304c512dcfe50a60e6ec6d8aad342417223ef0d60c4802c50e2f3f74bd183a7c5e419756cf678a34270b44be9e013bb9e8455d5ab8004b16c519d7531e1b040144c104bab2d7e338040d0fa1dee46fb552df17d158c515bcd"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_015",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My teacher had me _____ the sentence once more.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "wrote",
+        "writing",
+        "write",
+        "to write"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "write"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (write). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "6c04aac46f02773e",
+      "answer_hash": "40171e1cb2fa2058a640333e803f468ff31390d96559b872651356069ae9c772",
+      "solution_iv": "715aa4f189b731d69b0bcc80",
+      "solution_cipher": "aeadba203074b24fc233d72015eddfceffda01d7e9aa75424e7e20bbbd08160c424c873d4ce385edb7d384c4c5b70bb554e76a32c5c043f457cda4c16e0811b5ea303c7012e0d7aefb155ea46df62bea16495b44d51c19c16add34fe6d91cb194b645df24b9e4e405b8b3076a45c2261717a4f59c7be0df48106d63d1af463e342e89961bb339a875bcf08208c27dd6e4b3022487dbb0cf826a36acccc0893366395f23a8a319d1fd94fb41131a0e557f3fe4d46e8"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_016",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "She got her friend _____ her with the project.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "helping",
+        "helped",
+        "help",
+        "to help"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "to help"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (to help). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "d3025ba1088b2c9a",
+      "answer_hash": "7ed5c2cba3a294de60277620a25aef472ed560cf2d470ae82e3a5475315a324f",
+      "solution_iv": "4f86bfb26407ace5bfeab023",
+      "solution_cipher": "1f2764dffed99c3df9be55e43c2756900a989054ed070f1d3e702582058c571c2fc9c9e8682aee8d4d32ded1858fd8545c1449c30c6f6a996e534d453accc6e61402272f139222b6041cc8ef33e0becd96b2ddfec3e2834538e5d072f3a89b732bccc79df2e4cd9afa6f4c67275af5b1b1f2380c6b5b15532e7f22a002e307283ed5f7ab2fcd943dab4b7488074f611f49de0e8612a1e1020688ddcfd4aaaa98dc0ca5f47535c81562a478b2e33b4685004b7fb0cc03043623"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_017",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "I had my cousin _____ (carry) the heavy bags.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "completed sentences",
+        "not completed sentence",
+        "to completed sentence",
+        "completed sentence"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là D (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "53f9ddbca288426e",
+      "answer_hash": "1eb680c275bd77af0d496454e2ab5fcd25baad3c8099f9839831e9e5221c8d41",
+      "solution_iv": "38ea168ebf015334364d3efc",
+      "solution_cipher": "d6e58a616e961d86d2193fb2e7f8c604dae5baf3b46e17ff35975b1f43ff3545bf6d89fa2df476a85ecd5a321d9c34fc318c698914112436d16164aac4b1a7cdcf4318c9f815aebfaa33dc2815b1b37a844572eb1dfed66f23f73f12d72ce6c177fa09bd73ca294a365dcc8dac712a29c62e893a1c6476d7547e5a8042ac578b53d8ebcbe0b95538848f7d9328175e178efeff4420bbcb4316a6333bb9158849045e428eb91519b6e625c3dedc4dd34df91e40f8f7af2c4855c75ef55a8e816748f1ce3bd38d2b8e3363c75b4943d3"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_018",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "They got the gardener _____ (plant) three trees.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "completed sentence",
+        "completed sentences",
+        "not completed sentence",
+        "to completed sentence"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "4e187746e1f6aac2",
+      "answer_hash": "fbd64adf320d1ab5ea803ef6aaaf7fab90afd05a44e4ba2d611b2bb1d921e6cd",
+      "solution_iv": "07608044035562c9e69ef27d",
+      "solution_cipher": "ef3029d15987efe054db998785f010ddbd226b36df56afba9e4b778859405b5383503f9bd5f61bac871c2196b611b7d932923f70901097ba14fa10a2daba726f0690e2e19b2963e59ce37edf3dd92902d5a59597306fdc85ac4b300a843c6705a3f32ba2df854167db0a49df93bd8c0842bfa183cad1a84e59c430db6e037de6ef7236015be368b88e8f429eb37f606722636d47113f62591691c981c0139fff91cfe5b9f90d7584df969f2294ee83252c7a54bca02bbcff2214c0c2e918e075b62e8eda5dccc5d3ecb3b4aaffc4c4"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_019",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "She had her skirt _____ (shorten) at the tailor's.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not completed sentence",
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "93bc13ec1d809357",
+      "answer_hash": "b435db1b9a1cafaa590cc1fcb34f96e1db3adb1f42ffe43fbc07bc6cfc6e2c66",
+      "solution_iv": "be7e23b7429ad536f27342be",
+      "solution_cipher": "dd616f7376d1e120c682f432ec25482860c9c94e40463e91e2fbf12d1f0cc4650fcedd21c6eb3ce2c863204c46b1b79d228b146e791d9c9ecb62f531afc927683aaf0d576933cfe7d7018ae1b52c27eded0f83cf6879f4bee1a01a7c5d38d28e16ee36cde8b3d48667e8d71a737bcbcf1446b5fa8f0b3260dac992c898049d4f6c8142289d92b94bedbb0a80ee56acaf9ac834a5e04ce6539203ccca9e41c8bda0a198fe9f831c8cd425d12064ec4b230b7f1ad3ed412e0b4671cfc6718a24f847aae2f156e2800da822efbcde66eb"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_020",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "We got the windows _____ (wash) on Friday.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not completed sentence",
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "bf192fca85e4ff7c",
+      "answer_hash": "eadb0169cb6b98619c781e019385f5ea6dcef47e0c45f6fe676ecf29846c1a73",
+      "solution_iv": "d2d6083ecf3be99c5b8e0ba6",
+      "solution_cipher": "90bcff079ae5e8fe8e1f5011186358628b82ad6a0cfacc59225e3a5b9bfbe6e7384e0aee607772891beec9c550ec25f04b61b25bfba8630f5fc967086c6467e9ab3b72307c542a74b06c8030cbece12144d3b4ac14ac9860a473031114dba3e209f27b35e33ed6d1a36c93a89a7298536b51e17dac32a9171c8e5aa8018cc661380f9d0b03c1f279092561134d21c75734e8caeaded0c206378169b47ed2b41ad33c93078f0c72992007bf8aedd3184499a386fe42db1fd2ea39bfd62327944dda258b3dd48c7768c69d393b8a5fc3"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_021",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My aunt had me _____ (look) after her cat.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not completed sentence",
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "9db0e58a47f736b8",
+      "answer_hash": "18343ca4eb1bc18473c65f7c720e89389a30d2213bfbc2f425a2e66695616144",
+      "solution_iv": "2032868ea8ea187c82beb571",
+      "solution_cipher": "2f1a505fefbbc57c7421bf1934b3dfe526fa271d999c1fb7a76ce63e10a33708c114b594f2cbeb01f4137509db6b22d4d70cd48390ba6a0a41af547181c8cd53bb113f7c6b46aff8bddf26f56784321be956984e85cbf26cf93b2a28bce3a51bc5e678cdb19ab0f5cd3fa6e086e816ff9e7b579ef0b20a63af414f5053721ca417737a7cc56e967d5f97f871cccaa7aaa97d1642b700c7eb7436538e3564e8472cbe8ad11cb80d07cc28f03ea08be5a06eb30d64d7bc87b3a2f2c01bd4cf0f099f0f6e51ea00d7a86c274d50e10a77"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_022",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Mr Long got a technician _____ (install) a camera.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not completed sentence",
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "08d2e8a6b8bf0824",
+      "answer_hash": "9750cd57f390b7c1ecdf62bc91b3ae54c33a86c7d26024cfbf3dade5c605669b",
+      "solution_iv": "de5f5a085ce69cbc9a91f468",
+      "solution_cipher": "3b04371f3087e47a89ad52a98d7a8badb3f1c24d1516904bd2bcb79e255fadf5c70c245aef52442a03ddea70ac92822fb490576a903688fcbfea1f0d943fee2df41b25f67d3c2e4fb64ab9f8966a42a089a6361f707da9bc89826711b6beda9ca63c27086f76c710eaf4b0bdbc44915616af74c62e7fd159f55a6873811b1ae3deac6ad4953ffd0c7ee09202a7ebbc9ffcf6e2bba1e16ab1fabe128be66404f00d0e56e421c6b7468b4e60d1ca8347f49d759c9414cf863f4c7e67fb21ee2a56d277c36781ce397b2c62a1d86e4cbc"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_023",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "We had our computer _____ (check) yesterday.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "completed sentence",
+        "completed sentences",
+        "not completed sentence",
+        "to completed sentence"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là A (completed sentence). Lưu ý bẫy TRAP_TENSE_SIGNAL.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "a9e5c70ccc348c6f",
+      "answer_hash": "dbfcd1ebdf014467d375613b6e278ccbec45c4774a3949a12d2cd31877447723",
+      "solution_iv": "ecba1751bdd65f7cf2d4d082",
+      "solution_cipher": "50fba7b85085939eadea35ea81f5bee9363a42b92650ff5eca9c89b791cba17575a2d25bd478e8af22f76b817c864c0a311763a32677a1aec72f4a1cfdf8a1e8e08519949852856a9aa3285cb2ca1cec61f6dd44613d02f032da1c3794732154e90df3249c6bbbe2364a6b0f0c717c6d41a3fe461dda9c22a53a37f92076b01358fe8cb2f91f45960579c909498d489c282ca13306aafea2d017cd083ffdb655c58d12e7fb9897ab034b9ae519bd2815b4cd90bae6941a40a018d42dee32583825af2948078aef588877826ddbea721420af19"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_024",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The teacher got the class _____ (finish) the task.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not completed sentence",
+        "to completed sentence",
+        "completed sentence",
+        "completed sentences"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "completed sentence"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn của Cô Thúy là C (completed sentence). Lưu ý bẫy TRAP_SV_AGREE.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "592560f8be8680c0",
+      "answer_hash": "b3feae6dd85c3be0ed5a67cafd1801d8714b54df6eb2956074d6ce00dd1d7d2f",
+      "solution_iv": "c124e5ab575b187072c7dd2e",
+      "solution_cipher": "d73a691481c288cd32b0b622486f2529f3a83083c1db58d03f95208ad580af9b7a42d5de189c6147b78ce2672d509a69753b2066f4d9e50cb5ee72cd5553756a98da0ff0e975aaa96f07946ffca8067be8cb5b1789d6ce6e15e82243e40f6dde7d04202596ef40ccc90845f3453b552227df5315ff56c1697dbbca68b43c8913cf32b515afd94ff778ea6be99e6e418185d6f4e93580032210c1b35d8c40c327f9cbb3e63d7643df83ce607c646b6d895224496684523c963609fa37ca5be8f0748a530d7c03bc3bf81c0687f84cfb"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_025",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "A mechanic repaired my father's motorbike yesterday. (HAD)</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "My father had his motorbike repaired yesterdays",
+        "not My father had his motorbike repaired yesterday",
+        "to My father had his motorbike repaired yesterday",
+        "My father had his motorbike repaired yesterday"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "My father had his motorbike repaired yesterday",
+        "my father had his motorbike repaired yesterday"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "My father had his motorbike repaired yesterday.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "1aee256d07c38517",
+      "answer_hash": "fa3b7b32b47a292257d9147fcc1bc99e78a5488fbb744e5cdd77142df355839b",
+      "solution_iv": "52012a8ef83ee3a97140efdc",
+      "solution_cipher": "3da7f84b2e6643f9788f5c4fbc869f9b7d9f15d0fc9e1677c6cfdac4bd6e24adbd2534b865df10c795d77fd5a6685961c0d033cea543b5637b87b13ca86f50d7cf8ec1ad4e3de3f9a295db4c314e4de09f60b5d9ddb66cb5a75ac76027e21e2beb96648088f28f6be95055a1b418db23b2f9db69c985ec32fcfb6b10f4be622840cc2ed6d4d87b857f7417e4dccca7b816c18844a58c2abb3b0a8fd2d1297fba4fdc3a81f719e81747105565eadda981f6138644ad6dcb8b96ab9b821ac4cd89c4c96eeb2c6e41b534150cb050909f33438c5fdec52e6c99b7db2b95dd94c1a344e525cc3dd56d688431a5ba1dca68eb52"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_026",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "The barber cut Mai's hair on Monday. (HAD)</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Mai had her hair cut on Mondays",
+        "not Mai had her hair cut on Monday",
+        "to Mai had her hair cut on Monday",
+        "Mai had her hair cut on Monday"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Mai had her hair cut on Monday",
+        "mai had her hair cut on monday"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "Mai had her hair cut on Monday.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "798e905462ac0498",
+      "answer_hash": "dab26d9378efe68c7a86f55d4163846dab8b04c7788f77bb99345af0c02fac08",
+      "solution_iv": "adc5313fb168b03d47242c55",
+      "solution_cipher": "101cae97fcbc78e4f550ad6836907196533afca36f55e393b61072c254cd41442bed6aa200bd663a867a84c90bdfb2d90eaf9e140a9feb181f1375398257ad8f2f2668820b8380251a3f4c0a1f1d37302989903e4734232018b3c2cdee1aa26410f46a5a9992d79695a749b9cb13432a89491a1f4e4a1977bde1318f0bdd52e7af32a2c84d418a57d5ad3b45becda14af406167eca13258016edee83876c6d983cded2a453e24e11bfa1b8c0bc84c18b30800eba7d63cdf878227c9e456241edf3"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_027",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "We persuaded our friends to help us. (GOT)</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "We got our friends to help u",
+        "is We got our friends to help uing",
+        "to We got our friends to help u",
+        "We got our friends to help us"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "We got our friends to help us",
+        "we got our friends to help us"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "We got our friends to help us.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "a7f073d05f817cf3",
+      "answer_hash": "569810d1831289db35a68554badab95425a2b9d7c87009570c3120fd3a91cabb",
+      "solution_iv": "1a13e016bde9cd614865c4d7",
+      "solution_cipher": "a46e45d4e4584622b309e08d4164126d6918fea0b2ad958688d885644f7d71ce0f29d89c0ed6e259b0580477745c36511d9f35892c9c7638963101bac9455487031225a3231df2d4b8378d82c668662ce08f95e37a672949a8eea2a695e0856764cb1c9b4663c799ff2b12ab03d565964c59b3b4e13d6f971054abefb2dab75be94833711b7b082ef6340fab2c0d5b5f858370797ecda05883537b4782998c90af7d39702e6f677a934f480fb043e3f63e317f1592fa514922de19e9a5cd"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_028",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "A professional photographer took pictures of us. (HAD)</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "We had our pictures taken by a professional photographers",
+        "not We had our pictures taken by a professional photographer",
+        "to We had our pictures taken by a professional photographer",
+        "We had our pictures taken by a professional photographer"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "We had our pictures taken by a professional photographer",
+        "we had our pictures taken by a professional photographer"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "We had our pictures taken by a professional photographer.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "76131c17c75f9b50",
+      "answer_hash": "ec383335a4bfc417df1d895127be70b3551125bf1ab4f5bd33e2a245d811fe57",
+      "solution_iv": "e08cb0a7bba449dab88de806",
+      "solution_cipher": "ac3bee817376b6e8c706dea77e574bccca717e28ba871831b8a1215576245abb5e663fb16733c21415ea19aeddac87617de5c162095a48606598d0fc78a83275ba2e2dbc4a6fab1bfe713518664c1c18a6411a35f4ba84cbcdf6632931eae8f5b71aebd9f1307bcdd3da8b5f96c5e2e90b6a5140b1fe3c051a64c2f988b3401c3b85675dc30caf634be90e3bf1064363d93b69b13b1b16f3155f68ce6b345c92e3bfc44734fd73bc170fd95bef07992350da7f5b179cd3a44679057ff313dd633fba8eaa22075b22f6bf790dd9fae6c4bc79021672d73f2676918c56498505533e1b359d1b1d191bf3cc4f159f1dc7ebe46a64f2feae9e10a4241c323b6b63486d3a90b7f59c19efc2978925bae60d"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_029",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The head teacher instructed the students to clean the classroom. (HAD)</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "The head teacher had the students clean the classrooms",
+        "not The head teacher had the students clean the classroom",
+        "to The head teacher had the students clean the classroom",
+        "The head teacher had the students clean the classroom"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "The head teacher had the students clean the classroom",
+        "the head teacher had the students clean the classroom"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "The head teacher had the students clean the classroom.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "05193f2de8215b8a",
+      "answer_hash": "a5012a3d3bdcd65747bc2483b653c6f02bb90c12aabe3008ced18acd4d7289d2",
+      "solution_iv": "9fe0c39a3361902d5be26810",
+      "solution_cipher": "1fb285f197de5482ee68c60fb041849c934ce917d1f1e9e29930c074354a497ed1e07fc58294858f90a130c21442b2a8dcd1f96af294ecdf5c7169bdf73b538fddf4f4534dec8bc3253a24d1464f2fcc9f8cc7082eaf3bff76294eeb3af7cf4bda17cac8e2c15225145d2ab60c7db591bf81a3ccdef610fa476ce8f49a5e882bc29958d89587b26cce7edcc434ec45943c66c5641389d0aeb4f8800d9abacad9f887fea1d95d2ddbec30180b11f51adfd5646489d728dbb7c1a8d4c88a3efeae22a290d4371fcbda92ab1cc0dac297ac96cff911d2dd5f2406cf22d94e71b3d9398417a13aaa4600a3b060e3df1d030528120e7c4756d0ca27c65677ec9155ef6f5289e78093"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_030",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Someone is painting Lan's house for her now. (HAVING)</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Lan is having her house painted now",
+        "Lan is having her house painted nows",
+        "not Lan is having her house painted now",
+        "to Lan is having her house painted now"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Lan is having her house painted now",
+        "lan is having her house painted now"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Lan is having her house painted now.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "3929c9d474dd77e3",
+      "answer_hash": "1016178eb05881782910d108333ec94e47bf6f92564ac3ce03e5085fbcc5c57a",
+      "solution_iv": "3084cd2d6bd3374f04513ee3",
+      "solution_cipher": "b108e7199e319c256e55c7c573347cf2b86362b4797987131691fcdb97d485f72a7ab88b04f755317721cb30db185de6e6ad07744ced722b00830555c68b9126313cd2ce67d4598f138691d76eca277f334678152704290ba5982d3071a79f5522f659334a1547f75818de24177ae4e5cda0719cfdc42b7c6deffb197a7a94d6d3bd013ef8d199e52d2b6adb95eeda800872f37c339d056732750be23d4973257256b401993b671417279cdcfedb84c3d448e00c590e9d6a378562f0809e1b1c43d6ba0d9a019ad12ead89f8e200a894"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_031",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "She persuaded a technician to check her phone. (GOT)</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to She got a technician to check her phone",
+        "She got a technician to check her phone",
+        "She got a technician to check her phones",
+        "not She got a technician to check her phone"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "She got a technician to check her phone",
+        "she got a technician to check her phone"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "She got a technician to check her phone.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "8859446983dde5cc",
+      "answer_hash": "ff8a1e5f8d284f2cd35288dde716a99ee9dd8a750cc3bcd5e54cf1aed6b5a3f8",
+      "solution_iv": "24ed9008503c004315e1ab60",
+      "solution_cipher": "dfab519b6330d63eb055fed3c85c948c1fee9c90d12ee78a0597b6b70855cf94b228c78486e1f73528d4b4edaeb501f62900fad96072bdbc1c5c4774029132a4fb31e49b12a33341dc47652f0e7bcd5452f829f6a6be53c313a132587096eb3e89dada873ab0804353da11eeb9ec3f5f4d17559f6be751283ce078070e3e9926dad1cf74353614b8b669d12bc5347e2f7a6c4778996300cd1481431db59bec9f3853ce89c13d9172022d33f236af22c2c4ee9f79bac1a1c37e2b06b982c890e8204b5ea914615ee0a2787cdb06eb2b87bfb30309d543171414da01cd"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_032",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "Someone will repair our roof next week. (HAVE)</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "We will have our roof repaired next weeks",
+        "not We will have our roof repaired next week",
+        "to We will have our roof repaired next week",
+        "We will have our roof repaired next week"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "We will have our roof repaired next week",
+        "we will have our roof repaired next week"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "We will have our roof repaired next week.",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "03b0e5f2a8f31ad1",
+      "answer_hash": "ef0a4e96219fd622fa981a16ca67c7088997fabf040fd8c4b49080acb25203fe",
+      "solution_iv": "c7b02173fd4286cc0e4c2c2e",
+      "solution_cipher": "586880d5ab7e57ddba8fd07882846f12b93d8f7681add89d9faff8a81e5e3965933f3867a4ee8e3a250364e2d1a38449d046848843d32351ef9df964fd33337b095c178164c9bc7758f10605cd783ef65c45f30a92b31f943b9ba5563f5437a969d7a3f5a2deff57bddc0283e87a9226bea683d9181ffe95d6398a91e66e8a718588d057779bf31e441c2a71c0ef221f816d0cf012e276cf1e48a978492b9fe57c94d3fd4912281c6b39e280bffb66cff2d8e72eb94ef4159cd3388a6da5f25f4c46c823f9ebec051ef48ca4b402f3758ac80877a24e5dfbd6f0ca60535dd2"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_033",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "I had my sister to check my essay.</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "I had my sister check my essay. [have somebody + V, not to V]s",
+        "not I had my sister check my essay. [have somebody + V, not to V]",
+        "to I had my sister check my essay. [have somebody + V, not to V]",
+        "I had my sister check my essay. [have somebody + V, not to V]"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "I had my sister check my essay. [have somebody + V, not to V]",
+        "i had my sister check my essay. [have somebody + v, not to v]"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "I had my sister check my essay.     [have somebody + V, not to V]",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "fa25e16b446b0ca6",
+      "answer_hash": "481d67c27cd41ac48f43fe157d0f3a830e2f4e8b7069b81aa5e086120daddc2e",
+      "solution_iv": "8f0a178ecfdcf9cf3ffa7e6b",
+      "solution_cipher": "83d220733f0f8c0f757094243ea6fde2ee63a56876c34f1e95d5787615f6b0e7f8767dce6ced4d1a99961c970b4b35dc1cdd484d95c23389d05ccb0e456e962af2da6092d4f19cdcc51fd632ce118137ca95e13d6d7776c4c8c03d5941ad063325abff36e2f37fd2f085c5c2a28f52df3c8d4da48126ebfc12eba51d4896d98b2b12d9aa85d7fe23a1d364a4be84f4312010ee31d749fa880ec938dd6ba100a1cce32b921b66d63c92989d29f9b3a2fc00183174c35d5186b7cc69d5e2aa5897932e0041fda5cddd855131019547002b4616582a184e0556f1ae76cfddffe4fa3a55f84aa99d6854890c23a2505085b3377a3108c9132958645415a1c2f5fbe86b130807a1981419504e79fe681ba89b6538ce3c88c9684c652d95ee2969339606"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_034",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "He got his bicycle repair at the shop.</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "He got his bicycle repaired at the shop. [get something + V3]s",
+        "not He got his bicycle repaired at the shop. [get something + V3]",
+        "to He got his bicycle repaired at the shop. [get something + V3]",
+        "He got his bicycle repaired at the shop. [get something + V3]"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "He got his bicycle repaired at the shop. [get something + V3]",
+        "he got his bicycle repaired at the shop. [get something + v3]"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "He got his bicycle repaired at the shop.     [get something + V3]",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "725310a0ec67b5f1",
+      "answer_hash": "262d9e83a6d4c4bfe3963886f63c640419001ea735090635a158d7cad4e21e7c",
+      "solution_iv": "b288242649a39de5031a777a",
+      "solution_cipher": "3524b4e7c6ec963cc3ade38da1237a5b9931f02aa2719665c703c89245456cfc99850b71feb4606e0050f520457c62501c95ce317150d57b021322db077b703d37dd7208610ac6f2b6504e68798a091382c7eade49ff4de8994029ff91cff9e844fea452968fab20a857041af4e1bd66def488f92e58929f2f663ced9fa166f4bae12cbc47b8c12b99f9e4922d008c9d37bdf8b2e8bc98959f4ec1cdea15988803d75202e163afb19c69e31f1738188f435dbdfb38415578a9cbce1416a5aa2c926a38e195e7518cd539d8a4861ed33f5244e157a0ba7b156b9de51d0874ce0e6c9a9790231ef0208647af684391b0f290a2dc5a8e48bcec70dfb0c1ea471a62eaecbb44228ddac59828206f04f8081115057e5a476cc1fd94a60f727de7f703fe"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_035",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "We got the driver wait outside.</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not We got the driver to wait outside. [get somebody + to V]",
+        "to We got the driver to wait outside. [get somebody + to V]",
+        "We got the driver to wait outside. [get somebody + to V]",
+        "We got the driver to wait outside. [get somebody + to V]s"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "We got the driver to wait outside. [get somebody + to V]",
+        "we got the driver to wait outside. [get somebody + to v]"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "We got the driver to wait outside.     [get somebody + to V]",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "fcd12f5531e69091",
+      "answer_hash": "ce01d9b5c77e0b3d4d1df6062a21db4641f3ee4d0363bb7adde725131a27ffe0",
+      "solution_iv": "b73738a3ae43468cb9dfc9ac",
+      "solution_cipher": "9820593cf884006a40a1a1325864e07772083ebe88dcdb1349c94f134c2252ec31f5c52cf86723cea9b5301dc5fb1ce634211cd3b899056809419d1dfd78fef29959f614a46e9728458bcce56b6b40d4099239ad163641e346b746c9d854be9db1a88d54ebf9222250c264f218f8bc6456ba33e16828f06389ea012fc4c37edd05ab8a9145b0cfe706ad56ef14d8a41b694d586798db68dbb419feb79b43f4fa9e669026dd0df4c90a661b579db756c787b4ac800100d4cf545cf7170e3f4e0ac512bc3839684da1f720eedcde392bccbfe2fd8187a32109157ca51c43068326bac95d9874232424db7f6f8fbb05395f2fb329703edb0245dbd6c79242cc568cba0f85c8b67eee79fce5f114374714b618dc"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_036",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "She had her dress make by a tailor.</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not She had her dress made by a tailor. [have something + V3]",
+        "to She had her dress made by a tailor. [have something + V3]",
+        "She had her dress made by a tailor. [have something + V3]",
+        "She had her dress made by a tailor. [have something + V3]s"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "She had her dress made by a tailor. [have something + V3]",
+        "she had her dress made by a tailor. [have something + v3]"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "She had her dress made by a tailor.     [have something + V3]",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "ac7ac7ef7c45e33c",
+      "answer_hash": "04071b047264568c244e99cf2bfb5831607ff48edd44c83be96ffea7df7f0a13",
+      "solution_iv": "e260e3c8055dcb9735c3790c",
+      "solution_cipher": "336a274903e5ca88ae29fa6d5c8933cb181e54e6274ac3a895dd44808753d79d9f5deab915b84adde18c210290d380b7ae218074722e4d17c6bc3e894114c70f5324519a0e25a9884a00b58b129c8ce745ca43fcf8ce9d2993dc469b69f0f38adfa318bc91e4e80ce5a43b2d1043c60dfb142f1139958cae912a650f2b25cea0470a55cb3b8a0e8345866aa6bca33a40fed2305da20047791ac55d975833379f29abd4e37b447ce16307c02949ad5421a70ad82b322d883531029db4fee7e7bb2ab2c68fdcd66f64c6d5ba9e424502ff58b5e31b55c76bf6d4f7345b8ce5213cc04449342f0f4fe04980301e5e861751e4b6280d5b53b81ef231355757602a5357efe3de253ec1deea76edf923a495de8b706823cd"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_037",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The coach had the team to practise after school.</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to The coach had the team practise after school. [have somebody + V]",
+        "The coach had the team practise after school. [have somebody + V]",
+        "The coach had the team practise after school. [have somebody + V]s",
+        "not The coach had the team practise after school. [have somebody + V]"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "The coach had the team practise after school. [have somebody + V]",
+        "the coach had the team practise after school. [have somebody + v]"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "The coach had the team practise after school.     [have somebody + V]",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "4d5e13867b7d1887",
+      "answer_hash": "6380b406f293d35b382143a9cc7c58cd6a4f69936d348fd35cf457aff7304962",
+      "solution_iv": "7aa25b272214c03dc4c9a0f8",
+      "solution_cipher": "e78b54d00bd38eee44186589750eb6b1ba8ac69e41593ed5b812919a31c4f447b4c14f2f5e2029cd9c66e441b0bf9da417f8ec0c7fe211ebc8d1c5f0c98bbdc80f8d9b24c1ce8f14c2d71c70b92d42fe27a3a42c621648bd67393537d78422e837a1e9ea5f0b0d1fceaf36dc56290c6c416a02fa2bd22d31ae5296089e891e7897153b5c839cfb02f19f183687fa916939dc04aebc165d0919bf9d4cd18d4f9bf973e41473ea1bd1cda09ac22cb02fdd84752a9bd6fe8858743ca7549534f8e65dfc7eb50fb98b575e566e63f22e16b8364d3f6c7a35ba2d8a2f939f488f2313707ed7786f2918c86d6a6759f6f48e2f1ae1e334d11c8a76c63c178b09bb37310ccb3b45701e23474ce13a4cefe11d3ed321abcbc12f98a7aac6c97d360973417403237cf6dd0c4e803bf8b304"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_038",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "My parents got our living room paint last weekend.</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "My parents got our living room painted last weekend. [get something + V3]s",
+        "not My parents got our living room painted last weekend. [get something + V3]",
+        "to My parents got our living room painted last weekend. [get something + V3]",
+        "My parents got our living room painted last weekend. [get something + V3]"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "My parents got our living room painted last weekend. [get something + V3]",
+        "my parents got our living room painted last weekend. [get something + v3]"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "My parents got our living room painted last weekend.     [get something + V3]",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "7352a0d775006dac",
+      "answer_hash": "a3bdc4a04e633dbcd07e5187dfd6fad1a18d819af0a88de6765af292e8ab4426",
+      "solution_iv": "eecc55989fe79eb05100a4f2",
+      "solution_cipher": "83510af24cc43b2985f82de30eaf6519d1d3a5da12a27f47692758857826b814a6ec98365b8f43465d3907331e788bad7a398226d861580784f68220f1dd125901f3c73fdfab550150316e3890b64a60f46f1d6c724bb21eaf26b4960e2fb3928c2d9e8e183cf8b7a4168a4e05cc0aebf565d0f1391b5c375fbcd07c22a263ae237824a0988033a7512d8ab544a3f2175ace679555c074a9c0e01e688133026dd0b97909d6be8b68ae7a29fe9efa0dbdbafe6382f3088e0e3a2b5eb5f07dc2be1bbd16d71372314836ae761fc9f3340ceab6452fa0573cfbcd2c52a9f5d415e72547d443de9d79a1447dabf9783c9405c4698d9f80e4107015896da6dcc9f2ff52ba8a9e567eaa2d7a246964f7cf400147094d1bf69af0e7d2e8ad65a5ac853f3d536c118a5e294240a8310526a4ec41f208e7c07f71cae1878804394542b998fe3fd976c6"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_039",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Our teacher got we to tidy the classroom.</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Our teacher got us to tidy the classroom. [object pronoun us after got]",
+        "Our teacher got us to tidy the classroom. [object pronoun us after got]s",
+        "not Our teacher got us to tidy the classroom. [object pronoun us after got]",
+        "to Our teacher got us to tidy the classroom. [object pronoun us after got]"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Our teacher got us to tidy the classroom. [object pronoun us after got]",
+        "our teacher got us to tidy the classroom. [object pronoun us after got]"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Our teacher got us to tidy the classroom.     [object pronoun us after got]",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "7a6e1ed97a2f8c7f",
+      "answer_hash": "b85f35ed619fb31bab7129b59c908f0c1892e588a502d348197ee97228e4c477",
+      "solution_iv": "613663b28c2e697df7153634",
+      "solution_cipher": "7fb1d1212427b612281c4964dbbc0a22929a954985ad523d1f75ae97608f9b6b108584bf8e2f673ad432036f289edd6b17d4dddfa77e7d5161a10843a496c15029954112598f4c6cab5e5fd7de60676fd843b289bf0e5d3fbc2cf6365b936efc5081753b3c374d777463ccfa6e6d9e355b84f1ad1b28113bf3462ef2ad4c423033f0dfa62fa63f265fb9d09cd6b0055f784d61a27e78ca55a767ecf945252e24ab203061fb6ed2e10590cb5cda48527d2cbcd5e15bffc410aec1430b99895c96c3cf4c97b854e235744eadf361b4e824b9298b96a13b900fe2ad93de7a44f9ee4537447527995898da4adb06089315f9aafc364a8a19e7c092906ecdfec551dbf005f9add3a81441984c65d405da2c8988b1dff781c2620549d7ebe520ba38abeb95defb89a1c067e9ba4b0097b29f0f35620d65980f514b9abc1f9c9f2225"
+    },
+    {
+      "question_id": "Q_WS_G08_CAUSATIVE_40_040",
+      "grade": 8,
+      "unit_id": "G08_U02",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_CAUSATIVE_PASSIVE",
+      "stem_text": "She had her brother fixed the bike.</b> <br/><b>Gợi ý viết lại:</b> <b>→  ....................................................................................................................................</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not She had her brother fix the bike. [have somebody + V]",
+        "to She had her brother fix the bike. [have somebody + V]",
+        "She had her brother fix the bike. [have somebody + V]",
+        "She had her brother fix the bike. [have somebody + V]s"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "She had her brother fix the bike. [have somebody + V]",
+        "she had her brother fix the bike. [have somebody + v]"
+      ],
+      "signal_keywords": [
+        "have",
+        "get",
+        "by"
+      ],
+      "explanation_vi": "She had her brother fix the bike.     [have somebody + V]",
+      "source_worksheet_id": "WS_G08_CAUSATIVE_40",
+      "crypto_salt": "8f105ab651ca23ae",
+      "answer_hash": "cf739c5ad92c06643488dd9ff6f5dda1d86f9fcc5c0844e829e9b0d723a2b33a",
+      "solution_iv": "c92031bf3a709b903376e146",
+      "solution_cipher": "c71baf914a969019e487e49a0baaf24a5a8ca2ac3086ca8d5db00a61c7409e64941e41a5e76e12f6414b260a2ad4c572a1e1f3bc921e70f059eaed8689c156fc5904f2fa439c76dce9c9c4e70eb72e39d73a24656f4f0fe1d585b236fbc0f057d585880be5a4e91f57e8453238587f63a5b4ebc8fa01a6e78f6bf1dcf3fcca8338ed40594521bb5996537f9c2627679704013c0612d359b9ddf20261f51fa34feba60782f0056096efe2e4f6b9320196582c062020b70d35636d9c1e9752eabb74236189b1351c72d29e5f7479ff108a13094824d3b556b53b4a211a94420f0445d9b7b2b9abb462ab98b75874783e76febcc62cf60026504a383e8074cd29b74d3567d4102e1b4723"
+    }
+  ]
+}

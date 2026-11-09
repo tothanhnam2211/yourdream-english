@@ -1,0 +1,1759 @@
+{
+  "worksheet_id": "WS_G06_SIGNS_50",
+  "title": "Lớp 6 — 50 Câu Biển Báo Thực Tế (Signs Around Us - Có Hình Biển Báo)",
+  "grade": 6,
+  "unit_scope": "G06_U02",
+  "question_count": 50,
+  "questions": [
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_001",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #01]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #01 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_01.png\" alt=\"Sign 01\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_01.png'\" /></div></div>",
+      "options": [
+        "<b>Students can run in the hall.</b>",
+        "<b>Students must walk in the hall.</b>",
+        "<b>Students must stay at home.</b>",
+        "<b>Students can play football here.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Students must walk in the hall.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #01: Phải đi bộ, không chạy ở hành lang. (Đáp án chuẩn: Students must walk in the hall.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "790882aedd0fd74f",
+      "answer_hash": "be4cf64ae9bf5d23e5065e31518cde53e4e05bef81c8ed745bc9dd8e08ca4a4c",
+      "solution_iv": "21f07d30ecb152d750fc5ac0",
+      "solution_cipher": "a45d7c386b1d251aa47a585a4fa55f3681d3f8cee6c79bf2ca9638d56011ad5277e529b776bd49364c35fa9861da92c5772f601852de7a02c71ad85010b3a84707298911fb7ab63d53f98f4e0ecb77a53bb1f7195cc8b2fd56702fc1dc5fd82ba4422f30e164f33c940f165c55eb98607e8143b26d826332d14e8c3e8a09271aed065e13e3bbafaeffc77099a1eeab709d4991ceb3d4b2c3572a0f2b8766665252ed2f3703183d31552847ba6d997440775dfcd22a1dfe19e9b83790c7b52b73be6811fe973859e7e1b77ebc5f62dacac76245f16f3d902b258d5205c7e78f5901664b196e4550c2b6a5d5cf5134a2f25769101eb5739874b8b4a714a6"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_002",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #02]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #02 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_02.png\" alt=\"Sign 02\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_02.png'\" /></div></div>",
+      "options": [
+        "<b>You should speak quietly here.</b>",
+        "<b>You should sing loudly.</b>",
+        "<b>You must close the library.</b>",
+        "<b>You can play loud music.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You should speak quietly here.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #02: Giữ trật tự trong thư viện. (Đáp án chuẩn: You should speak quietly here.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "55296c38fbd2d8ac",
+      "answer_hash": "1dfa4ef5e25d083b0294350626aab8b06716c855d0e2976a7150681398eda7e0",
+      "solution_iv": "b8c976bc95b5235b1ac75b39",
+      "solution_cipher": "9b53873d593314f0359d24c6769d7b8f61b623624c80738e94852b42c1622fd833748b9e6deae42badd40995c1d008ed29ba94c039045320f131b3118b9796d8a57315dc5f967a61a65087e07699af976615a22d39ec1e604300f0892248bc0a01fd88665c96c17f60d159bebe2eda49636e3da54d3f9debb95486eb75616e612d495d3f2eeda9045ec64833434b5c59fc7a2a141cc3e7e51f432fa690ebd6d94585bfd5d295e20d9217387b28965b1897574590f713d2bb2b1e33603fcea87b5206ce090c3e6db8ca92917983a0da02a36501fb2b4319d79617b0c15526185846901eb34a529f048cbb961079f99d4fa3"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_003",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #03]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #03 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_03.png\" alt=\"Sign 03\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_03.png'\" /></div></div>",
+      "options": [
+        "<b>You can eat lunch here.</b>",
+        "<b>You must bring some food.</b>",
+        "<b>You can drink water here.</b>",
+        "<b>You cannot eat or drink here.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You cannot eat or drink here.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #03: Cấm ăn uống trong phòng máy tính. (Đáp án chuẩn: You cannot eat or drink here.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "33dde1080702c6ad",
+      "answer_hash": "cf5fb2adb19f9377d203e1a98452385d06bf2b75bbb8d9b7b95596093fe2e5da",
+      "solution_iv": "cfabde4b075f7aeddd2a03ac",
+      "solution_cipher": "261f2f996e0f5f358908b466fa088abd06188817d79eebb5dcb099e9be8fad18a01a23ed7407d9855c0d2f30d69188ce0f6a530ceb1fcbef587cb33e51b48f0615b3cdcbe5eeb58b4c1b0d3af77f92c4e6812cfa2f6e5ca8662771d1b04154acc2e7c65ae06f4fc4f577b03e3ed1a29f4794f0d4f51c175ae1f9d6fb8ffb627ca142c85701c07ef98f1bf156c9bfda9729922dce6d22d20fcf37835e1f76bf61492ef67c04451ddfc2a23a0cca3b85a655b61ea302e5a2bce8e25b17bc68a7ddf9b2735390dc72754a2bd14fedcab1a16eca0924822ec4e9f01298b41ba6173a1abd83255bd5a43c144f2b746c6daec6205e06c7"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_004",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #04]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #04 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_04.png\" alt=\"Sign 04\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_04.png'\" /></div></div>",
+      "options": [
+        "<b>You should wash your shoes.</b>",
+        "<b>You must skip lunch.</b>",
+        "<b>You should wash your hands before eating.</b>",
+        "<b>You can eat before washing your hands.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You should wash your hands before eating.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #04: Rửa tay trước khi ăn trưa. (Đáp án chuẩn: You should wash your hands before eating.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "9902e12ffed5c70b",
+      "answer_hash": "c58076e4b1f4d25a8f819b94db06f06060b7071109aee2e05880016e506d757a",
+      "solution_iv": "aee2385ccb4ea8752ef5c633",
+      "solution_cipher": "d45e51537048ee6dbf28e5d3f670cfc805ded3d6919f2d748684ef7a15d72851dad691c00a4d314641bebd0f607fff2b2b04458a35d72779fc339f992f53e74b96ac884c2aba2eef56dc4e959c0170dcc99b6f09c30fd26e56be8f81cc6e6391a90fe7ca9b9d7bd87ad875a5dc8a099e192d34141b5a86faf5c6046f5d41c715e5c748b8dbc6389edae91afa5eae3014024136a2866ae92a5a2768ae754e0421eb87973397805248d82a4fdd89ee895b0a371dac24ef746df90c4933a251a5f3d35c2e3e8eab816722c4070be33c9f1a827c4c908857ac48c497da0368a077e6f9402d4810a3a58c36e1862b2e919b3f2bb9956bdb0ad1ef0ad51034dfc2239832814e94"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_005",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #05]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #05 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_05.png\" alt=\"Sign 05\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_05.png'\" /></div></div>",
+      "options": [
+        "<b>You can cycle in the garden.</b>",
+        "<b>You must not ride a bike in the garden.</b>",
+        "<b>You must buy a bike.</b>",
+        "<b>You should wash your bike.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must not ride a bike in the garden.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #05: Không đi xe đạp trong vườn trường. (Đáp án chuẩn: You must not ride a bike in the garden.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "936c39e43e06570a",
+      "answer_hash": "7ddcd2cd1893bc03d339f978b97276efb3147f24b560ee178109b4b636d87c85",
+      "solution_iv": "52931eb01a46f6b804ab8fd5",
+      "solution_cipher": "0d6ab20956dfabfb584ff6e761b55fccd9a0a39a5037afa48fa26d12c24eb7c059347538c48f8049b9543321d40d6e6b415d3ded227f5c0fd9abad0fced1a92098e960d3fdb7c53516afbf8c486d7053692120e07bb54ea2a0daae1bf4018ce59c37ddc57c72a07a213478b401f3ad90b421c91ed1e5dc4bb3ba13062bcef160514644cf484e5f42a6d3773af4e8e8cbe9e3eb6758876d4266cb2ff8a1c8468cfa706b9b62dcda0b6feca96fb65b0ab29e2e1ce0b89caa19011a4c33ced7ede807e0bbf7a6f008d8ca13997bc822cf75330f7c140d88bdb0c1a6f0922b8a4c3c218bb5e081966cccc218beb7a3e0718743a6a1ef4682dc49df73c981244a7f9ce73d86c4ba4c9e46c46185fe"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_006",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #06]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #06 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_06.png\" alt=\"Sign 06\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_06.png'\" /></div></div>",
+      "options": [
+        "<b>You must not walk on the grass.</b>",
+        "<b>You can play on the grass.</b>",
+        "<b>You should water the grass now.</b>",
+        "<b>You must sit on the grass.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must not walk on the grass.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #06: Không đi lên thảm cỏ. (Đáp án chuẩn: You must not walk on the grass.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "bf785e937ec966a0",
+      "answer_hash": "21266c220a362244667c2c9fac0c17ce1c7bc89464b07853df414b38a8989a46",
+      "solution_iv": "c794c7a0bdb585e906226a34",
+      "solution_cipher": "a1eb88cc9da1a7cd3e7d8a72f6ad02abfbfaf58d10243b7e569a89461600a16dba9e68a0bf38108851075795a165958f93fc8a1378031f46ec7e2b6d488446907d815475ab1803086426e81f37c1fabfda8158939718bfbb7356c1b98aebba791b9389c8ea3818c14b5a0a4d13865bad9466c21770e42c3096c9ba9e42ca275e5c0b0ff875b92007fee6ae035e0d3600bbda4bdb7a308132f04660e41872238eba2f42d5ebcde4b8ab49bdb6a5f08dae9376303efa883a47e13ca385bbb9aa85433e5d09339190c59dcc685aa4b9b4c6898b34dc2f4f1c1ada535c10514641987e6875b97dfa764f23b53f"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_007",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #07]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #07 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_07.png\" alt=\"Sign 07\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_07.png'\" /></div></div>",
+      "options": [
+        "<b>You can call friends during the test.</b>",
+        "<b>You should take photos.</b>",
+        "<b>You must bring two phones.</b>",
+        "<b>You must not use a phone in the test.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must not use a phone in the test.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #07: Không sử dụng điện thoại khi kiểm tra. (Đáp án chuẩn: You must not use a phone in the test.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "68b195284414d743",
+      "answer_hash": "0e019ddc17f533bdf55e3aad977625f6211d16942df74bb6c0cea6441da329c8",
+      "solution_iv": "94ea56197f2e7f5322b8a63d",
+      "solution_cipher": "9f88ca0b3c20e0241b4780f4574cbd4a0ca85531559e1c3e8509f059b4b2022678703b4b7d00debff6cc30e9de729477750e6b3dc7d470ec78ef9cd542f135cd21cc1c6a0e5ff63992410124e685268c42eae2e1c913103e9e4381e9d19c6abcdbe4e2182f921fef6752cd56d645c8bbd75b84fae0cfb21692724669a484f657543e1bf663c3a9546b00d4bd70735f63fa7218f7cb44a7dc52aee37d43adb5785fad4d2784df4095fadfd7d18f6f6f5ede9bff4adaaabf762163f98ea9996a7519384ab0fb393bdee3fcf792855a7067f8413f3845e42ca173c08a2a9a9f6d625457f7086fb2f722239c4f4a8c18902c8a3300ba203c1300d8bb189a554590fccb0d0f18b76e6501c0ff23377c"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_008",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #08]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #08 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_08.png\" alt=\"Sign 08\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_08.png'\" /></div></div>",
+      "options": [
+        "<b>Leave your rubbish on the floor.</b>",
+        "<b>Put your books in the bin.</b>",
+        "<b>Put your rubbish in the bin.</b>",
+        "<b>Throw rubbish into the garden.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Put your rubbish in the bin.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #08: Bỏ rác vào thùng. (Đáp án chuẩn: Put your rubbish in the bin.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "f9c8f88982b9eef1",
+      "answer_hash": "4da6cce287ef5252385b38134b49a4453dbe8cbe85b52276076909162135fbe8",
+      "solution_iv": "c4c8e87cfcbc288d57d4b7c2",
+      "solution_cipher": "5c57dace62000d70e56b43cf77a4f8ac481ac8ed490b22a9dcecc7e1b97dfe5fcdc2cfd71faeb947b707392fb24cfbfaf3ea383364849c5dc89385e2fd272067c0c4045621d452d93340d89d8bb48947b895561f80295fa7b7cf0aee41adfa959408c4e0cfc2f9aeee0058b08b44b54a4ea975e81826b8de7a29205510bf175de6ee92f9c82800245ff3bdfb6d757f30dfda96aba663e092d769b8de363349a67446b79691cd4c9686ffe43c36c637b33b8786d53fcdd775c0d05ce07dc7370c8885b9d3fcb4255c504f4943223170593a508aaac3353c16ff91964fa70af7"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_009",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #09]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #09 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_09.png\" alt=\"Sign 09\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_09.png'\" /></div></div>",
+      "options": [
+        "<b>You can swim here every day.</b>",
+        "<b>You must not swim in this lake.</b>",
+        "<b>You must drink lake water.</b>",
+        "<b>You should bring a boat here.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must not swim in this lake.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #09: Không được bơi ở hồ này. (Đáp án chuẩn: You must not swim in this lake.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "2601c029b964b196",
+      "answer_hash": "16ee833d44e12fbf712e7438a2b23e93754f6cac4d0c117018263326648daefc",
+      "solution_iv": "3b7eae92fcdbe1a4236042fd",
+      "solution_cipher": "dedaea75a51baea1fc73356f439226d7fde9eca1dea13849e92ab24e5ab3bbf9184ed2a6ca53473ba9991d8ba4c083d03db99055be97d10f4bed994f86f811a9b14ddabf61afe50ac23259bfb2d0fd9705b1c2a361d429f795b1c5c410b2ca41dcfbdfe7c2c6cd1dfc598b5e3a95c690d7d58c4dc88a5c5882f9e09bab0f8c5b130f947ee023aa07d4661189938bcf55aa08eae2423b46f2de6ed21bd8f5c412d86956ac2b9d01a9fd40be03e9226b90725600e1d8bd5bbdd535238bfa221082db8a757895384f014a0ecb1161d587da681c71b94a6b22a213b9667d4981f37e26260dcf32db90d9ba994a8e66f8664703c9"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_010",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #10]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #10 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_10.png\" alt=\"Sign 10\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_10.png'\" /></div></div>",
+      "options": [
+        "<b>You should wear a helmet when cycling.</b>",
+        "<b>You should ride without a helmet.</b>",
+        "<b>You must carry a big bag.</b>",
+        "<b>You should walk with a helmet in class.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You should wear a helmet when cycling.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #10: Đội mũ bảo hiểm khi đi xe đạp. (Đáp án chuẩn: You should wear a helmet when cycling.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "ed0f00991b1cf986",
+      "answer_hash": "c1eb8778c538585cd8cfeea07461127167e33ecfa4bb6894fe77989bbc6a961d",
+      "solution_iv": "7330ea0a13c9c22178aaf359",
+      "solution_cipher": "547af88c845021fe789280426b590491e8c72b7374a2c17e8237784f622ed185dcef6ae357e7e4c5bc36951860de77a30b980bd06331156d573b65ac0fe96ad28c0647bc38fc5f419eb6039a778d9a3d37e8a655433547b7074504f6b12374ab56c25a15ca6a4f80f96fe33f81c92c09768782aa4b692dce12f9bb6b4ad1be3f5f743ab2dfb3d7ea83df4d68a69cfd02552c7df1ba0b5de8f89e375c240932fcd0f3df68f8462276357f2636ae20df3bf07fa0be83689bb367e4bcd281185efccc197f12d10ff1f3076b2598a79d32fc9718611d8b5a30ecfb324cb3e6d6d427ffeec33471da1bf56cfcc36e168b20fa41d59b5a7d072c225f821dcd90fda7abe60ba403b1b6fa"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_011",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #11]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #11 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_11.png\" alt=\"Sign 11\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_11.png'\" /></div></div>",
+      "options": [
+        "<b>You can feed every animal.</b>",
+        "<b>You can touch the animals.</b>",
+        "<b>You must take an animal home.</b>",
+        "<b>You must not touch the animals.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must not touch the animals.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #11: Không chạm vào động vật. (Đáp án chuẩn: You must not touch the animals.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "061a0fd0c3809b66",
+      "answer_hash": "9de9b209e1fc682f0c217d03e76fbcdb1c80b8e34cfc47f1c54bd76cdf4d5944",
+      "solution_iv": "372ffbb515a63477708d6238",
+      "solution_cipher": "7d65187f9278fc51a33ceab967fb2e40b4d1fcca5e7a25c130ee86b6a10592349148d26acc6c7d13743cc6d5df461be30836fe54bc44280fca08f6ddc3942a43dd8f7b62a4ea28e104024f71876b8b442001b4525439df69a691d827d2ea197ce5227846ee89d762cdd8ec05e3b840e425674cb5565e7c6ada96886639cc4a52c0d0515590f214cbed2673768e22305161287a563847d67c846397de1c30866d8940b0be8b70d37105ff6624ecc3899e26c07428cfec322c11083b14f3712586c2883391935022545f242e426aee72bfe3cc744c31b70e3637e5ec39cd1d4ded4adee6c126ba3bd9de2831d9e54bc537"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_012",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #12]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #12 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_12.png\" alt=\"Sign 12\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_12.png'\" /></div></div>",
+      "options": [
+        "<b>You must open all windows.</b>",
+        "<b>You must leave the door open.</b>",
+        "<b>You should close the door.</b>",
+        "<b>You should paint the door.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You should close the door.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #12: Hãy đóng cửa. (Đáp án chuẩn: You should close the door.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "a633702401bc67a0",
+      "answer_hash": "368bab800990ca0c4dc771ab5fb36213e776964af28f991d80b56f9911e96089",
+      "solution_iv": "acf9cadc7db71f4cde91631a",
+      "solution_cipher": "17f61bb61c88641fdee872a41863dc5ad4f28029027ac2c59539c75af7fd01960daf9b1ed309f2d3ec0cfaaec653c1acba6f63591644d8359d8e8c556b8b6e1f18603fc35108e916426d356a63e31168d65a6b83fd5a08e172c32dbe85a6243d55a82cfb76bfb74f560c7187ce37b4cea2bd21e1b23e95623a628ffb2e63254c1154328df0b9ad8021da6d77940074de55a0a8c8a6e922026e469f9d8ba50a5213ac5e0f4ddb8d16cee0ba2c707b1d89455f3eaf8933bc96ee224a1bbe66ccecf89d38643031a247182839fb4d90ee3fc6f23dbbcd2903"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_013",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #13]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #13 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_13.png\" alt=\"Sign 13\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_13.png'\" /></div></div>",
+      "options": [
+        "<b>You can take photos here.</b>",
+        "<b>You must not take photos in the museum.</b>",
+        "<b>You must bring a camera.</b>",
+        "<b>You can watch TV here.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must not take photos in the museum.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #13: Cấm chụp ảnh trong bảo tàng. (Đáp án chuẩn: You must not take photos in the museum.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "acbd0b8fbb4085f6",
+      "answer_hash": "59848dcd4fee9805b4c570ff3305f3fa3c029e25d04530705d3340444ac05d08",
+      "solution_iv": "e4e05d509f473be6d25156cc",
+      "solution_cipher": "40eba39e061c0e4c1a868d3e4b92b3db2786df65a7153577d1e4df719f72c5235720c9a39ff4f7aee008c768aae1efef7a42f52e8a1d3c67efd1c581c43ef6504ae7fbe8f312626d57fd59c13f5cb8442e0ffb088104b06f92580ddd2a333b3beff42d0b423d11a1ebc3559c895eede78c1f5bfaf854bf2a5cd12785660cb37782b3c582dfe678c7737bdf4562dfdb9e2021e8dc0a76af680dcccd30809128917c8f8dc15d011bd48466f9fca3d0a157de2508f0dd64cd6c0ca96d725e4784dc494567cb771397e380bddb0cebf3564155c2e103608db78c5ecf94c05b9f09509bba04d845262ecae8dfcfb4626f861f9e043fedb5e33c433699ae580b96a2187688e96c"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_014",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #14]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #14 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_14.png\" alt=\"Sign 14\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_14.png'\" /></div></div>",
+      "options": [
+        "<b>Switch off the lights before leaving.</b>",
+        "<b>Keep the lights on all day.</b>",
+        "<b>Turn on every light when you leave.</b>",
+        "<b>Close the windows at lunchtime.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Switch off the lights before leaving.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #14: Tắt đèn khi rời khỏi phòng. (Đáp án chuẩn: Switch off the lights before leaving.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "3313eeb37e33455f",
+      "answer_hash": "577cf0cf399f499054170cb320321718843ef3a22ed07c7a97b597732be9b500",
+      "solution_iv": "d3c98779aa0060a064b2f77a",
+      "solution_cipher": "6bdc25661fd950fc8f9eb9796478afdee4d06591690bfdb41d9c8243d8f3140551adad50d0f5946b34ff128784fd17ae8669f4216703f07c33e62a0c78772552d9b4cb4dfa10c83c3bff57601d88d0f78ae29274eec97f6b83eaa716a3ffcc9ed61dcabbda33e71a6732d60c17eb3774cf4e60c0fa73eae0dda6f4147628903485fa9e6d81891af8d57c588614a2db0ef6c1f74155121488f80791ce59eb181b1ddab9b062dda1fba1a8f90cc111e02b51a86719e9f81fbca7ef963917a28d7181246290567c2ad7de4cbf8fa6539f09125a6dbea17a6aaefa4c84ed0d0e54875433780dff545ac805c42484153393b4229fb41ea3a8bd5b0ae5942e57557a"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_015",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #15]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #15 (PART A · EASY)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_15.png\" alt=\"Sign 15\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_15.png'\" /></div></div>",
+      "options": [
+        "<b>The English Club is in Room 21.</b>",
+        "<b>There is no English Club.</b>",
+        "<b>The Maths Club is in Room 12.</b>",
+        "<b>The English Club is in Room 12.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>The English Club is in Room 12.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #15: Câu lạc bộ Tiếng Anh ở phòng 12. (Đáp án chuẩn: The English Club is in Room 12.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "2dba18a4a106f89d",
+      "answer_hash": "8d79d11a1ed13d3ecccc4f55912d42ad975287074e5f045a78e1957eeaddf4cc",
+      "solution_iv": "36e44530a367c3b0a9933ca2",
+      "solution_cipher": "6f2158b2b93de11cfa9eefa8b2f10ff821e6232ce55f499ffb28bb4e4d1ab6b42e52f00a033da4a135253fbacfab3e361b12a084cf3bf00142ac8d1f3489a7cdbb62fd408b8cb94199a281b1526c8755d58791ca2cb863454242cf15df934df2c6489f764b39c74e3694c42871e0094a84b68c2d266fc69601422619395074666820cf149354494a9963857fdfd7679ed05e5b0c581659b4b0325fdd954b0029bee05a73613f406effef55470b382baca3b131052fef33d84e88e3f704c4032bb1d923952bebfa780b1cbd3e6d27fbe71dfe93016505b367b71b429b35b399ef235799277fe6e34303521b6056b90680efc372f02fcf43c898"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_016",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #16]</b> Which statement is correct?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #16 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_16.png\" alt=\"Sign 16\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_16.png'\" /></div></div>",
+      "options": [
+        "<b>You can go there at 7 a.m.</b>",
+        "<b>It opens at 5 p.m.</b>",
+        "<b>You can go to the library at 3 p.m.</b>",
+        "<b>It closes at 8 a.m.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You can go to the library at 3 p.m.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #16: 15 giờ nằm trong giờ mở cửa 8-16 giờ. (Đáp án chuẩn: You can go to the library at 3 p.m.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "7f9eda3af48124e0",
+      "answer_hash": "6111f7a8a71629128f45651f5a74a2d612491d6fa77d1686749a2a517f4b990b",
+      "solution_iv": "395e58a3be97ff21666e3d8b",
+      "solution_cipher": "7211ff395ac7cf833e7223f5e4b998fcb3867344c7c6b0484523d8359713df48a590ac8e28e2019ed4fa5aff3b861608dfd9001039e3113d79c76b4095f3331d1b15cbcff2e5f5bbaae1acfbee021780c0d14bd0de69aaad16a9346079340b806a0095012083930ca31205261af1ae19098049f5d7e9d661cd12d2c72ea7901896fe6c8dd617051759b5b9662b94e7adbcdfd57ca72d1b454b813b1e1cb997db7871767fbe58a2f55f697c25ae7e16966f1188bc3afefe1e29c6c74e8a629716dbef899ad1f0b5e64396c42d01ad51d552ce5f5efd7e063302a2326d60e0e163c22098f6e7642f52a6e91a8cf061f9c4ff98372d2af3722d25aad7ad5c14e3e488c1a417c5049fa4"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_017",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #17]</b> Which statement is correct?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #17 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_17.png\" alt=\"Sign 17\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_17.png'\" /></div></div>",
+      "options": [
+        "<b>The canteen opens every Sunday.</b>",
+        "<b>The canteen is not open on Sunday.</b>",
+        "<b>The canteen closes on Monday only.</b>",
+        "<b>You must eat there on Sunday.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>The canteen is not open on Sunday.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #17: Căng tin đóng cửa Chủ nhật. (Đáp án chuẩn: The canteen is not open on Sunday.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "fd302ba064c0b065",
+      "answer_hash": "95b2b5c92c9b21114637c4d7dea16651a4674dceb241368dab450f50bef8e2a3",
+      "solution_iv": "ca3f2b03c4a482d43d66b94b",
+      "solution_cipher": "383934bac0ef1960863331cb9439827a992994a98670d89eb707c8e252ca79de8143470f9c3a6c58abc35c3bff4b80eafc4438a2dd2dbcc61f65a5ef4954dddf53c4fb8fdb44ecb59c4bb755a9cdee274fe02b7e641f141e84553021df607a2d3cedc8f0141e94cd132b20b87ce53e595c8a9cfc5114705c519e87fca93edc0b7b20662b3a56e73e3bb5e10b9475de3e7e170ab37c3ac8ab0e058b4eef860dc0e664b0905e42bbda27df408c37d1b9bdbed33458e52fe5449ff77543cbf4c1e62aee0b5b35551f293fb7a2abb02c2e5fe99cb14eddf0fab053c61e2d997d76792a94f943b5a23ea067b49b58e1af0e82a3be37700f2b508340"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_018",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #18]</b> Who can use this playground?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #18 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_18.png\" alt=\"Sign 18\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_18.png'\" /></div></div>",
+      "options": [
+        "<b>An 11-year-old child can play here.</b>",
+        "<b>A 13-year-old child can play here.</b>",
+        "<b>Only teachers can play here.</b>",
+        "<b>Children under 12 cannot enter.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>An 11-year-old child can play here.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #18: Trẻ dưới 12 tuổi được vào. (Đáp án chuẩn: An 11-year-old child can play here.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "3ad5f58c312e2a08",
+      "answer_hash": "d1e5af35587c22c27f9b076c69053fb9d967028e873ccdd832648f10edfe6a47",
+      "solution_iv": "60fa8e508e4d101ceb0aefa1",
+      "solution_cipher": "7f47738d265d9c021a22161bf2104ef0c0ec6674357a80de6e862c5c2532b7369ca6cb4cc674480814677ab8b53d63781494068b675b5f9814964040dbe53313beff45cfa3b677e534eb6072f718214faa3e644cb8244f57e6093fe55b759f5942d9f7a2bb8b841b269fe4f772431524c202d0589d9085aeadb060e6dafecd1b26e0ffcb2b389165a11928dcf1f71e45588207062e2768db0fde835aaa7dfc7c4a3860061727871ca408230797a418fc7b3bceaf193742153f3a0f114db79544f19aaef28888d0509dccc7469441148e45b715950752cbd9589ed7e716e152fb415e50157e6b6d48d614856dbc429823bc6e42acc10c17cd921b1e97cb"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_019",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #19]</b> What should you do?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #19 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_19.png\" alt=\"Sign 19\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_19.png'\" /></div></div>",
+      "options": [
+        "<b>You should park your bike here.</b>",
+        "<b>You must run after the bus.</b>",
+        "<b>You should wait in the library.</b>",
+        "<b>You should wait here for the bus.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You should wait here for the bus.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #19: Chờ xe buýt tại điểm đón. (Đáp án chuẩn: You should wait here for the bus.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "06a7c7f32c95b5a0",
+      "answer_hash": "88b65b18fbc4aab99e98d7104f9863ec40fe4c8b88aced2137f3c11bc77704af",
+      "solution_iv": "35df59db4b06af05acb94482",
+      "solution_cipher": "417f1d80a3427fe22961f137519dec4bc242c6eb8779cb7d16a379e971067775394f64662f8679ca78b7aa7f8ca8819290d7f01995a1d69f33d5b9ea883ef86ba39c88848d8e0129e4554fbf4c014924d199971bd1942d592dd22dec0be4b00a048ec9fcad4347ffee3accf5e58f6d2ac5ca822c863bea8559ed414d5a8cc4a25cca94f50d2667e3d4eb9fa7685614bbc569ca026aa4f403fe5256a5e033741df61ea88c2f1ff6a4b90b3f0fe14d573e1995090ecab361a0e52e85c41135e702007e377031624fa235ebd95e2e37dc6f30d6a56bb29af093f50ce2d3279b9c9a1796122953ae6c74a3427ca7351ed657640e1eb23e0e"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_020",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #20]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #20 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_20.png\" alt=\"Sign 20\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_20.png'\" /></div></div>",
+      "options": [
+        "<b>You can leave your bike by the gate.</b>",
+        "<b>You must wash your bike at the gate.</b>",
+        "<b>You must not park in front of the gate.</b>",
+        "<b>You can park a car in front of the gate.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must not park in front of the gate.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #20: Không đỗ xe trước cổng. (Đáp án chuẩn: You must not park in front of the gate.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "3a40267f1610b43d",
+      "answer_hash": "82166050e8e0baa8e0863e9b3ebbb78ba70f9cf6fa508d124265ebba238b16a0",
+      "solution_iv": "f33ea618e147a7ade0dea558",
+      "solution_cipher": "be737d1dce3aec1c0b69416cb5ab68aa41699bc44f468f9d43f285f0609f126a53d7a087503bbae876bce3129233f32c46287586e71d263289176bb48eedbfe1d3c8c28cf300ac008d9dbedf4376e4e0cc6d86bf45a3e64b0ed74b35be13dd1133e6ebea9a4b48f7c9f7fa853c21146a47f076a142dae92b2ae123a838e2f70bd862e752d813abc49d22be3ac6c8de15a73085f1b69642ffecfcf26a005d97b0a637b4d147bace4b8cd64339a550903959aa2e47fdc41602e323dcafa4192be3cf10562a8a04be87e06cbd2ecd951f266b7797502d7d9fc852aee65c5ac9aca44f1fe3b5f4d509f0f3ebfd829e99531af730ab7bd19169a8d5c23a8b9e0165"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_021",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #21]</b> When does the club meet?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #21 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_21.png\" alt=\"Sign 21\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_21.png'\" /></div></div>",
+      "options": [
+        "<b>The club meets every morning.</b>",
+        "<b>The club meets twice a week at 4 p.m.</b>",
+        "<b>The club meets on Monday only.</b>",
+        "<b>The club starts at 4 a.m.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>The club meets twice a week at 4 p.m.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #21: Câu lạc bộ họp thứ Ba và thứ Năm lúc 16 giờ. (Đáp án chuẩn: The club meets twice a week at 4 p.m.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "3a6d639dc703a51c",
+      "answer_hash": "5ca42a0456a2f354f9ac9ee3a2a4d1514f16f7d2485c4362bbf48b20319283eb",
+      "solution_iv": "58343528ac9510459cbb172a",
+      "solution_cipher": "bef8ea2e661c315e4f3cc8b99453c48c2e1d73cf32f8d240993b5e494efefc27aa0fcd581a420d1ec1b3510fb9fddcff5818c3cc339f3aa56b57cda35cc517f5b545d22c4ad09900164a54bdb8093b8ed288a73da0a8fcbe8693300832c454dfd1ade3441fa87ee456d18b1fe819282bf7098aac59a1423a65567152cb09ac51ed2ec352d1722a2eb8df793f87f1608a69c987dd844912743171e42e8b8e4f9fededa54eb6d7eb010d7ac1508d6f6a66b80130cd695b918964b1ea68f9a3fef303f5e4950dc2c23fa501cb19714f9d0ca90925844898b324c5dd05bfa97acb553f0f77a4477bd0910b6ceddf0f78ea4dc02aadb646eb27a32365627fd7ef44fc387bae4d4e7ea2e6f8273137ceb64199cac5c6c1ae5d2a"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_022",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #22]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #22 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_22.png\" alt=\"Sign 22\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_22.png'\" /></div></div>",
+      "options": [
+        "<b>Keep the door closed when the air conditioner is on.</b>",
+        "<b>Open the door when the air conditioner is on.</b>",
+        "<b>Switch off all the lights.</b>",
+        "<b>Open the window and the door.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Keep the door closed when the air conditioner is on.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #22: Đóng cửa khi đang bật điều hòa. (Đáp án chuẩn: Keep the door closed when the air conditioner is on.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "a840e3c500bc8c2d",
+      "answer_hash": "e16d7720d7faa209a1db5322e002a4646fca39545c4308081b47c1491e0ed5b7",
+      "solution_iv": "f3366043fe6451f670e80a67",
+      "solution_cipher": "74be7d5c99e415b43b428d27bf52c8a82da79a6e61bd94f6c38e3198dc29c8be090595db5ea96a7b71b63ae020f083dd432185eefb41450076cc4a2a0af2cbd480205fb63d6595165d0529e28ee53e309edeb5af02e3191665f2aaebe83cffa957d06d7fde359dd3a7f5f1d260a3156adf950d29b143087b234b36f9f7198b6e3f609a7866d0c0b3ddc12c1e3a2db2b6b672a7e9492b0b88f1d2cf29c87581e8436c8c3f6f5a31907d63de51127d939cc45da7c1fe9ad1901cee7e6e268aa800f2a5bc98813e8bab0ebc057382751a72c3a7cf8e9d794817e4c3e3a607413dc983ce79d4ce5a44b039791a3b4b5c37088d9e31e8db01c7059dc37b679f43ac52152ad42a3b2d5c1876393136b6d471c85d1d4fa3e07db7c192d60ef0c2250e6186d08a"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_023",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #23]</b> What should you do?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #23 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_23.png\" alt=\"Sign 23\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_23.png'\" /></div></div>",
+      "options": [
+        "<b>Leave the tap on all day.</b>",
+        "<b>Use more water than you need.</b>",
+        "<b>Wash your shoes in class.</b>",
+        "<b>Turn off the tap when you finish.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Turn off the tap when you finish.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #23: Khóa vòi nước khi dùng xong. (Đáp án chuẩn: Turn off the tap when you finish.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "2ada69e5539ad437",
+      "answer_hash": "09c36939ce4b28db095f5dad79d171df43523d35e5d9e17c9964b86e50e13209",
+      "solution_iv": "14325e2093c873bfb8daca22",
+      "solution_cipher": "6b32f0e567889d1aaa1147416bcffec8190f2dc94a0ed1c9b0289736ddc9914407db15c1a66dc78feb7a21c0f27543ce84e9a0acf83d0e4dc839aa0cad372d116073dec39c1496d1dec4c8761881324e73796e37a8dbfed679756d9a63b01c52c7596866c092667a5eecc9d7e5ae0977ca9e7e4719b240daf60a5fed733d948ad6c46428da9b8ed540076a0c60b7b6591540f6a0bc6a49141901ab06f17ade260f7993d72507c92b9a4b714b54117c6894e4e0a43b8b92ff5a31fdf59a27c1954e478ab2a4ec283ef0057ff3b42069cb8e0aa2ce40cf15e10e65ffa9932a463236403d4c1fa0570b64d33438534c76c84ef368e624"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_024",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #24]</b> What can you put here?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #24 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_24.png\" alt=\"Sign 24\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_24.png'\" /></div></div>",
+      "options": [
+        "<b>You can put plastic bottles here.</b>",
+        "<b>You can leave food here.</b>",
+        "<b>You can put used paper here.</b>",
+        "<b>You can put old shoes here.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You can put used paper here.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #24: Điểm thu gom chỉ nhận giấy. (Đáp án chuẩn: You can put used paper here.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "0b0632e491fe80a7",
+      "answer_hash": "9372c23ca14c95d374f983b959e533d3c76baeefe17362a8551a097d100ab4c2",
+      "solution_iv": "d46d316c8cc4772d22178368",
+      "solution_cipher": "1d6bb7cf9dca7e4e32b7ff9e2916d1d57f56d683441ec5aa55e10b51eb617ed379e39a22fae18d0ebba4e2924a55ba2b4fd86266b0fee18cfe5243b6f908538be42d27ee763bf7ce53637e1612bcbff83f34ca1811dbb35d95821ec0c50c036ff7bd556aecca5070033f718e5d8152a55846c8dfcb86f65b1f75ae3ff5cb40db0085cc5ea662f661080bd2583dd80e88a41451ced718c936491bdf796730791a51c3f7d23cf4febc02cf66230bf8ab8ef6203175313b724f5f66091019dafa45176b25a1b9f89b15100bae15d6cf22bf0ec512964a572b23906f62c2856654d2f5ffd4566da2f4bc5693bc60a9"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_025",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #25]</b> Where and when should you meet?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #25 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_25.png\" alt=\"Sign 25\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_25.png'\" /></div></div>",
+      "options": [
+        "<b>Meet in the classroom at 7:30.</b>",
+        "<b>Meet at the school gate at 7:30.</b>",
+        "<b>Meet at the school gate at 8:30.</b>",
+        "<b>Stay at home until 7:30.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Meet at the school gate at 7:30.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #25: Tập trung tại cổng trường lúc 7:30. (Đáp án chuẩn: Meet at the school gate at 7:30.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "08404cb1aca465eb",
+      "answer_hash": "084e03f80abca6909a94a5805e6485fba843ab620a522c0d7b1a1ea6e8674481",
+      "solution_iv": "2d29e8d0a035acccbc4fa976",
+      "solution_cipher": "5ffa2e16ad1f063b9710199e0c4f69d1c703f89409df6326e469d3ebf06f256df445e2816a936c420a5b5651086ea39095a59fadefce5c0ab289adc6333650a09375bb62a49f9076c9323c12db13a21009fd1e88183fdf8e710c65c35f1f6aa083115d721d9699090f6dec94030af07ab238fd92ba3f829a305497e122c7687db832784fe438e868e335cd81a32e9cb75db3c2dcf297b7e1ebe142d492b6bd604a7ba4ebaeee52137a247c7a9fb39e155e198ec5fc2966cdfddd7de826ea2e57135b269d2318cfb33d257b6ad780db6382d41224ca9d8e8039dcb9e9ac1347b422a6c6dec7f5f935a5e2d727e41c982be72166b9d3949403cb96bc613647"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_026",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #26]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #26 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_26.png\" alt=\"Sign 26\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_26.png'\" /></div></div>",
+      "options": [
+        "<b>Students can study here without loud music.</b>",
+        "<b>Students can play music loudly.</b>",
+        "<b>Students should have a party here.</b>",
+        "<b>Students must practise singing here.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Students can study here without loud music.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #26: Khu học tập yên tĩnh; không mở nhạc. (Đáp án chuẩn: Students can study here without loud music.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "bb0e574ae83beaee",
+      "answer_hash": "4801701870d95691ff1c4aa280c3fa02636ee8d91fd1537930041ea6813a5fd0",
+      "solution_iv": "b40da003cfe390ab7533f265",
+      "solution_cipher": "d08ed2d0b1eda15f182682816b36b871617f3c42a03b80b5951d1f0b774bc7dc2c3660eafedfe4d8300557d4f4cad573c309b8ebdba8404dfc4711c74243716c829b6c81bd1c109b32eaeb5f1a8230afdb5e5d98fb78698faf1fb7812851e39dc570cde49ea80e3793197ca3f0de35c26ae232d335ca7e8e1e9f53b6ce58abfe94b08a858434aaabfda2e178adbb47c169acfa613d58353b07a24d8aa9492720701d8dcb4b506e99e5dd09ad7e0116baab3f79ed1da1d26eac49efe37fd62d637a7a91901a0d67edf3af523650decbe8a4d0c1d38ddc56a24d9ef49442ae99899f9c828c0ce8471077a98a57e8f4c20b524746e6b9341fbd18e5fe0ddd826d6655e6b8085b15dec9dcb158f1600b451fdc2fb0bdf0c0"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_027",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #27]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #27 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_27.png\" alt=\"Sign 27\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_27.png'\" /></div></div>",
+      "options": [
+        "<b>Visitors can go straight to any classroom.</b>",
+        "<b>Visitors must leave their bags at home.</b>",
+        "<b>Only visitors can use the playground.</b>",
+        "<b>Visitors must go to the office before entering.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Visitors must go to the office before entering.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #27: Khách đến văn phòng trước khi vào trường. (Đáp án chuẩn: Visitors must go to the office before entering.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "f6121edd988680fb",
+      "answer_hash": "75af7958a36504ebc9b5583f82fe834cc6587aaac9f51811d768c30bb37b4325",
+      "solution_iv": "5dfd7d6aa1a2ae7a491395dd",
+      "solution_cipher": "43f8e803c8c101ece49f6719a2df60143a6326ac2ab25e23123249a6217e7d5dacfe7eb07ab25f53e758e1352ebc5870967b9f53f02dfdc5e50e569aea2c78e9a91c1cf30322f4c3918f63c35363776367b0dd52faedce8db60a30773cddf8e3e64dc150e32cd7d4600ea9469b0e2a09bf2b63912c9a3c6ba9467d2ca661c9ba5e5df7c6b20b800541f3baeb008ca49b0dc12c73ea56f35c0ece9520a198e782d99a29d401f0d4bdb18720f945f049e20d311643713b8df21afc972d688aab7dd5ed8bf46307e5905f08c516aedf9f786db976bb6fad01b0b0052ce0f973d972246669e39de92ebd8bdabaeb6575d635fc764394e47753149194a92f5c9251d294538c58d24c90e0fbe9d899faf314ba910ae98d5ab6062b5ef83fa1793a17fa6461bf3cb2"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_028",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #28]</b> Which statement is correct?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #28 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_28.png\" alt=\"Sign 28\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_28.png'\" /></div></div>",
+      "options": [
+        "<b>Class 6A has Maths in Room 203.</b>",
+        "<b>English is in Room 302 today.</b>",
+        "<b>Class 6A has English in Room 203 today.</b>",
+        "<b>Class 6A has no English lesson today.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Class 6A has English in Room 203 today.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #28: Lớp 6A học Tiếng Anh ở phòng 203 hôm nay. (Đáp án chuẩn: Class 6A has English in Room 203 today.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "c8d001437b4c1d98",
+      "answer_hash": "8220238dcdf967e2d3e651a1e8c1bc8c2cc37ec741b13f11ab0f3edba67b80c8",
+      "solution_iv": "c5be2f09af4b5d906c80efe2",
+      "solution_cipher": "0d1593dfb5b619b8866291def8a8aca7861d01e42461b90f000a87e55a1f20447a178d9e6ce20ca4e7f1b43cf9e7abc292be5c1f270d24b89e74a2522d03daeb7532e50779aecde19d2ca2c0e914fd6ec08ba6f5d4f0311dc38d63361e01770effcf3df4a9c7e1658e31606d0496033a315192971b5486a341b967c364f13ddf1b36820d3edd1dffd38167e60c76fc2c46a7d8f755e3195e31213ea8cf0474277d6c6d23493a91d1b225343767be78f601600b9c47ba79ab56e265bb32ff29a13e6d691b1c74718a2ae2cf94b48805dc6b752d1c9642ff5177f701b33b86d9e476bf1fae875430096d8647aca7fdfd02187db58627109cc7c62006a382730d519b6249513c23359bbb176a56c29bc3b957e5"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_029",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #29]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #29 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_29.png\" alt=\"Sign 29\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_29.png'\" /></div></div>",
+      "options": [
+        "<b>You can bring your dog into the park.</b>",
+        "<b>You must leave your pet at home.</b>",
+        "<b>You must feed your dog in the park.</b>",
+        "<b>Only big dogs can enter the park.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You must leave your pet at home.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #29: Không đưa vật nuôi vào công viên. (Đáp án chuẩn: You must leave your pet at home.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "099d1957c37fa707",
+      "answer_hash": "0a758430d528e53533d9597464c656ba1518a2235127ca2d3e5b6faba622f76c",
+      "solution_iv": "a404972f09c58a189bdea30f",
+      "solution_cipher": "26c06992290ce3f4180b5102748d63c61f36aae7a39199021c7db26edb33b82a8a1b116e5de82d7bfe9c6e2a4e4d29c13fbabf16effa999778f1f7f27df1566746da87f3b6f57b743249f7772af8cf64b0c0e15171f8b6731ba2561b133f9e68fa4bd23a77f00b7604e046fe940f4b2b996699dda26da91a23d26a7177742d77e9c8e89496fa655e5311043e61992eef7e2fe536d7d55a7f88bdef99add2ad0304ed6e8d83861d651dbe17b1362350658cbc14bea0d85ee508db77b97e891e73fd898fafa14e0170963248262f80c7601b34f3240315c18364a3df2a58998bcaa5a612a199d8a212b225e5f5f4d0d3a7751f831e736c2272717014"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_030",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #30]</b> When is the pool closed?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #30 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_30.png\" alt=\"Sign 30\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_30.png'\" /></div></div>",
+      "options": [
+        "<b>The pool is closed from Monday to Friday.</b>",
+        "<b>The pool opens on Tuesday.</b>",
+        "<b>The pool is closed every Sunday.</b>",
+        "<b>The pool is open every day.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>The pool is closed from Monday to Friday.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #30: Bể bơi chỉ mở cửa thứ Bảy và Chủ nhật. (Đáp án chuẩn: The pool is closed from Monday to Friday.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "43f83dc857a5c48e",
+      "answer_hash": "bfe4d01ac6cf3ae78d1f8053deaba336e12dba24ee13969bfe02325b3014bc49",
+      "solution_iv": "03325458f7a039da78c5c191",
+      "solution_cipher": "558dbd32c5ba723a538f1b685a65042ca2c0236698e75f20d81f0a447b656391639251c4c4ea5f7e686130b28c11e0d235b3c9a8a8038a02cc981fdc81272f2b42d0ca8ecd8143c1874ef377de9cb108e0f936c0fc9d8eaf2da3dcb75f422bc5c376a1e3f8ff1b789e6bbfeb15652464ea9b1a13d73d77653bac292a2b54e1fce98ba90e9034f3220eb09d950c1033b85786d16757db97129b8458c27689383433335ee917b8fa23e7e6506805a1379cb48664df164d1c1d0a25f266367eac93d7584b9e8eaa9c76c5b014a94523c241f6924416ba5f3931aaa09039301701325fa4eb56ecf2cab9928e449081ba50a43ffe1ce2502aab70e93da82dec039dc661ea7bd8e88f4b2a5cfc0c8620e0abbca9147d7c441e09f00bebef"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_031",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #31]</b> What should students do?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #31 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_31.png\" alt=\"Sign 31\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_31.png'\" /></div></div>",
+      "options": [
+        "<b>Keep all fans on after class.</b>",
+        "<b>Turn off the fans before every lesson starts.</b>",
+        "<b>Take the fans home after class.</b>",
+        "<b>Turn off the fans when the lesson finishes.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Turn off the fans when the lesson finishes.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #31: Tắt quạt sau giờ học. (Đáp án chuẩn: Turn off the fans when the lesson finishes.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "33a3cd20df6003ec",
+      "answer_hash": "ca20b297cd460bc273947b612a461711a645751f9cfb31ec61ff3ca48a764d2b",
+      "solution_iv": "9b05641f954745c1981ea763",
+      "solution_cipher": "4a2df96bce87068374fa2f9704452db0b517792e87cc1213839d13988210f48158d3f8313e4213da5242c788a1466b95c4c0b538682fd932c870661d0748a488bb1b20004a24be70518843ebbe473a715c47c5dd9a2a0b826d256f0a63d592401304a91780a1c27d8c0a84452f3dfa9069789149be92919625c4246d4a3082e3be7c169f1f9761e37228cb7bb61b55f75f6a2b3068cc02b546d23f6575460985daa00fbb4281ec992461248a9af88f128175d87ae028623c2e478195c5d2173b6f94af2ede1ca59d4c31d552916ec3c92a31b5bf125160a964bc6346653efec781210b15cfdf1dc13282e20c8221d7b0d0449ed7a3c03503128913573b707b98dbca4a2e"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_032",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #32]</b> Who can take this bus?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #32 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_32.png\" alt=\"Sign 32\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_32.png'\" /></div></div>",
+      "options": [
+        "<b>Anyone can travel on this bus.</b>",
+        "<b>Only teachers can travel on this bus.</b>",
+        "<b>Only students can travel on this bus.</b>",
+        "<b>Students must walk instead of taking the bus.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Only students can travel on this bus.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #32: Xe buýt chỉ dành cho học sinh. (Đáp án chuẩn: Only students can travel on this bus.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "e47f6d9bdde3d422",
+      "answer_hash": "af0dbda1bd1dc623987dcee92308216bdea710782ce9fcdedcfb0852bb62a34a",
+      "solution_iv": "286b577d746bf3e20c8d1e32",
+      "solution_cipher": "9a55005366507d866d95d3ce7b8165e9639e5f5c9709f0a61f14eb8d01653dc27aed3b10a0e06cc435a1d597a6669618b49486d957b7adf6b97c5c1de25b112baff5d532ec79a73ca8b4e8753291510f211a5f66bd16ca66024f674aa7ec9ac3268d74d097d3cb31ee5ad4884bcda6cbfd044fb862c32e450eab5deca39a75ff06a00f5f3238620faa02e49a9471df4fea972efc30ef0327e86fac3d347d801343252af0307c30806751171fbc2723be10de0497a6aac85663d72eefa8a3e4bc2141062c0189679045a7dd52c3cb00d9d2df8222390615d629505a2b59c15f2ca9444de4514094050e00ad4768816dbd479139c7cc99042506b1b60cb5358b"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_033",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #33]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #33 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_33.png\" alt=\"Sign 33\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_33.png'\" /></div></div>",
+      "options": [
+        "<b>Play football next to the windows.</b>",
+        "<b>Play ball games away from the windows.</b>",
+        "<b>You must open the windows to play.</b>",
+        "<b>You can break the windows when you play.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Play ball games away from the windows.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #33: Không chơi bóng gần cửa sổ. (Đáp án chuẩn: Play ball games away from the windows.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "8f09b46bed0039d8",
+      "answer_hash": "a5d76b816ad50aa3ef440d62acf00cc0b656f18b6bbfee378bc5402d3b189db2",
+      "solution_iv": "4625569dc43b5448c595e7fa",
+      "solution_cipher": "b2502a753b09fb60b7f655793eb3fcc7a67bd2c7b871e8aa8a569dc39606a7674fb2fd80c873063834bc41caf7edc4574ed384d3d2c6c96709432204a3b73d2f11ad00feb40b7fbc9f15aa1bddb8e5245daae57b64e30abb53be14c1e2314704f7cbe72a0ca78002cfc218835446ff3e77a119d3c92b6679caac2924944340c369e1d54912ef1bc4efa9dbb2b227be66837406691896eebd91768ab68418151a8b663ca2b4cc23f287e4c330bfaba973a106865afa8119d1303dc88f9673d620af5f2fe876ab4a35f0ff4c4e9e9c3d6da90cd522923cfa5c341cd4ab341741315dc7fc9e0d54b4fddad25ee49bf2533dc2c79bcbc2410bab9c1d6d34bb0e51e0de"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_034",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #34]</b> What should students bring?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #34 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_34.png\" alt=\"Sign 34\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_34.png'\" /></div></div>",
+      "options": [
+        "<b>Students should bring colour pencils.</b>",
+        "<b>Students should bring a football.</b>",
+        "<b>Students must leave pencils at home.</b>",
+        "<b>Students should bring swimming clothes.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Students should bring colour pencils.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #34: Cần mang bút chì màu tới phòng Mĩ thuật. (Đáp án chuẩn: Students should bring colour pencils.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "591eee4a00f016ee",
+      "answer_hash": "7bfaa6459916ea3780496682d5310d82ed3cf972a8a92481eab9f487761d27c0",
+      "solution_iv": "b704215e219b93ada08ae590",
+      "solution_cipher": "fd936af7a7a54dccf6fb63f72113601f62046c1e2206cf47714f1bebe4290e51db195456e2f5c14998cea28bb0490152a285b640b9ec9b3b6b03f333f417834c697b85048da2fcdb9d8d634d1fdd2891c6b6e257136f702929ae3a1e2c46cbdaf87a6ccd83dcf2c447d5f84a0a1deb8510aa0177b4c53e0de35e8c9e9d9bafb8be258aa7d468771bc51dd4fade89929906ae73b7ad945f5db916b680db682ac651130d2a7703bb65e2952c7be7553970e1d0290b513aa4f9e3899daf8d155211ce5225b575a95819e0dcec55515b1d730ffb296578dac912e272f9eb6aca44c37027784a39e521288c9aa291f6b942e8098c8f3bb5d3944bdbbfd2bf7ee7029b48e32773281ae135fc52989ccc54"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_035",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #35]</b> What does the sign mean?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #35 (PART B · INTERMEDIATE)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_35.png\" alt=\"Sign 35\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_35.png'\" /></div></div>",
+      "options": [
+        "<b>Students can come into this room.</b>",
+        "<b>This room is for students only.</b>",
+        "<b>Teachers cannot enter this room.</b>",
+        "<b>Students must not enter this room.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Students must not enter this room.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #35: Phòng chỉ dành cho giáo viên. (Đáp án chuẩn: Students must not enter this room.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "ab25cfd5514af9c4",
+      "answer_hash": "c955268714edea863042c97f9c155e3e13a0a55f7b81b32d2f49965332d7b8cb",
+      "solution_iv": "806cfb9e09f686704c4fc3f6",
+      "solution_cipher": "d3492541c9098d9d4c8b746f82949ac78800cd69d2b904a4bcdad4a2003b006cdf6a4a933c528941af9b6810f657afbf78f06e23bd931b773ee17cf7d740ff20a8af183aa69c4caa0576f84d1842ec46409b4b8c72cc76bf8df69f8707fb9fc2814f408597e0e335a614615bfa0c092ea821029990399bb483d5c16d32a64988a792a4a3a26682a27febcb619252e65037b0b61f500ad8128c798626079b55b7662eb534f0caa7a21dc95454590f9ff642c05ba68cc4b3c7b01e31cb15c1f0ecf5889d159960dee397eac0fd49a20b494bae3fbea98c252fef15cfcc3c6f61c84883493bbda6707f46be318c58da0bf48f4e67dfbebd12f0"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_036",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #36]</b> Which action follows the rules?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #36 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_36.png\" alt=\"Sign 36\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_36.png'\" /></div></div>",
+      "options": [
+        "<b>Borrow more books on Saturday.</b>",
+        "<b>Return your books next Monday.</b>",
+        "<b>Return your books by Friday.</b>",
+        "<b>Visit the library to borrow books on Saturday.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Return your books by Friday.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #36: Trả sách chậm nhất thứ Sáu; thứ Bảy không cho mượn. (Đáp án chuẩn: Return your books by Friday.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "480262b254c8a348",
+      "answer_hash": "35ee7df8b86c3ab62e7d28f506d56b4b10a39a2482cac34c5b3e06662cbe0674",
+      "solution_iv": "9bf216dedc5ed90c56753a67",
+      "solution_cipher": "dc3934fbd3fc036153842f79de9ea07d0ce32dc199c9baf10f66856700424d29f2c16dffbfa696f18a2fa98052b543834b8c8ab032c50ce9cd0fe725d69c806297ed199275a71ee7e7d3b5d669d203941b3ee766f65fed593eca35fe9ae4e983b12b270150a89b0727e809f990e0043ab94bedecb80581172b29171d78f0544744504bdced005af709eae9bc665d76b758be9e9c591598a46dc4d6dac409c90b91955c3210a3dca3ba70c852834d4145f672e995a65c24abfb1171825edbca48ef6880237fff703ec185055c1f5f9608126e7addebae376e0802a343337a78827dd49d02824b5e153549924b39682d337ad598370019753a71eff5587e07a5923d8e139974bd245c0aa1e2f7cd29"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_037",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #37]</b> What must campers do?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #37 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_37.png\" alt=\"Sign 37\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_37.png'\" /></div></div>",
+      "options": [
+        "<b>Make a fire and leave your rubbish.</b>",
+        "<b>Do not make a fire and take your rubbish home.</b>",
+        "<b>Make a small fire near your tent.</b>",
+        "<b>Leave rubbish at the camping area.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Do not make a fire and take your rubbish home.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #37: Không đốt lửa và mang rác về. (Đáp án chuẩn: Do not make a fire and take your rubbish home.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "0c2fafd8c124cfeb",
+      "answer_hash": "660c74cf019a25d89b023ff0ff614ed36baa08c3ac434b6a5187dcb258113c7f",
+      "solution_iv": "fa78fb8e4ca0b97c97dd3337",
+      "solution_cipher": "25357a2fe12d43f64721d0656ad99fb48fa36ec488adf0e7f13e81d84343d061b099a7b892d9c1046d37d789c416b0a07737959173989a16eaf0a3f3a430e66bca1a2c7e69974f1c5cf624bb910b4442cec2945e7849bd40427577483ec3cfb870da9d1d6222232370e515a34247834c7b077f85cd1bd9ccecf5111c537758c7771920c8ea7e04af6884467233e2ff23aa1bb3f0db2edc068bb55af9a16a07f81a3966d5caf0d4bdb79f28085ad297779870f4acd089f2596c25fab618a71d7c106e8e43ad46c4104b5cb6bfcbe063d1c5b364241e1d56bfafad61c447b84fb96a7f129cfd947d04ebd84e38bbfb8de67ba8815dbff9c12094d543c31b27d2bc28820d8a8a22445b9d2541853475c690e36a8e14"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_038",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #38]</b> Which action is allowed?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #38 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_38.png\" alt=\"Sign 38\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_38.png'\" /></div></div>",
+      "options": [
+        "<b>Walk on the path and leave the flowers alone.</b>",
+        "<b>Pick flowers and walk on the grass.</b>",
+        "<b>Leave the path to take photos of flowers.</b>",
+        "<b>Take some flowers home.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Walk on the path and leave the flowers alone.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #38: Đi theo đường mòn, không hái hoa. (Đáp án chuẩn: Walk on the path and leave the flowers alone.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "c18c662c7bf445d1",
+      "answer_hash": "26526da20f52c7efbbb76a758a80e767686c411dd7b5d6dc0443bdfdbc9735ec",
+      "solution_iv": "d9476dd7c3b95d12d9930af0",
+      "solution_cipher": "dd03eb47ae2e2a0de0ce4b9f36b848154567e56cbce4e789929777b720f1bb127a62462ed60a437e5379bd3c31269c28eb32c217a652d617ba56ff6d76211953363c2fe06e1e86f475fc66f9e17263c1a0ab25ef59c1322e713ddbe638c86e680594b37173a088cc3b8009af12a95a64ac4108f6c689b16f8984967a5694376fefba563de5c0b0ff79e29e37acee902475cec51785f89e732a6f89bc1169ea5228ba2a2e0c7a99669bea8b806e831744d75e6ff5676b228f9d01ee6577887c04cc97252bdc80585161243e0a560fce8e0c3d04415d84cee38a3db8a6fa769c80e9a2859955288c8d36e54866266fb3809e42852e6ff054e9e061b266e24295f4dc39525681031f42311110d20e5c42b39ac902fc"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_039",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #39]</b> What should students do?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #39 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_39.png\" alt=\"Sign 39\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_39.png'\" /></div></div>",
+      "options": [
+        "<b>Stay in the classroom all day.</b>",
+        "<b>Play football in the science lab.</b>",
+        "<b>Go to the lab without your notebook.</b>",
+        "<b>Go to the lab with your notebook.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Go to the lab with your notebook.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #39: Học ở phòng thí nghiệm và mang theo vở ghi. (Đáp án chuẩn: Go to the lab with your notebook.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "214d5c055776f85b",
+      "answer_hash": "b6178f89d2f8a0ded0b7e6e71b59affe9cacbe6c9cdf8c080a19dc892ba8b9e5",
+      "solution_iv": "a33378eb71c685382d7a0874",
+      "solution_cipher": "38a280c2b8f60b7035a12bdc4dd2f84f666acedbbee67bfa486b12071e97f7dc3e301eda7b1673dcbbb426710f74231f1ecd047c0d75a0611188b5ea573ff6389f0f7c10a16a88b5246e2252d3bc6c14fbfcbfdaa15e54d66ee1873db15168d840e0f261cd2cad0191987fc83efd662aa57c507d7a0fd68956dbd68fb5e35225ea6873147d38a559ee23916d69ec73ef1799b9390b1a12eac337467cd3885c7e594486e59dfb84c70a8a0e7f42ee313b92a89f4f0e0aa20117c50876dd5506aa421890b956d7c266114fe5e5d329669434189244bdec6546ab5759b291399902e870ecf6a2457d9fc84810e4a48d28d96645a4595042360e72a47dd3c9e8bd0795a9f48ae186193f5e"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_040",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #40]</b> Which statement is correct?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #40 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_40.png\" alt=\"Sign 40\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_40.png'\" /></div></div>",
+      "options": [
+        "<b>You can arrive at 8:00.</b>",
+        "<b>The bus leaves at 7:30.</b>",
+        "<b>You should arrive at or before 7:30.</b>",
+        "<b>You must arrive at 7:50.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You should arrive at or before 7:30.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #40: Có mặt trước hoặc đúng 7:30, xe đi lúc 7:45. (Đáp án chuẩn: You should arrive at or before 7:30.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "8861ded42a488be9",
+      "answer_hash": "07c08ec8fbb5fc9475b2618ca96e3fe40f8db6c18a268cc68ee285ab2d9270f8",
+      "solution_iv": "83c374b9e3ff3a70e10bab76",
+      "solution_cipher": "1e5fa7607f61a58026255533992506c18d1edaf541eecd1786e83f640042c20a5b4cac9c445187841fd075502d110f020bf19caed4e2ec374c47abf4c31caeff4f78266fdba298acb9e253ef0bc5a45e7beba83b913809a11a809d428c036551671435d195e11826d2d1bccb0c03ea6467a7cebf2e406a2e21c89dc3571193c631d5578e901c1309ae4ec948e289aed2d706dd3d05600dd6ff10b1426b6de73223f201eeba579caa5bcc02b5bf757181bf10d7f46b513381aa6b3f08d37800b23a90aca3b930104ed27196462a184d543ae5fb6bd22dc14f968436eccf61da67a93835c9ce0cb6e9f7382473e876b0fd2fd97e8b48544b3e5e3319a3cf960b4b4e4a03d37fa66d9203bd1f8b6bbb80cecf"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_041",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #41]</b> It is raining. What should you do?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #41 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_41.png\" alt=\"Sign 41\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_41.png'\" /></div></div>",
+      "options": [
+        "<b>Ride in the rain if you have a helmet.</b>",
+        "<b>Do not ride if it is raining.</b>",
+        "<b>Ride without a helmet on sunny days.</b>",
+        "<b>You must cycle in the rain.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Do not ride if it is raining.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #41: Khi trời mưa không đi xe, dù có mũ bảo hiểm. (Đáp án chuẩn: Do not ride if it is raining.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "828db234c2711d74",
+      "answer_hash": "1ba951afdcc95534cdcd13835f2568698ef66e54e38a60bc9a270ba5216fde42",
+      "solution_iv": "d19fbe958d46b4904c1c532b",
+      "solution_cipher": "6e967ec482a3edc0d4d5df9d70d0980a21a67e568ad4ddac6bc8b1af7ec30c38430cc315221c3d40a217a13c661a01aae5e0adfcfa0011397ec468c644b6cbd140fd3c5bb24886330fcff8bd9a0096933c4baa5c57c42b6f4cec11ac9a2494adb148b5f242a18a08167194c24e92ece5a48b766a5b524aead7c6b12c3217f6702d604a580760904cbdfffa1290bb970f5314bfb713f119697375d2182c0e5486a475f17e9295ea600533e839f38d33fa02df61244b57edd6318a80774a350323c88fee79412f81011ba5519b5ab21ddc0847f095ecf7c98b266ee0fb3db0914e3f05183880d9891810ca3041d3ff4aabbaddf63861dc23cb1c1152a3b80e1f234e3b8c"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_042",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #42]</b> You want to watch both games. What should you do?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #42 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_42.png\" alt=\"Sign 42\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_42.png'\" /></div></div>",
+      "options": [
+        "<b>Come by 9:00 if you want to watch both games.</b>",
+        "<b>Come at 11:00 to watch both games.</b>",
+        "<b>Football begins after basketball.</b>",
+        "<b>Both games begin at 10:30.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Come by 9:00 if you want to watch both games.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #42: Để xem cả hai, cần đến trước hoặc đúng 9:00. (Đáp án chuẩn: Come by 9:00 if you want to watch both games.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "a1cb1fae22dc82e6",
+      "answer_hash": "096d8dfa4ec17cea278d319da91f87e5c535fcfaa19fa964e3f186eb83b1e5af",
+      "solution_iv": "3a349a5415f68a41a2bbc234",
+      "solution_cipher": "92c974942f0c887b1f9dad2ce1e3760ff0c4f8bb9b7b8577ebf078ec7aa8c4249b6bdcecc5b59864c31aca9a5998805f2a468302e2e717f38c16b61ff45ad7d91f4be66eaca57684a019697e8540097d14db058401ea0b29a95622885e8db2282c90b8cc4d31a63a67cffcc6360f9ce9d77d832fe187ccc244ec65af389347f2903d8ed7deae06582e0d4f2e7ddb267d3485ac6b509e7587af8d14cfbad1cc698f7941e739d2c6eacd7537cc8d004196a2f932b2c07c6716f2ab8530f76b7617456c4439ebf978ce6aed3c66a4564ffdd1162a0e0390bc45d1171e183eeb956fe42aae3fe9927c8173737fff562d5413df7f48d25b093329fb368932222732f4cf356ab2416bbbfbf0b92abc74504d4ad731da3636e10e56a51ccce39e52e651efefa49893be173d"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_043",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #43]</b> Which statement is correct?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #43 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_43.png\" alt=\"Sign 43\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_43.png'\" /></div></div>",
+      "options": [
+        "<b>You may swim at 5:30 p.m.</b>",
+        "<b>You can swim at 6 p.m.</b>",
+        "<b>Swimming is not allowed all day.</b>",
+        "<b>You may swim at 4:30 p.m.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You may swim at 4:30 p.m.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #43: Trước 17 giờ không bị biển báo cấm, 17:30 bị cấm. (Đáp án chuẩn: You may swim at 4:30 p.m.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "c2f0c4dc52154cbd",
+      "answer_hash": "194497394f0ea263e47c360cd17891bdb9fc59d3f5a4fc2a3c4543616eac3cab",
+      "solution_iv": "e78c08effa19e1de245dde80",
+      "solution_cipher": "3661183b731abbb54a4500ea7f93cdb5fd358b295cba2279f92ead5b5711f90113f225c30b00f0069e180e8506777e50bafdd845dbde4fb65e2d78dec3ad15bbfedab9acad23ae8b13b24d51552038b3f022b6b4f721c0e092aa1a54bebe86ab5c958d6c78336f479dd7fd167de46a98a0303f93b8c1ffa97a6b8d510c67da0032c1c379fcc758768cab8c9b01400e2a3d7762435e6cc636b36341bdf5539fe37d8056f0b1d6762ab0cb41b8f55415c67a11987989a4d7d559378d07e8cda194b924e221f73569da496e8c1fc5214aceb5939f2c42d06b8f4bf26b3d88dfb85a9ffc4d2b64b11a0b21276175c0919f49dc35b2cc561071356ed4878c6464f226971f1e4647"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_044",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #44]</b> Today is Wednesday. What should you do?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #44 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_44.png\" alt=\"Sign 44\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_44.png'\" /></div></div>",
+      "options": [
+        "<b>Water the plants every Wednesday.</b>",
+        "<b>Water the plants only on Saturday.</b>",
+        "<b>Do not water the plants on Wednesday.</b>",
+        "<b>Water the plants at school on Tuesday only.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Do not water the plants on Wednesday.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #44: Tưới thứ Hai và thứ Năm; không tưới thứ Tư. (Đáp án chuẩn: Do not water the plants on Wednesday.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "bcdd8e1097fbdc4f",
+      "answer_hash": "bb804027bc155dc4b8b6cad0e01781fa3581a44d5dd3d9de17ffa01514a3b656",
+      "solution_iv": "0f4e4e9d3fbda476da30cd5b",
+      "solution_cipher": "38d443b2749f886ba9ad98c4412c843d29e8cbdc30abcfd183afd4830be9b7d915ee87afbc99aa5736367a5171843c86a5c7ad6ad0f5f1ec157d0e5d159f0510ec7b8945daa189e6c761d0471ea08414c1e2d69e7f9fcadfbfc78d85f86019f5c38d882ba1d2fbc24782f4c17cc9b920cc1b2ca5e8933db91060d106c9706b988b4134128948c7e163820eab483f5a58efc8a9ff98753441a3f073df117aa2b79e2f4ebd3f701201aca3381687a9d57ae8a0ecca40bb4bc95bc2fc590b3d615223ed0a0a2ee9a1c83882747a5642953019f05b710a9db19406b23b6dc6243dcbcf319d287784ae4b1f8b56f899e4db02bc35c5693717509e192ce7872eb295a9bc7d08180d11a56c4ca926a0b5b167d164bdb4ce5413"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_045",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #45]</b> Which action follows both rules?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #45 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_45.png\" alt=\"Sign 45\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_45.png'\" /></div></div>",
+      "options": [
+        "<b>Eat snacks at your computer at 3:30.</b>",
+        "<b>Use a computer at 3:30 without eating.</b>",
+        "<b>Use the computers at 5:00.</b>",
+        "<b>Eat lunch here after 4:00.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Use a computer at 3:30 without eating.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #45: Có thể dùng máy lúc 15:30 nhưng không ăn uống. (Đáp án chuẩn: Use a computer at 3:30 without eating.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "49e6119443e6aa8e",
+      "answer_hash": "abfa79cbbb6a8cbeeb456493fd05c6e263cd2b6f3db7f93337669aaf25c90929",
+      "solution_iv": "d72ba4ca6102dca5f3011ffc",
+      "solution_cipher": "d959014bbc3dd9c8b1686ab28377e3157c165fd951bdf75578b1b50bf347c28161e06f5c16999ad2b30f5a148006355ea5373e2b37ab16d77bfe37756cda7f53e5595fc76d9a712a9a001ee1c1c64134eabedc9b01b8474b9a642f3e5c7b804764dfb04c58ed31453cc67e90eed2cb1f0cb576a4985d710ccb9a7c3852f5c4c87baf5b37f65d61ccf3033c8b80f1e1da92cc3303ba12b08ac9b6e3c7d69847e1d82d6ce25278001204d5f235072fcf506693f9145e104ab87aeade97adda2b482a30d3e919b6511d6f5a34b532cf4ab65ae989f83894364347f35c68a979d9daa9f398a8e1cf95811a89d6d7ff1cbcc1841d56ffb71209e9e1f8dcbf2e2f02271ce06e689d27e7d670524aff10ff0fc7e2bd2d9333b8"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_046",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #46]</b> Which statement is correct?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #46 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_46.png\" alt=\"Sign 46\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_46.png'\" /></div></div>",
+      "options": [
+        "<b>You may enter at 1:50 for the 2:00 practice.</b>",
+        "<b>You must enter at 1:30.</b>",
+        "<b>Practice starts at 1:50.</b>",
+        "<b>You cannot enter at 2:00.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>You may enter at 1:50 for the 2:00 practice.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #46: Được vào từ 13:50 để tập lúc 14:00. (Đáp án chuẩn: You may enter at 1:50 for the 2:00 practice.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "6ac20eb234896e44",
+      "answer_hash": "7a5f1c3c4f2f604d123a4ba95abba3ee646b21c836c6cdde9814e4c961cb8598",
+      "solution_iv": "ecd4b55d59d82827a2f67863",
+      "solution_cipher": "be2d23de5a5ea30052c06c64ba5597b80db788c5d72f44faae32bdff55b53b8ee55fa6bdfd71bbe6860c21f3b6b202220a1ac0d0ea5d4489243e4862eec035edcd0e54222ef7678860b24ff1ced4ef9c40c37e6a97b45959bf0acc1c0b532302c5cb56c5be886e70727a320d1d212453b822d10586102a9499e04d61931726c80c9aedf574eaafda465df8bb39c1a2ca6dc9a29926c286416d01f17b7908647ed8b32ddf8b98add34ddcb916d8decf206798d2e4ba2744b211796b95248228ff661f77098bf1468362f1581a771c9294ee6bdd03ff02aa0bc912af66d9464441a453bb811d137afcfc12562fb34333536a8e5ec3b60822e766950c5a1c4476c123808f1aa219394f0d0e4794ef4cfb9d3a43a1d5990f0850aa"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_047",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #47]</b> You find a school bag. What should you do?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #47 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_47.png\" alt=\"Sign 47\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_47.png'\" /></div></div>",
+      "options": [
+        "<b>Keep the bag for yourself.</b>",
+        "<b>Put the bag in the rubbish bin.</b>",
+        "<b>Take the bag home.</b>",
+        "<b>Give the found bag to the school office.</b>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Give the found bag to the school office.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #47: Nhặt được cặp thì mang tới văn phòng. (Đáp án chuẩn: Give the found bag to the school office.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "adaa3942fe4532b1",
+      "answer_hash": "57a566a2af70ebc8462d1e5ecd6701226b5c4a316f4bfffc971f6923141114fe",
+      "solution_iv": "f2759359cd29503af209310c",
+      "solution_cipher": "ca3e6a66674a9da3649685e4c3afcb6f0fa505dc1b1430cad190df541bdfe1d9a6197514016a3e30dc31d55653814ab68b04ca5f709db38134075b10aca409cf6d6b45c799b841bc96bdd0517b5b57fb0460f98de6d583f93a014fa8907fb09af51ea286d3e6e18759a3c12c4bc39e86473554cb9367693bdffbf9f29174083087402be5f0db5c0dfe7fd95ebcca67e3f349de22316041f22be0f58554df82431daa50c7a9987eb308c083f0479ce21b3e6dc7ec5506f0f75f6628056f599d1f735f4fc6237139ae6b2fe38a026954b5adb2ce6e0257348ad530b93f7e0a6007cd0f9e2067f86793179dcaee8ae25831777f9103aa34fc0f51451c1ad4828a95e95b9bd68da6c10abde6f8011978afae8f1572"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_048",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #48]</b> Which action is correct?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #48 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_48.png\" alt=\"Sign 48\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_48.png'\" /></div></div>",
+      "options": [
+        "<b>Arrive at 9:00 without gloves.</b>",
+        "<b>Bring football shoes at 8:00.</b>",
+        "<b>Arrive at 8:00 with gloves.</b>",
+        "<b>Stay at home until 8:00.</b>"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Arrive at 8:00 with gloves.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #48: Đến lúc 8 giờ và mang găng tay. (Đáp án chuẩn: Arrive at 8:00 with gloves.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "63acb88be8b0e9cc",
+      "answer_hash": "e2cb9581ef8efe8f48ab0774d91eeee77be73cadbe8c4dc4eee26c59083dfbd5",
+      "solution_iv": "6abe682f90778eb19b39a2a0",
+      "solution_cipher": "4695c557a14dc80c33256735522317549031b06cb984e3ca807d80beed8e6421bf5fe45385e9d51d58b01764efc32be0a36d104d21ddc511b35068fa57cde8d975a8f3f5d3311cb5a8c4ef39c6d65ab5adee867dd30829f9332bb48e57b90ff70d658f791d82fd25f470cd35ceca6804cc372fde3a4bf8e91ddec0792cba7bc963486f32ceb3c257cf86e9da9fc24140244618d221ce25b6531a3d4b7d962a6870b304dd14f4122f753ba94ad15204473141e2450cb4ed63ebb8b62dfc954a1e5b3df88772dcdd58fa7ed09c17661dcd1ad9cad6064021a436fa1b00f4695a12ba72653a67d96dc60b32076780b8"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_049",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #49]</b> What can you bring?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #49 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_49.png\" alt=\"Sign 49\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_49.png'\" /></div></div>",
+      "options": [
+        "<b>Bring new plastic bags without paper.</b>",
+        "<b>Bring used paper in your school bag.</b>",
+        "<b>Bring used paper in a plastic bag.</b>",
+        "<b>Bring only plastic bottles.</b>"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Bring used paper in your school bag.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #49: Mang giấy đã dùng, không dùng túi ni-lông. (Đáp án chuẩn: Bring used paper in your school bag.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "bc5094a31585d951",
+      "answer_hash": "7f5ab536dc6c5f2816908c493fb14948e8504076358c2b39483c9ac8ec16ffc6",
+      "solution_iv": "0753cbb48b7c7f5599c8061d",
+      "solution_cipher": "38d04cd604bda124d0c1b15c4116bbc66f6fc1511cea263d3be91f421373bca142dc49a09c8a87fb4f2cf4b2358404c62cde2db6f174d6cfdbaf23f3b59ad9bec98cc0dabd212409ce56e7288bd99e521b3dfcc48de232adf3e7d79c3c0be69df3ce700127b5528e9a51963951445a87b5759139cf78f4ff0abfd7ba2357ceebd29835871f0023bd56e26c1512c5f5cb763ab123d07966c793b7e2b6cc9015ba2025a980602d28cebee2d4435ca0516b242e26be78871755742b2e0a00fe6daac3bd1b2ba997a023ee96d1358d9f5103def67135c37418fce137d2f70df11a4b8cba37acba27808cb7d20bb39615641cde4817ffc2af9187accbbe14d27788887fc6bc1e6e1fd55c6cabf3a5"
+    },
+    {
+      "question_id": "Q_WS_G06_SIGNS_50_050",
+      "grade": 6,
+      "unit_id": "G06_U02",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>[Sign #50]</b> What should you do during the visit?",
+      "passage_or_sign_svg": "<div class=\"sign-visual-box\"><div class=\"sign-visual-header\">⚠️ BIỂN BÁO THỰC TẾ #50 (PART C · CHALLENGING)</div><div class=\"sign-visual-body\"><img src=\"../assets/signs/sign_50.png\" alt=\"Sign 50\" class=\"sign-visual-img\" onerror=\"this.src='./assets/signs/sign_50.png'\" /></div></div>",
+      "options": [
+        "<b>Stay with your group and walk.</b>",
+        "<b>Run around and leave the group.</b>",
+        "<b>Run in the museum alone.</b>",
+        "<b>Leave your group to play outside.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "<b>Stay with your group and walk.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "should",
+        "only",
+        "no "
+      ],
+      "explanation_vi": "Biển báo #50: Đi cùng nhóm và không chạy trong bảo tàng. (Đáp án chuẩn: Stay with your group and walk.)",
+      "source_worksheet_id": "WS_G06_SIGNS_50",
+      "crypto_salt": "29f160f2cfa8386a",
+      "answer_hash": "abddf2fa9412b8035e9056451efed9c17f48633d10e5e6e189062124ec63f3c4",
+      "solution_iv": "42fa2e1405298821075ead5d",
+      "solution_cipher": "d65f7e89f06fd083b96259d577bc3e9886d6cea8024aac1369e6e904640578be9af8b85a2d2547ed967b75b465f36361d1f38bdf9d4cba141b82505560c4253cb65c42336df60de50ea94b294edae903888bc628a788981874a99687ffe6f74250a8ae96e611ca811340cd81391a3a181738834a1c0b0b7b131a2724fcbc99147fdcdf568c92a4176dac266257fda7c4acd6275247fb92f701c396f20e7f3b07458c5b9d9c50e5f21d1126547126783e7c316c834a2d7eb9516fa3b271dc717c6ef142066b0a11ebf2910a71585b68dfe3f30ce1cd18fe30c3eb7765e4133ed4d564c7975922a4448fee88845a667a7253f2db3c2d62d5dd282b361e0685725c32"
+    }
+  ]
+}

@@ -1,0 +1,1934 @@
+{
+  "worksheet_id": "WS_G09_WORD_FORM_55",
+  "title": "Lớp 9 — Chuyên Đề Cấu Tạo Từ (Word Formation · 55 Câu Săn Điểm 9–10)",
+  "grade": 9,
+  "unit_scope": "G09_U01",
+  "question_count": 55,
+  "questions": [
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_001",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #01]</b> Bat Trang is one of the most famous ______ craft villages in Ha Noi. (TRADITION)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "traditionals",
+        "is traditionaling",
+        "to traditional",
+        "traditional"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "traditional"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước cụm danh từ 'craft villages' cần tính từ: tradition → traditional.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "08138008f95756f0",
+      "answer_hash": "49f8acfbabb96fb7d0fd5889828cb9bff491c2d650e289d25ddfad949d0bf939",
+      "solution_iv": "42859e6a36ff69fc9dfd2496",
+      "solution_cipher": "a5af1cf92014aef6b833d3710cbeebbf6b80330399cf4f908cfc2aa01761175e97fc8b485f5124d8c19cdfcc62fb0a5c3cd765f15c6f18479af356603bb74f5bba109553cc7e6655df08621f19044c16a184d14335457cb0acd819af2fd38493eae7249d69465fd1808988ca8e83d15aff35ce77f3d52ccd4c8ee489e94b3c306bf9df7135a4596e63f94caf341e91ba7a9d44ab9bd8ec055cd3425c578b63c4b4a3d4e06f4a751405018a5292941187964d7740d09fe6159f0f10772fc80837783cf2ee"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_002",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #02]</b> The artisans in my village are very ______ and skilful. (CREATE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "creatives",
+        "is creativeing",
+        "to creative",
+        "creative"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "creative"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau to be 'are very' và song hành với tính từ 'skilful': create → creative.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "7506748e14584304",
+      "answer_hash": "a40635ba2cc2ac17bd263d7f4335a6ea28564b5a2ebca4e52451b2b49046b703",
+      "solution_iv": "26b41e341f2c48ce21a45e84",
+      "solution_cipher": "3f3393644114128aad5fc26e3b18afc47cb5a45f06684ac0d11875d6b2b2e04c7f8ca9770bbf8ec5f6adbbb0444623404678580c76e5b6c893d7c2278fe45c61174dfd410349c6580fc608a6363f6cf3874f2dcfeac0f4a100212f5b524e03441061066a9d22fa10fded64a42f7f5b04ace304da47d45aab3815035ebe8ed31acae4b63837232c53f756da14553304e993400c518e3b7fa609c1ce64ecb497b4c814141cd4ef7ad34c4ae3aba71c102877a4f8a97950583ca3ccae52357bef"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_003",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #03]</b> Living in a big city has some ______, such as traffic jams and noise. (ADVANTAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is disadvantaging",
+        "to disadvantag",
+        "disadvantages",
+        "disadvantag"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "disadvantages"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy từ trái nghĩa theo ngữ cảnh (traffic jams, noise): advantage → disadvantages.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "1e9fa6b62dd7fbcd",
+      "answer_hash": "60420da93ab7852613454d05222f9d210a1b65c72c6572e5a871727d3b84affc",
+      "solution_iv": "130b46a003b8f42a5828ab8a",
+      "solution_cipher": "45186564d0cb8e0913e7b478d20a93aedc1bbb4e3ddaf23f465e582edeb259cdb2209d4b8e5637bac29bf06f5c6ad5eb54063d1289ae506b63c2beea6110ff24f29f12019e88160295c129f6f468771ba9b65210afd45dbc78d7e0e3920f602e086ff309abdce0ec674d61be4a94dc91681681959c33b21dd8c7deb27c4a97b1e2fdaec6af5cd30896a32caeae7704f4ea03454993b86d5124c9576a7ac4940b363056e58085803f4ff4e0fe6b6d31c1d3fd23daacdc0075362a79c95bc0253462abb6516b08318c2e88cd9750"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_004",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #04]</b> Air ______ is a serious problem in many modern megacities. (POLLUTE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "pollutions",
+        "is pollutioning",
+        "to pollution",
+        "pollution"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "pollution"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cụm danh từ 'Air pollution' (ô nhiễm không khí) làm chủ ngữ.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "3951468f138e4497",
+      "answer_hash": "8807c67bdf066c52e747d0dc5b94858b59b9257ec7afa19c66626075b0d22358",
+      "solution_iv": "2ed51cf6534c38da3b4e3408",
+      "solution_cipher": "b261e2e465aab61eafbcd3a62f4d49e1807f5a4c51b7ebda13d39540082828b45d84e7fcef5dc53c393b40cd119ddac858a89737dc1714f7372d4d7465fcc8fbe8575ac3077bf00cbbff374aa72d999ef4085aecb2fe053de934d03f1fa416c1ab131bb99f275e95310984ee10c1ecfbace65a243317e8799910b2bb95c8018a40392e72227dce09f5ab681d058e9099d2a02fbca84032d75091e2eab2fa83f8c119f40908069540e9b2f322a634b6a38bebe2671481"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_005",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #05]</b> Teenagers should learn how to manage their time ______ to avoid stress. (EFFECT)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "effectivelys",
+        "is effectivelying",
+        "to effectively",
+        "effectively"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "effectively"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bổ nghĩa cho động từ 'manage' cần trạng từ: effect → effectively.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "26d150639eb6b76a",
+      "answer_hash": "8641407848f9405967321223807185d3c32037d2acfdec7932d84032d809c7f7",
+      "solution_iv": "b0a9ab5d2da21dc719190f36",
+      "solution_cipher": "be7c3f67a976e1a7b4092bac88bcab3bf2789aa56e429e88381fb732ef0bf04ea8353926bdb4a5d4aaf57fd288bdd536f698964b5df1f96ee077be7d8ae5bf4b32d06df9d99058e161f5ddef12de9eca460c848402ac04a8e6c4ca6b5f4cb48f415305eb138f4c14a992ad02339e782a2748d211323350ce454e50bbaac26102f7e8b6fc331b1c5f3c6e294c491445d3ba5f56b2428218f29131f4c3d778e56e2153519fe1e9cb0d67f241fb68a0ea0316f1f3bafbafb37ec82bea20e7c84e"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_006",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #06]</b> My parents always ______ me to pursue my own hobbies. (COURAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "encourage",
+        "encourages",
+        "is encourageing",
+        "to encourage"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "encourage"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cấu trúc encourage somebody to V (khuyến khích ai làm gì).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "d9aa874d0dc8ef77",
+      "answer_hash": "9f2f754b61981991e96235dc256e1bed7b9ce8123c29ab28f0829c661e12622e",
+      "solution_iv": "10f59a9aae54af3490f30bd9",
+      "solution_cipher": "af7fd770bda646519ddd328850d5fd8cab78ec3f14483a8362a2d9134ef13de1ce5901a8bf05e8e1775f943655c9e691647cf5276199a1312c94a9d4add7e2a5d1a7fb35584651e89fff84150fe95bfcef22e0c060941e294718b13500d210816bbc55d85a7969dc1d0b22c88c914738eb385fad26a95435721caef0a73180e9d2c8475a97f628e9d5467a0b7e27da4a73b6af5a389ad8e644041c46f8bc2210d9d3701ff19b11b3fae38d94f917"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_007",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #07]</b> This conical hat is a ______ reminder of our trip to Hue. (MEMORY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to memorable",
+        "memorable",
+        "memorables",
+        "is memorableing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "memorable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'reminder' cần tính từ: memory → memorable (đáng nhớ).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "53de5b58bd2c4e45",
+      "answer_hash": "36fb7dac49d92b5a3ab99ecf8da23c238bd9b43ab109ca6db6af6ecf12daf7ed",
+      "solution_iv": "2a76a48a32c055cf167f79e7",
+      "solution_cipher": "747b1e1bd8db0577a367d57902b0839a15bdf16a49564f225079ff3ba18456f38f0f31cde3b635537f00bf6e947a4ff4a42c14356b739b86e376948e9693dd94ac960f9f3a1f7f558260e411316076ac9faa6c1a4ec3d884ccd5814d903ba1fd801fb3e78307782ef091698f482dda76cf83f2464f75c19168248925d6c956f1b87229fcba2359d6c193107ef32d092cce855855900153d474857b56d7f9a6c30934723a8d20163b2ad717deb6828637ddef4958382dd972db47f16fee1cf47f"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_008",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #08]</b> Public transport in this city is becoming more ______ and modern. (RELY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "reliables",
+        "is reliableing",
+        "to reliable",
+        "reliable"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "reliable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau 'more' và song hành với 'modern' cần tính từ: rely → reliable (đáng tin cậy).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "5180f412c0967e90",
+      "answer_hash": "d0e002be0cda68e312744ecb0adc8638a0b072608ea127040f3ee5f0034cf375",
+      "solution_iv": "249c70d983f027ca7c38da1f",
+      "solution_cipher": "86dc310235b56960cf7e30360ee89641717bf2d7cbc24c582272f8cdd48ee7ea63e26bba9e20b3e6e281260119c1b0ece3daced679ee529373ef21590bf6a3afd73ffbc535a95068036259a5ba6fc6617a2a7663476c8af4ca110301a9e5e6084ceb889c106a82b9b84e2c619eafff924fb9b5c9a752a8e28afab3f0f417758f425a0bb643dac964d7546fda2762af3912923566a127d020a6a05c010c2a5c38f59a1933d2f48a07fbf91379a1fe08f9284daf8ab78cc0032b3a6d85c386fe3deb9427136c0ea0721a38ba"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_009",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #09]</b> If you want to maintain good ______, you should sleep 8 hours a day. (HEALTHY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to health",
+        "health",
+        "healths",
+        "is healthing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "health"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau tính từ 'good' cần danh từ: healthy → health.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "eecb39879d1b117a",
+      "answer_hash": "685797d375442c10d2442f3b0aedc698ca4857508aa6f861101da79751d6a94b",
+      "solution_iv": "a7bd98e3067d39ad99fe61f3",
+      "solution_cipher": "c5c9c90567c0f64f27d81c1c067148d98bdf12cd516a86646c9ddec456ea758850da788692ff8790878e04c5bc5a834acc51565e478aa746ba5399fa33c7c5bf89acbc80fe771f7460f2b300fd7954901ee9af1d323c877eeb6f532f29ec6ff94a4153776448841cdfbe2f2f2a0426b7f0a630920ddc06f28726f9e54d434bc80e4022d24add06ceda4b8e682e14ced16b1ea0f8309a8494959704d274d491f784bcac"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_010",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #10]</b> She felt ______ because she could not solve the maths problem. (HELP)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to helpless",
+        "helpless",
+        "helples",
+        "is helplessing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "helpless"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy tính từ -ful vs -less: không giải được bài nên cảm thấy bất lực (helpless).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "314da257c45e5be0",
+      "answer_hash": "6b4c449e808157bea3dcdc03305d8553379ee6a71da316734739c7cdc3bf0dec",
+      "solution_iv": "aca28dca51ce2fa14a76e5de",
+      "solution_cipher": "caaf4639df71862c7727747277295a95e58215d2fc18c2d6b406a2380fcd9f3e3d6160533eb95fce0e5666b08c53a90666207ae0afb9a026536d46e213044957b30e7dc2713405d71db3215e73111c420d03cf09f4d570cb47a195f9aa67aca801ac106fa7e42cfc2f0c39b7d08dbd335141d9c2d5e8a8c86adbc234b15973555969ad7d5facf377bcb8ffe942eaca3cd86f5f0d56587b4321301bc36653b4924432d5cd218e7b699e81a2180542810f7cd8d3c6fa05b13b2735f7828b9a2e035f2c8702fc60a250dfa398283e9514da"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_011",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #11]</b> The local government is trying to preserve ______ heritage. (CULTURE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to cultural",
+        "cultural",
+        "culturals",
+        "is culturaling"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "cultural"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'heritage' cần tính từ: culture → cultural.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "6c4f1cf4b5004090",
+      "answer_hash": "2a16c24c19a027d2521fcc6f6769f59b8a4dba0195499395dda319e83dd86d0d",
+      "solution_iv": "5b0022ea420c7f8a3ae44f5f",
+      "solution_cipher": "27f64aea2f0536f563fbb5bc460a18a82a9baf31ee2bf9ac9656b76a8d034336b1465c31bb5f933c4d8c32266e3bda2bedb63c4ed71205317c13a79351790f71248dae692ef529963842a8c336c8bd5bdfe305ef108b56f0c458b0c4f20bd6eb5b6e79287f73601d7363c477eb49a2fb8b72ad79605797041e0272887ad3a01890598d52b364963dbaf1f00f2222cd88cbc25b24f0e3d9633d82df7f65fdfeb8cb5d7d1d4175e50049c7ec8ada2d7d9c"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_012",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #12]</b> Bat Trang is one of the most famous ______ craft villages in Ha Noi. (TRADITION)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is traditionaling",
+        "to traditional",
+        "traditional",
+        "traditionals"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "traditional"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước cụm danh từ 'craft villages' cần tính từ: tradition → traditional.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "e9abb8ae08df5330",
+      "answer_hash": "0a18438bed7aa0dfa1be3d1be964c2e291e1436a89f575f898c0a3c81fe50b16",
+      "solution_iv": "5df8b6ff9b69c42839eb497a",
+      "solution_cipher": "2bce0b91f9a655d0cd4b3e5d13c5bdd8110a37d3e8365b28094ae83f3f9db5f6a100c0efc576889cfa4b11162536932e9e187c49402cc3622a022a89aeb79d26737dd8320608ab46be4bf215ee8b5640dc2f04514430f2c9da85a34f6494e3365a2e7d119f160420bfbf9e5ae986ce9c1b49c559db0f499d827b50888fea74320e058208ce58260bbae4c5032e236d356ccfbdbe07ebb4649ed22d08fa936aef7e728f73e783c1fa5b35dca3afdc3c1a93b16453e54ade1bbd0a58b5e6e27d57d5e2359a"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_013",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #13]</b> The artisans in my village are very ______ and skilful. (CREATE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is creativeing",
+        "to creative",
+        "creative",
+        "creatives"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "creative"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau to be 'are very' và song hành với tính từ 'skilful': create → creative.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "1e78d46408cfded5",
+      "answer_hash": "a2607161f0aa78baebb26cc93eab4222d69be1ff0c0709833b46a2e163c62767",
+      "solution_iv": "1b9d30677942df4858cd0598",
+      "solution_cipher": "1e2f7c7261f9a2bcee6bb2ac0b6461136bb8c8d40a2cd6acd9d686b5a51f80e922da3249af5d52fc61dc129ef5ad8075ae627db6f47ea5a0f1a06850d23c99bb6fce32a3cc36de5d4c6cc6fae0e5f0dc5129d57d11f37b1cddba2c09a0fd1707a0f58e8e7860c0aa83ede803e8ca5a78ebb96c34d89f7253ab50d8972934202e60b56119a83b5829b8a25bed5df8bd93e48cdae9830cdba983fe7ab663c52de8caae456016da1d27f9ea4c7855d84ad28711dd5f1e73a9a64abad317fb15e8"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_014",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #14]</b> Living in a big city has some ______, such as traffic jams and noise. (ADVANTAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to disadvantag",
+        "disadvantages",
+        "disadvantag",
+        "is disadvantaging"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "disadvantages"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy từ trái nghĩa theo ngữ cảnh (traffic jams, noise): advantage → disadvantages.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "2c4fbc1571251241",
+      "answer_hash": "47b49614be2309c18393fd0e15b0f3f8d1190a41a80746bc5dbeed9861ee0865",
+      "solution_iv": "e956cc7da7992b81660bf368",
+      "solution_cipher": "d6e27f1b4958861ba25c97c32b0d02c1ba9c3bb7494e80dd48a395cbba9c5c980f908770832612fc6fc192b32bea0c9b0db33dd306a4b1e3cac11c98692698c9f1b86eaf9648d3bdafb42c212f66684e1a6b26c88ad663e2e739abdc7734e2e2fdc6841ed52824cabdde1a1f4e062fd419638e83fa562e38f787a332a5ba1571b805d94e73ed60c249bfe1ff3fda9880c9c6f33a0528a1effa6d7c58aec34b2f0ed8b7144e1327a4fddbe5ac22a868ce7b8ab6e7fd1f2503cabf4641af8fa2feca7a3ea12dd30205cee32dceef"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_015",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #15]</b> Air ______ is a serious problem in many modern megacities. (POLLUTE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is pollutioning",
+        "to pollution",
+        "pollution",
+        "pollutions"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "pollution"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cụm danh từ 'Air pollution' (ô nhiễm không khí) làm chủ ngữ.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "b2d673d34c8a072e",
+      "answer_hash": "a45cf36c15807b28f16b91fb3db27668a26aed94627586026c7e622d5f98e0a7",
+      "solution_iv": "00469684ed1445626f3994ef",
+      "solution_cipher": "1a66f86782e5b29b7cfd5b39dba97acd2f7d65575c771dc4084ae718279719945cd6080ab4a2696e130e8c3ae9727a95bce1613468e31d15614b77ad1c7db748d7af59026677db2d50fcd6721c6e7d57a1de13a63f540aaa87e13bb184f4abcd5b04b411c6c54ba3223de5502c6c131de23caa3c1b6ce40ff662fdb476ca3302a9111d2023e1d3039dd110fd70d914e5863b06371ff19a7b0120b6bf57f401b967567a45b1b2ff4cee595120d482a899be6731d9a843"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_016",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #16]</b> Teenagers should learn how to manage their time ______ to avoid stress. (EFFECT)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is effectivelying",
+        "to effectively",
+        "effectively",
+        "effectivelys"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "effectively"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bổ nghĩa cho động từ 'manage' cần trạng từ: effect → effectively.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "f09da57eaa89d47d",
+      "answer_hash": "98c43268882c9c3cd479becc9959f1d1e3380729c7da3d6d77cc83361f5a0a78",
+      "solution_iv": "8bd09c4a40ec472e109e5aba",
+      "solution_cipher": "a7548ed699e16330f0756f5d5f30de300ffa0126ebfab1a8ae56877342e90fe5636bf2aabbec61337bcd2e0f6d2f16c11372fde9e71dcd97163a415056598543a5bc55d55669903660e07a8f6cf696f110d41691b7e4e67276d2ee330260ea510e70e1dcc61fe045b55d92f18b6bf541549625bc2e0394a3a881821481cc35ba0b798d31167d361b6a5a0aac09ffbed31381e0d1bee850d91b3ac8e90c39ae380a023c5ee3feea33a6703ba6646398e91db1032f84fd7c5f157c1b919b5c1f"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_017",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #17]</b> My parents always ______ me to pursue my own hobbies. (COURAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "encourages",
+        "is encourageing",
+        "to encourage",
+        "encourage"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "encourage"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cấu trúc encourage somebody to V (khuyến khích ai làm gì).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "fd6a809068945ac1",
+      "answer_hash": "fd975b409e87370246a440f77f1ad477c80cc3da76a51c75c28e687b2e692993",
+      "solution_iv": "0d14658f2dca36de3ef0c807",
+      "solution_cipher": "4e5da35e9931935553777601f1983488dbf177aae30d26304afe42a21a929c91adb59ba7f8ec84ddded172cee2c298727e2469b202f585a7d654bb29009d45f3245eb9aaea05ffdc95db84d2de4c215d12425d03edd220239bf05ff65a784bac92f1cec2f09bed4275e975b2e84d0690e3268276b1aeb486cdc172f3a20a7d5cadc0089900dcb639dc2c694673bd540c1164cb50c3f25d6df72c01eb8331a659a225a6d3a2487059fdd588d634b8"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_018",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #18]</b> This conical hat is a ______ reminder of our trip to Hue. (MEMORY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "memorable",
+        "memorables",
+        "is memorableing",
+        "to memorable"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "memorable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'reminder' cần tính từ: memory → memorable (đáng nhớ).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "e70cc942fdbfe7a1",
+      "answer_hash": "bad0f4d9f95bebf6c94dfe41d14b8facb610d4d226f0dab92469447c56927a7a",
+      "solution_iv": "a3b21c5bb7d210abae416d83",
+      "solution_cipher": "ec9cef548c673f05fb9987b8067b7ddd2c4651ae09a2f80a45bea26ffffb8c3374956ebb209e5d648dd8d3c2466e72572cd02ebe2b6071dd9cbf635120f84754bf22f6df8199bbd152b4939b138352b4577df16c5bc13c614e679acf1bc2430bf269bd220890d5207fe5b2ed199a61a7810dbe9fdab6b157e5b8abc5c96c28519f5376a1f6c0a1bb19c73d6d9dc5b09982e438626a36389343bb29b95ba51c9804bcf7b0c6a083014224d74a93c1f2003d8fe5dac1548ac4a5a6b8786ebc3d5c"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_019",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #19]</b> Public transport in this city is becoming more ______ and modern. (RELY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is reliableing",
+        "to reliable",
+        "reliable",
+        "reliables"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "reliable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau 'more' và song hành với 'modern' cần tính từ: rely → reliable (đáng tin cậy).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "45293bbe336ecaa8",
+      "answer_hash": "b94b87c3863eb25df0ebb2ea8299362b299568af97a70f9726f846215683e91b",
+      "solution_iv": "43c1c48c21859e1eb2675b90",
+      "solution_cipher": "a2e731ee50666714ce0cb8be1b57cb025f1b6aa89f93e1cd5a1ef41a67215e8cc8b1548b706788ffb85833f67b40656d99388ee0c62123262a9ec17d38020ff754c902398e6d06155c67f1e4a5d9ef6df67dd8987d78bd3cfe2063cc1658a6171759d7744a21debcee4e5793970867a22b02f5fbb937cacb06de945bd081e251db3738360db36c96de540c3534d387947f2b8da992cb881bae25c11247873b9b158f1dd205780add39ace7a10edbf90b56c558abc253d60ddc78d662ad36bd6fcf6a5f5b6d7d02f243c200"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_020",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #20]</b> If you want to maintain good ______, you should sleep 8 hours a day. (HEALTHY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "health",
+        "healths",
+        "is healthing",
+        "to health"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "health"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau tính từ 'good' cần danh từ: healthy → health.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "6b6a4000f31d0468",
+      "answer_hash": "18e8d66cc7d0f64978c739979836f7df8f5b1f1f2326c736e70bdba86f47644e",
+      "solution_iv": "efdd4c8dfb4cc61245280033",
+      "solution_cipher": "b91bebe471a9d8d740722fb2fe6d49b184c32d8ca8b2325f6b8caeb4cfb9de5da464ef55e5387e6b9fed8e7765ad3cec64376b21349d4f8d2c82b3d81d18b212ce3cbb07dee4bfd9d078be01b330160132d709db083f3e466dd33e7245713410f5c5ee567b12f7311c98d770b5cbb23d92516a856c34b5195e91bfcd97be0b9d70e613ba3c2fcab1640580a6e17699bed3d63a2014f40c1126e7494dcb90e3faf2a695"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_021",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #21]</b> She felt ______ because she could not solve the maths problem. (HELP)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to helpless",
+        "helpless",
+        "helples",
+        "is helplessing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "helpless"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy tính từ -ful vs -less: không giải được bài nên cảm thấy bất lực (helpless).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "804c496b823ba5d8",
+      "answer_hash": "14f2b641395dd55eb6602a68f97289a3b1fce2348388170ec9ad543d253c1bf8",
+      "solution_iv": "dcd8c58c9b1d02c7cb7613ae",
+      "solution_cipher": "d598d30172910b381f3acb37cc2177f56213a11aa180e297c5bd02085d0aaca9f917a63f004814c772d8b5ec83b6ca10758c1204029be71116acf2b61b2d7f3f6efa2952fd7a4337ef25ea58fb791f95e8448b0dcfb04cf33ea00966791713d705ab7b5d3a721168c0f2db1ac3c6d3664dbe26789827a96dc6cbf6390af22f29cc2290fbb3bb454d9fe8fdb9b7abd380a5ad1c8c3f6c5265580f70b6f71379f3fa826188bde3e1efb3fa21ab0a5f8c94263973bf763972352b26a5204ed7cf7f76e9b3bfd8f1d0d18ad7c179205ebf72"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_022",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #22]</b> The local government is trying to preserve ______ heritage. (CULTURE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to cultural",
+        "cultural",
+        "culturals",
+        "is culturaling"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "cultural"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'heritage' cần tính từ: culture → cultural.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "05cb555164bd282c",
+      "answer_hash": "34ab6dfc184f55c35e801bace12b01fb56e7b1ddf4791e19471ac15631e03d76",
+      "solution_iv": "7dbc3150c364cd4d5f8df853",
+      "solution_cipher": "d2cec416e336c7eb44f2a7eabad23f2573c95d0f3dc9589cfc85fa1fe651bee297b2a524d68751aee58a880fa28d544a13f9cde1adf4a344f961a47ae931ab5bdbf71e10f50a731d3399e0f7a43b39c41f9120342ee4446b1519b24303a336cf6654683198eee006997d8257591d808a23b0ccb13cb15f6a64d735a89746f37f875dd4cfa99a50cbfdd877d18f586dfddd3d8ee014c007d21626586fd2d9a265f742970520091536ab6bf7bfc0817800"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_023",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #23]</b> Bat Trang is one of the most famous ______ craft villages in Ha Noi. (TRADITION)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is traditionaling",
+        "to traditional",
+        "traditional",
+        "traditionals"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "traditional"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước cụm danh từ 'craft villages' cần tính từ: tradition → traditional.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "ddd2c52f68c6263b",
+      "answer_hash": "186fc7d760c75c3ade66caf9bee5ad778ede04c857fd84f0776888f13a0f5c12",
+      "solution_iv": "1570ff20ce3c9a5bfb5368be",
+      "solution_cipher": "74581d90d2a8b174f0f6f4f48037fcf23f0a63dcbe971d181598d90e00354f51c5c7e16e19c0444cddc77092a45a1fe7c2aa02d53198b3467d2349a4b2c328deff818854d479dba772d593bbf0c93af0a3c9c965441f189241a61a27edef19a92ed945110f556e016ae640cbf9b986867a2c0f933c2a6b1da42eaa268ce9f18e2e43729bc7ef8066ec2ee08a673db4f60c0d3ced4ef274513b79ed0ecb4aa8a8a6c90ee080fc55617c88ecb973668e8c0751ee9e5120ad3e971adb0787e16d8278aaf773"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_024",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #24]</b> The artisans in my village are very ______ and skilful. (CREATE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is creativeing",
+        "to creative",
+        "creative",
+        "creatives"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "creative"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau to be 'are very' và song hành với tính từ 'skilful': create → creative.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "c501f83c8cd9072d",
+      "answer_hash": "15ad044c7fb1c923c6ad5f41fe7a35ced594ccb6ace47158ad423e6edfe5fd86",
+      "solution_iv": "0e9e04bd72692350471dc9c9",
+      "solution_cipher": "28c9763d22d747ca4deaa45f0092ca627f76bf18b0222d2bba943bd4417dd3d68f974489ca5fe08dd43653839866a37585153f4fc8be91107c4e775497b4bd9d3c7909599b3e3f6d37cc050dc7f1f8923f1988b9f39af30fd9a8eb19c17fc884239ce7d1a605b8a2acc4533a59f0bf6451ad00ea0e0fe5f7a5bedb7d32516752a9adb5e1adcdbe24c58944903887803f79b2ab654341e1f1890643cc99f817ed9433bcb44c422ef99c441a38293538b88dcb894ea909e5e9ab1702c5450d5a"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_025",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #25]</b> Living in a big city has some ______, such as traffic jams and noise. (ADVANTAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to disadvantag",
+        "disadvantages",
+        "disadvantag",
+        "is disadvantaging"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "disadvantages"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy từ trái nghĩa theo ngữ cảnh (traffic jams, noise): advantage → disadvantages.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "13547cb0d9e2c898",
+      "answer_hash": "d39f52cd6175b355a3c4424dc013cacf2f9131f72ea77011fa5b3871938f08f3",
+      "solution_iv": "27d1777cde10a1f9a50b9041",
+      "solution_cipher": "99eb28b7afb5dab935b72ee63003c6c649aeadb16c4a9d8c08a0e20fb6a27f08a643335b0ef803115506d2e8156d2f503dcbec5435c50233b00a80a057c66768b35613b51fb9205711c5f0c7f904c603ce23ac84921e7fbe801d4835dd337f8d1c8aca9454e27f2224aeb16da7e3683a55bb0aaf5c65a822c90cc90f582ce0578afb62ce58ec2391231a88df17c3ccc18bc918bfa753dab3b75d8273f98d4690d6897ff970e204597724cf7e217b4b870bf66648786d853c79ca6b2ff9d1184c7fb485a8cacc5a7e30a939acd5"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_026",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #26]</b> Air ______ is a serious problem in many modern megacities. (POLLUTE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is pollutioning",
+        "to pollution",
+        "pollution",
+        "pollutions"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "pollution"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cụm danh từ 'Air pollution' (ô nhiễm không khí) làm chủ ngữ.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "e50ef7ccebf8ce96",
+      "answer_hash": "5b5c404f9984e3ff965c2ef34602d2846a4c02bbf384172c39ea0f31f0030bea",
+      "solution_iv": "43e335aae6574ce76a0b5bfd",
+      "solution_cipher": "fbead5d62756495018f853772dc72fc1121343e877a42ee7c4b46c68a8afc326d2296c8e9ab74af3a51aa2cd143cff5bb8f301de6e6d04fdadfd2fd0594039fa4570fdf373830c0e233d6b57c64b9a21ffc30130bfecad130ebcf164c8f6e78059bd3c87f434106559213c21a997cf5bea46b5456069f5aaa3cfb665f7aa0bf19a1a29e7c36c753d26d3b3ae1e05d0ce4c9ba121eeb2cc8e7b6f8d09cc48f9983e3a8a914de87a4cecb337d7f645ff7ce3bb130affa7"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_027",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #27]</b> Teenagers should learn how to manage their time ______ to avoid stress. (EFFECT)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is effectivelying",
+        "to effectively",
+        "effectively",
+        "effectivelys"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "effectively"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bổ nghĩa cho động từ 'manage' cần trạng từ: effect → effectively.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "004e7f760c7f787d",
+      "answer_hash": "80f6b1f1a3442255f89405dda07e7f023b99d601a6ade931b1080afa2dbb96fb",
+      "solution_iv": "60e6fc3cf65e85fc057349a4",
+      "solution_cipher": "fcee0c8e95621e8a408c462c14f2101383e9463978f082b01129cc0250b43c35920899de9b285ee6f78696493bad07fa5312afb82470aceac7b3c4b04e8dd4cb1fce5768de74c1e80b812ac11608037994cc9312b35acef58b5618c52e4de9250a2313b8a22ae00766570011df86fb753abfba68b91c69cd19e2690e281d4a660ef2ad4f1042aae13303522c4419150d57d7c90bfa5955e333d995c30cb99b4a794fa1193e18b8a4426a8507f1a1a147ba874938656f5b8660ba517a9f3cb8"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_028",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #28]</b> My parents always ______ me to pursue my own hobbies. (COURAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "encourages",
+        "is encourageing",
+        "to encourage",
+        "encourage"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "encourage"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cấu trúc encourage somebody to V (khuyến khích ai làm gì).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "f218ff871f7bd40c",
+      "answer_hash": "5fd959061aa085f07961b40b03102df8616be0454d5e96dc99c22605e7dedbac",
+      "solution_iv": "5225fc2221a68ad39177c1e4",
+      "solution_cipher": "2c6310a858ac091b7b31b3ad513e6d9894c05e362889a0e6e897b26952a6c8c868ac0274d1883691fb6ec5b77f905458ac86e11d71701d47073e83b5f287810fa4fa1538153cf272075da56be88379e898b7cb7276c01c5ba77e0a59aa896fbb173e737010cab2eee98d7cde6812ec3ae1b8417b240080fa30b514ee2ce7265ce49727402935b96223898bd74afc5f59fd1b3161de0ba239d78b7209c66374e9539428425e467a2feec538dfa40c"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_029",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #29]</b> This conical hat is a ______ reminder of our trip to Hue. (MEMORY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "memorable",
+        "memorables",
+        "is memorableing",
+        "to memorable"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "memorable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'reminder' cần tính từ: memory → memorable (đáng nhớ).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "c981ca990c6e7f3b",
+      "answer_hash": "9ad1c6dcc9a6e1641c40e5220d4f7e99c877579947665fe88304526a8b8586fb",
+      "solution_iv": "9690c396832dd0127f894c40",
+      "solution_cipher": "97d6a45a0dc26f29385370d3e7229aa14c3df759fcbd507e0b73fcd8ccffe85ea7a776d2440e25009cc6f1271196e40cf4683b769cd0513d8c1e8deadb21dc1ffbb7bf9944f9405eac54d1df412b34acfecf9594fa270922373b31d6d210b6ff74ffd600bb6764d256f8fed606da75a563ebab10d48048f94417f2cef2c52b79a8730a98fd6e3f8b2a9da529db7e33c618cc109fba72524133605a836479455af8e16a8892d0789197cbfefe004eeac815fc2893583a268c8e46afb880dba8f1"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_030",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #30]</b> Public transport in this city is becoming more ______ and modern. (RELY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is reliableing",
+        "to reliable",
+        "reliable",
+        "reliables"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "reliable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau 'more' và song hành với 'modern' cần tính từ: rely → reliable (đáng tin cậy).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "2ce919af4621b3cb",
+      "answer_hash": "4aaca62d9649501eaf65835863d157bdc3d12b6d749e608686304866efd035cd",
+      "solution_iv": "11af01f46c3f02c7b109cc0e",
+      "solution_cipher": "91df0ae75ccc42836bbee1776059d00ca5da08c6ea17ec19a0ea143a0790363b8d0d2f5c37c16af7cb10eb4aa167e46d2b4b908f3eb52e1c9fbc459a003a9bd7139b04fdd627d5ee0b576d482db60562f81071118d90c5a921522bef03326d19e0240b9f98202388f854cc449d425a228ce05c948f67fd72d42d46a3ff659cf4c23bb7ab5de08ad1b8f863945cb91a0099bc48d67306ba95a246ddc2b592876e843faacb7ed25b271b11f070ed8f991ec770a51ef7f136fa928e6b4785bc98795a8f8452373869324e7668"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_031",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #31]</b> If you want to maintain good ______, you should sleep 8 hours a day. (HEALTHY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "health",
+        "healths",
+        "is healthing",
+        "to health"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "health"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau tính từ 'good' cần danh từ: healthy → health.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "74ba43b7fa28fe23",
+      "answer_hash": "c691823889a03a2ee953c6ffbad7fec1e33d89d5fccf6dabaf91d62e14a40004",
+      "solution_iv": "ec3622565c3639101c3263b8",
+      "solution_cipher": "ae201f5dd46e46b78624ccf0ddff3f6637524c30b245e34b14cdc5ca06355a96d24dad4d248a629fcdb9ce1aeb760bad360cb727f11bcfb2f65c643a6648f713b69391393b3cc352812309bf275894f1b1f059ec26048b160b353c8bff3846d30d619b2d238e4eeccb7d8df56cf86e323c86ba65926a006e905ebe336fb6ce13aa2ba517d94915b85ac43e8007c552b92a1bfcdf72688beecaae047dba25af37f3bd08"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_032",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #32]</b> She felt ______ because she could not solve the maths problem. (HELP)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to helpless",
+        "helpless",
+        "helples",
+        "is helplessing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "helpless"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy tính từ -ful vs -less: không giải được bài nên cảm thấy bất lực (helpless).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "f843e5a70b3bc4f0",
+      "answer_hash": "4eb7db1fed563d2dc3228aaddd5f794c97dd0336522ff8f5d643551ae53dafdd",
+      "solution_iv": "37cfde389d60e105c9c220d2",
+      "solution_cipher": "669d3c65c17c77a8fd6044bb0c7d24ac7b5162a3d20be781e35ed47c74d318274a526557cd53f35253712d5f93e77c93681ce2c633acffa46687c54c1f0d8bf4dfae85cbcc7b222684922b54e371411378f3b7236fab5c658a03f00e977211ead8657ff6a60be501703753750f844ce167bfb8b8c1f51ff86ac1d1a94eed887e13efd381cfd2c8ebdebae4bff792ed35b6516d17bb381dbcce3579c6a26e098e79109385bd177e2f1353cd80cc3fc0176022b19fa4689850b578833458d11eb3b0c1cc272b6d61edc809158503c2de46"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_033",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #33]</b> The local government is trying to preserve ______ heritage. (CULTURE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to cultural",
+        "cultural",
+        "culturals",
+        "is culturaling"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "cultural"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'heritage' cần tính từ: culture → cultural.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "20eb231909a68472",
+      "answer_hash": "c94d17d8604aad59646f86bac957ac58c1c2421a31a29428c19254a735192254",
+      "solution_iv": "d666e105819a61060625610d",
+      "solution_cipher": "3de3e66fceee6ab84a87ded6ab76da14bd87ada85f198e8df925261673fedf9a8b322cae59c64aafb32ee03afabcc2262aa8451c7a86ffbf545f6f892953c4198102cc29eb364cca36492870c7020513aaaabf6023a95538c8a5e9b91dc000a6a45132b88300cd849182e24200d22af6e6fab52bb7bece96704d4eac0f01e849f4000afd8b742947c080ada937d911fbcfdbd0754abc37f9549f681171dbed7fdccbf2495117f15b2d2b7bbfcebf1cc5"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_034",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #34]</b> Bat Trang is one of the most famous ______ craft villages in Ha Noi. (TRADITION)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is traditionaling",
+        "to traditional",
+        "traditional",
+        "traditionals"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "traditional"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước cụm danh từ 'craft villages' cần tính từ: tradition → traditional.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "001f157dbb8c4fd5",
+      "answer_hash": "c138186f87e22f8781c0053dc5e086c5f2de55aab8d0efc182f089f12177e33f",
+      "solution_iv": "2ee8a3cb900e44ffc09d2063",
+      "solution_cipher": "8382f907faade8e64a4dfba10cd84349076748185639d9bc25a0fed95a7ebaff307d54499982f1780fbd70a0b0e7905441721dc816a1e0360a0943e5d7410fb3af4aa3d27797620b255cb2e9278bdefcee17e8b3148e62eaa65c4c3c3ef1f22f1acc2eb9d471374a8a94fa006c559902ada95cc5dea31af25fb0596a7b0d17d72c5e09eb9c67c4ead4cb40fcfedc017d737a6d7eaf9fa2b928cc6f4447e28d135fd8d2afe780516430555a199e0a0f7b8928b1cb452f452a2f1fd9cc71299cf8a9071c61"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_035",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #35]</b> The artisans in my village are very ______ and skilful. (CREATE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is creativeing",
+        "to creative",
+        "creative",
+        "creatives"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "creative"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau to be 'are very' và song hành với tính từ 'skilful': create → creative.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "437a78cc40de47ba",
+      "answer_hash": "399e5184648b091b3968d31a29849fca7d4f7b778e78dfa6ae4f4f8611a76195",
+      "solution_iv": "6e5566d6609f340e5ef37454",
+      "solution_cipher": "29966d57058f65ea5ffb8ee2729732eb189ca41e2f55dce93fe93d879de79dda0771da6c3be658add8b53506fe0cb03098c90761d62525923faa95cd9fe7bc2a8a17f6072138ec1c3865f70b7fdce834e978f76ae7d21e1990c39d59626949835c439d39112919832a49987d2d088b5f25969c092409f1c0a884e61b5eab97d1bca8c6eeba50b0868fdd75ad85b834975fa6e2a0f9aa9e6ac1e0d19416b6d800a32d89207a90a93b558203fa3755ff69349130a8254304cdf5b8a3d46632a6"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_036",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #36]</b> Living in a big city has some ______, such as traffic jams and noise. (ADVANTAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to disadvantag",
+        "disadvantages",
+        "disadvantag",
+        "is disadvantaging"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "disadvantages"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy từ trái nghĩa theo ngữ cảnh (traffic jams, noise): advantage → disadvantages.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "be4bc744cba3a7d6",
+      "answer_hash": "0d84da507ab451e3c12365519ae0d22f866b2f4c2116f75019a13898b2c18aa3",
+      "solution_iv": "b68a5fe2172695f58abe27e6",
+      "solution_cipher": "140743d4e6f389e06689d1e031695bf80fed0d8c2f2f1c271491dacc087a7e9224059e56c2e5666564d0a1ae52b348f1c3df50acb497b2b2b5b3ce0105e8c67f171e5b8c78f5f483999b74b9e5fc6d918dd757c574a6d386d60fbf14f30f574ac4a14c294de12016c3445c052f55403df3ef670691f10c732c5972f4cda40f0c62d10e9f5088e8a2cf60c9cbd400985eddb2a4251408325288e2101e514380acf2b09b327bc582b4a571356316ca0f0b706e95b5b41f1042c7a6236427c7a1eec8f9079e8ad017ba2b5fd6edf9"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_037",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #37]</b> Air ______ is a serious problem in many modern megacities. (POLLUTE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is pollutioning",
+        "to pollution",
+        "pollution",
+        "pollutions"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "pollution"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cụm danh từ 'Air pollution' (ô nhiễm không khí) làm chủ ngữ.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "e243fcceeb5b4aff",
+      "answer_hash": "ddf2cbff0be0a84a8ad1c963135c4ae898459dee1fa4e6dafad3dc26c758533b",
+      "solution_iv": "2e218e6d9f9df90955f63846",
+      "solution_cipher": "b4df9483e0092264073263fb36e5db0d3b93f47e571ba18efff7deafc3dc7205eebd5831c3e8ad5bea294b7990ee5773cce5a4eb0046435e7eb01ce30728a29d2884e56c6de87157f2013a073ddc32763962da4c2b7a77eff21685e04a3e3390150d132a4fa98a5e04e77db0c88c733911c9b5486f8f6e5c1945ea4f1b894c1a709608d275d06b99701976f13976e2eb726ef6a9414493dba9342f6771f186f7c756632691cc361a0e46b2378573cb503ec639fd6ba3"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_038",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #38]</b> Teenagers should learn how to manage their time ______ to avoid stress. (EFFECT)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is effectivelying",
+        "to effectively",
+        "effectively",
+        "effectivelys"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "effectively"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bổ nghĩa cho động từ 'manage' cần trạng từ: effect → effectively.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "5793a5552c96681f",
+      "answer_hash": "1e70dc90921dbea309c8714494828ba30e6fa0c1105274b3385978b627967293",
+      "solution_iv": "a4a28ff50dbb8cabc29e39dc",
+      "solution_cipher": "d5463e5c1e7b90fb7344fb98dd61bb8bd695c74687128bb14b52fb7a228b44fc174cbc2d33c216f5d26adbaac707ef644ccdadf2808441a1c2aae8e1356769d9db2bf45511aa6330c309683ba9ca0def720e311b19198b1acaa2901387c732e1149c0569250b6209ac18a396722d468165975a79cdc344247ce050a34b1bcd0970ef767fa285c4e39e8123576d99741b3f00167cbae214f9ac61ff28b09068b0bade331998fb1db973d9ae013dc7f59074180374a30c6fce2e1b3d6702e2bb"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_039",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #39]</b> My parents always ______ me to pursue my own hobbies. (COURAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "encourages",
+        "is encourageing",
+        "to encourage",
+        "encourage"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "encourage"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cấu trúc encourage somebody to V (khuyến khích ai làm gì).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "dff4be83a4128e8c",
+      "answer_hash": "62b1eb3418db8ca311f86dc7a104ef08f9b78a128b9eda4001e6f74fc1b3986f",
+      "solution_iv": "f609b50e5fbd77c0b5d7cfc4",
+      "solution_cipher": "86bd4c38eb10888f1c511382221c3290efe0e68643f5316dcf1f0c069f812d0c389ad187aaadb197e394cdda8411ea3a32f80b9ea53e572bed170a731cbcad2f490d6ec10d11f8cefeee896e291359cbdc1ea035ab38fa6850d7d4532bf03c4f5a8b726ba88aad841cc19ee456f976cc2563db0226cadb54c1ac0a06f57b8934901de0eec2986ffffb045cc6b2c1017a1aa27d3f42b3fb958a0974d41ebd8db3544ca5edd28d57d5fe43d50b523e"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_040",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #40]</b> This conical hat is a ______ reminder of our trip to Hue. (MEMORY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "memorable",
+        "memorables",
+        "is memorableing",
+        "to memorable"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "memorable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'reminder' cần tính từ: memory → memorable (đáng nhớ).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "45a47b5e92759022",
+      "answer_hash": "3991001f87de2af539f5bbaab0014e07358fb0731622608adc76e00c7a2bba9e",
+      "solution_iv": "efcd75af4362e2554560c8ee",
+      "solution_cipher": "068c4bc7bbe967daef5850bff8323735903151f9876e43eb7e002669aa579fbf149bf82f875336471d7d0e107c0bebee4c20cb6c7e3cd96f439357e22b96f63ce86cd403dd7ad69ee0149700262b994ee27d5ded1efda8ec3d1875819860dd03e6743a44f119b32d483f068114ba129eb2d18ead9021c9fd05395c1b82c003fc24b03ae5cb54bbe84624286ad3b530c66918d8e16e0e41f1cfaadb5d0695822caf2c9a62154f77b906d6c44a65d3893026f3979edd67c7c4293ed6af109abd1b"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_041",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #41]</b> Public transport in this city is becoming more ______ and modern. (RELY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is reliableing",
+        "to reliable",
+        "reliable",
+        "reliables"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "reliable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau 'more' và song hành với 'modern' cần tính từ: rely → reliable (đáng tin cậy).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "fefdc6ff531ef4b6",
+      "answer_hash": "14e34989115c4f74aaf5988e97cc27f653e931c992c612f838bec82df4701f04",
+      "solution_iv": "ae83a77d89ff73ea2f27d674",
+      "solution_cipher": "803543536f9de3d73ad11a148bc1687380c6ac8df7012c3584536eac1153ebf8a568f4164ce1d97bd1fb7fe9ceaca96ddc659b22820e5a1b77896218d57f3f3c94abb2dd7ed836d429698ff041549ef0e0d38e2b2d8a5af1ebccec070b54ee7227a6d2e72b4debe610d6bbe82c743d3ea52d693f06eb8b4f591aa1a67640aa98135a64d4bbebf8cccd77fb0d193ae10806c63f578b254c6bd3816b8a8a30bc44f5cb41d0b083d4bcbdbc96ea6ee2e0a9ec6106e151318f3264e44d55e8dfe13a7db1f57b3a760d745dc1d7"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_042",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #42]</b> If you want to maintain good ______, you should sleep 8 hours a day. (HEALTHY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "health",
+        "healths",
+        "is healthing",
+        "to health"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "health"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau tính từ 'good' cần danh từ: healthy → health.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "a4788a5a9864c408",
+      "answer_hash": "6bc0681ecad532f7f7014a664a618c34e880feac285a37ca871fb52a9dc386c6",
+      "solution_iv": "6f9ae3cd543dc2db05716825",
+      "solution_cipher": "f5e533c9041428b8ef9d1af5f47c957412ce66fe4225c0e792be32f6cccc12e6bcb642b712436249a8dfdf8b26e5f639e6ebb6d234deeb6bd3480aab393a565a7cd979891c9198003a9c02dca2591509dd93a225c07ccf698ad6b21b842d7ac30d4f9fd33844aae6e8c2ba7809209164a307316f86c2e713b7ca9339d2240b768af2aecdc9fdbd9165b8941fe22e1a2e7cf8d5dfbef1c83e0a98a022f76bfa56a5aec7"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_043",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #43]</b> She felt ______ because she could not solve the maths problem. (HELP)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to helpless",
+        "helpless",
+        "helples",
+        "is helplessing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "helpless"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy tính từ -ful vs -less: không giải được bài nên cảm thấy bất lực (helpless).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "ce9b5fbb14ad5082",
+      "answer_hash": "d7bb2b79a085febc195d6ee9e892dac7081fef85a494c40fd7fe2368bc1b31ce",
+      "solution_iv": "77edd80fe2b350f325896488",
+      "solution_cipher": "7f4083fe469028bd37e10a8dfa6a5f1694b48030aee3b0eddf22ed3406d58b1e23008016cdefac0e857a57034bbafd7e315d393ed3bf07e0530ef0b1d66486f04147ed6bb7c9e317dc49094d751964b9a0a00aa4f9e76150eed6ca827ca2b1dd1d4cf68cfd3cc6b6a81d10f93041bdc06be481da9f0daecd08325eb649529e95b4dfd4d780bb89400ea52b70454170dee1533f1c395a26e7c04036959e2646d90a5e93fe5602af70767e6e7a7def51838f6dd29a19ab58ad99d5e690f681ab9020796f753a2ee8bd848bdeb2bf9eb40e"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_044",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #44]</b> The local government is trying to preserve ______ heritage. (CULTURE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to cultural",
+        "cultural",
+        "culturals",
+        "is culturaling"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "cultural"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'heritage' cần tính từ: culture → cultural.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "cb874cb0b385b487",
+      "answer_hash": "4ed7335cd1b532c3da39789fe23caa79ed5b6abf67643a8f6c71be1710e7ff48",
+      "solution_iv": "e3ebda57f58933f61e60bc48",
+      "solution_cipher": "d2ddf3a15f3a490de71f5f7cb711d5c786cc5d378098ca71ac916cd6a45545b8a4cc0086d3236a7d22c22d34ec65ef0e3f4554bdd955e0bf625e0c6d27832ed1f4d3e141fde0f231fc79b3bf8f045ad22d97465f19def2c8217ffde624114a5fddcf4e97fa9f573335d8432a050f535226c7461e72983105a67f115f927fa8b23817c46c0c65a532bf39bdaff7b2244f9f1b06d0cdef1af0e4e36f5f5bd000181efab343d83c039581a1b15e90c43918"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_045",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #45]</b> Bat Trang is one of the most famous ______ craft villages in Ha Noi. (TRADITION)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is traditionaling",
+        "to traditional",
+        "traditional",
+        "traditionals"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "traditional"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước cụm danh từ 'craft villages' cần tính từ: tradition → traditional.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "ff28cb7523228dce",
+      "answer_hash": "344cb133a851218ac6969122ee2b7e65af4df5c7dfde06523af0750035fd40ad",
+      "solution_iv": "450e18f88499d1159fab47f6",
+      "solution_cipher": "da895fbe994c2433eaf2591c753c5777f2622294e34695db616a3977bced99b5a73b6db9770627fe21087522644ba81a9e6f37c4067dfd930b1bdf1f2741e5bf30c3dbbe242d1b2618780055cfefe527edeee1682c794ef2838b46338774f90f5a390f6036f3a0380cef90c18c169d2446ed8722e9e9b5d463e45905312890756aaf228d7d3472bbc7b1577ab0a931ba6a2bab679d843c08ed7e7f156b91469032908ca74a792d2e099e39960fe0693779c6dd3fbd48ee72d3a857ab6250f4786054cd94"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_046",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #46]</b> The artisans in my village are very ______ and skilful. (CREATE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is creativeing",
+        "to creative",
+        "creative",
+        "creatives"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "creative"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau to be 'are very' và song hành với tính từ 'skilful': create → creative.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "4f7df942c4046fe9",
+      "answer_hash": "3ab9f78f809535e71da25e1d576bcbf567073a777ed539385e3bedb54544d310",
+      "solution_iv": "b10a4cb32654b7a6d1df04bb",
+      "solution_cipher": "01c66d4978845f6a25c00e769cfa80e6723c4ee517066559a978a74d48a358114864c7f3f6ccfdc8db081f50cb16d17c684f526ca8e61ba44f0ae93e12566ff43c1af029289a0d683c8d15067a12082fc62c14a2abfdb6851838342fe544865e12acb741ef45948b4ef2cf99907d130cf15322ab5ee5ef56b794c5abdc5dd8099d69cf5057b4d563f6f7a34bc929b36744ea9a9f6049bf636361951e319cc1dd917d0896afd8e187c2d1b2f901e6216a275fcbb3478cfb49568ca04af74fdf"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_047",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #47]</b> Living in a big city has some ______, such as traffic jams and noise. (ADVANTAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to disadvantag",
+        "disadvantages",
+        "disadvantag",
+        "is disadvantaging"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "disadvantages"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy từ trái nghĩa theo ngữ cảnh (traffic jams, noise): advantage → disadvantages.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "7f46dd0c7edab8f6",
+      "answer_hash": "0b85e5ae414c9d2355c779c11a400046255cd06434604b010073a988cc41882c",
+      "solution_iv": "28ce5d0d26443b3bc8b2be27",
+      "solution_cipher": "e845503ea4805cb119510647655a8ad45659de9a575b649208751facf7663675756b45a110cc9d282b4233131d7a5ccf8d7ac27e0f81ba93edf7058255552da3d70117a128a9ef4c30aa51d35c16cf779fdfc147bd82d627d11f1a1fb88074cb26d614fc21f880d18ab1fc29e8fa2d2d9257281689772091faf09420fcbc89a2e878bd991d78824c42361eb1ac445646f1221c6b98c4228913b5b905942eba52c684ad5189b14b99b4fa434413a1b9faf34ddb355a1cf6366fb6b64cf7b8b0ec1d8d0dfa0d3863d70ce0b74d8a"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_048",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #48]</b> Air ______ is a serious problem in many modern megacities. (POLLUTE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is pollutioning",
+        "to pollution",
+        "pollution",
+        "pollutions"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "pollution"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cụm danh từ 'Air pollution' (ô nhiễm không khí) làm chủ ngữ.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "bd34aa89ce243df6",
+      "answer_hash": "5b2603b257de63637af6923c44e05f3d69a02f9de6f7c9bf4581f26ad4033e77",
+      "solution_iv": "7daf18b5a21191e6689853f7",
+      "solution_cipher": "bb626301646b2cc483fd6e719b2aa029ee0122e283d8bf68acfa276b4fcec7a3b1468c2b268cbec6d54f043aa841899a27aa3a141485beac7382877a207034749c80b482deb12bbb0da3c8f83889081dc02af85fbe2c6951b90f6b928a2f68f61c975dfeaa7ba49ee705948c16cbb6a2b731f2a5bed20b779772b73568e85eb2ca37393298049657834218d73bad3d3965625e70d1d1508de6f7c36274756327780b951d8dd39cac3c21360013098adc94f6eab71aa8"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_049",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #49]</b> Teenagers should learn how to manage their time ______ to avoid stress. (EFFECT)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is effectivelying",
+        "to effectively",
+        "effectively",
+        "effectivelys"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "effectively"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bổ nghĩa cho động từ 'manage' cần trạng từ: effect → effectively.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "fb4e5e16478def09",
+      "answer_hash": "c2574a19e4fe49fab88ae0269ca6b86ad3a11deed9f2fc30b8c1117d6c1758b4",
+      "solution_iv": "da2384fe39a36b5444cc64b7",
+      "solution_cipher": "eea97016f90bda97b43d5c0f3abfa9f9d57c4f7a1c9532eb05f800fd0b6a824a129be9f960ca23eea06c9eccc25b6b2b22a285e2aeb86d10cc0e17ebd607aa38a7b0916b95789e8a32b972a16a62cd8ee0b0414263493ec850562399ec7343976ea1ff44edefbf56b5c236d1594cb62c92136df3b3452790a71067881c55a8a9757d0811828be140c97160e2168dd6badfc1bfdc59f9eaeb448cffe51acbf98364fc4b48142014c48a0f449b733868545aca44b6e2bb3712da62e28f7e64d1"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_050",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #50]</b> My parents always ______ me to pursue my own hobbies. (COURAGE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "encourages",
+        "is encourageing",
+        "to encourage",
+        "encourage"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "encourage"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Cấu trúc encourage somebody to V (khuyến khích ai làm gì).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "72f96aa12401fb62",
+      "answer_hash": "1d57e8f48c42525508b898c1baaa1c28a297d241fb064189b0ed72d24c875972",
+      "solution_iv": "d3eb518a23db30423a6c4609",
+      "solution_cipher": "378453341a76649d149732e74e7595704311ca6537f06865ddc69fc184bd1fbf52f363b951e87160dc49e0147d0fb7ebe2ad88e778b7055ebc4064ca54fef768ff873d334dc03441ad01264cb169c608b8d36e207292d3ad2642be50e4406d6ad75923df5570ed227fdb479185cd646f387cecb396685c1c7a003fcc822fdca0cf2492ac9f3d7b4e15cbcf2f06a601497b69312038fbac74ac631ce1a3ee2f5f4ddcec26b3f78d323022b7ae04f3"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_051",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #51]</b> This conical hat is a ______ reminder of our trip to Hue. (MEMORY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "memorable",
+        "memorables",
+        "is memorableing",
+        "to memorable"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "memorable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'reminder' cần tính từ: memory → memorable (đáng nhớ).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "3318c6672befffad",
+      "answer_hash": "56104bdc01fc507d17111707afd6f28a946446babff623134beb34ce6722be14",
+      "solution_iv": "b09b80cfc7a5c5e9958d4f23",
+      "solution_cipher": "2246ef4261e613a0b69a5c9fc7133ea153b0bdb9d54f181b97508d9e189a19f9002049dcf75c6ea33861c3a990470216ffea14352da47e1cacd998c7cfafc5138c3620ee7387458a42a1d9c2b21493a6bb99353632065a7a99d90a3468ca6e3197ea457d3f57fe48229d8cbdacda3c1c5f2cb9555d96781ce53f50adb2b9eb679738ee96b86accdb8928567c309ae824d7b32844823aef61478531f251da175ec2f6cf500353a3190e49478d3ee98c09d31637d5fd6c77b8aafc1b17878bd2db"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_052",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #52]</b> Public transport in this city is becoming more ______ and modern. (RELY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is reliableing",
+        "to reliable",
+        "reliable",
+        "reliables"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "reliable"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau 'more' và song hành với 'modern' cần tính từ: rely → reliable (đáng tin cậy).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "d100d27a2bd151f8",
+      "answer_hash": "ca2c4f61d6531882b738ec54e3cd27377b4e4ea1d5d3bc3d0fe4b1362a3d837b",
+      "solution_iv": "9fa2551fb92a07e72a629d4c",
+      "solution_cipher": "3141156ee7c1867b39ee0d313e9877c5331e2f7f886bec31f05f93c817b9d9040e463695f2c5cf5010ec64de82b977812e67969ba42a3827eab4b06f12f0e0730a4d3070b6affd72a1bd730b42d80c023e51706f4f85bf0899037414a036b226b38800c0b0ff4f0db9efc7d626717167d25fe3e5ec907f93d766abd048638d54530f22fee46859fc152677e1b74b27fa375f0967657a05acf19116276be20f7c40bfce6877081d93e26c135ac81ecbbf3158e2535c9f2f6b7662ef0fc92ccea44a245d6b3e3bb65b463cb4"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_053",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #53]</b> If you want to maintain good ______, you should sleep 8 hours a day. (HEALTHY)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "health",
+        "healths",
+        "is healthing",
+        "to health"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "health"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Sau tính từ 'good' cần danh từ: healthy → health.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "3a84a02a7295cad7",
+      "answer_hash": "9d5a6f339e0610ba4dbf8980ae30066c1301b1f842a3ba5a0cb3b3d0d4d3e9bb",
+      "solution_iv": "e0986217a1e2b94102ec76a3",
+      "solution_cipher": "f348504c9233308de35cebe87b353490949898e99fe8b6dc8c4245cf0c519232bb3e64247ed39598c3927997444108141f0266c4fd01661677f53cc8ca2266142cff963ec851fc90bd6039ade9a66bf5623e0717f47cdc8459ea0378be34fc595f71b8aa0830715cf644bfdbd74ca06d398689b31ad3567133da7a5bbb28d352b09b4380a02296a6ff17b339010b80bc4e2a3d428dc275384ec450220406d4326fc755"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_054",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #54]</b> She felt ______ because she could not solve the maths problem. (HELP)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to helpless",
+        "helpless",
+        "helples",
+        "is helplessing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "helpless"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Bẫy tính từ -ful vs -less: không giải được bài nên cảm thấy bất lực (helpless).",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "110bdcb49f9f1b68",
+      "answer_hash": "1066237478d2372288395995c8f2deb40413a052691b1af9d7b0540287705e90",
+      "solution_iv": "2b948916951f300b10135c20",
+      "solution_cipher": "933374010a645fa94e5dd92cedcaeca105ed47ec0bc12fefeb2ed55cd08d346f1baacbc9bdad7aa9f4e242a99633dd8c8099df39903a301136071e64860779cd3db4169ee2c78bb6c2ce1f85d2dbb8a756a125028973460d6e4fe23d94cc65c9f0c292c6be9e42316e3d9d3dfdf5cac11916c4f61ab8f447f0f0975b904b95f3bb0d8a3bb3964056f7134b6af00b677acd6dd885619f32d8ef81a079334fa7c000949b4d6e7d2e038cc270d53713e5fb9441a65d003093c9fd9be1e8ace5e0205bd092f182c80a12c88ad02e8259838d"
+    },
+    {
+      "question_id": "Q_WS_G09_WORD_FORM_55_055",
+      "grade": 9,
+      "unit_id": "G09_U01",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "<b>[Word Form #55]</b> The local government is trying to preserve ______ heritage. (CULTURE)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to cultural",
+        "cultural",
+        "culturals",
+        "is culturaling"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "cultural"
+      ],
+      "signal_keywords": [
+        "un-",
+        "dis-",
+        "-tion",
+        "-ful",
+        "-less",
+        "-ly"
+      ],
+      "explanation_vi": "Trước danh từ 'heritage' cần tính từ: culture → cultural.",
+      "source_worksheet_id": "WS_G09_WORD_FORM_55",
+      "crypto_salt": "bd816eb804be83cd",
+      "answer_hash": "ea911dd67185058892393b69d05e7518c85f0444d374120f7233c50bde1a1e4e",
+      "solution_iv": "9ac826a66ffc0de96930241f",
+      "solution_cipher": "00264c96345678ed6dbdad0a154b1a62f485f39c248befe65e82fb22281b524742031d78ea2e2aaba51d4f9ef2c6b30bb9ee09fec59b7686ffe5ecd626a4569032a078e2deeb0f53a1f8b13874c3677910013b9c21c9c7d2e26d4c704139842e66b5511c6cb85173e3145d9d12ca192f543b15f12f5f4db851469cff0452703030ef52205317ffb7d7c3898dff57217675d97135850bd3ede1e1302988e244173838f4e64311f2d55cb012c2b2cabde9"
+    }
+  ]
+}

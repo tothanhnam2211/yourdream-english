@@ -1,0 +1,1674 @@
+{
+  "worksheet_id": "WS_G07_MID1_50",
+  "title": "Lớp 7 — Đề Kiểm Tra Giữa Học Kỳ I (50 Câu Chuẩn Global Success)",
+  "grade": 7,
+  "unit_scope": "G07_U01",
+  "question_count": 50,
+  "questions": [
+    {
+      "question_id": "Q_WS_G07_MID1_50_001",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_ED",
+      "stem_text": "<b>Choose the word whose -ed ending is pronounced /ɪd/.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "help<u>ed</u></b>",
+        "wash<u>ed</u></b>",
+        "visit<u>ed</u></b>",
+        "look<u>ed</u></b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "help<u>ed</u></b>"
+      ],
+      "signal_keywords": [
+        "-ed",
+        "/t/",
+        "/d/",
+        "/ɪd/"
+      ],
+      "explanation_vi": "C · visited kết thúc bằng /ɪd/; ba từ còn lại có /t/.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "2fd4db87e59c4fac",
+      "answer_hash": "b6c8fcb5867215ccb4e92356c7b8a80467d1b39397ec10160eb687ad9c43a72e",
+      "solution_iv": "e0c102ddadf88323126096e2",
+      "solution_cipher": "c4e0463680f87ad59e5a602b2d0670d60a5937983d0e327952423eacf934a7e2f4c8912f0ed85cd94a576e227d4b7bf62d953c694ac12e994e30682e1014d34606e16b990431b045ab61aefb2a5137e25fc656762c19722aa444a3e4a318273acf088f8bf81b95dc5c102f3623b77d6f23a3b85611e4beb9241c4147addb748037faff508ecf6ce529d576973aaa0a4b81277422039ccbe5d793a2d9fb654ebab9292e8b0fd779a0dc3e825d6fe8b936ea9cde45f015"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_002",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Choose the word that begins with the /f/ sound.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "vitamin</b>",
+        "farm</b>",
+        "volunteer</b>",
+        "vase</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "vitamin</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · farm mở đầu bằng /f/; các từ khác mở đầu bằng /v/.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "2437ffb646c8dde4",
+      "answer_hash": "0651c00085fa2132a237f2ee18fb62bd3bd737f1f083ae49fdd236f0cdaced17",
+      "solution_iv": "6cd0f7c867adf48c3ce6b103",
+      "solution_cipher": "e268736dfa486157887b73f7c887f4b53ad7b666cd2cb024f844710e259cc0a311d16ee3786f9f32e228f9666a29427a233e136fcfccdf106e85907c15b99008d0b204140b6d3650cf6bf7a66eaa4a568d6a229453bd51fdbd82888115ae8e6e9a1688f75a33e7aa95817665f7781a3cd2de123da4e4fa8fef70096ecaafef276ea531bc210fbe373b8b1116dc046acac58f6ae7441805a7a2ff2a7e75c5cf310d6a78418fd5b38b6cbe88429a702b000fb1ae82d11f8b"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_003",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Choose the word that begins with the /v/ sound.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "fit</b>",
+        "food</b>",
+        "flower</b>",
+        "vegetable</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "fit</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "D · vegetable mở đầu bằng /v/; ba từ khác bằng /f/.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "47b2d57941182706",
+      "answer_hash": "59c4cf6f3e373389ba60c0fb3ff15093ca7c7a94aae9986e6744c8a4056b4f70",
+      "solution_iv": "fb9cf8ecd3e9a3fd06b02a3a",
+      "solution_cipher": "cff34f30eb1b09750a90f2792a2de3339358dcf05eb985cf3f7be47c2847cfc22513acd77b52084fd2b2af8dd0a55a5cd2dc8b1c5175ca1e7216d399190b64cec6ad779dcc67e691267557cd363f29d5062eb08cd6a90da3e5c92decba30d70b911f9700b2d1f21b067768b871bc7bb29b84dd9fa888778ea14c0b3b1f862d3260ac97ba793261eb59e7250f6d520667ec166d52a072098f792362f4f36ebf2710349b136f6db8de6445"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_004",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_ED",
+      "stem_text": "<b>Choose the word whose -ed ending is pronounced /d/.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "stopp<u>ed</u></b>",
+        "work<u>ed</u></b>",
+        "open<u>ed</u></b>",
+        "want<u>ed</u></b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "stopp<u>ed</u></b>"
+      ],
+      "signal_keywords": [
+        "-ed",
+        "/t/",
+        "/d/",
+        "/ɪd/"
+      ],
+      "explanation_vi": "C · opened kết thúc bằng /d/; stopped, worked /t/ và wanted /ɪd/.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "ee17b21381036193",
+      "answer_hash": "7b0a9b5889cadf7e14c1d0c3e99137c8d16065719d624d74f1d8a2863f6d7e37",
+      "solution_iv": "16c0e3093ac0052f0a4bc469",
+      "solution_cipher": "f8d9fe747da08a0d0a12634828866f26b61e0fc4b9b27851a4a1e9897df9b44888b14997931f3c10650f395298998820ffb4cee6a6a1fcd4d2effaa605cc49e3493a849aa1b3412256c7d80f19d6a51b9d27d9a64f10ab05066d27dd1952b83364689d62fc9f8d2ed0995053798015b1ae07095330926b825308a1c36fe75b882e6af1095e1e2d8382d47cf9d9a5a9850c6251466ca96ce1f353db0346975222084ba2113dc5e914b9e38f74729dae788d579d33920d46bf581d64a0717f"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_005",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Choose the word that contains the /ɜː/ sound.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "bird</b>",
+        "about</b>",
+        "banana</b>",
+        "teacher</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "bird</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "A · bird /bɜːd/ có nguyên âm /ɜː/.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "b838c86068d527c8",
+      "answer_hash": "653e552db93e120dd0ea17ad82155c43f929dab197c48788f71fc599212dfe10",
+      "solution_iv": "1a263202240bc96e890a81e7",
+      "solution_cipher": "2a0e5bb8bc31789c7388799c0e82b762cf39cf2f8483aafecc307a8a92db6ec87555a9c3aedbd9d61bed6e169b0f7fb21256607fe67778e441952ac3bb631cd3737631811e4bcba8b0634887cfeb22a4f998dfff03e28832b812dd75493bca5369c3d5d90b6f8da2db35ea9d86758cbbca76db1e676c6820417cbb52bdb18bb9443ba826e2a66be1fa195296c3a6eedb079f9f1186"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_006",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>My brother enjoys _____ stamps in his free time.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "collect</b>",
+        "collecting</b>",
+        "collects</b>",
+        "collected</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "collect</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · Sau enjoy dùng V-ing: enjoys collecting.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "a135297a4433d3ce",
+      "answer_hash": "31fe2913d9590c8b85494fb47efa698f442f82cd3e48e9f919ed98090d18ebf2",
+      "solution_iv": "cf05098d5b47425ce81709e6",
+      "solution_cipher": "213d0baf444af5cc47d7c1399824abc18c04da9538d2c0654024e8f98bb846e6b4b5b5a602ec1fc720be7124cd1cac967c6f0568f64875dca6d3264e5720725f26eaad6be65b3e1986ecb1b9ad85c8348446a201ae776b6e9f6aa551ba791ede8000990dd6c6986f0f8bc614ff70683df71bfb8bd1f64a36ae4be719a626696682b7e45cc9988337fbafe20b66cfb2d5e3693eee3c4a3a7e3948cadf"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_007",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Lan _____ her teeth twice a day.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "brush</b>",
+        "brushing</b>",
+        "brushes</b>",
+        "brushed</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "brush</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "C · Hiện tại đơn, Lan ngôi thứ ba số ít: brushes.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "5053cfd7864f4245",
+      "answer_hash": "376b9c6c4a84f6f402e2a404f71a09c4d148d2bd075724a818329fb49ff80863",
+      "solution_iv": "64a3e0d93a76f90e86dc07ce",
+      "solution_cipher": "b956c2dfb5dde7e509821b8dbece32e38738020c1759e1ea9a5535a49384f5baf49fcd9c728275afb302bf702ef6d7650fdaa48cf5f17a438ad28d5c26665bee4375fdfa01d489b56f1833e1345bcf8f9d6c2b50dc3a052573d93730ef929be0af08a3fa036909bc871a0144accedf885524fbb71257c152041e1d51324d612c75ffa93961717fdc63d3bf25e5e1c5822297f3db5fc13a33ef43b9b23d9863f669cb8f969d4e2818aa7e"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_008",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>Our class _____ old books for charity last Sunday.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "collects</b>",
+        "collecting</b>",
+        "collect</b>",
+        "collected</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "collects</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "D · last Sunday chỉ quá khứ đơn: collected.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "9a8ade37cd663384",
+      "answer_hash": "5c44eba7d44bef05daafcf88aefb19fc8c42cc94e26ab03c55984235efc75de5",
+      "solution_iv": "51b45f7b5e5cd1a6c6c0e881",
+      "solution_cipher": "272ee81bdeae03341aeb2bf78b9d46203df4c2ae5c756dedfe79544705ccd58d54c25cd6025c8d089a1e67082b206336d987d33a878e831156851b366405f51a2f7bdcdc98b0754f6aaf1c0743da0c49e3ccdf1b9b037c17d5c45f46d8ebffcd52c7eb2098e9525fdca67ff927d8ae8da3e78e022c1cd3acad7f0d79a82ffd1796b48501b9862fb14dc349743269134d5f8fc9035f5279267f1ea618a23243405fab"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_009",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Painting is her favourite _____.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "hobby</b>",
+        "fever</b>",
+        "village</b>",
+        "litter</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "hobby</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "A · Painting là một sở thích: hobby.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "8dfdf88d57453c6c",
+      "answer_hash": "1bf3c806593129b66de2d118efffef115b25fd793d84fde65dc8ee86c6188bc7",
+      "solution_iv": "7c1fac8a7ec1489f5a11a6a0",
+      "solution_cipher": "e48976cbc24a53dc7e574f6569426612ee5a5028232fe62762e3c64a742bd245b914bf7d4895d96281a7a1477b4d936e528188eae6779f5be0e18db35ecc03988ebe37308071de8a226d3fc2a0524e9cfd599594399f8ade9ce86ce399f74a6ddffce91379b58e77f3b0df2d733997cbdeed29b867544988d40681b342f508674c6f688b95ebd918e8486340e1fef3d5d50efafda7ce3a"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_010",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>You should _____ more water on hot days.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "drink</b>",
+        "drinks</b>",
+        "drinking</b>",
+        "drank</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "drink</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "A · Sau should dùng động từ nguyên mẫu: drink.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "b08f028512e00f47",
+      "answer_hash": "aafa7a4157fa4257239ca3c279a7f9d51a79dbb53d9a123ed52cfcfdf9afda0b",
+      "solution_iv": "95ebf0df8d61aa5879370492",
+      "solution_cipher": "cd803f5027b76ba45d37bbb308e594abca3653bcd783f53cd4b824155b5e85cf02ac722735548bdc39419af1c4064473b16ea53f57714c1d7fc183793eb995ba51f02edf6f5a7015501518cfec56662c435876075e9d9c1171d42bf34934fb02ead35f9e5dab81c6565db3be68771d8150ec3a8b475a48aec47fa127c5000e5d19a147b752fffe5883fa874057f730cbe3e6a8b6e0bd381313142d8ab119b7afef08ce73"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_011",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Tom has a _____; his temperature is 39°C.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "hobby</b>",
+        "fever</b>",
+        "charity</b>",
+        "model</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "hobby</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · Nhiệt độ cao là dấu hiệu fever (sốt).",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "a522416344527e2e",
+      "answer_hash": "8b8292c9433c4db93bc0c7bdf8de67f2fee2fc1fc6bff1ece7699e01b7d1528e",
+      "solution_iv": "c19b937fd64e7cca82f49b65",
+      "solution_cipher": "e38d2aa000d9a2fc37895b4601fd0cd5091850b47b29e29d6a8552225a6c1cb05553f0a50ce32f233888bf09eee8ccb0f9ce66a107a3e7b5cd3e09c257dd898417698cad7d1e7891d75b1d806ee6a46ab81e15148793aa54eeb1c8cbac5d99c3a2d5220d68aa9571b67db92ce3068d77297eb273702e29f9462eef305404842c184809ced69067b00db3d0d48e2c9cb2fc2bcf6f0d73c9e09de01cc27249b799c78f"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_012",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>The students want to _____ trees in the school yard.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "planting</b>",
+        "plants</b>",
+        "plant</b>",
+        "planted</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "planting</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "C · want to + động từ nguyên mẫu: plant.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "d81c8db7412a9870",
+      "answer_hash": "43135674309cfb0a8bb6b779d761334d9ff8df3c27f7a0f8a950b9aa5a2b5b6e",
+      "solution_iv": "105bb4790fb49464823ea3fd",
+      "solution_cipher": "bcfb55020af8d3f5051abf3bd3585f58a099d81619ba1e51c55f2a9a01853ec49e6032db3c73646f6db4e980e0317b89e7f18e7954962eaa1f7f23f99c7a564edb56032c54d17c9b49f4f94b0249de1e2d89b79ae4f01b510bd999f109b3ce5e22c43ceebc5a701f34de29b9f5f9c32e882a1762933ad8c826343c55c9dc5852e847d6159427ba24610076043ad5a1471f3c9dbdee77e7d248b3d3a517fce9d0"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_013",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>There are many colourful _____ in the garden.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "flower</b>",
+        "flowers</b>",
+        "water</b>",
+        "rice</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "flower</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · many + danh từ đếm được số nhiều: flowers.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "42578cc9682c9d2e",
+      "answer_hash": "53c120ab3de4db3697d9321ccc54038f8507f0ea365e410e3ab836f1f5442ca4",
+      "solution_iv": "2241a3333538514f9ff373f3",
+      "solution_cipher": "850e11c34b1067d2965dd3356236dd68b77c6176610145398ecd162e452eee302734b897bd32e2b5a26568f410141d463f892a15f8a768c87d80b67503d9a0ee6eead5588d728c3d28ffcd261b3f79f8f6361932df5fb1f0fb694e4da455b25d60edb25e1b0e810135a5e33bff55fb66d66b8dc9b84d42f1f43b25158f2919888ab046bb1fe4affc9ee01608f3757ac4017917963c5f0e9728d12bd75101d682bc0c74daa249a65dde"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_014",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>My friends and I _____ badminton on Saturdays.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "plays</b>",
+        "playing</b>",
+        "played</b>",
+        "play</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "plays</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "D · Thói quen on Saturdays; chủ ngữ số nhiều: play.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "c3eb5c5e0c89bcd5",
+      "answer_hash": "33ada52285c2901a25ad29e2755ddb3127952a467be8c3abc0d55c98afaba9d3",
+      "solution_iv": "15fe9b06bb13c8594123bf12",
+      "solution_cipher": "f774cf53e45941022c154cb1272e2003c91ba58760b4eb1068e427ac29f22364187289729d321c38b22715c87bbf9a4c853c29a38e628e316475152815256bcc25d3c7709026622fdd3f24273e99ecbad73e977423b42a5d126364ff71eaabf0f7bc0fedac7c237bc046512eb89177823b41ef88bee286b84c6631dddfd96f62fe164a72289d1eaa93fb3b24f5d3111578be177612751706cd6ce81bb12f1d9fd9624115b310a6577d"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_015",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Reading in _____ light can hurt your eyes.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "dim</b>",
+        "fresh</b>",
+        "clean</b>",
+        "bright</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "dim</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "A · dim light = ánh sáng yếu, không tốt cho mắt.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "ff01dfcf32d84d88",
+      "answer_hash": "9acbf596bc81581f2f99fb13807bfec9c3dbb37cb49c08e23aee1d865e860b79",
+      "solution_iv": "e5cc91aa8301dea7e1135fd0",
+      "solution_cipher": "b7c6bc214ef82b45796ae571ff227234ecc979c8cdf1be0fdbba6026c2a4b67d5082c68dce7afe5a56c552dbb522a0c2a02b9c752a174a0c41e825029d0e726be3b0c24c8a03a855e95d2d4cb161783f67b872d8ccc77790fcecc30e318f9e8deb213ca175977953ed24743d83c6c9bebc016fc14bc8dd713d69c87cbab3071031dc00c16be6fcc13660d04662e4e23317a95121817a7cdb8efb989bf076f2d3d8784369"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_016",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>The children donated _____ to families in need.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "litter</b>",
+        "old clothes</b>",
+        "homework</b>",
+        "sunburn</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "litter</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · donate old clothes là hoạt động thiện nguyện phù hợp.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "0c7e5cdafc104a77",
+      "answer_hash": "db5d9e2581dc04213c9d65de8a350e2faa8cefae18c8f1a92aa751ab352dd300",
+      "solution_iv": "999953ce4bba2f40c362ac5b",
+      "solution_cipher": "295e5b211708e47d154c0f71c89974ef0362793abffedb874e2553509c3cd985f1a32acb56b822093d99408df8e2ed8ac76a63f5bd6b6d0121d2a022f89f6e92389c60a4f4020cc4ffb5ae084e139afc28d5b7503b10d0cb2c49c620ae8a3ff1fb94d683fd21d27d92536cc955249d10451df95ee6db6fff9b696980ec1b3ee6af95fd8ee3ba01fc5b99085f578b700e39edbdff122c7eb2c1e3c8adb1f52bfd1f418d436b7fda5fda432179bb885314ce00fed5"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_017",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>“_____ do you go jogging?” – “Every morning.”</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "What</b>",
+        "Where</b>",
+        "How often</b>",
+        "Who</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "What</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "C · How often hỏi tần suất.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "3337166cadcc8ced",
+      "answer_hash": "896dcdecdee93767552e71d5b830299c6909520c94e1fd75e1ccfc3fafe38564",
+      "solution_iv": "9c433cfae1f3c0d2afde1ac6",
+      "solution_cipher": "a5fdf6a64bf070fc4a16632cccb172495c0ed4930218a8901d47f3812f0ec48cf0177edca0d62383001ebbb3e80e4e1bd88c7fe228bb33039a3bffd231d05164d0bbd3863aa554c584bdf48fa4287ff9e1a01faecbcc6b67ea7ea6a4a61e7d7bb55093798acb4c8da1d044fed122cee5a46d5a50a5abb44f30d0fecaef5815c635e17fc13c70f04c46710f771c"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_018",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>_____ up public parks is a useful community activity.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Clean</b>",
+        "Cleans</b>",
+        "Cleaning</b>",
+        "Cleaned</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Clean</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "C · Danh động từ Cleaning làm chủ ngữ câu.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "b8fa94aac6534904",
+      "answer_hash": "5cd29152f652a71ae4dc1ed8b7f43584d0f1cb995ed5da543a471ab215bc1b69",
+      "solution_iv": "700e2865a20d25b3a192457f",
+      "solution_cipher": "deb28977477a56592b9668f9aa4d3f32e65b67da6126cdc89b1d951a98e2bdc75cb587fdc9b5311948f72cf457a228a4cad6c07e4cd3b82eea06b86adb6ec0eb6d94dca47a62c0874bfaee5e22e151f5951e28ef487669a669bfaf58c0f8811cb6f3e434bbf2cf14965c88b0eb4ad33bee566c81bc0c8e293207e6b2cb6a13171b6c43cd8852e373d606e22a7a07d7087000b1ec4042a8bbf525a11179bab463bf50"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_019",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>My mum _____ gardening more than watching TV.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "like</b>",
+        "likes</b>",
+        "liking</b>",
+        "liked</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "like</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · Hiện tại đơn ngôi thứ ba: likes.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "e6358e275def87b8",
+      "answer_hash": "6e6b22b2ef4a575bd5b5e7f12fbbf2470a121f27281f8d1c99d92b56a505d576",
+      "solution_iv": "1f22fca7b677b4f9726b58dc",
+      "solution_cipher": "9d79942bb0ec2bdc0c5996c9405e160f7ee4f713e41828fde921140bbbf7b7f4ead4ad6b1d3d81cbb31d8734b6dde8a63eedd6ef6ce4e1f009db12923f37a1448d3c1a1090949553cc26b77eeb6f7a8764b7ef6c14e99e93098b36dc29a591ef0f52d1075f04bfe32cbbe0f8338e2a215e15fb5c3f4b1dcfc27234c2ae020df5f054d6eec21a0a3cd0f079fd97c28c63db361b56aeb4727c7d"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_020",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>_____ you help at the community kitchen last weekend?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Do</b>",
+        "Does</b>",
+        "Are</b>",
+        "Did</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Do</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "D · last weekend; Did + S + V nguyên mẫu.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "36e91b4fb53ae3fb",
+      "answer_hash": "61f055c813b5e71212640c9b9a7146d34542435392aabef8d584cb52c445bc11",
+      "solution_iv": "15fdb7f13a6d7e2850f12d53",
+      "solution_cipher": "5b392078a90cf49c7a8485dcf9af02382385a1a7331e1947697523d3162bd3e631d86ff57e5127892a5b7d8b9b2e698775ed867ea8897b070ad99a76e8f1735bbb7ada741ef1deffd9d3ec9e547877116d7dd8f8dcb6925764806afa608ba61a546641266875eedbbeddf6731f89b44a519dca60eb9bdfcea2b1c72a74328f0f5cd3ec72b93b2c476d383bb15b4a1fe3c530407aeb6a"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_021",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>I _____ making pottery because it is creative and relaxing.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "enjoy</b>",
+        "am enjoying</b>",
+        "enjoys</b>",
+        "enjoyed</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "enjoy</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "A · Câu nêu sở thích chung, chủ ngữ I: enjoy.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "bd34761fc5873999",
+      "answer_hash": "62d64db364e5465c9ee8f7dbfc909c6498d237dee8f2aa8b27bff896b8b89045",
+      "solution_iv": "30676cfc6bf5aa230da571c2",
+      "solution_cipher": "6dbf8dedddbf60e0522c2fd93991d11ac2105fc8e1553f60fb605fb3b361255067620468bcc7033d5b0b1be4f3fa2295122bff03280bec7d6ff7a725f8559e26cacd9d2044ea6d934475718d03a7749f8672fc3253e4249ac7bf12a0039c8637607047f699d338ec0d745b4786e967ff9116185cb917b937c3e45b3d7d2e91d362194ffd094bc94c2bfc24ecd8677a4567dc242db86ae428800da6edbb75abba723444"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_022",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>She _____ the guitar; she prefers drawing.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "don’t play</b>",
+        "doesn’t play</b>",
+        "isn’t play</b>",
+        "didn’t plays</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "don’t play</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · Phủ định hiện tại đơn, she: does not + play.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "0413b671b62f1fd4",
+      "answer_hash": "aade99d6d51813cc44a42cbae629c5bfa1abf4b64071192466d498b3dc7cfb01",
+      "solution_iv": "b917ee9ab72972b8187f7dc2",
+      "solution_cipher": "92eca4feabf4b5709cc1dbcfb9316753d546f569de945d44b7e854914a36875e994541991c5d7a64ff7dd325218294cf8877e5cb630be6755dc2a65833adfa6ba7b2b81099c2c0f8bac4874fa64ecb872d2b2105304f52232f302a26ee00c083568111a97cb4e587a514fcad14e508f2115d7437ac55aecdb046ab7f986ce4e195ca23b62f496a574062a8ed443907ea7a1e713c7e05eb5e56b4b59fe0ae42d4d08725632f3a132a0e9f1d58176e02"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_023",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Minh stays up late and feels tired. He _____ go to bed earlier.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "shouldn’t</b>",
+        "can’t</b>",
+        "should</b>",
+        "does</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "shouldn’t</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "C · Lời khuyên sức khoẻ: should go to bed earlier.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "7abdb3289afddc20",
+      "answer_hash": "145603da6c9808eb53dccfcaffcc3408b048c5c7e8ff595b126f9c9fc37815f3",
+      "solution_iv": "6659ea777b7359c5c8a317b2",
+      "solution_cipher": "b28783d1220cf01404b47ff5ea47132635c6c1f4b30ce3b0032449dee932b4360dbe12e826f427ce30464858d55e3dc90188fa5d73087b3aef010c0bf5d26f9ed2774ee13b94c42ee1607fd4c803b6742416edbff8927d62c9cf9ba04eaf9a1b9c593fd4de067951791be10914dbdb0672ba36d19d5ea093c6f9689b47472ec82b490b17dd2709cf83ffc66096e94a4ab781a0e4981398571991a8efa3ec451297bab0f4616352acd9b4e75d"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_024",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Eating too much fast food _____ good for your health.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "aren’t</b>",
+        "doesn’t</b>",
+        "don’t</b>",
+        "isn’t</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "aren’t</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "D · Chủ ngữ là cụm V-ing số ít: isn’t.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "1772d6f04ece3838",
+      "answer_hash": "d9fc8a6329d8128439a4024688693e4db6caab2ea6f4787462374761f825f6cf",
+      "solution_iv": "c5714e3a62c00c3f2f1c6830",
+      "solution_cipher": "f5ef8608a7e63b260570330d9f754a1f21a7568f45f336c63483404c91c767c6e9d205d13371a0b73d9844ebc21f8e674f230d8256f5a5d701c7efb48bfff327fd799c77c5522ac6d18cbfeb0537a38a1339964c807e125a7e17d805cd4a7c8d191e7a80909e1ee52b11ea6dbf93fb78b604e3ce739a44f91c2c6eb2fd1d2de4ca69c1d0d24f89312f2ad91d0c4555fd77071c5b78a1f04bad4dc61e70f43fe53eb0"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_025",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>The volunteers _____ the beach two days ago.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "cleaned</b>",
+        "clean</b>",
+        "cleans</b>",
+        "cleaning</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "cleaned</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "A · two days ago; quá khứ đơn: cleaned.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "fa110c7d13fb3e72",
+      "answer_hash": "dc0b93be28b7a0b6ffb8ce91751d99d375b1fd14133c1f377a78986efcb1a035",
+      "solution_iv": "dd5af9b8ee2a378233820dfd",
+      "solution_cipher": "2e0a1958ae23638b7233c2ac4ab4e763ba7c539b67e3a56092be85ea934e932d473bc62cb04e78fa58c9cc1025b10c9f213e7db6a1d72d741b05c7903d20a7240b2b3647973121d8fa5b2a76c4caf618cadcf18e19a503d0ee766cfb705345a2310a957a1cb219790ece56d6495b47fd8e410eed3dbc0b05062f0ecf049a39a5b75808dc8a6067faaec1d6aa3d5c4fc168ae723daf790ba6fb2f34"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_026",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>“What did you _____ to the library last week?” – “Some storybooks.”</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "gave</b>",
+        "giving</b>",
+        "give</b>",
+        "gives</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "gave</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "C · Sau trợ động từ did dùng nguyên mẫu give.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "71c7a29c8446da18",
+      "answer_hash": "c728a5bdabd1de2c1683b05bd0217991de72d1e564daf24f6e2247100398aef0",
+      "solution_iv": "a346ed723a0c10a0944fd682",
+      "solution_cipher": "5b2f6b1665729d3f68ac9a7ab5b2096a4fbb63f66b9fcd50193fb48f8b87dd309c90a6eab08f7bcda43791a5cc3faa23f599373ff6a8bc68ffbc66ab8e650d3aefe1d21d1546e03ef48e8c8f96ea40c4467f9bebb37e8afcd48d1cafb3252e09f319cd7b0d134b3599472a839b4175a09a97d3802770e1214c760032beb30686445f3209541159e5f5d863ee4d92807481f12b0a33d63337c6ed378f535f47d6775b2e68"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_027",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>She likes _____ models, but her brother prefers playing chess.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "make</b>",
+        "makes</b>",
+        "made</b>",
+        "making</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "make</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "D · like + V-ing: making models.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "0e4d1fddc96308d1",
+      "answer_hash": "07bfa57ba39ad60a472984f8ead0370b177985969ee25bbc970dce90b203e151",
+      "solution_iv": "ccc356d2adb7f46ea0500386",
+      "solution_cipher": "1cd74fad69205b6703ff07508662fc0a045400804c7f7776574fd9537cd283e42566d4fd95a6c1821556c75f2655a9ec0940de7e18af14800f9931b1359022f2e86a4ae4e07ea93ab9d579d5c52d29d9ab8389f6a269e13dcfa25042729bd10802479eeef86729b04f4f62ab93a150631a78a635c5d95c0b8221db09d6a434b09105b878f9b9259628f9d724"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_028",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Anna _____ yoga three times a week to stay fit.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "does</b>",
+        "do</b>",
+        "is doing</b>",
+        "did</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "does</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "A · do yoga; hiện tại đơn ngôi thứ ba: does.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "12da7121e0758c14",
+      "answer_hash": "36101add8e20d2d48b210a53e93d5141a00106f89d49c20874cff30155f21bf1",
+      "solution_iv": "988878a2cacc4ca394b0fc12",
+      "solution_cipher": "96efd32026f97550d0962bd90db77391c07492d0b560bbb20bc52e38e66a336b044e6d330bc8f846d66a10e1fed23e723d47615944e7cf6482027e490024dad26766ce404e94b5235c211cf920656b3748df8e265ad3f22c9d6380fd1b83aed25bd299482b94564f4769591ed267a82c83d34da44497797668e2227d8d40e13cb6d70bc6a389717b4fe303e1f82e8367e36cbcbe6b441db0760d3b2845f6a6607f"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_029",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>The students collected rubbish and _____ it into bags yesterday.</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "putted</b>",
+        "put</b>",
+        "puts</b>",
+        "putting</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "putted</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "B · Quá khứ của put vẫn là put.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "9119161389f41512",
+      "answer_hash": "9ae819a85b1f8e0514e4cf18085f0fe3840e7f2fb928855d20ab70d937061c85",
+      "solution_iv": "3780e6708aadf81b5d5e9074",
+      "solution_cipher": "fc1149025e7b5970c33f332e91b9cbba3209a61b4c26def3f62eff822eee1a3e6add3570621962fb10ad8eb469633de00db65ec1ed515400bf3f9ddeb7d3cc2fad409a86052b20aa3da0ac66fbd226ccacc7045acde2a8c6aec23ea325cbad5e99b9701e79785c44db1874cadd17d356e4b99f275b4b176cc30edcef321909a9dedfbaaa4db81ca0181e41126060a07a451c724ae5"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_030",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Which of the following is a complete simple sentence?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "My brother collects coins.</b>",
+        "When I finish my homework.</b>",
+        "Because it is Sunday.</b>",
+        "If you like cycling.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "My brother collects coins.</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "A · A có chủ ngữ và vị ngữ độc lập; B–D chỉ là mệnh đề phụ.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "03e271e8703da2ed",
+      "answer_hash": "213a8bf834dcde6aae9569a5cac9308a84110e7d964f381befb4a565e649baed",
+      "solution_iv": "6c04609ea82b22d62c18b931",
+      "solution_cipher": "003e3a038e6c78e5715ae46f6baf7117b6316d3dd18f6ba343c687b7445f3047137ae6125190a8d286a050a15611e45ad9d73bf21b941dbb39f3fd62f3a2328061a6dfa07cf783ed17142639aa153dff0b5f1779da4fff8aacd1598d85adcd2ac43c98d3bf0fcbd4c7c058d509cced1fdd0360c13eb767b57b2fa8deaf3f0a15f232a9f3d0918183d3fb964e67b4b50c813e411239ce996e124af4c448f406f33908d7266e6f1296757af0378d0c28a98ffe26e1b195a3fd98caa654f66481dde7d5d241634306d7927ec60baf930efae72b375b649aff2e"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_031",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_PRON_ED",
+      "stem_text": "<b>Which word has the -ed ending pronounced /ɪd/?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "clean<u>ed</u></b>",
+        "help<u>ed</u></b>",
+        "want<u>ed</u></b>",
+        "play<u>ed</u></b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "clean<u>ed</u></b>"
+      ],
+      "signal_keywords": [
+        "-ed",
+        "/t/",
+        "/d/",
+        "/ɪd/"
+      ],
+      "explanation_vi": "C · wanted: /ɪd/ vì động từ gốc kết thúc bằng /t/.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "2f256bde4a26974f",
+      "answer_hash": "6412e4862fde481ac6122e5bb2009c32116672f3a6f837a349addf2a0ed5eff4",
+      "solution_iv": "c14e323160cbd8b0a135e4f6",
+      "solution_cipher": "028d921ebca88fb954d9f80f1e52bc9a275ad1cb690ad8113ccca5f00e5f0ce66c8db437a947ffb8a63a704c23ecf8c25dcce4d7aaf83ba40dd8dfc1f547cdcfa89648c53ffc5d4e4b9fec678786ac6b8bffa3f909a462d816f0201d012ffe49b26197995d58b0166cc225dcf356bcce41f2ba43b5003b3644b38e2248774a6e9253adb0b554b0782debe8e4fc11d82014f95daa2c73a0c7a4c3f1611c47f2884987089b40ce934a33b0b2e160171baeafb2d36d7766"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_032",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Which word begins with the /f/ sound?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "visit</b>",
+        "vitamin</b>",
+        "very</b>",
+        "fit</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "visit</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "D · fit /fɪt/ mở đầu bằng /f/.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "f7d915ee86683a51",
+      "answer_hash": "efc9d8e6567a2b7151ecbe24d6f6644926ba223fb500f7bdb9224a5a93820fec",
+      "solution_iv": "f9ad9d404ca551a251c46671",
+      "solution_cipher": "993fc1d8e5c0463730dd81a028c3098e31d605cacc03c1ab992c88764d76110ae8f594aca2aa1dfc214c79b92fbe9922d896ef04bda8d0037d4d6fdddd4926dde499a42f340bc4c118fc7924031ea7871eb5d9aaedb1341b94633da1ed33fcefee4811be3f1fce1c8d74afa686ecee865a8026b70172d17ffe224c680cebf7b1669e9867a2662d47e89c10bf737e4bd31e6eaa"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_033",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>Mai: “Would you like to join our clean-up day?” – Nam: “_____”</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Yes, I’d love to.</b>",
+        "It’s too late yesterday.</b>",
+        "My favourite colour is blue.</b>",
+        "Five years ago.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Yes, I’d love to.</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "A · Lời đáp nhận lời mời lịch sự: Yes, I’d love to.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "cdd9cbb53cbd2e94",
+      "answer_hash": "07905cbfccb3f1355944997d8d9a8bf15b581b0c03452369d4ea7d718bedefb9",
+      "solution_iv": "36178107612e2e2bc3ed1b9a",
+      "solution_cipher": "2082382ce1408999f2f9bc67822129beb31606b8853411f4c163d5d493e37c7bda1673ca1c470f5b57f5d20c2c501667d45de63f5cbce9ae2e351b4160404f1686e3698eae7aa70b13093c0293996458a3457504c9e31a47bf8ae998fe0f76cf8e2188977b1a8c8fc2aa316d80a3dab95fb4c4ecdecc2dd059b7c954d71ec7f1e958714a0e1a4c519e977b10256d52165ccfa6fdf35700ab922da8ebb5be313c7e81783f99ad10c92d435058b2063aae66d4ae74ba35db71e004822fb0e2"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_034",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>What does the sign “NO LITTERING” mean?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "You can leave bags here.</b>",
+        "Put rubbish in bins.</b>",
+        "Feed animals here.</b>",
+        "Wash your hands.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "You can leave bags here.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "B · NO LITTERING nghĩa là không xả rác; bỏ rác đúng nơi quy định.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "6868e16247c24f9f",
+      "answer_hash": "6c952ab75cad128a885ee972f416ffe36858a50d83f6a62b46239e1168eadb8c",
+      "solution_iv": "e8fe50108c220c5faf779dc2",
+      "solution_cipher": "096feae9988a4c688798c60f9eab8541e2b07e2891452788159f0d585c58efedeb97fce0bbc3fd67323840ddd1813a28a9b86a7e407373b2a80ea066bf35735aa669cfbe8f10b89f3b026e6179663d2fc7fbe8125c8a427584a47f946b8a3c6e54db1f0c667df5c682f4412b7f26cb613338b5e561203ea236becd538b942540d528cb496a70f07c0110f6c0d2b2f98352b470890bade2f72906955f847c5375739517b96058f366e488062bf6751c18dccd2b89f1078683261ee520d6ec0d1cc5f7f740969d04b089a580ae94f05c5e"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_035",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "<b>What should students do according to the notice?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Meet at the park.</b>",
+        "Bring only water bottles.</b>",
+        "Bring gloves and meet at the school gate.</b>",
+        "Come on Sunday morning.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Meet at the park.</b>"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "C · Thông báo yêu cầu mang găng tay, tập trung tại cổng trường sáng thứ Bảy.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "9975d19e58c18f02",
+      "answer_hash": "d5d619aab2ff827381109c3a4e60c4e2e6f48043c713aaa3cd3011267d022c58",
+      "solution_iv": "b261e1fb48dba069b05f3b7e",
+      "solution_cipher": "c3749ad7164ba3823536ad6b97019df4cf1a91c28d09c9d2ec1502d449fb6df3a602c2ee5ab9b82a80d38efc845a5e6db30406e269cd817b76efd95d434d9a28d1242b3b94a9b87a3765afa10a328ac4263dd09cb0cde3645e97983236056eff6bec169f9161b7c36151576120255b7d1e31f5161f250f3d65705c3c0bc57369c0ff619fc9f62a0282c66781d2b76dcdc8b0d34c29a6ad4c1ca67742393f96e37b98b3591f4f7d848e5bf011cfe62888640eda57b68142e7464a028d3ce08572649607ab9be3f991d02f61caa1c9f298eafbe4c5d411a00409"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_036",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>What is Mai’s favourite hobby?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Making paper models</b>",
+        "Gardening</b>",
+        "Playing badminton</b>",
+        "Drawing pictures</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Making paper models</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · Đoạn văn nêu rõ Mai thích gardening.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "f4d5dbd8baaab44b",
+      "answer_hash": "2e9d727439b0dca9ca5af0b7e476ed4ccbfc335051f4a7bbf1594bf8cebffd1f",
+      "solution_iv": "c71849f0f785379d02c1be6a",
+      "solution_cipher": "410e688b0d810c1a222c66e7e7099038a164e9944b0896790627c14b08480616b712b4a77d48b799673ecee0dd53d7e89a072704f03afd793f63258cab6f6c50bf013c15c76b66e0d79944f5f5933015084d57e649a43137676aa3d06119d9dd3c2d67f8b0332241246093c7f9e1898a3b9c3450905608da1adbeaf6fdda3c0e11ffb082aefab1b0b1ffb9aaa1ea794d388d3f22f488c3901f520ad8690abd582084d70dc55a1347f807"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_037",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>What did Mai and Minh use the empty bottles for?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Carrying water to school</b>",
+        "Collecting coins</b>",
+        "Growing plants in them</b>",
+        "Making school bags</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Carrying water to school</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "C · Hai bạn dùng chai nhựa làm flowerpots (chậu cây).",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "ae8d3ac4fc3e8b3e",
+      "answer_hash": "b263ed00179e17c120e072daaea0676467b8b82042c61665802e8b13b77375b9",
+      "solution_iv": "3b1f99c5e17b345f35afa921",
+      "solution_cipher": "c43d94ac2b30a581959640e180344c2fcb5a602f07badd8a2df5fbd0822696a0202138cb843a7c7e236bcaf9ab2804136ccc9679c4f570167d1ae5439064f7f10c325722d2c8d54d091db011b9d9f5b08add44767d8fe9e1381dd17eeb5c04dfe4cfe3f1cb61a9bfeb569a74346bfb59c0f9bf75bb9272960667fe2e7f6dc0820e7e52d36bcb3630b0ecbee15bd70fa046b8d93a830132d5eec183b0188edef942a12dc3a46b3655a826ebf84eebeb5ba5536d4348e5cb81a639cd049142"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_038",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Why does their teacher like the project?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "It is expensive.</b>",
+        "It teaches students to cook.</b>",
+        "It takes no time.</b>",
+        "It helps students relax and reuse things.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "It is expensive.</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "D · Dự án giúp thư giãn và tái sử dụng đồ dùng.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "9c26ef064edf93ed",
+      "answer_hash": "6c2324f8ed9bde19208730ab09a5f145b8d71504f4aefce4714ae5fd46ca6eb3",
+      "solution_iv": "c092f6830b88ec7c05c7ebfa",
+      "solution_cipher": "7bf5a2a3169e26433ca90b3e711562268de9326827ed9a5cbab5a250956f999cd6e5900a5da9e85552a9f4d8f59948487189bda82b7ad34921357afd4099f489a234e68c0dd6f5e9e97adf72aa2bbf0d30cfe966d606e95bf05b8d1b4a19f611c7de64d5843fa23f9576951bdd4255555f51c2c350692f70b9adda5689cdece9149146d8b4296287a25e6e9345edcaccacecd8de02bdc22b401e2cd1180b5a7f343fe6c0a982470105486636b2d3fcf963a2b5aba21c1e"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_039",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>Which statement is TRUE about Minh?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "He sometimes helps Mai with the plants.</b>",
+        "He dislikes making paper models.</b>",
+        "He waters the plants every day.</b>",
+        "He started the project alone.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "He sometimes helps Mai with the plants.</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "A · Minh giúp Mai tưới cây khi trời nóng; các phương án khác sai thông tin.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "668a086826522799",
+      "answer_hash": "c3e80c09c4b3ff46daf7a66fe4e90caf8ab4ca8a7cdb1d0a398ba726fb9ab65a",
+      "solution_iv": "3f4ec0d56c800c1c254256b8",
+      "solution_cipher": "be7f911e19bfbc5504f58f4636ef4ef36b301a10234ba0f236474a6225a2565c7510b7daf7d836035df3fa9aa9c3e9ed665cf660db5c4cfa5ca9fe1c66015e506db0f965cfd81100c5213a142eecbebeae9d0ca0c926243e15bb020362304277d898bef73b90fdef29feb19625f1649445fe6eb4c85f4d602687558fe1550d9579c96091607c538d717938042c36445c56b1a0b75dce3a6f040fc505188063e247152758aadac1428424e1a1181ea56cc26391b0fbeb16947d78ad23a21a3a51d309402c5473302e197fcbd952676acb4684375631d89959a6ff67761c9b0d4691abc93af2245ccc"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_040",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>What can we learn from Mai and Minh’s project?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "All hobbies must be done alone.</b>",
+        "A hobby can also help the environment.</b>",
+        "Plastic bottles cannot be reused.</b>",
+        "Only adults can grow plants.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "All hobbies must be done alone.</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · Tái sử dụng chai nhựa trồng cây mang lợi ích môi trường.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "45dc61b7ed87caf9",
+      "answer_hash": "21a2f0690d64e4d87bdbe24ff6ed8c204e2fbfc2453e3cfe018d6366f56cc351",
+      "solution_iv": "41d60bb723841000a408c2b2",
+      "solution_cipher": "a36aee47aece77f242088852dc0b13eb0ddf80b142f945abf3818a189899086f6e8723355159b0c181a86a2f7d333b5df9419151b6155f7c35221ab1a24e6f550568d0754d876b51d4276cb0ea3fa80f8b3633462f5b1b432ec7f88e75528f7bc7f596ed74ccaf36c83f15f6a10b99f83ccc9e3238506caeab43710e6ecb668b83a60984aa576247e9bf197643e382791291b82e6b3ddec63cd6bd38c967ce34c0c3f2e779ce3bd46d04f3a176b491fe74c3c09cbf413a1bdc0a17607a23a379abbde0d57f8d02140e1e31aa6973b014916efc16"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_041",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>Where did Class 7A work last Sunday?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "At a bookshop</b>",
+        "At a sports centre</b>",
+        "At a community kitchen</b>",
+        "At a hospital</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "At a bookshop</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "C · Học sinh đến community kitchen.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "a66b736a0502e715",
+      "answer_hash": "6f771d01c7ed986c780e481f8bb5c8a7073121d3b5be8ba010320b1a9297d894",
+      "solution_iv": "16949a30abf66231b32e9a9f",
+      "solution_cipher": "d78e29dbd80d5eaab326b89f213895ba12fbd43044403d63a408c4dd7cff6a1c72b919fe19216b68e77d629c5038e8e548aa68989e528206c19b220d6064ceb7db801b9f1b403134969e94c3826c3e44e5a12ba06a6db6d1f926fd880258d233427118eb38d4de94c2a97e8bf312fc8dc2f7d7431a70ddc1f14c75be4593b0c507487eea76b75dbab3e228d7f4e08632ca74871d163adfd87b74f29a35"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_042",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Why did Linh label the meal boxes?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "She did not like vegetables.</b>",
+        "She arrived late.</b>",
+        "She could not cook.</b>",
+        "Her handwriting was clear.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "She did not like vegetables.</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "D · Lãnh đạo giao việc ghi nhãn vì chữ của Linh rõ ràng.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "ab7f33f54eb23010",
+      "answer_hash": "4b76c1c7a61ac79a18657b5c3767851ded4532c368c124d201879b6bea4cf2fa",
+      "solution_iv": "d86f3fc56ea18ea3ee4b6898",
+      "solution_cipher": "60a0cef951c03e446b2c250a68a973a319fe0c7ca7d511ec5c51a937964305946536a8c5c636422062ab2b0f9da5b596de1f70ad93301c9765ba366481195b87333969dd9ac9e56073b45cda6e90ede8f6d4eb154143a30f34d019672b02ff9c89272453d70b16c1637893f04f2f2d9c852f5c7ac0dbfb8234a1897c95502fbddb55a951452f52f30ed7f5c318f7d1830f4be40ebb6563dec627912a5cf2f4e99592f53dc089437c6a21fe0001eced75af3a510fc07c04476638cd739de4902b3296be34870e408710b0"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_043",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>How many meals did the students prepare?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Eighty</b>",
+        "Twenty</b>",
+        "Eight</b>",
+        "Forty</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Eighty</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "A · Đoạn văn: prepared eighty meals.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "c6126934d54c634d",
+      "answer_hash": "cece3083ace8fda5e1d7de107ebf48aa581332f0f5ef6c2bad96efdd0a30c7c9",
+      "solution_iv": "e42a7fdb48fbc794bda8f1a7",
+      "solution_cipher": "c9ab7e59a5c5cfa217b888e3d1bb8d84816992b7e91c24aa0844dfc3d103c07d515293752f3155a0ca9af2e1df0bea43a47ba773a1172b2a227e22ce0ad976367fc186119e11ab370331c8fc94ec62cd5ee39a9600ec86360d133c29de264284d708aac3f4767765c67061026a61d556dab55d99cf48baf99724e00d9ba43066acd67bf68a1797e5a1df9c29c40a4c9145d8e03f3e71"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_044",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Who delivered the meal boxes to the elderly people?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Linh alone</b>",
+        "Another volunteer group</b>",
+        "Their teacher</b>",
+        "The students in Class 7A</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Linh alone</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · Một nhóm thiện nguyện khác đảm nhiệm vận chuyển.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "b5422e767e00ed92",
+      "answer_hash": "2f8e8942f9ed7abec7516f709bc700791af8fc9cf0adb4e8d982af72d6e3d678",
+      "solution_iv": "9b1790d8637b95a8f41c8e9e",
+      "solution_cipher": "11d640546922e4aa8a43ced5884816eae9e371bb0e1909af14f887d61efa9c4eebc075862bcb6530dab1f3078a6e4f88ebfc2c9cf9529fb5f2fdce19012d584a9c10194ef1ec622a25c28ec83da3cc675e0f3fe5312eeebab25b555a42fc15d4024d92dbef3efb5a3f33c1362cdee62d9651c9a70e918736d29365efe16d3ef961c0a5aa68d5eec7647949328533b3cec90f8d0a02e1e8a5d1ed1189ab624dd2499a09dcf79da9038ff8d6e1c03727e7bd6d095118350b"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_045",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Which idea is best supported by the passage?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Only cooking is useful volunteer work.</b>",
+        "Students should never help in kitchens.</b>",
+        "Different tasks can all help a community project.</b>",
+        "Volunteers do not need to clean up.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Only cooking is useful volunteer work.</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "C · Đóng gói, ghi nhãn, vệ sinh và giao hàng đều có ích cho dự án.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "1cae1b0198883530",
+      "answer_hash": "162097fd5ca92dca9b0280237ca37a2650d6eba37cf47fe5162e87d100bc2f4d",
+      "solution_iv": "4a8011986173f2e181d0dbd2",
+      "solution_cipher": "1fa6a864d925623a2dabe1a324cfd536ccb142aad287b92514c45394192e0a040dc8a095e2a4b45d788860064d2b7e81853459ec49c6c1889eeca7b5bf6bbb50311a4d4b7ee8e90bffdc5ca545ecb648c929881d33a395d87a0017e3970ae8d13cadac7c8e93a27df77623b621d81c188fe8c33903feb8538f2239ffba850bc05c2e5784d49931dca975f9b03e9266fec75f4892b630f96a9e2f8d1d4eb90862e715698cc02b1cdeb34673ce01f9d8e36440208a2fb8e3f1eb30c86296600b06034dabaac9e703a3f7bb918bfdb09f543aacaa5406d38c62ceaf3ea02eb5d538"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_046",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Which sentence has the same meaning as “My sister enjoys making dollhouses”?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "My sister never makes dollhouses.</b>",
+        "My sister likes making dollhouses.</b>",
+        "My sister dislikes making dollhouses.</b>",
+        "My sister makes dollhouses only for money.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "My sister never makes dollhouses.</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "B · enjoys doing = likes doing trong ngữ cảnh sở thích.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "7f974016f157ba5b",
+      "answer_hash": "c9daa01481ab6ea11ed8aabdc3f78d7ab6ee7b195f370ea474fe34e6b895f203",
+      "solution_iv": "fb7ce7d6ea6aad47175a2956",
+      "solution_cipher": "69a9e666c2b47d89f7c03aa3c4b351eb84ee0e04563a2a420b4352fc02f4eaf142045b093cced4bac66f7c0bc1e819d49d2b0c35417b367ec187d99d68c7ef428b7490ea3410f2348f4d107a9ab4f60891e0446bcce29f7c7b52fea5be1fe99fd66405ffc7a4bb9832d1bfe4c8005d62c6c56ece1034aebc5b696751e13bf114d3aa2791038d816cdc7080c79e6caf7d563c8fc0a492dc541339980d84c6130a2ccb4aa38b270b97f5ee3c4ac601aa38afbbc43d2f08c6f97c911c015498a11d68b673e3601e02"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_047",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>Which question correctly asks about this sentence: “We started the clean-up at nine yesterday”?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "When you started the clean-up?</b>",
+        "When did you started the clean-up?</b>",
+        "When did you start the clean-up?</b>",
+        "When do you started the clean-up?</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "When you started the clean-up?</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "C · Cấu trúc quá khứ đơn: When did + S + V nguyên mẫu?",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "917a52dbdee5c08b",
+      "answer_hash": "8c31fc8d398f93d6cadecea6273d3448f4c0610546be4dbde4c107ed6c617e5c",
+      "solution_iv": "e3fdce8a996a7db8778bb3c2",
+      "solution_cipher": "da9a1cd4b47195b84eb8129e47451e7577242f4dbe586520698b42a7a642702322601572df9d78781618ae56f85132d126786c0e4f3d766a33846086db408532b46bd7d8c2c49408b4de758846cf7cc4e6b2503810d75b1f0cf06f8d3ac537438c277a5aad7cb82a4b4f7ee026a446d549b63d999afaa2862014b6d90011226900688ef37631846fa1b184f657e1a70fab4092787f2f71cb0e4417a89692d537609825e20ca175f257c0457c114d69408eea746937d31f39ef3f43a5f86a92a18b23866cb184b0"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_048",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>“We should wash our hands before meals.” Which sentence means the same?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "It is a good idea to wash our hands before meals.</b>",
+        "We must never wash our hands before meals.</b>",
+        "Washing our hands before meals is a bad idea.</b>",
+        "We always wash our hands after every meal.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "It is a good idea to wash our hands before meals.</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "A · should + V diễn đạt lời khuyên hoặc việc nên làm.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "88bd9efff88f13d3",
+      "answer_hash": "2632e03fb131a5809a528b98726ebdd9bb2b5edfbf1aebb2b9d650f2c2d1d5f0",
+      "solution_iv": "6caf6807fee303d631d61278",
+      "solution_cipher": "0d6ee5c204358908fcebca377ac677c6947e8c039f4787762607a980c412f78b6c0ef69575a3cf5305018fddb74c03d73cb52e5a924a76b3d1b675ddd50e0ea7792598677f5321aff11e85fe015d141f2a71c1968c87cd9056d9f09e4965b0a0c0ed90d48172b21bb790ec93189405e62f28e06ede7c3233768e2ec23b7d217bbcdaf2e915f533585ff4acf1f5c9040a4dfea596451c409ebc5a78439d7cf6eaab495ebd838d15293e08e2e0be66cd904cb4e4c8f06923342ca4de102e9a40e541965ded75b9bebecc59c68519082fff553c8f052ed88b16141549f4"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_049",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "<b>Which sentence is grammatically correct?</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "He enjoy collect coins.</b>",
+        "He enjoys collect coins.</b>",
+        "He enjoying collecting coins.</b>",
+        "He enjoys collecting coins.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "He enjoy collect coins.</b>"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "D · He enjoys + V-ing; chia ngôi thứ ba số ít.",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "3e0e7c6bfe7ee64d",
+      "answer_hash": "ab36bb1db0cf1048f4abeb2eb8b8bb1f2d61d5f9ab665fb29d3ffc39271769e4",
+      "solution_iv": "43da57d8f29ec8e14fcf327d",
+      "solution_cipher": "01713214819d09c5b55c6d90e1be7db5ef12579ca129d388450c941e3bc1a4c5309fdafb16eb2b3cb9f0ded0371a770951201ee71d104944dc3ad574c3975b03d58592f4f752e615c7bc46f4c32094105c47b42867fbbbc20f9e756ffed734239cab2e2547fe280d78123c926f279e6dcaa45305990e16d8f1b104d70f9e93d8925fd225074003cd6830619b3dadc9d9cb9f3cffa00fff9655ed85c9d1e141183a01925a9c5044319aabbf972b11d97f94a45c"
+    },
+    {
+      "question_id": "Q_WS_G07_MID1_50_050",
+      "grade": 7,
+      "unit_id": "G07_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 4,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "<b>Choose the correct negative form of “They gave old books to the library last Friday.”</b>",
+      "passage_or_sign_svg": "",
+      "options": [
+        "They didn’t gave old books to the library last Friday.</b>",
+        "They didn’t give old books to the library last Friday.</b>",
+        "They don’t gave old books to the library last Friday.</b>",
+        "They wasn’t give old books to the library last Friday.</b>"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "They didn’t gave old books to the library last Friday.</b>"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "B · Phủ định quá khứ đơn: didn’t + V nguyên mẫu (give).",
+      "source_worksheet_id": "WS_G07_MID1_50",
+      "crypto_salt": "70c25c0bf60630a4",
+      "answer_hash": "7c1d322d76d0ae35fd39afb124fd31fd463d1adee748e9a1b6dfe784f204728a",
+      "solution_iv": "fddc423cae1dc12980f4e336",
+      "solution_cipher": "fe68cb68559c20f35196245d4a707f3850aed0a1ebe3bed4926672d0289e0ce69d60709b00df73eab52d8ea77506fedb6c7fecc4954ef61fea79edc4507f2685a8d95e7ce8e80ca9a2a85798b5cd155a45e5d371c88a2d2294a36f5a09d399739bc7c3024b58aa270be31e4c6c0ba87605796defe15e31dde13e112c086e5ee35a119391d079067e3742e0f948c248e98d6a17e98f1181ab66bede44b5ba20e925954d7d50f31ac310a238675151929d3e440d3cb8b09e9ff0283b83472bd22c1dfaf3f5502d8bdc8bc3c3a557f49289e63432d94c7b4b21cb18d7ce5b572d12355ba96b7c19"
+    }
+  ]
+}

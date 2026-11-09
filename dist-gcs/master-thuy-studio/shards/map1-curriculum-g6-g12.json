@@ -1,0 +1,544 @@
+[
+  {
+    "unit_id": "G06_U01",
+    "grade": 6,
+    "unit_number": 1,
+    "unit_title": "Unit 1: My New School",
+    "age_band": "EXPLORER_G6_G7",
+    "phonetics_focus": "/ɑː/ and /ʌ/ (smart, art vssubject, study)",
+    "grammar_allowed": [
+      "Present simple (Thì hiện tại đơn)",
+      "Adverbs of frequency (always, usually, often, sometimes, never)"
+    ],
+    "grammar_forbidden": [
+      "Past simple",
+      "Present perfect",
+      "Conditional sentences Type 2/3",
+      "Passive voice"
+    ],
+    "core_vocab": [
+      {
+        "word": "boarding school",
+        "pos": "n",
+        "ipa": "/ˈbɔːdɪŋ skuːl/",
+        "stress": "● •",
+        "meaning_vi": "trường nội trú",
+        "example": "Sunrise is a boarding school in Sydney."
+      },
+      {
+        "word": "calculator",
+        "pos": "n",
+        "ipa": "/ˈkælkjuleɪtə(r)/",
+        "stress": "● • • •",
+        "meaning_vi": "máy tính cầm tay",
+        "example": "I have a new calculator for Maths."
+      },
+      {
+        "word": "compass",
+        "pos": "n",
+        "ipa": "/ˈkʌmpəs/",
+        "stress": "● •",
+        "meaning_vi": "com-pa vẽ hình",
+        "example": "Can I borrow your compass?"
+      },
+      {
+        "word": "remember",
+        "pos": "v",
+        "ipa": "/rɪˈmembə(r)/",
+        "stress": "• ● •",
+        "meaning_vi": "nhớ, ghi nhớ",
+        "example": "Do you remember all your new classmates?"
+      },
+      {
+        "word": "smart",
+        "pos": "adj",
+        "ipa": "/smɑːt/",
+        "stress": "●",
+        "meaning_vi": "bảnh bao, gọn gàng, thông minh",
+        "example": "You look very smart in your new uniform!"
+      }
+    ],
+    "sgk_drive_file_id": "1z4nnbdT7i3u1UcSNYuu-FjM6f2gA2440",
+    "sgv_drive_file_id": "11jHXxUQoHrBW4K-gng5wTSNqVqa4jJfu",
+    "mindmap_drive_file_id": "1-WYDOyb9fHKIQM5i4-eg3lxrJNgeYgeE"
+  },
+  {
+    "unit_id": "G06_U02",
+    "grade": 6,
+    "unit_number": 2,
+    "unit_title": "Unit 2: My House",
+    "age_band": "EXPLORER_G6_G7",
+    "phonetics_focus": "Final /s/ and /z/ (lamps, sinks vsazza, cupboards, rooms)",
+    "grammar_allowed": [
+      "Possessive case ('s - Sở hữu cách)",
+      "Prepositions of place (in, on, under, next to, behind, in front of, between)",
+      "There is / There are"
+    ],
+    "grammar_forbidden": [
+      "Relative clauses",
+      "Reported speech",
+      "Causative have/get"
+    ],
+    "core_vocab": [
+      {
+        "word": "country house",
+        "pos": "n",
+        "ipa": "/ˌkʌntri ˈhaʊs/",
+        "stress": "● • ●",
+        "meaning_vi": "nhà ở vùng quê",
+        "example": "My grandmother lives in a quiet country house."
+      },
+      {
+        "word": "chest of drawers",
+        "pos": "n",
+        "ipa": "/ˌtʃest əv ˈdrɔːz/",
+        "stress": "● • ●",
+        "meaning_vi": "tủ có nhiều ngăn kéo",
+        "example": "The lamp is on the chest of drawers."
+      },
+      {
+        "word": "dishwasher",
+        "pos": "n",
+        "ipa": "/ˈdɪʃwɒʃə(r)/",
+        "stress": "● • •",
+        "meaning_vi": "máy rửa bát",
+        "example": "There is a modern dishwasher in the kitchen."
+      },
+      {
+        "word": "wardrobe",
+        "pos": "n",
+        "ipa": "/ˈwɔːdrəʊb/",
+        "stress": "● •",
+        "meaning_vi": "tủ quần áo",
+        "example": "My clothes are in the wardrobe."
+      }
+    ],
+    "sgk_drive_file_id": "1z4nnbdT7i3u1UcSNYuu-FjM6f2gA2440",
+    "sgv_drive_file_id": "11jHXxUQoHrBW4K-gng5wTSNqVqa4jJfu",
+    "mindmap_drive_file_id": "1-WYDOyb9fHKIQM5i4-eg3lxrJNgeYgeE"
+  },
+  {
+    "unit_id": "G06_U03",
+    "grade": 6,
+    "unit_number": 3,
+    "unit_title": "Unit 3: My Friends",
+    "age_band": "EXPLORER_G6_G7",
+    "phonetics_focus": "/b/ and /p/ (big, bear, blonde vs picnic, patient, polite)",
+    "grammar_allowed": [
+      "Present continuous (Thì hiện tại tiếp diễn)",
+      "Contrast: Present simple vs Present continuous",
+      "Verbs be / have for appearance & personality"
+    ],
+    "grammar_forbidden": [
+      "Past continuous",
+      "Future perfect",
+      "Subjunctive"
+    ],
+    "core_vocab": [
+      {
+        "word": "active",
+        "pos": "adj",
+        "ipa": "/ˈæktɪv/",
+        "stress": "● •",
+        "meaning_vi": "năng động, hăng hái",
+        "example": "Nam is very active in class activities."
+      },
+      {
+        "word": "careful",
+        "pos": "adj",
+        "ipa": "/ˈkeəfl/",
+        "stress": "● •",
+        "meaning_vi": "cẩn thận",
+        "example": "She is always careful when crossing the street."
+      },
+      {
+        "word": "confident",
+        "pos": "adj",
+        "ipa": "/ˈkɒnfɪdənt/",
+        "stress": "● • •",
+        "meaning_vi": "tự tin",
+        "example": "Minh is confident when speaking English."
+      },
+      {
+        "word": "creative",
+        "pos": "adj",
+        "ipa": "/kriˈeɪtɪv/",
+        "stress": "• ● •",
+        "meaning_vi": "sáng tạo",
+        "example": "Lan is very creative; she draws beautiful pictures."
+      },
+      {
+        "word": "hard-working",
+        "pos": "adj",
+        "ipa": "/ˌhɑːd ˈwɜːkɪŋ/",
+        "stress": "• ● •",
+        "meaning_vi": "chăm chỉ",
+        "example": "Our classmates are friendly and hard-working."
+      }
+    ],
+    "sgk_drive_file_id": "1z4nnbdT7i3u1UcSNYuu-FjM6f2gA2440",
+    "sgv_drive_file_id": "11jHXxUQoHrBW4K-gng5wTSNqVqa4jJfu",
+    "mindmap_drive_file_id": "1-WYDOyb9fHKIQM5i4-eg3lxrJNgeYgeE"
+  },
+  {
+    "unit_id": "G07_U01",
+    "grade": 7,
+    "unit_number": 1,
+    "unit_title": "Unit 1: Hobbies",
+    "age_band": "EXPLORER_G6_G7",
+    "phonetics_focus": "/ə/ and /ɜː/ (amazing, collect vs learn, surf, work)",
+    "grammar_allowed": [
+      "Present simple review",
+      "Verbs of liking and disliking (like, love, enjoy, hate + V-ing)"
+    ],
+    "grammar_forbidden": [
+      "Conditional Type 2/3",
+      "Reported speech",
+      "Past perfect"
+    ],
+    "core_vocab": [
+      {
+        "word": "build dollhouses",
+        "pos": "v.phr",
+        "ipa": "/bɪld ˈdɒlhaʊzɪz/",
+        "stress": "● ● • •",
+        "meaning_vi": "xây nhà búp bê",
+        "example": "My sister loves building dollhouses."
+      },
+      {
+        "word": "cardboard",
+        "pos": "n",
+        "ipa": "/ˈkɑːdbɔːd/",
+        "stress": "● •",
+        "meaning_vi": "bìa cứng, các-tông",
+        "example": "She uses cardboard and glue to make models."
+      },
+      {
+        "word": "creativity",
+        "pos": "n",
+        "ipa": "/ˌkriːeɪˈtɪvəti/",
+        "stress": "• • ● • •",
+        "meaning_vi": "sự sáng tạo",
+        "example": "Making models develops your creativity."
+      },
+      {
+        "word": "horse riding",
+        "pos": "n",
+        "ipa": "/ˈhɔːs raɪdɪŋ/",
+        "stress": "● ● •",
+        "meaning_vi": "cưỡi ngựa",
+        "example": "Horse riding is an unusual hobby."
+      }
+    ],
+    "sgk_drive_file_id": "1xvi6pNXb1zWn8dC96U2DD4_bBwUjYFQI",
+    "sgv_drive_file_id": "1xvi6pNXb1zWn8dC96U2DD4_bBwUjYFQI",
+    "mindmap_drive_file_id": "18r8bDTkejED3rzowg74NlwcmSBd1lXVk"
+  },
+  {
+    "unit_id": "G07_U02",
+    "grade": 7,
+    "unit_number": 2,
+    "unit_title": "Unit 2: Healthy Living",
+    "age_band": "EXPLORER_G6_G7",
+    "phonetics_focus": "/f/ and /v/ (food, fit, breakfast vs avoid, vitamin, active)",
+    "grammar_allowed": [
+      "Simple sentences (Câu đơn: S + V, S + V + O, S + V + O + Adv)",
+      "Should / Shouldn't for health advice"
+    ],
+    "grammar_forbidden": [
+      "Complex relative clauses",
+      "Inversion"
+    ],
+    "core_vocab": [
+      {
+        "word": "acne",
+        "pos": "n",
+        "ipa": "/ˈækni/",
+        "stress": "● •",
+        "meaning_vi": "mụn trứng cá",
+        "example": "Washing your face helps prevent acne."
+      },
+      {
+        "word": "chapped lips",
+        "pos": "n.phr",
+        "ipa": "/tʃæpt lɪps/",
+        "stress": "● ●",
+        "meaning_vi": "môi nứt nẻ",
+        "example": "Use lip balm for chapped lips in winter."
+      },
+      {
+        "word": "sunburn",
+        "pos": "n",
+        "ipa": "/ˈsʌnbɜːn/",
+        "stress": "● •",
+        "meaning_vi": "cháy nắng",
+        "example": "Wear a hat to avoid sunburn."
+      }
+    ],
+    "sgk_drive_file_id": "1xvi6pNXb1zWn8dC96U2DD4_bBwUjYFQI",
+    "sgv_drive_file_id": "1xvi6pNXb1zWn8dC96U2DD4_bBwUjYFQI",
+    "mindmap_drive_file_id": "18r8bDTkejED3rzowg74NlwcmSBd1lXVk"
+  },
+  {
+    "unit_id": "G07_U03",
+    "grade": 7,
+    "unit_number": 3,
+    "unit_title": "Unit 3: Community Service",
+    "age_band": "EXPLORER_G6_G7",
+    "phonetics_focus": "Pronunciation of -ed endings: /t/, /d/, /ɪd/ (helped, watered, donated)",
+    "grammar_allowed": [
+      "Past simple (Thì quá khứ đơn với ago, yesterday, last week, in 2020)"
+    ],
+    "grammar_forbidden": [
+      "Present perfect (moved to Grade 9/10 in Global Success)",
+      "Conditionals Type 2/3",
+      "Reported Speech"
+    ],
+    "core_vocab": [
+      {
+        "word": "community service",
+        "pos": "n.phr",
+        "ipa": "/kəˌmjuːnəti ˈsɜːvɪs/",
+        "stress": "• ● • • ● •",
+        "meaning_vi": "dịch vụ cộng đồng, tình nguyện",
+        "example": "Our club does community service every summer."
+      },
+      {
+        "word": "donate",
+        "pos": "v",
+        "ipa": "/dəʊˈneɪt/",
+        "stress": "• ●",
+        "meaning_vi": "quyên góp, hiến tặng",
+        "example": "We donated books and warm clothes to children."
+      },
+      {
+        "word": "nursing home",
+        "pos": "n.phr",
+        "ipa": "/ˈnɜːsɪŋ həʊm/",
+        "stress": "● • •",
+        "meaning_vi": "viện dưỡng lão",
+        "example": "Students visited the elderly at the nursing home."
+      },
+      {
+        "word": "tutor",
+        "pos": "v/n",
+        "ipa": "/ˈtjuːtə(r)/",
+        "stress": "● •",
+        "meaning_vi": "dạy kèm, gia sư",
+        "example": "Lan tutored primary students in Maths."
+      }
+    ],
+    "sgk_drive_file_id": "1xvi6pNXb1zWn8dC96U2DD4_bBwUjYFQI",
+    "sgv_drive_file_id": "1xvi6pNXb1zWn8dC96U2DD4_bBwUjYFQI",
+    "mindmap_drive_file_id": "18r8bDTkejED3rzowg74NlwcmSBd1lXVk"
+  },
+  {
+    "unit_id": "G08_U01",
+    "grade": 8,
+    "unit_number": 1,
+    "unit_title": "Unit 1: Leisure Time & Teenager Life (Units 1-3)",
+    "age_band": "CONQUEROR_G8_G9",
+    "phonetics_focus": "/ʊ/ and /uː/ (book, look, cook vs moon, food, school); /ə/ and /ɪ/",
+    "grammar_allowed": [
+      "Verbs of liking + V-ing / to-V",
+      "Comparative forms of adverbs (more slowly, faster, harder)",
+      "Simple sentences and Compound sentences (and, but, or, so, however, therefore)"
+    ],
+    "grammar_forbidden": [
+      "Inversion",
+      "Mixed conditionals"
+    ],
+    "core_vocab": [
+      {
+        "word": "DIY (do-it-yourself)",
+        "pos": "n",
+        "ipa": "/ˌdiː aɪ ˈwaɪ/",
+        "stress": "• • ●",
+        "meaning_vi": "đồ tự làm thủ công",
+        "example": "My brother is keen on DIY projects."
+      },
+      {
+        "word": "hospitable",
+        "pos": "adj",
+        "ipa": "/hɒˈspɪtəbl/",
+        "stress": "• ● • •",
+        "meaning_vi": "hiếu khách",
+        "example": "People in the countryside are very hospitable."
+      },
+      {
+        "word": "peer pressure",
+        "pos": "n.phr",
+        "ipa": "/ˈpɪə preʃə(r)/",
+        "stress": "● ● •",
+        "meaning_vi": "áp lực đồng trang lứa",
+        "example": "Teens often face peer pressure at school."
+      }
+    ],
+    "sgk_drive_file_id": "1ItrQ10s__dCA-vYuaJG3A5qrXSNz7m8_",
+    "sgv_drive_file_id": "1VRhZiDkz8epbz630J_l5ywoQ-kJYLTpJ",
+    "mindmap_drive_file_id": "1uw3mMaHhCFJqpXTmbmx8Moavm331S6mN"
+  },
+  {
+    "unit_id": "G09_U01",
+    "grade": 9,
+    "unit_number": 1,
+    "unit_title": "Unit 1–3: Local Community, City Life & Healthy Living for Teens",
+    "age_band": "CONQUEROR_G8_G9",
+    "phonetics_focus": "/æ/, /ɑː/, /e/; diphthongs /aʊ/, /əʊ/, /eə/; /h/ and /r/",
+    "grammar_allowed": [
+      "Question words before to-infinitives (know what to do, where to go)",
+      "Phrasal verbs (pass down, live on, get on with, look around, carry out)",
+      "Double comparatives (The more... the more...)",
+      "Modal verbs in first conditional sentences (If + S + V, S + can/must/should/might + V)",
+      "Word Formation (N, V, Adj, Adv, negative prefixes)"
+    ],
+    "grammar_forbidden": [
+      "Unverified ambiguous distractors"
+    ],
+    "core_vocab": [
+      {
+        "word": "artisan",
+        "pos": "n",
+        "ipa": "/ˌɑːtɪˈzæn/",
+        "stress": "• • ●",
+        "meaning_vi": "nghệ nhân thủ công",
+        "example": "Skilled artisans make traditional conical hats."
+      },
+      {
+        "word": "handicraft",
+        "pos": "n",
+        "ipa": "/ˈhændikrɑːft/",
+        "stress": "● • •",
+        "meaning_vi": "sản phẩm thủ công mỹ nghệ",
+        "example": "Bat Trang is famous for its ceramic handicrafts."
+      },
+      {
+        "word": "concrete jungle",
+        "pos": "n.phr",
+        "ipa": "/ˌkɒŋkriːt ˈdʒʌŋɡl/",
+        "stress": "● • ● •",
+        "meaning_vi": "rừng bê tông (đô thị chật chội)",
+        "example": "Big cities can feel like a concrete jungle."
+      },
+      {
+        "word": "well-balanced",
+        "pos": "adj",
+        "ipa": "/ˌwel ˈbælənst/",
+        "stress": "• ● •",
+        "meaning_vi": "cân bằng, điều độ",
+        "example": "Students need a well-balanced life and diet."
+      }
+    ],
+    "sgk_drive_file_id": "1XBQSyFJ_kOJ17uWgCwyWUK3eFrTqvozK",
+    "sgv_drive_file_id": "1_V6OSYznQE3mlrkjPBcwUyX1vJlDcXxq",
+    "mindmap_drive_file_id": "19WqGkyNuyrL_dyHlXhnp7vDOYKvpRGGi"
+  },
+  {
+    "unit_id": "G10_U01",
+    "grade": 10,
+    "unit_number": 1,
+    "unit_title": "Unit 1–3: Family Life, Humans and the Environment, Music",
+    "age_band": "ACADEMIC_G10_G12",
+    "phonetics_focus": "Consonant clusters /br/, /kr/, /tr/, /kl/, /pl/, /ɡr/, /pr/; 2-syllable stress",
+    "grammar_allowed": [
+      "Present simple vs Present continuous",
+      "Future with will vs be going to",
+      "Passive voice (Câu bị động)",
+      "Compound sentences & To-infinitives vs Bare infinitives"
+    ],
+    "grammar_forbidden": [],
+    "core_vocab": [
+      {
+        "word": "breadwinner",
+        "pos": "n",
+        "ipa": "/ˈbredwɪnə(r)/",
+        "stress": "● • •",
+        "meaning_vi": "trụ cột gia đình",
+        "example": "Both parents can be breadwinners today."
+      },
+      {
+        "word": "carbon footprint",
+        "pos": "n.phr",
+        "ipa": "/ˌkɑːbən ˈfʊtprɪnt/",
+        "stress": "● • ● •",
+        "meaning_vi": "dấu chân carbon (lượng khí thải)",
+        "example": "Cycling helps reduce our carbon footprint."
+      }
+    ],
+    "sgk_drive_file_id": "1WPGpOwHRRG1PklJofpoHCkfaaMf07Qoa",
+    "sgv_drive_file_id": "1WPGpOwHRRG1PklJofpoHCkfaaMf07Qoa",
+    "mindmap_drive_file_id": "12Y9OdPnabJJTr75EIVsrKxXBjidQr4BG"
+  },
+  {
+    "unit_id": "G11_U01",
+    "grade": 11,
+    "unit_number": 1,
+    "unit_title": "Unit 1–3: A Long & Healthy Life, Generation Gap, Cities of the Future",
+    "age_band": "ACADEMIC_G10_G12",
+    "phonetics_focus": "Strong and weak forms of auxiliary verbs; Word stress (2-syllable & 3-syllable)",
+    "grammar_allowed": [
+      "Past simple vs Present perfect",
+      "Modal verbs: must, have to, should, ought to",
+      "Stative verbs in continuous form & Linking verbs (look, sound, seem, taste, feel + adj)",
+      "Causative structures: HAVE / GET something done"
+    ],
+    "grammar_forbidden": [],
+    "core_vocab": [
+      {
+        "word": "life expectancy",
+        "pos": "n.phr",
+        "ipa": "/ˈlaɪf ɪkspektənsi/",
+        "stress": "● • ● • •",
+        "meaning_vi": "tuổi thọ trung bình",
+        "example": "Regular exercise increases life expectancy."
+      },
+      {
+        "word": "generation gap",
+        "pos": "n.phr",
+        "ipa": "/ˌdʒenəˈreɪʃn ɡæp/",
+        "stress": "• • ● • ●",
+        "meaning_vi": "khoảng cách thế hệ",
+        "example": "Open communication bridges the generation gap."
+      },
+      {
+        "word": "sustainable",
+        "pos": "adj",
+        "ipa": "/səˈsteɪnəbl/",
+        "stress": "• ● • •",
+        "meaning_vi": "bền vững",
+        "example": "Smart cities use sustainable energy sources."
+      }
+    ],
+    "sgk_drive_file_id": "13zw6zymAIg5te68_Sl7Ej8mYd7jv8vYq",
+    "sgv_drive_file_id": "13zw6zymAIg5te68_Sl7Ej8mYd7jv8vYq",
+    "mindmap_drive_file_id": "1dSY0nQONYAem5cnWuOZWbhj7pC_WPhjX"
+  },
+  {
+    "unit_id": "G12_U01",
+    "grade": 12,
+    "unit_number": 1,
+    "unit_title": "Unit 1–3: Life Stories, Multicultural World, Green Living & Exam Mastery",
+    "age_band": "ACADEMIC_G10_G12",
+    "phonetics_focus": "Diphthongs & Connected speech; Advanced Word Stress",
+    "grammar_allowed": [
+      "Past simple vs Past continuous",
+      "Articles (a, an, the, zero article)",
+      "Relative clauses referring to a whole sentence (which)",
+      "Causative GET & HAVE (Active & Passive)"
+    ],
+    "grammar_forbidden": [],
+    "core_vocab": [
+      {
+        "word": "cultural diversity",
+        "pos": "n.phr",
+        "ipa": "/ˌkʌltʃərəl daɪˈvɜːsəti/",
+        "stress": "● • • • ● • •",
+        "meaning_vi": "sự đa dạng văn hóa",
+        "example": "Festivals celebrate cultural diversity."
+      }
+    ],
+    "sgk_drive_file_id": "1bH-cQxURZCxiYPviRrSWo6_C2t2FvOud",
+    "sgv_drive_file_id": "1t7TL-N13_QcdSnqZCOxn7K81tELjLqLB",
+    "mindmap_drive_file_id": ""
+  }
+]

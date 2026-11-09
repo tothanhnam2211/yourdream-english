@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Góc Học Tập Học Sinh | MASTER THÚY — English Studio v2.0</title>
+  <link rel="icon" href="../favicon.ico" />
+  <link rel="stylesheet" href="../shared/css/studio.css" />
+  <script src="../shared/js/hybrid-cloud-engine.js"></script>
+</head>
+<body class="theme-explorer-g6-g7" id="studentBody">
+  <!-- TOP NAVIGATION -->
+  <header class="studio-topbar">
+    <div class="brand-cluster">
+      <a href="../index.html" class="brand-monogram" title="Về trang chủ">MT</a>
+      <div class="brand-titles">
+        <h1 id="studentPortalHeaderTitle">Góc Học Tập Tiếng Anh — Cô Thúy (v2.0)</h1>
+        <p id="studentPsychologySubtitle">Hành trình Khám phá (Khối 6–7) · Học vui, nhớ lâu, không sợ ngữ pháp</p>
+      </div>
+    </div>
+
+    <!-- QUICK DEMO STUDENT SWITCHER (SO USER/TEACHER CAN TEST ALL 3 AGE THEMES IN 1 CLICK) -->
+    <div class="nav-pills">
+      <button class="nav-pill active" id="demoBtn6" onclick="loginAsStudent('MT601', 'Nguyễn Minh Anh', 6, 'Lớp 6A - Khám Phá')">🌱 HS Lớp 6 (MT601)</button>
+      <button class="nav-pill" id="demoBtn7" onclick="loginAsStudent('MT701', 'Trần Hoàng Nam', 7, 'Lớp 7B - Vững Gốc')">🌿 HS Lớp 7 (MT701)</button>
+      <button class="nav-pill" id="demoBtn9" onclick="loginAsStudent('MT901', 'Lê Bảo Ngọc', 9, 'Lớp 9A - Săn 9-10 Vào 10')">🔥 HS Lớp 9 (MT901)</button>
+      <button class="nav-pill" id="demoBtn11" onclick="loginAsStudent('MT1101', 'Phạm Quốc Khánh', 11, 'Lớp 11A - Học Thuật THPT')">🎓 HS Lớp 11 (MT1101)</button>
+      <a href="../teacher/index.html" class="nav-pill">👩‍🏫 Về Phòng Cô Thúy</a>
+    </div>
+  </header>
+
+  <main class="studio-container">
+    <!-- STUDENT PROFILE & AGE-ADAPTED BANNER -->
+    <section id="studentHeroBanner" style="background: var(--primary); color: #fff; border-radius: var(--radius-lg); padding: 1.35rem 1.5rem; margin-bottom: 1.4rem; box-shadow: var(--shadow-soft);">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+        <div>
+          <span id="ageBadgeText" style="background:rgba(255,255,255,0.2); padding:0.25rem 0.75rem; border-radius:999px; font-size:0.8rem; font-weight:700;">
+            🌱 Giao diện Khối 6–7: Hành trình Khám phá
+          </span>
+          <h2 style="margin:0.45rem 0 0.2rem;" id="studentWelcomeName">Xin chào Nguyễn Minh Anh (Mã HS: MT601 · Lớp 6A)!</h2>
+          <p style="margin:0; opacity:0.92; font-size:0.92rem;" id="studentMascotCheer">
+            🌟 Chuỗi chăm chỉ: <strong>5 ngày liên tiếp</strong> · Cơ chế làm bài 2 pha: Em hãy chọn/nhập hết đáp án rồi bấm <strong>Nộp bài</strong> để xem điểm và lời giải 7 nhóm bẫy của Cô Thúy!
+          </p>
+        </div>
+
+        <!-- STUDENT LOGIN / SWITCH BOX -->
+        <div style="background:rgba(255,255,255,0.14); padding:0.75rem 1rem; border-radius:14px; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+          <input type="text" id="loginCodeInput" placeholder="Mã HS (VD: MT601)" style="width:120px; padding:0.45rem 0.65rem; border-radius:8px; border:none; font-weight:700;" />
+          <input type="password" id="loginPinInput" placeholder="PIN (1234)" value="1234" style="width:85px; padding:0.45rem 0.65rem; border-radius:8px; border:none;" />
+          <button class="btn btn-accent" onclick="handleManualLogin()">Đổi HS</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- STUDENT TABS -->
+    <div class="filter-bar">
+      <button class="grade-tab active" onclick="switchStudentSection('sec-exam', this)">📝 Làm Phiếu Bài Tập Online (20 Bộ Đề)</button>
+      <button class="grade-tab" onclick="switchStudentSection('sec-mindmap-student', this)">🧠 Sơ Đồ Tư Duy [ ? ] & Từ Vựng IPA (🇬🇧/🇺🇸)</button>
+      <button class="grade-tab" onclick="switchStudentSection('sec-doctor', this)">🩺 Sổ Tay Bác Sĩ Ngữ Pháp</button>
+
+      <!-- AGE-SPECIFIC POWER TOOLS IN TOOLBAR -->
+      <div style="margin-left:auto; display:flex; gap:0.45rem; flex-wrap:wrap;">
+        <button class="btn" id="signalXrayBtn" onclick="toggleSignalXray()">🔍 Bắt từ khóa 5s</button>
+        <button class="btn" id="splitReadingBtn" onclick="toggleSplitReadingLayout()">📖 Chia 2 cột Đọc hiểu</button>
+        <button class="btn" id="studentAccentBtn" onclick="toggleStudentAccent()">🇬🇧 Anh-Anh (UK)</button>
+        <button class="btn" id="studentSlowAudioBtn" onclick="toggleStudentSlowAudio()">🔊 Tốc độ 1.0x</button>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         SECTION 1: INTERACTIVE 2-PHASE EXAM PLAYER (OFFLINE-FIRST AUTO-SAVE)
+         ==================================================================== -->
+    <section id="sec-exam" class="tab-section active">
+      <div style="background:#fff; border:1px solid var(--border); border-radius:var(--radius-md); padding:1rem 1.2rem; margin-bottom:1.2rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.85rem;">
+        <div style="display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap;">
+          <strong>Chọn phiếu bài tập cô Thúy giao:</strong>
+          <select id="studentWorksheetSelect" onchange="loadStudentWorksheet(this.value)" style="padding:0.55rem 0.9rem; border-radius:10px; border:1px solid var(--border); font-weight:700; min-width:310px;"></select>
+        </div>
+        <div style="display:flex; align-items:center; gap:0.7rem; flex-wrap:wrap;">
+          <span class="badge badge-preview" id="examPhaseBadge">⏳ Pha 1: Đang làm bài (Ẩn đáp án)</span>
+          <span class="badge badge-ready" id="autoSaveBadge">💾 Tự động lưu trên máy</span>
+          <span class="badge badge-grade" id="progressCounterBadge">Đã làm: 0 / 0 câu</span>
+          <button class="btn btn-primary" onclick="submitStudentExam()">🚀 Nộp bài & Xem lời giải của Cô Thúy</button>
+        </div>
+      </div>
+
+      <!-- SCORE & FEEDBACK BANNER AFTER SUBMIT (PHASE 2) -->
+      <div id="studentScoreBanner" style="display:none; background:#ecfdf5; border:2px solid #10b981; border-radius:18px; padding:1.25rem; margin-bottom:1.25rem;"></div>
+
+      <!-- SPLIT-SCREEN OR SINGLE-COLUMN EXAM STAGE -->
+      <div class="exam-split-layout" id="examSplitContainer">
+        <!-- LEFT STICKY READING PANE (VISIBLE IN SPLIT MODE FOR GRADES 10-12) -->
+        <aside class="reading-sticky-pane" id="readingStickyPane" style="display:none;">
+          <span class="badge badge-grade">📖 Bài Đọc Hiểu / Ngữ Cảnh Trọng Tâm (Cố định cột trái)</span>
+          <h3 style="margin:0.5rem 0;">Reading Passage & Grammar Context</h3>
+          <p style="font-size:0.95rem; line-height:1.7;">
+            In modern education, mastering English is not just about memorizing isolated rules—it is about recognizing <strong>context signals</strong> and communicating ideas clearly. While younger learners build habits through daily routines (<em>every day, usually, at the moment</em>), high school students analyze how clauses connect, how passive and causative structures shift focus (<em>have something done</em>), and how academic vocabulary conveys precise meaning.
+          </p>
+          <div style="background:var(--bg-subtle); padding:0.85rem; border-radius:10px; font-size:0.86rem;">
+            💡 <strong>Mẹo làm bài Đọc hiểu Khối 10–12 của Cô Thúy:</strong><br/>
+            Giữ nguyên đoạn văn ở cột trái, mắt dò từ khóa câu hỏi ở cột phải để không phải cuộn trang lên xuống!
+          </div>
+        </aside>
+
+        <!-- QUESTIONS LIST -->
+        <div id="studentQuestionsContainer"></div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 2: STUDENT MINDMAP [ ? ] SELF-CHECK & FOLDABLE IPA WORDLIST
+         ==================================================================== -->
+    <section id="sec-mindmap-student" class="tab-section">
+      <div class="mindmap-stage">
+        <div class="mindmap-center-banner">
+          <div>
+            <h3 style="margin:0;">🧠 Sơ Đồ Tư Duy Ngữ Pháp — Tự Bấm Mở Ô [ ? ] Để Nhớ Bài Ngay Tại Lớp</h3>
+            <p style="margin:0.2rem 0 0; font-size:0.86rem; opacity:0.92;">Em hãy tự nhẩm công thức trong đầu trước khi bấm vào ô màu vàng <strong>[ ? ]</strong> nhé!</p>
+          </div>
+          <select id="studentMmSelect" onchange="renderStudentMindmap()" style="padding:0.5rem 0.85rem; border-radius:10px; border:none; font-weight:700;"></select>
+        </div>
+        <div id="studentMindmapBody"></div>
+      </div>
+
+      <!-- STUDENT FOLDABLE 2-COLUMN IPA WORDLIST WITH UK/US SPEAKERS -->
+      <div style="background:#fff; border:1px solid var(--border); border-radius:18px; padding:1.3rem;">
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.8rem; margin-bottom:1rem;">
+          <div>
+            <h3 style="margin:0;">📄 Bảng Từ Vựng Gấp Đôi Tự Dò Nghĩa & Luyện Phát Âm IPA (🇬🇧 Anh-Anh / 🇺🇸 Anh-Mỹ)</h3>
+            <p style="margin:0.2rem 0 0; font-size:0.86rem; color:var(--text-muted);">Bấm nút "Gấp cột nghĩa Tiếng Việt" để tự kiểm tra trí nhớ từ vựng!</p>
+          </div>
+          <button class="btn btn-primary" onclick="document.querySelectorAll('#studentVocabGrid .foldable-sheet').forEach(el=>el.classList.toggle('folded'))">
+            📄 Gấp / Mở cột nghĩa Tiếng Việt
+          </button>
+        </div>
+        <div id="studentVocabGrid" class="card-grid"></div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         SECTION 3: BÁC SĨ NGỮ PHÁP (PERSONALIZED MISTAKE NOTEBOOK)
+         ==================================================================== -->
+    <section id="sec-doctor" class="tab-section">
+      <div style="background:#fff; border:1px solid var(--border); border-radius:18px; padding:1.35rem;">
+        <h3 style="margin-top:0;">🩺 Sổ Tay "Bác Sĩ Ngữ Pháp" Của Riêng Em</h3>
+        <p style="color:var(--text-muted); font-size:0.9rem;">
+          Mỗi khi em làm sai một câu khi bấm Nộp bài, Bác sĩ Ngữ pháp sẽ tự động ghi lại <strong>Mẹo 5 giây của Cô Thúy</strong> theo đúng 7 nhóm bẫy phòng thi để em không bao giờ mắc lại bẫy đó nữa!
+        </p>
+        <div id="grammarDoctorList" class="card-grid"></div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    let currentStudent = {
+      code: 'MT601',
+      name: 'Nguyễn Minh Anh',
+      grade: 6,
+      className: 'Lớp 6A - Khám Phá'
+    };
+    let catalogList = [];
+    let currentWorksheet = null;
+    let currentQuestions = [];
+    let studentMcqAnswers = {};     // { question_id: optionIndex }
+    let studentWrittenAnswers = {}; // { question_id: string }
+    let isSubmitted = false;        // STRICT 2-PHASE LOCK: false = Phase 1, true = Phase 2
+    let signalXrayActive = false;
+    let splitReadingActive = false;
+    let map1Data = [];
+    let map2TrapLookup = {};
+    let map3Data = [];
+
+    function toRelativeShardUrl(shardPath) {
+      if (!shardPath) return '';
+      return `../${shardPath.replace(/^\/+/, '')}`;
+    }
+
+    async function initStudentPortal() {
+      await window.MT_HYBRID.detectEnvironment();
+
+      const params = new URLSearchParams(window.location.search);
+      const demoCode = params.get('demo');
+      const requestedWs = params.get('ws');
+      const requestedGrade = params.get('grade');
+
+      if (demoCode === 'MT701') loginAsStudent('MT701', 'Trần Hoàng Nam', 7, 'Lớp 7B - Vững Gốc');
+      else if (demoCode === 'MT901') loginAsStudent('MT901', 'Lê Bảo Ngọc', 9, 'Lớp 9A - Săn 9-10 Vào 10');
+      else if (demoCode === 'MT1101') loginAsStudent('MT1101', 'Phạm Quốc Khánh', 11, 'Lớp 11A - Học Thuật THPT');
+      else if (requestedGrade && Number(requestedGrade) >= 10) loginAsStudent('MT1101', 'Phạm Quốc Khánh', Number(requestedGrade), `Lớp ${requestedGrade}A - THPT`);
+      else if (requestedGrade && Number(requestedGrade) >= 8) loginAsStudent('MT901', 'Lê Bảo Ngọc', Number(requestedGrade), `Lớp ${requestedGrade}A - Bứt Phá`);
+
+      try {
+        const [catRes, m1Res, m2Res, m3Res] = await Promise.all([
+          fetch('../shards/worksheets-catalog.json').then(r => r.json()),
+          fetch('../shards/maps/map1-curriculum-g6-g12.json').then(r => r.json()),
+          fetch('../shards/maps/map2-traps-and-levels.json').then(r => r.json()),
+          fetch('../shards/maps/map3-grammar-mindmaps.json').then(r => r.json())
+        ]);
+        catalogList = catRes.curated_sets || catRes.worksheets || [];
+        map1Data = Array.isArray(m1Res) ? m1Res : (m1Res.units || []);
+        const trapsArr = Array.isArray(m2Res) ? m2Res : (m2Res.traps || []);
+        trapsArr.forEach(t => { map2TrapLookup[t.trap_code] = t; });
+        map3Data = Array.isArray(m3Res) ? m3Res : (m3Res.mindmaps || []);
+
+        populateStudentWorksheets(requestedWs);
+        initStudentMindmapSelect();
+        renderStudentVocabCards();
+        renderGrammarDoctorNotebook();
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    function applyAgePsychologyTheme(grade) {
+      const body = document.getElementById('studentBody');
+      body.classList.remove('theme-explorer-g6-g7', 'theme-conqueror-g8-g9', 'theme-academic-g10-g12');
+
+      const badge = document.getElementById('ageBadgeText');
+      const subtitle = document.getElementById('studentPsychologySubtitle');
+      const cheer = document.getElementById('studentMascotCheer');
+
+      if (grade <= 7) {
+        body.classList.add('theme-explorer-g6-g7');
+        badge.textContent = `🌱 Giao diện Khối ${grade}: Hành Trình Khám Phá (Thân thiện, dễ nhớ)`;
+        subtitle.textContent = 'Hành trình Khám phá (Khối 6–7) · Chia nhỏ mục tiêu · Nghe phát âm IPA chuẩn 🇬🇧/🇺🇸';
+        cheer.innerHTML = '🌟 <strong>Trợ lý Cú Mèo của Cô Thúy:</strong> "Em hãy chọn/nhập hết câu trả lời rồi bấm Nộp bài để mở khóa huy hiệu Siêu Từ Vựng nhé!"';
+        if (splitReadingActive) toggleSplitReadingLayout(false);
+      } else if (grade <= 9) {
+        body.classList.add('theme-conqueror-g8-g9');
+        badge.textContent = `🔥 Giao diện Khối ${grade}: Đấu Trường Bứt Phá 9+ (Săn bẫy phòng thi)`;
+        subtitle.textContent = 'Đấu trường Bứt phá (Khối 8–9) · Bắt từ khóa 5 giây · Chinh phục kỳ thi vào 10';
+        cheer.innerHTML = '⚡ <strong>Chế độ Săn Điểm 9–10:</strong> Em hãy bật nút <strong>"🔍 Bắt từ khóa 5s"</strong> trên thanh công cụ để luyện phản xạ nhận diện thì và bẫy ngữ pháp!';
+        if (splitReadingActive) toggleSplitReadingLayout(false);
+      } else {
+        body.classList.add('theme-academic-g10-g12');
+        badge.textContent = `🎓 Giao diện Khối ${grade}: Không Gian Học Thuật THPT (Chia đôi màn hình Reading)`;
+        subtitle.textContent = 'Tư duy Học thuật THPT (Khối 10–12) · Chia 2 cột Đọc hiểu · Luyện thi Tốt nghiệp THPT';
+        cheer.innerHTML = '📖 <strong>Chế độ THPT Chuyên nghiệp:</strong> Đã tự động bật <strong>Màn hình 2 cột (Bài đọc bên trái — Câu hỏi bên phải)</strong> giúp em làm bài Đọc hiểu nhanh gấp đôi!';
+        if (!splitReadingActive) toggleSplitReadingLayout(true);
+      }
+    }
+
+    function loginAsStudent(code, name, grade, className) {
+      currentStudent = { code, name, grade, className };
+      document.getElementById('studentWelcomeName').textContent = `Xin chào ${name} (Mã HS: ${code} · ${className})!`;
+      document.getElementById('loginCodeInput').value = code;
+
+      document.querySelectorAll('.studio-topbar .nav-pill').forEach(b => b.classList.remove('active'));
+      if (grade === 6) document.getElementById('demoBtn6')?.classList.add('active');
+      else if (grade === 7) document.getElementById('demoBtn7')?.classList.add('active');
+      else if (grade === 8 || grade === 9) document.getElementById('demoBtn9')?.classList.add('active');
+      else document.getElementById('demoBtn11')?.classList.add('active');
+
+      applyAgePsychologyTheme(grade);
+      if (catalogList.length) populateStudentWorksheets();
+      if (map1Data.length) renderStudentVocabCards();
+    }
+
+    function handleManualLogin() {
+      const code = (document.getElementById('loginCodeInput').value || 'MT601').trim().toUpperCase();
+      if (code.startsWith('MT7')) loginAsStudent(code, 'Học sinh Khối 7 (' + code + ')', 7, 'Lớp 7B');
+      else if (code.startsWith('MT8')) loginAsStudent(code, 'Học sinh Khối 8 (' + code + ')', 8, 'Lớp 8A');
+      else if (code.startsWith('MT9')) loginAsStudent(code, 'Học sinh Khối 9 (' + code + ')', 9, 'Lớp 9A');
+      else if (code.startsWith('MT10') || code.startsWith('MT11') || code.startsWith('MT12')) loginAsStudent(code, 'Học sinh THPT (' + code + ')', 11, 'Lớp 11A');
+      else loginAsStudent(code, 'Học sinh Khối 6 (' + code + ')', 6, 'Lớp 6A');
+    }
+
+    function populateStudentWorksheets(preferredWsId) {
+      const sel = document.getElementById('studentWorksheetSelect');
+      const sorted = [...catalogList].sort((a, b) => {
+        const aMatch = Number(a.grade) === Number(currentStudent.grade) ? 0 : 1;
+        const bMatch = Number(b.grade) === Number(currentStudent.grade) ? 0 : 1;
+        return aMatch - bMatch;
+      });
+
+      sel.innerHTML = sorted.map(w => `
+        <option value="${w.worksheet_id}" ${w.worksheet_id === preferredWsId ? 'selected' : ''}>
+          [Khối ${w.grade}] ${w.title} (${w.question_count} câu)
+        </option>
+      `).join('');
+
+      const targetId = preferredWsId || (sorted[0] && sorted[0].worksheet_id);
+      if (targetId) loadStudentWorksheet(targetId);
+    }
+
+    async function loadStudentWorksheet(wsId) {
+      const ws = catalogList.find(w => w.worksheet_id === wsId) || catalogList[0];
+      if (!ws) return;
+      currentWorksheet = ws;
+      isSubmitted = false; // Reset to Phase 1
+      document.getElementById('studentScoreBanner').style.display = 'none';
+      const phaseBadge = document.getElementById('examPhaseBadge');
+      phaseBadge.className = 'badge badge-preview';
+      phaseBadge.textContent = '🛡️ Pha 1: Khóa Đáp Án HMAC-SHA256 (Chống F12)';
+
+      const mcqKey = `mt_ans_mcq_${currentStudent.code}_${ws.worksheet_id}`;
+      const wrKey = `mt_ans_wr_${currentStudent.code}_${ws.worksheet_id}`;
+      studentMcqAnswers = JSON.parse(localStorage.getItem(mcqKey) || '{}');
+      studentWrittenAnswers = JSON.parse(localStorage.getItem(wrKey) || '{}');
+
+      try {
+        const res = await fetch(toRelativeShardUrl(ws.shard_json_path));
+        const shard = await res.json();
+        currentQuestions = shard.questions || [];
+        if (window.ZeroLeakAssessment && window.ZeroLeakAssessment.sealQuestionsPhase1) {
+          await window.ZeroLeakAssessment.sealQuestionsPhase1(currentQuestions);
+        }
+        renderQuestionsList();
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    function highlightSignalsInStem(stemText, signals) {
+      if (!signalXrayActive) return stemText;
+      let out = stemText;
+      const defaultSignals = ['every day', 'usually', 'always', 'often', 'now', 'at the moment', 'look!', 'listen!', 'yesterday', 'last ', 'ago', 'since', 'for ', 'tomorrow', 'next ', 'have', 'get', 'by '];
+      const allSigs = [...new Set([...(signals || []), ...defaultSignals])];
+      allSigs.forEach(sig => {
+        if (!sig || sig.length < 3) return;
+        const reg = new RegExp(`(${sig.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+        out = out.replace(reg, `<span class="signal-xray-hit" title="Từ khóa dấu hiệu nhận biết!">$1</span>`);
+      });
+      return out;
+    }
+
+    function evaluateSingleQuestion(q) {
+      const chosenIdx = studentMcqAnswers[q.question_id];
+      const writtenVal = (studentWrittenAnswers[q.question_id] || '').trim();
+      const correctOptText = (q.options || [])[q.correct_index] || '';
+
+      const mcqCorrect = chosenIdx === q.correct_index;
+      const writtenCorrect = writtenVal
+        ? window.MT_HYBRID.isWrittenAnswerCorrect(writtenVal, q.written_answers, correctOptText)
+        : false;
+
+      return {
+        isAnswered: chosenIdx !== undefined || writtenVal.length > 0,
+        isCorrect: mcqCorrect || writtenCorrect,
+        chosenIdx,
+        writtenVal
+      };
+    }
+
+    function updateProgressBadge() {
+      let answeredCount = 0;
+      currentQuestions.forEach(q => {
+        if (evaluateSingleQuestion(q).isAnswered) answeredCount++;
+      });
+      document.getElementById('progressCounterBadge').textContent = `Đã làm: ${answeredCount} / ${currentQuestions.length} câu`;
+    }
+
+    function renderQuestionsList() {
+      const container = document.getElementById('studentQuestionsContainer');
+      const letters = ['A', 'B', 'C', 'D'];
+      updateProgressBadge();
+
+      container.innerHTML = currentQuestions.map((q, idx) => {
+        const evalRes = evaluateSingleQuestion(q);
+        const chosenIdx = evalRes.chosenIdx;
+        const writtenVal = evalRes.writtenVal;
+        const isCorrect = evalRes.isCorrect;
+
+        const optionsHtml = (q.options || []).map((optText, oIdx) => {
+          const isSelected = chosenIdx === oIdx;
+          let borderStyle = 'border: 2px solid var(--border); background: #fff;';
+          // STRICT 2-PHASE DISPLAY:
+          // Phase 1 (!isSubmitted): Only highlight student's selection in teal; NEVER leak correct/wrong!
+          if (!isSubmitted) {
+            if (isSelected) {
+              borderStyle = 'border: 2px solid var(--primary); background: var(--primary-light); font-weight: 700;';
+            }
+          } else {
+            // Phase 2 (isSubmitted): Show green for correct answer, red strike-through for wrong choice
+            if (oIdx === q.correct_index) {
+              borderStyle = 'border: 2px solid #16a34a; background: #dcfce7; font-weight: 800; color: #166534;';
+            } else if (isSelected && oIdx !== q.correct_index) {
+              borderStyle = 'border: 2px solid #dc2626; background: #fee2e2; color: #991b1b; text-decoration: line-through;';
+            }
+          }
+
+          return `
+            <button
+              onclick="selectStudentOption('${q.question_id}', ${oIdx})"
+              style="${borderStyle} padding: 0.7rem 0.95rem; border-radius: 12px; text-align: left; cursor: pointer; font-size: 0.95rem; transition: all 0.12s;"
+            >
+              <strong>${letters[oIdx]}.</strong> ${optText}
+            </button>
+          `;
+        }).join('');
+
+        // Optional Written Input Row for Fill-in-the-blank / Error Fix / Rewrite items
+        const showWrittenBox = q.answer_mode === 'BOTH' || q.answer_mode === 'WRITTEN' || q.skill_domain === 'ERROR_FIX' || q.skill_domain === 'WORD_FORM';
+        const writtenRowHtml = showWrittenBox ? `
+          <div class="written-answer-row">
+            <span style="font-size:0.84rem; font-weight:700; color:var(--primary);">✍️ Hoặc tự gõ đáp án (Chấp nhận viết tắt don't = do not, isn't = is not):</span>
+            <input
+              type="text"
+              class="written-answer-input"
+              value="${writtenVal.replace(/"/g, '&quot;')}"
+              placeholder="Gõ từ/cụm từ trả lời vào đây..."
+              ${isSubmitted ? 'readonly' : ''}
+              oninput="handleWrittenInput('${q.question_id}', this.value)"
+            />
+          </div>
+        ` : '';
+
+        // Phase 2 Trap & Pedagogical Explanation Box (linked to map2-traps-and-levels.json)
+        let explanationHtml = '';
+        if (isSubmitted) {
+          const trapObj = map2TrapLookup[q.trap_code] || null;
+          const trapTipHtml = trapObj ? `
+            <div style="margin-top:0.45rem; padding-top:0.45rem; border-top:1px dashed ${isCorrect ? '#86efac' : '#fca5a5'}; color:#92400e; font-size:0.84rem;">
+              🎯 <strong>${trapObj.title_vi} (${trapObj.trap_code}):</strong> ${trapObj.quick_rule_5s}
+            </div>
+          ` : '';
+
+          explanationHtml = `
+            <div style="margin-top: 0.85rem; padding: 0.85rem 1rem; border-radius: 12px; background: ${isCorrect ? '#f0fdf4' : '#fef2f2'}; border: 1px solid ${isCorrect ? '#86efac' : '#fca5a5'}; font-size: 0.88rem;">
+              <div>
+                <strong>${isCorrect ? '🎉 Chính xác!' : `💡 Đáp án đúng là ${letters[q.correct_index]} (${(q.options || [])[q.correct_index]}):`}</strong>
+                ${q.explanation_vi || 'Hãy chú ý dấu hiệu ngữ pháp trong câu nhé!'}
+              </div>
+              ${trapTipHtml}
+            </div>
+          `;
+        }
+
+        const safeStemSpeech = (q.stem_text + ' ' + (q.options || []).join(', ')).replace(/'/g, "\\'");
+
+        return `
+          <div class="ws-card" style="margin-bottom: 1rem;">
+            <div>
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.45rem; flex-wrap:wrap; gap:0.4rem;">
+                <span class="badge badge-grade">Câu ${idx + 1} / ${currentQuestions.length} · ${q.skill_domain || 'GRAMMAR'}</span>
+                <div style="display:flex; gap:0.35rem;">
+                  <button class="btn" style="padding:0.2rem 0.52rem; font-size:0.76rem;" onclick="window.MT_HYBRID.speakEnglish('${safeStemSpeech}', 'en-GB')" title="Nghe giọng Anh-Anh (UK)">🇬🇧 Nghe UK</button>
+                  <button class="btn" style="padding:0.2rem 0.52rem; font-size:0.76rem;" onclick="window.MT_HYBRID.speakEnglish('${safeStemSpeech}', 'en-US')" title="Nghe giọng Anh-Mỹ (US)">🇺🇸 Nghe US</button>
+                </div>
+              </div>
+              <div style="font-size: 1.04rem; font-weight: 600; margin-bottom: 0.65rem;">
+                ${highlightSignalsInStem(q.stem_text, q.signal_keywords)}
+              </div>
+              ${q.passage_or_sign_svg || ''}
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0.6rem;">
+                ${optionsHtml}
+              </div>
+              ${writtenRowHtml}
+              ${explanationHtml}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function selectStudentOption(questionId, optionIndex) {
+      if (isSubmitted) return; // Phase 2 locked until retry
+      studentMcqAnswers[questionId] = optionIndex;
+      const mcqKey = `mt_ans_mcq_${currentStudent.code}_${currentWorksheet.worksheet_id}`;
+      localStorage.setItem(mcqKey, JSON.stringify(studentMcqAnswers));
+
+      document.getElementById('autoSaveBadge').textContent = '💾 Đã lưu tức thì (' + new Date().toLocaleTimeString('vi-VN') + ')';
+      renderQuestionsList();
+    }
+
+    function handleWrittenInput(questionId, val) {
+      if (isSubmitted) return;
+      studentWrittenAnswers[questionId] = val;
+      const wrKey = `mt_ans_wr_${currentStudent.code}_${currentWorksheet.worksheet_id}`;
+      localStorage.setItem(wrKey, JSON.stringify(studentWrittenAnswers));
+      document.getElementById('autoSaveBadge').textContent = '💾 Đã lưu tự luận (' + new Date().toLocaleTimeString('vi-VN') + ')';
+      updateProgressBadge();
+    }
+
+    async function submitStudentExam() {
+      if (!currentQuestions.length) return;
+      isSubmitted = true; // Enter Phase 2!
+
+      // Build answer map for HMAC-SHA256 verification & unlock AES-256-GCM solutions
+      const userAnswersMap = {};
+      currentQuestions.forEach(q => {
+        if (studentMcqAnswers[q.question_id] !== undefined) {
+          userAnswersMap[q.question_id] = { type: 'MCQ', value: studentMcqAnswers[q.question_id] };
+        }
+      });
+      if (window.ZeroLeakAssessment && window.ZeroLeakAssessment.unsealQuestionsPhase2) {
+        await window.ZeroLeakAssessment.unsealQuestionsPhase2(currentQuestions, userAnswersMap);
+      }
+
+      const phaseBadge = document.getElementById('examPhaseBadge');
+      phaseBadge.className = 'badge badge-ready';
+      phaseBadge.textContent = '🔓 Pha 2: Đã giải mã AES-256-GCM & Mở giải thích 7 nhóm bẫy';
+
+      let correctCount = 0;
+      const wrongTraps = [];
+      const doctorEntries = JSON.parse(localStorage.getItem('mt_grammar_doctor') || '[]');
+
+      currentQuestions.forEach(q => {
+        const res = evaluateSingleQuestion(q);
+        if (res.isCorrect) {
+          correctCount++;
+        } else {
+          const tCode = q.trap_code || 'TRAP_TENSE_SIGNAL';
+          if (!wrongTraps.includes(tCode)) wrongTraps.push(tCode);
+          const trapObj = map2TrapLookup[tCode];
+          doctorEntries.unshift({
+            stem: q.stem_text,
+            correct: ['A', 'B', 'C', 'D'][q.correct_index] + '. ' + (q.options[q.correct_index] || ''),
+            explanation: q.explanation_vi + (trapObj ? ` | ⚡ Mẹo 5s: ${trapObj.quick_rule_5s}` : ''),
+            trap: tCode,
+            date: new Date().toLocaleDateString('vi-VN')
+          });
+        }
+      });
+
+      localStorage.setItem('mt_grammar_doctor', JSON.stringify(doctorEntries.slice(0, 40)));
+      renderGrammarDoctorNotebook();
+
+      const score10 = Number(((correctCount / currentQuestions.length) * 10).toFixed(1));
+      const banner = document.getElementById('studentScoreBanner');
+      banner.style.display = 'block';
+      banner.innerHTML = `
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+          <div>
+            <span class="badge badge-ready">🎉 Pha 2 Hoàn Tất — Đã xác thực HMAC-SHA256 & Giải mã AES-256-GCM!</span>
+            <h2 style="margin:0.4rem 0 0.2rem; color:#065f46;">Điểm của ${currentStudent.name}: ${score10} / 10 điểm (Đúng ${correctCount}/${currentQuestions.length} câu)</h2>
+            <p style="margin:0; font-size:0.9rem;">
+              Em hãy xem chi tiết lời giải Tiếng Việt (vừa được mở khóa bằng <strong>Web Crypto AES-256-GCM</strong>) và <strong>Mẹo 5 giây theo 7 nhóm bẫy</strong> dưới từng câu hỏi. Các câu chưa đúng đã được Bác sĩ Ngữ pháp lưu vào sổ tay!
+            </p>
+          </div>
+          <button class="btn btn-primary" onclick="resetStudentExamPhase1()">🔄 Làm lại đề này (Về Pha 1)</button>
+        </div>
+      `;
+
+      const subPayload = {
+        submission_id: 'SUB_ONLINE_' + Date.now(),
+        worksheet_id: currentWorksheet.worksheet_id,
+        student_code: currentStudent.code,
+        student_name: currentStudent.name,
+        class_id: currentStudent.className,
+        exam_code: '101',
+        auto_score: score10,
+        final_score: score10,
+        teacher_approved: 0,
+        wrong_traps: wrongTraps.slice(0, 5),
+        submitted_at: new Date().toLocaleTimeString('vi-VN')
+      };
+
+      await window.MT_HYBRID.submitStudentWork(subPayload);
+      renderQuestionsList();
+      banner.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    async function resetStudentExamPhase1() {
+      isSubmitted = false;
+      studentMcqAnswers = {};
+      studentWrittenAnswers = {};
+      const mcqKey = `mt_ans_mcq_${currentStudent.code}_${currentWorksheet.worksheet_id}`;
+      const wrKey = `mt_ans_wr_${currentStudent.code}_${currentWorksheet.worksheet_id}`;
+      localStorage.removeItem(mcqKey);
+      localStorage.removeItem(wrKey);
+      if (window.ZeroLeakAssessment && window.ZeroLeakAssessment.sealQuestionsPhase1) {
+        await window.ZeroLeakAssessment.sealQuestionsPhase1(currentQuestions);
+      }
+      document.getElementById('studentScoreBanner').style.display = 'none';
+      const phaseBadge = document.getElementById('examPhaseBadge');
+      phaseBadge.className = 'badge badge-preview';
+      phaseBadge.textContent = '🛡️ Pha 1: Khóa Đáp Án HMAC-SHA256 (Chống F12)';
+      renderQuestionsList();
+    }
+
+    function toggleSignalXray() {
+      signalXrayActive = !signalXrayActive;
+      const btn = document.getElementById('signalXrayBtn');
+      btn.classList.toggle('btn-accent', signalXrayActive);
+      btn.textContent = signalXrayActive ? '🔍 Đang bật Bắt từ khóa 5s' : '🔍 Bắt từ khóa 5s';
+      renderQuestionsList();
+    }
+
+    function toggleSplitReadingLayout(forceState) {
+      splitReadingActive = typeof forceState === 'boolean' ? forceState : !splitReadingActive;
+      const container = document.getElementById('examSplitContainer');
+      const pane = document.getElementById('readingStickyPane');
+      const btn = document.getElementById('splitReadingBtn');
+
+      container.classList.toggle('split-reading-active', splitReadingActive);
+      pane.style.display = splitReadingActive ? 'block' : 'none';
+      btn.classList.toggle('btn-primary', splitReadingActive);
+    }
+
+    function toggleStudentAccent() {
+      const acc = window.MT_HYBRID.toggleAccent();
+      document.getElementById('studentAccentBtn').textContent = acc === 'en-GB'
+        ? '🇬🇧 Anh-Anh (UK)'
+        : '🇺🇸 Anh-Mỹ (US)';
+    }
+
+    function toggleStudentSlowAudio() {
+      const slow = window.MT_HYBRID.toggleSlow();
+      document.getElementById('studentSlowAudioBtn').textContent = slow
+        ? '🐢 Đọc chậm 0.75x'
+        : '🔊 Tốc độ 1.0x';
+    }
+
+    function switchStudentSection(secId, btnEl) {
+      document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+      document.getElementById(secId).classList.add('active');
+      document.querySelectorAll('.filter-bar .grade-tab').forEach(b => b.classList.remove('active'));
+      if (btnEl) btnEl.classList.add('active');
+    }
+
+    function initStudentMindmapSelect() {
+      if (!map3Data || !map3Data.length) return;
+      const sel = document.getElementById('studentMmSelect');
+      sel.innerHTML = map3Data.map((m, i) => `<option value="${i}">${m.title}</option>`).join('');
+      renderStudentMindmap();
+    }
+
+    function renderStudentMindmap() {
+      if (!map3Data || !map3Data.length) return;
+      const idx = parseInt(document.getElementById('studentMmSelect').value || '0', 10);
+      const mm = map3Data[idx];
+      if (!mm) return;
+
+      const formatCloze = (formulaStr, hintStr) => {
+        if (!formulaStr) return '';
+        return formulaStr.replace(/\[([^\]]+)\]/g, (_, token) => {
+          const safeToken = token.replace(/'/g, "\\'");
+          return `<span class="cloze-token masked" onclick="this.classList.remove('masked'); this.textContent='${safeToken}'" title="${(hintStr || '').replace(/"/g, '&quot;')}">[ ? ${hintStr || 'Bấm để mở công thức'} ]</span>`;
+        });
+      };
+
+      document.getElementById('studentMindmapBody').innerHTML = `
+        <div style="margin-bottom:0.85rem; padding:0.7rem 0.95rem; background:var(--bg-subtle); border-radius:12px; font-weight:600;">
+          ⏱️ ${mm.timeline_svg_caption || ''}
+        </div>
+        <div class="mindmap-branches-grid">
+          ${(mm.branches || []).map(b => `
+            <div class="mindmap-branch-card" style="border-top: 4px solid ${b.color || 'var(--primary)'};">
+              <div style="font-weight:800; color:${b.color || 'var(--primary)'}; margin-bottom:0.5rem;">🌿 ${b.title}</div>
+              ${(b.nodes || []).map(n => `
+                <div style="margin-bottom:0.5rem; padding:0.45rem 0.6rem; background:var(--bg-subtle); border-radius:8px;">
+                  <div style="font-weight:700; font-size:0.85rem;">• ${n.label}:</div>
+                  <div style="font-size:0.9rem; margin-top:0.2rem;">${formatCloze(n.formula, n.cloze_hint)}</div>
+                </div>
+              `).join('')}
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    function renderStudentVocabCards() {
+      const grid = document.getElementById('studentVocabGrid');
+      if (!grid || !map1Data.length) return;
+      grid.innerHTML = map1Data.map(u => {
+        const rows = (u.core_vocab || []).map(v => {
+          const safeW = v.word.replace(/'/g, "\\'");
+          return `
+            <div class="foldable-row">
+              <div class="foldable-left">
+                <div>
+                  <strong>${v.word}</strong> <span style="color:var(--primary); font-family:monospace;">${v.ipa}</span>
+                </div>
+                <div style="display:flex; gap:0.25rem;">
+                  <button class="btn" style="padding:0.18rem 0.42rem; font-size:0.74rem;" onclick="window.MT_HYBRID.speakEnglish('${safeW}', 'en-GB')">🇬🇧</button>
+                  <button class="btn" style="padding:0.18rem 0.42rem; font-size:0.74rem;" onclick="window.MT_HYBRID.speakEnglish('${safeW}', 'en-US')">🇺🇸</button>
+                </div>
+              </div>
+              <div class="foldable-right"><strong>${v.meaning_vi}</strong></div>
+            </div>
+          `;
+        }).join('');
+        return `
+          <div class="ws-card">
+            <div>
+              <span class="badge badge-grade">Khối ${u.grade} · Unit ${u.unit_number}</span>
+              <h4 class="ws-title">${u.unit_title}</h4>
+              <div class="foldable-sheet">${rows}</div>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderGrammarDoctorNotebook() {
+      const list = JSON.parse(localStorage.getItem('mt_grammar_doctor') || '[]');
+      const container = document.getElementById('grammarDoctorList');
+      if (!list.length) {
+        container.innerHTML = `
+          <div class="ws-card">
+            <h4 class="ws-title">🌟 Hiện tại em chưa có câu sai nào trong sổ tay!</h4>
+            <p class="ws-meta">Khi em làm bài tập và bấm Nộp bài, những câu cần lưu ý sẽ tự động xuất hiện ở đây kèm mẹo giải nhanh 5 giây của Cô Thúy.</p>
+          </div>
+        `;
+        return;
+      }
+      container.innerHTML = list.map(item => `
+        <div class="ws-card">
+          <div>
+            <div class="ws-badges">
+              <span class="badge badge-trap">${item.trap}</span>
+              <span class="badge badge-grade">${item.date}</span>
+            </div>
+            <p style="font-weight:600; margin:0.5rem 0;">${item.stem}</p>
+            <p style="color:#15803d; font-weight:700; margin:0.25rem 0;">✓ Đáp án đúng: ${item.correct}</p>
+            <p class="ws-meta">💡 ${item.explanation}</p>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    window.addEventListener('DOMContentLoaded', initStudentPortal);
+  </script>
+</body>
+</html>

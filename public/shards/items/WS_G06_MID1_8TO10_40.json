@@ -1,0 +1,1335 @@
+{
+  "worksheet_id": "WS_G06_MID1_8TO10_40",
+  "title": "Lớp 6 — Đề Ôn Giữa Học Kỳ I Mục Tiêu 8–10 Điểm (40 Câu Trắc Nghiệm)",
+  "grade": 6,
+  "unit_scope": "G06_U03",
+  "question_count": 40,
+  "questions": [
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_001",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Choose the word whose final -s is pronounced differently.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "cat<u>s</u>",
+        "book<u>s</u>",
+        "map<u>s</u>",
+        "bag<u>s</u>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "bag<u>s</u>"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "bags ends in /z/; the others end in /s/.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "e4fd27494b861003",
+      "answer_hash": "691ed9917e4b322f327babfca3a410cdc3cec94beb169385f271313e61232140",
+      "solution_iv": "be4c7f777c0c60a87de5fad9",
+      "solution_cipher": "0339c8644cdf2baebbc746219bc30a33528372dada3e80b83ac105808e7b42c73dc2b5bc79d7718ea4e025c4dfc1a8d01f99e138fb4c88e521d29752c1431290d77281f54b416d5db6e2505b2ce72c521532c2b655087267a5a8089c3c02d5e6bd286f19ef58ef761deab7b4a6ba59fce613e0d3c259d7259c5f487268b5fa89228418b346a1f9ee97b2fac7b5ce125d39c0d4caf882"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_002",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Choose the word whose final -es/-s is pronounced differently.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "watch<u>es</u>",
+        "box<u>es</u>",
+        "bus<u>es</u>",
+        "play<u>s</u>"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "play<u>s</u>"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "plays ends in /z/; the others end in /ɪz/.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "37a2cffc1ed34415",
+      "answer_hash": "bf6ae23df64b54d971cece7d31ee6926cc3cdf2d92a9fd5012544b941d2da799",
+      "solution_iv": "381f2e257555e24fc038e9b0",
+      "solution_cipher": "5d818cb3f1f8dd13f893dc2800236583c97074ea37be837c4570b0ef176fab5298ad9524a598f98b7f2710468e9f75fbe5a6e71bbd38745b76f85acaa10d82f4badcac0bfc6c902b364ba1aa4765303a2bbd3d1156cbe74accd5c9f428acab689733e5d54d45e1540dc6ebfa7bfc54c011fedad38e7f696a2fea96bc6b2beb2eb18ec30704cf89eb5607319f06151937c5179126720b2d613f71"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_003",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Choose the word with a different main stress.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "picnic",
+        "happy",
+        "hotel",
+        "classroom"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "hotel"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "hotel has second-syllable stress.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "b6f14f460044520d",
+      "answer_hash": "6aa93854a3b805fd06d7a0f9d1a0b348c9d9ad76223d34c399e42daed7f04d05",
+      "solution_iv": "ce6095ee3466366143844b59",
+      "solution_cipher": "05d45d5a29887dddc70160b1152f7ace09362304cebec9ee09b68d491799d40c4eb6c7b6ca9e55f7575d7826ee9ca5b8dc6af09f7625aeee412d609b3696a737fc5c3141aa4fd0aefa441964508b04425a1c48b5f2ebd2949a906d076de8d572221b25ab5844cf03509aaeb1be315e52f67360d708c6aa1524b4c7c6b651592c4d256b2fe8db9ce4d3"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_004",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "PHONETICS",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_PRON_SES",
+      "stem_text": "Choose the word with a different main stress.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "family",
+        "beautiful",
+        "museum",
+        "exercise"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "museum"
+      ],
+      "signal_keywords": [
+        "-s",
+        "-es",
+        "stress"
+      ],
+      "explanation_vi": "museum has second-syllable stress.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "c75389ebd2d2f03f",
+      "answer_hash": "8c4ac4370d03f3ecbe16b3f473d3763b7b161526f6498472919bfac9a3c50814",
+      "solution_iv": "59922bd70ce9814a9d1fff79",
+      "solution_cipher": "1e33d7c0d8c4969b2d3b66b1bb481723e356fce5626db70847b3bb48bdbec1d46859f0a91c736783513ff9e6318e52d99cbdc61066d53308fd3771e7e9d6516c1e37bf8ca9839ff93a2f60f7d4bb68bd8c6c434f8dab898c832fbc45c54fa390d0759475b4eb9d4d7069260fe4c53dd7abd86f43a521d37676ce9b0513093a90d8665c69df40511a44952f"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_005",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My sister usually ______ her homework before dinner.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "do",
+        "does",
+        "is doing",
+        "doing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "does"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Third-person singular: does.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "e1224261d2a1c161",
+      "answer_hash": "8554371120ad57ac5fa9cf675043213203e3de87ef5b01d1ac9175bb0d80b6d6",
+      "solution_iv": "22f02cbfb09121af8d4e01f2",
+      "solution_cipher": "1c2dd1f1451ad2202cb23dce100937d57096a7caa330ec8fe3f6b20677ea9051d67e55d4636d5e8b65a7abbcb1a1531702596a543392aa38df3e08ff4ab8394c1783a34467665083d103112ef89c48946062ac7fc49233af985227d49e4489893ddde2cdc8fca96886e54d1f428346ff2e79c70b880b175a2f56b8d74184c5616350dd"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_006",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Look! The boys ______ basketball in the school yard.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "play",
+        "plays",
+        "are playing",
+        "is playing"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "are playing"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Look! signals an action in progress.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "8c154a52b7d10d96",
+      "answer_hash": "598638dc409466485938135de29ac2d0bcfb7dba934febee9ae8a367c0f9a8ce",
+      "solution_iv": "07bfcd7e84028bfb1effd9f4",
+      "solution_cipher": "ac81639881f489173f64fb4ea66b25600dd591726fc961a3baa7d59d14d5052013ea09d678b3b8be0935cffafa1628be0d8f7b63af2fc1585f451a7a9680dee767b3ce313df19e3e4dfa01d5f60c6e0687c5ad800f9c5f777e2cd7e3ac4d56eee401ec4dba78cbf7e00878716c3e7c196655dac79b63d3cf76ae43aceab38a0c0fd2f447ded3c5ea3676bde450014e08d67e"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_007",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There ______ a desk and two chairs in my bedroom.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is",
+        "are",
+        "have",
+        "has"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "is"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "There is + first singular noun.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "d049425067802f28",
+      "answer_hash": "7c620419b6980de5c57ca78ecb500bccb6272acd26fc28008b0dc8d974790cd0",
+      "solution_iv": "b440f1ef989dcf19edb68778",
+      "solution_cipher": "93f9caf23426ec56f32bb742df2222142fb366ee36bac339c1d350c7f5c6d8c5059530628aa7d690a800127bb31fe1c708619cd3b950540f0eb639ccb05357bdaeccd636b0d784d35d0c42649f5f1193eb3f7b77a1c86b03c794fc0aa494250ea56e47c46d9b64cba75a76e8bd6e28d2816fcf920f7997ff45e097552fd17fde08ccbb01"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_008",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My parents ______ to work by motorbike every day.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "goes",
+        "go",
+        "going",
+        "are go"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "go"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Plural subject + base verb.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "59acbaa241e096f7",
+      "answer_hash": "3a54c86d4e3d3e81e329656892784fbd650a71b28b48c18fd884a0af8394acad",
+      "solution_iv": "3e19f8a5b57154a32bdfc9c9",
+      "solution_cipher": "52ccd1611c62aa01868d55e7c73676f3a40f946a4c64a70081635a36dd1695bc09a0fdcd1854f22c3b72f3f45b87c3632793d4a8b798830899c0ccce99d4b91dd72f9be677189f283ca901582a325d53975a1cb54f4aa5e47c24672cd0dc8397ed692c2bfb8d1c94dea00b3342d3680b9ba5a5921c3766dc31879cd5bd898f60"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_009",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "We ______ English now; we are having a Maths lesson.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "study",
+        "are studying",
+        "aren't studying",
+        "doesn't study"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "aren't studying"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Now + negative present continuous.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "8e49b9cfb3e0176d",
+      "answer_hash": "c031eeede1fa5cffa3e81863312a479dadd736cfcfee7a40e3c9b36c988aa3e9",
+      "solution_iv": "e7f6bea9803eb5bcc75b4b54",
+      "solution_cipher": "abc9eecebbeca12f85e077b3230bcd8465be185a79e2ae7b96f5086e047c92c09f08ebb6eed76c61ddd6b32839ab3d9595fa4dc29f3ae7c612bbc7f2420165e633a22820fd3e6ff25d3a079a930d4c554e2eff8d956121d65edeff21fe7efe8425e9cd46b4bd8c13ecaa72ed787c1a9559a8e06686c2c02f4b716f68a045cb5ea71381e87af40fe22c903e1e026c3be5f875e141"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_010",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "______ your new school have a large library?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Do",
+        "Does",
+        "Is",
+        "Are"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Does"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Does + singular subject + base verb.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "db7fb50c92ba630e",
+      "answer_hash": "dbec510020f4efc23ad479b2ca1839eee029627ed6821bd1886312f4d3984703",
+      "solution_iv": "acad43644b65463ce18deba1",
+      "solution_cipher": "012ec70770225d121b1eb8ed8e1b691dce55f8080ae69ecd2f8e4b5e45828e66caa2d94b1f8405d8f13a861e5654c87cda93573067ddf669dbc7b971a1c90a3aa3e24548f78c542975dc2e68ced5dadba4af4640da4e7abb232308ca2e0805d3abc69cd0ee970da9543645313e5b5a486f8860281f9a0712b4f3f304f6d454f3955321a759a4a0e56333f6"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_011",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There aren't ______ pictures on the wall.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "some",
+        "a",
+        "any",
+        "much"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "any"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Use any in negative plural statements.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "b7cc81aa4f58f24e",
+      "answer_hash": "1ff8c06a36b1040d9ab11af19685404ada8d320d331cecd616c56f7d6a5d5e0b",
+      "solution_iv": "1cea943d3bc5581dc41c5e84",
+      "solution_cipher": "31f5a08982cd46ac65f8731362c1d4317f723022cd4dd6a2ff7051cc3fa59485deec613869790a2820da2e3d9673fd048a78448c955254129a2b416b4998ca08383315b542ab2a74da4a4ea9f991a154b20142fdf18f724af8c66df1ee600c21f9ade763ec4138d22fd3d65d144257485f8406ac164f3fe7ac0fde2f5edbb6052895b24bece0152178600997"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_012",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The cinema is ______ the supermarket and the bookshop.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "between",
+        "behind of",
+        "in front",
+        "next"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "between"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Between A and B.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "9d00f75c448bdbf8",
+      "answer_hash": "46ff2dfb7d06d435b84542ccfe7170b1bce2cdb0410dccaa1e0b4a9ab983141f",
+      "solution_iv": "234cec4e9b1e8c21f61ef3ba",
+      "solution_cipher": "ba9bb2490bf412916e14022ccdd0efbf593bb895176d675ad6f5aa32c5b6199eb3156ff444934b49dd24f3c3956af221d94dc88330bdd3564558425dacf88a0a69d8f266b4999083d49c2bef24c54723dfc1457b3fe5ab4c86eee055aff408b274701ae35c7dbf61bb31fe5758abe52fbf9dce4d17663a137deb"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_013",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "A: Where is your brother? B: He ______ in the kitchen.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "cooks",
+        "cook",
+        "is cooking",
+        "are cooking"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "is cooking"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Action happening now.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "28acd6013ffb41ea",
+      "answer_hash": "cb5ad382d3ca716cf8f44733903277127b0ecc8222d85e23ff4e6e17e8609110",
+      "solution_iv": "d98fbe1197dc197dd321e2d8",
+      "solution_cipher": "7bc2b563c9fdcd316d2db75f3527f704a018ae743f3f6824b31898ff7539eaf7488ec3aa71d09dcd2033ced3f5cf8e043adb845794b46e8387ccc77168e0331cf43605eefd68c90d03e7e805379438134dd78143e1c91bbfa6e0f57caa15ea98d78a3cd144338637adf788116b1dcc73950bd65328c37f8de791b08f893906f93d9a"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_014",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "This is ______ school bag, not mine.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Lan",
+        "Lans",
+        "Lan's",
+        "Lans'"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Lan's"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Singular possessive: Lan's.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "71539ab1429c0d82",
+      "answer_hash": "7e071a98c689558d2d9602eb4bdb1ccebda0eb078c279c62cdaafbd57c9faed2",
+      "solution_iv": "f9595a1acb86a7fc3ca26867",
+      "solution_cipher": "1aae86faad2c8aec5b94e1dd8b2364e1d3bb083d7202678bb4d53687bbb582c6b135121199150b7575d33728f87c0d5632f977b3fdd3186c26b88da625f24b50973bda5a4a815989f39bb6481788f52601a3ee7a4c1e6900bab0c538ab4c0488f45f36197b9890143e118179d0520eba37a72785ba6c4c51b1bd9bd5bca8a5e2e12635"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_015",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "Mai has straight hair, but her sister has ______ hair.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "curly",
+        "friendly",
+        "careful",
+        "slim"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "curly"
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Curly describes hair.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "c5810675a4f03c3c",
+      "answer_hash": "cc93f9502bc7c5098a8a8ec00c7c1c36ca5ba842b8c5a10e1eedfcb372c37414",
+      "solution_iv": "badb16800993d9dcba608fa2",
+      "solution_cipher": "1b124cb66191a7e9a768d0b79ac42f1e4aff49c8a764c099137a90ad2f8b7be1df5d206dab3515c11ef17223478fe995b7c0721ab85edb16aed19e049cca606a90ec47ffdd654a69f5e877c558463db2e60201e6c3363a9572c88fa85e646195ee1b0d7c5be4ca8ad68b0bb6ecf6abc4ac89b0fcbb4cbe17e0e6e6482e"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_016",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My best friend is very ______. She always shares her things.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "selfish",
+        "generous",
+        "lazy",
+        "shy"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "generous"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Generous = willing to share.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "2e2be092c10bee77",
+      "answer_hash": "4de09d3baa68a63b966e48e31c4b05660f8d843347eceee93cfbbdb214d48fce",
+      "solution_iv": "ff1bfb5d3cb04104c7d5520e",
+      "solution_cipher": "94fe171997a9dab304cb0271b1aaf73eebe2c03654b726aaea436ca74b8a9e234324e1e5526668520d816cad186a592c6e9fd32fce6eefa436e09a14b62a00278cc58dabd683ad84edf23a80b6e399c72b52f75e62bc0ab74495f90e0b6d092b560534d32cfd078251d1b0a2fe7fd10279ff0bb3fc68fec7effe8fafd65e01e5b462e53aea5cdd"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_017",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My classroom is on the second floor. ______ is on the first floor.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Their",
+        "Theirs",
+        "They",
+        "Them"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Theirs"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Theirs is an independent possessive pronoun.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "92a00f142e6a0b2f",
+      "answer_hash": "3bb7bb66da66ef6e09c0bb29f0f3458e41dcb4e270dd8c2252419dfdf79b4a88",
+      "solution_iv": "f0d9d7c822b1b811fa93b52f",
+      "solution_cipher": "9f1269b49ce44724df7a276d09485a5f4403db05b69ca3a7ea5930e274c37d53a70046e0b7ef571ea0bee89f92ed7fee68476e52b0550e8676fee00c1d85b3b81b09df1e001d5bdd7ec8293b903d70bf899ffadd41b1abc17edb25228d2d9757b2a7be6e694f484e31c999bd446152e6e76cd76fd3e6cbcba9d15fe462b8be3d1101fc47104f3505ef5770d7bf1906a1d03783d283"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_018",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Why don't we ______ to the school library after class?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "going",
+        "to go",
+        "go",
+        "goes"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "go"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Why don't we + bare infinitive.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "4e9606ba7fcf6cab",
+      "answer_hash": "37ee4f406472e83625159faf9600b43575c126fbdc0531fc2454f5faa87db441",
+      "solution_iv": "f6fc4f5b00ecc47af02ab076",
+      "solution_cipher": "874d282f59c921e147ce2ff56c8cabf219d67f7c82b92f4cdee77ea3fa69f28d34318ec52c1ece7a755089b23ecd8758668e03c2a71887b926e4ca3f283914e2f020202b6073ef669e94b6758812e869687100d599776b6ae16f2b922965447e4ca379be8c68827c993e9884d9cccbffaab2f81e251bf5617b37bec90c2824ace5f296e9"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_019",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "It is very cold today. You ______ wear a warm coat.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "should",
+        "shouldn't",
+        "can't",
+        "mustn't"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "should"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Advice: should wear a coat.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "347bb6c9e272fb27",
+      "answer_hash": "98e9743d3cb7a4c5830ffdd051646a6220ca35286cb4909b70ec25bb7cefd090",
+      "solution_iv": "c94b0f54ce4f5ee85f1c5d34",
+      "solution_cipher": "975179bec6ad58b59c2a3660b617a818ff4e77f14d1d75ab77b572d9e6031ebc2b1e2a7884beed5c70356bbdd34e584303d494e281dd00341e3688665c88cf925b8f7624e9244039cff6d1956879cb05202f2e86a8c3b0f80ccbfca86ffe0f7cd11ebc9c8dabd89ab94ade0583f15a13f9413d624ecfc561babff74977f02f44d4a1eeb3"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_020",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "We ______ noise in the library. Other students are reading.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "must make",
+        "mustn't make",
+        "can make",
+        "should make"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "mustn't make"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Mustn't indicates prohibition.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "f418df3225f3f5cf",
+      "answer_hash": "ebfa94d0d8339f0afec5a1c09b1eeb5a2b8d77f7ea09176545733219b7d8e10b",
+      "solution_iv": "c097d2f9d23a980a8babf476",
+      "solution_cipher": "0bf167891a9e303f6d97e2cd518abe029292beb2efc0e3252edb56c6304466c9335310cb4121d7508bb56dbc40593c6fb4eabbc4049aff6e9f44bcfa49fd5757d66671f0aa4e3f17faef0a8c401716a538d50952a2b4c12c349981bf6416c0dd4de67a6516dd2910e322ebf5f7b86301f68e544f5b836714d8496b0df12e7baf41c2a77879a18eb2b932871b9d"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_021",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My uncle is ______ than my father.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "tall",
+        "taller",
+        "the tallest",
+        "more tall"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "taller"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Comparative of tall: taller.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "820819a35a0786bc",
+      "answer_hash": "a70951d27d35daa52f6fb61c0dfa0b1b5d30493744d2df1bb2477696b03cbeed",
+      "solution_iv": "4fc2d29dab7b1124434d5e96",
+      "solution_cipher": "7462febd4e7d8b118ed67e34e5efd0741a8a43754d07cd862f73bd8e483702313acdb29d8202deffd8582fbdf2898327127acfd37b1f1f72c098b3b0fca1280a8dd74624e669d80ec20ffb96b0497a607928bd2a6213b08c02cb18ff5e8c2da6be67f9c62bb53858a82fabd402a2d5dc5625741718115a419cd8f5ea7580a62b0bb7a6d006"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_022",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The blue bag is ______ expensive than the black one.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "most",
+        "much",
+        "more",
+        "many"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "more"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Comparative of expensive: more expensive.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "e6ddfa6c7eedb65c",
+      "answer_hash": "e581c1c299c4692624588021494a5d155a395108a8949632b7c64c3f49f16a02",
+      "solution_iv": "e6ead8efbc00091b2d7ba3b2",
+      "solution_cipher": "9f207f399fe1366adc3bdaa00cf8035dddcb1c26a859fc54cb9fef8b2bea32ef51935a6be233b0d0acf59bbdc599a9afe0d408d084ee9ecd284ef1ec93b6b0bbf9d41c03df8ee9a1cf8280f23c92e7e81f9d0749edcf0568ba696bc564cf86ea24a20076b7c7ec06f9c6c1188a1ab3e513cb75602976aaf4c2b463b281b1c8c3b4133a4d48e5178694d605e19498e5d2"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_023",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Listen! Someone ______ at the door.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "knock",
+        "knocks",
+        "is knocking",
+        "are knocking"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "is knocking"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Listen! indicates present continuous.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "cc04288263aa677b",
+      "answer_hash": "856bca522e20a612baf65d5b44810d53f1afff320fdcb2f6c3e331ee5167c057",
+      "solution_iv": "a7a70e515782900d4c7de15a",
+      "solution_cipher": "41bc12c63595796f680ebc7e76ded7f0afe11d6c5b04c7cacc4b37447fed204236f31b246f981fa4694e9766b23ff3dd08cf0acb01b1179dc111af718cba60486ce4b260e1ac8783aa88041228d2534e91ac918d41c7ee4ba0eab8860c6b27b5b58fee8db2e4e3255b40420a10841791ab8a06aa8b3ba8680a02a31630785240bdad0e3693e58a9469dac4ce091d19dd61c7ea"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_024",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "A: Would you like to come to my birthday party? B: ______",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Yes, I'd love to.",
+        "No, I am not.",
+        "Yes, I do.",
+        "I am twelve."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Yes, I'd love to."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Correct acceptance of an invitation.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "74dea4bfdb7aaf95",
+      "answer_hash": "c247394fc303ba00cdc887dee949ae8bcbf404649962afa21218d49b3526774b",
+      "solution_iv": "a658071e09a1e573640a188d",
+      "solution_cipher": "6ba4a6717f31ea4d38cd990d50a0e2187d26ca7da69e1cdf8bc8ec7bc2643051a81358f1405b9df38859bf03775c9fc569deaae2d535b09cc8c6a73904e90551425cb45d7f0fcb67b7be9b320380ea0601c24310cd16ebc2c7d948f1d3ab6ffce7eaec60d40c0cce71c012f4fc18e2f953b461eab23abadb5b345a5a1a6a720c3777b3b8bf8d94f8a9e414c0931310dc451ccc251e2a60ae"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_025",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Blank (25)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "comfortable",
+        "comfortably",
+        "comfort",
+        "uncomfortable"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "comfortable"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Adjective after be: comfortable.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "da28195a301d0d8e",
+      "answer_hash": "4314b51b372caa80fbb1ed4da3d6a3c61ea2c0dc1b3b0aa6b5f5f78856247604",
+      "solution_iv": "2dd564e372e9fe96cf5bd1b1",
+      "solution_cipher": "f641aac2947a4472b191b6709be0c3eab750731f32990b080ed08d0b42306c92bc1ea3201dd499d026f442c06b5f4cc9974f13613eb73339c7107fb2d3c774c74007a471efd4c75c95bf043daeed053ad410e986a6a0e02c263f80b3017f5aaa05b3eef6b5d7fdeaea2c9d4d2ca67fc1405bf4a89d17be8d91aff63af7da7cb90745d3b3b1e9f0f9ff418c01fe9d"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_026",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Blank (26)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "above",
+        "next to",
+        "between",
+        "opposite of"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "next to"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Next to the window is the natural preposition here.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "5f23dda6a65c095f",
+      "answer_hash": "3b9117574456b07e5632effdfd086ec60f9920517d7d88ab71292e85ac0e3d52",
+      "solution_iv": "942043b5dd9eb52fb68b6e68",
+      "solution_cipher": "b3fd45fb66ea8167222d86b2e0ada190ede4054e6f325a1f9c1806519ef1bfa819ca3b21212cbce68363c72cd0c2d8e23dc2927411b0fe0312b66366d33484c1c4dd5afda5d61bc6bae422177b0c86607b37537dbfc0801ba9b3bb2221fb64d3b3ce4551065ce96a80e95d63382df93294dc5fae04c6c3d8aba60e01ff53b0fd5320b41c656f17fac3311bd41f8bd3aa9de3186a1f831d7e5c2db6f274"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_027",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Blank (27)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "does",
+        "doing",
+        "do",
+        "am doing"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "do"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Present simple habit: I do.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "9fc9d128112fd280",
+      "answer_hash": "f8f9520f03a62d3edd1d67896e459b677f04c1dd66b8c42f03668f4eaee8dd6e",
+      "solution_iv": "fbacceff1eb6c1b3a72470fc",
+      "solution_cipher": "4d1e35df7d69a7cc2b252d27030632d8b55cec540724428030b7242255e0aa92659a1afe567962d5528e7407c4448223359861abcd6bf8fbd29ad9c1d3bb9e9e8970072afe40a32c00a5701950ee39780c2f6106dc49d95accc81c6bb68d7fff45bc3b4a8096f96ff81cedb851dd9214edd5de0b7967847377d1c69da91deb33"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_028",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Blank (28)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "make",
+        "makes",
+        "am making",
+        "made"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "am making"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Today is different: present continuous.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "331e5e4e2e175837",
+      "answer_hash": "a3edb9341afce33b8efe38095764337518d80cfef7ae4ce8b07edcb249e1accf",
+      "solution_iv": "56c32b8ba4d0e8df265ddf93",
+      "solution_cipher": "52ff9c92f16c643c950a284642ecd1563d42692ef2c53bb88fde10d8fffde4183da62609645280f9c938e5b88c595869f30b21d107a13e6854f33d8e4a5a21c3580bddf94438f974a0ea86eb3331f79e72cc0cb9c35c809bd4b851cfedd30cb22644a611bd52b4d753cf14b0e2c54af7187e10cc7e1f9ca3f058d70717cb077faf29c37d6ef9de08cfbc3f672c69bcd1963533"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_029",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Blank (29)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "in",
+        "on",
+        "at",
+        "for"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "at"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Good at + V-ing/noun.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "a5390b1f0f925e13",
+      "answer_hash": "e03c7ae46cb2c83d9b5b3829ff2854af775dc6251c75fd154a7dfc629565cfca",
+      "solution_iv": "53a0376f0199b562970600f7",
+      "solution_cipher": "09886f067792f5a2b550be1b7cd6031c23e36fd7fdb14c84f0944d0cd60ae1b5e8e1e64a2ad73ecd8440f29d0767b107252845dc79a8011fb02e4c6a0b1226627e1975830fd0215482d66f5c437d1c572c3dc8ad18587fc1e09642cae7e541467865ef1ed13b37d70e7b63d0eae93e1781d59f3e08f3371f52fc"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_030",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Blank (30)",
+      "passage_or_sign_svg": "",
+      "options": [
+        "keeping",
+        "to keep",
+        "keeps",
+        "keep"
+      ],
+      "correct_index": 3,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "keep"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Must + bare infinitive.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "7ed858696a0d7575",
+      "answer_hash": "3fd029a016369fabb76da3c5a72cc0520d2a1fe846830ea6b326e7841602953f",
+      "solution_iv": "1b997ac721f8775126ce067c",
+      "solution_cipher": "551f4f4b0b1b196877a3b4aa0c948fedf4b1567ec9240f45e268e1e345dcc335da56b4654e599c94488970bab28a8a30b0d1d0e25ee71aa1da3c139c38373d819b54379c587499f7c2d463b6d1a9c1fa4587b5ca32e4537ff63c91cff25e138af188a1982d8545478b5c38b81cb29e26b629aa90eebdfe5af021f728dd5b"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_031",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "How does Minh usually get to school?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "By bike",
+        "On foot",
+        "By bus",
+        "By car"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "On foot"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "He walks to school.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "5bcdae4b7b67b119",
+      "answer_hash": "45092c0889c1a80c4a75040aa470f84e0e5dd4b63a3a2fea579660159e367f05",
+      "solution_iv": "3a26fe4bdd93a5e60bf67d6e",
+      "solution_cipher": "bcaa87fb238badc62f9031e3103b64458613a2ba9a167171ae28814e485c291e14df0d1bb1e01495738652ab2b860c46fa997074a73ca3e325ac5b7fbc8925ca7544ad9c487a8248d8ba651473f413d688abd763fc21bc23b82f8a4f917e7a6f1b44bd7dc05b7848ce8804219f2b97f13df446dd27986909040c13b4eb"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_032",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Why does Minh like Science?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "He likes experiments.",
+        "He enjoys drawing.",
+        "His cousin likes it.",
+        "It is his easiest subject."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "He likes experiments."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Directly stated in the passage.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "7c022fc6100a969d",
+      "answer_hash": "5712ab0aa2a8f923fa0ed24368d9e104d4a867c13e8e7a293eb2457586553326",
+      "solution_iv": "62f963663fa23645d00849fa",
+      "solution_cipher": "69651c2d5b51c3a9fa9d4c34dffad4bd343799a4faf41a0fb9ed12b4ed28e3a5684a440b1928b649f8d131bb68975c07eb64267f9da2663232c295d017ac1e95f46f3ab1b3faa368dbe0d60cdf198d224942810bb5ae1a3a45a448a6c3d80e3cdff81675a56e773bcffd328e1b6a0bc97861436a556d134382c0cfc0bd72c2d06900a74d1c233f4854325d8bfe271a23bfdd8b53350f56"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_033",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "When can Minh go to the school library?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Sunday morning",
+        "Saturday afternoon",
+        "Wednesday at 3 p.m.",
+        "Friday at 6 p.m."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Wednesday at 3 p.m."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Library open weekdays 7:30 a.m.–4:30 p.m.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "864819299126052b",
+      "answer_hash": "3ec44ce87e5dc3e8eacb7bd242ac6569d7308ec9e27f255813d8cfc4ec0aa169",
+      "solution_iv": "a47f6a20799c3b73b7ca6de9",
+      "solution_cipher": "d6f1f8c160ecd3b9f8fcbdf729eda992d5cb6fdf8b33fd09acd48541eed4d94146e5471eba363aa77b37295453d4fa3e865329d8591a466771c039e355215f8d496a4932f4d622512634ec08c7e346740e19dbbe1a43dfe8fc2d863cf5f9b4b9cafafcd0484ee7c11ce667a1454fa7a0aea588edd8cf547d167cdf625bc208504a28c980a424896eae8b1fa8a72846518a15cc11a295e12039d9d524ba09d990ca"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_034",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "What does Minh do on Tuesday afternoons?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Play football",
+        "Join the chess club",
+        "Visit his cousin",
+        "Clean the library"
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Join the chess club"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "He joins the chess club.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "607efe453630f3ed",
+      "answer_hash": "2655b2dcae59b1ab02a0963d762789e01dd337472babd558c674fefe1d7466f4",
+      "solution_iv": "27238c2b055295aa971beb63",
+      "solution_cipher": "bf3f246223a60b2b8618e8a5baed8a201cc029179778f34859db85c2403447f405c22f2131a758121ec11347ad8760f8d9fe14d3894d5514a9c37bd1adf715bbf28d2668543c96410883dff374e2a524b71fcfa294143a858f8e2e7ae3f6dc890134028f70c02c599aa8115d6f86cf4cd9610b8b532cd1e82f3852ad57b2194c3235522825bc424dddb76cd68f48"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_035",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "What does “nervous” mean in the passage?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "worried",
+        "excited",
+        "generous",
+        "hard-working"
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "worried"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Nervous means worried/anxious.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "d74239d1699ab433",
+      "answer_hash": "46060da26346de5aa8b815ea0d350e408c8ef9fea6c1677242198c8f41bf2438",
+      "solution_iv": "58883bd2c46dd6924836ddd5",
+      "solution_cipher": "9b1aa3b8a16e28d81c960155775dc355b92ad8260c003f5720e310a67bf51d06a7270c12f19110176a31771b2be0e4df29bb5d10d407014362478c5163b69b9da221386e17508ad1e7ed79cfa0dc636dd0a170b9d53065609849f18d7dbd610f92412af7c81e0b118656563d94d7b465b72aecc3c4658c8e850a19508cf13e9d3d9e1391ce9a134f"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_036",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "WORD_FORM",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_WORD_FORM_NEG",
+      "stem_text": "What can we infer about Huy?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "He is unfriendly.",
+        "He dislikes Minh.",
+        "He helps Minh make friends.",
+        "He teaches Science."
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "He helps Minh make friends."
+      ],
+      "signal_keywords": [
+        "un-",
+        "im-",
+        "-ful",
+        "-less",
+        "-tion"
+      ],
+      "explanation_vi": "Huy introduces Minh to classmates.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "0f6659b117d5b532",
+      "answer_hash": "9cd9da06ca09eab650e7d2f63dedd480037942c63908c9b983acc60bf33244e4",
+      "solution_iv": "1a5777d4eb8a16dffb2e4fbc",
+      "solution_cipher": "0170f4ece1bb6c10b385beb007fd1340e18c82302057dccf0d6c542f56ab3ba7479da648f30c1b6109dcde49f613c58cb6224e9ecc8b2996460637d664ffc4695e1abc26e75459e44a31f9b7944c1f6d986d00a11d1c8b251b9702c408e77d1d85630ee514414beeabc657e4f53919952a35721c1f160aa44d7eff717c54eb2a3c1af0df34bd7e340ee9c05b13d9884509d684e212574fc731edeb76a49e1fd0"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_037",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "NOTICE: “PLEASE KEEP THE LIBRARY QUIET.” What should students do?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Talk loudly",
+        "Play music",
+        "Speak softly",
+        "Run between shelves"
+      ],
+      "correct_index": 2,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Speak softly"
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "Quiet means no loud noise.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "5ca4b2c8ae2ae551",
+      "answer_hash": "31a6b781d5a5ec0b2e447570781a0d6f9d967f9b51cdcb96cac8672fbabf26d3",
+      "solution_iv": "6cb5a8fd01be917382e494a2",
+      "solution_cipher": "f7460fac0da149badb3d4d4e1ba7e30f22591dcc2c526aab7544b7299f51df7cd834db197269726f7d4f2f51f3e09e18fc20e023aae4536f90240716dc9fa121c69d5af7a1034f858e8225c80dfdef7dd0b4b5bb6418110739a2c1ce25c4bb0aafd89b94643ca0f1dbc4751c842bf2f1818d747da4d47f90f554d9322b906f9e331ce6a87cbf996ffb"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_038",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "SIGNS",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SIGN_DISTRACTOR",
+      "stem_text": "NOTICE: “SCIENCE CLUB: THURSDAY 3:30 P.M. - ROOM 204.” Which is correct?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "The club meets on Tuesday.",
+        "The club meets at half past three.",
+        "The club meets in Room 402.",
+        "The club meets in the morning."
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "The club meets at half past three."
+      ],
+      "signal_keywords": [
+        "must",
+        "must not",
+        "cannot",
+        "only"
+      ],
+      "explanation_vi": "3:30 p.m. is half past three.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "28df4bc6276937dc",
+      "answer_hash": "8011f5e590577a7e39c737abe728fdbec7d9d043fd27bab2b330c062f4c9ad6c",
+      "solution_iv": "49b3800d0794e28190ab3492",
+      "solution_cipher": "95fd6a84d837c20ca5cf1b75a9279f4e5c0e1840bea46cde9437330d5434a3fc954ec651d029d4524716e7e192878cfaa7af6a3f669a59a0dfe2dd6de508874ea0ccbf69e170fe82501e0deb9623fe46f9083c5dae111defc33904e731a40e59b4dd44134bad99f4777dc798b598c1c6497b3620d67c13b87567fef001143a569fceed7ca7486adf26a5c21d05d5c0265300ee685075e3be973f2b16fef927232e8a"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_039",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Choose the sentence closest in meaning to: “The bookshelf is in front of the bed.”",
+      "passage_or_sign_svg": "",
+      "options": [
+        "The bed is behind the bookshelf.",
+        "The bed is between two bookshelves.",
+        "The bed is next to the bookshelf.",
+        "The bookshelf is under the bed."
+      ],
+      "correct_index": 0,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "The bed is behind the bookshelf."
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "In front of and behind are opposites.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "80c78a7aa6352965",
+      "answer_hash": "03ae5bd932e28b5dbb19fd07fe83ebd3a138051b912f5d2e62afd41de3511749",
+      "solution_iv": "9c34eedd8dbd664d1e938ef9",
+      "solution_cipher": "48b0a8108e0efa069a312b23d9ed69edc46e6c132f8281b12cb2882793fe73b7a6ea0a179b5b6ee7e9f2fd098173f6893f7464484ad9b5e298fe7aa766ecb6a55fb34650fc9a206d795b3f009e81b134474a9deb942765cba6f436c449b7d8821709f1c0bff75c74f04d6e8bf096157cf6948975c5ef1752f49da591ae71c92b978896360f78d6e515ed0a53c90b99717661f97c329711797c4245ed80cfe61dac48f101e72d1eab"
+    },
+    {
+      "question_id": "Q_WS_G06_MID1_8TO10_40_040",
+      "grade": 6,
+      "unit_id": "G06_U03",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 3,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "Choose the correct sentence from: “Lan / not / play / computer games / at the moment.”",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Lan doesn't plays computer games at the moment.",
+        "Lan isn't playing computer games at the moment.",
+        "Lan aren't playing computer games at the moment.",
+        "Lan not playing computer games at the moment."
+      ],
+      "correct_index": 1,
+      "answer_mode": "MCQ",
+      "written_answers": [
+        "Lan isn't playing computer games at the moment."
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "At the moment + present continuous negative.",
+      "source_worksheet_id": "WS_G06_MID1_8TO10_40",
+      "crypto_salt": "d7deaca0ac47c1bd",
+      "answer_hash": "8efe5b329ef0cf02c5cb01c3f618e2c1205371ac34950b5bd54d4447633410da",
+      "solution_iv": "afba0ad5705cd036e3bde61f",
+      "solution_cipher": "fb99b29328ab863f30bd52bb57a7ef648c6840162ec0278c8e447db88c71d23422b34a492ad59600f05a7343084db782f95ac1ea3f273ad3b0a2e46e89f4fbd422a48f0be4e7cd51414c7563db8f7584189c803a5883a4d38fa1dd2d8894a360e022a6a0bb0b412c2e74accd26c95327addf7702c1c9b977d95bf2479fae5f17af1948905067080b98f7d9aecfa4fedd6f8dd9909d930fe2447102a62a4a91cef7bd7c9a6554ffec2381c2bc82b4292c38eef453f13c28e5c08a42231b4f"
+    }
+  ]
+}

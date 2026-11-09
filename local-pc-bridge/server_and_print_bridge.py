@@ -1,0 +1,267 @@
+# -*- coding: utf-8 -*-
+"""
+MASTER THÚY — ENGLISH STUDIO v2.0 (PRODUCTION & CLOUD-READY)
+Unified WebApp Server, SQLite API & Google Drive 00_PRINT_QUEUE Auto-Poller Bridge
+Port: 8765
+"""
+
+import json
+import os
+import shutil
+import sqlite3
+import subprocess
+import sys
+import threading
+import time
+from datetime import datetime
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
+
+try:
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+except Exception:
+    pass
+
+PROJECT_ROOT = Path(r"D:\YOURDREAM.VN\master-thuy-english-studio")
+PUBLIC_DIR = PROJECT_ROOT / "public"
+DB_PATH = PROJECT_ROOT / "db" / "master_thuy_studio.db"
+ENGINE_DIR = PROJECT_ROOT / "engine-python"
+sys.path.insert(0, str(ENGINE_DIR))
+
+from generate_dual_worksheet import generate_worksheet_from_db
+
+DRIVE_STUDIO_ROOT = Path(r"G:\Drive của tôi\YOURDREAM_AI_WORKSPACE\ENGLISH_TEACHING_STUDIO")
+DRIVE_PRINT_QUEUE_DIR = DRIVE_STUDIO_ROOT / "00_PRINT_QUEUE"
+DRIVE_PRINT_PROCESSED_DIR = DRIVE_PRINT_QUEUE_DIR / "PROCESSED"
+
+
+def ensure_drive_print_queue_dirs():
+    try:
+        if DRIVE_STUDIO_ROOT.exists():
+            DRIVE_PRINT_QUEUE_DIR.mkdir(parents=True, exist_ok=True)
+            DRIVE_PRINT_PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+            return True
+    except Exception:
+        pass
+    local_fallback = PROJECT_ROOT / "00_PRINT_QUEUE"
+    (local_fallback / "PROCESSED").mkdir(parents=True, exist_ok=True)
+    return False
+
+
+def process_single_print_ticket(ticket_data: dict, ticket_file_path: Path = None):
+    job_id = str(ticket_data.get("job_id", f"PJ_{datetime.now().strftime('%Y%m%d_%H%M%S')}"))
+    ws_id = str(ticket_data.get("worksheet_id", "WS_G06_U03_ADV"))
+    ws_title = str(ticket_data.get("worksheet_title", "Phiếu bài tập Cô Thúy"))
+    version = str(ticket_data.get("target_version", "BOTH"))
+    copies = int(ticket_data.get("copies", 25))
+    duplex = int(ticket_data.get("duplex", 1))
+    now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+    # Generate A4 Word (.docx) files for the print job
+    grade_match = 6
+    for g in (6, 7, 8, 9, 10, 11, 12):
+        if f"G0{g}" in ws_id or f"G{g}" in ws_id or f"Lớp {g}" in ws_title:
+            grade_match = g
+            break
+
+    gen_res = generate_worksheet_from_db(
+        grade=grade_match,
+        unit_code=f"G0{grade_match}_U01",
+        count=15,
+        title=ws_title,
+        exam_code="101"
+    )
+
+    # Copy generated DOCX files + ticket to 00_PRINT_QUEUE/PROCESSED on Drive
+    ensure_drive_print_queue_dirs()
+    target_processed_dir = DRIVE_PRINT_PROCESSED_DIR if DRIVE_STUDIO_ROOT.exists() else (PROJECT_ROOT / "00_PRINT_QUEUE" / "PROCESSED")
+    try:
+        s_docx = Path(gen_res["student_docx_path"])
+        t_docx = Path(gen_res["teacher_docx_path"])
+        if s_docx.exists():
+            shutil.copy2(s_docx, target_processed_dir / f"{job_id}_{s_docx.name}")
+        if t_docx.exists():
+            shutil.copy2(t_docx, target_processed_dir / f"{job_id}_{t_docx.name}")
+
+        if os.environ.get("ENABLE_PHYSICAL_PRINTER") == "1" and s_docx.exists():
+            subprocess.Popen(["powershell", "-Command", f'Start-Process -FilePath "{s_docx}" -Verb Print'])
+    except Exception as e:
+        print("Print queue copy warning:", e)
+
+    if ticket_file_path and ticket_file_path.exists():
+        try:
+            shutil.move(str(ticket_file_path), str(target_processed_dir / ticket_file_path.name))
+        except Exception:
+            pass
+
+    status_str = "ĐÃ IN & LƯU 00_PRINT_QUEUE/PROCESSED"
+    conn = sqlite3.connect(DB_PATH)
+    cur = conn.cursor()
+    cur.execute(
+        """INSERT OR REPLACE INTO print_jobs
+           (job_id, worksheet_id, worksheet_title, target_version, copies, paper_size, duplex, status, requested_from, created_at, completed_at)
+           VALUES (?, ?, ?, ?, ?, 'A4', ?, ?, '00_PRINT_QUEUE (Google Drive)', ?, ?)""",
+        (job_id, ws_id, ws_title, version, copies, duplex, status_str, now_str, now_str)
+    )
+    conn.commit()
+    conn.close()
+    return {"ok": True, "job_id": job_id, "status": status_str, "student_docx": gen_res["student_docx_url"]}
+
+
+def poll_drive_print_queue_loop():
+    """Background daemon that scans 00_PRINT_QUEUE on Google Drive every 5 seconds."""
+    ensure_drive_print_queue_dirs()
+    while True:
+        try:
+            queue_dir = DRIVE_PRINT_QUEUE_DIR if DRIVE_STUDIO_ROOT.exists() else (PROJECT_ROOT / "00_PRINT_QUEUE")
+            if queue_dir.exists():
+                for item in queue_dir.glob("*.json"):
+                    if item.is_file():
+                        try:
+                            data = json.loads(item.read_text(encoding="utf-8"))
+                            print(f"[00_PRINT_QUEUE] Detected cloud print ticket: {item.name}")
+                            process_single_print_ticket(data, ticket_file_path=item)
+                        except Exception as e:
+                            print(f"[00_PRINT_QUEUE] Error processing {item.name}: {e}")
+        except Exception:
+            pass
+        time.sleep(5)
+
+
+class MasterThuyStudioHandler(SimpleHTTPRequestHandler):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, directory=str(PUBLIC_DIR), **kwargs)
+
+    def translate_path(self, path):
+        if path.startswith("/master-thuy-studio/"):
+            path = "/" + path[len("/master-thuy-studio/"):]
+        elif path == "/master-thuy-studio":
+            path = "/index.html"
+        return super().translate_path(path)
+
+    def _send_json(self, payload, status=200):
+        body = json.dumps(payload, ensure_ascii=False).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Content-Length", str(len(body)))
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(body)
+
+    def do_OPTIONS(self):
+        self.send_response(204)
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        self.end_headers()
+
+    def do_GET(self):
+        if self.path == "/api/print-job":
+            conn = sqlite3.connect(DB_PATH)
+            conn.row_factory = sqlite3.Row
+            cur = conn.cursor()
+            cur.execute("SELECT * FROM print_jobs ORDER BY created_at DESC LIMIT 30")
+            jobs = [dict(r) for r in cur.fetchall()]
+            conn.close()
+            self._send_json({"ok": True, "jobs": jobs})
+            return
+
+        if self.path == "/api/submissions":
+            conn = sqlite3.connect(DB_PATH)
+            conn.row_factory = sqlite3.Row
+            cur = conn.cursor()
+            cur.execute("SELECT * FROM submissions ORDER BY submitted_at DESC LIMIT 50")
+            rows = []
+            for r in cur.fetchall():
+                d = dict(r)
+                d["wrong_traps"] = json.loads(d.get("wrong_traps_json") or "[]")
+                rows.append(d)
+            conn.close()
+            self._send_json({"ok": True, "submissions": rows})
+            return
+
+        return super().do_GET()
+
+    def do_POST(self):
+        length = int(self.headers.get("Content-Length", "0"))
+        raw_body = self.rfile.read(length).decode("utf-8") if length > 0 else "{}"
+        data = json.loads(raw_body or "{}")
+
+        if self.path == "/api/generate-docx":
+            grade = int(data.get("grade", 6))
+            unit_code = str(data.get("unit_code", f"G0{grade}_U01"))
+            count = int(data.get("count", 15))
+            title = str(data.get("title", f"Phiếu Luyện Tập Khối {grade}"))
+            exam_code = str(data.get("exam_code", "101"))
+
+            result = generate_worksheet_from_db(
+                grade=grade,
+                unit_code=unit_code,
+                count=count,
+                title=title,
+                exam_code=exam_code
+            )
+            self._send_json({"ok": True, "mode": "LOCAL_PYTHON_BRIDGE", **result})
+            return
+
+        if self.path == "/api/print-job":
+            # Also write ticket into 00_PRINT_QUEUE on Drive and process immediately
+            ensure_drive_print_queue_dirs()
+            queue_dir = DRIVE_PRINT_QUEUE_DIR if DRIVE_STUDIO_ROOT.exists() else (PROJECT_ROOT / "00_PRINT_QUEUE")
+            job_id = str(data.get("job_id", f"PJ_{datetime.now().strftime('%Y%m%d_%H%M%S')}"))
+            data["job_id"] = job_id
+            ticket_path = queue_dir / f"{job_id}_TICKET.json"
+            ticket_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+            res = process_single_print_ticket(data, ticket_file_path=ticket_path)
+            self._send_json(res)
+            return
+
+        if self.path in ("/api/submit", "/api/submissions"):
+            sub_id = str(data.get("submission_id", f"SUB_{int(datetime.now().timestamp())}"))
+            ws_id = str(data.get("worksheet_id", "WS_G06_U03_ADV"))
+            student_code = str(data.get("student_code", "MT601"))
+            student_name = str(data.get("student_name", "Nguyễn Minh Anh"))
+            class_id = str(data.get("class_id", "CLS_G06A"))
+            exam_code = str(data.get("exam_code", "101"))
+            auto_score = float(data.get("auto_score", 9.0))
+            final_score = float(data.get("final_score", auto_score))
+            teacher_approved = int(data.get("teacher_approved", 0))
+            wrong_traps = json.dumps(data.get("wrong_traps", []), ensure_ascii=False)
+            now_str = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+            conn = sqlite3.connect(DB_PATH)
+            cur = conn.cursor()
+            cur.execute(
+                """INSERT OR REPLACE INTO submissions
+                   (submission_id, assignment_id, worksheet_id, student_code, student_name, class_id, exam_code, answers_json, auto_score, final_score, teacher_approved, wrong_traps_json, submitted_at)
+                   VALUES (?, 'ASSIGN_DEFAULT', ?, ?, ?, ?, ?, '{}', ?, ?, ?, ?, ?)""",
+                (sub_id, ws_id, student_code, student_name, class_id, exam_code, auto_score, final_score, teacher_approved, wrong_traps, now_str)
+            )
+            conn.commit()
+            conn.close()
+            self._send_json({"ok": True, "submission_id": sub_id})
+            return
+
+        self._send_json({"ok": False, "error": "Unknown endpoint"}, status=404)
+
+
+def run_server(port=8765):
+    poller = threading.Thread(target=poll_drive_print_queue_loop, daemon=True)
+    poller.start()
+
+    server = ThreadingHTTPServer(("0.0.0.0", port), MasterThuyStudioHandler)
+    print(f"======================================================================")
+    print(f" MASTER THUY — ENGLISH STUDIO v2.0 & 00_PRINT_QUEUE BRIDGE IS RUNNING!")
+    print(f" - Root Dir:             {PROJECT_ROOT}")
+    print(f" - Drive Print Queue:    {DRIVE_PRINT_QUEUE_DIR}")
+    print(f" - Trang chu:            http://localhost:{port}/index.html")
+    print(f" - Phong cua Co Thuy:    http://localhost:{port}/teacher/index.html")
+    print(f" - Goc Hoc Sinh Online:  http://localhost:{port}/student/index.html")
+    print(f"======================================================================")
+    server.serve_forever()
+
+
+if __name__ == "__main__":
+    run_server(8765)

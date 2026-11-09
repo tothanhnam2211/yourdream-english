@@ -1,0 +1,1041 @@
+{
+  "worksheet_id": "WS_G06_PRES_SIMPLE_30",
+  "title": "Lớp 6 — Chuyên Đề Thì Hiện Tại Đơn (30 Câu Chia Động Từ & Trợ Động Từ)",
+  "grade": 6,
+  "unit_scope": "G06_U01",
+  "question_count": 30,
+  "questions": [
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_001",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My sister ______ (go) to school at 7 a.m. every day.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "goes",
+        "go",
+        "is going",
+        "to go"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "goes"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: goes.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "86da6a6559b7f66d",
+      "answer_hash": "f9f15a78f31cf910c432631bd5ab17889419383c4563ef1ea55ac383870d8d36",
+      "solution_iv": "75b4f64c3e35a4cf60963177",
+      "solution_cipher": "304a2a78785fd993a0a3c60a3e28d453a07dd7ab6d967b4caf47066976d6547b5001de978845b0ca916f9bc089dcad0e52bbacb78ee929f6f3aff9179671c709d07f2d72d841e9d56ca377505ba9a3819c72ab2bcd85639bc7e7c611e526f8ec00f9ffe0ebb89e543e89819297f4dbbff5d736585b66e206538fa01b82466e"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_002",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "I ______ (like) English and Science.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "like",
+        "likes",
+        "is likeing",
+        "to like"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "like"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: like.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "a81fbc7901e1871b",
+      "answer_hash": "9ae46457642b2333d5c97f4d08f4ba9bbd24a9cbb7ab883a64840182fa80452e",
+      "solution_iv": "f15fa31bfd57b0dd6b396c60",
+      "solution_cipher": "424c8a521d1befdf47407067068f478d9b750238025af580b84097d957c2eca7e22aedffda98ac4151c51906eef3381bb167b8603000822ab15642a4ba3ff2df4b7a0753e9b3025fffdd2b226b521689cefe92bed5b4505a30651e48cea8ef7bae9429ba6ccabd285aadf023895d837db51553981a9a29e3c121db03bab41c"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_003",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Nam ______ (play) football after school.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "plays",
+        "play",
+        "is playing",
+        "to play"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "plays"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: plays.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "9f55511de39ba9c0",
+      "answer_hash": "d2dad52ac299a473c3c2afab553f1b2e601918f1bca6d12aba75f661a02b45d8",
+      "solution_iv": "ef16b7ba2196e4be062f14db",
+      "solution_cipher": "6c8923fba46a4d8f7b110a587f69749f8ce425d2119653b3e48a0f008e00334bc3ca776873b7e43c4d3fdf15ab93d7f041eed29955f5d10707b641c8c076f46612611c19c08a590f23e665e9f355c87324b3f7f9ff47b4d1447b9cf2d29051e88f99f3a80ba62107493ff79039eefde3db5b98bcb09db9e924de1ca3f00b690b6a"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_004",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "They ______ (live) near our school.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to live",
+        "live",
+        "lives",
+        "is liveing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "live"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: live.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "3e1e84ce3e88ce2d",
+      "answer_hash": "7c6165553f2fd8d747feedb48dd100629c0ba1e4f5c2366940fbe1c6e907c41a",
+      "solution_iv": "918777214f983f11190aef00",
+      "solution_cipher": "8b3cfc4d12d91152858bfac2421c2a83f615df431b0bc1a424aaee810a23013a025c2ec7a534ea7d2c82e06c63d1045f6673aa8e3068e8384b3a52dbfdbe4f0fceca4bc2d9d2a22dc70c1c932f1fa01304d9cce79ae7919e3becb122ffb737dab2fa8091b40458ce6438c535227a7ae97a77ba945951f69cd6df9ea02c36d9"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_005",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My father ______ (watch) the news every evening.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "watches",
+        "watch",
+        "is watching",
+        "to watch"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "watches"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: watches.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "982de9f6cab28879",
+      "answer_hash": "256917efc7c16cd4bda8e123d76ca6fc44fe4c70d3638916270bbcd78ff801fb",
+      "solution_iv": "7d19e941134d5717e7d6a552",
+      "solution_cipher": "fbd70b95023410f2a490d2cca2e7d1dabf4ca2770aaf92621a2c6b65968a29747d748a8b19571ee318464e3866afed59c58568e3adc011cbce9b9bda029b82cde48f8692563aa8cf914f97936858cde2a981cd84e981811ac75c4be6622afda8a21206fc138efca6cd16d3929ab64043ff14014582ebfeda241077e4dfc28ab359e4107081"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_006",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The children ______ (study) in the library on Mondays.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is studying",
+        "to study",
+        "study",
+        "studys"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "study"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: study.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "461359d37ac61b93",
+      "answer_hash": "e617ef4065df09f0f9f49f2bb890bc3f846b48cf75940e811527da30978c03ca",
+      "solution_iv": "f0b26cbcc45e23265f40e92f",
+      "solution_cipher": "a585efcbb5398409c11dc02812f3a2c7640207b1360a55a35cdb74e482ed43d5cf63d3bca89a9326fc1cea9c360c957ab170d4c4c64f08229df8d6c6a3125f32bb792e6d8cc3afc40e197e49a28dcb861eeb5e21f8a4aac5565dfada70be18f59f537e13970ce13bfddbb0df7ba0fec234f0238fe8e58195f9f76470f417a626d2"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_007",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "She ______ (brush) her teeth twice a day.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "brush",
+        "is brushing",
+        "to brush",
+        "brushes"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "brushes"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: brushes.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "c54fb3894e329efd",
+      "answer_hash": "03c0c1e7108886befc5719e0374b0f31d4c97ceb2386bea22d86404d398914c7",
+      "solution_iv": "1f41a9831116f9331dc070d1",
+      "solution_cipher": "a83a1a99ee6f2f1bca4023e3d11e0e8732e0ff2f246250b47c8ddd5caf1daa9b4d521ffb6a241742897cde452fd65a45feb86f104cf56c2fe7a7d3d4630858aeac1bf21411455d95c5727aae1ac8a1ebaf30dd4f4823697b96d7b9009bef6362a8f287e90091ee22adcf47b1342b68bae596a0d19dbcc507273c6b102c288c289de3a3b504"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_008",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "We ______ (have) lunch at twelve o’clock.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "haves",
+        "is haveing",
+        "to have",
+        "have"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "have"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: have.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "9b29579a1d868fe4",
+      "answer_hash": "4c73c33421319e21921a3dd63d1082464cb18efb1b8296cd7df58cf8bee0f572",
+      "solution_iv": "092c2c3d7b98d0e7b6a67a0b",
+      "solution_cipher": "e23efdc9b5bfc08c4c438a4c6814cc1776d80898c8b5463f716c75bddbbd3e9faa973c76aca7088fe5bc7ec523a07aedfcd4da51b9e57df49d1db29fec01ea923287f3fc0b6701d66d78b15ad0f849c8ea5ec78e8c0a21a401ad6f6096304b39666cc4d5f5f3803f420869f07299241e2c2a480ff5e74b0ff5db17f026aeeb"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_009",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My brother ______ (do) his homework after dinner.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "do",
+        "is doing",
+        "to do",
+        "does"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "does"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: does.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "11e5a455054b34ef",
+      "answer_hash": "1dcd1e97852828dd8919de5f2e49aec7e6fb3d9cc4ab9ccfb83688f9b0e6f596",
+      "solution_iv": "a096291a76e86743f2847401",
+      "solution_cipher": "93720bdfea32ed09d280a8cac0608132ab3e3db494d4dfd5e7f1326de72e429224872bd5cdd41a1796dac66ea4c89a900f9b15ccec93b8e503531cde7c9b8ca3986972d488076144cb520ea745c92ba20ce8623ae862fe41e3a8020deab302673c932785b696d71bf43f841d36330793e0188e560a5308041664138074eabd"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_010",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The bus ______ (leave) at 6:30 every morning.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "leav",
+        "is leaving",
+        "to leav",
+        "leaves"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "leaves"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: leaves.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "96b81ed1f5e87c24",
+      "answer_hash": "edbe3bd82b347d424afb0eccbe725a06642eaa97e66e1e1e58b8f61f9c2b2829",
+      "solution_iv": "2b9323a287f72e9da86c25fc",
+      "solution_cipher": "c43c9259ed039e0bfee8c964c1a89da8401c4798828557c0524b8c1daeca06a7480032cd0e6c1153e609209f63f7fe50b4008bb6059232bd2711c18ff6fc321a33d7abfbd92a2926d84f73f6547b7998b942a2aa26489eb1b9063145b7f008d48ccf78272619434a4b989f476c91668843275f187a73f34367241decc7598443fadd0d"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_011",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My best friend ______ (be) very friendly.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "i",
+        "is ising",
+        "to is",
+        "is"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "c73cfac635684cc9",
+      "answer_hash": "ca5a2730012725e63c31f1795d781cd98167db835659fd6d68f1acc939a4ef3a",
+      "solution_iv": "3971e0637194df94ded43c7d",
+      "solution_cipher": "fe0114b7a64bbe051f4e994435955b57aedb7e5c3cd496cd624361eaa58153d6e9af90a2fa7817bce51e1acc36178b98dd916679414dfd667af0a7491cd6632fd8ef7638e5a910da237844f3a8617883e3dd6663485ac19342e562d2bf934aac6338fc2b201595bfbc4ff1d32dd140c96c758d7ea6d75c0ca7a156"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_012",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "There ______ (be) two windows in our classroom.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to are",
+        "are",
+        "ares",
+        "is areing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "are"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: are.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "09248b402bdeacd7",
+      "answer_hash": "a6836d6bd4b5461acf6171d7f51835e0e0d3a24a2404096882f0245d00c822ee",
+      "solution_iv": "f2cf8a4b0ee2679a09f5244c",
+      "solution_cipher": "5b7facbe6096be0de45ce5a4efe70c71175a33ae815e0576f359b8feea22758dbd28a20e7695fdfe7f3ad74b8c4e50f0e7cd795c6cc73ae1813228f8b006d0415305caf413d9972b8316fdd16df78b92f616c4097016db4473cf8fa9fbe2b8c15f06c94a7e02267abb4503e37a6f87d1c1a182b871ba6a1b8fdadb3767"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_013",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "I ______ (not like) getting up early.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "do not likes",
+        "not do not like",
+        "to do not like",
+        "do not like"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "do not like",
+        "do not like / do not like",
+        "do not like / don't like",
+        "do not like / don’t like",
+        "don't like",
+        "don't like / don't like",
+        "don’t like"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: do not like.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "fcdbaa9a4b940716",
+      "answer_hash": "7eca512764292cdc7b6f2484a8c66f1d091531782eaf53397b87017c393ece09",
+      "solution_iv": "0be5cb1e3f339a4d5dfce9b8",
+      "solution_cipher": "992d0621e5bd70ccaff3289433bf2ab1c745277c28a0902f6716cf596f46a894499e119d533bfb15f4c42e3d8991dffb1d6bdcabc45144af225a66a15aa7cb678e636e0554a9fc903be49b9359da8b2bf22ada246a949deefaf525ffcfeddef76b34324abc0a0e951e94528ed82856cf82f7e3dbb9e9a2a131033d2028c80a18e195f5d1322baaa948f1edd23629c06a4b80aa5ba14ec95d93ffded04799143e7f6bf5c8c595c5260ff95d1e9b985114fb833b53b6035025fc78f3c12d9c4fe4f738f6ce652006f0efc4b2e39e8c909fdd9d9960e880caa20069bc1c9456aee6bde31d0665d73ffdc44f2d769dbcf46bdb215a3b7d3e8c6a970222f5b9f329b80f5863c99c2cc8fed88c8b78db898deb1371a442a7ee33"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_014",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Lan ______ (not eat) meat for breakfast.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "does not eat",
+        "does not eats",
+        "not does not eat",
+        "to does not eat"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "does not eat",
+        "does not eat / does not eat",
+        "does not eat / doesn't eat",
+        "does not eat / doesn’t eat",
+        "doesn't eat",
+        "doesn't eat / doesn't eat",
+        "doesn’t eat"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: does not eat.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "c59a17eb4eb3354b",
+      "answer_hash": "5b045fd3251504a975f9107a0bf7137c0f3d8c7941b9fec0ca378cb0e0adc922",
+      "solution_iv": "f192bcbf3cefba70c26f9f9c",
+      "solution_cipher": "8b761a4d1ed417a2d85bba5e49bf0f31801f1bc1d0f26d3a72d7b25c44eb47976b847b6eb5582dd12acc66448c54e91e827ebb04988afbdbb83a206bfe215b6711c07fecfc2196c9deb31e336baf3e572948e915f02b9dca95a9b38d708ff91e289d45f95ab35547169852e221057a00f5d310edbdbea225b0777d4562ab431102d0fd5054b5c642bc118a5788eedeba47e398a13956c77bc5ebdee497e9809e00e77309d112501976f430f78dd92e2dd1087a3f09093335e2a7c256ef6e4886a4273769787244bbaa44137743a9a282740b0b14fb13b4cca6efb6666528c8442584137811e5e67fa11696279805e1465e508fd98685011d333e374a33638b2c1ac74812fd87ec628322644d1ca7a8cbec71516270a5d8b4aef16880f5f59ec30a5848"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_015",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 1,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "We ______ (not go) to school on Sundays.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "do not go",
+        "do not gos",
+        "not do not go",
+        "to do not go"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "do not go",
+        "do not go / do not go",
+        "do not go / don't go",
+        "do not go / don’t go",
+        "don't go",
+        "don't go / don't go",
+        "don’t go"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: do not go.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "151846eb03e1f99b",
+      "answer_hash": "f0ff2d25295d01b62f8af8961a4cade0b9ce2ab1e304cf5e3ac596c58130694f",
+      "solution_iv": "43954a98d1dcd4913ffb5898",
+      "solution_cipher": "fea7d410f1c052bb2b078579a0e8062c2410b573602b7352815205294850a7e59c4a704412066d7e4ec57729bc10c7e1d21da057dea423feac2224cd49c46e5dd236ac4f4ab2f53433da03c341a6a5aecf4e9ac38e867548a512ddabefc401a25b86bba4009188913dc4764794a5ae4e996d400525f3819eb344444f841d77def69a74b12f10568454e98da09634d1c9c89184ad090f25bdc1ee5598427c39374ba43d6bf0f6e1e9c53ea28a03d97303a8f97758da3e52fbd3a4d0f075c7b9f974420e7384a7606e986154a06d231b525b52b2e089c7e80f4e5b240b0380be3404e00d90f4e98b0d2092b1e9e05274ecf74b935ed7d2c0fed0767570d3fe70"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_016",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My parents ______ (not work) on Saturday afternoons.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "do not work",
+        "do not works",
+        "not do not work",
+        "to do not work"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "do not work",
+        "do not work / do not work",
+        "do not work / don't work",
+        "do not work / don’t work",
+        "don't work",
+        "don't work / don't work",
+        "don’t work"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: do not work.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "fd46678d92e47161",
+      "answer_hash": "4d45a16522ef072c6f8cc8db322618eaea5ddabd08e3ca9181dba9b3d4058a19",
+      "solution_iv": "43663776053226a72412d2b6",
+      "solution_cipher": "08da29d2dc09dae59f8c029736e83e088928fbc802c88ef63c6e129a23da26d3c2fdc2beb2c8df69969d9f150cf624d1fde6e38e1b450f5c2bceb8487411497a75b5675878c7988377e3855686ac12123c64a4726a2e53c3f2e437d45a6455bd225b5e486ec18d720932c300d588534a65bee7b22a76fd67424f999075fc50ef0ef4d781d276c77355e009c4a0ea1b4431b09c59cacd67d76d396e3f9048eb333fab0e3226b13967c17f24acc9160a06f5f8e29b1b1ab878f4daeb4c7779e61aa473d9942e03ca9e4a041e1f6bc66b0c059f64769ceb600b72fc0ea8e5f51df1e4b01ce65d484753c8ed909602353ec738db3e4cc318492e838d8ddb11b29e9d52657ef26c47e020c18f4c37b2636a2fc85171acf7be7c"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_017",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "He ______ (not have) a computer in his room.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "does not have",
+        "does not haves",
+        "not does not have",
+        "to does not have"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "does not have",
+        "does not have / does not have",
+        "does not have / doesn't have",
+        "does not have / doesn’t have",
+        "doesn't have",
+        "doesn't have / doesn't have",
+        "doesn’t have"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: does not have.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "79fb416c92a9be1e",
+      "answer_hash": "55f58689f6bd50b850ca0d51706f2f26e7cea98332e3457093c5a6a494c4de1d",
+      "solution_iv": "a6124cedd9994f798a0e1a03",
+      "solution_cipher": "eb28ea673797069e3bf1404fa6a35fd9e71373f6688ef89c6d2425b4326c03efb782f1a22d70af9addd0a240014ccc5fe121640df5033c6e4b83a1155e922fda1a79903c63550d3830b789064670a1f6b008ea2ed41e351f27de291b8d0b9d3a07cf0c0de9267fa69b8edd2ef40ee0772e169d09dff576fc1b5245e8f6b956ddf7a7468d63d9759321b5f8fbc9eb495d53366edf99cfab17a60b5c1bbcf1bf458defef0f08c25f38d94dbb1cc176c5ee14ab9bf346a71905e3b1bda3e5b7c77fa47a415f557e391f665ec0f202ce466a1a9cdbff91b69dbc40409d2466443a205ffb8100aa82059c9a66c4342450085b357ab32cb27159fde0d837f3ba13f8dacfa7f05badd27b728fbc71988bad4cd42ab0c553757bca701346bd5002ebd0272df41eb595ab63c91baeb6c66b651b"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_018",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "The classroom ______ (not be) noisy in the morning.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to is not",
+        "is not",
+        "is nots",
+        "not is not"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "is not",
+        "is not / is not",
+        "is not / isn't",
+        "is not / isn’t",
+        "isn't",
+        "isn't / isn't",
+        "isn’t"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: is not.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "392e182a24b13cc8",
+      "answer_hash": "5d7e428e24289ed707ed605fd4a2213361065a36acea23cbb3c6d6f5c02d5d07",
+      "solution_iv": "43e620212abf0d6d132ee14b",
+      "solution_cipher": "5e249cc42337b7f1ef098557f4b9319787bc4b8385ab3def23b7d4a48824a8fd28faae02e6fce3fbf30e1fb68c6135f6121411d788c35cee714cc83c69028aad5ce7d330671d99b83e573178d9f425740ca545a690b64d32ec59d2fa34360416a4f3e38097f636ac94aef43d43f39fd301bb900906ffcc30608edcf4d66c2c143ba615a8a3e8a75006c73d2b9031b48de630bb8932f4897679336b067ff239804278a064ba7da79c3794cc0999bd4dcfd9979d4b5a147e3fa66a29d26deb305b180d0ad3a9bf08e16cd721354ffd4c6d139661269893debcedf734"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_019",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "______ your friends ______ (play) badminton after school?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Do ... plays",
+        "not Do ... play",
+        "to Do ... play",
+        "Do ... play"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Do ... play",
+        "do ... play"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Do ... play.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "922a3861b5762d5f",
+      "answer_hash": "4602b4c0cc57bf0a0e4759a1ce0dc3113c535e6c7c2c7cfc771b3a6a0e2b9a59",
+      "solution_iv": "12423d5bda1ef4e8fda35f42",
+      "solution_cipher": "1ea2369ea2a96ef457cd439847f2a7d2896d8f648dd580ac2c77c73758a899d9146b71e27d6d6aa24e5e3563e2c558cbd3c3b4cea44e8c04fd165a577680a5ed07feb1ed7d16ae8f7429f1edf30f36d21f94941085470841b257e4490e2b98a745dd9420955ea79eb2a5ae103942e93efe94f10ebc87aa817cc619f765e772177e85406be6f28cc78c3c6f1c3bf38c18aa37024642533c56c433f3"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_020",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "______ Mai ______ (walk) to school every day?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "Does ... walks",
+        "not Does ... walk",
+        "to Does ... walk",
+        "Does ... walk"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Does ... walk",
+        "does ... walk"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Does ... walk.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "0a2b777b8d4223c6",
+      "answer_hash": "25e45cb51ec4662721f8ba3f7d38f79559f4ce1b64162ea2ec4b9fa1bf67d534",
+      "solution_iv": "40859c44512b3f4844d587f3",
+      "solution_cipher": "03808081233a90ec2a7767940568e35f4a29ebbcbdcf463998b1be6fbf2bb1716bb5cc196f4425b4e4b50f144b64e75e244a0a97610831639d0064d5c47a32dd1889affd681ae70a9ed18902b3d87f861eb7ffd83811efe00b5fd964ff61b483a57ac12e8010e5c07e7e5aa64d4445442b58cf19292cee21b350bafad00d4cfb4a205e6a1a887b0ca27388315cb635da60b945ec58c36cb89bda3d62586256fb04"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_021",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "______ your mother ______ (cook) dinner every evening?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not Does ... cook",
+        "to Does ... cook",
+        "Does ... cook",
+        "Does ... cooks"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Does ... cook",
+        "does ... cook"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Does ... cook.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "4bc39ca80beeb976",
+      "answer_hash": "084c9b19b7591e75dbfb0a42f45f2b2d1a6092a95cd624df8950c22fb6edc7ff",
+      "solution_iv": "af33b869af1d96b187204057",
+      "solution_cipher": "d9ea3c5ecf785f25ac5e181cbe05d564ddb04d6e66c33d4416a6f9a7ceade0e4e77fc3493f27246fd4b8cff325e76431efaa2c8837dbccd335d0a18cb7c24474630e50d76c0a4506dc5ae152cb927d1b049db3188fbd47aafa03c6573cbaf264f64df3a5e714b3e8f5d96b2c31dbb376ddec382ad7415b8052c37281345b97886e3ba0af35d7328dc5a340894673d6cca9e5de4bb252394302ddffae9c2204d8e5"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_022",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "______ you ______ (study) English on Tuesdays?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "not Do ... study",
+        "to Do ... study",
+        "Do ... study",
+        "Do ... studys"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Do ... study",
+        "do ... study"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Do ... study.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "7a9a55473ff24773",
+      "answer_hash": "0027fcd69eb71b69cfabf65cfc66bf0f48a3f1b432a763679e99861271aab6ff",
+      "solution_iv": "2b9a2f624a4fc60a732f38bb",
+      "solution_cipher": "ba645a9b3ca042823597efae185af6961f678669bf480c6eac172182d14e180522566a020326a904a3b8b50594978f29cc5816141fb6cb9a80e02922aeca9fcf7bb2cf42c7e60c08786c9c702e60ee59a0f8ef57c78edbfddfadd290c052d8c73bbbdea7179c51fd63f11069968c9f63da87f1ff4bb99a04639a0a0b6ce471ab305aa6008316da40ca464982d7eecbb8bc68dd4ef165bd47972e12184d6f"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_023",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "______ your teachers ______ (be) at school now?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "to Are",
+        "Are",
+        "Ares",
+        "is Areing"
+      ],
+      "correct_index": 1,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "Are",
+        "are"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: Are.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "3a9ac3d00ce3a002",
+      "answer_hash": "8957f4be8373be86ed56d36d18602c3d3d22a9f3628c8abf173d88537cf6f4a4",
+      "solution_iv": "bc493aa788321d410a1bc714",
+      "solution_cipher": "594684d657871c64dbe62bc74624a7a1d5069e71635ea14901c7b344d741de863cd162bfdfcd9e72579d108a44251a6895c6906a4585389831f959cffd24ec557e9ae18675ae76b8386aad8aaa09286f5a0e7dd1f800462106074fc8527c2a8a3db1640a1233286dbcf4ad0bf15cc16e754c30d0d2a867a4e375c3b40d7f295e055a50"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_024",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Where ______ your brother ______ (live)?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "does ... live",
+        "does ... lives",
+        "not does ... live",
+        "to does ... live"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "does ... live"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: does ... live.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "b764f6908915629d",
+      "answer_hash": "224a861a61a2cb0bf7dd011394c8684921e18dd20a448b66d83da469b3b75de0",
+      "solution_iv": "75e09b752e9e87f242e0264a",
+      "solution_cipher": "076f81281d7b5712c745df3400caeabb12e110dd2ffc036a63b29b38401eae36340058cec5a761ebb279a0e3ad0a84b9be10ab6033f2350fb0abe60ac824c0c9b4239524fddd30555470e842514acd229444e989004d38240fc90833f8d14d37fd70ef8303098cd1ff7b214646b9eea919b869c8fa7c80399f693fe39707b02059fcfa1eb43d9a0617fab212730a5d1d3f"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_025",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "What time ______ the first lesson ______ (start)?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "does ... starts",
+        "not does ... start",
+        "to does ... start",
+        "does ... start"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "does ... start"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: does ... start.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "8ea7501006463e56",
+      "answer_hash": "ed6cb8b32fb0298713eb42af23838df631d34e1e99a4d2432d10b6437474a026",
+      "solution_iv": "7e1ad074832a0e8ef4934449",
+      "solution_cipher": "7492879bdbd06ad0e2d425254ff6f6bc58f4d27bb495a59520cb50a60ef43308bf618ee709920b56ddd145717aa46e9c5b0ac47d191f6e6b41452675bc660a08fda25e85f620aff0fdca9b91d315325eaba69d5a4a87d2090bf7f7c4cdc27b03ce724637bb039ff45768bdfd4de178f636eac29f19cbc23720d2899995e26d508c1ebca89a81f531c4903a11c13c4f1455532e"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_026",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "How often ______ Hoa ______ (visit) her grandparents?",
+      "passage_or_sign_svg": "",
+      "options": [
+        "does ... visits",
+        "not does ... visit",
+        "to does ... visit",
+        "does ... visit"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "does ... visit"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: does ... visit.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "ab65f54acfa62735",
+      "answer_hash": "275a5fcc8975c337df71eb6e1422a0b85535cd1fec36635ce4c9643ff3b7d133",
+      "solution_iv": "0abc1caa3df9bb8baf313a98",
+      "solution_cipher": "8d3fb2843b70e97394ec4ae91e56b18ecdc97ecbb70df606dc3da92198b22a09247efb6f7c9920e95b4df865f21aa942400893db9ef15fc8d539e2dc4bf0bbd9f417f8a698c0761285fcc48d806497f2b745968a552af6251656e04e217ee488e50d702fc1079df0cdc5ec7916e989a564e0234ac240fe2b04cc0165895e3c139ce21a37ac9b7bd05fbf07c7372b66f10524d3"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_027",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_TENSE_SIGNAL",
+      "stem_text": "My little brother usually ______ (cry) when he is hungry.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "cri",
+        "is criing",
+        "to cri",
+        "cries"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "cries"
+      ],
+      "signal_keywords": [
+        "every day",
+        "usually",
+        "now",
+        "at the moment",
+        "look!",
+        "listen!",
+        "yesterday",
+        "last"
+      ],
+      "explanation_vi": "Đáp án chuẩn: cries.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "3ef92a35024c6794",
+      "answer_hash": "f3a2de4fe889d7aa5d781389a4e4ce300005e02c3289a283db080a21d2499940",
+      "solution_iv": "740e44a13b23b20e8fa58938",
+      "solution_cipher": "6ccb39b445e592a5f8df1438541ae9f952a3fd10459744e27fd1147c1f474f1a1eb1b55649cb1fdb185b359b04fcb03bf1531c84f82328648f142481696ff1b64ebff004e0b3a46ff6fa4f6c4041c278292358ed6274c51f5640ca7ef89a24585dc3e0bb7a459bee5e1436009b38c694e5a6d34659babe15b55e07484aa17eacf4"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_028",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "One of my classmates ______ (have) a new bicycle.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "ha",
+        "is haing",
+        "to ha",
+        "has"
+      ],
+      "correct_index": 3,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "has"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: has.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "8ab1f8109625d00f",
+      "answer_hash": "08de9f25773b6ca5ae9e4efab37c7b29930de3bf3c44d98c924c4f9fc80917b3",
+      "solution_iv": "791715dd96c3a9ced22d18fe",
+      "solution_cipher": "80fefa55b1331e2126620ab525070abc4e227b136c1ddcbe871c37fa41427d03ea9d7b294a9971cb22360cf0023f19117ec0e24fdf45a12bbb8bbf2495fd956785cc3165824f06e76b5ec8e65dfde3cf214a03840aa9e938ffb6aa20f261302774d9a6e83d1c742b8c035ef211d1e644c2be3087f3ffdc9d6f0da98d70"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_029",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "Every student in our class ______ (wear) a school uniform.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "is wearing",
+        "to wear",
+        "wears",
+        "wear"
+      ],
+      "correct_index": 2,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "wears"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: wears.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "b3e66eaae34bf2f9",
+      "answer_hash": "fbcf5587fdae63ce4bd91a16bbcc0eb643b3e6b44a001e4b0350cc7bdb5fd43e",
+      "solution_iv": "ec9e72e84c58bc69be372273",
+      "solution_cipher": "965d0ba183fae068e96efc764242f2baacae47995a822c0af279e072c3f5aca0209578ede9da8394b8f81ccf2e67238a5b91a5084aa770a650d43eea7d45566a325b588771ba30a181949985f9cecd418a9fb2788871342047f784eb44205da411e29f2b431257d5bdadf339dc05ff452963c174b93244b8577c117f42a8baa2fe"
+    },
+    {
+      "question_id": "Q_WS_G06_PRES_SIMPLE_30_030",
+      "grade": 6,
+      "unit_id": "G06_U01",
+      "skill_domain": "GRAMMAR",
+      "difficulty_level": 2,
+      "trap_code": "TRAP_SV_AGREE",
+      "stem_text": "My sister and I ______ (not watch) TV before we finish our homework.",
+      "passage_or_sign_svg": "",
+      "options": [
+        "do not watch",
+        "do not watchs",
+        "not do not watch",
+        "to do not watch"
+      ],
+      "correct_index": 0,
+      "answer_mode": "BOTH",
+      "written_answers": [
+        "do not watch",
+        "do not watch / do not watch",
+        "do not watch / don't watch",
+        "do not watch / don’t watch",
+        "don't watch",
+        "don't watch / don't watch",
+        "don’t watch"
+      ],
+      "signal_keywords": [
+        "usually",
+        "every",
+        "now"
+      ],
+      "explanation_vi": "Đáp án chuẩn: do not watch.",
+      "source_worksheet_id": "WS_G06_PRES_SIMPLE_30",
+      "crypto_salt": "cba092d277fed1ba",
+      "answer_hash": "33a4baf1d446619c53cd415d75e8b196e6ac6570033ec33c16e0fe15a1c3594b",
+      "solution_iv": "3f1560ee1abd4aea9db9d0a4",
+      "solution_cipher": "5ade320a2be1037247a785e804a62aa3ae9126eda3ac10efa324036fcd2a14eb953171a3c34856f2bcea5ce105169186301322234dd37e12a0cfa6bfc96be5a707365ea1053f98416dab0bd571389390619b99b6859804633263add20d9b381946e72416296d0bf637ec544a52c0d3dd2b35fa4acf176fe29dd6aeeb5e80c1221e5ef5f0b3a41be10eda76ab963057b857c71497a45f3ca1d73b24dbb85a73deb01a39766df97573499142383fbaa3a250c25450e03014f67627c809fbf9711ee9d6b2565455ec1bb4efaa785b08d18a72c7c199a85167a6ac6bdb931b1b589a90128403563dd28f7789686ba42153ac4c7cf51e5a06dff461b05f556112a7a5a744a4e00184c0bb9ce19118c77a990c9285106562e0974fcccfda791ba40e6ca85fd4"
+    }
+  ]
+}
