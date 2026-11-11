@@ -11,11 +11,17 @@
 <body class="theme-explorer-g6-g7" id="studentBody">
   <!-- TOP NAVIGATION -->
   <header class="studio-topbar">
-    <div class="brand-cluster">
-      <a href="../index.html" class="brand-monogram" title="Về trang chủ">MT</a>
-      <div class="brand-titles">
-        <h1 id="studentPortalHeaderTitle">Góc Học Tập Tiếng Anh — Cô Thúy (v2.0)</h1>
-        <p id="studentPsychologySubtitle">Hành trình Khám phá (Khối 6–7) · Học vui, nhớ lâu, không sợ ngữ pháp</p>
+    <div class="topbar-main-row">
+      <div class="brand-cluster">
+        <a href="../index.html" class="brand-monogram" title="Về trang chủ">MT</a>
+        <div class="brand-titles">
+          <h1 id="studentPortalHeaderTitle">Góc Học Tập Tiếng Anh — Cô Thúy (v2.0)</h1>
+          <p id="studentPsychologySubtitle">Hành trình Khám phá (Khối 6–7) · Học vui, nhớ lâu, không sợ ngữ pháp</p>
+        </div>
+      </div>
+
+      <div class="topbar-actions-cluster">
+        <a href="../teacher/index.html" class="nav-pill-student-portal">👩‍🏫 Về Phòng Cô Thúy</a>
       </div>
     </div>
 
@@ -25,28 +31,27 @@
       <button class="nav-pill" id="demoBtn7" onclick="loginAsStudent('MT701', 'Trần Hoàng Nam', 7, 'Lớp 7B - Vững Gốc')">🌿 HS Lớp 7 (MT701)</button>
       <button class="nav-pill" id="demoBtn9" onclick="loginAsStudent('MT901', 'Lê Bảo Ngọc', 9, 'Lớp 9A - Săn 9-10 Vào 10')">🔥 HS Lớp 9 (MT901)</button>
       <button class="nav-pill" id="demoBtn11" onclick="loginAsStudent('MT1101', 'Phạm Quốc Khánh', 11, 'Lớp 11A - Học Thuật THPT')">🎓 HS Lớp 11 (MT1101)</button>
-      <a href="../teacher/index.html" class="nav-pill">👩‍🏫 Về Phòng Cô Thúy</a>
     </div>
   </header>
 
   <main class="studio-container">
     <!-- STUDENT PROFILE & AGE-ADAPTED BANNER -->
-    <section id="studentHeroBanner" style="background: var(--primary); color: #fff; border-radius: var(--radius-lg); padding: 1.35rem 1.5rem; margin-bottom: 1.4rem; box-shadow: var(--shadow-soft);">
-      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
+    <section id="studentHeroBanner" style="background: var(--primary); color: #fff; border-radius: var(--radius-lg); padding: 1.15rem 1.25rem; margin-bottom: 1.15rem; box-shadow: var(--shadow-soft);">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.85rem;">
         <div>
           <span id="ageBadgeText" style="background:rgba(255,255,255,0.2); padding:0.25rem 0.75rem; border-radius:999px; font-size:0.8rem; font-weight:700;">
             🌱 Giao diện Khối 6–7: Hành trình Khám phá
           </span>
-          <h2 style="margin:0.45rem 0 0.2rem;" id="studentWelcomeName">Xin chào Nguyễn Minh Anh (Mã HS: MT601 · Lớp 6A)!</h2>
-          <p style="margin:0; opacity:0.92; font-size:0.92rem;" id="studentMascotCheer">
+          <h2 style="margin:0.45rem 0 0.2rem; font-size:1.15rem;" id="studentWelcomeName">Xin chào Nguyễn Minh Anh (Mã HS: MT601 · Lớp 6A)!</h2>
+          <p style="margin:0; opacity:0.92; font-size:0.86rem;" id="studentMascotCheer">
             🌟 Chuỗi chăm chỉ: <strong>5 ngày liên tiếp</strong> · Cơ chế làm bài 2 pha: Em hãy chọn/nhập hết đáp án rồi bấm <strong>Nộp bài</strong> để xem điểm và lời giải 7 nhóm bẫy của Cô Thúy!
           </p>
         </div>
 
         <!-- STUDENT LOGIN / REGISTER BOX -->
-        <div style="background:rgba(255,255,255,0.16); padding:0.75rem 1rem; border-radius:14px; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
-          <input type="text" id="loginCodeInput" placeholder="Mã HS (VD: MT601)" style="width:130px; padding:0.45rem 0.65rem; border-radius:8px; border:none; font-weight:700; text-transform:uppercase;" onkeydown="if(event.key==='Enter') handleManualLogin()" />
-          <input type="password" id="loginPinInput" placeholder="PIN (1234)" value="1234" style="width:85px; padding:0.45rem 0.65rem; border-radius:8px; border:none;" onkeydown="if(event.key==='Enter') handleManualLogin()" />
+        <div style="background:rgba(255,255,255,0.16); padding:0.65rem 0.85rem; border-radius:14px; display:flex; gap:0.45rem; align-items:center; flex-wrap:wrap; width:100%; max-width:440px;">
+          <input type="text" id="loginCodeInput" placeholder="Mã HS (VD: MT601)" style="flex:1 1 110px; min-width:95px; padding:0.45rem 0.65rem; border-radius:8px; border:none; font-weight:700; text-transform:uppercase;" onkeydown="if(event.key==='Enter') handleManualLogin()" />
+          <input type="password" id="loginPinInput" placeholder="PIN (1234)" value="1234" style="width:78px; padding:0.45rem 0.65rem; border-radius:8px; border:none;" onkeydown="if(event.key==='Enter') handleManualLogin()" />
           <button class="btn btn-accent" onclick="handleManualLogin()">🔑 Đăng nhập</button>
           <button class="btn" style="background:#fff; color:var(--primary); border:none; font-weight:700;" onclick="openStudentRegisterModal()">➕ Tạo mới HS</button>
         </div>
@@ -55,12 +60,14 @@
 
     <!-- STUDENT TABS -->
     <div class="filter-bar">
-      <button class="grade-tab active" onclick="switchStudentSection('sec-exam', this)">📝 Làm Phiếu Bài Tập Online (20 Bộ Đề)</button>
-      <button class="grade-tab" onclick="switchStudentSection('sec-mindmap-student', this)">🧠 Sơ Đồ Tư Duy [ ? ] & Từ Vựng IPA (🇬🇧/🇺🇸)</button>
-      <button class="grade-tab" onclick="switchStudentSection('sec-doctor', this)">🩺 Sổ Tay Bác Sĩ Ngữ Pháp</button>
+      <div class="grade-pills-scroll">
+        <button class="grade-tab active" onclick="switchStudentSection('sec-exam', this)">📝 Làm Phiếu Bài Tập Online (20 Bộ Đề)</button>
+        <button class="grade-tab" onclick="switchStudentSection('sec-mindmap-student', this)">🧠 Sơ Đồ Tư Duy [ ? ] & Từ Vựng IPA (🇬🇧/🇺🇸)</button>
+        <button class="grade-tab" onclick="switchStudentSection('sec-doctor', this)">🩺 Sổ Tay Bác Sĩ Ngữ Pháp</button>
+      </div>
 
       <!-- AGE-SPECIFIC POWER TOOLS IN TOOLBAR -->
-      <div style="margin-left:auto; display:flex; gap:0.45rem; flex-wrap:wrap;">
+      <div style="margin-left:auto; display:flex; gap:0.4rem; flex-wrap:wrap;">
         <button class="btn" id="signalXrayBtn" onclick="toggleSignalXray()">🔍 Bắt từ khóa 5s</button>
         <button class="btn" id="splitReadingBtn" onclick="toggleSplitReadingLayout()">📖 Chia 2 cột Đọc hiểu</button>
         <button class="btn" id="studentAccentBtn" onclick="toggleStudentAccent()">🇬🇧 Anh-Anh (UK)</button>
@@ -72,12 +79,12 @@
          SECTION 1: INTERACTIVE 2-PHASE EXAM PLAYER (OFFLINE-FIRST AUTO-SAVE)
          ==================================================================== -->
     <section id="sec-exam" class="tab-section active">
-      <div style="background:#fff; border:1px solid var(--border); border-radius:var(--radius-md); padding:1rem 1.2rem; margin-bottom:1.2rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.85rem;">
-        <div style="display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap;">
+      <div style="background:#fff; border:1px solid var(--border); border-radius:var(--radius-md); padding:0.9rem 1rem; margin-bottom:1.1rem; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.75rem;">
+        <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap; flex:1 1 260px; min-width:0;">
           <strong>Chọn phiếu bài tập cô Thúy giao:</strong>
-          <select id="studentWorksheetSelect" onchange="loadStudentWorksheet(this.value)" style="padding:0.55rem 0.9rem; border-radius:10px; border:1px solid var(--border); font-weight:700; min-width:310px;"></select>
+          <select id="studentWorksheetSelect" onchange="loadStudentWorksheet(this.value)" style="flex:1 1 220px; width:100%; max-width:100%; padding:0.5rem 0.75rem; border-radius:10px; border:1px solid var(--border); font-weight:700;"></select>
         </div>
-        <div style="display:flex; align-items:center; gap:0.7rem; flex-wrap:wrap;">
+        <div style="display:flex; align-items:center; gap:0.55rem; flex-wrap:wrap;">
           <span class="badge badge-preview" id="examPhaseBadge">⏳ Pha 1: Đang làm bài (Ẩn đáp án)</span>
           <span class="badge badge-ready" id="autoSaveBadge">💾 Tự động lưu trên máy</span>
           <span class="badge badge-grade" id="progressCounterBadge">Đã làm: 0 / 0 câu</span>
