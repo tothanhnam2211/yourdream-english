@@ -9,59 +9,74 @@
   <script src="../shared/js/hybrid-cloud-engine.js"></script>
 </head>
 <body>
-  <!-- TOP NAVIGATION -->
+  <!-- TOP NAVIGATION (COMPACT 2-TIER MOBILE-FIRST HEADER) -->
   <header class="studio-topbar">
-    <div class="brand-cluster">
-      <a href="../index.html" class="brand-monogram" title="Về trang chủ">MT</a>
-      <div class="brand-titles">
-        <h1>Phòng Làm Việc Của Cô Thúy (v2.0)</h1>
-        <p>MASTER THÚY · Thạc sĩ, Giảng viên Tiếng Anh · Zalo: 0836 686 874</p>
+    <div class="topbar-main-row">
+      <div class="brand-cluster">
+        <a href="../index.html" class="brand-monogram" title="Về trang chủ">MT</a>
+        <div class="brand-titles">
+          <h1>Phòng Cô Thúy</h1>
+          <p>MASTER THÚY · Thạc sĩ, Giảng viên Tiếng Anh · Zalo: 0836 686 874</p>
+        </div>
+      </div>
+
+      <div class="topbar-actions-cluster">
+        <div class="printer-pill" onclick="openPrintQueueModal()" role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' ') openPrintQueueModal()" style="cursor: pointer;" title="Bấm để xem hàng đợi máy in & 00_PRINT_QUEUE trên Drive">
+          <span class="printer-dot"></span>
+          <span id="topPrinterText">🖨️ In A4</span>
+        </div>
+        <a href="../student/index.html" class="nav-pill-student-portal" title="Mở Góc học tập Học sinh">🎒 Học sinh →</a>
       </div>
     </div>
 
-    <div class="nav-pills">
-      <button class="nav-pill active" onclick="switchTeacherTab('tab-library', this)">📚 Tủ đề của cô (20 bộ / 63 tệp)</button>
-      <button class="nav-pill" onclick="switchTeacherTab('tab-maps', this)">🗺️ 4 Bản đồ & Mindmap [ ? ]</button>
-      <button class="nav-pill" onclick="switchTeacherTab('tab-live', this)">💻 Lớp học Online & Chấm bài</button>
-      <a href="../student/index.html" class="nav-pill" style="background: var(--accent-light); border-color: #fcd34d; color: #92400e;">🎒 Xem góc Học sinh →</a>
-    </div>
-
-    <div class="printer-pill" onclick="openPrintQueueModal()" style="cursor: pointer;" title="Bấm để xem hàng đợi máy in & 00_PRINT_QUEUE trên Drive">
-      <span class="printer-dot"></span>
-      <span id="topPrinterText">🖨️ Máy in & 00_PRINT_QUEUE: Sẵn sàng</span>
-    </div>
+    <nav class="nav-pills" aria-label="Điều hướng chính Phòng làm việc Cô Thúy">
+      <button class="nav-pill active" onclick="switchTeacherTab('tab-library', this)">📚 Tủ đề (20/63)</button>
+      <button class="nav-pill" onclick="switchTeacherTab('tab-maps', this)">🗺️ 4 Bản đồ [ ? ]</button>
+      <button class="nav-pill" onclick="switchTeacherTab('tab-live', this)">💻 Lớp & Chấm</button>
+    </nav>
   </header>
 
   <main class="studio-container">
-    <!-- UNIVERSAL '+' ACTION BAR (GPT / GOOGLE STYLE - ZERO JARGON) -->
-    <section class="plus-composer-shell">
-      <div class="plus-composer-row">
-        <button class="plus-action-btn" id="plusToggleBtn" onclick="togglePlusMenu()" title="Bấm dấu + để chụp nhiều ảnh, nói giọng nói, lấy đề trên mạng hoặc quản lý học sinh">+</button>
-        <input
-          type="text"
-          id="composerInput"
-          class="plus-composer-input"
-          placeholder="Cô muốn làm gì hôm nay? (VD: Tạo phiếu Lớp 6 Unit 3 có 15 câu, hoặc đính kèm nhiều ảnh đề mẫu...)"
-          onkeydown="if(event.key==='Enter') runComposerCommand()"
-        />
-        <button class="btn" onclick="triggerPhotoToWorksheet()" title="Chụp hoặc chọn nhiều trang ảnh đề mẫu / tài liệu">📸 Chụp / Đính kèm nhiều ảnh</button>
-        <button class="btn" onclick="startVoiceInput()" title="Nói yêu cầu bằng giọng nói">🎙️ Nói</button>
-        <button class="plus-send-btn" onclick="runComposerCommand()">✨ Tạo ngay</button>
-        <button class="btn" style="background:#f59e0b; color:#fff; border:none; font-weight:700;" onclick="sendPromptToInbox()" title="Đẩy yêu cầu & toàn bộ ảnh đính kèm vào 00_LENH_DIEU_KHIEN_INBOX">📥 Đẩy vào INBOX</button>
+    <!-- UNIVERSAL '+' ACTION BAR (UNIFIED 1-HAND COMPOSER - DOM ORDER: INPUT -> TRAY -> ACTIONS) -->
+    <section class="plus-composer-shell" aria-label="Khung tạo đề nhanh & gửi yêu cầu INBOX">
+      <div class="composer-unified-box">
+        <!-- 1. INPUT ROW FIRST (LOGICAL DOM & KEYBOARD ORDER) -->
+        <div class="composer-input-row">
+          <button type="button" class="plus-action-btn" id="plusToggleBtn" onclick="togglePlusMenu()" aria-expanded="false" title="Bấm dấu + để mở menu công cụ chụp nhiều ảnh, nói giọng nói, lấy đề hoặc quản lý học sinh">+</button>
+          <input
+            type="text"
+            id="composerInput"
+            class="plus-composer-input"
+            placeholder="Cô muốn làm gì hôm nay? (VD: Tạo phiếu Lớp 6 Unit 3 gồm 15 câu, hoặc đính kèm ảnh đề mẫu...)"
+            onkeydown="if(event.key==='Enter') runComposerCommand()"
+          />
+        </div>
+
+        <!-- 2. HORIZONTAL MULTI-PHOTO & DOCUMENT ATTACHMENT FILMSTRIP -->
+        <div id="composerAttachmentTray" class="composer-attachment-tray" aria-live="polite"></div>
+
+        <!-- 3. ACTION TOOLBAR (MEDIA LEFT · SUBMIT/INBOX RIGHT) -->
+        <div class="composer-toolbar-row">
+          <div class="composer-media-tools">
+            <button type="button" class="composer-tool-btn" onclick="triggerPhotoToWorksheet()" title="Chụp hoặc chọn nhiều trang ảnh đề mẫu / tài liệu">📸 Chụp / Đính kèm ảnh</button>
+            <button type="button" class="composer-tool-btn" onclick="startVoiceInput()" title="Nói yêu cầu bằng giọng nói">🎙️ Nói</button>
+          </div>
+          <div class="composer-submit-tools">
+            <button type="button" class="composer-inbox-btn" onclick="sendPromptToInbox()" title="Đẩy yêu cầu & toàn bộ ảnh đính kèm vào 00_LENH_DIEU_KHIEN_INBOX">📥 Đẩy vào INBOX</button>
+            <button type="button" class="plus-send-btn" onclick="runComposerCommand()">✨ Tạo ngay</button>
+          </div>
+        </div>
       </div>
 
-      <!-- MULTI-PHOTO & DOCUMENT ATTACHMENT TRAY (FIXED) -->
-      <div id="composerAttachmentTray" class="composer-attachment-tray"></div>
-
-      <!-- QUICK SUGGESTION CHIPS -->
-      <div class="plus-quick-chips">
-        <button class="quick-chip" onclick="quickGenerateWorksheet(6, 'G06_U03', 15, 'Phiếu Lớp 6 Unit 3 - My Friends (Nâng cao)')">⚡ Tạo phiếu Lớp 6 Unit 3 (15 câu + 4 mã đề)</button>
-        <button class="quick-chip" onclick="quickGenerateWorksheet(7, 'G07_U01', 20, 'Đề Ôn Giữa Kỳ 1 Lớp 7 (Chuẩn Global Success)')">⚡ Tạo đề Giữa Kỳ 1 Lớp 7 (20 câu)</button>
-        <button class="quick-chip" onclick="quickGenerateWorksheet(9, 'G09_U01', 25, 'Đề Luyện Thi Vào 10 Lớp 9 (Săn điểm 9-10)')">⚡ Tạo đề Luyện Thi Vào 10 Lớp 9</button>
-        <button class="quick-chip" onclick="quickGenerateWorksheet(8, 'G08_U02', 15, 'Chuyên đề Thể Sai Khiến GET & HAVE')">⚡ Chuyên đề GET & HAVE (4 mã đề)</button>
-        <button class="quick-chip" style="background:#fef3c7; border-color:#f59e0b; color:#92400e; font-weight:700;" onclick="openWebHarvestModal()">➕ Soạn / Dán đề mới & Hộp thư INBOX</button>
-        <button class="quick-chip" onclick="openCameraGradingDemo()">📸 Chấm bài nhiều ảnh chụp (3 giây)</button>
-        <button class="quick-chip" style="background:#dcfce7; border-color:#16a34a; color:#166534; font-weight:700;" onclick="openStudentRosterModal()">👩‍🎓 Tạo mới & Quản lý Học sinh</button>
+      <!-- QUICK SUGGESTION CHIPS (HORIZONTAL SCROLL STRIP ON MOBILE) -->
+      <div class="plus-quick-chips" role="region" aria-label="Gợi ý thao tác nhanh">
+        <button type="button" class="quick-chip quick-chip-highlight-amber" onclick="openWebHarvestModal()">➕ Soạn / Dán đề mới & Hộp thư INBOX</button>
+        <button type="button" class="quick-chip quick-chip-highlight-green" onclick="openStudentRosterModal()">👩‍🎓 Tạo mới & Quản lý Học sinh</button>
+        <button type="button" class="quick-chip" onclick="openCameraGradingDemo()">📸 Chấm bài nhiều ảnh chụp (3 giây)</button>
+        <button type="button" class="quick-chip" onclick="quickGenerateWorksheet(6, 'G06_U03', 15, 'Phiếu Lớp 6 Unit 3 - My Friends (Nâng cao)')">⚡ Tạo phiếu Lớp 6 Unit 3 (15 câu + 4 mã đề)</button>
+        <button type="button" class="quick-chip" onclick="quickGenerateWorksheet(7, 'G07_U01', 20, 'Đề Ôn Giữa Kỳ 1 Lớp 7 (Chuẩn Global Success)')">⚡ Tạo đề Giữa Kỳ 1 Lớp 7 (20 câu)</button>
+        <button type="button" class="quick-chip" onclick="quickGenerateWorksheet(9, 'G09_U01', 25, 'Đề Luyện Thi Vào 10 Lớp 9 (Săn điểm 9-10)')">⚡ Tạo đề Luyện Thi Vào 10 Lớp 9</button>
+        <button type="button" class="quick-chip" onclick="quickGenerateWorksheet(8, 'G08_U02', 15, 'Chuyên đề Thể Sai Khiến GET & HAVE')">⚡ Chuyên đề GET & HAVE (4 mã đề)</button>
       </div>
 
       <!-- POPOVER MENU WHEN CLICKING '+' -->
@@ -118,24 +133,27 @@
 
       <!-- FILTER BAR -->
       <div class="filter-bar">
-        <span style="font-weight: 700; font-size: 0.9rem;">Lọc theo khối:</span>
-        <button class="grade-tab active" onclick="filterLibraryByGrade('ALL', this)">Tất cả (20)</button>
-        <button class="grade-tab" onclick="filterLibraryByGrade(6, this)">Khối 6</button>
-        <button class="grade-tab" onclick="filterLibraryByGrade(7, this)">Khối 7</button>
-        <button class="grade-tab" onclick="filterLibraryByGrade(8, this)">Khối 8</button>
-        <button class="grade-tab" onclick="filterLibraryByGrade(9, this)">Khối 9</button>
-        <button class="grade-tab" onclick="filterLibraryByGrade(10, this)">Khối 10</button>
-        <button class="grade-tab" onclick="filterLibraryByGrade(11, this)">Khối 11</button>
-        <button class="grade-tab" onclick="filterLibraryByGrade(12, this)">Khối 12</button>
+        <div class="grade-pills-scroll" role="tablist" aria-label="Lọc bộ đề theo khối lớp">
+          <button class="grade-tab active" onclick="filterLibraryByGrade('ALL', this)">Tất cả (20)</button>
+          <button class="grade-tab" onclick="filterLibraryByGrade(6, this)">Khối 6</button>
+          <button class="grade-tab" onclick="filterLibraryByGrade(7, this)">Khối 7</button>
+          <button class="grade-tab" onclick="filterLibraryByGrade(8, this)">Khối 8</button>
+          <button class="grade-tab" onclick="filterLibraryByGrade(9, this)">Khối 9</button>
+          <button class="grade-tab" onclick="filterLibraryByGrade(10, this)">Khối 10</button>
+          <button class="grade-tab" onclick="filterLibraryByGrade(11, this)">Khối 11</button>
+          <button class="grade-tab" onclick="filterLibraryByGrade(12, this)">Khối 12</button>
+        </div>
 
-        <input
-          type="search"
-          id="librarySearchInput"
-          placeholder="Tìm tên phiếu, chuyên đề (VD: Biển báo, Sửa lỗi, GET & HAVE, Hiện tại tiếp diễn...)"
-          oninput="renderLibraryCards()"
-          style="margin-left: auto; padding: 0.45rem 0.85rem; border: 1px solid var(--border); border-radius: 999px; min-width: 260px;"
-        />
-        <button class="btn" onclick="toggleFullDriveInventory()">📂 Xem danh mục 63 tệp gốc</button>
+        <div style="display:flex; gap:0.5rem; flex-wrap:wrap; flex:1 1 260px; align-items:center;">
+          <input
+            type="search"
+            id="librarySearchInput"
+            placeholder="Tìm tên phiếu, chuyên đề (VD: Biển báo, Sửa lỗi, GET & HAVE...)"
+            oninput="renderLibraryCards()"
+            style="flex: 1 1 180px; min-width: 0; padding: 0.45rem 0.85rem; border: 1px solid var(--border-strong); border-radius: 999px; font-size: 0.86rem;"
+          />
+          <button class="btn" onclick="toggleFullDriveInventory()">📂 63 tệp gốc</button>
+        </div>
       </div>
 
       <!-- WORKSHEETS GRID -->
@@ -178,11 +196,12 @@
          ==================================================================== -->
     <section id="tab-maps" class="tab-section">
       <div class="filter-bar">
-        <span style="font-weight: 700;">Chọn Bản Đồ Tri Thức:</span>
-        <button class="grade-tab active" onclick="switchMapSubView('mapview-3', this)">🧠 Bản đồ 3: Sơ đồ tư duy Ngữ pháp [ ? ]</button>
-        <button class="grade-tab" onclick="switchMapSubView('mapview-1', this)">📘 Bản đồ 1: Khung SGK 6–12 & Từ vựng gấp đôi IPA (🇬🇧/🇺🇸)</button>
-        <button class="grade-tab" onclick="switchMapSubView('mapview-2', this)">🎯 Bản đồ 2: 7 Nhóm Bẫy Phòng Thi & Mẹo 5 Giây</button>
-        <button class="grade-tab" onclick="switchMapSubView('mapview-4', this)">🖨️ Bản đồ 4: Khuôn Mẫu Phiếu & Kiểm Định 4 Cổng</button>
+        <div class="grade-pills-scroll" role="tablist" aria-label="Chọn Bản đồ tri thức">
+          <button class="grade-tab active" onclick="switchMapSubView('mapview-3', this)">🧠 Bản đồ 3: Mindmap Ngữ pháp [ ? ]</button>
+          <button class="grade-tab" onclick="switchMapSubView('mapview-1', this)">📘 Bản đồ 1: Khung SGK 6–12 & Từ vựng IPA (🇬🇧/🇺🇸)</button>
+          <button class="grade-tab" onclick="switchMapSubView('mapview-2', this)">🎯 Bản đồ 2: 7 Nhóm Bẫy & Mẹo 5 Giây</button>
+          <button class="grade-tab" onclick="switchMapSubView('mapview-4', this)">🖨️ Bản đồ 4: Khuôn Mẫu Phiếu & QA 4 Cổng</button>
+        </div>
       </div>
 
       <!-- MAP 3 VIEW: INTERACTIVE GRAMMAR MINDMAPS WITH [ ? ] CLOZE TOGGLE -->
@@ -266,7 +285,7 @@
         </div>
       </div>
 
-      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap:1.25rem;">
+      <div class="live-workbench-grid">
         <!-- LEFT: CAMERA MULTI-PHOTO GRADING WORKBENCH -->
         <div class="ws-card">
           <div>
@@ -290,7 +309,7 @@
               <span id="gradingPhotoCounterBadge" class="badge badge-grade">Đang hiển thị bài mẫu</span>
             </div>
 
-            <div id="gradingPhotosPreviewTray" style="display:none; flex-wrap:wrap; gap:0.55rem; margin-bottom:0.85rem; padding:0.65rem; background:#f8fafc; border:1.5px dashed var(--primary); border-radius:12px;"></div>
+            <div id="gradingPhotosPreviewTray" class="composer-attachment-tray" style="margin-bottom:0.85rem;"></div>
 
             <div style="background:var(--bg-subtle); border-radius:14px; padding:1rem; margin:0.9rem 0;">
               <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.5rem;">
@@ -381,9 +400,13 @@
     async function initTeacherStudio() {
       try {
         const envMode = await window.MT_HYBRID.detectEnvironment();
-        document.getElementById('topPrinterText').textContent = envMode === 'LOCAL_BRIDGE'
-          ? '🖨️ Máy in ở nhà: Trực tuyến (Local Bridge)'
-          : '☁️ Hàng đợi in: 00_PRINT_QUEUE (Cloud Mode)';
+        const printerEl = document.getElementById('topPrinterText');
+        printerEl.textContent = envMode === 'LOCAL_BRIDGE'
+          ? '🖨️ In A4'
+          : '☁️ In A4';
+        printerEl.parentElement.title = envMode === 'LOCAL_BRIDGE'
+          ? '🖨️ Máy in ở nhà: Trực tuyến (Local Bridge) — Bấm để xem 00_PRINT_QUEUE'
+          : '☁️ Hàng đợi in: 00_PRINT_QUEUE (Cloud Mode) — Bấm để xem chi tiết';
 
         const [catRes, m1Res, m2Res, m3Res, m4Res, qaRes] = await Promise.all([
           fetch('../shards/worksheets-catalog.json').then(r => r.json()),
@@ -441,7 +464,13 @@
     }
 
     function togglePlusMenu() {
-      document.getElementById('plusMenuPopover').classList.toggle('open');
+      const pop = document.getElementById('plusMenuPopover');
+      const btn = document.getElementById('plusToggleBtn');
+      const isOpen = pop.classList.toggle('open');
+      if (btn) {
+        btn.classList.toggle('active', isOpen);
+        btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      }
     }
 
     function filterLibraryByGrade(grade, btnEl) {
@@ -714,6 +743,31 @@
 
     let attachedFilesQueue = [];
 
+    function previewAttachedFileModal(idx) {
+      const item = attachedFilesQueue[idx];
+      if (!item) return;
+      document.getElementById('studioModalTitle').textContent = `🖼️ Xem trước Trang ${idx + 1}: ${item.file.name}`;
+      const body = document.getElementById('studioModalBody');
+      if (item.previewUrl && item.file.type.startsWith('image/')) {
+        body.innerHTML = `
+          <div style="text-align:center;">
+            <img src="${item.previewUrl}" alt="${item.file.name}" style="max-width:100%; max-height:70vh; border-radius:12px; border:1px solid var(--border);" />
+            <div style="margin-top:0.75rem; font-size:0.85rem; color:var(--text-muted);">
+              Trang ${idx + 1} / ${attachedFilesQueue.length} · Kích thước: ${(item.file.size / 1024).toFixed(0)} KB · Trạng thái: Sẵn sàng gửi
+            </div>
+          </div>
+        `;
+      } else {
+        body.innerHTML = `
+          <div style="padding:1rem; background:var(--bg-subtle); border-radius:12px;">
+            <strong>📄 Tệp đính kèm:</strong> ${item.file.name} (${(item.file.size / 1024).toFixed(0)} KB)
+            ${item.textContent ? `<pre style="margin-top:0.75rem; white-space:pre-wrap; font-size:0.84rem; background:#fff; padding:0.75rem; border-radius:8px; border:1px solid var(--border);">${item.textContent.slice(0, 1500)}</pre>` : ''}
+          </div>
+        `;
+      }
+      document.getElementById('studioModalBackdrop').classList.add('open');
+    }
+
     function renderAttachmentTray() {
       const tray = document.getElementById('composerAttachmentTray');
       if (!tray) return;
@@ -726,26 +780,26 @@
       const cardsHtml = attachedFilesQueue.map((item, idx) => {
         const isImg = item.previewUrl && item.file.type.startsWith('image/');
         return `
-          <div style="position:relative; display:flex; align-items:center; gap:0.5rem; background:var(--bg-subtle); border:1px solid var(--border); border-radius:12px; padding:0.35rem 0.65rem 0.35rem 0.35rem; max-width:210px;">
+          <div class="attachment-thumb-card" onclick="previewAttachedFileModal(${idx})" style="cursor:pointer;" title="Bấm để xem phóng to Trang ${idx + 1}">
             ${isImg
-              ? `<img src="${item.previewUrl}" style="width:44px; height:44px; object-fit:cover; border-radius:8px; border:1px solid #cbd5e1;" />`
-              : `<div style="width:44px; height:44px; border-radius:8px; background:#e0f2fe; color:#0369a1; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:0.75rem;">📄 FILE</div>`
+              ? `<img src="${item.previewUrl}" alt="Trang ${idx + 1}" class="attachment-thumb-img" />`
+              : `<div class="attachment-thumb-file">📄 FILE</div>`
             }
-            <div style="overflow:hidden; font-size:0.78rem; line-height:1.25;">
-              <div style="font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:120px;">${item.file.name}</div>
-              <div style="color:var(--text-muted); font-size:0.72rem;">Trang ${idx + 1} · ${(item.file.size / 1024).toFixed(0)} KB</div>
+            <div class="attachment-thumb-meta">
+              <div class="attachment-thumb-name">${item.file.name}</div>
+              <div class="attachment-thumb-sub">Trang ${idx + 1} · ${(item.file.size / 1024).toFixed(0)} KB · ✓ Sẵn sàng</div>
             </div>
-            <button onclick="removeAttachedFile(${idx})" title="Xóa ảnh này" style="position:absolute; top:-7px; right:-7px; width:22px; height:22px; border-radius:50%; border:none; background:#ef4444; color:#fff; font-weight:800; font-size:0.75rem; cursor:pointer; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 4px rgba(0,0,0,0.18);">✕</button>
+            <button type="button" class="attachment-remove-btn" onclick="event.stopPropagation(); removeAttachedFile(${idx})" title="Xóa tệp này" aria-label="Xóa Trang ${idx + 1}">✕</button>
           </div>
         `;
       }).join('');
 
       tray.innerHTML = `
         ${cardsHtml}
-        <button class="btn" onclick="triggerPhotoToWorksheet()" style="border-style:dashed; padding:0.45rem 0.75rem; font-size:0.82rem;">
-          ➕ Đính kèm thêm ảnh (${attachedFilesQueue.length} ảnh đã chọn)
+        <button type="button" class="attachment-add-more-btn" onclick="triggerPhotoToWorksheet()">
+          ➕ Thêm ảnh (${attachedFilesQueue.length})
         </button>
-        <button class="btn" onclick="clearAttachedFiles()" style="font-size:0.78rem; color:var(--danger);">
+        <button type="button" class="attachment-clear-all-btn" onclick="clearAttachedFiles()">
           🗑️ Xóa hết
         </button>
       `;
@@ -1289,6 +1343,21 @@
       renderGradingPhotosTray();
     }
 
+    function previewGradingPhotoModal(idx) {
+      const item = gradingPhotosQueue[idx];
+      if (!item) return;
+      document.getElementById('studioModalTitle').textContent = `📸 Ảnh bài làm HS — Trang ${idx + 1}: ${item.file.name}`;
+      document.getElementById('studioModalBody').innerHTML = `
+        <div style="text-align:center;">
+          <img src="${item.previewUrl}" alt="${item.file.name}" style="max-width:100%; max-height:70vh; border-radius:12px; border:1px solid var(--border);" />
+          <div style="margin-top:0.75rem; font-size:0.85rem; color:var(--text-muted);">
+            Trang ${idx + 1} / ${gradingPhotosQueue.length} · ${(item.file.size / 1024).toFixed(0)} KB · Đã nhận diện tự động
+          </div>
+        </div>
+      `;
+      document.getElementById('studioModalBackdrop').classList.add('open');
+    }
+
     function renderGradingPhotosTray() {
       const tray = document.getElementById('gradingPhotosPreviewTray');
       const clearBtn = document.getElementById('clearGradingPhotosBtn');
@@ -1315,17 +1384,17 @@
       scoreBadge.textContent = `Điểm đề xuất (${gradingPhotosQueue.length} trang): ${currentGradingProposedScore} / 10`;
 
       tray.innerHTML = gradingPhotosQueue.map((item, idx) => `
-        <div style="position:relative; display:flex; align-items:center; gap:0.45rem; background:#fff; border:1px solid var(--border); border-radius:10px; padding:0.35rem 0.55rem;">
-          <img src="${item.previewUrl}" style="width:48px; height:48px; object-fit:cover; border-radius:6px; border:1px solid #cbd5e1;" />
-          <div style="font-size:0.76rem;">
-            <div style="font-weight:700; max-width:110px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">Trang ${idx + 1}: ${item.file.name}</div>
-            <div style="color:var(--text-muted);">${(item.file.size / 1024).toFixed(0)} KB</div>
+        <div class="attachment-thumb-card" onclick="previewGradingPhotoModal(${idx})" style="cursor:pointer;" title="Bấm để xem phóng to Trang ${idx + 1}">
+          <img src="${item.previewUrl}" alt="Trang ${idx + 1}" class="attachment-thumb-img" />
+          <div class="attachment-thumb-meta">
+            <div class="attachment-thumb-name">Trang ${idx + 1}: ${item.file.name}</div>
+            <div class="attachment-thumb-sub">${(item.file.size / 1024).toFixed(0)} KB · ✓ Đã quét</div>
           </div>
-          <button onclick="removeGradingPhoto(${idx})" style="border:none; background:#ef4444; color:#fff; width:20px; height:20px; border-radius:50%; font-size:0.7rem; cursor:pointer; font-weight:800;">✕</button>
+          <button type="button" class="attachment-remove-btn" onclick="event.stopPropagation(); removeGradingPhoto(${idx})" title="Xóa ảnh này" aria-label="Xóa Trang ${idx + 1}">✕</button>
         </div>
       `).join('') + `
-        <button class="btn" onclick="document.getElementById('gradingMultiPhotoInput').click()" style="border-style:dashed; font-size:0.8rem;">
-          ➕ Chụp / Thêm trang tiếp theo
+        <button type="button" class="attachment-add-more-btn" onclick="document.getElementById('gradingMultiPhotoInput').click()">
+          ➕ Thêm trang (${gradingPhotosQueue.length})
         </button>
       `;
     }
