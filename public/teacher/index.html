@@ -866,9 +866,14 @@
             <textarea id="webHarvestTextarea" rows="8" style="width:100%; margin-top:0.3rem; padding:0.75rem; border-radius:12px; border:1px solid var(--border); font-family:inherit; font-size:0.9rem;">${defaultSample}</textarea>
           </label>
           <div style="display:flex; gap:0.6rem; flex-wrap:wrap; justify-content:space-between; align-items:center; margin-top:0.4rem;">
-            <a href="https://drive.google.com/drive/folders/151fBqzjfNFzlN0YnrwvEfjyt6gxeXDAQ" target="_blank" class="btn" style="background:#fef3c7; color:#92400e; border:1px solid #f59e0b; font-weight:700;">
-              📥 Mở thư mục 00_LENH_DIEU_KHIEN_INBOX trên Drive
-            </a>
+            <div style="display:flex; gap:0.5rem; flex-wrap:wrap; align-items:center;">
+              <a href="https://drive.google.com/drive/folders/151fBqzjfNFzlN0YnrwvEfjyt6gxeXDAQ" target="_blank" class="btn" style="background:#fef3c7; color:#92400e; border:1px solid #f59e0b; font-weight:700;">
+                📥 Mở 00_LENH_DIEU_KHIEN_INBOX
+              </a>
+              <button class="btn" onclick="configureCloud24x7Webhook()" style="background:#e0f2fe; color:#0369a1; border:1px solid #38bdf8; font-weight:700;">
+                ☁️ Kết nối Cloud 24/7 (Apps Script)
+              </button>
+            </div>
             <div style="display:flex; gap:0.55rem; flex-wrap:wrap;">
               <button class="btn" onclick="sendCustomModalToInbox()">📨 Xuất vé yêu cầu INBOX</button>
               <button class="btn btn-primary" onclick="createCustomWorksheetFromModal()">✨ Bóc tách ngay & Xuất Word 4 Mã Đề (.docx)</button>
@@ -941,6 +946,39 @@
       }
 
       const ticket = await window.MT_HYBRID.submitInboxRequest(text, grade, attachmentsPayload);
+      // Auto-sync OUTBOX result straight into WebApp Catalog (Teacher & Student)
+      if (ticket.outbox_result && ticket.outbox_result.catalog_entry) {
+        const ce = ticket.outbox_result.catalog_entry;
+        if (ticket.outbox_result.questions && ticket.outbox_result.questions.length) {
+          window.MT_HYBRID.saveCustomWorksheetToLocalCatalog(ce, ticket.outbox_result.questions);
+          cachedShardQuestions[ce.worksheet_id] = ticket.outbox_result.questions;
+        }
+        CATALOG = [ce, ...CATALOG.filter(w => w.worksheet_id !== ce.worksheet_id)];
+        document.getElementById('statActivePacks').textContent = CATALOG.length + ' bộ đề';
+        renderLibraryCards();
+      } else {
+        // Also create an instant client-side OUTBOX pack in WebApp Catalog when in static cloud mode
+        const matchWs = CATALOG.find(w => Number(w.grade) === Number(grade)) || CATALOG[0];
+        if (matchWs) {
+          try {
+            const sRes = await fetch(toRelativeShardUrl(matchWs.shard_json_path));
+            const sData = await sRes.json();
+            const qList = (sData.questions || []).slice(0, 15);
+            if (qList.length) {
+              const savedEntry = window.MT_HYBRID.saveCustomWorksheetToLocalCatalog({
+                worksheet_id: 'WS_OUTBOX_' + ticket.ticket_id.slice(-6),
+                title: text,
+                grade: grade,
+                unit_scope: '✨ Mới đồng bộ từ OUTBOX'
+              }, qList);
+              cachedShardQuestions[savedEntry.worksheet_id] = qList;
+              CATALOG.unshift(savedEntry);
+              document.getElementById('statActivePacks').textContent = CATALOG.length + ' bộ đề';
+              renderLibraryCards();
+            }
+          } catch (e) {}
+        }
+      }
       const statusBadge = ticket.server_saved
         ? `<span class="badge badge-ready">✅ ĐÃ KẾT NỐI & LƯU THẲNG VÀO 00_LENH_DIEU_KHIEN_INBOX (${ticket.attachment_count} ảnh/tệp)</span>`
         : `<span class="badge" style="background:#fef3c7; color:#92400e;">📥 ĐÃ GHI NHẬN VÀO HÀNG ĐỢI INBOX (${ticket.attachment_count} ảnh/tệp)</span>`;
@@ -957,9 +995,13 @@
             </p>
           </div>
           <div style="display:flex; gap:0.55rem; flex-wrap:wrap;">
-            <a href="${ticket.download_url}" download="${ticket.filename}" class="btn btn-primary">📥 Tải Gói Lệnh (${ticket.filename})</a>
-            <a href="${window.MT_HYBRID.INBOX_DRIVE_URL}" target="_blank" class="btn btn-accent">📂 Mở 00_LENH_DIEU_KHIEN_INBOX →</a>
-            <a href="${window.MT_HYBRID.OUTBOX_DRIVE_URL}" target="_blank" class="btn">📤 Mở OUTBOX Nhận Đề</a>
+            ${ticket.outbox_result && ticket.outbox_result.student_pdf_url
+              ? `<a href="${ticket.outbox_result.student_pdf_url}" target="_blank" class="btn btn-primary">📄 Mở PDF Học Sinh (OUTBOX)</a>
+                 <a href="${ticket.outbox_result.teacher_pdf_url}" target="_blank" class="btn btn-accent">🔑 Mở PDF Đáp Án (OUTBOX)</a>`
+              : `<a href="${ticket.download_url}" download="${ticket.filename}" class="btn btn-primary">📥 Tải Gói Lệnh (${ticket.filename})</a>`
+            }
+            <a href="${window.MT_HYBRID.INBOX_DRIVE_URL}" target="_blank" class="btn">📂 Mở INBOX</a>
+            <a href="${window.MT_HYBRID.OUTBOX_DRIVE_URL}" target="_blank" class="btn btn-accent">📤 Mở OUTBOX Nhận Đề →</a>
           </div>
         </div>
       `;
@@ -1569,6 +1611,20 @@
           </tbody>
         </table>
       `;
+    }
+
+    function configureCloud24x7Webhook() {
+      const cur = window.MT_HYBRID.getCloudWebhookUrl();
+      const input = prompt(
+        "Dán đường link Web App URL của Google Apps Script (https://script.google.com/macros/s/.../exec) để bật chế độ chạy ngầm 24/7 không cần bật máy tính:",
+        cur
+      );
+      if (input !== null) {
+        window.MT_HYBRID.setCloudWebhookUrl(input);
+        alert(input.trim()
+          ? "✅ Đã kết nối Cloud 24/7! Mọi yêu cầu và ảnh chụp bấm Đẩy vào INBOX sẽ tự động gửi thẳng lên Google Drive & Gemini xử lý sang OUTBOX!"
+          : "Đã xóa cấu hình Webhook Cloud.");
+      }
     }
 
     function closeStudioModal() {

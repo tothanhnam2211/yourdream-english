@@ -678,11 +678,47 @@
       return ticket;
     },
 
-    async submitInboxRequest(requestText, grade, attachmentsData) {
+    getCloudWebhookUrl() {
+      return localStorage.getItem("mt_gas_cloud_webhook_url") || "";
+    },
+
+    setCloudWebhookUrl(url) {
+      const clean = String(url || "").trim();
+      localStorage.setItem("mt_gas_cloud_webhook_url", clean);
+      return clean;
+    },
+
+    async submitInboxRequest(requestText, grade, attachmentsData, aiTarget) {
       const attachNames = Array.isArray(attachmentsData) && attachmentsData.length
         ? attachmentsData.map(a => a.name).join(", ")
         : null;
       const ticket = this.createInboxRequestTicket(requestText, grade, attachNames, attachmentsData);
+      ticket.ai_target = aiTarget || "CLOUD_GEMINI_24_7";
+
+      // Priority 1: 24/7 Google Apps Script Cloud Webhook (Zero PC needed!)
+      const gasUrl = this.getCloudWebhookUrl();
+      if (gasUrl && /^https:\/\/script\.google\.com/i.test(gasUrl)) {
+        try {
+          const res = await fetch(gasUrl, {
+            method: "POST",
+            headers: { "Content-Type": "text/plain;charset=utf-8" },
+            body: JSON.stringify(ticket)
+          });
+          if (res.ok) {
+            const cloudRes = await res.json();
+            if (cloudRes && cloudRes.ok) {
+              ticket.cloud_saved = true;
+              ticket.server_saved = true;
+              ticket.outbox_result = cloudRes.outbox_result || null;
+              ticket.saved_path = "Google Drive 24/7 (00_LENH_DIEU_KHIEN_INBOX ➔ 00_BAO_CAO_KET_QUA_OUTBOX)";
+              ticket.status = "☁️ ĐÃ XỬ LÝ TỰ ĐỘNG TRÊN ĐÁM MÂY 24/7 & XUẤT VÀO OUTBOX";
+              return ticket;
+            }
+          }
+        } catch (e) {}
+      }
+
+      // Priority 2: Local PC Bridge
       if (this.isLocalBridgeActive) {
         try {
           const res = await fetch(`${LOCAL_BRIDGE_ORIGIN}/api/inbox-request`, {

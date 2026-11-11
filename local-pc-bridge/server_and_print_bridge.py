@@ -282,13 +282,111 @@ class MasterThuyStudioHandler(SimpleHTTPRequestHandler):
                         pass
             clean_ticket = {k: v for k, v in data.items() if k != "attachments"}
             clean_ticket["saved_attachment_files"] = saved_files
+            OUTBOX_LOCAL_DIR = PROJECT_ROOT / "00_BAO_CAO_KET_QUA_OUTBOX"
+            OUTBOX_LOCAL_DIR.mkdir(parents=True, exist_ok=True)
+            grade_num = int(data.get("grade") or 6) if str(data.get("grade") or "").isdigit() else 6
+            gen_res = generate_worksheet_from_db(
+                grade=grade_num,
+                unit_code=f"G0{grade_num}_U01",
+                count=15,
+                title=str(data.get("request_prompt") or f"Phiếu Bài Tập Khối {grade_num}")[:80],
+                exam_code="101"
+            )
+            try:
+                s_docx = Path(gen_res["student_docx_path"])
+                t_docx = Path(gen_res["teacher_docx_path"])
+                if s_docx.exists():
+                    shutil.copy2(s_docx, OUTBOX_LOCAL_DIR / f"{ticket_id}_{s_docx.name}")
+                if t_docx.exists():
+                    shutil.copy2(t_docx, OUTBOX_LOCAL_DIR / f"{ticket_id}_{t_docx.name}")
+            except Exception:
+                pass
+            # Auto-publish OUTBOX worksheet into WebApp Catalog & Shards so Teacher & Students see it immediately
+            new_ws_id = str(gen_res.get("ws_id") or f"WS_OUTBOX_G0{grade_num}_{int(time.time()) % 100000}")
+            ws_title_clean = str(data.get("request_prompt") or f"Phiếu Bài Tập Khối {grade_num}")[:90]
+            conn_cat = sqlite3.connect(DB_PATH)
+            conn_cat.row_factory = sqlite3.Row
+            cur_cat = conn_cat.cursor()
+            cur_cat.execute(
+                "SELECT * FROM question_bank WHERE grade=? ORDER BY RANDOM() LIMIT 15",
+                (grade_num,)
+            )
+            q_rows = [dict(r) for r in cur_cat.fetchall()]
+            shard_questions = []
+            for q_r in q_rows:
+                shard_questions.append({
+                    "question_id": q_r.get("question_id"),
+                    "grade": q_r.get("grade"),
+                    "unit_id": q_r.get("unit_id"),
+                    "skill_domain": q_r.get("skill_domain"),
+                    "difficulty_level": q_r.get("difficulty_level", 2),
+                    "trap_code": q_r.get("trap_code") or "TRAP_TENSE_SIGNAL",
+                    "stem_text": q_r.get("stem_text"),
+                    "passage_or_sign_svg": q_r.get("passage_or_sign_svg") or "",
+                    "options": json.loads(q_r.get("options_json") or "[]"),
+                    "correct_index": int(q_r.get("correct_index") or 0),
+                    "answer_mode": q_r.get("answer_mode") or "MCQ",
+                    "written_answers": json.loads(q_r.get("written_answers_json") or "[]"),
+                    "explanation_vi": q_r.get("explanation_vi") or ""
+                })
+            shard_rel = f"shards/items/{new_ws_id}.json"
+            shard_file = PUBLIC_DIR / shard_rel
+            shard_file.parent.mkdir(parents=True, exist_ok=True)
+            shard_file.write_text(json.dumps({
+                "worksheet_id": new_ws_id,
+                "title": ws_title_clean,
+                "grade": grade_num,
+                "question_count": len(shard_questions),
+                "questions": shard_questions
+            }, ensure_ascii=False, indent=2), encoding="utf-8")
+
+            new_cat_entry = {
+                "worksheet_id": new_ws_id,
+                "title": ws_title_clean,
+                "grade": grade_num,
+                "unit_scope": f"Đề mới từ OUTBOX ({ticket_id})",
+                "category": "OUTBOX_AUTO_PUBLISHED",
+                "question_count": len(shard_questions) or 15,
+                "duration_minutes": 45,
+                "local_student_docx": gen_res.get("student_docx_url"),
+                "local_teacher_docx": gen_res.get("teacher_docx_url"),
+                "shard_json_path": f"/{shard_rel}",
+                "approval_state": "✨ Mới đồng bộ từ OUTBOX",
+                "source_group": "00_BAO_CAO_KET_QUA_OUTBOX",
+                "created_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            }
+            cat_file = PUBLIC_DIR / "shards/worksheets-catalog.json"
+            if cat_file.exists():
+                try:
+                    cat_json = json.loads(cat_file.read_text(encoding="utf-8"))
+                    curated = cat_json.get("curated_sets") or []
+                    curated = [w for w in curated if w.get("worksheet_id") != new_ws_id]
+                    curated.insert(0, new_cat_entry)
+                    cat_json["curated_sets"] = curated
+                    cat_file.write_text(json.dumps(cat_json, ensure_ascii=False, indent=2), encoding="utf-8")
+                except Exception:
+                    pass
+            conn_cat.close()
+
+            clean_ticket["status"] = "PUBLISHED_FROM_OUTBOX_TO_WEBAPP"
+            clean_ticket["outbox_result"] = {
+                "worksheet_id": new_ws_id,
+                "title": ws_title_clean,
+                "grade": grade_num,
+                "question_count": len(shard_questions) or 15,
+                "student_docx_url": gen_res.get("student_docx_url"),
+                "teacher_docx_url": gen_res.get("teacher_docx_url"),
+                "catalog_entry": new_cat_entry,
+                "questions": shard_questions
+            }
             ticket_path = INBOX_LOCAL_DIR / f"{ticket_id}.json"
             ticket_path.write_text(json.dumps(clean_ticket, ensure_ascii=False, indent=2), encoding="utf-8")
             self._send_json({
                 "ok": True,
                 "ticket_id": ticket_id,
-                "saved_path": str(INBOX_LOCAL_DIR),
-                "saved_attachments": saved_files
+                "saved_path": str(OUTBOX_LOCAL_DIR),
+                "saved_attachments": saved_files,
+                "outbox_result": clean_ticket["outbox_result"]
             })
             return
 

@@ -266,7 +266,9 @@
           fetch('../shards/maps/map2-traps-and-levels.json').then(r => r.json()),
           fetch('../shards/maps/map3-grammar-mindmaps.json').then(r => r.json())
         ]);
-        catalogList = catRes.curated_sets || catRes.worksheets || [];
+        const baseCat = catRes.curated_sets || catRes.worksheets || [];
+        const customCat = window.MT_HYBRID.getCustomWorksheetsFromLocalCatalog ? window.MT_HYBRID.getCustomWorksheetsFromLocalCatalog() : [];
+        catalogList = [...customCat, ...baseCat];
         map1Data = Array.isArray(m1Res) ? m1Res : (m1Res.units || []);
         const trapsArr = Array.isArray(m2Res) ? m2Res : (m2Res.traps || []);
         trapsArr.forEach(t => { map2TrapLookup[t.trap_code] = t; });
@@ -427,9 +429,13 @@
       studentWrittenAnswers = JSON.parse(localStorage.getItem(wrKey) || '{}');
 
       try {
-        const res = await fetch(toRelativeShardUrl(ws.shard_json_path));
-        const shard = await res.json();
-        currentQuestions = shard.questions || [];
+        if (ws.questions && ws.questions.length) {
+          currentQuestions = ws.questions;
+        } else {
+          const res = await fetch(toRelativeShardUrl(ws.shard_json_path));
+          const shard = await res.json();
+          currentQuestions = shard.questions || [];
+        }
         if (window.ZeroLeakAssessment && window.ZeroLeakAssessment.sealQuestionsPhase1) {
           await window.ZeroLeakAssessment.sealQuestionsPhase1(currentQuestions);
         }
