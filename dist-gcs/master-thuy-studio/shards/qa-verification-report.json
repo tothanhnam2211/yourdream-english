@@ -1,14 +1,14 @@
 {
-  "version": "2.2.0-handoff-verified",
-  "verified_at": "2026-11-09 11:22:28",
-  "acceptance_state": "QA_4_GATES_PASSED_AWAITING_TEACHER_APPROVAL",
+  "version": "2.0.0-production",
+  "verified_at": "2026-11-04 19:40:56",
+  "acceptance_state": "TECHNICALLY_VERIFIED",
   "total_worksheets_curated": 20,
-  "total_raw_files_preserved": 61,
+  "total_raw_files_preserved": 63,
   "total_questions_checked": 953,
   "passed_all_4_gates": 953,
   "pass_rate_percent": 100.0,
   "rich_underline_bold_items": 337,
-  "visual_sign_and_proofreading_items": 70,
+  "visual_sign_and_proofreading_items": 62,
   "questions_by_grade": {
     "6": 299,
     "7": 206,
@@ -17,36 +17,26 @@
     "11": 100
   },
   "curriculum_units_mapped": 11,
-  "unit3_q1_14_regression_verified": true,
-  "consecutive_a_fallback_anomalies": [],
-  "sgv_separate_verification_pending_units": [
-    "G06_U01",
-    "G06_U02",
-    "G06_U03",
-    "G07_U01",
-    "G07_U02",
-    "G07_U03"
-  ],
   "gates_summary": [
     {
-      "gate": "Cổng 1: SOURCE_SCOPE_GATE (Khóa Unit & Nguồn SGK/Workbook Map 1)",
-      "status": "PASS",
-      "note": "Đã ánh xạ 953/953 câu vào Unit hợp lệ; tách rõ nhãn Workbook 1 cho 6 Unit chờ SGV riêng."
+      "gate": "Cổng 1: Chuẩn khung SGK Global Success (Map 1)",
+      "status": "ĐẠT 100%",
+      "note": "Đã khóa danh mục ngữ pháp vượt cấp cho từng khối 6–12."
     },
     {
-      "gate": "Cổng 2: ANSWER_INTEGRITY_GATE (Đáp án gốc, Chặn mặc định A & Bảo toàn <u>/<b>)",
-      "status": "PASS",
-      "note": "Đạt 953/953 câu; Hồi quy Unit 3 Q1-14=True; Dãy đáp án A giả=0; 337 câu có <u>/<b>."
+      "gate": "Cổng 2: Đáp án, Giải thích & Bảo toàn <u>/<b> (Map 2)",
+      "status": "ĐẠT 953/953 câu",
+      "note": "Bảo toàn 337 câu có gạch chân/in đậm & 62 khung Biển báo/Proofreading."
     },
     {
-      "gate": "Cổng 3: BLUEPRINT_SYNC_GATE (Tổng điểm Decimal 10.0 & Bảo toàn PART/Passage 4 mã đề)",
-      "status": "PASS",
-      "note": "Tổng điểm Decimal = 10.0 pts; 4 mã đề 101-104 giữ nguyên thứ tự PART A-F và cụm bài đọc Text 1/Text 2."
+      "gate": "Cổng 3: Độ phân biệt 4 phương án A-B-C-D & Tự luận viết tắt",
+      "status": "ĐẠT 100%",
+      "note": "Hỗ trợ chấm tương đương viết tắt (don't = do not, isn't = is not)."
     },
     {
-      "gate": "Cổng 4: RENDER_DELIVERY_GATE (Đọc ngược DOCX & PDF A4 Student/Teacher)",
-      "status": "PASS",
-      "note": "Đã xuất và kiểm tra đọc ngược cặp DOCX + PDF A4 (WS_G06_U03_ADV_Code101_STUDENT.docx, WS_G06_U03_ADV_AllCodes_TEACHER.docx, WS_G06_U03_ADV_Code101_STUDENT.pdf, WS_G06_U03_ADV_AllCodes_TEACHER.pdf)."
+      "gate": "Cổng 4: Chuẩn in A4 Master Thúy & Không Watermark AI (Map 4)",
+      "status": "ĐẠT 100%",
+      "note": "Header MASTER THÚY · Zalo 0836 686 874 · Tách riêng bản Học sinh & Giáo viên."
     }
   ],
   "warnings": []

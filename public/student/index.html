@@ -43,11 +43,12 @@
           </p>
         </div>
 
-        <!-- STUDENT LOGIN / SWITCH BOX -->
-        <div style="background:rgba(255,255,255,0.14); padding:0.75rem 1rem; border-radius:14px; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
-          <input type="text" id="loginCodeInput" placeholder="Mã HS (VD: MT601)" style="width:120px; padding:0.45rem 0.65rem; border-radius:8px; border:none; font-weight:700;" />
-          <input type="password" id="loginPinInput" placeholder="PIN (1234)" value="1234" style="width:85px; padding:0.45rem 0.65rem; border-radius:8px; border:none;" />
-          <button class="btn btn-accent" onclick="handleManualLogin()">Đổi HS</button>
+        <!-- STUDENT LOGIN / REGISTER BOX -->
+        <div style="background:rgba(255,255,255,0.16); padding:0.75rem 1rem; border-radius:14px; display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+          <input type="text" id="loginCodeInput" placeholder="Mã HS (VD: MT601)" style="width:130px; padding:0.45rem 0.65rem; border-radius:8px; border:none; font-weight:700; text-transform:uppercase;" onkeydown="if(event.key==='Enter') handleManualLogin()" />
+          <input type="password" id="loginPinInput" placeholder="PIN (1234)" value="1234" style="width:85px; padding:0.45rem 0.65rem; border-radius:8px; border:none;" onkeydown="if(event.key==='Enter') handleManualLogin()" />
+          <button class="btn btn-accent" onclick="handleManualLogin()">🔑 Đăng nhập</button>
+          <button class="btn" style="background:#fff; color:var(--primary); border:none; font-weight:700;" onclick="openStudentRegisterModal()">➕ Tạo mới HS</button>
         </div>
       </div>
     </section>
@@ -151,6 +152,59 @@
     </section>
   </main>
 
+  <!-- STUDENT REGISTRATION MODAL -->
+  <div class="modal-backdrop" id="studentRegModalBackdrop" onclick="if(event.target===this) closeStudentRegisterModal()">
+    <div class="modal-box" style="max-width:520px;">
+      <div class="modal-header">
+        <h3 style="margin:0;">👩‍🎓 Tạo Tài Khoản Học Sinh Mới — Lớp Cô Thúy</h3>
+        <button class="btn" onclick="closeStudentRegisterModal()">✕ Đóng</button>
+      </div>
+      <div class="modal-body">
+        <p style="margin-top:0; font-size:0.9rem; color:var(--text-muted);">
+          Em hãy điền Họ và tên, chọn Khối lớp và đặt mã PIN (mặc định <code>1234</code>). Hệ thống sẽ cấp Mã Học Sinh để em làm bài và lưu điểm vào Sổ điểm của Cô Thúy!
+        </p>
+        <div style="display:grid; gap:0.75rem;">
+          <label style="font-weight:700; font-size:0.88rem;">
+            1. Họ và tên đầy đủ của em:
+            <input id="regStuFullName" type="text" placeholder="VD: Nguyễn Minh Khôi" style="width:100%; margin-top:0.3rem; padding:0.55rem 0.75rem; border-radius:10px; border:1px solid var(--border); font-size:0.95rem;" />
+          </label>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.65rem;">
+            <label style="font-weight:700; font-size:0.88rem;">
+              2. Chọn Khối lớp:
+              <select id="regStuGrade" onchange="document.getElementById('regStuClass').value='Lớp ' + this.value + 'A'" style="width:100%; margin-top:0.3rem; padding:0.55rem; border-radius:10px; border:1px solid var(--border); font-weight:600;">
+                <option value="6">Khối 6 (Khám Phá)</option>
+                <option value="7">Khối 7 (Vững Gốc)</option>
+                <option value="8">Khối 8 (Bứt Phá)</option>
+                <option value="9">Khối 9 (Luyện Thi Vào 10)</option>
+                <option value="10">Khối 10 (THPT)</option>
+                <option value="11">Khối 11 (THPT)</option>
+                <option value="12">Khối 12 (Tốt Nghiệp THPT)</option>
+              </select>
+            </label>
+            <label style="font-weight:700; font-size:0.88rem;">
+              3. Tên Lớp:
+              <input id="regStuClass" type="text" value="Lớp 6A" style="width:100%; margin-top:0.3rem; padding:0.55rem; border-radius:10px; border:1px solid var(--border);" />
+            </label>
+          </div>
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap:0.65rem;">
+            <label style="font-weight:700; font-size:0.88rem;">
+              4. Mã HS tự chọn (hoặc để trống):
+              <input id="regStuCode" type="text" placeholder="Tự động cấp (VD: MT602)" style="width:100%; margin-top:0.3rem; padding:0.55rem; border-radius:10px; border:1px solid var(--border); text-transform:uppercase;" />
+            </label>
+            <label style="font-weight:700; font-size:0.88rem;">
+              5. Mã PIN đăng nhập:
+              <input id="regStuPin" type="text" value="1234" style="width:100%; margin-top:0.3rem; padding:0.55rem; border-radius:10px; border:1px solid var(--border);" />
+            </label>
+          </div>
+          <div style="display:flex; justify-content:flex-end; gap:0.6rem; margin-top:0.5rem;">
+            <button class="btn" onclick="closeStudentRegisterModal()">Hủy</button>
+            <button class="btn btn-primary" onclick="submitNewStudentRegistration()">🚀 Tạo Tài Khoản & Đăng Nhập Ngay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script>
     let currentStudent = {
       code: 'MT601',
@@ -183,11 +237,20 @@
       const requestedWs = params.get('ws');
       const requestedGrade = params.get('grade');
 
-      if (demoCode === 'MT701') loginAsStudent('MT701', 'Trần Hoàng Nam', 7, 'Lớp 7B - Vững Gốc');
-      else if (demoCode === 'MT901') loginAsStudent('MT901', 'Lê Bảo Ngọc', 9, 'Lớp 9A - Săn 9-10 Vào 10');
-      else if (demoCode === 'MT1101') loginAsStudent('MT1101', 'Phạm Quốc Khánh', 11, 'Lớp 11A - Học Thuật THPT');
-      else if (requestedGrade && Number(requestedGrade) >= 10) loginAsStudent('MT1101', 'Phạm Quốc Khánh', Number(requestedGrade), `Lớp ${requestedGrade}A - THPT`);
-      else if (requestedGrade && Number(requestedGrade) >= 8) loginAsStudent('MT901', 'Lê Bảo Ngọc', Number(requestedGrade), `Lớp ${requestedGrade}A - Bứt Phá`);
+      const savedSession = JSON.parse(localStorage.getItem('mt_active_student_session_v2') || 'null');
+      if (demoCode) {
+        const authRes = await window.MT_HYBRID.authenticateStudent(demoCode, '');
+        if (authRes.ok && authRes.student) {
+          const st = authRes.student;
+          loginAsStudent(st.student_code, st.full_name, st.grade, st.class_name);
+        }
+      } else if (savedSession && savedSession.code) {
+        loginAsStudent(savedSession.code, savedSession.name, savedSession.grade, savedSession.className);
+      } else if (requestedGrade && Number(requestedGrade) >= 10) {
+        loginAsStudent('MT1101', 'Phạm Quốc Khánh', Number(requestedGrade), `Lớp ${requestedGrade}A - THPT`);
+      } else if (requestedGrade && Number(requestedGrade) >= 8) {
+        loginAsStudent('MT901', 'Lê Bảo Ngọc', Number(requestedGrade), `Lớp ${requestedGrade}A - Bứt Phá`);
+      }
 
       try {
         const [catRes, m1Res, m2Res, m3Res] = await Promise.all([
@@ -256,13 +319,71 @@
       if (map1Data.length) renderStudentVocabCards();
     }
 
-    function handleManualLogin() {
-      const code = (document.getElementById('loginCodeInput').value || 'MT601').trim().toUpperCase();
-      if (code.startsWith('MT7')) loginAsStudent(code, 'Học sinh Khối 7 (' + code + ')', 7, 'Lớp 7B');
-      else if (code.startsWith('MT8')) loginAsStudent(code, 'Học sinh Khối 8 (' + code + ')', 8, 'Lớp 8A');
-      else if (code.startsWith('MT9')) loginAsStudent(code, 'Học sinh Khối 9 (' + code + ')', 9, 'Lớp 9A');
-      else if (code.startsWith('MT10') || code.startsWith('MT11') || code.startsWith('MT12')) loginAsStudent(code, 'Học sinh THPT (' + code + ')', 11, 'Lớp 11A');
-      else loginAsStudent(code, 'Học sinh Khối 6 (' + code + ')', 6, 'Lớp 6A');
+    async function handleManualLogin() {
+      const code = (document.getElementById('loginCodeInput').value || '').trim().toUpperCase();
+      const pin = (document.getElementById('loginPinInput').value || '1234').trim();
+      if (!code) {
+        alert('Em vui lòng nhập Mã học sinh (VD: MT601) hoặc bấm "➕ Tạo mới HS" để đăng ký nhé!');
+        return;
+      }
+      const res = await window.MT_HYBRID.authenticateStudent(code, pin);
+      if (res.ok && res.student) {
+        const st = res.student;
+        loginAsStudent(st.student_code, st.full_name, st.grade, st.class_name);
+        localStorage.setItem('mt_active_student_session_v2', JSON.stringify({
+          code: st.student_code,
+          name: st.full_name,
+          grade: st.grade,
+          className: st.class_name
+        }));
+      } else if (res.notFound) {
+        if (confirm(`${res.error}\n\nEm có muốn mở bảng Tạo tài khoản mới với mã "${code}" ngay bây giờ không?`)) {
+          openStudentRegisterModal(code);
+        }
+      } else {
+        alert(res.error || 'Đăng nhập không thành công!');
+      }
+    }
+
+    function openStudentRegisterModal(prefillCode) {
+      if (prefillCode) {
+        document.getElementById('regStuCode').value = prefillCode;
+      }
+      document.getElementById('studentRegModalBackdrop').classList.add('open');
+    }
+
+    function closeStudentRegisterModal() {
+      document.getElementById('studentRegModalBackdrop').classList.remove('open');
+    }
+
+    async function submitNewStudentRegistration() {
+      const fullName = (document.getElementById('regStuFullName').value || '').trim();
+      if (!fullName) {
+        alert('Em vui lòng nhập Họ và tên đầy đủ nhé!');
+        return;
+      }
+      const grade = parseInt(document.getElementById('regStuGrade').value || '6', 10);
+      const className = (document.getElementById('regStuClass').value || `Lớp ${grade}A`).trim();
+      const customCode = (document.getElementById('regStuCode').value || '').trim();
+      const pinCode = (document.getElementById('regStuPin').value || '1234').trim();
+
+      const created = await window.MT_HYBRID.registerStudent({
+        full_name: fullName,
+        grade,
+        class_name: className,
+        student_code: customCode,
+        pin_code: pinCode
+      });
+
+      closeStudentRegisterModal();
+      loginAsStudent(created.student_code, created.full_name, created.grade, created.class_name);
+      localStorage.setItem('mt_active_student_session_v2', JSON.stringify({
+        code: created.student_code,
+        name: created.full_name,
+        grade: created.grade,
+        className: created.class_name
+      }));
+      alert(`🎉 Chào mừng ${created.full_name} (${created.class_name})!\n• Mã Học Sinh của em là: ${created.student_code}\n• Mã PIN: ${created.pin_code}\nEm hãy nhớ Mã HS này cho những lần đăng nhập sau nhé!`);
     }
 
     function populateStudentWorksheets(preferredWsId) {

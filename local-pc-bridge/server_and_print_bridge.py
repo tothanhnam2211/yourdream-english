@@ -23,10 +23,13 @@ try:
 except Exception:
     pass
 
-PROJECT_ROOT = Path(r"D:\YOURDREAM.VN\master-thuy-english-studio")
+import base64
+_WIN_ROOT = Path(r"D:\YOURDREAM.VN\master-thuy-english-studio")
+PROJECT_ROOT = _WIN_ROOT if _WIN_ROOT.exists() else Path(__file__).resolve().parent.parent
 PUBLIC_DIR = PROJECT_ROOT / "public"
 DB_PATH = PROJECT_ROOT / "db" / "master_thuy_studio.db"
 ENGINE_DIR = PROJECT_ROOT / "engine-python"
+INBOX_LOCAL_DIR = PROJECT_ROOT / "00_LENH_DIEU_KHIEN_INBOX"
 sys.path.insert(0, str(ENGINE_DIR))
 
 from generate_dual_worksheet import generate_worksheet_from_db
@@ -167,6 +170,27 @@ class MasterThuyStudioHandler(SimpleHTTPRequestHandler):
             self._send_json({"ok": True, "jobs": jobs})
             return
 
+        if self.path == "/api/students":
+            conn = sqlite3.connect(DB_PATH)
+            conn.row_factory = sqlite3.Row
+            cur = conn.cursor()
+            cur.execute("SELECT * FROM students ORDER BY grade ASC, student_code ASC")
+            rows = [dict(r) for r in cur.fetchall()]
+            conn.close()
+            self._send_json({"ok": True, "students": rows})
+            return
+
+        if self.path == "/api/inbox-request":
+            INBOX_LOCAL_DIR.mkdir(parents=True, exist_ok=True)
+            items = []
+            for p in sorted(INBOX_LOCAL_DIR.glob("*.json"), reverse=True)[:30]:
+                try:
+                    items.append(json.loads(p.read_text(encoding="utf-8")))
+                except Exception:
+                    pass
+            self._send_json({"ok": True, "requests": items})
+            return
+
         if self.path == "/api/submissions":
             conn = sqlite3.connect(DB_PATH)
             conn.row_factory = sqlite3.Row
@@ -216,6 +240,56 @@ class MasterThuyStudioHandler(SimpleHTTPRequestHandler):
 
             res = process_single_print_ticket(data, ticket_file_path=ticket_path)
             self._send_json(res)
+            return
+
+        if self.path == "/api/students":
+            student_code = str(data.get("student_code", "")).strip().upper()
+            full_name = str(data.get("full_name", "Học sinh mới")).strip()
+            grade = int(data.get("grade", 6))
+            class_id = str(data.get("class_id", f"CLS_G0{grade}A"))
+            pin_code = str(data.get("pin_code", "1234")).strip() or "1234"
+            if not student_code:
+                student_code = f"MT{grade}{int(time.time()) % 100:02d}"
+            conn = sqlite3.connect(DB_PATH)
+            cur = conn.cursor()
+            cur.execute(
+                "INSERT OR IGNORE INTO classes (class_id, class_name, grade) VALUES (?, ?, ?)",
+                (class_id, data.get("class_name") or f"Lớp {grade}A", grade)
+            )
+            cur.execute(
+                "INSERT OR REPLACE INTO students (student_code, full_name, class_id, grade, pin_code, streak_days, xp_points) VALUES (?, ?, ?, ?, ?, 1, 100)",
+                (student_code, full_name, class_id, grade, pin_code)
+            )
+            conn.commit()
+            conn.close()
+            self._send_json({"ok": True, "student_code": student_code, "full_name": full_name, "grade": grade})
+            return
+
+        if self.path == "/api/inbox-request":
+            INBOX_LOCAL_DIR.mkdir(parents=True, exist_ok=True)
+            ticket_id = str(data.get("ticket_id", f"INBOX_REQ_{int(time.time())}"))
+            saved_files = []
+            for idx, att in enumerate(data.get("attachments") or []):
+                fname = Path(att.get("name") or f"photo_{idx+1}.jpg").name
+                durl = str(att.get("data_url") or "")
+                if "," in durl:
+                    try:
+                        raw_bytes = base64.b64decode(durl.split(",", 1)[1])
+                        out_f = INBOX_LOCAL_DIR / f"{ticket_id}_{fname}"
+                        out_f.write_bytes(raw_bytes)
+                        saved_files.append(out_f.name)
+                    except Exception:
+                        pass
+            clean_ticket = {k: v for k, v in data.items() if k != "attachments"}
+            clean_ticket["saved_attachment_files"] = saved_files
+            ticket_path = INBOX_LOCAL_DIR / f"{ticket_id}.json"
+            ticket_path.write_text(json.dumps(clean_ticket, ensure_ascii=False, indent=2), encoding="utf-8")
+            self._send_json({
+                "ok": True,
+                "ticket_id": ticket_id,
+                "saved_path": str(INBOX_LOCAL_DIR),
+                "saved_attachments": saved_files
+            })
             return
 
         if self.path in ("/api/submit", "/api/submissions"):

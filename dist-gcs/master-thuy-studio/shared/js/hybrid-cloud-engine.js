@@ -548,7 +548,110 @@
       }
     },
 
-    createInboxRequestTicket(requestText, grade, attachmentName) {
+    resolveAssetUrl(rawPath) {
+      if (!rawPath) return null;
+      if (/^https?:\/\//i.test(rawPath)) return rawPath;
+      const clean = String(rawPath).replace(/^\/+/, '');
+      const inSubfolder = /\/(teacher|student|control)\//i.test(window.location.pathname);
+      return inSubfolder ? `../${clean}` : `./${clean}`;
+    },
+
+    getDefaultStudentsSeed() {
+      return [
+        { student_code: 'MT601', full_name: 'Nguyễn Minh Anh', class_id: 'CLS_G06A', class_name: 'Lớp 6A - Khám Phá', grade: 6, pin_code: '1234', streak_days: 5 },
+        { student_code: 'MT701', full_name: 'Trần Hoàng Nam', class_id: 'CLS_G07B', class_name: 'Lớp 7B - Vững Gốc', grade: 7, pin_code: '1234', streak_days: 4 },
+        { student_code: 'MT801', full_name: 'Hoàng Gia Bảo', class_id: 'CLS_G08A', class_name: 'Lớp 8A - Bứt Phá', grade: 8, pin_code: '1234', streak_days: 3 },
+        { student_code: 'MT901', full_name: 'Lê Bảo Ngọc', class_id: 'CLS_G09A', class_name: 'Lớp 9A - Săn 9-10 Vào 10', grade: 9, pin_code: '1234', streak_days: 7 },
+        { student_code: 'MT1101', full_name: 'Phạm Quốc Khánh', class_id: 'CLS_G11A', class_name: 'Lớp 11A - Học Thuật THPT', grade: 11, pin_code: '1234', streak_days: 6 }
+      ];
+    },
+
+    async getStudentsList() {
+      const localList = JSON.parse(localStorage.getItem('mt_students_roster_v2') || '[]');
+      const seeds = this.getDefaultStudentsSeed();
+      let serverList = [];
+      if (this.isLocalBridgeActive) {
+        try {
+          const res = await fetch(`${LOCAL_BRIDGE_ORIGIN}/api/students`);
+          if (res.ok) {
+            const data = await res.json();
+            serverList = data.students || [];
+          }
+        } catch (e) {}
+      }
+      const map = new Map();
+      [...seeds, ...serverList, ...localList].forEach(st => {
+        if (st && st.student_code) {
+          map.set(st.student_code.toUpperCase(), {
+            student_code: st.student_code.toUpperCase(),
+            full_name: st.full_name || st.name || `Học sinh ${st.student_code}`,
+            class_id: st.class_id || `CLS_G0${st.grade || 6}A`,
+            class_name: st.class_name || `Lớp ${st.grade || 6}A`,
+            grade: Number(st.grade || 6),
+            pin_code: String(st.pin_code || '1234'),
+            streak_days: Number(st.streak_days || 1)
+          });
+        }
+      });
+      return Array.from(map.values());
+    },
+
+    async registerStudent(studentPayload) {
+      const grade = Number(studentPayload.grade || 6);
+      const rawCode = (studentPayload.student_code || '').trim().toUpperCase();
+      const existing = await this.getStudentsList();
+      let finalCode = rawCode;
+      if (!finalCode) {
+        const sameGradeCount = existing.filter(s => Number(s.grade) === grade).length + 1;
+        finalCode = `MT${grade}${String(sameGradeCount).padStart(2, '0')}`;
+        while (existing.some(s => s.student_code === finalCode)) {
+          finalCode = `MT${grade}${Math.floor(10 + Math.random() * 89)}`;
+        }
+      }
+      const record = {
+        student_code: finalCode,
+        full_name: (studentPayload.full_name || 'Học sinh mới').trim(),
+        grade: grade,
+        class_id: studentPayload.class_id || `CLS_G${String(grade).padStart(2, '0')}A`,
+        class_name: studentPayload.class_name || `Lớp ${grade}A`,
+        pin_code: String(studentPayload.pin_code || '1234').trim() || '1234',
+        streak_days: 1,
+        created_at: new Date().toLocaleString('vi-VN')
+      };
+
+      const localList = JSON.parse(localStorage.getItem('mt_students_roster_v2') || '[]');
+      const filtered = localList.filter(s => String(s.student_code).toUpperCase() !== record.student_code);
+      filtered.unshift(record);
+      localStorage.setItem('mt_students_roster_v2', JSON.stringify(filtered.slice(0, 500)));
+
+      if (this.isLocalBridgeActive) {
+        try {
+          await fetch(`${LOCAL_BRIDGE_ORIGIN}/api/students`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(record)
+          });
+        } catch (e) {}
+      }
+      return record;
+    },
+
+    async authenticateStudent(codeInput, pinInput) {
+      const code = String(codeInput || '').trim().toUpperCase();
+      const pin = String(pinInput || '').trim();
+      if (!code) return { ok: false, error: 'Vui lòng nhập Mã học sinh!' };
+      const roster = await this.getStudentsList();
+      const found = roster.find(s => s.student_code === code);
+      if (!found) {
+        return { ok: false, notFound: true, code, error: `Chưa có Mã học sinh "${code}" trên hệ thống. Em hãy bấm "➕ Tạo tài khoản học sinh mới" bên cạnh nhé!` };
+      }
+      if (pin && found.pin_code && pin !== String(found.pin_code)) {
+        return { ok: false, wrongPin: true, error: `Mã PIN chưa đúng cho học sinh ${found.full_name} (${code}). Mặc định là 1234.` };
+      }
+      return { ok: true, student: found };
+    },
+
+    createInboxRequestTicket(requestText, grade, attachmentName, attachmentsData) {
       const ticket = {
         ticket_id: "INBOX_REQ_" + Date.now(),
         created_at: new Date().toLocaleString("vi-VN"),
@@ -556,16 +659,55 @@
         grade: grade || "Tự động",
         request_prompt: requestText,
         attachment_name: attachmentName || null,
+        attachment_count: Array.isArray(attachmentsData) ? attachmentsData.length : (attachmentName ? 1 : 0),
+        attachments: Array.isArray(attachmentsData) ? attachmentsData : [],
         target_folder: "00_LENH_DIEU_KHIEN_INBOX",
+        status: this.isLocalBridgeActive ? "SENT_TO_LOCAL_INBOX" : "QUEUED_IN_BROWSER_INBOX",
         inbox_drive_url: this.INBOX_DRIVE_URL,
         outbox_drive_url: this.OUTBOX_DRIVE_URL
       };
+
+      const savedTickets = JSON.parse(localStorage.getItem("mt_inbox_requests_v2") || "[]");
+      const lightTicket = { ...ticket, attachments: (ticket.attachments || []).map(a => ({ name: a.name, size: a.size, type: a.type })) };
+      savedTickets.unshift(lightTicket);
+      localStorage.setItem("mt_inbox_requests_v2", JSON.stringify(savedTickets.slice(0, 100)));
+
       const blob = new Blob([JSON.stringify(ticket, null, 2)], { type: "application/json" });
       ticket.download_url = URL.createObjectURL(blob);
       ticket.filename = `LENH_INBOX_CO_THUY_${Date.now().toString().slice(-6)}.json`;
       return ticket;
     },
 
+    async submitInboxRequest(requestText, grade, attachmentsData) {
+      const attachNames = Array.isArray(attachmentsData) && attachmentsData.length
+        ? attachmentsData.map(a => a.name).join(", ")
+        : null;
+      const ticket = this.createInboxRequestTicket(requestText, grade, attachNames, attachmentsData);
+      if (this.isLocalBridgeActive) {
+        try {
+          const res = await fetch(`${LOCAL_BRIDGE_ORIGIN}/api/inbox-request`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(ticket)
+          });
+          if (res.ok) {
+            const srv = await res.json();
+            ticket.server_saved = true;
+            ticket.saved_path = srv.saved_path || "00_LENH_DIEU_KHIEN_INBOX";
+            ticket.status = "ĐÃ LƯU TRỰC TIẾP VÀO 00_LENH_DIEU_KHIEN_INBOX";
+          }
+        } catch (e) {}
+      }
+      return ticket;
+    },
+
+    getInboxRequestsHistory() {
+      try {
+        return JSON.parse(localStorage.getItem("mt_inbox_requests_v2") || "[]");
+      } catch (e) {
+        return [];
+      }
+    },
 
     // Zero-Key Dynamic Catalog & Shard Sync (GitHub + Google Drive Outbox)
     OUTBOX_DRIVE_FOLDER_ID: "10_OUTBOX_AUTO_SYNC",
